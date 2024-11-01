@@ -1,0 +1,11 @@
+span.smartwishlist {
+   position: absolute;
+   top: 25px;
+   right: 25px;
+}
+span.smartwishlist .fa {
+   font-size: 20px;
+}
+.header__primary-nav-item:nth-child(2) .mega-menu__linklist li {
+   width: 20%;
+}

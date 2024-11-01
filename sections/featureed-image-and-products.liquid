@@ -1,0 +1,209 @@
+<div id="shopify-section-{{ section.id }}">
+  <div class="section-container">
+    <div class="section-bg"></div>
+    <div class="title-container">
+      <div class="h2 text-center">{{ section.settings.title }}</div>
+    </div>
+    <div class="section-content-container">
+      <div class="image-text-container">
+        {%- if section.settings.image != blank -%}
+          {{-
+            section.settings.image
+            | image_url: width: section.settings.image.width
+            | image_tag:
+              widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200'
+          -}}
+        {%- else -%}
+          {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
+        {%- endif -%}
+        <p class="image-description">{{ section.settings.image_description }}</p>
+        <div class="image-cta-container">
+          <a href="{{ section.settings.image_cta_url }}" class="image-cta">{{ section.settings.image_cta }}</a>
+          <img src="{{ 'arrow-top-right.svg' | asset_url }}" alt="">
+        </div>
+      </div>
+
+      <div class="products-container">
+        {% for block in section.blocks %}
+          {%- render 'product-card',
+            product: block.settings.product,
+            reveal: false,
+            position: forloop.index,
+            hide_product_information: false,
+            show_quick_buy: false,
+            stacked: true
+          -%}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #shopify-section-{{ section.id }} .section-container{
+    position: relative;    
+  }
+  #shopify-section-{{ section.id }} .section-bg{
+     background-image: url({{ section.settings.background_image | img_url: 'master' }});
+     background-size: contain;
+     background-repeat: no-repeat;
+     position: absolute;
+     height: calc(100vh - var(--header-height, 0px));
+     width: 100%;
+  }
+  .title-container .h2{
+      color: #000;
+      text-align: center;
+      font-family: "Saol Display";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+      padding: 120px 0px 60px 0;
+   }
+   .section-content-container {
+      display: flex;
+      gap: 42px;
+      max-width: 1270px;
+      margin: 0 auto;
+      padding: 0 20px 157px 20px;
+   }
+   .products-container .product-card{
+      border: 1px solid #E8E8E8;
+      background: #FEFEFE;
+   }
+   .image-text-container{
+     z-index: 1;
+   }
+   .image-description{
+      color: #8F8F8F;
+      font-family: Roboto;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 40px;
+   }
+   .image-cta{
+      color: var(--Black, #000);
+      font-family: "Saol Display";
+      font-size: 32px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+   }
+   .image-cta-container {
+      margin-top: 28px;
+      display: flex;
+      gap: 10px;
+      width: 100%;
+   }
+   .products-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-tem,plate-rows: repeat(2, 1fr);
+      gap: 40px;
+      height: 100%;
+    }
+    @media screen and (min-width: 1000px) {
+      .title-container .h2{
+        color: var(--Black, #000);
+        text-align: center;
+        font-family: "Saol Display";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+     .image-cta{
+        font-size: 36px;
+      }
+
+    }
+
+    @media screen and (max-width: 699px) {
+      .products-container{
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      #shopify-section-{{ section.id }} .section-bg{
+        height: calc(80vh - var(--header-height, 0px));
+      }
+      .image-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      .section-content-container {
+        flex-direction: column;
+      }
+      .title-container .h2{
+        padding-top: 5rem;
+        margin: 0 20px;
+      }
+    }
+</style>
+{% schema %}
+{
+  "name": "Image and products",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "New Autumn Arrivals"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Section Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Featured Image"
+    },
+    {
+      "type": "richtext",
+      "id": "image_description",
+      "label": "Image Description",
+      "default": "<p>lorem ipsum dolor sit amet</p>"
+    },
+    {
+      "type": "text",
+      "id": "image_cta",
+      "label": "Image CTA"
+    },
+    {
+      "type": "url",
+      "id": "image_cta_url",
+      "label": "Image CTA URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image and products"
+    }
+  ]
+}
+{% endschema %}
