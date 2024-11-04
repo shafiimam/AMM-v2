@@ -169,9 +169,9 @@ may have important consequence on the section itself.
     {%- endif -%}
 
     {%- if section.settings.show_next_section_button -%}
-      <button data-action="navigate-next" class="slideshow__next-section-button circle-button circle-button--lg hover:animate-icon-block">
+      <button data-action="navigate-next" class="slideshow__next-section-button transparent-button hover:animate-icon-block">
         <span class="sr-only">{{ 'general.accessibility.navigate_to_next_section' | t }}</span>
-        {%- render 'icon' with 'arrow-down' -%}
+        {%- render 'icon' with 'arrow-down-2' -%}
       </button>
     {%- endif -%}
   </slideshow-carousel>

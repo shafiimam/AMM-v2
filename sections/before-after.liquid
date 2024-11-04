@@ -6,23 +6,35 @@
 </style>
 
 {%- if request.design_mode or section.blocks.size > 0 -%}
-  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+    | default: section.settings.color_scheme.settings.background
+    | md5
+  -%}
 
   <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container container--lg">
       <div class="section-stack">
-        {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
+        {%- render 'section-header',
+          subheading: section.settings.subheading,
+          heading: section.settings.title,
+          content: section.settings.content
+        -%}
 
         {%- if request.design_mode and section.blocks.size < 2 -%}
           {%- assign error_message = 'sections.before_after.not_enough_blocks' | t -%}
           {%- render 'banner', content: error_message, status: 'error', text_alignment: 'center' -%}
         {%- endif -%}
 
-        <before-after class="before-after before-after--{{ section.settings.cursor_direction }}" {% if section.settings.cursor_direction == 'vertical' %}vertical{% endif %}>
+        <before-after
+          class="before-after before-after--{{ section.settings.cursor_direction }}"
+          {% if section.settings.cursor_direction == 'vertical' %}
+            vertical
+          {% endif %}
+        >
           {%- comment -%}
-          ----------------------------------------------------------------------------------------------------------------
-          BEFORE AFTER IMAGES
-          ----------------------------------------------------------------------------------------------------------------
+            ----------------------------------------------------------------------------------------------------------------
+            BEFORE AFTER IMAGES
+            ----------------------------------------------------------------------------------------------------------------
           {%- endcomment -%}
 
           {%- for block in section.blocks -%}
@@ -34,37 +46,58 @@
               {%- assign image_class = 'image-background' -%}
             {%- endif -%}
 
-            <div class="{{ container_class }} color-scheme color-scheme--{{ block.settings.color_scheme.id }}" {{ block.shopify_attributes }}>
+            <div
+              class="{{ container_class }} color-scheme color-scheme--{{ block.settings.color_scheme.id }}"
+              {{ block.shopify_attributes }}
+            >
               {%- capture sizes -%}(max-width: 999px) 100vw, min(1260px, 100vw){%- endcapture -%}
 
               {%- if block.settings.image != blank -%}
                 <picture>
                   {%- if block.settings.mobile_image -%}
                     <source
-                        media="(max-width: 699px)"
-                        srcset="{{ block.settings.mobile_image | image_url: width: '400x' }} 400w, {{ block.settings.mobile_image | image_url: width: '600x' }} 600w, {{ block.settings.mobile_image | image_url: width: '800x' }} 800w, {{ block.settings.mobile_image | image_url: width: '1000x' }} 1000w"
-                        width="{{ block.settings.mobile_image.width }}"
-                        height="{{ block.settings.mobile_image.height }}"
+                      media="(max-width: 699px)"
+                      srcset="{{ block.settings.mobile_image | image_url: width: '400x' }} 400w, {{ block.settings.mobile_image | image_url: width: '600x' }} 600w, {{ block.settings.mobile_image | image_url: width: '800x' }} 800w, {{ block.settings.mobile_image | image_url: width: '1000x' }} 1000w"
+                      width="{{ block.settings.mobile_image.width }}"
+                      height="{{ block.settings.mobile_image.height }}"
                     >
                   {%- endif -%}
 
-                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400', class: image_class, draggable: false -}}
+                  {{-
+                    block.settings.image
+                    | image_url: width: block.settings.image.width
+                    | image_tag:
+                      sizes: sizes,
+                      widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400',
+                      class: image_class,
+                      draggable: false
+                  -}}
                 </picture>
               {%- else -%}
                 {%- capture placeholder_image -%}{% cycle 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
                 {%- capture placeholder_class -%}{% cycle 'placeholder', 'placeholder placeholder--invert' %}{%- endcapture -%}
 
-                {{- placeholder_image | placeholder_svg_tag: placeholder_class | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
+                {{-
+                  placeholder_image
+                  | placeholder_svg_tag: placeholder_class
+                  | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"'
+                -}}
               {%- endif -%}
 
               {%- if block.settings.text != blank or block.settings.button_text != blank -%}
-                <div class="before-after__content-wrapper v-stack {% if block.settings.link_style == 'link' %}gap-2{% else %}gap-4{% endif %}">
+                <div class="before-after__content-wrapper v-stack {% if block.settings.link_style == 'link' %}gap-2{% else %}gap-6{% endif %}">
                   {%- if block.settings.text != blank -%}
                     <p class="h6 sm:h5">{{ block.settings.text }}</p>
                   {%- endif -%}
 
                   {%- if block.settings.link_text != blank -%}
-                    {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, style: block.settings.link_style, background: block.settings.button_background, text_color: block.settings.button_text_color -%}
+                    {%- render 'button',
+                      href: block.settings.link_url,
+                      content: block.settings.link_text,
+                      style: block.settings.link_style,
+                      background: block.settings.button_background,
+                      text_color: block.settings.button_text_color
+                    -%}
                   {%- endif -%}
                 </div>
               {%- endif -%}
@@ -72,19 +105,18 @@
           {%- endfor -%}
 
           {%- comment -%}
-          ----------------------------------------------------------------------------------------------------------------
-          BEFORE AFTER CURSOR
-          ----------------------------------------------------------------------------------------------------------------
+            ----------------------------------------------------------------------------------------------------------------
+            BEFORE AFTER CURSOR
+            ----------------------------------------------------------------------------------------------------------------
           {%- endcomment -%}
 
           <div class="before-after__cursor" tabindex="0">
             <span class="sr-only">{{ 'sections.before_after.cursor_accessibility_text' | t }}</span>
 
-            <svg role="presentation" focusable="false" fill="none" width="50" height="50" viewBox="0 0 50 50">
-              <g {% if section.settings.cursor_direction == 'vertical' %}transform="rotate(90, 25, 25)"{% endif %}>
-                <rect width="50" height="50" rx="25" fill="{{ section.settings.cursor_background }}"/>
-                <path d="m19.25 19-6 6 6 6m11.5 0 6-6-6-6" stroke="{{ section.settings.cursor_arrows_color }}" stroke-width=".75" stroke-linecap="square"/>
-              </g>
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1" y="1" width="48" height="48" rx="24" fill="white"/>
+              <rect x="1" y="1" width="48" height="48" rx="24" stroke="black" stroke-width="2"/>
+              <path d="M32.5 22.5C32.5 22.1685 32.3683 21.8505 32.1339 21.6161C31.8995 21.3817 31.5815 21.25 31.25 21.25H16.7625L19.6375 18.3875C19.8729 18.1521 20.0051 17.8329 20.0051 17.5C20.0051 17.1671 19.8729 16.8479 19.6375 16.6125C19.4021 16.3771 19.0829 16.2449 18.75 16.2449C18.4171 16.2449 18.0979 16.3771 17.8625 16.6125L12.8625 21.6125C12.689 21.7883 12.5715 22.0115 12.5248 22.254C12.4781 22.4965 12.5043 22.7473 12.6 22.975C12.6938 23.2033 12.853 23.3987 13.0577 23.5366C13.2623 23.6745 13.5032 23.7488 13.75 23.75H31.25C31.5815 23.75 31.8995 23.6183 32.1339 23.3839C32.3683 23.1495 32.5 22.8315 32.5 22.5ZM37.4 27.025C37.3062 26.7967 37.147 26.6013 36.9423 26.4634C36.7377 26.3255 36.4968 26.2512 36.25 26.25H18.75C18.4185 26.25 18.1005 26.3817 17.8661 26.6161C17.6317 26.8505 17.5 27.1685 17.5 27.5C17.5 27.8315 17.6317 28.1495 17.8661 28.3839C18.1005 28.6183 18.4185 28.75 18.75 28.75H33.2375L30.3625 31.6125C30.2453 31.7287 30.1523 31.8669 30.0889 32.0193C30.0254 32.1716 29.9927 32.335 29.9927 32.5C29.9927 32.665 30.0254 32.8284 30.0889 32.9807C30.1523 33.133 30.2453 33.2713 30.3625 33.3875C30.4787 33.5046 30.6169 33.5976 30.7693 33.6611C30.9216 33.7246 31.085 33.7572 31.25 33.7572C31.415 33.7572 31.5784 33.7246 31.7307 33.6611C31.883 33.5976 32.0213 33.5046 32.1375 33.3875L37.1375 28.3875C37.3109 28.2117 37.4284 27.9885 37.4752 27.746C37.5219 27.5035 37.4957 27.2526 37.4 27.025Z" fill="black"/>
             </svg>
           </div>
         </before-after>

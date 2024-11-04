@@ -1,3 +1,23 @@
+{% capture image_content %}
+  <div class="image-text-container">
+    {%- if section.settings.image != blank -%}
+      {{-
+        section.settings.image
+        | image_url: width: section.settings.image.width
+        | image_tag:
+          widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200'
+      -}}
+    {%- else -%}
+      {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
+    {%- endif -%}
+    <p class="image-description">{{ section.settings.image_description }}</p>
+    <div class="image-cta-container">
+      <a href="{{ section.settings.image_cta_url }}" class="image-cta">{{ section.settings.image_cta }}</a>
+      <img src="{{ 'arrow-top-right.svg' | asset_url }}" alt="">
+    </div>
+  </div>
+{% endcapture %}
+
 <div id="shopify-section-{{ section.id }}">
   <div class="section-container">
     <div class="section-bg"></div>
@@ -5,24 +25,9 @@
       <div class="h2 text-center">{{ section.settings.title }}</div>
     </div>
     <div class="section-content-container">
-      <div class="image-text-container">
-        {%- if section.settings.image != blank -%}
-          {{-
-            section.settings.image
-            | image_url: width: section.settings.image.width
-            | image_tag:
-              widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200'
-          -}}
-        {%- else -%}
-          {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
-        {%- endif -%}
-        <p class="image-description">{{ section.settings.image_description }}</p>
-        <div class="image-cta-container">
-          <a href="{{ section.settings.image_cta_url }}" class="image-cta">{{ section.settings.image_cta }}</a>
-          <img src="{{ 'arrow-top-right.svg' | asset_url }}" alt="">
-        </div>
-      </div>
-
+      {% if section.settings.section_alignment == 'left' %}
+        {{ image_content }}
+      {% endif %}
       <div class="products-container">
         {% for block in section.blocks %}
           {%- render 'product-card',
@@ -35,13 +40,16 @@
           -%}
         {% endfor %}
       </div>
+      {% if section.settings.section_alignment == 'right' %}
+        {{ image_content }}
+      {% endif %}
     </div>
   </div>
 </div>
 
 <style>
   #shopify-section-{{ section.id }} .section-container{
-    position: relative;    
+    position: relative;
   }
   #shopify-section-{{ section.id }} .section-bg{
      background-image: url({{ section.settings.background_image | img_url: 'master' }});
@@ -154,6 +162,22 @@
   "name": "Image and products",
   "tag": "section",
   "settings": [
+    {
+      "type": "select",
+      "id": "section_alignment",
+      "label": "Section Allignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
     {
       "type": "text",
       "id": "title",
