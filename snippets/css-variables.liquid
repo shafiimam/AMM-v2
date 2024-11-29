@@ -1,6 +1,6 @@
 {%- comment -%}
-  This file defines all the CSS variables used throughout the theme. Feel free to adjust them at your own need, but
-  note that this may have impact on different places.
+This file defines all the CSS variables used throughout the theme. Feel free to adjust them at your own need, but
+note that this may have impact on different places.
 {%- endcomment -%}
 
 {%- assign language_code = localization.language.iso_code | split: '-' | first -%}
@@ -21,7 +21,7 @@
   /* Typography (body) */
   {{ settings.text_font | font_face: font_display: 'fallback' }}
   {{ settings.secondary_font | font_face: font_display: 'fallback' }}
-
+ 
   {%- if text_font_italic -%}
     {{ text_font_italic | font_face: font_display: 'fallback' }}
   {%- endif -%}
@@ -75,7 +75,7 @@
      */
 
     /* Font properties */
-    --heading-font-family: {{  settings.heading_font.family }}, {{ settings.heading_font.fallback_families }};
+    --heading-font-family:"Saol Display";
     --heading-font-weight: {{ settings.heading_font.weight }};
     --heading-font-style: {{ settings.heading_font.style }};
     --heading-text-transform: {{ settings.heading_text_transform }};
@@ -155,7 +155,7 @@
   @media screen and (min-width: 1000px) {
     :root {
       /* Spacing settings */
-      --container-gutter: 6.5rem;
+      --container-gutter: 3rem;
 
       --section-vertical-spacing: {% if settings.section_vertical_spacing == 'xs' %}3rem{%- elsif settings.section_vertical_spacing == 'sm' %}3.5rem{% elsif settings.section_vertical_spacing == 'md' %}4rem{% elsif settings.section_vertical_spacing == 'lg' %}5rem{% else %}7rem{% endif %};
       --section-vertical-spacing-tight: {% if settings.section_vertical_spacing == 'xs' %}3rem{%- elsif settings.section_vertical_spacing == 'sm' %}3.5rem{% else %}4rem{% endif %};
@@ -283,14 +283,14 @@
       font-weight: normal;
       font-style: normal;
     }
-
+    
     @font-face {
       font-family: "DINPro";
       src: url("{{ 'DINPro-Bold.woff' | file_url }}") format("woff"), url("{{ 'DINPro-Bold.ttf' | file_url }}") format("truetype");
       font-weight: bold;
       font-style: normal;
     }
-
+    
     @font-face {
       font-family: "Saol Text";
       src: url('{{ "SaolText-Medium.eot" | file_url }} ');
@@ -299,7 +299,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Text";
       src: url('{{ "SaolText-Bold.eot" | file_url }} ');
@@ -308,7 +308,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Display";
       src: url('{{ "SaolDisplay-Regular.eot" | file_url }} ');
@@ -318,7 +318,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Text";
       src: url('{{ "SaolText-Regular.eot" | file_url }} ');
@@ -328,7 +328,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Display";
       src: url('{{ "SaolDisplay-Medium.eot" | file_url }} ');
@@ -338,7 +338,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Display";
       src: url('{{ "SaolDisplay-Medium.eot" | file_url }} ');
@@ -348,7 +348,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Text";
       src: url('{{ "SaolText-Regular.eot" | file_url }} ');
@@ -358,7 +358,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Display";
       src: url('{{ "SaolDisplay-Regular.eot" | file_url }} ');
@@ -368,7 +368,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Text";
       src: url('{{ "SaolText-Bold.eot" | file_url }} ');
@@ -377,7 +377,7 @@
       font-style: normal;
       font-display: swap;
     }
-
+    
     @font-face {
       font-family: "Saol Text";
       src: url('{{ "SaolText-Medium.eot" | file_url }} ');

@@ -10,13 +10,28 @@ span.smartwishlist .fa {
   width: 20%;
 }
 
-.heading-content p {
+.shopify-section--featured-collections h2.h2 {
   color: rgb(var(--text-color));
-  text-align: center;
-  font-family: "DINPro";
-  font-size: 20px;
+  font-family: "Saol Display";
+  font-size: 40px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+}
+.heading-content p {
+   color: rgb(var(--text-color));
+   text-align: center;
+   font-family: "DINPro";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-transform: uppercase;
+}
+@media screen and (max-width: 1000px) {
+  .shopify-section--featured-collections h2.h2 {
+    font-family: "Saol Display";
+    font-size: 24px;
+  }
 }

@@ -41,7 +41,7 @@
              {%- endif -%}
          </div>
       {% endcapture %}
-      <div {{ block.shopify_attributes }} class="block-timeline-item-container">
+      <div {{ block.shopify_attributes }}>
         <div
           class="block-timeline-item"
           data-tab-labelled-by="{{ block.settings.label }}"
@@ -95,15 +95,15 @@
     gap: 25px;
     justify-content: flex-end;
   }
-  .nav-highlight {
-    flex-basis: 100%;
-  }
-  .nav-highlight .timeline-nav-button {
+  .nav-highlight{
+      flex-basis: 100%;
+   }
+  .nav-highlight .timeline-nav-button{
     font-size: 80px;
     font-weight: 300;
+    flex-grow: 1;
     text-align: left;
     float: right;
-    line-height: 75px;
   }
   .timeline-nav-button:after {
     content: '';
@@ -135,41 +135,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
-  .block-timeline-item {
-    margin-block-start: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 145px;
-  }
-  .block-content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 25px;
-  }
-  h3.block-heading {
-    color: #000;
-    font-family: 'Saol Display';
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-  }
-
-  .block-image-container img {
-    width: 100%;
-  }
-  .block-text p {
-    color: #8f8f8f;
-    font-family: var(--text-font-family);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 25px;
   }
 </style>
 <script>
@@ -215,7 +180,7 @@
                 this.timelineBlockItems.querySelectorAll('.block-timeline-item').forEach((item) => {
                   item.style.display = 'none';
                 });
-                targetBlockItem.style.display = 'grid';
+                targetBlockItem.style.display = 'block';
               }
             }
           });
