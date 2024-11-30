@@ -6,19 +6,41 @@
     }
   </style>
 
-  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+    | default: section.settings.color_scheme.settings.background
+    | md5
+  -%}
 
   <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container container--md">
       <div class="timeline">
         {%- assign carousel_id = 'carousel-' | append: section.id -%}
-
+        <div class="timeline-header">
+          <div class="timeline-heading-container">
+            <h1 class="timeline-heading">{{ section.settings.title }}</h1>
+          </div>
+          <carousel-navigation
+            align-selected
+            aria-controls="{{ carousel_id }}"
+            class="timeline__nav hide-scrollbar bleed sm:unbleed"
+          >
+            {%- for block in section.blocks -%}
+              <button class="" aria-current="{% if forloop.first %}true{% else %}false{% endif %}">
+                {{- block.settings.label | default: forloop.index -}}
+              </button>
+            {%- endfor -%}
+          </carousel-navigation>
+        </div>
         <timeline-carousel id="{{ carousel_id }}" class="timeline__carousel full-bleed sm:unbleed">
           {%- for block in section.blocks -%}
-            <div class="timeline__item color-scheme color-scheme--{{ section.settings.item_color_scheme.id }} {% if forloop.first %}is-selected{% endif %}" style="--timeline-item-mobile-text-color: {{ block.settings.mobile_text_color.rgb }}" {{ block.shopify_attributes }}>
+            <div
+              class="timeline__item color-scheme color-scheme--{{ section.settings.item_color_scheme.id }} {% if forloop.first %}is-selected{% endif %}"
+              style="--timeline-item-mobile-text-color: {{ block.settings.mobile_text_color.rgb }}"
+              {{ block.shopify_attributes }}
+            >
               <div class="timeline__item-image-wrapper">
                 {%- liquid
-                  assign loading_strategy = nil
+                  assign loading_strategy = null
 
                   if section.index <= 3 and forloop.position <= 3
                     assign loading_strategy = 'eager'
@@ -29,14 +51,22 @@
                   <picture>
                     {%- if block.settings.mobile_image -%}
                       <source
-                          media="(max-width: 699px)"
-                          srcset="{{ block.settings.mobile_image | image_url: width: '400x' }} 400w, {{ block.settings.mobile_image | image_url: width: '600x' }} 600w, {{ block.settings.mobile_image | image_url: width: '800x' }} 800w, {{ block.settings.mobile_image | image_url: width: '1000x' }} 1000w"
-                          width="{{ block.settings.mobile_image.width }}"
-                          height="{{ block.settings.mobile_image.height }}"
+                        media="(max-width: 699px)"
+                        srcset="{{ block.settings.mobile_image | image_url: width: '400x' }} 400w, {{ block.settings.mobile_image | image_url: width: '600x' }} 600w, {{ block.settings.mobile_image | image_url: width: '800x' }} 800w, {{ block.settings.mobile_image | image_url: width: '1000x' }} 1000w"
+                        width="{{ block.settings.mobile_image.width }}"
+                        height="{{ block.settings.mobile_image.height }}"
                       >
                     {%- endif -%}
 
-                    {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, sizes: 'min(50vw, 575px)', widths: '600,700,800,1000,1200,1400,1600,1800', class: 'image-cover' -}}
+                    {{-
+                      block.settings.image
+                      | image_url: width: block.settings.image.width
+                      | image_tag:
+                        loading: loading_strategy,
+                        sizes: 'min(50vw, 575px)',
+                        widths: '600,700,800,1000,1200,1400,1600,1800',
+                        class: 'image-cover'
+                    -}}
                   </picture>
                 {%- else -%}
                   {%- capture placeholder_image -%}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
@@ -44,7 +74,12 @@
                 {%- endif -%}
               </div>
 
-              <div class="timeline__item-content" {% if forloop.first %}reveal-on-scroll="true"{% endif %}>
+              <div
+                class="timeline__item-content"
+                {% if forloop.first %}
+                  reveal-on-scroll="true"
+                {% endif %}
+              >
                 <div class="prose">
                   {%- if block.settings.subheading != blank -%}
                     <p class="h6">{{ block.settings.subheading }}</p>
@@ -57,26 +92,54 @@
                   {{- block.settings.content -}}
 
                   {%- if block.settings.link_text != blank -%}
-                    {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, style: block.settings.link_style -%}
+                    {%- render 'button',
+                      href: block.settings.link_url,
+                      content: block.settings.link_text,
+                      style: block.settings.link_style
+                    -%}
                   {%- endif -%}
                 </div>
               </div>
             </div>
           {%- endfor -%}
         </timeline-carousel>
-
-        <carousel-navigation align-selected aria-controls="{{ carousel_id }}" class="timeline__nav hide-scrollbar bleed sm:unbleed">
-          {%- for block in section.blocks -%}
-            <button class="heading" aria-current="{% if forloop.first %}true{% else %}false{% endif %}">
-              {{- block.settings.label | default: forloop.index -}}
-            </button>
-          {%- endfor -%}
-        </carousel-navigation>
       </div>
     </div>
   </div>
 {%- endif -%}
-
+<style>
+  carousel-navigation .timeline-heading {
+    font-family: var(--text-font-family);
+    font-size: clamp(71px, 2.5vw, 187px);
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    background: url('{{ section.settings.title_background | img_url: 'master' }}') lightgray -30.486px -132.217px /
+      106.671% 235.472% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  carousel-navigation.timeline__nav{
+    display: grid;
+    grid-template-columns: repeat({{ section.blocks.size | minus: 1 }}, minmax(0, 1fr));
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    justify-content: flex-end;
+  } 
+  .timeline__nav > button:first-child{
+    font-size: 80px !important;
+    line-height: 80px !important;
+    height: max-content;
+    font-weight: 300;
+    text-align: right;
+    grid-column: auto / span {{ section.blocks.size | minus: 1 }};
+  }
+</style>
 {% schema %}
 {
   "name": "t:sections.timeline.name",
@@ -87,6 +150,17 @@
   },
   "max_blocks": 10,
   "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "About Us"
+    },
+    {
+      "type": "image_picker",
+      "id": "title_background",
+      "label": "Title Bacdrop Image"
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",
