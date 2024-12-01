@@ -38,6 +38,8 @@
               style="--timeline-item-mobile-text-color: {{ block.settings.mobile_text_color.rgb }}"
               {{ block.shopify_attributes }}
             >
+              {%- capture placeholder_image -%}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
+              {% capture block_image_content %}
               <div class="timeline__item-image-wrapper">
                 {%- liquid
                   assign loading_strategy = null
@@ -69,10 +71,16 @@
                     -}}
                   </picture>
                 {%- else -%}
-                  {%- capture placeholder_image -%}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
                   {{- placeholder_image | placeholder_svg_tag: 'placeholder placeholder--invert image-cover' -}}
                 {%- endif -%}
               </div>
+            {% endcapture %}
+
+
+            {% if block.settings.image_position == 'left' %}
+              {{ block_image_content }}
+            {% endif %}
+
 
               <div
                 class="timeline__item-content"
@@ -100,6 +108,11 @@
                   {%- endif -%}
                 </div>
               </div>
+
+              {% if block.settings.image_position == 'right' %}
+                {{ block_image_content }}
+              {% endif %}
+
             </div>
           {%- endfor -%}
         </timeline-carousel>
@@ -108,9 +121,16 @@
   </div>
 {%- endif -%}
 <style>
-  carousel-navigation .timeline-heading {
+  .timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+   }
+   h1.timeline-heading {
     font-family: var(--text-font-family);
-    font-size: clamp(71px, 2.5vw, 187px);
+    font-size: clamp(70px, 10vw, 190px);
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -124,21 +144,53 @@
     background-size: cover;
     background-position: center;
   }
-  carousel-navigation.timeline__nav{
-    display: grid;
-    grid-template-columns: repeat({{ section.blocks.size | minus: 1 }}, minmax(0, 1fr));
-    grid-template-rows: 1fr 1fr;
-    gap: 25px;
-    justify-content: flex-end;
-  } 
+
   .timeline__nav > button:first-child{
-    font-size: 80px !important;
-    line-height: 80px !important;
+    line-height: auto;
     height: max-content;
-    font-weight: 300;
-    text-align: right;
-    grid-column: auto / span {{ section.blocks.size | minus: 1 }};
+    width: max-content;
+    float: right;
   }
+  
+  @media screen and (min-width: 700px) {
+    .timeline__item{
+      margin-top: 80px;
+    }
+    carousel-navigation.timeline__nav{
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+      row-gap: 10px;
+    }
+    .timeline__nav > button:first-child{
+      height: max-content;
+      font-weight: 300;
+      text-align: right;
+      font-size: 80px;
+      grid-column: auto / span {{ section.blocks.size | minus: 1 }};
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    carousel-navigation.timeline__nav{
+      display: flex;
+      margin-bottom: 25px;
+    }
+    .timeline__nav > button:first-child{
+      font-size: 45px;
+    }
+    .timeline__nav > button{
+      font-size: 24px;
+    }
+  }
+
+  {% comment %} @media screen and (max-width: 950px) {
+    .timeline__item {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: flex-start;
+    }
+  } {% endcomment %}
 </style>
 {% schema %}
 {
@@ -185,6 +237,22 @@
       "type": "item",
       "name": "t:sections.timeline.blocks.item.name",
       "settings": [
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Block Image Position",
+          "options": [
+            {
+            "value": "left",
+            "label": "Left"
+            },
+            {
+            "value": "right",
+            "label": "Right"
+            }
+          ],
+          "default": "right"
+        },
         {
           "type": "image_picker",
           "id": "image",
