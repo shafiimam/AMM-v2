@@ -58,21 +58,24 @@ span.smartwishlist .fa {
   }
 }
 
-
 /* localization selector */
 
-button.localization-toggle span {  font-family: 'Roboto';
+button.localization-toggle span {
+  font-family: "Roboto";
   letter-spacing: 1.4px;
 }
 
 /* footer link menu */
-.footer-link-menu-title{
+.footer-link-menu-title {
   font-family: var(--text-font-family);
   font-weight: bold;
   font-size: 16px;
 }
 
-
+li.header__primary-nav-item summary,
+li.header__primary-nav-item a {
+  font-family: var(--text-font-family);
+}
 /* product page */
 sale-price.h4 {
   font-family: DINPro;
@@ -80,9 +83,14 @@ sale-price.h4 {
   font-weight: 700;
 }
 h1.product-title.h3 {
-  font-size: clamp(32px , 2.5vw + 16px ,36px);
+  font-size: clamp(32px, 2.5vw + 16px, 36px);
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
   word-spacing: 3px;
+}
+
+/* product page style */
+.product-info__block-item {
+  border: 1px solid var(--Mercury, #e7e7e7);
 }
