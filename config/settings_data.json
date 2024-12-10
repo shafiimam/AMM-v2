@@ -63,12 +63,12 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
+          "background": "#e8e8e8",
           "background_gradient": "",
-          "text_color": "#ffffff",
+          "text_color": "#1c1c1c",
           "primary_button_background": "#ffffff",
           "primary_button_text_color": "#1c1c1c",
-          "circle_button_background": "#ffffff",
+          "circle_button_background": "#1c1c1c",
           "circle_button_icon": "#1c1c1c"
         }
       }

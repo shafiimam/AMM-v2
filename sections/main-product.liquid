@@ -84,6 +84,17 @@
                       </div>
                     {%- endif -%}
                   {%- endif -%}
+               
+                {%- when 'color' -%}
+                  {% for tag in product.tags %}
+                    {{ product.tags }}
+                    {% assign product_tag = tag | downcase %}
+                    {% if product_tag contains 'maincolor-' %}
+                      <p class="product-color">
+                        {{ product_tag | remove: 'maincolor-' | upcase }}
+                      </p>
+                    {% endif %}
+                  {% endfor %}
 
                 {%- when 'accordion' -%}
                   {%- liquid
@@ -383,6 +394,11 @@ quick buy information in a template, that will be extracted in JS, which ensures
     {
       "type": "sku",
       "name": "t:sections.main_product.blocks.sku.name",
+      "limit": 1
+    },
+    {
+      "type": "color",
+      "name": "Color",
       "limit": 1
     },
     {

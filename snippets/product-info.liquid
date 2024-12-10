@@ -146,6 +146,15 @@ Supported variables
                 {{- 'product.general.sku' | t }} {{ product.selected_or_first_available_variant.sku -}}
               </variant-sku>
             {%- endif -%}
+           {%- when 'color' -%}
+            {% for tag in product.tags %}
+              {% assign product_tag = tag | downcase %}
+              {% if product_tag contains 'maincolor-' %}
+                <p class="product-color">
+                  {{ product_tag | remove: 'maincolor-' | upcase }}
+                </p>
+              {% endif %}
+            {% endfor %}
 
           {%- when 'badges' -%}
             {%- if product != blank -%}

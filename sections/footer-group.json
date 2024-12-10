@@ -17,25 +17,45 @@
         "icon-1": {
           "type": "item",
           "settings": {
-            "title": "Free delivery worldwide"
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/carbon_delivery.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "Delivery",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
           }
         },
         "icon-2": {
           "type": "item",
           "settings": {
-            "title": "Satisfied or refunded"
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/streamline_return-2.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 28,
+            "title": "RETURNS & EXCHANGES",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
           }
         },
         "icon-3": {
           "type": "item",
           "settings": {
-            "title": "Top-notch support"
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/ph_chat.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "CLIENT SERVICE",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
           }
         },
         "icon-4": {
           "type": "item",
           "settings": {
-            "title": "Secure payments"
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/fluent_payment-20-regular.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "AFFIRM",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
           }
         }
       },
@@ -46,6 +66,12 @@
         "icon-4"
       ],
       "settings": {
+        "color_scheme": "scheme-4",
+        "separate_section_with_border": true,
+        "stack_on_mobile": true,
+        "icon_color": "#1c1c1c",
+        "text_color": "",
+        "text_alignment": "center"
       }
     },
     "footer": {
@@ -54,20 +80,26 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
+            "title": "Newsletter",
+            "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
+            "button_background": "",
+            "button_text_color": ""
           }
         },
         "links": {
           "type": "links",
           "settings": {
             "menu": "footer",
-            "show_menu_title": true
+            "show_menu_title": true,
+            "menu_title": ""
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>"
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "enable_follow_on_shop": true
           }
         }
       },
@@ -77,6 +109,14 @@
         "text"
       ],
       "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
       }
     }
   },

@@ -10,7 +10,7 @@
     {%- else -%}
       {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
     {%- endif -%}
-    <p class="image-description">{{ section.settings.image_description }}</p>
+    <div class="image-description">{{ section.settings.image_description }}</div>
     <div class="image-cta-container">
       <a href="{{ section.settings.image_cta_url }}" class="image-cta">{{ section.settings.image_cta }}</a>
       <img src="{{ 'arrow-top-right.svg' | asset_url }}" alt="">
@@ -84,7 +84,7 @@
    .image-text-container{
      z-index: 1;
    }
-   .image-description{
+   .image-description p{
       color: #8F8F8F;
       font-family: Roboto;
       font-size: 15px;

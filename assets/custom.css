@@ -20,18 +20,69 @@ span.smartwishlist .fa {
   text-transform: uppercase;
 }
 .heading-content p {
-   color: rgb(var(--text-color));
-   text-align: center;
-   font-family: "DINPro";
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: normal;
-   text-transform: uppercase;
+  color: rgb(var(--text-color));
+  text-align: center;
+  font-family: "DINPro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 1000px) {
   .shopify-section--featured-collections h2.h2 {
     font-family: "Saol Display";
     font-size: 24px;
   }
+}
+
+/* text with icons grid */
+.text-with-icons__item--title {
+  font-family: "DINPro_regular";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.text-with-icons__item--content p {
+  color: #6d6d6d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 700px) {
+  .text-with-icons__item {
+    flex-basis: 100%;
+  }
+}
+
+
+/* localization selector */
+
+button.localization-toggle span {  font-family: 'Roboto';
+  letter-spacing: 1.4px;
+}
+
+/* footer link menu */
+.footer-link-menu-title{
+  font-family: var(--text-font-family);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+/* product page */
+sale-price.h4 {
+  font-family: DINPro;
+  font-size: 32px;
+  font-weight: 700;
+}
+h1.product-title.h3 {
+  font-size: clamp(32px , 2.5vw + 16px ,36px);
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  word-spacing: 3px;
 }
