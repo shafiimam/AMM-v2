@@ -7216,6 +7216,7 @@ product-rerender {
 
 .timeline__item-content {
   padding: var(--container-gutter);
+  padding-left: 0;
 }
 
 @media screen and (max-width: 699px) {
