@@ -65,6 +65,7 @@
         "icon-3",
         "icon-4"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-4",
         "separate_section_with_border": true,
@@ -77,9 +78,19 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_Awtbbt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/amm-logo-hd.png",
+            "image_width": 210,
+            "link": ""
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
+            "image_width": 150,
+            "link": "",
             "title": "Newsletter",
             "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
             "button_background": "",
@@ -104,6 +115,7 @@
         }
       },
       "block_order": [
+        "image_Awtbbt",
         "newsletter",
         "links",
         "text"

@@ -203,13 +203,13 @@
         "scrolling_speed": 0.3,
         "scroll_direction": "left",
         "pause_on_hover": false,
-        "text_font": "heading",
+        "text_font": "body",
         "text_font_size_mobile": 40,
         "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 60,
-        "section_vertical_spacing_desktop": 80,
-        "item_horizontal_spacing_mobile": 80,
-        "item_horizontal_spacing_desktop": 120,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 10,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 60,
         "background": "",
         "text_color": ""
       }
@@ -227,13 +227,46 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": "",
-        "title": "Related products",
+        "title": "You may also like",
         "content": ""
+      }
+    },
+    "image_with_text_rLpTcJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xC4Ffm": {
+          "type": "heading",
+          "settings": {
+            "text": "Quality in every inch",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_MhbeEc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xC4Ffm",
+        "richtext_MhbeEc"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Group_1.png",
+        "mobile_image": "shopify://shop_images/Group_1.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true
       }
     }
   },
   "order": [
     "main",
+    "image_with_text_rLpTcJ",
     "scrolling_content_t7zNyY",
     "related-products"
   ]

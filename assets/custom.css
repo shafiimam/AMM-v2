@@ -91,6 +91,12 @@ h1.product-title.h3 {
 }
 
 /* product page style */
-.product-info__block-item {
+.product-info__block-item .feature-badge{
   border: 1px solid var(--Mercury, #e7e7e7);
+  padding: 13px 16px;
+  font-size: 16px;
+}
+
+.product-card__media .product-card__image--secondary{
+  padding-top: 35px;
 }
