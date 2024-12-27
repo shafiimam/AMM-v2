@@ -1,26 +1,29 @@
 {%- if section.settings.image != blank or section.blocks.size > 0 -%}
   {%- comment -%}
-  ------------------------------------------------------------------------------------------------------------------------
-  CSS
-  ------------------------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------
+    CSS
+    ------------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
 
   <style>
     #shopify-section-{{ section.id }} {
       --image-with-text-content-max-width: {% if section.settings.content_width == 'sm' %}430px{% elsif section.settings.content_width == 'md' %}780px{% else %}100%{% endif %};
-      padding: 50px 0;
+      padding: 0;
     }
   </style>
 
   {%- comment -%}
-  ------------------------------------------------------------------------------------------------------------------------
-  LIQUID
-  ------------------------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------
+    LIQUID
+    ------------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
 
-  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+    | default: section.settings.color_scheme.settings.background
+    | md5
+  -%}
 
-  <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %} image-with-text-custom">
     <image-with-text class="image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
       {%- if section.settings.image != blank -%}
         <picture>
@@ -28,14 +31,21 @@
 
           {%- if section.settings.mobile_image != blank -%}
             <source
-                media="(max-width: 699px)"
-                srcset="{{ section.settings.mobile_image | image_url: width: '400x' }} 400w, {{ section.settings.mobile_image | image_url: width: '600x' }} 600w, {{ section.settings.mobile_image | image_url: width: '800x' }} 800w, {{ section.settings.mobile_image | image_url: width: '1000x' }} 1000w"
-                width="{{ section.settings.mobile_image.width }}"
-                height="{{ section.settings.mobile_image.height }}"
+              media="(max-width: 699px)"
+              srcset="{{ section.settings.mobile_image | image_url: width: '400x' }} 400w, {{ section.settings.mobile_image | image_url: width: '600x' }} 600w, {{ section.settings.mobile_image | image_url: width: '800x' }} 800w, {{ section.settings.mobile_image | image_url: width: '1000x' }} 1000w"
+              width="{{ section.settings.mobile_image.width }}"
+              height="{{ section.settings.mobile_image.height }}"
             >
           {%- endif -%}
 
-          {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', reveal-on-scroll: section.settings.reveal_on_scroll -}}
+          {{-
+            section.settings.image
+            | image_url: width: section.settings.image.width
+            | image_tag:
+              sizes: sizes,
+              widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200',
+              reveal-on-scroll: section.settings.reveal_on_scroll
+          -}}
         </picture>
       {%- else -%}
         {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
@@ -50,13 +60,16 @@
               {%- endif -%}
 
             {%- when 'heading' -%}
+              {% assign block_heading_size = block.settings.heading_font_size %}
               {%- if block.settings.text != blank -%}
-                <p class="{{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+                <p class="{{ block.settings.heading_tag }} section-block-heading" {{ block.shopify_attributes }}>
+                  {{ block.settings.text }}
+                </p>
               {%- endif -%}
 
             {%- when 'richtext' -%}
               {%- if block.settings.content != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} style="font-size: 16px;">
                   {{- block.settings.content -}}
                 </div>
               {%- endif -%}
@@ -76,11 +89,26 @@
               {%- endif -%}
 
             {%- when 'link' -%}
-              <a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="link" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</a>
+              <a
+                {% if block.settings.url %}
+                  href="{{ block.settings.url }}"
+                {% endif %}
+                class="link"
+                {{ block.shopify_attributes }}
+              >
+                {{- block.settings.text | escape -}}
+              </a>
 
             {%- when 'button' -%}
               {%- if block.settings.text != blank -%}
-                {% render 'button', content: block.settings.text, href: block.settings.url, style: block.settings.style, background: block.settings.background, text_color: block.settings.text_color, block: block %}
+                {% render 'button',
+                  content: block.settings.text,
+                  href: block.settings.url,
+                  style: block.settings.style,
+                  background: block.settings.background,
+                  text_color: block.settings.text_color,
+                  block: block
+                %}
               {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
@@ -88,10 +116,28 @@
     </image-with-text>
   </div>
 {%- endif -%}
+{% assign section_image_position_mobile = section.settings.image_position_mobile %}
+{% case section_image_position_mobile %}
+  {% when 'top' %}
+    {% assign image_position_mobile_index = 1 %}
+  {% else %}
+    {% assign image_position_mobile_index = 0 %}
+{% endcase %}
+<style>
+  .section-block-heading{
+     font-size: {{ block_heading_size }}vw;
+     line-height: normal;
+     font-family: var(--heading-font-family);
+     width: max-content;
+  }
+  .image-with-text-custom .prose{
+     grid-area : {{  image_position_mobile_index }}
+  }
+</style>
 
 {% schema %}
 {
-  "name": "t:sections.image_with_text.name",
+  "name": "image with text custom",
   "class": "shopify-section--image-with-text",
   "tag": "section",
   "max_blocks": 6,
@@ -146,6 +192,22 @@
     },
     {
       "type": "select",
+      "id": "image_position_mobile",
+      "label": "Image Position Mobile",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Hottom"
+        }
+      ],
+      "default": "bottom"
+    },
+    {
+      "type": "select",
       "id": "content_width",
       "label": "t:global.sizes.content_width",
       "options": [
@@ -193,6 +255,16 @@
           "id": "text",
           "label": "t:global.text.text",
           "default": "Heading"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size",
+          "min": 1,
+          "max": 30,
+          "step": 1,
+          "unit": "vw",
+          "label": "Title Font Size",
+          "default": 10
         },
         {
           "type": "select",
@@ -326,7 +398,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "name": "image with text custom",
       "blocks": [
         {
           "type": "subheading",

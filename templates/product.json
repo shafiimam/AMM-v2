@@ -136,10 +136,10 @@
         "accordion_XRHUfQ": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": true,
+            "show_below_gallery": false,
             "icon": "none",
             "title": "Product Details",
-            "content": "<p>{{ product.description }}</p>",
+            "content": "{{ product.description }}",
             "liquid": "",
             "page": ""
           }
@@ -184,7 +184,7 @@
         "text_MG8hN7": {
           "type": "text",
           "settings": {
-            "text": "Every Detail Matter"
+            "text": "EVERY DETAIL MATTER"
           }
         },
         "image_DypLU6": {
@@ -212,23 +212,6 @@
         "item_horizontal_spacing_desktop": 60,
         "background": "",
         "text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "You may also like",
-        "content": ""
       }
     },
     "image_with_text_rLpTcJ": {
@@ -260,14 +243,31 @@
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "You may also like",
+        "content": ""
       }
     }
   },
   "order": [
     "main",
-    "image_with_text_rLpTcJ",
     "scrolling_content_t7zNyY",
+    "image_with_text_rLpTcJ",
     "related-products"
   ]
 }

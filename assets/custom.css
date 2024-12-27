@@ -100,3 +100,20 @@ h1.product-title.h3 {
 .product-card__media .product-card__image--secondary{
   padding-top: 35px;
 }
+
+@media screen and (max-width: 700px){
+  image-with-text.image-with-text{
+    padding: 20px;
+  }
+}
+
+/* image with text custom style */
+.image-with-text-custom .prose {
+  width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 700px){
+  .image-with-text-custom image-with-text{
+    padding: 0;
+  }
+}
