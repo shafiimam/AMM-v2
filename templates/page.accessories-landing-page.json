@@ -18,14 +18,60 @@
         "page_width": "xs"
       }
     },
+    "rich_text_xwKKEF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tqiPnM": {
+          "type": "heading",
+          "settings": {
+            "text": "Accessories",
+            "heading_tag": "h1"
+          }
+        },
+        "button_edRrMz": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "See All",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "image_HPtVF8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_356.png",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        }
+      },
+      "block_order": [
+        "heading_tqiPnM",
+        "button_edRrMz",
+        "image_HPtVF8"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 9vw;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "full-screen",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
     "image_with_text_custom_qxrkki": {
       "type": "image-with-text-custom",
       "blocks": {
         "heading_QcgKxR": {
           "type": "heading",
           "settings": {
-            "text": "Shoes",
-            "heading_font_size": 20,
+            "text": "Simply Elegant",
+            "heading_font_size": 10,
             "heading_tag": "h1"
           }
         },
@@ -51,10 +97,13 @@
         "richtext_mhLp3D",
         "button_RLWyGn"
       ],
+      "custom_css": [
+        ".h1 {max-width: 750px;}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/image_14.png",
+        "image": "shopify://shop_images/Group_4.png",
         "mobile_image": "shopify://shop_images/image_14.png",
         "reveal_on_scroll": true,
         "image_position": "end",
@@ -95,9 +144,10 @@
         "richtext_KgnhFQ",
         "button_XhVQaG"
       ],
+      "disabled": true,
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding:20px; }}"
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}"
       ],
       "settings": {
         "color_scheme": "",
@@ -115,7 +165,7 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-slippers",
+            "collection": "new-accessories",
             "products_count": 8,
             "title": "Bestsellers",
             "link_url": "",
@@ -153,7 +203,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "air-max",
+            "collection": "a-ma-maniere-accessories",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",
@@ -168,7 +218,7 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.6,
@@ -179,6 +229,7 @@
   },
   "order": [
     "main",
+    "rich_text_xwKKEF",
     "image_with_text_custom_qxrkki",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",

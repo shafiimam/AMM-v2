@@ -1,8 +1,13 @@
+{% assign container_class = "container container--" | append: section.settings.content_width %}
+{% if section.settings.content_width == 'full-screen' %}
+  {% assign container_class = "" %}
+{% endif %}
+
 {%- if section.blocks.size > 0 -%}
   {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
   <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-    <div class="container container--{{ section.settings.content_width }}">
+    <div class="{{ container_class }}">
       <div class="prose text-{{ section.settings.text_position }}">
         {%- assign is_inside_button_group_context = false -%}
 
@@ -127,6 +132,10 @@
         {
           "value": "lg",
           "label": "t:global.sizes.large"
+        },
+        {
+          "value": "full-screen",
+          "label": "Full Screen"
         }
       ],
       "default": "sm"

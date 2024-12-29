@@ -123,7 +123,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "show_social_media": true,
         "show_payment_icons": true,
         "show_country_selector": true,

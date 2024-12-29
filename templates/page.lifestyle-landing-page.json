@@ -24,42 +24,60 @@
         "heading_QcgKxR": {
           "type": "heading",
           "settings": {
-            "text": "Shoes",
-            "heading_font_size": 20,
+            "text": "Lifestyle",
+            "heading_font_size": 11,
             "heading_tag": "h1"
           }
-        },
-        "richtext_mhLp3D": {
+        }
+      },
+      "block_order": [
+        "heading_QcgKxR"
+      ],
+      "custom_css": [
+        "picture {display: flex; justify-content: space-around;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/image_32.png",
+        "mobile_image": "shopify://shop_images/image_32.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "image_position_mobile": "bottom",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_xwKKEF": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_zUKdhQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. </p>"
           }
         },
-        "button_RLWyGn": {
+        "button_edRrMz": {
           "type": "button",
           "settings": {
             "style": "solid",
             "text": "See All",
-            "url": "shopify://collections/new-sneakers",
+            "url": "",
             "background": "",
             "text_color": ""
           }
         }
       },
       "block_order": [
-        "heading_QcgKxR",
-        "richtext_mhLp3D",
-        "button_RLWyGn"
+        "richtext_zUKdhQ",
+        "button_edRrMz"
       ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/image_14.png",
-        "mobile_image": "shopify://shop_images/image_14.png",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "image_position_mobile": "bottom",
-        "content_width": "lg",
+        "content_width": "md",
+        "text_position": "start",
         "remove_vertical_spacing": true
       }
     },
@@ -69,7 +87,7 @@
         "heading_6KUjqd": {
           "type": "heading",
           "settings": {
-            "text": "Louis Vuitton Shoe",
+            "text": "Marshall Sounds XXL",
             "heading_tag": "h1"
           }
         },
@@ -97,15 +115,17 @@
       ],
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding:20px; }}"
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/Group_2.png",
+        "image": "shopify://shop_images/Group_5.png",
+        "mobile_image": "shopify://shop_images/Group_5.png",
         "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "lg",
+        "image_position": "end",
+        "content_width": "md",
         "remove_vertical_spacing": true
       }
     },
@@ -115,7 +135,7 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-slippers",
+            "collection": "new-accessories",
             "products_count": 8,
             "title": "Bestsellers",
             "link_url": "",
@@ -153,7 +173,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "air-max",
+            "collection": "a-ma-maniere-accessories",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",
@@ -168,7 +188,7 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.6,
@@ -180,6 +200,7 @@
   "order": [
     "main",
     "image_with_text_custom_qxrkki",
+    "rich_text_xwKKEF",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
     "3d_gallery_Y9qVkB",
