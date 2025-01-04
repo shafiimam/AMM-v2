@@ -65,6 +65,7 @@
         "icon-3",
         "icon-4"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-4",
         "separate_section_with_border": true,
@@ -80,6 +81,9 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
+            "image": "shopify://shop_images/amm-logo-hd.png",
+            "image_width": 160,
+            "link": "",
             "title": "Newsletter",
             "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
             "button_background": "",
@@ -89,28 +93,37 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "footer-menu-explore",
             "show_menu_title": true,
-            "menu_title": ""
+            "menu_title": "Explore"
           }
         },
-        "text": {
-          "type": "text",
+        "links_GazYEC": {
+          "type": "links",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
+            "menu": "footer-menu-information",
+            "show_menu_title": true,
+            "menu_title": "Information"
+          }
+        },
+        "links_HTje7z": {
+          "type": "links",
+          "settings": {
+            "menu": "footer-menu-customer-care",
+            "show_menu_title": true,
+            "menu_title": "Information"
           }
         }
       },
       "block_order": [
         "newsletter",
         "links",
-        "text"
+        "links_GazYEC",
+        "links_HTje7z"
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "show_social_media": true,
         "show_payment_icons": true,
         "show_country_selector": true,

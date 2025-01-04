@@ -707,7 +707,7 @@
           "menu_title_info": "Replaces default menu title"
         },
         "newsletter": {
-          "name": "Newsletter",
+          "name": "Newsletter With Image",
           "newsletter_info": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
         }
       }

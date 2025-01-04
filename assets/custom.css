@@ -1,7 +1,7 @@
 span.smartwishlist {
   position: absolute;
-  top: 25px;
-  right: 25px;
+  inset-block-start: 0.5rem;
+  inset-inline-end: 0.5rem;
 }
 span.smartwishlist .fa {
   font-size: 20px;
@@ -91,6 +91,48 @@ h1.product-title.h3 {
 }
 
 /* product page style */
-.product-info__block-item {
+.product-info__block-item .feature-badge {
   border: 1px solid var(--Mercury, #e7e7e7);
+  padding: 13px 16px;
+  font-size: 16px;
+}
+
+.product-card__media .product-card__image--secondary {
+  padding-top: 35px;
+}
+
+@media screen and (max-width: 700px) {
+  image-with-text.image-with-text {
+    padding: 20px;
+  }
+}
+
+/* image with text custom style */
+.image-with-text-custom .prose {
+  width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 700px) {
+  .image-with-text-custom image-with-text {
+    padding: 0;
+  }
+}
+
+/* blog post card */
+a.blog-post-card__read-more.link {
+  display: flex;
+  align-items: center;
+  background: none;
+}
+
+
+/* collection page styles */
+
+.collection-banner-title{
+  font-size: 6vw;
+}
+@media screen and (max-width: 900px) {	
+  .collection-banner-title{
+    font-size: 10vw;
+  }
 }

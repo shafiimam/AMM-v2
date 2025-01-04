@@ -1,0 +1,209 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_custom_qxrkki": {
+      "type": "image-with-text-custom",
+      "blocks": {
+        "heading_QcgKxR": {
+          "type": "heading",
+          "settings": {
+            "text": "Lifestyle",
+            "heading_font_size": 11,
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QcgKxR"
+      ],
+      "custom_css": [
+        "picture {display: flex; justify-content: space-around;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/image_32.png",
+        "mobile_image": "shopify://shop_images/image_32.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "image_position_mobile": "bottom",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_xwKKEF": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_zUKdhQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. </p>"
+          }
+        },
+        "button_edRrMz": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "See All",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_zUKdhQ",
+        "button_edRrMz"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "md",
+        "text_position": "start",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_3RCJ8L": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6KUjqd": {
+          "type": "heading",
+          "settings": {
+            "text": "Marshall Sounds XXL",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_KgnhFQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        },
+        "button_XhVQaG": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Buy Now",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6KUjqd",
+        "richtext_KgnhFQ",
+        "button_XhVQaG"
+      ],
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Group_5.png",
+        "mobile_image": "shopify://shop_images/Group_5.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_e4qJwn": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_pn7rp4": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 8,
+            "title": "Bestsellers",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_pn7rp4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
+    },
+    "3d_gallery_Y9qVkB": {
+      "type": "3d-gallery",
+      "settings": {
+        "title": "Look Closer",
+        "start_index": "268",
+        "end_index": "318",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC04"
+      }
+    },
+    "featured_collections_Dtrtbp": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_7VVCVQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere-accessories",
+            "products_count": 8,
+            "title": "You May Also Like",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_7VVCVQ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_custom_qxrkki",
+    "rich_text_xwKKEF",
+    "image_with_text_3RCJ8L",
+    "featured_collections_e4qJwn",
+    "3d_gallery_Y9qVkB",
+    "featured_collections_Dtrtbp"
+  ]
+}
