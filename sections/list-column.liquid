@@ -1,0 +1,92 @@
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+  | default: section.settings.color_scheme.settings.background
+  | md5
+-%}
+
+<div class="list-column section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  <div class="container container--full list-column-content">
+    {% for block in section.blocks %}
+      <div class="list-item">
+        <p class="h3">{{ block.settings.item_text }}</p>
+        <a href="{{ block.settings.button_link }}" class="btn">{{ block.settings.button_text }}</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .list-column-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .list-item {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 40px;
+   padding: 30px 0;
+   border-bottom: 1px solid #E7E7E7;
+   width: 100%;
+   margin: 0 50px;
+  }
+  @media (max-width: 768px) {
+    .list-item {
+      margin: 0 20px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "List Column",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "Separate section with border"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "list_item",
+      "name": "List Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "item_text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "List Column"
+    }
+  ]
+}
+{% endschema %}

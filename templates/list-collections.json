@@ -12,6 +12,43 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "collections": [
+          "alyx",
+          "424",
+          "7-moncler-frgmt-hiroshi-fujiwara",
+          "88rising",
+          "a-bathing-ape-2",
+          "a-better-feeling",
+          "summer-looks",
+          "adidas",
+          "air-max",
+          "burberry",
+          "dior",
+          "courant",
+          "crocs",
+          "gucci",
+          "givenchy",
+          "jacquemus",
+          "john-elliott",
+          "air-jordan",
+          "moncler-1",
+          "new-balance",
+          "nike-lab",
+          "oakley",
+          "oamc",
+          "jackets-coats",
+          "paly",
+          "rassvet"
+        ],
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "image_size": "xs",
+        "content_position": "place-self-center text-center",
+        "text_color": "#1c1c1c",
+        "overlay_color": "#efefef",
+        "overlay_opacity": 19
       }
     }
   },

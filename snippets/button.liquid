@@ -1,31 +1,31 @@
 {%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-BUTTON COMPONENT
-----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------
+  BUTTON COMPONENT
+  ----------------------------------------------------------------------------------------------------------------------
 
-Generate a button (or link styled as a button). It supports wide range of attributes that can be used to customize
-the appearance and functionality of the button.
+  Generate a button (or link styled as a button). It supports wide range of attributes that can be used to customize
+  the appearance and functionality of the button.
 
-********************************************
-Supported variables
-********************************************
+  ********************************************
+  Supported variables
+  ********************************************
 
-* content: the content of the button
-* href: an optional link to set. If href is provided, then an "a" tag is generated, otherwise a "button"
-* size: can be "sm". If none is set, the default "base" size is used.
-* background: an optional background color to use that override the default
-* text_color: an optional text color to use that override the default
-* style: "solid", "outline" or "link". If none is set "solid" is assumed
-* stretch: if passed to true, a full width button is generated
-* subdued: when using the "outline" mode, this reduced the importance of the button
-* type: when href is empty, can be either "button" or "submit" (default to button if none is set)
-* name: when the button is a real button, allow to set the name attribute that is submitted
-* icon: the name of an optional icon to render along the button
-* disabled: if set to true, the button is disabled
-* form: the form ID that this button is linked to
-* external: if set to true and that a href is passed, it opens into a new window
-* aria_controls: the ID of the element controlled
-* block: an optional block to output theme editor attributes
+  * content: the content of the button
+  * href: an optional link to set. If href is provided, then an "a" tag is generated, otherwise a "button"
+  * size: can be "sm". If none is set, the default "base" size is used.
+  * background: an optional background color to use that override the default
+  * text_color: an optional text color to use that override the default
+  * style: "solid", "outline" or "link". If none is set "solid" is assumed
+  * stretch: if passed to true, a full width button is generated
+  * subdued: when using the "outline" mode, this reduced the importance of the button
+  * type: when href is empty, can be either "button" or "submit" (default to button if none is set)
+  * name: when the button is a real button, allow to set the name attribute that is submitted
+  * icon: the name of an optional icon to render along the button
+  * disabled: if set to true, the button is disabled
+  * form: the form ID that this button is linked to
+  * external: if set to true and that a href is passed, it opens into a new window
+  * aria_controls: the ID of the element controlled
+  * block: an optional block to output theme editor attributes
 {%- endcomment -%}
 
 {% liquid
@@ -123,5 +123,10 @@ Supported variables
 {%- else -%}
   <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
     {{- button_content -}}
+    {% if show_arrorw_icon == true %}
+      <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+        <path d="M10.9602 21.5668L19.1528 13.3742L12.7888 13.3742L12.7888 11.3745H22.5667L22.5667 21.1524L20.567 21.1524L20.567 14.7884L12.3744 22.981L10.9602 21.5668Z" fill="black"/>
+      </svg>
+    {% endif %}
   </button>
 {%- endif -%}

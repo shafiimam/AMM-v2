@@ -1,0 +1,281 @@
+<div
+  class="{% if section.settings.separate_section_with_border %}bordered-section{% endif %}"
+  id="shopify-section-{{ section.id }}"
+>
+  <div class="container container--lg">
+    <div class="section-stack" style="gap: 0;">
+      {%- render 'section-header',
+        subheading: section.settings.subheading,
+        heading: section.settings.title,
+        content: section.settings.content
+      -%}
+
+      <image-hotspot>
+        {%- for block in section.blocks -%}
+          <div
+            class="image-hotspot__item"
+            id="image-hotspot__item-{{ block.id }}"
+            style="top: {{ block.settings.top }}%; left: {{ block.settings.left }}%;"
+            {{ block.shopify_attributes }}
+          >
+            <div class="image-hotspot__item_inner">
+              <div class="image-hotspot__content">
+                <div class="image-hotspot__content-inner">
+                  <div class="image-hotspot__content-wrapper">
+                    <h4 class="h5">{{ block.settings.title }}</h4>
+                    <p>{{ block.settings.text }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {%- endfor -%}
+
+        {%- if section.settings.image != blank -%}
+          <picture>
+            {%- if section.settings.mobile_image -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ section.settings.mobile_image | image_url: width: '400x' }} 400w, {{ section.settings.mobile_image | image_url: width: '600x' }} 600w, {{ section.settings.mobile_image | image_url: width: '800x' }} 800w, {{ section.settings.mobile_image | image_url: width: '1000x' }} 1000w"
+                width="{{ section.settings.mobile_image.width }}"
+                height="{{ section.settings.mobile_image.height }}"
+              >
+            {%- endif -%}
+
+            {{-
+              section.settings.image
+              | image_url: width: section.settings.image.width
+              | image_tag:
+                sizes: '(max-width: 999px) 100vw, min(1260px, 100vw)',
+                widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400',
+                class: 'image-hotspot-section_image',
+                draggable: false
+            -}}
+          </picture>
+        {%- else -%}
+          {%- capture placeholder_image -%}{% cycle 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
+          {%- capture placeholder_class -%}{% cycle 'placeholder', 'placeholder placeholder--invert' %}{%- endcapture -%}
+
+          {{-
+            placeholder_image
+            | placeholder_svg_tag: placeholder_class
+            | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"'
+          -}}
+        {%- endif -%}
+      </image-hotspot>
+    </div>
+  </div>
+</div>
+
+<style>
+  @keyframes radar-animation {
+     0% {
+        box-shadow: 0 0 0 0 rgba(64,64,64,1)
+     }
+     100% {
+        box-shadow: 0 0 0 12px rgba(64,64,64,0)
+     }
+  }
+  #shopify-section-{{ section.id }} .prose .h2 {
+     font-size: 9vw;
+     width: max-content;
+  }
+  image-hotspot {
+     position: relative;
+  }
+  @media (max-width: 699px) {
+     image-hotspot {
+     }
+  }
+
+  #shopify-section-{{ section.id }} .section-header {
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+  }
+  .image-hotspot-section_image {
+     width: 100%;
+     height: auto;
+     max-width: 1600px;
+     margin: 0 auto;
+  }
+  .image-hotspot__item {
+     position: absolute;
+     display: block;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     cursor: pointer;
+  }
+  .image-hotspot__item_inner::after {
+     content: "";
+     display: block;
+     width: 10px;
+     height: 10px;
+     background: #404040;
+     border-radius: 100%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     animation: radar-animation 1.5s ease-out infinite;
+  }
+  {% for block in section.blocks %}
+   #image-hotspot__item-{{ block.id }} .image-hotspot__item_inner::after{
+      animation-delay: {{ forloop.index | times: 0.6 }}s;
+   }
+  {% endfor %}
+  @media (max-width: 699px) {
+     .image-hotspot__item_inner::after {
+        width: 4px;
+        height: 4px;
+     }
+  }
+
+  .image-hotspot__content {
+     position: absolute;
+     display: block;
+     width: 200px;
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 4px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     transform: translateY(-100%);
+     opacity: 0;
+     transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .image-hotspot__item_inner.active .image-hotspot__content {
+     transform: translateY(0);
+     opacity: 1;
+  }
+ 
+  .image-hotspot__content-inner {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+  }
+
+  .image-hotspot__content-wrapper {
+     max-width: 100%;
+     text-align: center;
+  }
+
+  .image-hotspot__content h4 {
+     margin-bottom: 10px;
+     color: #000;
+     text-align: center;
+     font-family: DINPro;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px; /* 150% */
+  }
+
+  .image-hotspot__content p {
+      margin-bottom: 0;
+      color: #6D6D6D;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 150% */
+  }
+</style>
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+      const items = document.querySelectorAll('.image-hotspot__item');
+      const contents = document.querySelectorAll('.image-hotspot__content');
+   
+      items.forEach((item, index) => {
+         item.addEventListener('click', () => {
+         contents.forEach((content) => {
+            content.style.opacity = 0;
+            content.style.transform = 'translateY(-100%)';
+         });
+   
+         contents[index].style.opacity = 1;
+         contents[index].style.transform = 'translateY(0)';
+         });
+      });
+   });
+</script>
+{% schema %}
+{
+  "name": "Image hotspot",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "Separate section with border"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "hotspot",
+      "name": "Hotspot",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Hotspot Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "range",
+          "id": "top",
+          "label": "Top Position (%)",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "left",
+          "label": "Left Position (%)",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 0
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image hotspot"
+    }
+  ]
+}
+{% endschema %}
