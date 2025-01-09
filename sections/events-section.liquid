@@ -1,0 +1,173 @@
+<section class="container container-md" aria-labelledby="events-section-heading">
+  <h1 id="events-section-heading" class="sr-only">Events Section</h1>
+  <div class="filter-and-search-container">
+    <div class="filter-and-search">
+      <div class="filter-and-search__filter">
+        <label for="filter">Filter by:</label>
+        <select name="filter" id="filter" aria-label="Filter events by type">
+          <option value="all">All</option>
+          <option value="online">Online</option>
+          <option value="offline">Offline</option>
+        </select>
+      </div>
+      <div class="filter-and-search__search">
+        <label for="search" class="sr-only">Search events</label>
+        <input type="text" name="search" id="search" placeholder="Search events..." aria-label="Search events">
+      </div>
+    </div>
+  </div>
+  <div class="events_grid_container">
+    {% for block in section.blocks %}
+      <div class="events_grid_item" data-is-online="{{ block.settings.is_online }}" {{ block.shopify_attributes }}>
+        <div class="event-container">
+          <div class="event__image">
+            {{-
+              block.settings.image
+              | image_url: width: block.settings.image.width
+              | image_tag: widths: '200,300,400,500,600,700,800,900', alt: block.settings.title
+            -}}
+          </div>
+          <div class="event_content">
+            <h2 class="event_title h3">{{ block.settings.title }}</h2>
+            <div class="flex justify-start flex-no-wrap align-center gap-40">
+              <div class="flex justify-between flex-no-wrap align-center gap-10">
+                {% render 'icons', icon_type: 'location' %}
+                <p class="event_location">{{ block.settings.location }}</p>
+              </div>
+              <div class="flex justify-between flex-no-wrap align-center gap-10 event_status">
+                {% if block.settings.is_online %}
+                  {% render 'icons', icon_type: 'online' -%}
+                  <span>Online</span>
+                {% else %}
+                  {% render 'icons', icon_type: 'offline' %}
+                  <span>Offline</span>
+                {% endif %}
+              </div>
+            </div>
+            <a href="#" class="button event_cta_button" aria-label="Participate in {{ block.settings.title }}">
+              {{- block.settings.button_label -}}
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  .filter-and-search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .events_grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    gap: 2rem;
+  }
+  .event-container {
+    border: 1px solid #e8e8e8;
+  }
+  .event_title {
+    font-weight: 500;
+  }
+  .event_content {
+    padding: 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+  }
+  .event_location, .event_status span {
+    color: #8f8f8f;
+    text-transform: uppercase;
+  }
+  .event_cta_button {
+    margin-block-start: 1.2rem;
+    width: -webkit-fill-available;
+  }
+
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const filter = document.getElementById('filter');
+    const search = document.getElementById('search');
+    const events = document.querySelectorAll('.events_grid_item');
+
+    filter.addEventListener('change', function () {
+      const value = this.value;
+
+      events.forEach((event) => {
+        if (value === 'all') {
+          event.style.display = 'block';
+        } else {
+          const isOnline = event.getAttribute('data-is-online') === 'true';
+          const shouldShow = value === 'online' ? isOnline : !isOnline;
+
+          event.style.display = shouldShow ? 'block' : 'none';
+        }
+      });
+    });
+
+    search.addEventListener('input', function () {
+      const value = this.value.toLowerCase();
+
+      events.forEach((event) => {
+        const title = event.querySelector('.event__title').textContent.toLowerCase();
+        const location = event.querySelector('.event__location').textContent.toLowerCase();
+
+        const shouldShow = title.includes(value) || location.includes(value);
+        event.style.display = shouldShow ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Events Section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "event",
+      "name": "Event",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Fashion Week 2024"
+        },
+        {
+          "type": "text",
+          "id": "location",
+          "label": "Location",
+          "default": "New York, NY"
+        },
+        {
+          "type": "checkbox",
+          "id": "is_online",
+          "label": "Is Online?",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button Label",
+          "default": "Participate"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Events Section"
+    }
+  ]
+}
+{% endschema %}

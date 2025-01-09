@@ -22,10 +22,6 @@
             "heading_tag": "h3"
           }
         },
-        "color_RLRmMf": {
-          "type": "color",
-          "settings": {}
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -39,13 +35,6 @@
         "separator": {
           "type": "separator",
           "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -70,6 +59,13 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
           }
         },
         "feature_with_icon_TyMeDX": {
@@ -143,25 +139,31 @@
             "liquid": "",
             "page": ""
           }
+        },
+        "text_nWqRJW": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "color_RLRmMf",
         "price",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
         "feature_with_icon_TyMeDX",
         "feature_with_icon_zCCbKy",
         "feature_with_icon_jny9WQ",
         "complementary_products",
         "accordion_XCVwAf",
-        "accordion_XRHUfQ"
+        "accordion_XRHUfQ",
+        "text_nWqRJW"
       ],
       "settings": {
         "color_scheme": "",

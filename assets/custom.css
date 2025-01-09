@@ -1,3 +1,75 @@
+/* custom flexbox styles */
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-start{
+  justify-content: flex-start;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.align-center{
+  align-items: center;
+}
+.align-start{
+  align-items: flex-start;
+}
+.align-end{
+  align-items: flex-end;
+}
+.flex-column{
+  flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-no-wrap{
+  flex-wrap: nowrap;
+}
+.gap-10{
+  gap: 10px;
+}
+.gap-20{
+  gap: 20px;
+}
+.gap-30{
+  gap: 30px;
+}
+.gap-40{
+  gap: 40px;
+}
+@media screen and (max-width: 700px) {
+  .flex-sm-column{
+    flex-direction: column;
+  }
+  .flex-sm-wrap{
+    flex-wrap: wrap;
+  }
+}
+
+
+/* accessibility styles */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
 span.smartwishlist {
   position: absolute;
   inset-block-start: 0.5rem;
