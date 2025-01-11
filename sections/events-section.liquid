@@ -103,19 +103,17 @@
         } else {
           const isOnline = event.getAttribute('data-is-online') === 'true';
           const shouldShow = value === 'online' ? isOnline : !isOnline;
-
           event.style.display = shouldShow ? 'block' : 'none';
         }
       });
     });
-
+ 
     search.addEventListener('input', function () {
       const value = this.value.toLowerCase();
 
       events.forEach((event) => {
-        const title = event.querySelector('.event__title').textContent.toLowerCase();
-        const location = event.querySelector('.event__location').textContent.toLowerCase();
-
+        const title = event.querySelector('.event_title').textContent.toLowerCase();
+        const location = event.querySelector('.event_location').textContent.toLowerCase();
         const shouldShow = title.includes(value) || location.includes(value);
         event.style.display = shouldShow ? 'block' : 'none';
       });

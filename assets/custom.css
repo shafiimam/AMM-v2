@@ -1,61 +1,60 @@
 /* custom flexbox styles */
 
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.justify-start{
+.justify-start {
   justify-content: flex-start;
 }
-.justify-center{
+.justify-center {
   justify-content: center;
 }
-.justify-between{
+.justify-between {
   justify-content: space-between;
 }
-.justify-around{
+.justify-around {
   justify-content: space-around;
 }
-.align-center{
+.align-center {
   align-items: center;
 }
-.align-start{
+.align-start {
   align-items: flex-start;
 }
-.align-end{
+.align-end {
   align-items: flex-end;
 }
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
-.flex-wrap{
+.flex-wrap {
   flex-wrap: wrap;
 }
-.flex-no-wrap{
+.flex-no-wrap {
   flex-wrap: nowrap;
 }
-.gap-10{
+.gap-10 {
   gap: 10px;
 }
-.gap-20{
+.gap-20 {
   gap: 20px;
 }
-.gap-30{
+.gap-30 {
   gap: 30px;
 }
-.gap-40{
+.gap-40 {
   gap: 40px;
 }
 @media screen and (max-width: 700px) {
-  .flex-sm-column{
+  .flex-sm-column {
     flex-direction: column;
   }
-  .flex-sm-wrap{
+  .flex-sm-wrap {
     flex-wrap: wrap;
   }
 }
-
 
 /* accessibility styles */
 .sr-only {
@@ -68,7 +67,6 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
 
 span.smartwishlist {
   position: absolute;
@@ -169,6 +167,10 @@ h1.product-title.h3 {
   padding: 13px 16px;
   font-size: 16px;
 }
+.feature-badge p,
+.block-swatch span {
+  line-height: normal;
+}
 
 .product-card__media .product-card__image--secondary {
   padding-top: 35px;
@@ -200,23 +202,70 @@ a.blog-post-card__read-more.link {
   text-transform: uppercase;
 }
 
-
 /* collection page styles */
 
-.collection-banner-title{
+.collection-banner-title {
   font-size: 6vw;
 }
-@media screen and (max-width: 900px) {	
-  .collection-banner-title{
+@media screen and (max-width: 900px) {
+  .collection-banner-title {
     font-size: 10vw;
   }
 }
 
-.shopify-section--blog-posts{
+.shopify-section--blog-posts {
   margin-top: 80px;
 }
-@media screen and (max-width: 900px) {	
-  .shopify-section--blog-posts{
+@media screen and (max-width: 900px) {
+  .shopify-section--blog-posts {
     margin-top: 50px;
   }
+}
+
+variant-sku {
+  color: #8f8f8f;
+  font-family: Roboto;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-info__block-item .price-list {
+  margin-block-start: 37px;
+}
+.product-info__block-item[data-block-id="separator"] {
+  margin-block-start: 25px !important;
+}
+.product-description-container p {
+  color: #8f8f8f;
+}
+
+.complementary-products__header .h5 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.complementary-products__product-list .product-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.complementary-products__product-list sale-price {
+  color: #848484;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
 }
