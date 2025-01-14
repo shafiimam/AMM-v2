@@ -52,7 +52,7 @@
     <div class="container">
       <div class="section-stack">
         {%- if section.settings.show_title -%}
-          <div class="section-header justify-self-center text-center">
+          <div class="section-header justify-self-start text-left">
             {%- if request.page_type == 'list-collections' -%}
               <h1 class="h2">{{ 'collection.general.all_collections' | t }}</h1>
             {%- else -%}
@@ -88,7 +88,7 @@
                         {%- assign loading_strategy = 'lazy' -%}
                       {%- endif -%}
 
-                      {{-
+                      {% comment %} {{-
                         collection.featured_image
                         | image_url: width: collection.featured_image.width
                         | image_tag:
@@ -97,13 +97,16 @@
                           widths: '200,300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400',
                           class: 'zoom-image group-hover:zoom',
                           draggable: 'false'
-                      -}}
+                      -}} {% endcomment %}
 
                       <div
                         class="collection-card__content prose prose--tight {{ section.settings.content_position }}"
                         style="{% render 'surface', text_color: section.settings.text_color %}"
                       >
                         <p class="h3">{{ collection.title }}</p>
+                        <p class="h4 collection-products-count">
+                          {{ collection.products | size }} Items
+                        </p>
                       </div>
                     </div>
                   </a>

@@ -57,8 +57,7 @@ Supported variables
       {%- if show_badges -%}
         {%- render 'product-badges', product: product, vertical: true, context: 'card' -%}
       {%- endif -%}
-
-      <a href="{{ product.url }}" class="product-card__media" draggable="false" data-instant>
+      <a href="{{ product.url | within: collection }}" class="product-card__media" draggable="false" data-instant>
         {%- capture sizes -%}
           {%- if stacked -%}
             (max-width: 699px) calc(100vw / {{ section.settings.products_per_row_mobile }}), (max-width: 999px) calc(100vw / {{ 3 | at_most: section.settings.products_per_row_desktop | default: 3 }} - 64px), calc((100vw - 96px) / {{ section.settings.products_per_row_desktop | default: 3 }} - (24px / {{ section.settings.products_per_row_desktop | default: 3 }} * {{ section.settings.products_per_row_desktop | default: 3 | minus: 1 }}))

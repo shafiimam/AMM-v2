@@ -9,28 +9,28 @@
  */
 {
   "sections": {
+    "breeadcrumbs_zf6QQE": {
+      "type": "breeadcrumbs",
+      "settings": {}
+    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
             "heading_tag": "h3"
           }
         },
+        "sku_pxTLtL": {
+          "type": "sku",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
         },
         "separator": {
           "type": "separator",
@@ -53,19 +53,12 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
           }
         },
         "feature_with_icon_TyMeDX": {
@@ -77,7 +70,7 @@
             "custom_icon": "shopify://shop_images/mdi_hand-clap.png",
             "icon_width": 16,
             "background": "#ffffff",
-            "text_color": "#6b6b6b",
+            "text_color": "#8f8f8f",
             "border_color": ""
           }
         },
@@ -90,7 +83,7 @@
             "custom_icon": "shopify://shop_images/ic_outline-discount.png",
             "icon_width": 16,
             "background": "#ffffff",
-            "text_color": "#6b6b6b",
+            "text_color": "#8f8f8f",
             "border_color": ""
           }
         },
@@ -103,19 +96,15 @@
             "custom_icon": "shopify://shop_images/material-symbols_star-outline.png",
             "icon_width": 16,
             "background": "#ffffff",
-            "text_color": "#6b6b6b",
+            "text_color": "#8f8f8f",
             "border_color": ""
           }
         },
-        "complementary_products": {
-          "type": "complementary_products",
-          "disabled": true,
+        "description": {
+          "type": "description",
           "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
+            "collapse_content": false,
+            "show_below_gallery": false
           }
         },
         "accordion_XCVwAf": {
@@ -132,7 +121,7 @@
         "accordion_XRHUfQ": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": false,
+            "show_below_gallery": true,
             "icon": "none",
             "title": "Product Details",
             "content": "{{ product.description }}",
@@ -140,39 +129,41 @@
             "page": ""
           }
         },
-        "text_nWqRJW": {
-          "type": "text",
+        "complementary_products": {
+          "type": "complementary_products",
           "settings": {
-            "text": ""
+            "title": "Combine With",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": true,
+            "show_quick_buy": true
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "sku_pxTLtL",
         "price",
-        "payment_terms",
         "separator",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "feature_with_icon_TyMeDX",
         "feature_with_icon_zCCbKy",
         "feature_with_icon_jny9WQ",
-        "complementary_products",
+        "description",
         "accordion_XCVwAf",
         "accordion_XRHUfQ",
-        "text_nWqRJW"
+        "complementary_products"
       ],
       "settings": {
         "color_scheme": "",
-        "container_size": "lg",
-        "product_info_size": 35,
+        "container_size": "xl",
+        "product_info_size": 45,
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
         "desktop_media_layout": "grid",
-        "desktop_media_grid_gap": 30,
+        "desktop_media_grid_gap": 20,
         "mobile_controls": "dots",
         "enable_media_autoplay": false,
         "enable_video_looping": true,
@@ -186,7 +177,7 @@
         "text_MG8hN7": {
           "type": "text",
           "settings": {
-            "text": "EVERY DETAIL MATTER"
+            "text": "EVERY DETAIL MATTERS"
           }
         },
         "image_DypLU6": {
@@ -201,7 +192,7 @@
         "image_DypLU6"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "scrolling_speed": 0.3,
         "scroll_direction": "left",
         "pause_on_hover": false,
@@ -237,6 +228,9 @@
         "heading_xC4Ffm",
         "richtext_MhbeEc"
       ],
+      "custom_css": [
+        ".h2 {font-size: 36px; font-weight: 600;}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -252,7 +246,7 @@
       "type": "related-products",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "recommendations_count": 10,
@@ -267,6 +261,7 @@
     }
   },
   "order": [
+    "breeadcrumbs_zf6QQE",
     "main",
     "scrolling_content_t7zNyY",
     "image_with_text_rLpTcJ",

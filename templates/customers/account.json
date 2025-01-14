@@ -9,23 +9,44 @@
  */
 {
   "sections": {
+    "breeadcrumbs_BVDBwW": {
+      "type": "breeadcrumbs",
+      "settings": {
+        "gutter_below": false
+      }
+    },
+    "customer_profile_kLNzYW": {
+      "type": "customer-profile",
+      "blocks": {
+        "orders_tDh7pg": {
+          "type": "orders",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "orders_tDh7pg"
+      ],
+      "settings": {
+        "title": "My Profile"
+      }
+    },
     "main": {
       "type": "main-customers-account",
       "blocks": {
         "orders": {
           "type": "orders",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "orders"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
+    "breeadcrumbs_BVDBwW",
+    "customer_profile_kLNzYW",
     "main"
   ]
 }

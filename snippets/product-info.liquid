@@ -144,7 +144,7 @@
             {% if product.selected_or_first_available_variant.sku != blank %}
               <variant-sku class="variant-sku text-lg text-subdued">
                 {{ product.selected_or_first_available_variant.sku -}}
-                <p role="button" class="copy-icon" data-text="{{ product.first_available_variant.sku }}">{% render 'icons', icon_type : 'copy' %}</p>
+                <p role="button" class="copy-to-clip" data-text="{{ product.first_available_variant.sku }}">{% render 'icons', icon_type : 'copy' %}</p>
               </variant-sku>
             {%- endif -%}
            {%- when 'color' -%}
@@ -586,3 +586,26 @@
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var copyButton = document.querySelectorAll('.copy-to-clip');
+    copyButton.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var text = button.getAttribute('data-text');
+        navigator.clipboard.writeText(text);
+        showCopySuccessPopupBesideButton();
+      });
+    });
+
+    function showCopySuccessPopupBesideButton(){
+      var copySuccessPopup = document.createElement('div');
+      copySuccessPopup.classList.add('copy-success-popup');
+      copySuccessPopup.innerHTML = 'SKU copied';
+      document.body.appendChild(copySuccessPopup);
+      $('.copy-success-popup').fadeIn(400).delay(1500).fadeOut(400).queue(function() {
+        $(this).remove();
+      });
+    }
+  });
+</script>

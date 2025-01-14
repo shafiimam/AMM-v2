@@ -61,7 +61,7 @@
 
             {%- when 'richtext' -%}
               {%- if block.settings.content != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="text-secondary">
                   {{- block.settings.content -}}
                 </div>
               {%- endif -%}
