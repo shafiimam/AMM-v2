@@ -1,10 +1,110 @@
+/* custom flexbox styles */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+.gap-5{
+  gap: 5px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-50 {
+  gap: 50px;
+}
+.gap-60{
+  gap: 60px;
+}
+.text-upcase{
+  text-transform: uppercase;
+}
+@media screen and (max-width: 700px) {
+  .flex-sm-column {
+    flex-direction: column;
+  }
+  .flex-sm-wrap {
+    flex-wrap: wrap;
+  }
+  .text-sm-center {
+    text-align: center;
+  }
+  .gap-sm-20 {
+    gap: 20px;
+  }
+  .w-sm-full{
+    width: 100%;
+  }
+}
+
+
+
+/* accessibility styles */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+.h2-bold{
+    font-size: 36px;
+    font-weight: 600;
+}
+
 span.smartwishlist {
   position: absolute;
   inset-block-start: 0.5rem;
   inset-inline-end: 0.5rem;
 }
 span.smartwishlist .fa {
-  font-size: 20px;
+  font-size: 14px;
+  color: #545454;
 }
 .header__primary-nav-item:nth-child(2) .mega-menu__linklist li {
   width: 20%;
@@ -96,6 +196,10 @@ h1.product-title.h3 {
   padding: 13px 16px;
   font-size: 16px;
 }
+.feature-badge p,
+.block-swatch span {
+  line-height: normal;
+}
 
 .product-card__media .product-card__image--secondary {
   padding-top: 35px;
@@ -105,6 +209,16 @@ h1.product-title.h3 {
   image-with-text.image-with-text {
     padding: 20px;
   }
+}
+
+/* image with text styles */
+.text-secondary {
+  color: #8f8f8f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* image with text custom style */
@@ -123,16 +237,123 @@ a.blog-post-card__read-more.link {
   display: flex;
   align-items: center;
   background: none;
+  color: #000;
+  text-transform: uppercase;
 }
-
 
 /* collection page styles */
 
-.collection-banner-title{
+.collection-banner-title {
   font-size: 6vw;
 }
-@media screen and (max-width: 900px) {	
-  .collection-banner-title{
+@media screen and (max-width: 900px) {
+  .collection-banner-title {
     font-size: 10vw;
   }
+}
+
+.shopify-section--blog-posts {
+  margin-top: 80px;
+}
+@media screen and (max-width: 900px) {
+  .shopify-section--blog-posts {
+    margin-top: 50px;
+  }
+}
+
+variant-sku {
+  color: #8f8f8f;
+  font-family: Roboto;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-description-container {
+  color: #8f8f8f;
+}
+
+.complementary-products__header .h5 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.complementary-products__product-list .product-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product-content-below-gallery .accordion__toggle span,
+.product-info__block-item .accordion__toggle span {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.product-content-below-gallery .accordion__content,
+.product-info__block-item .accordion__content {
+  color: #8f8f8f;
+  font-size: 16px;
+}
+
+.copy-to-clip {
+  cursor: pointer;
+}
+.copy-success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+.complementary-products__product-list .button {
+  color: #000;
+  font-size: 16px;
+  border: 1px solid #1c1c1c;
+}
+.product-gallery__thumbnail-scroller,
+.product-gallery__thumbnail-scroller button {
+  min-width: 105px;
+}
+
+.scrolling-content__text {
+  font-weight: 300;
+}
+.collection-products-count {
+  color: #797979;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.product-info__block-item sale-price {
+  color: #000;
+}
+
+h1.h1.collection-banner-title {
+  font-size: clamp(24px, 2.5vw + 16px, 36px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+.shopify-section--collection-banner .section-spacing{
+  padding-top: 80px;
 }

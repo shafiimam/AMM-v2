@@ -1,0 +1,109 @@
+<section class="section_event_header" id="shopify_section-{{ section.id }}" aria-labelledby="event-header-title">
+  <div class="section_event_header--title-container">
+    <div class="w-full">
+      <h1 id="event-header-title">
+        {% assign string_array = section.settings.title | split: '' %}
+        {% for string in string_array %}
+          <span class="h1">{{ string }}</span>
+        {% endfor %}
+      </h1>
+    </div>
+  </div>
+  <div class="section_event_header--image-container">
+    <picture class="desktop-only">
+      <source srcset="{{ section.settings.desktop_image | image_url: width: section.settings.desktop_image.width }}" media="(min-width: 769px)">
+      <img src="{{ section.settings.desktop_image | image_url: width: section.settings.desktop_image.width }}" alt="{{ section.settings.title }}">
+    </picture>
+    <picture class="mobile-only">
+      <source srcset="{{ section.settings.mobile_image | image_url: width: section.settings.mobile_image.width }}" media="(max-width: 768px)">
+      <img src="{{ section.settings.mobile_image | image_url: width: section.settings.mobile_image.width }}" alt="{{ section.settings.title }}">
+    </picture>
+  </div>
+</section>
+<style>
+   .section_event_header{
+      margin-block: 60px;
+   }
+  .section_event_header{
+    position: relative; 
+  }
+  .section_event_header--title-container {
+    position: absolute;
+    top: -18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .section_event_header--title-container .h1 {
+    color: #fff;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #e1e1e1;
+    font-family: Roboto;
+    font-size: 18vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .section_event_header--image-container img {
+    width: 100%;
+  }
+  #event-header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    .desktop-only {
+      display: none;
+    }
+    .mobile-only {
+      display: block;
+    }
+  }
+  @media only screen and (min-width: 769px) {
+    .desktop-only {
+      display: block;
+    }
+    .mobile-only {
+      display: none;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Events Header Banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Events"
+    },
+    {
+      "type": "image_picker",
+      "id": "desktop_image",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Events Header Banner"
+    }
+  ]
+}
+{% endschema %}

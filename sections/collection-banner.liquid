@@ -9,15 +9,15 @@
     <nav class="breadcrumb breadcrumb--floating" aria-label="{{ 'general.breadcrumb.label' | t | escape }}">
       <ol class="breadcrumb__list unstyled-list">
         <li class="breadcrumb__list-item">
-          <a href="{{ routes.root_url }}" class="smallcaps {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.home' | t }}</a>
+          <a href="{{ routes.root_url }}" class="text-sm {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.home' | t }}</a>
         </li>
 
         <li class="breadcrumb__list-item">
-          <a href="{{ routes.all_products_collection_url }}" class="smallcaps {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.shop' | t }}</a>
+          <a href="{{ routes.all_products_collection_url }}" class="text-sm {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.shop' | t }}</a>
         </li>
 
         <li class="breadcrumb__list-item">
-          <a href="{{ collection.url }}" aria-current="page" class="smallcaps {% unless show_image %}link-faded{% endunless %}">{{ collection.title }}</a>
+          <a href="{{ collection.url }}" aria-current="page" class="text-sm {% unless show_image %}link-faded{% endunless %}">{{ collection.title }}</a>
         </li>
       </ol>
     </nav>
@@ -85,7 +85,7 @@
       <div class="container container--{{ section.settings.content_width }}">
         {{- collection_breadcrumb -}}
 
-        <div class="prose text-center">
+        <div class="prose text-left">
           {{- collection_content -}}
         </div>
       </div>
@@ -214,6 +214,10 @@
         {
           "value": "xl",
           "label": "t:global.sizes.x_large"
+        },
+        {
+          "value": "full",
+          "label": "Full width"
         }
       ],
       "default": "xs"

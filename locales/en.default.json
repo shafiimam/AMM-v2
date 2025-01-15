@@ -170,7 +170,7 @@
   "collection": {
     "general": {
       "empty_collection": "This collection is empty",
-      "all_collections": "All collections",
+      "all_collections": "Brands",
       "no_collections": "This store does not contain any collection.",
       "continue_shopping": "Continue shopping"
     },
@@ -199,7 +199,7 @@
       "back_to_home": "Back to home",
       "view": "View",
       "all_posts": "All posts",
-      "read_more": "Read more"
+      "read_more": "Read article"
     },
     "post": {
       "written_by": "Written by {{ author }}",

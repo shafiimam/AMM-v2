@@ -1,5 +1,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="{{ 'angle.js' | asset_url }}" async></script>
+<script src="{{ 'angle.js' | asset_url }}"></script>
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
@@ -29,7 +29,7 @@
   </div>
 </div>
 <script type="text/javascript">
-  $(document).ready(function () {
+  document.addEventListener('DOMContentLoaded', function () {
     $('#angle-view1').angle({
       speed: 2,
       previous: '.prev-image',

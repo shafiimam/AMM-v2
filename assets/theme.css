@@ -677,7 +677,7 @@ shopify-accelerated-checkout-cart {
     ) [content-end] minmax(0, 1fr) [full-end];
   row-gap: var(--content-over-media-calculated-row-gap);
   column-gap: var(--content-over-media-calculated-column-gap);
-  min-height: var(--content-over-media-height, auto);
+  /* min-height: var(--content-over-media-height, auto); */
   place-items: center;
   display: grid;
   position: relative;
@@ -3591,7 +3591,7 @@ tr[onclick]:hover {
 }
 
 .badge {
-  font-family: var(--heading-font-family);
+  font-family: "DINPro";
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   letter-spacing: var(--heading-letter-spacing);
@@ -3606,6 +3606,7 @@ tr[onclick]:hover {
 .badge--on-sale {
   background: rgb(var(--on-sale-badge-background));
   color: rgb(var(--on-sale-badge-text));
+  
 }
 
 .badge--sold-out {
@@ -5922,7 +5923,7 @@ product-rerender {
     margin-inline-start: auto;
   }
 
-  .image-with-text--reverse > :is(picture, svg, img) {
+  .image-with-text--reverse > :is(picture, svg, img, .map-container) {
     order: 9999;
   }
 
@@ -6695,8 +6696,7 @@ product-rerender {
 .complementary-products {
   grid-template-columns: minmax(0, 1fr);
   row-gap: 1.875rem;
-  max-width: 40rem;
-  margin-inline: auto;
+  max-width: 50rem;
   display: grid;
 }
 

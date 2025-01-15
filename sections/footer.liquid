@@ -175,9 +175,6 @@
         {%- endif -%}
 
         <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} - {{ shop.name }}</p>
-          <script>
-            {{ shop | json }}
-          </script>
         {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
           <ul class="payment-methods unstyled-list">
             {%- for type in shop.enabled_payment_types -%}

@@ -105,12 +105,12 @@
         "before": {
           "type": "before",
           "settings": {
-            "color_scheme": "scheme-2",
+            "color_scheme": "scheme-1",
             "image": "shopify://shop_images/SAMBATRIPLEBLK-1_2ef87ffa-6883-4fc4-a4d4-40e5aa535a6a.png",
             "text": "Before",
             "link_text": "Shop Now",
             "link_url": "",
-            "link_style": "solid"
+            "link_style": "link"
           }
         },
         "after": {
@@ -121,7 +121,7 @@
             "text": "After",
             "link_text": "Shop Now",
             "link_url": "",
-            "link_style": "solid"
+            "link_style": "link"
           }
         }
       },
@@ -130,7 +130,7 @@
         "after"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "separate_section_with_border": true,
         "subheading": "",
         "title": "Nike x Jacquemus Check Bag ",
@@ -263,61 +263,10 @@
             "link_style": "solid",
             "mobile_text_color": "#ffffff"
           }
-        },
-        "item_naDR9W": {
-          "type": "item",
-          "settings": {
-            "image_position": "left",
-            "image": "shopify://shop_images/AMMDESK4_758774ec-f9b2-40cc-a011-e688f15a6428.png",
-            "mobile_image": "shopify://shop_images/AMMDESK4_003f134d-7e00-4d9e-9af6-59928dee358d.png",
-            "label": "2010",
-            "subheading": "",
-            "title": "From Concept to launch",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "link_text": "read more",
-            "link_url": "",
-            "link_style": "solid",
-            "mobile_text_color": "#ffffff"
-          }
-        },
-        "item_XiwTHg": {
-          "type": "item",
-          "settings": {
-            "image_position": "right",
-            "image": "shopify://shop_images/AMM_CONVERSE_HEADER.jpg",
-            "mobile_image": "shopify://shop_images/AMM_CONVERSE_MOBILE.jpg",
-            "label": "2020",
-            "subheading": "",
-            "title": "From Concept to launch",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid",
-            "mobile_text_color": "#ffffff"
-          }
-        },
-        "item_KJPkUY": {
-          "type": "item",
-          "settings": {
-            "image_position": "left",
-            "image": "shopify://shop_images/image_52.png",
-            "mobile_image": "shopify://shop_images/image_52_8ec3f2c2-2cf7-4507-9557-d8e50f8058ee.png",
-            "label": "2014",
-            "subheading": "",
-            "title": "From Concept to launch",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "link_text": "Learn More",
-            "link_url": "",
-            "link_style": "solid",
-            "mobile_text_color": "#ffffff"
-          }
         }
       },
       "block_order": [
-        "item_TDLyew",
-        "item_naDR9W",
-        "item_XiwTHg",
-        "item_KJPkUY"
+        "item_TDLyew"
       ],
       "settings": {
         "title": "About Us",

@@ -11,10 +11,107 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_hotspot_3KfiCc": {
+      "type": "image-hotspot",
+      "blocks": {
+        "hotspot_8hxXcb": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Atlanta",
+            "text": "969 Marietta St NW #200, Atlanta, GA 30318, United States",
+            "top": 42,
+            "left": 25
+          }
+        },
+        "hotspot_CDgjBH": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Washington, DC",
+            "text": "1214 H St NE, Washington, DC 20002, United States",
+            "top": 31,
+            "left": 31
+          }
+        },
+        "hotspot_K7Dpyz": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Houston, TX",
+            "text": "3300 Kirby Dr #6a, Houston, TX 77098, United States",
+            "top": 46,
+            "left": 23
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_8hxXcb",
+        "hotspot_CDgjBH",
+        "hotspot_K7Dpyz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Vector_map.svg",
+        "subheading": "",
+        "title": "Our Stores",
+        "content": "",
+        "separate_section_with_border": false
+      }
+    },
+    "list_column_aAz7bE": {
+      "type": "list-column",
+      "blocks": {
+        "list_item_A3XHDw": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "100 Market Street San Francisco, CA 94105 USA",
+            "button_link": "",
+            "button_text": "VISIT THIS STORE"
+          }
+        },
+        "list_item_i3Pycr": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "100 Market Street San Francisco, CA 94105 USA",
+            "button_link": "",
+            "button_text": "VISIT THIS STORE"
+          }
+        },
+        "list_item_JY7gtz": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "100 Market Street San Francisco, CA 94105 USA",
+            "button_link": "",
+            "button_text": "VISIT THIS STORE"
+          }
+        },
+        "list_item_9WfXdL": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "100 Market Street San Francisco, CA 94105 USA",
+            "button_link": "",
+            "button_text": "VISIT THIS STORE"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_A3XHDw",
+        "list_item_i3Pycr",
+        "list_item_JY7gtz",
+        "list_item_9WfXdL"
+      ],
+      "settings": {
+        "separate_section_with_border": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_hotspot_3KfiCc",
+    "list_column_aAz7bE"
   ]
 }

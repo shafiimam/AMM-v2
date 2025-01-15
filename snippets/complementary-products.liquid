@@ -14,8 +14,8 @@ Supported variables
 * block: the block containing the information to render itself
 {%- endcomment -%}
 
-<product-recommendations class="block" hidden product="{{ product.id }}" limit="{{ block.settings.products_count }}" intent="complementary">
-  {%- if recommendations.performed and recommendations.intent == 'complementary' and recommendations.products_count > 0 -%}
+<product-recommendations class="block" hidden product="{{ product.id }}" limit="{{ block.settings.products_count }}" intent="related">
+  {%- if recommendations.performed and recommendations.intent == 'related' and recommendations.products_count > 0 -%}
     <div class="complementary-products">
       {%- assign carousel_id = 'complementary-products-carousel-' | append: block.id -%}
 
@@ -34,13 +34,12 @@ Supported variables
           {%- endif -%}
         </div>
       {%- endif -%}
-
       {%- capture complementary_products -%}
         {%- for product in recommendations.products -%}
           {%- render 'product-card-horizontal', product: product, show_quick_buy: block.settings.show_quick_buy -%}
         {%- endfor -%}
       {%- endcapture -%}
-
+      
       {%- if block.settings.stack_products -%}
         <div class="complementary-products__product-list">
           {{- complementary_products -}}
