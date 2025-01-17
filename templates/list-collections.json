@@ -15,8 +15,6 @@
         "color_scheme": "",
         "show_title": true,
         "collections": [
-          "alyx",
-          "424",
           "7-moncler-frgmt-hiroshi-fujiwara",
           "88rising",
           "a-bathing-ape-2",
@@ -40,7 +38,9 @@
           "oamc",
           "jackets-coats",
           "paly",
-          "rassvet"
+          "rassvet",
+          "a-ma-maniere",
+          "a-ma-maniere-x-lanvin"
         ],
         "collections_per_row_mobile": "1",
         "collections_per_row_desktop": 3,

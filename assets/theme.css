@@ -5923,7 +5923,7 @@ product-rerender {
     margin-inline-start: auto;
   }
 
-  .image-with-text--reverse > :is(picture, svg, img) {
+  .image-with-text--reverse > :is(picture, svg, img, .map-container) {
     order: 9999;
   }
 
@@ -6696,7 +6696,7 @@ product-rerender {
 .complementary-products {
   grid-template-columns: minmax(0, 1fr);
   row-gap: 1.875rem;
-  max-width: 40rem;
+  max-width: 50rem;
   display: grid;
 }
 

@@ -41,6 +41,7 @@
       "block_order": [
         "orders"
       ],
+      "disabled": true,
       "settings": {}
     }
   },

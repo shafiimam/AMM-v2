@@ -23,7 +23,7 @@
     <h1 class="h1">{{ section.settings.title }}</h1>
     <div class="flex flex-wrap justify-start align-center gap-60 profile-container">
       <div class="w-sm-full flex justify-center">
-         {{ customer_avatar }}
+        {{ customer_avatar }}
       </div>
       <div class="customer-info-container">
         <div class="profile-edit">
@@ -36,18 +36,22 @@
           {{ customer.last_name }}
         </p>
         <div class="flex flex-wrap gap-50 gap-sm-20">
-          <div>
-            <span class="flex align-center gap-10 text-base text-subdued text-upcase">
-              {% render 'icons', icon_type: 'pin-location' %}
-              {{ customer.addresses[0].city }}, {{ customer.addresses[0].country -}}
-            </span>
-          </div>
-          <div>
-            <span class="flex align-center gap-10 text-base text-subdued text-upcase">
-              {% render 'icons', icon_type: 'telephone' %}
-              {{ customer.phone }}
-            </span>
-          </div>
+          {% if customer.addresses[0].city != blank %}
+            <div>
+              <span class="flex align-center gap-10 text-base text-subdued text-upcase">
+                {% render 'icons', icon_type: 'pin-location' %}
+                {{ customer.addresses[0].city }}, {{ customer.addresses[0].country -}}
+              </span>
+            </div>
+          {% endif %}
+          {% if customer.phone != blank %}
+             <div>
+               <span class="flex align-center gap-10 text-base text-subdued text-upcase">
+                 {% render 'icons', icon_type: 'telephone' %}
+                 {{ customer.phone }}
+               </span>
+             </div>
+          {% endif %}
           <div>
             <div class="flex align-center text-base gap-2">
               <span class="flex align-center gap-10">

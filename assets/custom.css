@@ -346,3 +346,14 @@ variant-sku {
 .product-info__block-item sale-price {
   color: #000;
 }
+
+h1.h1.collection-banner-title {
+  font-size: clamp(24px, 2.5vw + 16px, 36px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+.shopify-section--collection-banner .section-spacing{
+  padding-top: 80px;
+}

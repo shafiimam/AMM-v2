@@ -85,7 +85,7 @@
       <div class="container container--{{ section.settings.content_width }}">
         {{- collection_breadcrumb -}}
 
-        <div class="prose text-center">
+        <div class="prose text-left">
           {{- collection_content -}}
         </div>
       </div>
@@ -214,6 +214,10 @@
         {
           "value": "xl",
           "label": "t:global.sizes.x_large"
+        },
+        {
+          "value": "full",
+          "label": "Full width"
         }
       ],
       "default": "xs"

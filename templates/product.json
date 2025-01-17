@@ -11,7 +11,9 @@
   "sections": {
     "breeadcrumbs_zf6QQE": {
       "type": "breeadcrumbs",
-      "settings": {}
+      "settings": {
+        "gutter_below": false
+      }
     },
     "main": {
       "type": "main-product",
@@ -129,6 +131,17 @@
             "page": ""
           }
         },
+        "accordion_8jqzLY": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Shipping And Details",
+            "content": "<p>{{ product.description }}</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
@@ -154,12 +167,13 @@
         "description",
         "accordion_XCVwAf",
         "accordion_XRHUfQ",
+        "accordion_8jqzLY",
         "complementary_products"
       ],
       "settings": {
         "color_scheme": "",
-        "container_size": "xl",
-        "product_info_size": 45,
+        "container_size": "full",
+        "product_info_size": 40,
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
         "desktop_media_layout": "grid",
