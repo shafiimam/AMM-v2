@@ -65,7 +65,9 @@
         "icon-3",
         "icon-4"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".h6{font-family: 'DINPro'}"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
         "separate_section_with_border": true,
