@@ -125,10 +125,15 @@
 {% endcase %}
 <style>
   .section-block-heading{
-     font-size: {{ block_heading_size }}vw;
+     font-size: 135px;
      line-height: normal;
      font-family: var(--heading-font-family);
      width: max-content;
+  }
+  @media screen and (max-width: 767px){
+    .section-block-heading{
+      font-size: 115px;
+    }
   }
   .image-with-text-custom .prose{
      grid-area : {{  image_position_mobile_index }}

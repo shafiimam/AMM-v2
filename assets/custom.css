@@ -35,12 +35,10 @@
 .flex-no-wrap {
   flex-wrap: nowrap;
 }
-.gap-5{
+.gap-5 {
   gap: 5px;
 }
-.gap-10 {
-  gap: 10px;
-}
+
 .gap-20 {
   gap: 20px;
 }
@@ -53,10 +51,10 @@
 .gap-50 {
   gap: 50px;
 }
-.gap-60{
+.gap-60 {
   gap: 60px;
 }
-.text-upcase{
+.text-upcase {
   text-transform: uppercase;
 }
 @media screen and (max-width: 700px) {
@@ -72,13 +70,18 @@
   .gap-sm-20 {
     gap: 20px;
   }
-  .w-sm-full{
+  .w-sm-full {
     width: 100%;
   }
 }
-
-
-
+@media screen and (max-width: 1000px){
+  .flex-md-wrap{
+    flex-direction: column;
+  }
+}
+.relative{
+  position: relative;
+}
 /* accessibility styles */
 .sr-only {
   position: absolute;
@@ -91,10 +94,12 @@
   border: 0;
 }
 
-
-.h2-bold{
-    font-size: 36px;
-    font-weight: 600;
+.h2-bold {
+  font-size: 36px;
+  font-weight: 600;
+}
+.text-italic{
+  font-style: italic;
 }
 
 span.smartwishlist {
@@ -354,6 +359,56 @@ h1.h1.collection-banner-title {
   line-height: normal;
   letter-spacing: -0.72px;
 }
-.shopify-section--collection-banner .section-spacing{
-  padding-top: 80px;
+@media only screen and (min-width: 1000px){
+  .shopify-section--collection-banner .section-spacing {
+    padding-top: 80px;
+  }  
+}
+
+/* brands page */
+.collection-card.group {
+  border: 1px solid #e8e8e8;
+  background: #fefefe; 
+  padding: 25px;
+}
+
+nav.breadcrumb.breadcrumb--floating a,
+section.breadcrumbs a {
+  text-transform: uppercase;
+}
+.article-publish-label {
+  color: #000;
+  font-family: "DINPro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
+.article-publish-date {
+  color: #0a0011;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+.filter-and-search__filter {
+  border: 1px solid var(--Mercury, #e7e7e7);
+  background: #fff;
+  padding: 10px;
+}
+
+.filter-and-search__search {
+    border: 1px solid var(--Mercury, #E7E7E7);
+    background: #FFF;
+    padding: 10px;
+}
+button.glider-prev {
+  top: 40%;
+  left: -30px;
+}
+button.glider-next {
+  top: 40%;
+  right: -30px;
 }

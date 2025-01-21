@@ -259,15 +259,15 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "recommendations_count": 10,
-        "products_per_row_mobile": "2",
+        "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
         "subheading": "",
         "title": "You may also like",
         "content": ""

@@ -1,0 +1,336 @@
+<div class="hero-with-logo-section">
+  <a href="{{ shop.url }}" class="jordan-logo">
+    <img src="{{ section.settings.logo_image | img_url: 'master' }}" alt="">
+  </a>
+  <img
+    class="desktop-only image-background"
+    id="clipped"
+    src="{% if section.settings.image %}{{ section.settings.image | img_url: 'master' }}{% else %} {{ 'amamaniere-bg1.jpg' | asset_img_url: 'master' }}{% endif %}"
+    alt="background"
+  >
+  <img
+    class="mobile-only  image-background"
+    id="clipped"
+    src="{% if section.settings.image_mobile %}{{ section.settings.image_mobile | img_url: 'master' }}{% else %} {{ 'amamaniere-bg1.jpg' | asset_img_url: 'master' }}{% endif %}"
+    alt="background"
+    loading="lazy"
+  >
+
+  <div class="hero-content">
+    <h1 class="h1 text-center title">{{ section.settings.title }}</h1>
+    <p class="h2 text-center description">{{ section.settings.description }}</p>
+    {% if section.settings.button_text != blank %}
+      {% render 'button',
+        content: section.settings.button_text,
+        href: section.settings.button_url,
+        background: section.settings.button_background,
+        text_color: section.settings.button_text_color,
+        style: section.settings.button_style
+      %}
+    {% endif %}
+  </div>
+</div>
+{% liquid
+  assign title_color = section.settings.title_color
+  assign title_color_mobile = section.settings.title_color_mobile
+  assign title_shadow = section.settings.title_shadow
+  assign title_shadow_mobile = section.settings.title_shadow_mobile
+  assign title_size = section.settings.title_size
+  assign title_size_mobile = section.settings.title_size_mobile
+  assign description_color = section.settings.description_color
+  assign description_color_mobile = section.settings.description_color_mobile
+  assign description_size = section.settings.description_size
+  assign description_size_mobile = section.settings.description_size_mobile
+  assign description_shadow = section.settings.description_shadow
+  assign description_shadow_mobile = section.settings.description_shadow_mobile
+%}
+<style>
+   .hero-with-logo-section{
+      position: relative;
+      height: 100dvh;
+   }
+   .jordan-logo{
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      max-width: 150px;
+      z-index: 2;
+  }
+  .image-background{
+     height: 100%;
+     object-fit: cover;
+     object-position: center;
+  }
+  .hero-content{
+    position: absolute;
+    top: {{ section.settings.horizontal_position }}%;
+    left: {{ section.settings.vertical_position }}%;
+    display: flex;
+    flex-direction: column;
+    align-items: {{ section.settings.content_alignment }};
+    z-index: 1;
+    width: 100%;
+  }
+  .hero-content .title{
+    color: {{ title_color }};
+    text-shadow:0 0 {{ title_shadow }}px #000;
+    font-size: {{ title_size }}px;
+    margin-bottom: 1rem;
+  }
+  .hero-content .description{
+    color: {{ description_color }};
+    text-shadow: 0 0 {{ description_shadow }}px #000;
+    font-size: {{ description_size }}px;
+   }
+   .hero-content .button{
+     width: max-content;
+   }
+   .desktop-only{
+     display: block;
+   }
+   .mobile-only{
+     display: none;
+   }
+   @media (max-width: 768px){
+     {% if section.settings.image_mobile %}
+       .desktop-only{
+         display: none;
+       }
+       .mobile-only{
+         display: block;
+       }
+     {% endif %}
+     .hero-content .title{
+       font-size: {{ title_size_mobile }}px;
+     }
+     .hero-content .description{
+       font-size: {{ description_size_mobile }}px;
+     }
+   }
+</style>
+{% schema %}
+{
+  "name": "Hero Banner With Logp",
+  "tag": "header",
+  "class": "jordan-hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Static background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Static background image mobile"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "Logo Image"
+    },
+    {
+      "type": "header",
+      "content": "Title Settings"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title Desktop",
+      "default": "Title"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color Desktop",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "title_color_mobile",
+      "label": "Title color Mobile",
+      "default": "#000"
+    },
+    {
+      "type": "range",
+      "id": "title_shadow",
+      "label": "Title text shadow Desktop",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "title_shadow_mobile",
+      "label": "Title text shadow Mobile",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title text size Desktop",
+      "min": 10,
+      "max": 80,
+      "step": 1,
+      "default": 75
+    },
+    {
+      "type": "range",
+      "id": "title_size_mobile",
+      "label": "Title text size Mobile",
+      "min": 10,
+      "max": 80,
+      "step": 1,
+      "default": 46
+    },
+    {
+      "type": "header",
+      "content": "Description"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Text"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description Text color Desktop",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "description_color_mobile",
+      "label": "Description Text color Mobile",
+      "default": "#000"
+    },
+    {
+      "type": "range",
+      "id": "description_shadow",
+      "label": "Description Text shadow Desktop",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "description_shadow_mobile",
+      "label": "Description Text shadow Mobile",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description Text size Desktop",
+      "min": 10,
+      "max": 80,
+      "step": 1,
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "description_size_mobile",
+      "label": "Text size Mobile",
+      "min": 10,
+      "max": 80,
+      "step": 1,
+      "default": 20
+    },
+    {
+      "id": "button_url",
+      "type": "url",
+      "label": "Button Link"
+    },
+    {
+      "id": "button_text",
+      "type": "text",
+      "label": "Button Label",
+      "default": "shop now"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button Style",
+      "options": [
+        {
+          "value": "outline",
+          "label": "t:global.text.button_style_options.outline"
+        },
+        {
+          "value": "solid",
+          "label": "t:global.text.button_style_options.solid"
+        }
+      ],
+      "default": "solid"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "t:global.colors.background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "t:global.text.text"
+    },
+    {
+      "type": "header",
+      "content": "Content Alignment"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Content Text Alignment",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "horizontal_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Horizontal Postion",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "vertical_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Vertical Postion",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner With Logp"
+    }
+  ]
+}
+{% endschema %}

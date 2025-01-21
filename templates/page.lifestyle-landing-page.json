@@ -15,7 +15,9 @@
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "page_width": "xs"
+        "page_width": "xs",
+        "hide_header": false,
+        "hide_page_content": false
       }
     },
     "image_with_text_custom_qxrkki": {
@@ -76,8 +78,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "content_width": "md",
-        "text_position": "start",
+        "content_width": "full-screen",
+        "text_position": "center",
         "remove_vertical_spacing": true
       }
     },
@@ -94,7 +96,8 @@
         "richtext_KgnhFQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#8f8f8f"
           }
         },
         "button_XhVQaG": {

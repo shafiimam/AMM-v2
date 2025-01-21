@@ -1,0 +1,426 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "full"
+      }
+    },
+    "beach_header_696FFB": {
+      "type": "beach-header",
+      "settings": {
+        "title": "AMM BEACH",
+        "image": "shopify://shop_images/image_54_fe64d72d-7de6-4778-ac8a-0873451ae676.png",
+        "horizontal_position": 41,
+        "vertical_position": 18
+      }
+    },
+    "slideshow_CPmdyh": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XVfteF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_K4Ehzh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH3_8411c267-4bde-473f-b60c-e6fd17952dc7.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_De3yUq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_wGGQUF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_XVfteF",
+        "image_K4Ehzh",
+        "image_De3yUq",
+        "image_wGGQUF"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "image_with_text_mCYw4g": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_Yc4nft": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>A New Standard in Beachside Living</strong></p>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_dyicj8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Ma Maniére Beach offers an innovative boutique residence experience in a stunning three-story seaside retreat. With three bedrooms and three bathrooms, each space is designed to provide breathtaking views of the Atlantic, a testament to our commitment to breaking barriers and rewriting narratives for Black and Brown communities through transformative, innovative experiences.<br/><br/>A Ma Maniére Beach is more than just a destination; it embodies empowerment and inclusivity. By choosing Folly Beach, we are not only rewriting the narrative but reclaiming it in a space once denied to Black and Brown residents.<br/><br/></p>",
+            "text_color": "#8f8f8f"
+          }
+        },
+        "richtext_Q3Fa7n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Unmatched Luxury and Artistic Excellence</strong></p>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_wrmDBa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Ma Maniére Beach epitomizes luxury with world-class accommodations and amenities, exuding exceptional hospitality. The entire building serves as an art gallery, showcasing works by renowned artists like Jean-Michel Basquiat, Kaws, Daniel Arsham, Anna Park, Pat Phillips, Julian Gaines, Enrico Riley, and David Shrigley. <br/><br/>A Ma Maniére Beach symbolizes a major shift in the evolution of our experiences. As our focus remains on immersive experiential concepts, this seaside resort is the epitome of our vision of classic, timeless luxury. We will continue to obsess over details and push the boundaries of what should be experienced.</p>",
+            "text_color": "#8f8f8f"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Yc4nft",
+        "richtext_dyicj8",
+        "richtext_Q3Fa7n",
+        "richtext_wrmDBa"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_DCdVWx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_x83qWC": {
+          "type": "heading",
+          "settings": {
+            "text": "Quality in every inch",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_9dG8gD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#8f8f8f"
+          }
+        },
+        "richtext_jfLmwr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#8f8f8f"
+          }
+        },
+        "button_drEBmM": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Book Now",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_x83qWC",
+        "richtext_9dG8gD",
+        "richtext_jfLmwr",
+        "button_drEBmM"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false
+      }
+    },
+    "perspective_slider_J4a3Uk": {
+      "type": "perspective-slider",
+      "blocks": {
+        "slide_item_8zL67V": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg"
+          }
+        },
+        "slide_item_jTCaix": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg"
+          }
+        },
+        "slide_item_Jf4GVE": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH3_8411c267-4bde-473f-b60c-e6fd17952dc7.jpg"
+          }
+        },
+        "slide_item_qq46ec": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_item_8zL67V",
+        "slide_item_jTCaix",
+        "slide_item_Jf4GVE",
+        "slide_item_qq46ec"
+      ],
+      "settings": {
+        "title": "AMM Beach gallery",
+        "auto_play": true
+      }
+    },
+    "multi_column_y7mnf6": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_FHXnwD": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Support",
+            "heading_tag": "text-base",
+            "content": "<p>Our friendly team is here to help.</p>",
+            "link_url": "mailto:support@untitledui.com",
+            "link_text": "support@untitledui.com"
+          }
+        },
+        "image_with_text_jDnExU": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "SALES",
+            "heading_tag": "text-base",
+            "content": "<p>Questions or queries? Get in touch!</p>",
+            "link_url": "mailto:support@untitledui.com",
+            "link_text": "support@untitledui.com"
+          }
+        },
+        "image_with_text_jTB86M": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Phone",
+            "heading_tag": "text-base",
+            "content": "<p>Mon-Fri from 8am to 5pm.</p>",
+            "link_url": "tel:+1 (555) 000-0000",
+            "link_text": "+1 (555) 000-0000"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_FHXnwD",
+        "image_with_text_jDnExU",
+        "image_with_text_jTB86M"
+      ],
+      "custom_css": [
+        ".text-base {font-weight: bold;}",
+        "a {margin-block-start: 1rem;}",
+        ".block_content {margin-block-start: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "beach_location_banner_L3FJnP": {
+      "type": "beach-location-banner",
+      "blocks": {
+        "location_QyByL9": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_zyQjTq": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_ygNzJi": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_aj3Fjm": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_L7Qtwt": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_wE7wCq": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        }
+      },
+      "block_order": [
+        "location_QyByL9",
+        "location_zyQjTq",
+        "location_ygNzJi",
+        "location_aj3Fjm",
+        "location_L7Qtwt",
+        "location_wE7wCq"
+      ],
+      "settings": {
+        "desktop_image": "shopify://shop_images/beach-banner.png",
+        "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
+        "title": "Visit our Beach",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "button_url": "",
+        "button_text": "Learn More"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "beach_header_696FFB",
+    "slideshow_CPmdyh",
+    "image_with_text_mCYw4g",
+    "image_with_text_DCdVWx",
+    "perspective_slider_J4a3Uk",
+    "multi_column_y7mnf6",
+    "beach_location_banner_L3FJnP"
+  ]
+}

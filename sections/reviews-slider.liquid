@@ -1,0 +1,191 @@
+<div class="section-spacing section-spacing--tight">
+  <div class="section_heading-container">
+    <h1 class="h1 text-center">{{ section.settings.title }}</h1>
+  </div>
+  <div class="container container-xl relative">
+    <div class="h-stack gap-8 flex-sm-wrap reviews-card-container">
+      {% for block in section.blocks %}
+        <div class="review_card">
+          <dib class="v-stack gap-7">
+            <div class="review_card_info">
+              <div class="h-stack gap-7">
+                <img
+                  src="{{ block.settings.reviewer_image | img_url: '60x' }}"
+                  alt="image of {{ block.settings.reviewer_name }}"
+                  class="reviewer-image"
+                  height="52"
+                  width="52"
+                >
+                <div class="v-stack gap-2">
+                  <p class="text-lg reviewer-name">{{ block.settings.reviewer_name }}</p>
+                  <div class="h-stack gap-1">
+                    {% assign rating_num = block.settings.star_rating | times: 1 %}
+                    {% render 'star-rating-icon', rating: rating_num %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="review-content">
+              {{ block.settings.review_content }}
+            </div>
+          </dib>
+        </div>
+      {% endfor %}
+    </div>
+    <button class="glider-prev">{% render 'icons', icon_type: 'chevron-left' %}</button>
+    <button class="glider-next">{% render 'icons', icon_type: 'chevron-right' %}</button>
+  </div>
+</div>
+<style>
+  .section_heading-container{
+    margin-block-end: 3.75rem;
+  }
+  .reviews-card-container {
+    position: relative;
+  }
+  .review_card {
+    padding: 25px 16px 17px 25px;
+    border: 1px solid #e7e7e7;
+    flex-basis: calc(100% / 3 - 20px);
+  }
+  .reviewer-image {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 1px solid #000;
+  }
+  .reviewer-name {
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .review-content p {
+    color: #6d6d6d;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+  }
+  @media (min-width: 900px) {
+    .glider-track{
+      gap: 30px;
+    }
+  }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js" async></script>
+<script>
+  window.addEventListener('load', function () {
+    new Glider(document.querySelector('.reviews-card-container'), {
+      slidesToShow: 3,
+      slidesToScroll: 2,
+      draggable: true,
+      responsive: [
+        {
+          breakpoint: 1600,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 3,
+          },
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 300,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next',
+      },
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "Reviews Slider",
+  "class": "shopify-section--image-with-text",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Reviews"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "review card",
+      "type": "review_card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "reviewer_image",
+          "label": "Reviewer Image"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Reviewer Name",
+          "default": "John Doe"
+        },
+        {
+          "type": "select",
+          "id": "star_rating",
+          "label": "Star Rating",
+          "options": [
+            {
+              "label": "5",
+              "value": "5"
+            },
+            {
+              "label": "4",
+              "value": "4"
+            },
+            {
+              "label": "3",
+              "value": "3"
+            }
+          ],
+          "default": "5"
+        },
+        {
+          "type": "richtext",
+          "id": "review_content",
+          "label": "Review Content",
+          "default": "<p>Review Content Goes here</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reviews Slider"
+    }
+  ]
+}
+{% endschema %}

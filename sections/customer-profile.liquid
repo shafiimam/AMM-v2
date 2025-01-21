@@ -6,6 +6,8 @@
          class="profile-image"
          role="img"
          aria-label="Customer Image"
+         width="275"
+         height="275"
       >
    {% else %}
       <img
@@ -14,6 +16,8 @@
          class="profile-image"
          role="img"
          aria-label="Customer Image"
+         width="275"
+         height="275"
       >
    {% endif %}
 {% endcapture %}
@@ -38,23 +42,23 @@
         <div class="flex flex-wrap gap-50 gap-sm-20">
           {% if customer.addresses[0].city != blank %}
             <div>
-              <span class="flex align-center gap-10 text-base text-subdued text-upcase">
+              <span class="flex align-center gap-2 text-base text-subdued text-upcase">
                 {% render 'icons', icon_type: 'pin-location' %}
                 {{ customer.addresses[0].city }}, {{ customer.addresses[0].country -}}
               </span>
             </div>
           {% endif %}
           {% if customer.phone != blank %}
-             <div>
-               <span class="flex align-center gap-10 text-base text-subdued text-upcase">
-                 {% render 'icons', icon_type: 'telephone' %}
-                 {{ customer.phone }}
-               </span>
-             </div>
+            <div>
+              <span class="flex align-center gap-10 text-base text-subdued text-upcase">
+                {% render 'icons', icon_type: 'telephone' %}
+                {{ customer.phone }}
+              </span>
+            </div>
           {% endif %}
           <div>
             <div class="flex align-center text-base gap-2">
-              <span class="flex align-center gap-10">
+              <span class="flex align-center gap-2">
                 {% render 'icons', icon_type: 'money' %}
                 {{ customer.total_spent | money -}}
               </span>
@@ -172,6 +176,8 @@
   }
   .profile-image {
     border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
   }
   .customer-name {
     font-family: 'DINPro';
