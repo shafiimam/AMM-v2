@@ -74,12 +74,12 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 1000px){
-  .flex-md-wrap{
+@media screen and (max-width: 1000px) {
+  .flex-md-wrap {
     flex-direction: column;
   }
 }
-.relative{
+.relative {
   position: relative;
 }
 /* accessibility styles */
@@ -98,7 +98,7 @@
   font-size: 36px;
   font-weight: 600;
 }
-.text-italic{
+.text-italic {
   font-style: italic;
 }
 
@@ -359,16 +359,16 @@ h1.h1.collection-banner-title {
   line-height: normal;
   letter-spacing: -0.72px;
 }
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px) {
   .shopify-section--collection-banner .section-spacing {
     padding-top: 80px;
-  }  
+  }
 }
 
 /* brands page */
 .collection-card.group {
   border: 1px solid #e8e8e8;
-  background: #fefefe; 
+  background: #fefefe;
   padding: 25px;
 }
 
@@ -400,9 +400,9 @@ section.breadcrumbs a {
 }
 
 .filter-and-search__search {
-    border: 1px solid var(--Mercury, #E7E7E7);
-    background: #FFF;
-    padding: 10px;
+  border: 1px solid var(--Mercury, #e7e7e7);
+  background: #fff;
+  padding: 10px;
 }
 button.glider-prev {
   top: 40%;
@@ -411,4 +411,14 @@ button.glider-prev {
 button.glider-next {
   top: 40%;
   right: -30px;
+}
+.footer-copyright {
+  color: #8f8f8f;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
 }
