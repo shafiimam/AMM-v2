@@ -107,7 +107,7 @@
           "settings": {
             "color_scheme": "scheme-1",
             "image": "shopify://shop_images/SAMBATRIPLEBLK-1_2ef87ffa-6883-4fc4-a4d4-40e5aa535a6a.png",
-            "text": "Before",
+            "text": "Black",
             "link_text": "Shop Now",
             "link_url": "",
             "link_style": "link"
@@ -118,7 +118,7 @@
           "settings": {
             "color_scheme": "scheme-1",
             "image": "shopify://shop_images/SAMBAMAROONCRYSTALSAND-1.png",
-            "text": "After",
+            "text": "Maroon",
             "link_text": "Shop Now",
             "link_url": "",
             "link_style": "link"
@@ -133,7 +133,7 @@
         "color_scheme": "scheme-1",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Nike x Jacquemus Check Bag ",
+        "title": "Adidas Samba og",
         "content": "<p>Choose your Color</p>",
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
@@ -257,9 +257,9 @@
             "label": "2014",
             "subheading": "",
             "title": "From Concept to launch",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "content": "<p>A Ma Maniére embodies the essence of classic, timeless luxury, merging refined exploration with a deep connection to global community and street culture. It embodies its founding vision of celebrating and uplifting the power of Black and street culture on the global lifestyle space. By offfering our very own in-house luxury label of elevated seasonal collections curated alongside an exclusive blend of the world’s most celebrated fashion houses, we remain focused on elevating each consumer’s journey by bridging their evolving taste to the immersive experiences we create. </p><p></p>",
             "link_text": "Learn More",
-            "link_url": "",
+            "link_url": "shopify://pages/about-us-1",
             "link_style": "solid",
             "mobile_text_color": "#ffffff"
           }
@@ -282,26 +282,29 @@
         "heading_jdQf64": {
           "type": "heading",
           "settings": {
-            "text": "Quality and style matters",
-            "heading_tag": "h3"
+            "text": "The Essence Of Luxury",
+            "heading_tag": "h2"
           }
         },
         "richtext_cBEMWd": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>LEATHER </strong>- mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget.</p>"
+            "content": "<p><strong>WORLD-CLASS CRAFTSMANSHIP</strong> - timeless seasonal pieces designed, developed and executed by the world's best and most celebrated contributors to style and fashion</p>",
+            "text_color": "#1c1c1c"
           }
         },
         "richtext_77aMhV": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>HANDMADE QUALITY</strong> - mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget.</p>"
+            "content": "<p><strong>REFINED MATERIAL</strong>- sourced from across the globe, our pieces and collections are anchored by a commitment to adopting the finest and most desired materials of our time</p>",
+            "text_color": "#1c1c1c"
           }
         },
         "richtext_f3Km44": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>UNIQUE APPROACH</strong> - mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget.</p>"
+            "content": "<p><strong>TIMELESS ELEGANCE - </strong>the styling and execution across collections stand as our commitment to sophistication, embodying the attention to detail of iconic pieces of history</p>",
+            "text_color": "#1c1c1c"
           }
         }
       },
@@ -314,7 +317,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/Frame_1000001918.png",
+        "image": "shopify://shop_images/Group_1.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",

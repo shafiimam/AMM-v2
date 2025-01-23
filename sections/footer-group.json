@@ -22,7 +22,7 @@
             "icon_width": 32,
             "mobile_icon_width": 32,
             "title": "Delivery",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
+            "content": "<p>Enjoy seamless and reliable shipping that ensures your order arrives as expected.</p>"
           }
         },
         "icon-2": {
@@ -33,7 +33,7 @@
             "icon_width": 32,
             "mobile_icon_width": 28,
             "title": "RETURNS & EXCHANGES",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
+            "content": "<p> Ensures your experience remains as elevated as the products you select.</p>"
           }
         },
         "icon-3": {
@@ -44,7 +44,7 @@
             "icon_width": 32,
             "mobile_icon_width": 32,
             "title": "CLIENT SERVICE",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
+            "content": "<p>From inquiries to solutions, our team is here to provide exclusive support tailored to your needs.</p>"
           }
         },
         "icon-4": {
@@ -55,7 +55,7 @@
             "icon_width": 32,
             "mobile_icon_width": 32,
             "title": "AFFIRM",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
+            "content": "<p>Flexible payment solutions designed to make owning the extraordinary easier than ever.</p>"
           }
         }
       },
@@ -66,7 +66,7 @@
         "icon-4"
       ],
       "custom_css": [
-        ".h6{font-family: 'DINPro'}"
+        ".h6 {font-family: \"DINPro\";}"
       ],
       "settings": {
         "color_scheme": "scheme-4",
@@ -86,8 +86,8 @@
             "image": "shopify://shop_images/amm-logo-hd.png",
             "image_width": 160,
             "link": "",
-            "title": "Newsletter",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
+            "title": "",
+            "content": "<p>Subscribe for the latest news and releases.</p>",
             "button_background": "",
             "button_text_color": ""
           }
