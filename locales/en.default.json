@@ -262,7 +262,7 @@
       "title": "Recover password",
       "instructions": "Enter your email to recover your password:",
       "email": "E-mail",
-      "submit": "Recover",
+      "submit": "Submit",
       "remember_password": "Remember your password?",
       "back_to_login": "Back to login",
       "success_message": "An e-mail has been sent to your address with instructions to reset your password."

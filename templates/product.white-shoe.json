@@ -1,0 +1,285 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breeadcrumbs_zf6QQE": {
+      "type": "breeadcrumbs",
+      "settings": {
+        "gutter_below": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "sku_pxTLtL": {
+          "type": "sku",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "feature_with_icon_TyMeDX": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Hand Made",
+            "link": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/mdi_hand-clap.png",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#8f8f8f",
+            "border_color": ""
+          }
+        },
+        "feature_with_icon_zCCbKy": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Discount",
+            "link": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/ic_outline-discount.png",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#8f8f8f",
+            "border_color": ""
+          }
+        },
+        "feature_with_icon_jny9WQ": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Best Seller",
+            "link": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/material-symbols_star-outline.png",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#8f8f8f",
+            "border_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "accordion_XCVwAf": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "More Information",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_XRHUfQ": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Product Details",
+            "content": "{{ product.description }}",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_8jqzLY": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Shipping And Details",
+            "content": "<p>{{ product.description }}</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Combine With",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": true,
+            "show_quick_buy": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "sku_pxTLtL",
+        "price",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "feature_with_icon_TyMeDX",
+        "feature_with_icon_zCCbKy",
+        "feature_with_icon_jny9WQ",
+        "description",
+        "accordion_XCVwAf",
+        "accordion_XRHUfQ",
+        "accordion_8jqzLY",
+        "complementary_products"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "container_size": "lg",
+        "product_info_size": 40,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 20,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "scrolling_content_t7zNyY": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_MG8hN7": {
+          "type": "text",
+          "settings": {
+            "text": "EVERY DETAIL MATTERS"
+          }
+        },
+        "image_DypLU6": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.featured_image }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_MG8hN7",
+        "image_DypLU6"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "body",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 10,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 60,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_rLpTcJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xC4Ffm": {
+          "type": "heading",
+          "settings": {
+            "text": "Quality in every inch",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_MhbeEc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#8f8f8f"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xC4Ffm",
+        "richtext_MhbeEc"
+      ],
+      "custom_css": [
+        ".h2 {font-size: 36px; font-weight: 600;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Group_1.png",
+        "mobile_image": "shopify://shop_images/Group_1.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "subheading": "",
+        "title": "You may also like",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "breeadcrumbs_zf6QQE",
+    "main",
+    "scrolling_content_t7zNyY",
+    "image_with_text_rLpTcJ",
+    "related-products"
+  ]
+}
