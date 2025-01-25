@@ -172,11 +172,7 @@
       ],
       "settings": {
         "color_scheme": "",
-<<<<<<< HEAD
-        "container_size": "full",
-=======
         "container_size": "lg",
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
         "product_info_size": 40,
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
@@ -238,12 +234,8 @@
         "richtext_MhbeEc": {
           "type": "richtext",
           "settings": {
-<<<<<<< HEAD
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
-=======
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
             "text_color": "#8f8f8f"
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
           }
         }
       },
@@ -268,11 +260,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-<<<<<<< HEAD
-        "color_scheme": "",
-=======
         "color_scheme": "scheme-1",
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,

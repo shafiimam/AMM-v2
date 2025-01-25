@@ -1,0 +1,122 @@
+{% if section.settings.auto_play %}
+  <script>
+    var perspectiveAutoPlay = 3000
+  </script>
+{% else %}
+  <script>
+    var perspectiveAutoPlay = 0
+  </script>
+{% endif %}
+<div class="perspective-slider-section">
+  <div class="container">
+    <div class="slider-header-container">
+      <h1 class="h1 text-center">{{ section.settings.title }}</h1>
+    </div>
+  </div>
+  <div class="perspective-slider-container">
+    {% for block in section.blocks %}
+      <div class="block-slide-item">
+        <picture>
+          {% if block.settings.image %}
+            <source srcset="{{ block.settings.image | img_url: '300x' }}" media="(max-width: 600px)">
+            <img
+              src="{{ block.settings.image | img_url: '600x' }}"
+              alt="Image"
+            >
+          {% else %}
+            {{-
+              'lifestyle-1'
+              | placeholder_svg_tag: 'placeholder'
+              | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"'
+            -}}
+          {% endif %}
+        </picture>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .perspective-slider-section {
+    margin-bottom: 40px;
+  }
+  .perspective-slider-section .container {
+    margin-bottom: 5rem;
+  }
+  .block-slide-item img {
+    transition: all 1000ms ease;
+    transform-style: preserve-3d;
+    opacity: 0.5;
+    transform: translate3d(0, 0, 0) scale(0.8);
+  }
+  .block-slide-item.is-selected img {
+    opacity: 1;
+    transform: translate3d(0, 0, 0px) scale(1);
+    z-index: 2;
+  }
+</style>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer></script>
+<script>
+  window.addEventListener('load', function () {
+    var elem = document.querySelector('.perspective-slider-container');
+    var flkty = new Flickity(elem, {
+      prevNextButtons: false,
+      autoPlay: perspectiveAutoPlay,
+      wrapAround: true,
+      selectedAttraction: 0.01,
+      friction: 0.15,
+      pageDots: false,
+    });
+
+    // element argument can be a selector string
+    //   for an individual element
+    var flkty = new Flickity('.perspective-slider-container', {
+      // options
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "Perspective Slider",
+  "tag": "section",
+  "class": "shopify-section--perspective-slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "AMM Beach gallery"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_play",  
+      "label": "Auto Play",
+      "default": false
+    },
+  ],
+  "blocks": [
+    {
+      "type": "slide_item",
+      "name": "Image Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Slide Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Perspective Slider",
+      "blocks": [
+        {
+          "type": "slide_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

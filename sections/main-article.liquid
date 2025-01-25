@@ -63,9 +63,10 @@
       <div class="v-stack gap-8 sm:gap-12">
         <div class="v-stack gap-4.5">
           {%- if section.settings.show_date or section.settings.show_category and article.tags.size > 0 -%}
-            <div class="h-stack gap-4">
+            <div class="v-stack gap-2">
               {%- if section.settings.show_date -%}
-                <span class="h6 text-subdued"><time>{{- article.published_at | date: format: 'abbreviated_date' -}}</time></span>
+                <p class="text-sm article-publish-label">Published on</p>
+                <p class="text-sm article-publish-date"><time>{{- article.published_at | date: format: 'abbreviated_date' -}}</time></p>
               {%- endif -%}
 
               {%- if section.settings.show_category and article.tags.size > 0 -%}

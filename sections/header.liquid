@@ -224,7 +224,9 @@
             </li>
           {%- endif -%}
         {%- endfor -%}
-
+        {% if customer.email %}
+          <a href="/a/wishlist"><i class="fa fa-bookmark-o" style="font-size: 20px; margin-top: 5px;"></i></a>
+        {% endif %}
         {%- if shop.customer_accounts_enabled -%}
           <li class="header__account-link sm-max:hidden">
             <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}">

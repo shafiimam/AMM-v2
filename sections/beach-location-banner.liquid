@@ -1,0 +1,158 @@
+<div class="beach-banner-section">
+  <div class="container beach-banner-content-container">
+    <div class="beach-banner-header v-stack gap-7">
+      <h1 class="h1 banner-title">{{ section.settings.title }}</h1>
+      <p class="text-base banner-description">{{ section.settings.description }}</p>
+    </div>
+    <div class="banner-location-container">
+      {% for block in section.blocks %}
+        <div class="block-location-container">
+          <div class="content-1">
+            <div class="text-and-supporting-text">
+              <span class="block-location-title">{{ block.settings.title }}</span>
+              <span class="block-location-description">{{ block.settings.description }} </span>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<style>
+  .beach-banner-section {
+    background-image: url('{{ section.settings.desktop_image | img_url: '1600x' }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 3/1;
+  }
+  @media screen and (max-width: 768px) {
+    .beach-banner-section {
+      background-image: url('{{ section.settings.mobile_image | img_url: '700x' }}');
+      aspect-ratio: unset;
+    }
+  }
+  .beach-banner-content-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    height: -webkit-fill-available;
+    padding-block: 6rem;
+    gap: 4rem;
+  }
+  .banner-location-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+    row-gap: 2rem;
+  }
+  @media screen and (max-width: 768px) {
+    .beach-banner-content-container {
+      grid-template-columns: 1fr;
+      padding-block: 3.75rem;
+      gap: 2rem;
+      text-align: center;
+    }
+    .banner-location-container {
+      grid-template-columns: 1fr;
+      row-gap: 1.5rem;
+    }
+  }
+  .banner-title {
+    color: #fff;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+  }
+  .banner-description {
+    color: var(--Mercury, #e7e7e7);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  .block-location-title {
+    color: #fff;
+    font-family: 'DINPro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+  }
+  .block-location-description {
+    color: var(--Mercury, #e7e7e7);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+</style>
+{% schema %}
+{
+  "name": "Beach Location Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "desktop_image",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Visit our Beach"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Learn More"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "location",
+      "name": "Location",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "San Francisco"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Address",
+          "default": "<p>100 Market Street\nSan Francisco, CA 94105 USA</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Beach Location Banner"
+    }
+  ]
+}
+{% endschema %}

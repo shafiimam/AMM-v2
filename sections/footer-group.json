@@ -11,6 +11,7 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+<<<<<<< HEAD
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -75,6 +76,8 @@
         "text_alignment": "center"
       }
     },
+=======
+>>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
     "footer": {
       "type": "footer",
       "blocks": {
@@ -84,8 +87,13 @@
             "image": "shopify://shop_images/amm-logo-hd.png",
             "image_width": 160,
             "link": "",
+<<<<<<< HEAD
             "title": "Newsletter",
             "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
+=======
+            "title": "",
+            "content": "<p>Subscribe for the latest news and releases.</p>",
+>>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
             "button_background": "",
             "button_text_color": ""
           }
@@ -134,7 +142,6 @@
     }
   },
   "order": [
-    "text-with-icons",
     "footer"
   ]
 }

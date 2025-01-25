@@ -1,0 +1,37 @@
+<div style="height: 594.16px; position: relative">
+  <div style="left: 0px; top: 25.03px; position: absolute; color: #242424; font-size: 181px; font-family: Saol Display; font-weight: 500; text-transform: uppercase; word-wrap: break-word">
+    AMM BEACH
+  </div>
+<picture>
+   <source srcset="{{ section.settings.image | img_url: 'large' }}" media="(min-width: 1024px)">
+   <source srcset="{{ section.settings.image | img_url: 'medium' }}" media="(min-width: 768px)">
+   <source srcset="{{ section.settings.image | img_url: 'small' }}" media="(min-width: 0px)">
+   <img src="{{ section.settings.image | img_url: 'large' }}" alt="Background Image" style="width: 100%; height: 100%; object-fit: cover;" width="1920" height="1080">
+
+</picture>
+</div>
+
+{% schema %}
+{
+  "name": "Text with background",
+  "class": "text-with-background-image",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "AMM BEACH"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text with background"
+    }
+  ]
+}
+{% endschema %}
