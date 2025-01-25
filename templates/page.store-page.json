@@ -186,8 +186,6 @@
         "remove_vertical_spacing": true
       }
     },
-<<<<<<< HEAD
-=======
     "reviews_slider_NJY6C3": {
       "type": "reviews-slider",
       "blocks": {
@@ -238,7 +236,6 @@
         "title": "Our Customers’ Reviews"
       }
     },
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
     "image_with_text_QNEjBt": {
       "type": "image-with-text",
       "blocks": {
@@ -271,8 +268,6 @@
         "content_width": "md",
         "remove_vertical_spacing": true
       }
-<<<<<<< HEAD
-=======
     },
     "featured_collections_wzB8F7": {
       "type": "featured-collections",
@@ -454,7 +449,6 @@
         "button_url": "",
         "button_text": "Learn More"
       }
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
     }
   },
   "order": [
@@ -462,9 +456,6 @@
     "image_with_text_overlay_UhmPUC",
     "rich_text_VcMXhH",
     "map_with_text_zfmMKi",
-<<<<<<< HEAD
-    "image_with_text_QNEjBt"
-=======
     "reviews_slider_NJY6C3",
     "image_with_text_QNEjBt",
     "featured_collections_wzB8F7",
@@ -472,6 +463,5 @@
     "eployee_with_collection_z3TxTy",
     "eployee_with_collection_FYHyHH",
     "beach_location_banner_nGbcUy"
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
   ]
 }

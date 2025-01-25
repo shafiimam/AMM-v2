@@ -29,11 +29,7 @@
   -%}
 
   <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-<<<<<<< HEAD
-    <image-with-text class="image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
-=======
     <image-with-text class="container image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
       <div class="map-container">
         {%- if section.settings.map != blank -%}
           {{ section.settings.map }}

@@ -15,23 +15,15 @@
       "settings": {
         "color_scheme": "",
         "show_title": true,
-<<<<<<< HEAD
-        "page_width": "xs"
-=======
         "page_width": "xs",
         "hide_header": false,
         "hide_page_content": false
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
       }
     },
     "events_header_banner_AaNBMN": {
       "type": "events-header-banner",
       "settings": {
-<<<<<<< HEAD
-        "title": "Events",
-=======
         "title": "HANDWASH",
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
         "desktop_image": "shopify://shop_images/event-image-desktop.png",
         "mobile_image": "shopify://shop_images/event-image-mobile.png"
       }

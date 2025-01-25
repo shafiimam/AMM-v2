@@ -11,73 +11,6 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-<<<<<<< HEAD
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "icon-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "custom_icon": "shopify://shop_images/carbon_delivery.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "Delivery",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
-          }
-        },
-        "icon-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "custom_icon": "shopify://shop_images/streamline_return-2.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 28,
-            "title": "RETURNS & EXCHANGES",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
-          }
-        },
-        "icon-3": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "custom_icon": "shopify://shop_images/ph_chat.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "CLIENT SERVICE",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
-          }
-        },
-        "icon-4": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "custom_icon": "shopify://shop_images/fluent_payment-20-regular.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "AFFIRM",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon-1",
-        "icon-2",
-        "icon-3",
-        "icon-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-4",
-        "separate_section_with_border": true,
-        "stack_on_mobile": true,
-        "icon_color": "#1c1c1c",
-        "text_color": "",
-        "text_alignment": "center"
-      }
-    },
-=======
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
     "footer": {
       "type": "footer",
       "blocks": {
@@ -87,13 +20,8 @@
             "image": "shopify://shop_images/amm-logo-hd.png",
             "image_width": 160,
             "link": "",
-<<<<<<< HEAD
-            "title": "Newsletter",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
-=======
             "title": "",
             "content": "<p>Subscribe for the latest news and releases.</p>",
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
             "button_background": "",
             "button_text_color": ""
           }

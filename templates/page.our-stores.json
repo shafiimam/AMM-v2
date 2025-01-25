@@ -15,13 +15,9 @@
       "settings": {
         "color_scheme": "",
         "show_title": true,
-<<<<<<< HEAD
-        "page_width": "xs"
-=======
         "page_width": "xs",
         "hide_header": false,
         "hide_page_content": false
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
       }
     },
     "image_hotspot_3KfiCc": {
@@ -113,8 +109,6 @@
       "settings": {
         "separate_section_with_border": false
       }
-<<<<<<< HEAD
-=======
     },
     "text_with_icons_dDmnRN": {
       "type": "text-with-icons",
@@ -243,18 +237,13 @@
         "button_url": "",
         "button_text": "Learn More"
       }
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
     }
   },
   "order": [
     "main",
     "image_hotspot_3KfiCc",
-<<<<<<< HEAD
-    "list_column_aAz7bE"
-=======
     "list_column_aAz7bE",
     "text_with_icons_dDmnRN",
     "beach_location_banner_ERteFX"
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
   ]
 }

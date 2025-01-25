@@ -182,11 +182,7 @@
           </div>
         {%- endif -%}
 
-<<<<<<< HEAD
-        <p class="heading text-subdued text-xxs">© {{ 'now' | date: '%Y' }} - {{ shop.name }}</p>
-=======
         <p class="text-base text-subdued text-xxs footer-copyright">© {{ 'now' | date: '%Y' }} - A Ma Maniére - all rights reserved</p>
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
         {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
           <ul class="payment-methods unstyled-list">
             {%- for type in shop.enabled_payment_types -%}

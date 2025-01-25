@@ -1,33 +1,20 @@
 <section class="container container-md" aria-labelledby="events-section-heading">
   <h1 id="events-section-heading" class="sr-only">Events Section</h1>
   <div class="filter-and-search-container">
-<<<<<<< HEAD
-    <div class="filter-and-search">
-      <div class="filter-and-search__filter">
-        <label for="filter">Filter by:</label>
-        <select name="filter" id="filter" aria-label="Filter events by type">
-=======
     <div class="filter-and-search w-full h-stack justify-between">
       <div class="filter-and-search__filter h-stack gap-2">
         {% render 'icons', icon_type: 'filter' %}
         <label for="filter" class="text-subdued">Filter by</label>
         <select name="filter" id="filter" aria-label="Filter events by type" >
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
           <option value="all">All</option>
           <option value="online">Online</option>
           <option value="offline">Offline</option>
         </select>
       </div>
-<<<<<<< HEAD
-      <div class="filter-and-search__search">
-        <label for="search" class="sr-only">Search events</label>
-        <input type="text" name="search" id="search" placeholder="Search events..." aria-label="Search events">
-=======
       <div class="filter-and-search__search h-stack gap-2">
         {% render 'icons', icon_type: 'search' %}
         <label for="search" class="sr-only" class="text-subdued">Search</label>
         <input type="text" name="search" id="search" placeholder="Search" aria-label="Search events">
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
       </div>
     </div>
   </div>
@@ -45,19 +32,11 @@
           <div class="event_content">
             <h2 class="event_title h3">{{ block.settings.title }}</h2>
             <div class="flex justify-start flex-no-wrap align-center gap-40">
-<<<<<<< HEAD
-              <div class="flex justify-between flex-no-wrap align-center gap-10">
-                {% render 'icons', icon_type: 'location' %}
-                <p class="event_location">{{ block.settings.location }}</p>
-              </div>
-              <div class="flex justify-between flex-no-wrap align-center gap-10 event_status">
-=======
               <div class="h-stack gap-3">
                 {% render 'icons', icon_type: 'location' %}
                 <p class="event_location">{{ block.settings.location }}</p>
               </div>
               <div class="h-stack gap-3 event_status">
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
                 {% if block.settings.is_online %}
                   {% render 'icons', icon_type: 'online' -%}
                   <span>Online</span>

@@ -6,11 +6,8 @@
          class="profile-image"
          role="img"
          aria-label="Customer Image"
-<<<<<<< HEAD
-=======
          width="275"
          height="275"
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
       >
    {% else %}
       <img
@@ -19,11 +16,8 @@
          class="profile-image"
          role="img"
          aria-label="Customer Image"
-<<<<<<< HEAD
-=======
          width="275"
          height="275"
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
       >
    {% endif %}
 {% endcapture %}
@@ -36,37 +30,6 @@
         {{ customer_avatar }}
       </div>
       <div class="customer-info-container">
-<<<<<<< HEAD
-        <div class="profile-edit">
-          <a href="/a/profile" class="text-with-icon h6 link-faded" data-no-instant>
-            {% render 'icons', icon_type: 'edit' %}
-          </a>
-        </div>
-        <p class="text-upcase text-sm-center customer-name">
-          {{ customer.first_name }}
-          {{ customer.last_name }}
-        </p>
-        <div class="flex flex-wrap gap-50 gap-sm-20">
-          {% if customer.addresses[0].city != blank %}
-            <div>
-              <span class="flex align-center gap-10 text-base text-subdued text-upcase">
-                {% render 'icons', icon_type: 'pin-location' %}
-                {{ customer.addresses[0].city }}, {{ customer.addresses[0].country -}}
-              </span>
-            </div>
-          {% endif %}
-          {% if customer.phone != blank %}
-             <div>
-               <span class="flex align-center gap-10 text-base text-subdued text-upcase">
-                 {% render 'icons', icon_type: 'telephone' %}
-                 {{ customer.phone }}
-               </span>
-             </div>
-          {% endif %}
-          <div>
-            <div class="flex align-center text-base gap-2">
-              <span class="flex align-center gap-10">
-=======
         <div class="h-stack justify-between flex-sm-column">
           <p class="text-upcase text-sm-center customer-name">
             {{ customer.first_name }}
@@ -105,7 +68,6 @@
           <div>
             <div class="flex align-center text-base gap-2">
               <span class="flex align-center gap-2">
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
                 {% render 'icons', icon_type: 'money' %}
                 {{ customer.total_spent | money -}}
               </span>
@@ -223,11 +185,8 @@
   }
   .profile-image {
     border-radius: 50%;
-<<<<<<< HEAD
-=======
     object-fit: cover;
     aspect-ratio: 1/1;
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
   }
   .customer-name {
     font-family: 'DINPro';
@@ -237,17 +196,6 @@
     line-height: normal;
     letter-spacing: -0.8px;
     text-transform: uppercase;
-<<<<<<< HEAD
-    margin-bottom: 25px;
-  }
-  .customer-info-container {
-    position: relative;
-  }
-  .profile-edit {
-    position: absolute;
-    inset-block-start: 1rem;
-    inset-inline-end: 0;
-=======
   }
   .customer-info-container > div {
     margin-block-end: 1rem;
@@ -257,17 +205,13 @@
     display: flex;
     gap: 1.25rem;
     align-items: center;
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
   }
   .customer-orders-container {
     margin-top: 50px;
   }
-<<<<<<< HEAD
-=======
   .customer-orders-container table {
     font-size: 12px;
   }
->>>>>>> c0530997f841778e5d2921652b1ee049e84baf06
 </style>
 
 {% schema %}
