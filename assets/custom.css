@@ -210,11 +210,11 @@ h1.product-title.h3 {
   padding-top: 35px;
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   image-with-text.image-with-text {
     padding: 20px;
   }
-}
+} */
 
 /* image with text styles */
 .text-secondary {
@@ -299,10 +299,6 @@ variant-sku {
 
 .product-content-below-gallery .accordion__toggle span,
 .product-info__block-item .accordion__toggle span {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
   text-transform: uppercase;
 }
 .product-content-below-gallery .accordion__content,
@@ -370,6 +366,7 @@ h1.h1.collection-banner-title {
   border: 1px solid #e8e8e8;
   background: #fefefe;
   padding: 25px;
+  align-content: space-between;
 }
 
 nav.breadcrumb.breadcrumb--floating a,

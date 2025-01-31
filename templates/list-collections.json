@@ -47,7 +47,7 @@
         "image_size": "xs",
         "content_position": "place-self-center text-center",
         "text_color": "#1c1c1c",
-        "overlay_color": "#efefef",
+        "overlay_color": "#ffffff",
         "overlay_opacity": 19
       }
     }

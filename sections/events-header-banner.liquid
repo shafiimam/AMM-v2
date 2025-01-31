@@ -29,7 +29,7 @@
   }
   .section_event_header--title-container {
     position: absolute;
-    top: -18%;
+    top: -16%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: #e1e1e1;
     font-family: Roboto;
-    font-size: 18vw;
+    font-size: {{ section.settings.heading_font_size }}vw;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -98,7 +98,17 @@
       "type": "image_picker",
       "id": "mobile_image",
       "label": "Mobile Image"
-    }
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "min": 5,
+      "max": 15,
+      "step": 1,
+      "unit": "vw",
+      "label": "Heading Font Size",
+      "default": 10
+    },
   ],
   "presets": [
     {

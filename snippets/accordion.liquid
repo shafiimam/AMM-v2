@@ -27,7 +27,7 @@ Supported parameters
   <details class="accordion__disclosure group" {% if open %}open aria-expanded="true"{% else %}aria-expanded="false"{% endif %}>
     <summary>
       {%- comment -%}iOS 14 does not support flex on the summary itself, so we have to use this extra div{%- endcomment -%}
-      <span class="accordion__toggle {% if show_title_as_text %}text-lg{% else %}h6{% endif %}">
+      <span class="accordion__toggle {% if show_title_as_text %}text-lg{% else %}text-base{% endif %}">
         {%- if custom_icon != blank or icon != 'none' -%}
           <span class="text-with-icon gap-4">
             {%- if custom_icon != blank -%}

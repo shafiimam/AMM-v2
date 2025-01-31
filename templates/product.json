@@ -109,17 +109,6 @@
             "show_below_gallery": false
           }
         },
-        "accordion_XCVwAf": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": false,
-            "icon": "none",
-            "title": "More Information",
-            "content": "<p>Share some content to your customers about your products.</p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
         "accordion_XRHUfQ": {
           "type": "accordion",
           "settings": {
@@ -137,7 +126,7 @@
             "show_below_gallery": true,
             "icon": "none",
             "title": "Shipping And Details",
-            "content": "<p>{{ product.description }}</p>",
+            "content": "{{ product.description }}",
             "liquid": "",
             "page": ""
           }
@@ -150,6 +139,12 @@
             "show_below_gallery": true,
             "stack_products": true,
             "show_quick_buy": true
+          }
+        },
+        "more_information_mebE7W": {
+          "type": "more_information",
+          "settings": {
+            "text": "More information"
           }
         }
       },
@@ -165,10 +160,10 @@
         "feature_with_icon_zCCbKy",
         "feature_with_icon_jny9WQ",
         "description",
-        "accordion_XCVwAf",
         "accordion_XRHUfQ",
         "accordion_8jqzLY",
-        "complementary_products"
+        "complementary_products",
+        "more_information_mebE7W"
       ],
       "settings": {
         "color_scheme": "",
@@ -213,8 +208,8 @@
         "text_font": "body",
         "text_font_size_mobile": 40,
         "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 10,
-        "section_vertical_spacing_desktop": 10,
+        "section_vertical_spacing_mobile": 40,
+        "section_vertical_spacing_desktop": 40,
         "item_horizontal_spacing_mobile": 10,
         "item_horizontal_spacing_desktop": 60,
         "background": "",

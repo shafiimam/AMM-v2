@@ -1,0 +1,112 @@
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+<div class="stories-footer-group color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
+  <div class="h-stack justify-between">
+    <div class="">
+      <nav class="">
+        <h4 class="">{{ section.settings.title }}</h4>
+        {% if settings.instagram != blank %}
+          <a target="_blank" href="{{ settings.instagram }}" class="nav-link">instagram</a>
+        {% endif %}
+        {% if settings.twitter != blank %}
+          <a target="_blank" href="{{ settings.twitter }}" class="nav-link">shop</a>
+        {% endif %}
+        {% if settings.facebook != blank %}
+          <a target="_blank" href="{{ settings.facebook }}" class="nav-link">facebook</a>
+        {% endif %}
+        {% if settings.email != blank %}
+          <a target="_blank" href="mailto:{{ settings.email }}" class="nav-link">email</a>
+        {% endif %}
+      </nav>
+    </div>
+    <div>
+      <div>
+        {% form 'customer', class: 'form-feedback' %}
+          {{ form.errors | default_errors }}
+
+          <h4 class="form-title">{{ section.settings.form_title }}</h4>
+
+          {% if form.posted_successfully? %}
+            <p class="form-thankyou">{{ section.settings.form_thankyou }}</p>
+          {% else %}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+
+            <div class="input-group">
+              <input
+                type="email"
+                name="contact[email]"
+                value="{% if customer %}{{ customer.email }}{% endif %}"
+                placeholder="your@email.com"
+                autocorrect="off"
+                autocapitalize="off"
+                required
+              >
+              <button type="submit" name="commit"></button>
+            </div>
+          {% endif %}
+        {% endform %}
+      </div>
+      <nav class="nav secondary">
+        {% for link in linklists[section.settings.footer_nav].links %}
+          <a href="{{ link.url }}" class="nav-link">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
+</div>
+<style>
+   .stories-footer-group {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      overflow: hidden;
+      padding: 100px 30px;
+  }
+</style>
+{% schema %}
+{
+  "name": "Stories Footer",
+  "tag": "footer",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "Title",
+      "default": "Follow us"
+    },
+    {
+      "type": "link_list",
+      "id": "footer_nav",
+      "label": "Navigation under form",
+      "default": "main-menu"
+    },
+    {
+      "type": "header",
+      "content": "Form"
+    },
+    {
+      "type": "text",
+      "id": "form_title",
+      "label": "Title",
+      "default": "sign up for updates"
+    },
+    {
+      "type": "text",
+      "id": "form_thankyou",
+      "label": "Thank you message",
+      "default": "thank you!"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-4"
+    },
+  ],
+  "presets": [
+    {
+      "name": "Jordan Footer"
+    }
+  ]
+}
+{% endschema %}

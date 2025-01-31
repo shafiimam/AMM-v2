@@ -23,9 +23,10 @@
     "events_header_banner_AaNBMN": {
       "type": "events-header-banner",
       "settings": {
-        "title": "HANDWASH",
+        "title": "HANDWASH COLD",
         "desktop_image": "shopify://shop_images/event-image-desktop.png",
-        "mobile_image": "shopify://shop_images/event-image-mobile.png"
+        "mobile_image": "shopify://shop_images/event-image-mobile.png",
+        "heading_font_size": 10
       }
     },
     "events_section_ajk3kJ": {

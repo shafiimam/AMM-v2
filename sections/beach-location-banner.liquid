@@ -6,7 +6,7 @@
     </div>
     <div class="banner-location-container">
       {% for block in section.blocks %}
-        <div class="block-location-container">
+        <div class="block-location-container" {{ block.shopify_attributes }}>
           <div class="content-1">
             <div class="text-and-supporting-text">
               <span class="block-location-title">{{ block.settings.title }}</span>
@@ -24,7 +24,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    aspect-ratio: 3/1;
   }
   @media screen and (max-width: 768px) {
     .beach-banner-section {

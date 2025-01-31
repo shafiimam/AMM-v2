@@ -6634,7 +6634,7 @@ product-rerender {
   border-block-width: 1px;
   justify-content: space-between;
   align-items: center;
-  padding: 0.9375rem;
+  padding-block : 25px;
   display: flex;
 }
 
