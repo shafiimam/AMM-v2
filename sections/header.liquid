@@ -141,7 +141,7 @@
                           {%- for sub_link in link.links -%}
                             <li>
                               {%- if sub_link.levels == 0 -%}
-                                <a href="{{ sub_link.url }}" class="link-faded-reverse" {% if sub_link.current %}aria-current="page"{% endif %}>{{ sub_link.title }}</a>
+                                <a href="{{ sub_link.url }}" class="link-faded-reverse h6" {% if sub_link.current %}aria-current="page"{% endif %}>{{ sub_link.title }}</a>
                               {%- else -%}
                                 <dropdown-menu-disclosure follow-summary-link trigger="{{ section.settings.menu_open_trigger }}" class="contents">
                                   <details class="header__menu-disclosure">
@@ -155,7 +155,7 @@
                                     <ul class="header__dropdown-menu unstyled-list" role="list">
                                       {%- for sub_sub_link in sub_link.links -%}
                                         <li>
-                                          <a href="{{ sub_sub_link.url }}" class="link-faded-reverse" {% if sub_sub_link.current %}aria-current="page"{% endif %}>{{ sub_sub_link.title }}</a>
+                                          <a href="{{ sub_sub_link.url }}" class="link-faded-reverse h6" {% if sub_sub_link.current %}aria-current="page"{% endif %}>{{ sub_sub_link.title }}</a>
                                         </li>
                                       {%- endfor -%}
                                     </ul>

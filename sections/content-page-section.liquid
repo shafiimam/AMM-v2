@@ -1,43 +1,50 @@
-<div class="content-page-section-container container w-full">
+<div class="section-spacing content-page-section-container container">
   <div class="v-stack gap-7 content-page-section">
     <div class="content-page-section__header">
-      <div class="h-stack">
-        <div class="v-stack">
+      <div class="h-stack justify-between gap-5 flex-sm-wrap">
+        <div class="v-stack gap-5" style="max-width: 500px;">
           <h1 class="h1 content-page-section__title">{{ section.settings.title }}</h1>
           <p class="content-page-section__description text-subdued">{{ section.settings.description }}</p>
         </div>
-        <picture>
-          <source srcset="{{ section.settings.header_logo.url }}" media="(min-width: 1024px)">
-          <img
-            src="{{ section.settings.header_logo.url }}"
-            alt="{{ section.settings.title }}"
-            height="{{ section.settings.header_logo.height }}"
-            width="{{ section.settings.header_logo.width }}"
-          >
-        </picture>
+        <img
+          src="{{ section.settings.header_logo | img_url : 'master' }}"
+          alt="{{ section.settings.title }}"
+          height="{{ section.settings.header_logo.height }}"
+          width="{{ section.settings.header_logo.width }}"
+        >
       </div>
     </div>
 
     {% if section.settings.section_banner_desktop != blank %}
       <div class="content-page-section__banner">
         <picture>
-          <source srcset="{{ section.settings.section_banner_desktop.url }}" media="(min-width: 1024px)">
-          <img
-            src="{{ section.settings.section_banner_mobile.url }}"
-            alt="{{ section.settings.title }}"
-            height="{{ section.settings.section_banner_mobile.height }}"
-            width="{{ section.settings.section_banner_mobile.width }}"
+          <source
+            media="(min-width: 769px)"
+            srcset="{{ section.settings.section_banner_desktop | image_url: width: '1000x' }} 1000w, {{ section.settings.section_banner_desktop | image_url: width: '1600x' }} 1600w, {{ section.settings.section_banner_desktop | image_url: width: '2000x' }} 2000w"
+            width="{{ section.settings.section_banner_desktop.width }}"
+            height="{{ section.settings.section_banner_desktop.height }}"
           >
+          <source
+            media="(max-width: 699px)"
+            srcset="{{ section.settings.section_banner_mobile | image_url: width: '400x' }} 400w, {{ section.settings.section_banner_mobile | image_url: width: '600x' }} 600w, {{ section.settings.section_banner_mobile | image_url: width: '800x' }} 800w, {{ section.settings.section_banner_mobile | image_url: width: '1000x' }} 1000w"
+            width="{{ section.settings.mobile_image.width }}"
+            height="{{ section.settings.mobile_image.height }}"
+          >
+          {{-
+            section.settings.section_banner_desktop
+            | image_url: width: section.settings.section_banner_desktop.width
+            | image_tag: sizes: '100vw', widths: '900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200'
+          -}}
         </picture>
       </div>
     {% endif %}
-    <div class="content-page-section__blocks-container">
+    <div class="content-page-section__blocks-container v-stack gap-4">
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'heading' %}
-            <h2 class="h2">{{ block.settings.heading }}</h2>
+            <h2 class="h2" {{ block.shopify_attributes }}>{{ block.settings.heading }}</h2>
           {% when 'paragraph' %}
-            <div class="prose text-subdued">
+            <div class="prose text-subdued" {{ block.shopify_attributes }}>
               {{ block.settings.paragraph }}
             </div>
           {% else %}
@@ -47,6 +54,15 @@
     </div>
   </div>
 </div>
+
+<style>
+  .content-page-section-container {
+    background-image: url({{section.settings.section_background_image| img_url:'master'}});
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+</style>
 
 {% schema %}
 {

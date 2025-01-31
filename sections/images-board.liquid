@@ -1,0 +1,83 @@
+<script defer type="text/javascript" src="{{ 'image-board-animation.aio.min.js' | asset_url }}"></script>
+
+<div class="content">
+  <div class="grid">
+    {% assign counter1 = 0 %}
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when "image" %}
+          {% assign counter = counter | plus: 1 %}
+          <div class="grid__item pos-{{ counter }}" {{ block.shopify_attributes }}>
+            <div class="grid__item-img" style="background-image:url({{ block.settings.image | img_url: 'master' }});"></div>
+          </div>
+      {% endcase %}
+    {% endfor %}
+    {% if section.settings.textarea != blank %}
+    	<p>{{ section.settings.textarea }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+    section.images-board {
+      	background: {{ section.settings.bg_color }};
+    }
+    section.images-board .grid {
+      pointer-events: none;
+      position: absolute;
+      width: 110%;
+      height: 110%;
+      top: -5%;
+      left: -5%;
+      display: grid;
+      grid-template-columns: repeat(50,2%);
+      grid-template-rows: repeat(50,2%);
+  }
+  section.images-board {
+      width: 100%;
+      height: calc(100vh - 10rem);
+      overflow: hidden;
+      position: relative;
+   }
+</style>
+
+{% schema %}
+{
+  "name": "Images Board",
+  "tag": "section",
+  "class": "images-board",
+  "settings": [
+		{
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background color",
+		   "default": "#f8f7f7"
+        },
+ 		{
+          "type": "textarea",
+          "id": "textarea",
+          "label": "Text area"
+        }
+	],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Sections",
+      "name": "Jordan Images Board"
+    }
+  ]
+}
+{% endschema %}
