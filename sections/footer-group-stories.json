@@ -12,8 +12,17 @@
   "name": "Stories footer group",
   "sections": {
     "stories-footer": {
-      "type": "stories-footer"
+      "type": "stories-footer",
+      "settings": {
+        "title": "Follow us",
+        "footer_nav": "main-menu",
+        "form_title": "sign up for updates",
+        "form_thankyou": "thank you!",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953"
+      }
     }
   },
-  "order": ["stories-footer"]
+  "order": [
+    "stories-footer"
+  ]
 }

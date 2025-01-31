@@ -12,12 +12,11 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "page_width": "full",
-        "hide_header": true,
-        "hide_page_content": true
+        "page_width": "full"
       }
     },
     "hero_with_logo_nPMzTc": {
@@ -148,7 +147,8 @@
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
       }
     },
     "media_grid_HwBKby": {
@@ -815,7 +815,7 @@
         "image_PzUHnj": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
             "image": "shopify://shop_images/FN0610-461_1_bc31623d-927b-431d-92ef-0e4fa3bc07aa.jpg",
             "column_count": "4",
             "row_count": 2,
@@ -860,7 +860,7 @@
         "image_PzUHnj"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
         "desktop_row_height": 400,
         "mobile_row_height": 400,
