@@ -14,7 +14,6 @@
     "stories-footer": {
       "type": "stories-footer",
       "settings": {
-        "background-image": "shopify://shop_images/jordan-2-new-bg-image-black-rz1-min_7db02e63-86d3-452f-9d18-efd9f32dd4d5.jpg",
         "title": "Follow us",
         "footer_nav": "main-menu",
         "form_title": "sign up for updates",
