@@ -1,0 +1,284 @@
+<script src="{{ 'angle.js' | asset_url }}"></script>
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+   | default: section.settings.color_scheme.settings.background
+   | md5
+ -%}
+<div class="three-d-gallery-container color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
+  <h2 class="h1 text-center title">{{ section.settings.title | default: '3D Gallery' }}</h2>
+  <div class="three-d-gallery">
+    <div class="angle-view" id="angle-view1">
+      <ul>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03726.png" alt="01" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03727.png" alt="02" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03728.png" alt="03" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03729.png" alt="04" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03730.png" alt="05" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03731.png" alt="06" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03732.png" alt="07" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03734.png" alt="08" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03735.png" alt="09" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03738.png" alt="10" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03739.png" alt="11" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03740.png" alt="12" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03741.png" alt="13" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03743.png" alt="14" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03744.png" alt="15" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03746.png" alt="16" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03748.png" alt="17" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03750.png" alt="18" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03751.png" alt="19" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03752.png" alt="20" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03753.png" alt="21" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03754.png" alt="22" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03755.png" alt="23" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03756.png" alt="24" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03757.png" alt="25" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03758.png" alt="26" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03759.png" alt="27" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03760.png" alt="28" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03761.png" alt="29" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03763.png" alt="30" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03764.png" alt="31" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03765.png" alt="32" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03766.png" alt="33" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03767.png" alt="34" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03768.png" alt="35" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03769.png" alt="36" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03770.png" alt="37" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03771.png" alt="38" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03772.png" alt="39" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03773.png" alt="40" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03774.png" alt="41" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03775.png" alt="42" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03776.png" alt="43" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03777.png" alt="44" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03779.png" alt="44" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03780.png" alt="44" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03781.png" alt="44" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03782.png" alt="44" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03783.png" alt="44" height="650" width="600">
+        </li>
+        <li>
+          <img src="https://cdn.shopify.com/s/files/1/0575/5709/0359/files/DSC03784.png" alt="44" height="650" width="600">
+        </li>
+      </ul>
+    </div>
+    <div class="gallery-controls">
+      <button class="btn btn-primary prev-image">
+        <svg
+          width="80px"
+          height="80px"
+          viewBox="0 0 24.00 24.00"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#000000"
+          stroke-width="0.36"
+          transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"><path d="M12.0769 19C13.5389 19 14.9634 18.532 16.1462 17.6631C17.329 16.7942 18.2094 15.569 18.6612 14.1631C19.1129 12.7572 19.1129 11.2428 18.6612 9.83688C18.2094 8.43098 17.329 7.20578 16.1462 6.33688C14.9634 5.46798 13.5389 5 12.0769 5C10.6149 5 9.19043 5.46799 8.00764 6.33688C6.82485 7.20578 5.94447 8.43098 5.49268 9.83688C5.0409 11.2428 5.0409 12.7572 5.49269 14.1631M6.5 12.7778L5.53846 14.3333L4 13.1667" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path></g>
+        </svg>
+      </button>
+      <button class="btn btn-primary next-image">
+        <svg
+          width="80px"
+          height="80px"
+          viewBox="0 0 24.00 24.00"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#000000"
+          stroke-width="0.36"
+          transform="matrix(-1, 0, 0, 1, 0, 0)rotate(0)"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"><path d="M12.0769 19C13.5389 19 14.9634 18.532 16.1462 17.6631C17.329 16.7942 18.2094 15.569 18.6612 14.1631C19.1129 12.7572 19.1129 11.2428 18.6612 9.83688C18.2094 8.43098 17.329 7.20578 16.1462 6.33688C14.9634 5.46798 13.5389 5 12.0769 5C10.6149 5 9.19043 5.46799 8.00764 6.33688C6.82485 7.20578 5.94447 8.43098 5.49268 9.83688C5.0409 11.2428 5.0409 12.7572 5.49269 14.1631M6.5 12.7778L5.53846 14.3333L4 13.1667" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path></g>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('#angle-view1').angle({
+      speed: 2,
+      previous: '.prev-image',
+      next: '.next-image',
+      drag: true,
+      current: 1,
+    });
+  });
+</script>
+<style>
+  .three-d-gallery-container{
+    padding: 40px 0;
+  }
+  .angle-view {
+    overflow: hidden;
+    width: 600px;
+    margin: 10px auto;
+    border: 5px solid #cecece;
+  }
+  .angle-view ul{
+    margin: 0;
+    padding: 0;
+  }
+  .angle-view li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .angle-view img {
+    width: 90%;
+    display: block;
+    margin: 18px auto;
+  }
+  div#angle-view1 {
+    height: 650px;
+    border: none;
+    background: #fff;
+  }
+  #angle-view1 img {
+    object-fit: contain;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  .gallery-controls {
+    display: flex;
+    justify-content: center;
+  }
+  .three-d-gallery-container .title {
+    color: #fff;
+    font-family: Saol Display,sans-serif;
+  }
+  @media (max-width: 768px){
+    .angle-view {
+        max-width: 90dvw;
+        height: 330px;
+        margin: 20px 20px;
+        max-height: 500px;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "AJ4 3D Gallery",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "3D Gallery"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+  ],
+  "presets": [
+    {
+      "name": "AJ4 3D Gallery",
+      "settings": {
+        "title": "3D Gallery"
+      }
+    }
+  ]
+}
+{% endschema %}
