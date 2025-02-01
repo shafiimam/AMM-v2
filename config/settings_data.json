@@ -32,6 +32,9 @@
     "product_card_text_font": "body",
     "product_color_display": "hide",
     "show_discount": false,
+    "social_facebook": "https://www.facebook.com/maniereusa",
+    "social_twitter": "https://twitter.com/maniere_usa",
+    "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
     "content_for_index": [],
     "color_schemes": {
       "scheme-1": {

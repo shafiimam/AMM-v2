@@ -12,12 +12,11 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "page_width": "full",
-        "hide_header": true,
-        "hide_page_content": true
+        "page_width": "full"
       }
     },
     "hero_with_logo_nPMzTc": {
@@ -98,6 +97,17 @@
     },
     "video_tVEdzM": {
       "type": "video",
+      "blocks": {
+        "play_4U677X": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "play_4U677X"
+      ],
       "settings": {
         "autoplay": false,
         "show_controls": true,
@@ -141,18 +151,19 @@
       ],
       "custom_css": [
         ".container * {text-align: center;}",
-        ".text-secondary {font-family: var(--heading-font-family);}",
-        ".h3 {color: #eaeaea;}",
-        "#countdown {color: #eaeaea;}"
+        ".h1 {color: #eaeaea; font-weight: 700;}",
+        "#countdown {color: #eaeaea;}",
+        ".prose p {font-family: \"Saol Display,sans-serif\";}"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/AIRSHIP_COUNTDOWN.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
       }
     },
     "media_grid_HwBKby": {
@@ -826,7 +837,7 @@
         "image_XRK9rV"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
         "desktop_row_height": 400,
         "mobile_row_height": 400,

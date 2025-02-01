@@ -35,9 +35,7 @@
 .flex-no-wrap {
   flex-wrap: nowrap;
 }
-.gap-5 {
-  gap: 5px;
-}
+
 
 .gap-20 {
   gap: 20px;

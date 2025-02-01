@@ -8,15 +8,15 @@
  * ------------------------------------------------------------
  */
 {
+  "layout": "theme.stories",
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "page_width": "full",
-        "hide_header": true,
-        "hide_page_content": true
+        "page_width": "full"
       }
     },
     "hero_with_logo_nPMzTc": {
@@ -132,6 +132,17 @@
     },
     "video_tVEdzM": {
       "type": "video",
+      "blocks": {
+        "play_fzRTc7": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "play_fzRTc7"
+      ],
       "settings": {
         "autoplay": false,
         "show_controls": true,
@@ -141,54 +152,6 @@
         "text_color": "#1c1c1c"
       }
     },
-    "image_with_text_7Xm8Cg": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_HiTgQk": {
-          "type": "heading",
-          "settings": {
-            "text": "RELEASE DETAILS",
-            "heading_tag": "h2"
-          }
-        },
-        "richtext_Pdk9a9": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>GENERAL RAFFLE:</strong> The general online EQL raffle for the collaborative footwear and apparel collections for all to enter is now available at amamaniere.com from 3.11 until 3.18. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear or apparel.<br/><br/>The apparel collections consist of the exclusive <strong>A Ma Maniére x Jordan 365 Essentials</strong> and the latest A Ma Maniére fleece assortments, both limited and available exclusively from A Ma Maniére with Mens sizing available from XS to 2XL.</p><p>Footwear is priced at $140 in Adult sizing ranging from Men’s 3.5/ Women’s 5 - Men’s 16/ Women’s 17.5 for the footwear and XS to 2XL for the apparel.</p><p><strong>International shipping available.</strong></p><p><strong>All available for purchase while supplies last.</strong></p>",
-            "text_color": "#eaeaea"
-          }
-        },
-        "countdown_cDXnhg": {
-          "type": "countdown",
-          "disabled": true,
-          "settings": {
-            "final_date": "21-04-2022",
-            "final_time": "15:00",
-            "start_countdown": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_HiTgQk",
-        "richtext_Pdk9a9",
-        "countdown_cDXnhg"
-      ],
-      "custom_css": [
-        ".container * {text-align: center;}",
-        ".text-secondary {font-family: var(--heading-font-family);}",
-        ".h3 {color: #eaeaea;}",
-        "#countdown {color: #eaeaea;}"
-      ],
-      "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/AIRSHIP_COUNTDOWN.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "lg",
-        "remove_vertical_spacing": false
-      }
-    },
     "media_grid_HwBKby": {
       "type": "media-grid",
       "blocks": {
@@ -196,7 +159,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AIRSHIP8.jpg",
+            "image": "shopify://shop_images/big_one.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -214,7 +177,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AIRSHIP15.jpg",
+            "image": "shopify://shop_images/shoes_detailed_1.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -232,7 +195,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AIRSHIP16.jpg",
+            "image": "shopify://shop_images/shoes_detailed_2.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -250,7 +213,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AIRSHIP4.jpg",
+            "image": "shopify://shop_images/shoes_detailed_4.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -268,7 +231,151 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AIRSHIP15.jpg",
+            "image": "shopify://shop_images/shoes_detailed_3.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eK3xXq": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/rows_2.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hh3P9q": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/columbus.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MtVTMw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/columbus_2.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rD8wGk": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/rows_7.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ncdWgR": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/rows_6.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_wk4k9T": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/columbus_3_7205cb24-d2a7-43fd-bd81-8ce05ef7c46e.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GwM9Jx": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/rows_1.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GiMUEE": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/rows_8.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -286,7 +393,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AIRSHIP5.jpg",
+            "image": "shopify://shop_images/btom_row_6.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -304,7 +411,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AIRSHIP13.jpg",
+            "image": "shopify://shop_images/btom_row_5.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -322,7 +429,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AIRSHIP6.jpg",
+            "image": "shopify://shop_images/rows_5.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -340,7 +447,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AIRSHIP12.jpg",
+            "image": "shopify://shop_images/btom_row_4.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -358,7 +465,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AIRSHIP11.jpg",
+            "image": "shopify://shop_images/bottom_hero.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -379,6 +486,14 @@
         "image_phtcL7",
         "image_azJwxY",
         "image_LfqrwC",
+        "image_eK3xXq",
+        "image_hh3P9q",
+        "image_MtVTMw",
+        "image_rD8wGk",
+        "image_ncdWgR",
+        "image_wk4k9T",
+        "image_GwM9Jx",
+        "image_GiMUEE",
         "image_YPima3",
         "image_3Db9UK",
         "image_MHAJQT",
@@ -386,7 +501,7 @@
         "image_iWhfJp"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
         "desktop_row_height": 390,
         "mobile_row_height": 180,
@@ -395,6 +510,54 @@
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "image_with_text_7Xm8Cg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HiTgQk": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére  Air Jordan 1",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Pdk9a9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The A Ma Maniére Air Jordan 1 is the latest sneaker collaboration with Jordan Brand, building on the tradition of classic, timeless luxury that anchors the A Ma Maniére brand. Featuring a fine cracked leather upper, snakeskin details and a quilted liner and collar now synonymous with the joining of the minds between A Ma Maniére and Jordan Brand design, this Air Jordan 1 is a piece to be celebrated and cherished for its special details and luxurious execution.</p>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "countdown_cDXnhg": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "final_date": "21-04-2022",
+            "final_time": "15:00",
+            "start_countdown": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HiTgQk",
+        "richtext_Pdk9a9",
+        "countdown_cDXnhg"
+      ],
+      "custom_css": [
+        ".container * {text-align: center;}",
+        ".h1 {font-weight: 700; font-family: \"Roboto\";}",
+        "#countdown {color: #eaeaea;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/last.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
       }
     },
     "media_grid_4MXqFL": {
@@ -859,6 +1022,7 @@
         "image_AkDTig",
         "image_XRK9rV"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
@@ -877,8 +1041,8 @@
     "hero_with_logo_nPMzTc",
     "images_board_VyznK3",
     "video_tVEdzM",
-    "image_with_text_7Xm8Cg",
     "media_grid_HwBKby",
+    "image_with_text_7Xm8Cg",
     "media_grid_4MXqFL"
   ]
 }

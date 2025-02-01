@@ -22,16 +22,16 @@
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
       "settings": {
-        "image": "shopify://shop_images/AJ5_HEADER_31ae242f-9f9d-401d-b1db-9ba46d63c436.jpg",
+        "image": "shopify://shop_images/AIRSHIP_HEADER_ca3e79cb-b679-4760-bbc7-c6ea4eecc155.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
-        "title": "A Ma Maniére x Air Jordan V",
+        "title": "A MA MANIÉRE X JORDAN AIR SHIP WHITE/BLACK & APPAREL COLLECTIONS",
         "title_color": "#ffffff",
         "title_color_mobile": "#ffffff",
-        "title_shadow": 17,
-        "title_shadow_mobile": 20,
-        "title_size": 29,
-        "title_size_mobile": 20,
-        "description": "Launches on A Ma Maniére on 11.24.23",
+        "title_shadow": 27,
+        "title_shadow_mobile": 30,
+        "title_size": 26,
+        "title_size_mobile": 34,
+        "description": "365 Essentials Apparel Capsule Collection",
         "description_color": "#ffffff",
         "description_color_mobile": "#ffffff",
         "description_shadow": 30,
@@ -44,7 +44,7 @@
         "button_background": "#efefef",
         "button_text_color": "#1c1c1c",
         "content_alignment": "center",
-        "horizontal_position": 84,
+        "horizontal_position": 45,
         "vertical_position": 0
       }
     },
@@ -96,12 +96,24 @@
     },
     "video_tVEdzM": {
       "type": "video",
+      "blocks": {
+        "play_4U677X": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "play_4U677X"
+      ],
       "settings": {
-        "autoplay": true,
+        "autoplay": false,
         "show_controls": true,
         "video_size": "fill",
-        "external_video_url": "https://youtu.be/Rn-B3ZBx7W0",
-        "text_color": "#ffffff"
+        "external_video_url": "https://youtu.be/Pb-YdBJrWr0?si=ZPoz0qEo_0Gy7pYt",
+        "poster": "shopify://shop_images/amma-jordan-video.png",
+        "text_color": "#1c1c1c"
       }
     },
     "image_with_text_7Xm8Cg": {
@@ -111,13 +123,13 @@
           "type": "heading",
           "settings": {
             "text": "RELEASE DETAILS",
-            "heading_tag": "h1"
+            "heading_tag": "h2"
           }
         },
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>GENERAL RAFFLE:</strong> The online EQL raffle for <strong>A Ma Maniére x Air Jordan V “Dawn” </strong>to enter, both US & international access, is available at amamaniere.com from 11.6 until 11.14. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear or apparel.</p><p><strong>GENERAL RAFFLE: </strong>The online EQL raffle of the <strong>A Ma Maniére x Air Jordan V “Dusk”</strong> for all to enter, both US & international access, is available at amamaniere.com from 11.14 until 11.21. Entries are limited to 1 per person.</p><p>The launch of the A Ma Maniére x Air Jordan V “Dawn” and \"Dusk\" collaborative A Ma Maniére x Jordan Brand Apparel Collection will take place on Friday November 24th at 11AM EST on amamaniere.com. </p><p>Footwear is priced at $225 for noth colorways. The <strong>\"Dawn\" </strong>colorway is in Women’s sizing ranging from W5/M3.5 - W16.5/M15, Preschool sizing priced at $100 ranging from 10.5C - 3Y, and Toddler sizing priced at $85 ranging from 2C - 10C. The <strong>\"Dusk\"</strong> colorway is in Men’s sizing ranging from M3.5/W5 - M16/W17.5. Apparel sizing will range from Men’s XS to 3XL with pricing varying across pieces.</p><p>All available for purchase while supplies last.</p><p><strong>PLEASE NOTE:</strong> SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "content": "<p><strong>GENERAL RAFFLE:</strong> The general online EQL raffle for The <strong>A MA MANIÉRE X JORDAN AIR SHIP WHITE/BLACK & APPAREL COLLECTIONS</strong> is available at amamaniere.com from 7.24 until 7.31. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear or apparel.<br/><br/>The apparel collections consist of the exclusive A Ma Maniére x Jordan 365 Essentials and the latest A Ma Maniére fleece assortments, both limited and available exclusively from A Ma Maniére with Mens sizing available from XS to 2XL.</p><p>Footwear is priced at $140 in Adult sizing ranging from Men’s 3.5/ Women’s 5 - Men’s 15/ Women’s 16.5 for the footwear and XS to 2XL for the apparel.</p><p><strong>International shipping available.</strong></p><p><strong>All available for purchase while supplies last.</strong></p>",
             "text_color": "#eaeaea"
           }
         },
@@ -127,7 +139,7 @@
           "settings": {
             "final_date": "21-04-2022",
             "final_time": "15:00",
-            "start_countdown": true
+            "start_countdown": false
           }
         }
       },
@@ -145,7 +157,7 @@
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/COUNTDOWN.jpg",
+        "image": "shopify://shop_images/AIRSHIP_COUNTDOWN_84fff3ad-a445-433f-a036-a7cae6d19a3a.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
@@ -160,9 +172,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AJ5_2_a790732c-88bd-4d53-b355-5736bd0ea095.jpg",
+            "image": "shopify://shop_images/AIRSHIP_1_01061fd9-bffc-4095-a534-620852956330.jpg",
             "column_count": "6",
-            "row_count": 2,
+            "row_count": 3,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -178,9 +190,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AJ5_1_39b2361a-1334-4a6d-b2b6-88ce1e4f9cf1.jpg",
+            "image": "shopify://shop_images/AIRSHIP_3_45f2455d-b86b-47e6-8f5d-ebf8ecb42322.jpg",
             "column_count": "3",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -196,9 +208,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AJ5_7_ee1f7f85-a820-412f-9014-a088ff3a96d7.jpg",
+            "image": "shopify://shop_images/AIRSHIP_2_1218fd63-6bcd-4048-ac72-0ffeeee80253.jpg",
             "column_count": "3",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -214,7 +226,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_6_140a3a56-a43e-4b80-9039-46e0bec0825f.jpg",
+            "image": "shopify://shop_images/AIRSHIP_5_f0cc8490-0434-4b26-999f-3c129178c6ad.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -232,7 +244,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_8_4e492843-225f-417c-bc8c-2b9a4fd99102.jpg",
+            "image": "shopify://shop_images/AIRSHIP_4_ffe90ae0-983b-481b-a89d-0d318ff268f4.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -250,9 +262,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_4_3d16dc85-9d83-4d28-abc1-6020fa6d6a93.jpg",
+            "image": "shopify://shop_images/AIRSHIP_10_baa2b32c-86ff-4ef6-9ebe-7b82cc0430fd.jpg",
             "column_count": "3",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -268,9 +280,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_10_3ac5996b-b7ac-46b9-8ee7-f44e53629e8b.jpg",
+            "image": "shopify://shop_images/AIRSHIP_8_896a71d7-72e0-40b4-9c1b-797ccffdcbf3.jpg",
             "column_count": "3",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -286,9 +298,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_5_30bb1deb-3569-4028-bbe3-5626fc1f013b.jpg",
+            "image": "shopify://shop_images/AIRSHIP_6_ddf1a745-2bdb-4375-8ffb-51944d76f0fa.jpg",
             "column_count": "6",
-            "row_count": 2,
+            "row_count": 3,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -304,7 +316,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_11.jpg",
+            "image": "shopify://shop_images/AIRSHIP_9_4136f95d-01dc-4615-af9e-62bf9e2ae902.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -322,7 +334,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_9_bba6c3b0-ec67-4a36-8547-3b21537c7901.jpg",
+            "image": "shopify://shop_images/AIRSHIP_7_cb7e0a62-3322-41b1-a60b-7089f60f1b5a.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -368,14 +380,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-1_df06f208-ff68-47c4-aea2-f64e5adcdb3a.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-1_240e3f2a-6ddb-4011-91f2-e5c9d7267f66.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "",
+            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-air-ship-whitegreen",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -386,7 +398,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-4_34c2217c-6824-4b0f-b1bc-87381af5f83f.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-2_08b1e2d4-1dc8-43a5-a480-084c04c00f2a.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -404,7 +416,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-5_d334920f-1fec-4006-a63b-b753260f18de.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-3_0f8d933e-05a0-4681-a757-7976afd6a571.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -422,9 +434,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-2_b56faecb-fd47-4618-814e-f583c9d4c604.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-4_60336654-7f8e-4378-838d-429ee6e5a62c.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -440,7 +452,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-2_b56faecb-fd47-4618-814e-f583c9d4c604.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-5_3a6553ac-32d7-404a-b0ff-a23e2747d64d.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -458,9 +470,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-6_bad3282d-53a7-407d-a13e-0000c2060fb1.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-6_5d7cd09e-d424-4f67-802b-889af90b6741.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -476,9 +488,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-7_54984e9b-77f5-433e-b999-b4f696479b1e.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-7_629b6eb9-5697-4af9-9dfb-64d8d3f13a82.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -494,7 +506,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-8_f5377f30-8204-41e2-bd9a-5ce26c51d776.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-9_ff3d771c-65df-4516-b030-5a35cdd99c2e.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -512,7 +524,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5SAND-9_df070aa9-79ed-4aee-bece-44e1a902adba.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-11_c399ef83-90cc-42bb-96d6-8196accc0fd2.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -530,9 +542,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-1_a96d2fc5-bdfe-4277-80e3-78f21c581e5e.jpg",
+            "image": "shopify://shop_images/AMMAIRSHIPBLACK-10_8d61d3fc-81b0-4bf1-9c85-c51933dca030.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -548,9 +560,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-4_d1d3cf80-63e8-445a-8b81-61c311845631.jpg",
+            "image": "shopify://shop_images/AMMXAIRSHIPGREEN-8.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -566,14 +578,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-5_8a96cfb5-e499-464e-aa49-8b625779ce0b.jpg",
+            "image": "shopify://shop_images/FB1360-202_1_d970ad58-584e-4757-b5ec-63c73e8f6707.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "",
+            "link_url": "https://a-ma-maniere.runfair.com/en-GB/us/a-ma-maniere-cursive-hoodie",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -584,9 +596,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-2_1cc19bab-dabb-41c9-b215-9113d2355013.jpg",
+            "image": "shopify://shop_images/FB1360-034_1_e8a33304-fbaf-44f6-8fc1-f2e8e3c0988d.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -602,9 +614,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-3_18bfda09-7184-4a2c-ba50-ff4a272f380a.jpg",
+            "image": "shopify://shop_images/FB1360-010_1_ed425e2a-e93b-4d61-b317-4a2a6217a6ea.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -620,9 +632,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-6_5f149220-313d-4e50-829d-9d6bc56258e7.jpg",
+            "image": "shopify://shop_images/FD2347-202_1_72677c45-9896-4d47-8090-e4cb74199cba.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -638,7 +650,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-7_bb8694c3-3402-4f0f-8115-f218abde5278.jpg",
+            "image": "shopify://shop_images/FD2347-034_1_b76bf7ac-2a57-41dc-80a6-f0933ceaaebc.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -656,9 +668,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-6_5f149220-313d-4e50-829d-9d6bc56258e7.jpg",
+            "image": "shopify://shop_images/FB1358-202_1_37982c76-1b70-4e03-b8b5-3b8e46f030dd.jpg",
             "column_count": "4",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -674,151 +686,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-12_da68d6ba-6beb-48e8-b05a-2763db012833.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_gr4brp": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FN0617-010_1_233b92c7-5b23-43ba-8ac6-37744ac5c4d9.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_iw3ccU": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FN0613-010_1_6aa48dfa-9e9b-4452-b37e-5c60472522bf.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_iJKWzA": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FN0611-010_1_ab98b964-73ad-4dde-a43f-bbe3ab50fb18.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_pcjWCB": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FQ8956-104_1_77f58f58-8d90-4b74-877e-f40920fd7911.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_AkDTig": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FN0615-010_1_ba18e340-4291-4ef4-8f37-84f9de1628eb.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_XRK9rV": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FN0610-101_1_dc369da8-8cc8-45a9-921c-cddcd1866cab.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_TnEGVi": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FN0610-104_1_0d3cf02a-e31b-43a7-b494-7689d4066c63.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_PzUHnj": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/FN0610-461_1_bc31623d-927b-431d-92ef-0e4fa3bc07aa.jpg",
+            "image": "shopify://shop_images/FB1358-010_1_39434367-9247-401f-bea3-66c8f3d8da8d.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -851,15 +719,7 @@
         "image_EQM3bg",
         "image_r6bAFX",
         "image_y9iANr",
-        "image_LQiKdf",
-        "image_gr4brp",
-        "image_iw3ccU",
-        "image_iJKWzA",
-        "image_pcjWCB",
-        "image_AkDTig",
-        "image_XRK9rV",
-        "image_TnEGVi",
-        "image_PzUHnj"
+        "image_LQiKdf"
       ],
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
