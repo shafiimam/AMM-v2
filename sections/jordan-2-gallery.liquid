@@ -1,0 +1,191 @@
+<script defer type="text/javascript" src="{{ 'image-board-animation.aio.min.js' | asset_url }}"></script>
+<div class="content">
+  <div class="grid">
+    {% assign counter1 = 0 %}
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'image' %}
+          {% assign counter = counter | plus: 1 %}
+          <div {{ block.shopify_attributes }} class="grid__item pos-{{ counter }}">
+            <div
+              class="grid__item-img"
+              style="background-image:url({{ block.settings.image | img_url: 'master' }});"
+              data-aos="fade-in"
+              data-aos-delay="0"
+              data-aos-duration="2000"
+            ></div>
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="text-content">
+  <h2 data-aos="fade-down" data-aos-delay="800">{{ section.settings.textarea_1 }}</h2>
+  <h2 data-aos="fade-up" data-aos-delay="800">{{ section.settings.textarea_2 }}</h2>
+</div>
+<style>
+  section.gallery {
+     position: relative;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-image: url('{{ "jordan-2-gallery-bg-image.png" | file_url }}');
+     background-color: #f3eee2;
+     overflow: hidden;
+     height: 100vh;
+     width: 100%;
+   }
+
+   section.gallery .content {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100vh;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+   }
+
+   @media (min-width: 53em) {
+     section.gallery .content {
+       height: 100%;
+       justify-content: center;
+       max-height: none;
+     }
+   }
+
+   section.gallery .grid {
+     pointer-events: none;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0%;
+     left: 0%;
+     display: grid;
+     grid-template-columns: repeat(50, 2%);
+     grid-template-rows: repeat(50, 2%);
+   }
+
+   section.gallery .grid__item {
+     position: relative;
+   }
+
+   section.gallery .grid__item-img {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+   }
+
+   section.gallery .pos-1 {
+     grid-area: 20 / 1 / 36 / 9;
+   }
+
+   @media (max-width: 639px) {
+     section.gallery .pos-1 {
+       grid-area: 17 / 1 / 36 / 22;
+     }
+   }
+
+   section.gallery .pos-2 {
+     grid-area: 3 / 23 / 18 / 29;
+   }
+
+   @media (max-width: 639px) {
+     section.gallery .pos-2 {
+       grid-area: 1 / 18 / 15 / 35;
+     }
+   }
+
+   section.gallery .pos-3 {
+     grid-area: 8 / 44 / 17 / 53;
+   }
+
+   @media (max-width: 639px) {
+     section.gallery .pos-3 {
+       grid-area: 13 / 34 / 18 / 59;
+     }
+   }
+
+   section.gallery .pos-4 {
+     grid-area: 29 / 42 / 48 / 53;
+   }
+
+   @media (max-width: 639px) {
+     section.gallery .pos-4 {
+       grid-area: 32 / 33 / 48 / 59;
+     }
+   }
+
+   section.gallery .text-content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 100%;
+     text-align: center;
+   }
+
+   section.gallery .text-content h2 {
+     font-family: Amiri, serif;
+     font-weight: 600;
+     font-size: 50px;
+     line-height: 1;
+     letter-spacing: 0.015em;
+     color: #401622;
+   }
+
+   section.gallery .text-content h2:first-child {
+     margin-bottom: 10px;
+   }
+
+   @media (max-width: 639px) {
+     section.gallery .text-content h2 {
+       font-size: 24px;
+     }
+   }
+</style>
+{% schema %}
+{
+  "name": "Jordan 2 Gallery",
+  "tag": "section",
+  "class": "gallery",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "textarea_1",
+      "label": "Text area #1",
+      "default": "This Moment is For You,"
+    },
+    {
+      "type": "textarea",
+      "id": "textarea_2",
+      "label": "Text area #2",
+      "default": "This Journey is For You."
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Image",
+      "type": "image",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Sections",
+      "name": "Jordan 2 Gallery"
+    }
+  ]
+}
+{% endschema %}

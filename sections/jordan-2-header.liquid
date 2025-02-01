@@ -1,0 +1,219 @@
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<div class="grid-container container">
+   <a href="{{ routes.root_url }}" class="logo">
+     <img loading="lazy" src="{{ 'jordan-2-logo.svg' | file_url }}" alt="jordan-logo">
+   </a>
+ </div>
+ 
+ {% assign delay = section.settings.delay %}
+ 
+ <div class="images">
+   {% for block in section.blocks %}
+     {% case block.type %}
+       {% when "image" %}
+ 
+         <img 
+           {{ block.shopify_attributes }}
+           style="z-index: {{ forloop.index }};"
+           class="{% if forloop.last %}last{% endif %}"
+           src="{{ block.settings.image | img_url: 'master' }}" 
+           alt="{{ block.settings.image.alt }}" 
+           loading="lazy"
+           
+           data-aos="custom-fade-in" 
+           data-aos-delay="{{ delay }}"
+           data-aos-duration="200"
+           
+           >
+         {% assign delay = delay | plus: 150 %}
+ 
+     {% endcase %}
+   {% endfor %}
+ </div>
+ 
+ <a {% if section.settings.url != blank %}href="{{ section.settings.url }}"{% endif %} class="text-content">
+   <h1 data-aos="fade-down" data-aos-delay="{{ delay }}">{{ section.settings.textarea_1 }}</h2>
+   <p data-aos="fade-up" data-aos-delay="{{ delay }}">{{ section.settings.textarea_2 }}</p>
+ </a>
+ <script>
+  document.addEventListener('DOMContentLoaded', () => {
+   AOS.init();
+  })
+ </script>
+ <style>
+   header {
+      position: relative;
+      background-color: #f3eee2;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url('{{ "jordan-2-new-bg-image-black-rz1-min.jpg" | file_url }}');
+      overflow: hidden;
+      height: 100vh;
+    }
+    
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 20;
+      background-color: transparent;
+      animation: anim-before-fade-in 2s ease-in-out 1 forwards;
+    }
+    
+    header .grid-container {
+      position: relative;
+      max-width: 1440px;
+      width: 100%;
+      z-index: 30;
+    }
+    
+    header .logo {
+      display: block;
+      margin-top: 25px;
+    }
+    
+    header .images img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+    }
+    
+    header .images img:not(.last):nth-child(odd) {
+      transform: translate(-50%, -50%) rotate(15deg);
+    }
+    
+    header .images img:not(.last):nth-child(even) {
+      transform: translate(-50%, -50%) rotate(-15deg);
+    }
+    
+    @media (max-width: 639px) {
+      header .images img:not(.last) {
+        width: 60%;
+      }
+    }
+    
+    header .images img[data-aos="custom-fade-in"] {
+      opacity: 0;
+      transition-property: opacity;
+    }
+    
+    header .images img[data-aos="custom-fade-in"].aos-animate {
+      opacity: 1;
+    }
+    
+    header .text-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 30;
+      width: 100%;
+      text-align: center;
+      display: block;
+      cursor: default;
+      padding: 0 15px;
+    }
+    
+    header .text-content[href] {
+      cursor: pointer;
+      transition: opacity 0.3s linear;
+    }
+    
+    header .text-content[href]:hover {
+      transition: opacity 0.3s linear;
+      opacity: 0.8;
+    }
+    
+    header .text-content h1 {
+      font-family: "Amiri", serif;
+      font-weight: 600;
+      font-size: 52px;
+      line-height: 1;
+      letter-spacing: 0.015em;
+      color: #ffffff;
+      margin-bottom: 25px;
+    }
+    
+    @media (max-width: 639px) {
+      header .text-content h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+    }
+    
+    header .text-content p {
+      font-family: "Amiri", serif;
+      font-size: 28px;
+      line-height: 1.4;
+      letter-spacing: 0.015em;
+      color: #ffffff;
+      max-width: 600px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    @keyframes anim-before-fade-in {
+      to {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    }
+ </style>
+ {% schema %}
+ {
+   "name": "Jordan 2 Header",
+   "tag": "header",
+   "settings": [
+     {
+       "type": "textarea",
+       "id": "textarea_1",
+       "label": "Text area #1",
+       "default": "A Ma Maniere x Air Jordan 2"
+     },
+     {
+       "type": "textarea",
+       "id": "textarea_2",
+       "label": "Text area #2",
+       "default": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+     },
+     {
+       "type": "url",
+       "id": "url",
+       "label": "URL"
+     },
+     {
+       "type": "text",
+       "id": "delay",
+       "label": "Delay",
+       "default": "150"
+     }
+   ],
+   "blocks": [
+     {
+       "type": "image",
+       "name": "Image",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ],
+   "presets": [
+     {
+       "category": "Sections",
+       "name": "Jordan 2 Header"
+     }
+   ]
+ }
+ {% endschema %}

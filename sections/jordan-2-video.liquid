@@ -1,0 +1,42 @@
+<iframe
+  type="text/html"
+  src="https://www.youtube.com/embed/{{section.settings.youtube_video.id}}?enablejsapi=1&origin={{shop.url}}&modestbranding=1&disablekb=1&fs=0&iv_load_policy=3&rel=0&showinfo=0&playlist={{section.settings.youtube_video.id}}&controls=0"
+  frameborder="0"
+>
+</iframe>
+<style>
+  section.video {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(//www.a-ma-maniere.com/cdn/shop/files/jordan-2-new-bg-image-black-rz1-min.jpg?v=9103533040510628696);
+    overflow: hidden;
+  }
+  section.video iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    aspect-ratio: 16 / 9;
+  }
+</style>
+{% schema %}
+{
+  "name": "Jordan 2 Video",
+  "tag": "section",
+  "class": "video",
+  "settings": [
+    {
+      "type": "video_url",
+      "id": "youtube_video",
+      "accept": ["youtube"],
+      "label": "Youtube"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Jordan 2 Video"
+    }
+  ]
+}
+{% endschema %}

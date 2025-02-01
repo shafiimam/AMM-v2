@@ -1,0 +1,85 @@
+<div class="marquee">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'image' %}
+        <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.image.alt }}">
+    {% endcase %}
+  {% endfor %}
+</div>
+<script>
+  /*
+Generated time: July 25, 2022 12:49
+This file was created by the app developer. Feel free to contact the original developer with any questions. It was minified (compressed) by AVADA. AVADA do NOT own this script.
+*/
+  (window.theme = window.theme || {}),
+    (theme.utils = function () {
+      AOS.init({ duration: 450 }),
+        0 < $('.marquee').length &&
+          $('.marquee').marquee({
+            duration: 45e3,
+            delayBeforeStart: 0,
+            direction: 'left',
+            duplicated: !0,
+            startVisible: !0,
+          });
+    }),
+    (theme.init = function () {
+      theme.utils();
+    }),
+    $(function () {
+      theme.init();
+    });
+</script>
+<style>
+  section.infinite-images {
+    background: #faf4e9;
+    padding: 90px 0;
+    overflow: hidden;
+  }
+  section.infinite-images .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  section.infinite-images .marquee .js-marquee-wrapper {
+    display: flex;
+    align-items: center;
+    will-change: transform;
+  }
+  section.infinite-images .marquee .js-marquee-wrapper .js-marquee {
+    display: flex;
+    align-items: center;
+  }
+  section.infinite-images .marquee img {
+    display: inline-block;
+    width: auto;
+    max-width: none;
+    padding: 10px;
+  }
+</style>
+{% schema %}
+{
+  "name": "Jordan 2 Infinite Images",
+  "tag": "section",
+  "class": "infinite-images",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Jordan 2 Infinite Images"
+    }
+  ]
+}
+{% endschema %}

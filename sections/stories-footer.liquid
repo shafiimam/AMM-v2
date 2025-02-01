@@ -65,6 +65,9 @@
     background-position: center bottom;
     overflow: hidden;
     padding: 100px 30px;
+    {% if section.settings.background-image != blank %}
+      background-image: url({{ section.settings.background-image | img_url: 'master' }});
+    {% endif %}
   }
   .footer-newsletter {
     width: 100%;
@@ -95,7 +98,7 @@
     font-size: 20px;
     margin: 0;
     @media screen and (max-width: 600px) {
-       text-align: center;
+      text-align: center;
     }
   }
 
@@ -187,6 +190,11 @@
   "name": "Stories Footer",
   "tag": "footer",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "background-image",
+      "label": "Background Image"
+    },
     {
       "type": "textarea",
       "id": "title",
