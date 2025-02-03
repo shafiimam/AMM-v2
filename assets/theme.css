@@ -1,4 +1,3 @@
-
 *,
 :before,
 :after {
@@ -315,8 +314,8 @@ height-observer {
   align-content: start;
   gap: 1.25rem;
   display: grid;
-  border: 1px solid #E8E8E8;
-  background: #FEFEFE;
+  border: 1px solid #e8e8e8;
+  background: #fefefe;
 }
 a.blog-post-card__title.h4 {
   color: #000;
@@ -328,7 +327,7 @@ a.blog-post-card__title.h4 {
   text-transform: uppercase;
 }
 p.blog-post-card__excerpt {
-  color: #6D6D6D;
+  color: #6d6d6d;
   font-family: var(--text-font-family);
   font-size: 14px;
   font-style: normal;
@@ -627,7 +626,8 @@ shopify-accelerated-checkout-cart {
     animation: 0.35s ease-in-out forwards animateIconInline;
   }
 
-  .circle-button.hover\:animate-icon-block:hover svg , .transparent-button.hover\:animate-icon-block:hover svg {
+  .circle-button.hover\:animate-icon-block:hover svg,
+  .transparent-button.hover\:animate-icon-block:hover svg {
     animation: 0.5s ease-in-out forwards animateIconBlock;
   }
 }
@@ -661,10 +661,12 @@ shopify-accelerated-checkout-cart {
     --content-over-media-column-gap,
     var(--content-over-media-gap)
   );
-  grid-template: [full-start] 0 [content-start] minmax(0, 1fr) [content-end] 0 [full-end] / [full-start] minmax(
+  grid-template:
+    [full-start] 0 [content-start] minmax(
       0,
       1fr
-    ) [content-start] minmax(
+    ) [content-end] 0 [full-end] / [full-start] minmax(0, 1fr)
+    [content-start] minmax(
       0,
       min(
         var(--container-max-width),
@@ -674,7 +676,8 @@ shopify-accelerated-checkout-cart {
             var(--content-over-media-gap, var(--container-gutter))
           ) * 2
       )
-    ) [content-end] minmax(0, 1fr) [full-end];
+    )
+    [content-end] minmax(0, 1fr) [full-end];
   row-gap: var(--content-over-media-calculated-row-gap);
   column-gap: var(--content-over-media-calculated-column-gap);
   /* min-height: var(--content-over-media-height, auto); */
@@ -1760,7 +1763,7 @@ shopify-accelerated-checkout-cart {
 .container--xl {
   --container-max-width: var(--container-xl-max-width);
 }
-.container-full{
+.container-full {
   --container-max-width: 100%;
 }
 
@@ -2440,7 +2443,7 @@ model-media .shopify-model-viewer-ui {
   gap: 1.25rem;
   display: grid;
   position: relative;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
 }
 
 .product-card__figure {
@@ -3119,7 +3122,7 @@ tr[onclick]:hover {
 
 .social-media--list {
   align-items: center;
-  gap: var(--social-media-list-gap, 0.75rem 2rem);
+  gap: 30px;
   flex-wrap: wrap;
   display: flex;
 }
@@ -3130,7 +3133,7 @@ tr[onclick]:hover {
 }
 
 .social-media--list svg {
-  width: var(--social-media-icon-size, 1.25rem);
+  width: 24px;
 }
 
 @media screen and (pointer: fine) {
@@ -3580,8 +3583,8 @@ tr[onclick]:hover {
 }
 
 .country-flag {
-  width: 20px;
-  height: 15px;
+  width: 41px;
+  height: 22px;
 }
 
 .payment-methods {
@@ -3606,7 +3609,6 @@ tr[onclick]:hover {
 .badge--on-sale {
   background: rgb(var(--on-sale-badge-background));
   color: rgb(var(--on-sale-badge-text));
-  
 }
 
 .badge--sold-out {
@@ -4936,7 +4938,7 @@ product-rerender {
 }
 
 .footer__inner {
-  row-gap: min(var(--section-vertical-spacing), 3rem);
+  row-gap: 30px;
   display: grid;
 }
 
@@ -4953,6 +4955,13 @@ product-rerender {
   align-items: center;
   gap: 1.5rem;
   display: grid;
+  padding-top: 30px;
+  border-top: 1px solid #e7e7e7;
+}
+@media screen and (max-width: 1000px) {
+  .footer__aside .h-stack {
+    grid-area: 2/-1;
+  }
 }
 
 .footer__aside .payment-methods {
@@ -5235,7 +5244,8 @@ product-rerender {
 .header__logo-image {
   width: var(--header-logo-width);
   max-width: 100%;
-  height: auto;
+  min-height: 36px;
+  min-width: 161px;
 }
 
 .header__logo-image:where(:not(:only-of-type)) {
@@ -5325,7 +5335,7 @@ product-rerender {
 
 @media screen and (min-width: 700px) {
   .header__secondary-nav {
-    column-gap: 1.25rem;
+    column-gap: 30px;
   }
 }
 
@@ -5886,6 +5896,7 @@ product-rerender {
 .image-with-text {
   display: grid;
   overflow: hidden;
+  justify-content: space-between;
 }
 
 .image-with-text > .prose {
@@ -5903,8 +5914,14 @@ product-rerender {
 }
 
 @media screen and (max-width: 699px) {
+  image-with-text.container.image-with-text {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .image-with-text > .prose {
-    margin-inline: auto;
+    margin-inline: 0;
+    padding-inline: 0;
+    margin-block-end: 60px;
   }
 }
 
@@ -6634,7 +6651,7 @@ product-rerender {
   border-block-width: 1px;
   justify-content: space-between;
   align-items: center;
-  padding-block : 25px;
+  padding-block: 25px;
   display: flex;
 }
 
@@ -7020,11 +7037,11 @@ product-rerender {
 }
 
 .slideshow__next-section-button {
-    z-index: 2;
-    position: absolute;
-    /* inset-block-end: calc(-1 * var(--circle-button-size) / 2); */
-    inset-inline-start: calc(50% - 3.125rem / 2);
-    bottom: 10px;
+  z-index: 2;
+  position: absolute;
+  /* inset-block-end: calc(-1 * var(--circle-button-size) / 2); */
+  inset-inline-start: calc(50% - 3.125rem / 2);
+  bottom: 10px;
 }
 
 .shopify-section:has(.slideshow__next-section-button) + .shopify-section {
@@ -7198,7 +7215,7 @@ product-rerender {
 }
 
 :is(.timeline__carousel, .timeline__item) > * {
-  grid-area: 1 / -1;
+  grid-area: 1 / 0;
 }
 
 .timeline__item:not(.is-selected) {
@@ -7207,12 +7224,12 @@ product-rerender {
 
 .timeline__item-image-wrapper {
   overflow: hidden;
-  width: 100%;	
+  width: 100%;
 }
 
-.timeline__item-image-wrapper :is(img, svg) {
+/* .timeline__item-image-wrapper :is(img, svg) {
   scale: 1.05;
-}
+} */
 
 .timeline__item-content {
   padding: var(--container-gutter);
@@ -7220,7 +7237,7 @@ product-rerender {
 
 @media screen and (max-width: 699px) {
   .shopify-section--timeline {
-    --section-vertical-spacing: 0;
+    --section-vertical-spacing: 80px;
     border-block-start-width: 0;
   }
 
@@ -7228,12 +7245,12 @@ product-rerender {
     position: relative;
   }
 
-  .timeline__carousel:after {
+  /* .timeline__carousel:after {
     content: "";
     background: #0006;
     position: absolute;
     inset: 0;
-  }
+  } */
 
   .timeline__item {
     --text-color: var(--timeline-item-mobile-text-color);

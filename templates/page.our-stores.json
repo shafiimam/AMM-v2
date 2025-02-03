@@ -62,47 +62,60 @@
         "separate_section_with_border": false
       }
     },
+    "rich_text_UYXhGi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HGrPYa": {
+          "type": "heading",
+          "settings": {
+            "text": "Schedule your personal shopping experience with us.",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HGrPYa"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "list_column_aAz7bE": {
       "type": "list-column",
       "blocks": {
-        "list_item_A3XHDw": {
-          "type": "list_item",
-          "settings": {
-            "item_text": "100 Market Street San Francisco, CA 94105 USA",
-            "button_link": "",
-            "button_text": "VISIT THIS STORE"
-          }
-        },
         "list_item_i3Pycr": {
           "type": "list_item",
           "settings": {
-            "item_text": "100 Market Street San Francisco, CA 94105 USA",
-            "button_link": "",
-            "button_text": "VISIT THIS STORE"
-          }
-        },
-        "list_item_JY7gtz": {
-          "type": "list_item",
-          "settings": {
-            "item_text": "100 Market Street San Francisco, CA 94105 USA",
-            "button_link": "",
-            "button_text": "VISIT THIS STORE"
+            "item_text": "969 Marietta St NW #200, Atlanta, GA 30318, USA",
+            "button_link": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
+            "button_text": "BOOK NOW"
           }
         },
         "list_item_9WfXdL": {
           "type": "list_item",
           "settings": {
-            "item_text": "100 Market Street San Francisco, CA 94105 USA",
-            "button_link": "",
-            "button_text": "VISIT THIS STORE"
+            "item_text": "1214 H St NE, Washington, DC 20002, USA",
+            "button_link": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4891101",
+            "button_text": "BOOK NOW"
+          }
+        },
+        "list_item_JY7gtz": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "3300 Kirby Dr #6a, Houston, TX 77098, USA",
+            "button_link": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4891086",
+            "button_text": "BOOK NOW"
           }
         }
       },
       "block_order": [
-        "list_item_A3XHDw",
         "list_item_i3Pycr",
-        "list_item_JY7gtz",
-        "list_item_9WfXdL"
+        "list_item_9WfXdL",
+        "list_item_JY7gtz"
       ],
       "settings": {
         "separate_section_with_border": false
@@ -117,8 +130,8 @@
             "title": "<strong>SUPPORT</strong>",
             "heading_tag": "text-base",
             "content": "<p>Our friendly team is here to help.</p>",
-            "link_url": "mailto:support@untitledui.com",
-            "link_text": "support@untitledui.com"
+            "link_url": "mailto:info@a-ma-maniere.com",
+            "link_text": "info@a-ma-maniere.com"
           }
         },
         "image_with_text_NmHnUK": {
@@ -167,56 +180,33 @@
         "location_rjmt6U": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Atlanta",
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
           }
         },
         "location_mgfyeK": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Houston",
+            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
           }
         },
-        "location_GngVq6": {
+        "location_Yx4LpJ": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_kHDTt8": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_eiHPd3": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street</p><p>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_kdUq6F": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street</p><p>San Francisco, CA 94105 USA</p>"
+            "title": "Washington",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
           }
         }
       },
       "block_order": [
         "location_rjmt6U",
         "location_mgfyeK",
-        "location_GngVq6",
-        "location_kHDTt8",
-        "location_eiHPd3",
-        "location_kdUq6F"
+        "location_Yx4LpJ"
       ],
       "settings": {
-        "desktop_image": "shopify://shop_images/beach-banner.png",
+        "desktop_image": "shopify://shop_images/Rectangle_93.png",
+        "mobile_image": "shopify://shop_images/Contact_sections_mobile.png",
         "title": "Visit our Beach",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "button_url": "",
@@ -227,6 +217,7 @@
   "order": [
     "main",
     "image_hotspot_3KfiCc",
+    "rich_text_UYXhGi",
     "list_column_aAz7bE",
     "multi_column_ALjRPH",
     "beach_location_banner_ERteFX"

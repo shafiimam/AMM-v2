@@ -15,9 +15,7 @@
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "page_width": "xs",
-        "hide_header": false,
-        "hide_page_content": false
+        "page_width": "xs"
       }
     },
     "rich_text_xwKKEF": {
@@ -73,7 +71,7 @@
           "type": "heading",
           "settings": {
             "text": "Simply Elegant",
-            "heading_font_size": 10,
+            "heading_font_size": 1,
             "heading_tag": "h1"
           }
         },
@@ -159,7 +157,8 @@
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     },
     "featured_collections_e4qJwn": {

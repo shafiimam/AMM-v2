@@ -131,7 +131,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "subheading": "",
         "title": "Adidas Samba og",
         "content": "<p>Choose your Color</p>",
@@ -261,7 +261,7 @@
             "link_text": "Learn More",
             "link_url": "shopify://pages/about-us-1",
             "link_style": "solid",
-            "mobile_text_color": "#ffffff"
+            "mobile_text_color": "#8f8f8f"
           }
         }
       },
@@ -271,8 +271,8 @@
       "settings": {
         "title": "About Us",
         "title_background": "shopify://shop_images/Frame_51.png",
-        "color_scheme": "",
-        "item_color_scheme": "",
+        "color_scheme": "scheme-1",
+        "item_color_scheme": "scheme-1",
         "separate_section_with_border": false
       }
     },
@@ -314,6 +314,7 @@
         "richtext_77aMhV",
         "richtext_f3Km44"
       ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -321,7 +322,8 @@
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
       }
     },
     "text_with_icons_nKDVet": {

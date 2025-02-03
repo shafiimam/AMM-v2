@@ -36,7 +36,6 @@
   flex-wrap: nowrap;
 }
 
-
 .gap-20 {
   gap: 20px;
 }
@@ -166,8 +165,18 @@ span.smartwishlist .fa {
 button.localization-toggle span {
   font-family: "Roboto";
   letter-spacing: 1.4px;
+  color: #8f8f8f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
 }
-
+.localization-toggle > svg {
+  width: 15px;
+  height: 15px;
+}
 /* footer link menu */
 .footer-link-menu-title {
   font-family: var(--text-font-family);
@@ -178,6 +187,7 @@ button.localization-toggle span {
 li.header__primary-nav-item summary,
 li.header__primary-nav-item a {
   font-family: var(--text-font-family);
+  font-size: var(--text-base);
 }
 /* product page */
 sale-price.h4 {
@@ -416,4 +426,21 @@ button.glider-next {
   line-height: normal;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 800px) {
+  .timeline__item-content {
+    padding-left: 0px;
+    padding-right: 100px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .timeline__item-image-wrapper {
+    padding-inline: 3.75rem;
+    padding-inline: 1rem;
+  }
+}
+
+.footer__block.footer__block--newsletter {
+  grid-column: span 2;
 }

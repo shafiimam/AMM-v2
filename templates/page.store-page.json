@@ -249,7 +249,8 @@
         "richtext_EUAmG9": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#8f8f8f"
           }
         }
       },
@@ -257,16 +258,19 @@
         "heading_McaCUH",
         "richtext_EUAmG9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/tshirts.jpg",
-        "mobile_image": "shopify://shop_images/Content_item.png",
+        "image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
+        "mobile_image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "md",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": true,
+        "remove_top_padding": true
       }
     },
     "featured_collections_wzB8F7": {
@@ -324,6 +328,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
+        "title": "Meet Our Staff",
         "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
@@ -359,6 +364,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
+        "title": "",
         "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
@@ -394,6 +400,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
+        "title": "",
         "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
@@ -406,14 +413,14 @@
     "beach_location_banner_nGbcUy": {
       "type": "beach-location-banner",
       "blocks": {
-        "location_FEgwWB": {
+        "location_piNTD3": {
           "type": "location",
           "settings": {
             "title": "San Francisco",
             "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
           }
         },
-        "location_qEzWTN": {
+        "location_kJYYEU": {
           "type": "location",
           "settings": {
             "title": "San Francisco",
@@ -426,28 +433,76 @@
             "title": "San Francisco",
             "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
           }
-        },
-        "location_pYPkiP": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
         }
       },
       "block_order": [
-        "location_FEgwWB",
-        "location_qEzWTN",
-        "location_rE4pGP",
-        "location_pYPkiP"
+        "location_piNTD3",
+        "location_kJYYEU",
+        "location_rE4pGP"
       ],
       "settings": {
-        "desktop_image": "shopify://shop_images/beach-banner.png",
+        "desktop_image": "shopify://shop_images/Rectangle_93.png",
         "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
         "title": "Visit our Beach",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "button_url": "",
         "button_text": "Learn More"
+      }
+    },
+    "multi_column_AG6HP7": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_phrQyX": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Support",
+            "heading_tag": "text-base",
+            "content": "<p>Our friendly team is here to help.</p>",
+            "link_url": "mailto:support@untitledui.com",
+            "link_text": "support@untitledui.com"
+          }
+        },
+        "image_with_text_3B8fyx": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Sales",
+            "heading_tag": "text-base",
+            "content": "<p>Questions or queries? Get in touch!</p>",
+            "link_url": "mailto:sales@untitledui.com",
+            "link_text": "sales@untitledui.com"
+          }
+        },
+        "image_with_text_yMbUVf": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Phone",
+            "heading_tag": "text-base",
+            "content": "<p>Mon-Fri from 8am to 5pm.</p>",
+            "link_url": "tel:+1 (555) 000-0000",
+            "link_text": "+1 (555) 000-0000"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_phrQyX",
+        "image_with_text_3B8fyx",
+        "image_with_text_yMbUVf"
+      ],
+      "custom_css": [
+        ".text-base {font-weight: bold; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     }
   },
@@ -462,6 +517,7 @@
     "eployee_with_collection_mn8nDL",
     "eployee_with_collection_z3TxTy",
     "eployee_with_collection_FYHyHH",
-    "beach_location_banner_nGbcUy"
+    "beach_location_banner_nGbcUy",
+    "multi_column_AG6HP7"
   ]
 }

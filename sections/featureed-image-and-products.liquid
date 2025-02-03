@@ -56,7 +56,7 @@
      background-size: contain;
      background-repeat: no-repeat;
      position: absolute;
-     height: calc(100vh - var(--header-height, 0px));
+     height: 100%;
      width: 100%;
   }
   .title-container .h2{
@@ -76,6 +76,9 @@
       max-width: 1270px;
       margin: 0 auto;
       padding: 0 20px 157px 20px;
+      @media screen and (max-width: 699px) {
+        padding-bottom: 60px;
+      }
    }
    .products-container .product-card{
       border: 1px solid #E8E8E8;

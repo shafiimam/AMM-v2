@@ -26,6 +26,14 @@
             "button_text_color": ""
           }
         },
+        "links_aYeMKk": {
+          "type": "links",
+          "settings": {
+            "menu": "our-stores",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -53,6 +61,7 @@
       },
       "block_order": [
         "newsletter",
+        "links_aYeMKk",
         "links",
         "links_GazYEC",
         "links_HTje7z"
