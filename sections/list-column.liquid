@@ -10,8 +10,15 @@
 <div class="list-column section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
   <div class="container container--full list-column-content">
     {% for block in section.blocks %}
-      <div class="list-item">
-        <p class="h3">{{ block.settings.item_text }}</p>
+      <div class="list-item" {{ block.shopify_attributes }}>
+        <div class="hover-image-container">
+          <p class="h3 hover-trigger">{{ block.settings.item_text }}</p>
+          {% if block.settings.hover_image != blank %}
+            <picture>
+              {{- block.settings.hover_image | image_url: width: '300x' | image_tag: class: 'hover-image' -}}
+            </picture>
+          {% endif %}
+        </div>
         <a
           href="{{ block.settings.button_link }}"
           class="btn"
@@ -24,9 +31,47 @@
     {% endfor %}
   </div>
 </div>
+<style>
+  .hover-image-container {
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+  }
+  .hover-image-container p {
+    cursor: pointer;
+  }
+
+  .hover-image {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    pointer-events: none;
+    transform: translate(15px, 15px);
+    z-index: 1;
+  }
+</style>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     Fancybox.bind('[data-fancybox]', {});
+    document.querySelectorAll('.hover-image-container').forEach((container) => {
+      const hoverTrigger = container.querySelector('.hover-trigger');
+      const hoverImage = container.querySelector('.hover-image');
+
+      hoverTrigger.addEventListener('mouseenter', () => {
+        hoverImage.style.display = 'block'; // Show image on hover
+      });
+
+      hoverTrigger.addEventListener('mouseleave', () => {
+        hoverImage.style.display = 'none'; // Hide image when not hovering
+      });
+
+      hoverTrigger.addEventListener('mousemove', (e) => {
+        console.log(`Mouse X: ${e.pageX}, Mouse Y: ${e.pageY}`);
+        hoverImage.style.left = `${e.pageX + 15}px`; // Position image near cursor
+        hoverImage.style.top = `${e.pageY + 15}px`;
+      });
+    });
   });
 </script>
 <style>
@@ -92,6 +137,11 @@
           "type": "text",
           "id": "button_text",
           "label": "Button Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "hover_image",
+          "label": "Hover Image"
         }
       ]
     }

@@ -72,7 +72,7 @@
             {%- when 'richtext' -%}
               {%- if block.settings.content != blank -%}
                 <div {{ block.shopify_attributes }} class="text-secondary image-block-richtext-{{ block.id }}">
-                  {{- block.settings.content -}}
+                  {{- block.settings.content | newline_to_br -}}
                 </div>
                 <style>
                   .image-block-richtext-{{ block.id }} p {
