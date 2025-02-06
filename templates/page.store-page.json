@@ -416,22 +416,22 @@
         "location_piNTD3": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Atlanta",
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
           }
         },
         "location_kJYYEU": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Houston",
+            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
           }
         },
         "location_rE4pGP": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Washington",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
           }
         }
       },
@@ -443,7 +443,7 @@
       "settings": {
         "desktop_image": "shopify://shop_images/Rectangle_93.png",
         "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
-        "title": "Visit our Beach",
+        "title": "Visit our Stores",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "button_url": "",
         "button_text": "Learn More"
