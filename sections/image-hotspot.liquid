@@ -4,11 +4,7 @@
 >
   <div class="container container--lg">
     <div class="section-stack" style="gap: 0;">
-      {%- render 'section-header',
-        subheading: section.settings.subheading,
-        heading: section.settings.title,
-        content: section.settings.content
-      -%}
+      <h2 class="h1 text-center">{{- section.settings.title -}}</h2>
 
       <image-hotspot>
         {%- for block in section.blocks -%}
@@ -82,6 +78,8 @@
   }
   image-hotspot {
      position: relative;
+     top: -100px;
+     z-index: 1;
   }
   @media (max-width: 699px) {
      image-hotspot {
@@ -89,9 +87,17 @@
   }
 
   #shopify-section-{{ section.id }} .section-header {
-     z-index: 1;
+     z-index: 2;
      display: flex;
      justify-content: center;
+     
+  }
+  #shopify-section-{{ section.id }} {
+    margin-block-start: 60px;
+  }
+  #shopify-section-{{ section.id }} .h1 {
+    font-size: clamp(70px, 10vw, 180px);
+    z-index: 2;
   }
   .image-hotspot-section_image {
      width: 100%;

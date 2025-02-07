@@ -1,0 +1,413 @@
+{%- if section.settings.image != blank or section.blocks.size > 0 -%}
+  {%- comment -%}
+    ------------------------------------------------------------------------------------------------------------------------
+    CSS
+    ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      --image-with-text-content-max-width: {% if section.settings.content_width == 'sm' %}430px{% elsif section.settings.content_width == 'md' %}780px{% else %}100%{% endif %};
+      padding: 0;
+    }
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        padding: {% if section.settings.remove_top_padding %}0{% else %}20px 0{% endif %};
+      }
+    }
+  </style>
+
+  {%- comment -%}
+    ------------------------------------------------------------------------------------------------------------------------
+    LIQUID
+    ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+    | default: section.settings.color_scheme.settings.background
+    | md5
+  -%}
+
+  <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+    <image-with-text class="container image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
+      <div class="content-page-section__circular-text-container">
+        <img
+          src="{{ 'arrow-down.svg' | asset_url }}"
+          alt=""
+          srcset=""
+          height="95"
+          width="50"
+          data-aos="fade-up"
+        >
+        <svg viewBox="0 0 200 200" width="230" height="230">
+          <defs>
+            <path id="circlePath" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"/>
+          </defs>
+          <text fill="black" font-size="18" font-family="var(--heading-font-family)" text-anchor="middle" class="content-page-section__circular-text">
+            <textPath xlink:href="#circlePath" startOffset="50%" >{{  section.settings.circular_text }}</textPath>
+          </text>
+        </svg>
+      </div>
+
+      <div class="prose sm:text-start">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'subheading' -%}
+              {%- if block.settings.text != blank -%}
+                <p class="h6" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+              {%- endif -%}
+
+            {%- when 'heading' -%}
+              {%- if block.settings.text != blank -%}
+                <p class="{{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+              {%- endif -%}
+
+            {%- when 'richtext' -%}
+              {%- if block.settings.content != blank -%}
+                <div {{ block.shopify_attributes }} class="text-secondary image-block-richtext-{{ block.id }}">
+                  {{- block.settings.content | newline_to_br -}}
+                </div>
+                <style>
+                  .image-block-richtext-{{ block.id }} p {
+                    color: {{ block.settings.text_color }} !important;
+                  }
+                </style>
+              {%- endif -%}
+
+            {%- when 'page' -%}
+              {%- if block.settings.page.content != blank -%}
+                <div {{ block.shopify_attributes }}>
+                  {{- block.settings.page.content -}}
+                </div>
+              {%- endif -%}
+
+            {%- when 'liquid' -%}
+              {%- if block.settings.liquid != blank -%}
+                <div {{ block.shopify_attributes }}>
+                  {{- block.settings.liquid -}}
+                </div>
+              {%- endif -%}
+
+            {%- when 'link' -%}
+              <a
+                {% if block.settings.url %}
+                  href="{{ block.settings.url }}"
+                {% endif %}
+                class="link"
+                {{ block.shopify_attributes }}
+              >
+                {{- block.settings.text | escape -}}
+              </a>
+
+            {%- when 'button' -%}
+              {%- if block.settings.text != blank -%}
+                {% render 'button',
+                  content: block.settings.text,
+                  href: block.settings.url,
+                  style: block.settings.style,
+                  background: block.settings.background,
+                  text_color: block.settings.text_color,
+                  block: block
+                %}
+              {%- endif -%}
+
+            {% when 'countdown' %}
+              {% render 'countdown', block: block %}
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </image-with-text>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Rounded Text | Content",
+  "class": "shopify-section--image-with-text",
+  "tag": "section",
+  "max_blocks": 6,
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "t:global.section.separate_section_with_border",
+      "default": true
+    },
+    {
+      "type": "textarea",
+      "id": "circular_text",
+      "label": "Rounded Text",
+      "default": "Scroll Scroll Scroll Scroll Scroll Scroll",
+      "info": "Should be of certain length to make the circular text work"
+    },
+    {
+      "type": "checkbox",
+      "id": "reveal_on_scroll",
+      "label": "t:global.animation.reveal_image_on_scroll",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "t:sections.image_with_text.image_position",
+      "options": [
+        {
+          "value": "start",
+          "label": "t:global.position.left"
+        },
+        {
+          "value": "end",
+          "label": "t:global.position.right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "content_width",
+      "label": "t:global.sizes.content_width",
+      "options": [
+        {
+          "value": "sm",
+          "label": "t:global.sizes.small"
+        },
+        {
+          "value": "md",
+          "label": "t:global.sizes.medium"
+        },
+        {
+          "value": "lg",
+          "label": "t:global.sizes.large"
+        }
+      ],
+      "default": "sm"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_vertical_spacing",
+      "label": "t:global.spacing.remove_vertical_spacing",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_top_padding",
+      "label": "Remove Top Padding",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "subheading",
+      "name": "t:sections.image_with_text.blocks.subheading.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "label": "t:global.text.text",
+          "default": "Subheading"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "t:sections.image_with_text.blocks.heading.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "label": "t:global.text.text",
+          "default": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "t:global.text.style",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h1"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "name": "t:sections.image_with_text.blocks.paragraph.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "t:global.text.content",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#8f8f8f"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "name": "t:sections.image_with_text.blocks.page.name",
+      "settings": [
+        {
+          "type": "page",
+          "id": "page",
+          "label": "Page"
+        }
+      ]
+    },
+    {
+      "type": "liquid",
+      "name": "t:sections.image_with_text.blocks.liquid.name",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "t:global.code.liquid",
+          "default": "<p>Write custom Liquid code to include widget or dynamic code.</p>"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "t:sections.image_with_text.blocks.link.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "t:global.text.text",
+          "default": "Text"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "t:global.text.link"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "t:sections.image_with_text.blocks.button.name",
+      "settings": [
+        {
+          "type": "select",
+          "id": "style",
+          "label": "t:global.text.style",
+          "options": [
+            {
+              "value": "outline",
+              "label": "t:global.text.button_style_options.outline"
+            },
+            {
+              "value": "solid",
+              "label": "t:global.text.button_style_options.solid"
+            }
+          ],
+          "default": "solid"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "t:global.text.text",
+          "default": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "t:global.text.link"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "t:global.colors.background"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "t:global.text.text"
+        }
+      ]
+    },
+    {
+      "type": "countdown",
+      "name": "Countdown Timer",
+      "settings": [
+        {
+          "type": "text",
+          "id": "final_date",
+          "label": "Target Date (dd-mm-yyyy)",
+          "default": "21-04-2022"
+        },
+        {
+          "type": "text",
+          "id": "final_time",
+          "label": "Target Time (hh:mm)",
+          "default": "15:00",
+          "info": "(24 hour system)"
+        },
+        {
+          "type": "checkbox",
+          "id": "start_countdown",
+          "label": "Start Countdown",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Rounded Text | Content",
+      "blocks": [
+        {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text"
+          }
+        },
+        {
+          "type": "richtext"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

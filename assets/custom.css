@@ -444,3 +444,20 @@ button.glider-next {
 .footer__block.footer__block--newsletter {
   grid-column: span 2;
 }
+
+
+/* circular text */
+.content-page-section__circular-text-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-page-section__circular-text {
+  font-family: var(--heading-font-family) !important;
+  font-size: 22px !important;
+  text-transform: uppercase;
+}
+.content-page-section__circular-text-container img {
+  position: absolute;
+}

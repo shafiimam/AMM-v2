@@ -1,0 +1,523 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_UhmPUC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "button_Td7AKh": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "Book Now",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_KWCWDr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>10:00AM -18:00PM CET</p>"
+          }
+        },
+        "heading_WbHVK6": {
+          "type": "heading",
+          "settings": {
+            "text": "AMM WASHINGTON",
+            "heading_tag": "h1"
+          }
+        },
+        "liquid_CiMgth": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n100 Market Street San Francisco, CA 94105 USA"
+          }
+        }
+      },
+      "block_order": [
+        "button_Td7AKh",
+        "richtext_KWCWDr",
+        "heading_WbHVK6",
+        "liquid_CiMgth"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 8vw;}",
+        "svg {display: inline;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "image_size": "auto",
+        "image": "shopify://shop_images/store-photo.png",
+        "mobile_image": "shopify://shop_images/store-photo.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_VcMXhH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zmhLEp": {
+          "type": "heading",
+          "settings": {
+            "text": "About Amazing Store Name",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Nat9dh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        },
+        "richtext_aqLt3c": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zmhLEp",
+        "richtext_Nat9dh",
+        "richtext_aqLt3c"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "map_with_text_zfmMKi": {
+      "type": "map-with-text",
+      "blocks": {
+        "heading_7TAyH4": {
+          "type": "heading",
+          "settings": {
+            "text": "About Amazing Store",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_baYYWk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        },
+        "image_block_eWDJdQ": {
+          "type": "image_block",
+          "settings": {
+            "title": "PERSONAL SHOPPING",
+            "image": "shopify://shop_images/Frame_1000002059.png",
+            "link_target": "_self",
+            "button_style": "outline",
+            "text": "Book now",
+            "url": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": ""
+          }
+        },
+        "image_block_fgDmzU": {
+          "type": "image_block",
+          "settings": {
+            "title": "OFFERS CURBSIDE PICKUP",
+            "image": "shopify://shop_images/Frame_1000002061.png",
+            "link_target": "_self",
+            "button_style": "outline",
+            "text": "",
+            "url": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": ""
+          }
+        },
+        "image_block_q6mYbV": {
+          "type": "image_block",
+          "settings": {
+            "title": "OFFERS PARKING",
+            "image": "shopify://shop_images/Frame_1000002060.png",
+            "link_target": "_self",
+            "button_style": "outline",
+            "text": "",
+            "url": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7TAyH4",
+        "richtext_baYYWk",
+        "image_block_eWDJdQ",
+        "image_block_fgDmzU",
+        "image_block_q6mYbV"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "map": "<div class=\"mapouter\">\n  <div class=\"gmap_canvas\">\n    <iframe\n      class=\"gmap_iframe\"\n      width=\"100%\"\n      frameborder=\"0\"\n      scrolling=\"no\"\n      marginheight=\"0\"\n      marginwidth=\"0\"\n      src=\"https://maps.google.com/maps?width=890&amp;height=631&amp;hl=en&amp;q=A Ma Maniére Atlanta&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\"\n    ></iframe\n    ><a href=\"https://sprunkiplay.com/\">Sprunki Game</a>\n  </div>\n  <style>\n    .mapouter {\n      position: relative;\n      text-align: right;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_canvas {\n      overflow: hidden;\n      background: none !important;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_iframe {\n      height: 631px !important;\n    }\n  </style>\n</div>",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "reviews_slider_NJY6C3": {
+      "type": "reviews-slider",
+      "blocks": {
+        "review_card_kMiYRH": {
+          "type": "review_card",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/reviewer-image.png",
+            "reviewer_name": "Rebecca Hills",
+            "star_rating": "4",
+            "review_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        },
+        "review_card_7nUnKt": {
+          "type": "review_card",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/reviewer-image.png",
+            "reviewer_name": "Rebecca Hills",
+            "star_rating": "3",
+            "review_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        },
+        "review_card_yKAHrU": {
+          "type": "review_card",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/reviewer-image.png",
+            "reviewer_name": "Rebecca Hills",
+            "star_rating": "5",
+            "review_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        },
+        "review_card_KbcrbH": {
+          "type": "review_card",
+          "settings": {
+            "reviewer_image": "shopify://shop_images/reviewer-image.png",
+            "reviewer_name": "Rebecca Hills",
+            "star_rating": "5",
+            "review_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_card_kMiYRH",
+        "review_card_7nUnKt",
+        "review_card_yKAHrU",
+        "review_card_KbcrbH"
+      ],
+      "settings": {
+        "title": "Our Customers’ Reviews"
+      }
+    },
+    "image_with_text_QNEjBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_McaCUH": {
+          "type": "heading",
+          "settings": {
+            "text": "Marketing Content Block",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_EUAmG9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#8f8f8f"
+          }
+        }
+      },
+      "block_order": [
+        "heading_McaCUH",
+        "richtext_EUAmG9"
+      ],
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
+        "mobile_image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": true
+      }
+    },
+    "featured_collections_wzB8F7": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_7ckJHb": {
+          "type": "collection",
+          "settings": {
+            "collection": "greg-lauren",
+            "products_count": 10,
+            "title": "New Arrivals",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_7ckJHb"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "subheading": ""
+      }
+    },
+    "eployee_with_collection_mn8nDL": {
+      "type": "eployee-with-collection",
+      "blocks": {
+        "collection_PQUcic": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere",
+            "products_count": 15,
+            "title": "My Choice:",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_PQUcic"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "title": "Meet Our Staff",
+        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
+        "employee_name": "Alisa Hester",
+        "employee_image": "shopify://shop_images/employee-sample-image.png",
+        "employee_position": "Administrator",
+        "employee_twitter": "",
+        "employee_linkedin": "",
+        "employee_instagram": ""
+      }
+    },
+    "eployee_with_collection_z3TxTy": {
+      "type": "eployee-with-collection",
+      "blocks": {
+        "collection_8nw6hE": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 15,
+            "title": "My Choice:",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_8nw6hE"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "title": "",
+        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
+        "employee_name": "Alisa Hester",
+        "employee_image": "shopify://shop_images/employee-sample-image.png",
+        "employee_position": "Administrator",
+        "employee_twitter": "",
+        "employee_linkedin": "",
+        "employee_instagram": ""
+      }
+    },
+    "eployee_with_collection_FYHyHH": {
+      "type": "eployee-with-collection",
+      "blocks": {
+        "collection_3ieYHm": {
+          "type": "collection",
+          "settings": {
+            "collection": "balenciaga",
+            "products_count": 15,
+            "title": "My Choice:",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_3ieYHm"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "title": "",
+        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
+        "employee_name": "Alisa Hester",
+        "employee_image": "shopify://shop_images/employee-sample-image.png",
+        "employee_position": "Administrator",
+        "employee_twitter": "",
+        "employee_linkedin": "",
+        "employee_instagram": ""
+      }
+    },
+    "beach_location_banner_nGbcUy": {
+      "type": "beach-location-banner",
+      "blocks": {
+        "location_piNTD3": {
+          "type": "location",
+          "settings": {
+            "title": "Atlanta",
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
+          }
+        },
+        "location_kJYYEU": {
+          "type": "location",
+          "settings": {
+            "title": "Houston",
+            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+          }
+        },
+        "location_rE4pGP": {
+          "type": "location",
+          "settings": {
+            "title": "Washington",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
+          }
+        }
+      },
+      "block_order": [
+        "location_piNTD3",
+        "location_kJYYEU",
+        "location_rE4pGP"
+      ],
+      "settings": {
+        "desktop_image": "shopify://shop_images/Rectangle_93.png",
+        "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
+        "title": "Visit our Stores",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "button_url": "",
+        "button_text": "Learn More"
+      }
+    },
+    "multi_column_AG6HP7": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_phrQyX": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Support",
+            "heading_tag": "text-base",
+            "content": "<p>Our friendly team is here to help.</p>",
+            "link_url": "mailto:support@untitledui.com",
+            "link_text": "support@untitledui.com"
+          }
+        },
+        "image_with_text_3B8fyx": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Sales",
+            "heading_tag": "text-base",
+            "content": "<p>Questions or queries? Get in touch!</p>",
+            "link_url": "mailto:sales@untitledui.com",
+            "link_text": "sales@untitledui.com"
+          }
+        },
+        "image_with_text_yMbUVf": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Phone",
+            "heading_tag": "text-base",
+            "content": "<p>Mon-Fri from 8am to 5pm.</p>",
+            "link_url": "tel:+1 (555) 000-0000",
+            "link_text": "+1 (555) 000-0000"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_phrQyX",
+        "image_with_text_3B8fyx",
+        "image_with_text_yMbUVf"
+      ],
+      "custom_css": [
+        ".text-base {font-weight: bold; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_UhmPUC",
+    "rich_text_VcMXhH",
+    "map_with_text_zfmMKi",
+    "reviews_slider_NJY6C3",
+    "image_with_text_QNEjBt",
+    "featured_collections_wzB8F7",
+    "eployee_with_collection_mn8nDL",
+    "eployee_with_collection_z3TxTy",
+    "eployee_with_collection_FYHyHH",
+    "beach_location_banner_nGbcUy",
+    "multi_column_AG6HP7"
+  ]
+}

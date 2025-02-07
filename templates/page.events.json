@@ -15,9 +15,7 @@
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "page_width": "xs",
-        "hide_header": false,
-        "hide_page_content": false
+        "page_width": "xs"
       }
     },
     "events_header_banner_AaNBMN": {
@@ -29,6 +27,70 @@
         "heading_font_size": 10
       }
     },
+    "multi_column_VJNMnL": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_pgJDah": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "FREE GAME",
+            "heading_tag": "h2",
+            "content": "<p>A platform where James Whitner leverages his personal network to educate our community on topics that aren’t regularly spoken or brought to the forefront.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_TrFbQw": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "BRAND(ED)",
+            "heading_tag": "h2",
+            "content": "<p>Creative collaborations with our brand partners to both help the community and raise brand awareness.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_GAij8D": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "WOMEN WITHIN",
+            "heading_tag": "h2",
+            "content": "<p>A series promoting and creating commuity through hands-on workshops and monthly meet-ups.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_mVRVfJ": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "BAG TALK",
+            "heading_tag": "h2",
+            "content": "<p>Programs that focuses on financial literacy through mentorship and education</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_pgJDah",
+        "image_with_text_TrFbQw",
+        "image_with_text_GAij8D",
+        "image_with_text_mVRVfJ"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "columns_per_row": 4,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "lg",
+        "subheading": "<strong>FLAGSHIP PROGRAMS</strong>",
+        "title": "Creating a deeper, meaningful connection and impact-driven journey for community as they grow to become change agents in our cities and beyond",
+        "content": ""
+      }
+    },
     "events_section_ajk3kJ": {
       "type": "events-section",
       "blocks": {
@@ -38,8 +100,9 @@
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
             "location": "New York, NY",
-            "is_online": false,
-            "button_label": "Participate"
+            "is_online": true,
+            "button_label": "Participate",
+            "button_url": ""
           }
         },
         "event_CbK9CA": {
@@ -49,7 +112,8 @@
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
-            "button_label": "Participate"
+            "button_label": "Participate",
+            "button_url": ""
           }
         },
         "event_gcKegJ": {
@@ -59,7 +123,8 @@
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
-            "button_label": "Participate"
+            "button_label": "Participate",
+            "button_url": ""
           }
         },
         "event_zgLeCE": {
@@ -68,8 +133,9 @@
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
             "location": "New York, NY",
-            "is_online": false,
-            "button_label": "Participate"
+            "is_online": true,
+            "button_label": "Participate",
+            "button_url": ""
           }
         },
         "event_67zwF7": {
@@ -79,7 +145,8 @@
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
-            "button_label": "Participate"
+            "button_label": "Participate",
+            "button_url": ""
           }
         },
         "event_dDKLTR": {
@@ -89,7 +156,8 @@
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
-            "button_label": "Participate"
+            "button_label": "Participate",
+            "button_url": ""
           }
         },
         "event_gqQFJG": {
@@ -99,7 +167,8 @@
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
-            "button_label": "Participate"
+            "button_label": "Participate",
+            "button_url": ""
           }
         },
         "event_NWgm8L": {
@@ -109,7 +178,8 @@
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
-            "button_label": "Participate"
+            "button_label": "Participate",
+            "button_url": ""
           }
         },
         "event_HiPxpm": {
@@ -119,7 +189,8 @@
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
-            "button_label": "Participate"
+            "button_label": "Participate",
+            "button_url": ""
           }
         }
       },
@@ -140,6 +211,7 @@
   "order": [
     "main",
     "events_header_banner_AaNBMN",
+    "multi_column_VJNMnL",
     "events_section_ajk3kJ"
   ]
 }

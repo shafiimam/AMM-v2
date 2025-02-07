@@ -5,10 +5,10 @@
       <div class="filter-and-search__filter h-stack gap-2">
         {% render 'icons', icon_type: 'filter' %}
         <label for="filter" class="text-subdued">Filter by</label>
-        <select name="filter" id="filter" aria-label="Filter events by type" >
+        <select name="filter" id="filter" aria-label="Filter events by type">
           <option value="all">All</option>
           <option value="online">Online</option>
-          <option value="offline">Offline</option>
+          <option value="offline">In Person</option>
         </select>
       </div>
       <div class="filter-and-search__search h-stack gap-2">
@@ -42,11 +42,11 @@
                   <span>Online</span>
                 {% else %}
                   {% render 'icons', icon_type: 'offline' %}
-                  <span>Offline</span>
+                  <span>In Person</span>
                 {% endif %}
               </div>
             </div>
-            <a href="#" class="button event_cta_button" aria-label="Participate in {{ block.settings.title }}">
+            <a href="{{ block.settings.button_url }}" class="button event_cta_button" aria-label="Participate in {{ block.settings.title }}">
               {{- block.settings.button_label -}}
             </a>
           </div>
@@ -79,7 +79,8 @@
     flex-flow: column nowrap;
     gap: 15px;
   }
-  .event_location, .event_status span {
+  .event_location,
+  .event_status span {
     color: #8f8f8f;
     text-transform: uppercase;
   }
@@ -87,7 +88,6 @@
     margin-block-start: 1.2rem;
     width: -webkit-fill-available;
   }
-
 </style>
 
 <script>
@@ -109,7 +109,7 @@
         }
       });
     });
- 
+
     search.addEventListener('input', function () {
       const value = this.value.toLowerCase();
 
@@ -160,6 +160,11 @@
           "id": "button_label",
           "label": "Button Label",
           "default": "Participate"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Button Url"
         }
       ]
     }
