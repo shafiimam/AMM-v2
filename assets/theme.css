@@ -5940,7 +5940,7 @@ product-rerender {
     margin-inline-start: auto;
   }
 
-  .image-with-text--reverse > :is(picture, svg, img, .map-container) {
+  .image-with-text--reverse > :is(picture, svg, img, .map-container, .image-with-circular-text__container) {
     order: 9999;
   }
 

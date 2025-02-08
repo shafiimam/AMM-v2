@@ -241,7 +241,7 @@ h1.product-title.h3 {
 
 @media screen and (max-width: 700px) {
   .image-with-text-custom image-with-text {
-    padding: 0;
+    padding: 20px;
   }
 }
 
