@@ -34,7 +34,7 @@
         "richtext_KWCWDr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>10:00AM -18:00PM CET</p>"
+            "content": "<p>MON - SAT: 12:00 PM - 7:00 PM EST </p><p>SUN: 12:00 PM - 5:00 PM EST </p>"
           }
         },
         "heading_WbHVK6": {
@@ -47,7 +47,7 @@
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n100 Market Street San Francisco, CA 94105 USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n124 H St NE, Washington, D.C. 20002 USA"
           }
         }
       },
@@ -64,7 +64,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/store-photo.png",
+        "image": "shopify://shop_images/A_Ma_Maniere_Washington_DC_interior.jpg",
         "mobile_image": "shopify://shop_images/store-photo.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
@@ -73,7 +73,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 46
       }
     },
     "rich_text_VcMXhH": {
@@ -136,6 +136,7 @@
         },
         "image_block_fgDmzU": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "OFFERS CURBSIDE PICKUP",
             "image": "shopify://shop_images/Frame_1000002061.png",
