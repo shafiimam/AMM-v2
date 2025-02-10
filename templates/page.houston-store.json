@@ -65,7 +65,7 @@
         "color_scheme": "scheme-3",
         "image_size": "auto",
         "image": "shopify://shop_images/AMM-Houston-Store-Interior.jpg",
-        "mobile_image": "shopify://shop_images/store-photo.png",
+        "mobile_image": "shopify://shop_images/AMM-Houston-Store-Interior.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
