@@ -65,6 +65,7 @@
         },
         "feature_with_icon_TyMeDX": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Hand Made",
             "link": "",
@@ -78,6 +79,7 @@
         },
         "feature_with_icon_zCCbKy": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Discount",
             "link": "",
@@ -91,6 +93,7 @@
         },
         "feature_with_icon_jny9WQ": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Best Seller",
             "link": "",
@@ -249,7 +252,8 @@
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
       }
     },
     "related-products": {
