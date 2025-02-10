@@ -22,16 +22,16 @@
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
       "settings": {
-        "image": "shopify://shop_images/AJ3_HEADER.jpg",
+        "image": "shopify://shop_images/Web_A10.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
-        "title": "A Ma Maniére x Air Jordan 3 W.Y.W.S.",
+        "title": ".",
         "title_color": "#ffffff",
         "title_color_mobile": "#ffffff",
         "title_shadow": 17,
         "title_shadow_mobile": 20,
         "title_size": 29,
         "title_size_mobile": 20,
-        "description": "Launches on A Ma Maniére on 8.20.24",
+        "description": "",
         "description_color": "#ffffff",
         "description_color_mobile": "#ffffff",
         "description_shadow": 30,
@@ -94,53 +94,55 @@
         "controls_color": "#ffffff"
       }
     },
-    "image_with_text_7Xm8Cg": {
-      "type": "image-with-text",
+    "rich_text_BQXkU9": {
+      "type": "rich-text",
       "blocks": {
-        "heading_HiTgQk": {
+        "heading_hEW9TX": {
           "type": "heading",
           "settings": {
-            "text": "THE A MA MANIÉRE X AIR JORDAN 3 W.Y.W.S.",
-            "heading_tag": "h2"
+            "text": "10 Years of A Ma Maniére",
+            "heading_tag": "h1"
           }
         },
-        "richtext_Pdk9a9": {
+        "richtext_Maipmb": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The A Ma Maniére x Air Jordan 3 W.Y.W.S. launches on 8.20 11AM EST on <a href=\"https://www.a-ma-maniere.com/\" title=\"https://www.a-ma-maniere.com/\"><strong>amamaniere.com</strong></a>, and at A Ma Maniére Atlanta & D.C. spaces during regular business hours. Camping and lines prior to 11AM, local time, are strictly prohibited. A Ma Maniére Houston will host an exclusive in-store raffle on 8.19 from 1PM - 6PM CST. The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from 8.13 until 8.18. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear. Footwear is priced at $225 with sizing ranging from W5/M3.5 - W16.5/M15. </p><p>Unveiling the A Ma Maniére Air Jordan 3, part of the AMM10 collection celebrating our 10-year anniversary and our very latest collaborative story with Jordan Brand. Embodying classic, timeless luxury in every detail, we mark the start of this journey with a radiant rendition of this iconic silhouette. The A Ma Maniére Air Jordan 3 W.Y.W.S. exudes luxury in every detail. From the gros-grain suede to the impeccable fine leather, a tradition of elevated executions on cultural icons helps us tell our latest story. </p><p>All available for purchase while supplies last.</p><p><strong>PLEASE NOTE:</strong> SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
-            "text_color": "#eaeaea"
+            "content": "<p>Forging Vision Into Unparalleled Experiences, How Ten Years of Actions Marks Only The Beginning</p>"
           }
         },
-        "countdown_cDXnhg": {
-          "type": "countdown",
-          "disabled": true,
+        "liquid_AP8Lzq": {
+          "type": "liquid",
           "settings": {
-            "final_date": "21-04-2022",
-            "final_time": "15:00",
-            "start_countdown": false
+            "liquid": "<br>"
+          }
+        },
+        "heading_7pFrra": {
+          "type": "heading",
+          "settings": {
+            "text": "The Ideal Of New Luxury",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_hJfwBA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>What started as a vision has formed into a global ideal: creating a brand, an experience, an emblem that would serve as an expression of street culture - capturing the essence of life across the powerful taste communities influencing fashion, art, design from US cities to the world over. <br/> <br/>The goal was and remains transforming the luxury experience, and this dream materialized into A Ma Maniere: rooted in the “My Way” mindset, powered by the ethos of classic, timeless luxury, and embracing the raw, vibrant energy of the cities that embraced and elevated our offering to a global stage.<br/>From our first space in Atlanta we aimed to deliver our testament and a commitment to authenticity, innovation, and quality. <br/> <br/> Our journey is one of relentless passion, where each piece of clothing tells a story, where every detail of our spaces reflects the aspiration of our consumers and every experience stands as a celebration of culture, creativity, and craftsmanship.<br/><br/> <br/></p>"
           }
         }
       },
       "block_order": [
-        "heading_HiTgQk",
-        "richtext_Pdk9a9",
-        "countdown_cDXnhg"
-      ],
-      "custom_css": [
-        ".container * {text-align: center;}",
-        ".h1 {color: #eaeaea; font-weight: 700;}",
-        "#countdown {color: #eaeaea;}",
-        ".prose p {font-family: \"Saol Display,sans-serif\";}"
+        "heading_hEW9TX",
+        "richtext_Maipmb",
+        "liquid_AP8Lzq",
+        "heading_7pFrra",
+        "richtext_hJfwBA"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/AJ3_SQUARE_IMAGE.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "lg",
-        "remove_vertical_spacing": false,
-        "remove_top_padding": false
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "media_grid_HwBKby": {
@@ -150,7 +152,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/image13.jpg",
+            "image": "shopify://shop_images/Screenshot_2024-07-27_at_11.34.16_PM.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -168,7 +170,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/image2_3d119ee0-fa35-472d-a57c-413a6eab5c6c.jpg",
+            "image": "shopify://shop_images/AMM-Store-2.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -186,7 +188,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/image4_201bd5cf-ecba-4d17-8eef-4273fddc5669.jpg",
+            "image": "shopify://shop_images/DSC02100_DV-2.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -204,7 +206,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/image3_23b546fe-6127-4c63-8f1b-c2283a9622c9.jpg",
+            "image": "shopify://shop_images/DSC01629.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -222,97 +224,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/image5_2464cc20-2ed3-4815-ac81-45cac6f82d20.jpg",
-            "column_count": "3",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_YPima3": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/image6.jpg",
-            "column_count": "3",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_3Db9UK": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/image1.jpg",
-            "column_count": "3",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_MHAJQT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/image7_70961814-f9a5-4332-884b-cb85c717008a.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Bb7rAP": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/image7.jpg",
-            "column_count": "3",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_iWhfJp": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/image8_485e249a-4411-4906-92c7-054d6a58e458.jpg",
+            "image": "shopify://shop_images/Screenshot_2024-07-27_at_11.01.02_PM.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -332,16 +244,11 @@
         "image_Fw9AEQ",
         "image_UfiUPV",
         "image_phtcL7",
-        "image_azJwxY",
-        "image_YPima3",
-        "image_3Db9UK",
-        "image_MHAJQT",
-        "image_Bb7rAP",
-        "image_iWhfJp"
+        "image_azJwxY"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
         "desktop_row_height": 530,
         "mobile_row_height": 410,
         "section_width": "full",
@@ -351,33 +258,56 @@
         "content": ""
       }
     },
-    "media_grid_4MXqFL": {
+    "rich_text_zEadeA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gByKef": {
+          "type": "heading",
+          "settings": {
+            "text": "The Power Of Immersive Experiences ",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gByKef"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_qgHdhP": {
       "type": "media-grid",
       "blocks": {
-        "image_aCqxkA": {
+        "image_RK3EwJ": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3CREAMLACES-1_07477bb0-4070-48a0-af5b-0bc866c6b1dc.jpg",
-            "column_count": "4",
-            "row_count": 1,
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/Screenshot_2024-07-27_at_11.14.13_PM.png",
+            "column_count": "6",
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-air-ship-whitegreen",
+            "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_gkhdMq": {
+        "image_UnfbnG": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3CREAMLACES-2_191d7c56-fe19-4282-8258-19b6e5b91775.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/Screenshot_2024-07-27_at_11.23.59_PM.png",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -390,12 +320,12 @@
             "overlay_opacity": 0
           }
         },
-        "image_BEtRTU": {
+        "image_NympwP": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3CREAMLACES-3_018df8c7-7595-4fc5-b3fa-74c04737b1ea.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/Front_AMM_DC.jpg",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -408,12 +338,12 @@
             "overlay_opacity": 0
           }
         },
-        "image_3tPX3b": {
+        "image_VcRBXb": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3-3_79f71ab2-5ef1-4050-a116-5e0f03a32385.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/Screenshot_2024-07-27_at_11.12.54_PM.png",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -426,120 +356,12 @@
             "overlay_opacity": 0
           }
         },
-        "image_HVfcXg": {
+        "image_JELMwV": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3-4_054c1c31-8c07-494d-b79e-7c247529715d.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_TB3Va4": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3-5_2d95601c-266f-4328-bdd0-847c74036992.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_VUGUiT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3-6_ce212266-b83e-493c-ba82-af22e727a7d5.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_jckHzH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3-7_b536c0e8-4dee-4c75-abdb-fd1198817ba5.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_FFqHYp": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3-9_cab30aef-ec8c-49c6-8b07-82160e590442.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_dLC688": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3-10_1b0c6da8-d6f6-4e77-a3c8-409267fab368.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_NkQ7tz": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ3-11_9f81196e-d8d0-4f6e-be57-995e458838e6.jpg",
-            "column_count": "4",
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/Screenshot_2024-07-27_at_11.32.27_PM.png",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -554,28 +376,161 @@
         }
       },
       "block_order": [
-        "image_aCqxkA",
-        "image_gkhdMq",
-        "image_BEtRTU",
-        "image_3tPX3b",
-        "image_HVfcXg",
-        "image_TB3Va4",
-        "image_VUGUiT",
-        "image_jckHzH",
-        "image_FFqHYp",
-        "image_dLC688",
-        "image_NkQ7tz"
+        "image_RK3EwJ",
+        "image_UnfbnG",
+        "image_NympwP",
+        "image_VcRBXb",
+        "image_JELMwV"
       ],
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
-        "desktop_row_height": 600,
-        "mobile_row_height": 400,
+        "desktop_row_height": 530,
+        "mobile_row_height": 410,
         "section_width": "full",
-        "spacing": "md",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "rich_text_EJLAxW": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_zKH7YA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>As we immersed ourselves in Washington, DC and Houston, TX, these new spaces reinforced our belief in the purpose we served in bringing connectivity and excitement to fashion and culture but also the importance of experiential concepts in fulfilling our community’s needs and demands for exploration beyond the transaction. <br/> <br/><br/>Fashion is more than just clothing and the experience is indeed more than a single transaction; it must be an experience, an expression of one's identity and lifestyle. This insight fed into every detail of our experiential model. From A Ma Maniere Living to A Ma Maniere Eats, we reimagined our spaces as vibrant hubs where hospitality, dining, and culture converge. They are immersive consumer and community experiences, changing the landscape and expectations of all men and women we serve in our cities and beyond.<br/><br/> <br/> <br/>The goal remains connection - true, authentic and organic connection to the experience every person in our ecosystem projects and demands from the world they want to engage in. In a world of elegance and innovation, our commitment is to embrace and serve the unique perspective of our consumers and community with understanding and respect to their aspirations and significance.</p>"
+          }
+        },
+        "heading_C9GnPV": {
+          "type": "heading",
+          "settings": {
+            "text": "A Global Vision And Message",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_h3GXyc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>True luxury is not about exclusivity but also about inclusivity and responsibility. Over the past decade, our work and actions all laddered to building a platform that amplifies the voices of Black and Brown communities, addressing the issues of underserved groups and standing up for the change in the world we want to see. <br/> <br/> <br/><br/>Through stories, key messaging and crucial partnerships aligned to our mission and vision, we have been able to drive positive change and put a spotlight on the issues affecting the world within our direct reach and beyond. Hand Wash Cold has allowed to respond with programs and initiatives promoting diversity, equity and access in the fashion industry and beyond. Much of the inspiration for fashion and design is sourced from Black and Brown experiences, and it remains our commitment to celebrate the rich cultural heritage and highlight the positive, uplifting contributions of said community to the world. We are dedicated to continuing this journey, ensuring that our spaces, brand, experiences and actions stand as a signal for empowerment and representation.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_zKH7YA",
+        "heading_C9GnPV",
+        "richtext_h3GXyc"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_Kr9pGH": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Ca64i3": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/Screenshot_2024-07-29_at_10.25.59_AM.webp",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_dk68Ub": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/MOB05110_copy_9ddc03cf-fff3-456b-ad72-c2fa256f0a2f.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_KLGiTW": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Screenshot_2024-07-27_at_11.30.52_PM_445d667d-bac3-4c59-97a6-4b363bde5d4a.webp",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Ca64i3",
+        "image_dk68Ub",
+        "image_KLGiTW"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "desktop_row_height": 530,
+        "mobile_row_height": 410,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_6Ce84Y": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_UYH3XJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Reimagining The Future Of Culture</strong></p>"
+          }
+        },
+        "richtext_TwmLGF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A decade forms a solid foundation. We can’t mark this milestone without acknowledging the trust and belief poured into our mission, purpose and vision by global communities. It feels like a start and though we are glad to serve, this moment marks incredible work still to be accomplished ahead. <br/> <br/> <br/>New cities, new experiences and new stories to deliver to the world are what drive this moment. A Ma Maniere Beach unveiled a new perspective on experiential concepts which signals our constant evolution in bringing the world closer to our ideal of luxury. As we set our sights on serving diaspora, culture, and taste communities worldwide, we will be creating even more immersive experiences. Moving at the pace of culture, our goal is to explore, expand, and truly redefine what’s possible. In an ever-changing world, we remain firm in our mission to inspire, innovate, and lead from the front - taking chances, being daring, adventurous and relentlessly curious in our pursuit of classic, timeless luxury.<br/>As we celebrate this milestone, we are excited about the future together. And as we look to decades ahead, start this next chapter with even more stories for you to embrace and enjoy.<br/>The work continues.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_UYH3XJ",
+        "richtext_TwmLGF"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     }
   },
@@ -583,8 +538,12 @@
     "main",
     "hero_with_logo_nPMzTc",
     "slideshow_rBdfjJ",
-    "image_with_text_7Xm8Cg",
+    "rich_text_BQXkU9",
     "media_grid_HwBKby",
-    "media_grid_4MXqFL"
+    "rich_text_zEadeA",
+    "media_grid_qgHdhP",
+    "rich_text_EJLAxW",
+    "media_grid_Kr9pGH",
+    "rich_text_6Ce84Y"
   ]
 }
