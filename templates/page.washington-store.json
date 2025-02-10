@@ -47,7 +47,7 @@
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n124 H St NE, Washington, D.C. 20002 USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n124 H St NE, Washington, D.C. 20002, USA"
           }
         }
       },
@@ -418,7 +418,7 @@
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA</p>"
           }
         },
         "location_rE4pGP": {
