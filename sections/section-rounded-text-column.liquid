@@ -31,15 +31,25 @@
   <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <image-with-text class="container container--full image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
       <div class="image-with-circular-text__container flex flex-column gap-8 justify-center align-center">
-        <div class="content-page-section__circular-text-container" >
-          <img
-            src="{{ 'arrow-down.svg' | asset_url }}"
-            alt=""
-            srcset=""
-            height="95"
-            width="50"
-          >
-          <svg viewBox="0 0 320 320" width="320" height="320" >
+        <div class="content-page-section__circular-text-container">
+          {% if section.settings.image_circular_text %}
+            <img
+              src="{{ section.settings.image_circular_text | img_url: 'master' }}"
+              alt=""
+              srcset=""
+              width="{{ section.settings.image_circular_text.width }}"
+              height="{{ section.settings.image_circular_text.height }}"
+            >
+          {% else %}
+            <img
+              src="{{ 'arrow-down.svg' | asset_url }}"
+              alt=""
+              srcset=""
+              height="95"
+              width="50"
+            >
+          {% endif %}
+          <svg viewBox="0 0 320 320" width="320" height="320">
             <defs>
               <path id="circlePath" d="M 160, 160 m -100, 0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0"/>
             </defs>
@@ -186,6 +196,11 @@
       "label": "Rounded Text",
       "default": "Scroll Scroll Scroll Scroll Scroll Scroll",
       "info": "Should be of certain length to make the circular text work"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_circular_text",
+      "label": "Image inside rounded text"
     },
     {
       "type": "checkbox",

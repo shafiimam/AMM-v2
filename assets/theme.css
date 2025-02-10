@@ -5620,7 +5620,7 @@ product-rerender {
     100vh - var(--header-height, 0px) - var(--announcement-bar-height, 0px) -
       20px
   );
-  justify-content: safe center;
+  justify-content: safe flex-start;
   align-items: start;
   column-gap: var(--mega-menu-gap);
   background: rgb(var(--background));
