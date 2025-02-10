@@ -62,9 +62,9 @@
         "svg {display: inline;}"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "image_size": "auto",
-        "image": "shopify://shop_images/store-photo.png",
+        "image": "shopify://shop_images/AMM-Store-4.jpg",
         "mobile_image": "shopify://shop_images/store-photo.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
@@ -73,7 +73,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 40
       }
     },
     "rich_text_VcMXhH": {
