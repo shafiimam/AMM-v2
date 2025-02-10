@@ -47,7 +47,7 @@
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n100 Market Street San Francisco, CA 94105 USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n969 Marietta St NW #200 Atlanta, GA 30318 USA"
           }
         }
       },
