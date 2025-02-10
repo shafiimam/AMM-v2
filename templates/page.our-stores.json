@@ -80,7 +80,7 @@
             "item_text": "3300 Kirby Dr #6a, Houston, TX 77098, USA",
             "button_link": "shopify://pages/amm-houston",
             "button_text": "VISIT THIS STORE",
-            "hover_image": "shopify://shop_images/GWZQ2IJWcAEyiVQ.jpg"
+            "hover_image": "shopify://shop_images/AMM-Houston-Store-Interior.jpg"
           }
         },
         "list_item_9WfXdL": {
@@ -169,13 +169,13 @@
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr. #6A, Houston, TX 77098, USA</p>"
           }
         },
         "location_Yx4LpJ": {
           "type": "location",
           "settings": {
-            "title": "Washington",
+            "title": "Washington, D.C.",
             "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
           }
         }
