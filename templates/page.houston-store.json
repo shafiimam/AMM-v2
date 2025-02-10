@@ -34,7 +34,7 @@
         "richtext_KWCWDr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>10:00AM -18:00PM CET</p>"
+            "content": "<p>MON - SAT: 12:00 PM - 6:30 PM CST </p><p>SUN: CLOSED</p>"
           }
         },
         "heading_WbHVK6": {
@@ -47,7 +47,7 @@
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n100 Market Street San Francisco, CA 94105 USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n3300 Kirby Dr. #6A, Houston, TX 77098 USA"
           }
         }
       },
@@ -82,27 +82,20 @@
         "heading_zmhLEp": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store Name",
+            "text": "About A Ma Maniére Houston",
             "heading_tag": "h1"
           }
         },
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
-          }
-        },
-        "richtext_aqLt3c": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>Located west of Downtown Houston, A Ma Maniére introduces its signature elevated retail experience to the heart of Texas, seamlessly blending luxury, storytelling, and community. The space reflects Houston’s culture through immersive activations, celebrating the icons and narratives that have shaped the city.</p>"
           }
         }
       },
       "block_order": [
         "heading_zmhLEp",
-        "richtext_Nat9dh",
-        "richtext_aqLt3c"
+        "richtext_Nat9dh"
       ],
       "settings": {
         "color_scheme": "",
@@ -118,14 +111,14 @@
         "heading_7TAyH4": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store",
+            "text": "A Fusion of Fashion, Culture & Community",
             "heading_tag": "h1"
           }
         },
         "richtext_baYYWk": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>The store is thoughtfully designed to immerse visitors in a multi-sensory shopping experience, blending contemporary aesthetics with elements that honor Houston’s deep-rooted influence in music, art, and fashion. Through exclusive activations, brand partnerships, and curated events, A Ma Maniére Houston serves as a platform to celebrate the icons, creators, and visionaries shaping the city’s ever-evolving narrative. Whether shopping for limited-edition apparel, engaging with community-focused initiatives, or experiencing luxury retail at its finest, A Ma Maniére Houston sets a new standard for fashion, culture, and storytelling in Texas.<br/></p>"
           }
         },
         "image_block_eWDJdQ": {
@@ -143,6 +136,7 @@
         },
         "image_block_fgDmzU": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "OFFERS CURBSIDE PICKUP",
             "image": "shopify://shop_images/Frame_1000002061.png",
