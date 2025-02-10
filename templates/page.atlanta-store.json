@@ -34,13 +34,13 @@
         "richtext_KWCWDr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>10:00AM -18:00PM CET</p>"
+            "content": "<p>MON - SAT: 12:00 PM - 7:00 PM EST<br/>SUN: 12:00 PM - 5:00 PM EST</p>"
           }
         },
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "AMM Atlanta",
+            "text": "A Ma Maniére Atlanta",
             "heading_tag": "h1"
           }
         },
@@ -73,7 +73,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 40
+        "overlay_opacity": 45
       }
     },
     "rich_text_VcMXhH": {
@@ -82,27 +82,20 @@
         "heading_zmhLEp": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store Name",
+            "text": "About A Ma Maniére Atlanta",
             "heading_tag": "h1"
           }
         },
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
-          }
-        },
-        "richtext_aqLt3c": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>A Ma Maniére, established in 2014 on Marietta Street, represents the cornerstone of a journey that has reshaped the luxury retail and cultural landscape. A Ma Maniére Atlanta has carved out a unique niche reflecting the spirit of its city: rich in heritage and bold in storytelling. With a name meaning “My Way,” the boutique champions the evolving narrative of modern luxury in the South.</p>"
           }
         }
       },
       "block_order": [
         "heading_zmhLEp",
-        "richtext_Nat9dh",
-        "richtext_aqLt3c"
+        "richtext_Nat9dh"
       ],
       "settings": {
         "color_scheme": "",
