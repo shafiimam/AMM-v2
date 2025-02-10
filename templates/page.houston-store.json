@@ -26,7 +26,7 @@
           "settings": {
             "style": "outline",
             "text": "Book Now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule/8533ff13/appointment/18134611/calendar/4891086?calendarIds=4891086",
             "background": "",
             "text_color": ""
           }
@@ -40,7 +40,7 @@
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "AMM  Houston",
+            "text": "A Ma Maniére Houston",
             "heading_tag": "h1"
           }
         },
@@ -64,7 +64,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/store-photo.png",
+        "image": "shopify://shop_images/AMM-Houston-Store-Interior.jpg",
         "mobile_image": "shopify://shop_images/store-photo.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
@@ -73,7 +73,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 45
       }
     },
     "rich_text_VcMXhH": {
@@ -136,7 +136,7 @@
             "link_target": "_self",
             "button_style": "outline",
             "text": "Book now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule/8533ff13/appointment/18134611/calendar/4891086?calendarIds=4891086",
             "background": "rgba(0,0,0,0)",
             "text_color": ""
           }
