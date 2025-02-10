@@ -169,7 +169,7 @@
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr. #6A, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA</p>"
           }
         },
         "location_Yx4LpJ": {
@@ -188,8 +188,8 @@
       "settings": {
         "desktop_image": "shopify://shop_images/Rectangle_93.png",
         "mobile_image": "shopify://shop_images/Contact_sections_mobile.png",
-        "title": "Visit our Stores",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "Visit Our Stores",
+        "description": "Experience A Ma Maniére’s signature luxury retail in person at our locations, where high-end streetwear, exclusive sneaker releases, and curated fashion collections come to life. Visit us to explore immersive shopping experiences, community-driven activations, and the latest in elevated street style and designer collaborations.",
         "button_url": "",
         "button_text": "Learn More"
       }
