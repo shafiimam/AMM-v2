@@ -47,7 +47,7 @@
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n3300 Kirby Dr. #6A, Houston, TX 77098 USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n3300 Kirby Dr. #6A, Houston, TX 77098, USA"
           }
         }
       },
@@ -73,7 +73,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 45
+        "overlay_opacity": 55
       }
     },
     "rich_text_VcMXhH": {
