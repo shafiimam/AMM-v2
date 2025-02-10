@@ -136,6 +136,7 @@
         },
         "image_block_fgDmzU": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "OFFERS CURBSIDE PICKUP",
             "image": "shopify://shop_images/Frame_1000002061.png",
