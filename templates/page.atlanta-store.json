@@ -26,7 +26,7 @@
           "settings": {
             "style": "outline",
             "text": "Book Now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
             "background": "",
             "text_color": ""
           }
@@ -129,7 +129,7 @@
             "link_target": "_self",
             "button_style": "outline",
             "text": "Book now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
             "background": "rgba(0,0,0,0)",
             "text_color": ""
           }
