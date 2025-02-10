@@ -69,7 +69,7 @@
           "type": "list_item",
           "settings": {
             "item_text": "969 Marietta St NW #200, Atlanta, GA 30318, USA",
-            "button_link": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
+            "button_link": "shopify://pages/amm-atlanta",
             "button_text": "VISIT THIS STORE",
             "hover_image": "shopify://shop_images/ammaboutus_7c436abc-bac4-48a0-bf4e-3193e6e38ca9.jpg"
           }
@@ -78,7 +78,7 @@
           "type": "list_item",
           "settings": {
             "item_text": "1214 H St NE, Washington, DC 20002, USA",
-            "button_link": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4891101",
+            "button_link": "shopify://pages/amm-houston",
             "button_text": "VISIT THIS STORE",
             "hover_image": "shopify://shop_images/https___hypebeast.com_image_2018_04_a-ma-maniere-hotel-concept-1_1.jpg"
           }
