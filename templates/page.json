@@ -9,36 +9,29 @@
  */
 {
   "sections": {
-    "image_with_text_overlay_AhirUp": {
-      "type": "image-with-text-overlay",
+    "content_page_section_GifitE": {
+      "type": "content-page-section",
       "blocks": {
-        "heading_LXeig3": {
-          "type": "heading",
+        "paragraph_PfMi7K": {
+          "type": "paragraph",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur.",
-            "heading_tag": "h1"
+            "paragraph": "{{ page.content }}"
           }
         }
       },
       "block_order": [
-        "heading_LXeig3"
+        "paragraph_PfMi7K"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
-        "image_size": "auto",
-        "image": "shopify://shop_images/Rectangle_93.png",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 16
+        "title": "{{ page.title }}",
+        "description": "Description About the page",
+        "circular_text": "Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll",
+        "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png"
       }
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_title": true,
@@ -47,7 +40,7 @@
     }
   },
   "order": [
-    "image_with_text_overlay_AhirUp",
+    "content_page_section_GifitE",
     "main"
   ]
 }

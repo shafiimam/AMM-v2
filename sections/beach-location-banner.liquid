@@ -21,6 +21,7 @@
 <style>
   .beach-banner-section {
     background-image: url('{{ section.settings.desktop_image | img_url: '1600x' }}');
+    height: {{ section.settings.desktop_image.height }}px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,15 +29,15 @@
   @media screen and (max-width: 768px) {
     .beach-banner-section {
       background-image: url('{{ section.settings.mobile_image | img_url: '700x' }}');
-      aspect-ratio: unset;
+      height: {{ section.settings.mobile_image.height }}px;
     }
   }
   .beach-banner-content-container {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    height: -webkit-fill-available;
     padding-block: 6rem;
     gap: 4rem;
+    height: 100%;
   }
   .banner-location-container {
     display: grid;

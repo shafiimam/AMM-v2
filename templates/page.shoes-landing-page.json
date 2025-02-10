@@ -64,38 +64,27 @@
         "remove_vertical_spacing": false
       }
     },
-    "image_with_text_3RCJ8L": {
-      "type": "image-with-text",
+    "section_rounded_text_column_3Ff7F4": {
+      "type": "section-rounded-text-column",
       "blocks": {
-        "heading_6KUjqd": {
+        "heading_nEnngp": {
           "type": "heading",
           "settings": {
             "text": "Louis Vuitton Shoe",
             "heading_tag": "h1"
           }
         },
-        "richtext_KgnhFQ": {
+        "richtext_Wb7wth": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.z</p>",
             "text_color": "#8f8f8f"
-          }
-        },
-        "button_XhVQaG": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Buy Now",
-            "url": "",
-            "background": "",
-            "text_color": ""
           }
         }
       },
       "block_order": [
-        "heading_6KUjqd",
-        "richtext_KgnhFQ",
-        "button_XhVQaG"
+        "heading_nEnngp",
+        "richtext_Wb7wth"
       ],
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
@@ -103,11 +92,13 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/Frame_1000002108_8dc132ff-30f5-4b8c-b0bc-763af6d425c6.png",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/black_shoes.png",
+        "mobile_image": "shopify://shop_images/black_shoes.png",
+        "circular_text": "Balenciaga jordan pro balenciaga jordan pro Balenciaga",
         "reveal_on_scroll": true,
         "image_position": "start",
-        "content_width": "lg",
+        "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
@@ -183,7 +174,7 @@
   "order": [
     "main",
     "image_with_text_custom_qxrkki",
-    "image_with_text_3RCJ8L",
+    "section_rounded_text_column_3Ff7F4",
     "featured_collections_e4qJwn",
     "3d_gallery_Y9qVkB",
     "featured_collections_Dtrtbp"

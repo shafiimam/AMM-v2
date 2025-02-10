@@ -33,6 +33,13 @@ Output a list of social media icons based on the social URL settings.
     </li>
   {%- endif -%}
 
+  {%- if settings.social_discord != blank or shop.brand.metafields.social_links.discord != blank -%}
+    <li class="social-media__item branding-colors--discord">
+      <a href="{{ settings.social_discord | default: shop.brand.metafields.social_links.discord }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Discord' }}">
+        {%- render 'icon' with 'discord' -%}
+      </a>
+    </li>
+  {%- endif -%}
   {%- if settings.social_threads != blank or shop.brand.metafields.social_links.threads != blank -%}
     <li class="social-media__item branding-colors--instagram">
       <a href="{{ settings.social_threads | default: shop.brand.metafields.social_links.threads }}" class="tap-area" target="_blank" rel="noopener" aria-label="{{ 'general.social.follow_on' | t: social_media: 'Threads' }}">

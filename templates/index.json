@@ -160,7 +160,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "1",
@@ -289,32 +289,30 @@
         "richtext_cBEMWd": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>WORLD-CLASS CRAFTSMANSHIP</strong> - timeless seasonal pieces designed, developed and executed by the world's best and most celebrated contributors to style and fashion</p>",
-            "text_color": "#1c1c1c"
+            "content": "<p><strong>WORLD-CLASS CRAFTSMANSHIP</strong> - timeless seasonal pieces designed, developed and executed by the world's best and most celebrated contributors to style and fashion</p><p></p><p><strong>REFINED MATERIAL</strong>- sourced from across the globe, our pieces and collections are anchored by a commitment to adopting the finest and most desired materials of our time</p><p></p><p><strong>TIMELESS ELEGANCE - </strong>the styling and execution across collections stand as our commitment to sophistication, embodying the attention to detail of iconic pieces of history</p>",
+            "text_color": "#8f8f8f"
           }
         },
-        "richtext_77aMhV": {
-          "type": "richtext",
+        "button_MkANMM": {
+          "type": "button",
           "settings": {
-            "content": "<p><strong>REFINED MATERIAL</strong>- sourced from across the globe, our pieces and collections are anchored by a commitment to adopting the finest and most desired materials of our time</p>",
-            "text_color": "#1c1c1c"
-          }
-        },
-        "richtext_f3Km44": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>TIMELESS ELEGANCE - </strong>the styling and execution across collections stand as our commitment to sophistication, embodying the attention to detail of iconic pieces of history</p>",
-            "text_color": "#1c1c1c"
+            "style": "solid",
+            "text": "CATALOG",
+            "url": "",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "heading_jdQf64",
         "richtext_cBEMWd",
-        "richtext_77aMhV",
-        "richtext_f3Km44"
+        "button_MkANMM"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "strong {color: #000;}",
+        "p {margin-block-start: 2.5rem;}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,

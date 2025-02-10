@@ -1,3 +1,11 @@
+<style>
+  .content-page-section-container {
+    background-image: url({{section.settings.section_background_image|img_url:'master'}});
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+</style>
+
 <div class="section-spacing content-page-section-container container">
   <div class="v-stack gap-7 content-page-section">
     <div class="content-page-section__header">
@@ -6,12 +14,24 @@
           <h1 class="h1 content-page-section__title">{{ section.settings.title }}</h1>
           <p class="content-page-section__description text-subdued">{{ section.settings.description }}</p>
         </div>
-        <img
-          src="{{ section.settings.header_logo | img_url : 'master' }}"
-          alt="{{ section.settings.title }}"
-          height="{{ section.settings.header_logo.height }}"
-          width="{{ section.settings.header_logo.width }}"
-        >
+        <div class="content-page-section__circular-text-container">
+          <img
+            src="{{ 'arrow-down.svg' | asset_url }}"
+            alt=""
+            srcset=""
+            height="95"
+            width="50"
+            data-aos="fade-up"
+          >
+          <svg viewBox="0 0 200 200" width="230" height="230">
+            <defs>
+              <path id="circlePath" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"/>
+            </defs>
+            <text fill="black" font-size="18" font-family="var(--heading-font-family)" text-anchor="middle" class="content-page-section__circular-text">
+              <textPath xlink:href="#circlePath" startOffset="50%" >{{  section.settings.circular_text }}</textPath>
+            </text>
+          </svg>
+        </div>
       </div>
     </div>
 
@@ -55,13 +75,7 @@
   </div>
 </div>
 
-<style>
-  .content-page-section-container {
-    background-image: url({{section.settings.section_background_image| img_url:'master'}});
-    background-position: top right;
-    background-repeat: no-repeat;
-  }
-</style>
+
 
 {% schema %}
 {
@@ -82,9 +96,11 @@
       "default": "Description About the page"
     },
     {
-      "type": "image_picker",
-      "id": "header_logo",
-      "label": "Section Header Image"
+      "type": "textarea",
+      "id": "circular_text",
+      "label": "Rounded Text",
+      "default": "Scroll Scroll Scroll Scroll Scroll Scroll",
+      "info": "Should be of certain length to make the circular text work"
     },
     {
       "type": "image_picker",

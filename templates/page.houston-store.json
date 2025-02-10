@@ -40,7 +40,7 @@
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "Store Name",
+            "text": "AMM  Houston",
             "heading_tag": "h1"
           }
         },
@@ -58,7 +58,7 @@
         "liquid_CiMgth"
       ],
       "custom_css": [
-        ".h1 {font-size: 8vw; width: max-content;}",
+        ".h1 {font-size: 8vw;}",
         "svg {display: inline;}"
       ],
       "settings": {

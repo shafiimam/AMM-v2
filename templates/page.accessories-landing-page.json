@@ -41,7 +41,7 @@
         "image_HPtVF8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Frame_356.png",
+            "image": "shopify://shop_images/Acc._Banner_1.5.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -64,52 +64,57 @@
         "remove_vertical_spacing": true
       }
     },
-    "image_with_text_custom_qxrkki": {
-      "type": "image-with-text-custom",
+    "section_rounded_text_column_GqPnPr": {
+      "type": "section-rounded-text-column",
       "blocks": {
-        "heading_QcgKxR": {
+        "heading_mYMAJx": {
           "type": "heading",
           "settings": {
-            "text": "Simply Elegant",
-            "heading_font_size": 1,
+            "text": "Simply  Elegant",
             "heading_tag": "h1"
           }
         },
-        "richtext_mhLp3D": {
+        "richtext_BgRjdd": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. </p>",
+            "text_color": "#8f8f8f"
           }
         },
-        "button_RLWyGn": {
+        "button_KhbMHc": {
           "type": "button",
           "settings": {
             "style": "solid",
             "text": "See All",
-            "url": "shopify://collections/new-sneakers",
+            "url": "",
             "background": "",
             "text_color": ""
           }
         }
       },
       "block_order": [
-        "heading_QcgKxR",
-        "richtext_mhLp3D",
-        "button_RLWyGn"
+        "heading_mYMAJx",
+        "richtext_BgRjdd",
+        "button_KhbMHc"
       ],
       "custom_css": [
-        ".h1 {max-width: 750px;}"
+        "p.h1 {font-size: 80px; width: max-content; width: 100%; word-break: break-word; overflow-wrap: break-word;}",
+        "@media only screen and (min-width: 1000px) {p.h1 {font-size: 120px; }}",
+        ".image-with-circular-text__container > div:first-child {align-self: flex-end;}",
+        "picture {align-self: start;}"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/Group_4.png",
-        "mobile_image": "shopify://shop_images/image_14.png",
+        "image": "shopify://shop_images/Frame_358.png",
+        "mobile_image": "shopify://shop_images/Frame_358.png",
+        "circular_text": "Balenciaga Jordan Pro Balenciaga Jordan Pro Balenciaga Jordan Pro",
+        "image_circular_text": "shopify://shop_images/image_28.png",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "image_position_mobile": "bottom",
-        "content_width": "lg",
-        "remove_vertical_spacing": true
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     },
     "image_with_text_3RCJ8L": {
@@ -232,7 +237,7 @@
   "order": [
     "main",
     "rich_text_xwKKEF",
-    "image_with_text_custom_qxrkki",
+    "section_rounded_text_column_GqPnPr",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
     "3d_gallery_Y9qVkB",
