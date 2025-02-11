@@ -52,6 +52,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "true_fit_widget_tpCKyE": {
+          "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -62,10 +66,6 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "true_fit_widget_tpCKyE": {
-          "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
-          "settings": {}
         },
         "feature_with_icon_TyMeDX": {
           "type": "feature_with_icon",
@@ -162,8 +162,8 @@
         "separator",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "true_fit_widget_tpCKyE",
+        "buy_buttons",
         "feature_with_icon_TyMeDX",
         "feature_with_icon_zCCbKy",
         "feature_with_icon_jny9WQ",
