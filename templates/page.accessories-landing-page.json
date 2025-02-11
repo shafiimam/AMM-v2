@@ -33,7 +33,7 @@
           "settings": {
             "style": "solid",
             "text": "See All",
-            "url": "",
+            "url": "shopify://collections/new-accessories",
             "background": "",
             "text_color": ""
           }
