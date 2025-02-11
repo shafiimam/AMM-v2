@@ -97,7 +97,7 @@
         "event_z7T663": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
+            "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": true,
@@ -118,6 +118,7 @@
         },
         "event_gcKegJ": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -129,6 +130,7 @@
         },
         "event_zgLeCE": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -140,6 +142,7 @@
         },
         "event_67zwF7": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -151,6 +154,7 @@
         },
         "event_dDKLTR": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -162,6 +166,7 @@
         },
         "event_gqQFJG": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -173,6 +178,7 @@
         },
         "event_NWgm8L": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -184,6 +190,7 @@
         },
         "event_HiPxpm": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
