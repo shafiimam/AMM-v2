@@ -63,7 +63,7 @@
                       {%- capture featured_blog_post_sizes -%}(max-width: 1149px) 95vw, 1260px{%- endcapture -%}
 
                       {%- if article.image != blank -%}
-                        {{- article.image | image_url: width: article.image.width | image_tag: sizes: featured_blog_post_sizes, widths: '200,300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200', class: 'zoom-image group-hover:zoom' -}}
+                        {{- article.image | image_url: width: article.image.width | image_tag: sizes: featured_blog_post_sizes, widths: '500,600,800,1000,1200,1400,1600,1800,2000,2200', class: 'zoom-image group-hover:zoom' -}}
                       {%- endif -%}
 
                       <div class="prose place-self-end-start">

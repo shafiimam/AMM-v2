@@ -461,3 +461,8 @@ button.glider-next {
 .content-page-section__circular-text-container img {
   position: absolute;
 }
+
+/* customer profile page */
+h1#cae-heading {
+  text-transform: capitalize;
+}
