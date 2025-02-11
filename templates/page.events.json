@@ -107,6 +107,7 @@
         },
         "event_CbK9CA": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
