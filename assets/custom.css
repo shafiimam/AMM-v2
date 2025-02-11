@@ -189,6 +189,11 @@ li.header__primary-nav-item a {
   font-family: var(--text-font-family);
   font-size: var(--text-base);
 }
+@media only screen and (max-width: 700px) {
+  .localization-selectors {
+    justify-content: flex-start;
+  }
+}
 /* product page */
 sale-price.h4 {
   font-family: DINPro;
@@ -426,6 +431,7 @@ button.glider-next {
   line-height: normal;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+  text-align: left;
 }
 
 @media screen and (min-width: 800px) {

@@ -1,10 +1,13 @@
-{% assign container_class = "container container--" | append: section.settings.content_width %}
+{% assign container_class = 'container container--' | append: section.settings.content_width %}
 {% if section.settings.content_width == 'full-screen' %}
-  {% assign container_class = "" %}
+  {% assign container_class = '' %}
 {% endif %}
 
 {%- if section.blocks.size > 0 -%}
-  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+    | default: section.settings.color_scheme.settings.background
+    | md5
+  -%}
 
   <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="{{ container_class }}">
@@ -59,7 +62,26 @@
                     {%- assign image_widths = '200,300,400,500,600,800,1000,1200,1400,1600' -%}
                   {%- endif -%}
 
-                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: sizes: image_sizes_attribute, widths: image_widths, class: 'constrained-image', style: image_style_attribute -}}
+                  <picture>
+                    {%- if block.settings.image_mobile != blank -%}
+                      <source
+                        media="(max-width: 699px)"
+                        srcset="{{ block.settings.image_mobile | image_url: width: '600x' }}"
+                        width="{{ block.settings.image_mobile.width }}"
+                        height="{{ block.settings.image_mobile.height }}"
+                      >
+                    {%- endif -%}
+
+                    {{-
+                      block.settings.image
+                      | image_url: width: block.settings.image.width
+                      | image_tag:
+                        sizes: image_sizes_attribute,
+                        widths: image_widths,
+                        class: 'constrained-image',
+                        style: image_style_attribute
+                    -}}
+                  </picture>
                 </div>
               {%- endif -%}
 
@@ -71,11 +93,27 @@
               {%- endif -%}
 
             {%- when 'link' -%}
-              <a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="link" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</a>
+              <a
+                {% if block.settings.url %}
+                  href="{{ block.settings.url }}"
+                {% endif %}
+                class="link"
+                {{ block.shopify_attributes }}
+              >
+                {{- block.settings.text | escape -}}
+              </a>
 
             {%- when 'button' -%}
               {%- if block.settings.text != blank -%}
-                {% render 'button', content: block.settings.text, href: block.settings.url, size: block.settings.size, style: block.settings.style, background: block.settings.background, text_color: block.settings.text_color, block: block %}
+                {% render 'button',
+                  content: block.settings.text,
+                  href: block.settings.url,
+                  size: block.settings.size,
+                  style: block.settings.style,
+                  background: block.settings.background,
+                  text_color: block.settings.text_color,
+                  block: block
+                %}
               {%- endif -%}
 
             {%- when 'liquid' -%}
@@ -273,6 +311,11 @@
           "id": "image",
           "label": "t:global.image.image",
           "info": "t:sections.rich_text.blocks.image.image_size_recommendation"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Image Mobile"
         },
         {
           "type": "radio",

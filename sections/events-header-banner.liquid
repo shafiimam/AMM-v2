@@ -23,17 +23,23 @@
 <style>
    .section_event_header{
       margin-block: 60px;
+      @media only screen and (max-width: 768px) {
+        margin-block: 30px;
+      }
    }
   .section_event_header{
     position: relative; 
   }
   .section_event_header--title-container {
     position: absolute;
-    top: -16%;
+    top: -12%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    @media only screen and (max-width: 768px) {
+      top: -4%;
+    }
   }
   .section_event_header--title-container .h1 {
     color: #fff;

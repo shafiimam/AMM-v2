@@ -60,7 +60,6 @@
               {%- endif -%}
 
             {%- when 'heading' -%}
-              {% assign block_heading_size = block.settings.heading_font_size %}
               {%- if block.settings.text != blank -%}
                 <p class="{{ block.settings.heading_tag }} section-block-heading" {{ block.shopify_attributes }}>
                   {{ block.settings.text }}
@@ -132,7 +131,7 @@
   }
   @media screen and (max-width: 767px){
     .section-block-heading{
-      font-size: 115px;
+      font-size: 60px;
     }
   }
   .image-with-text-custom .prose{
@@ -260,16 +259,6 @@
           "id": "text",
           "label": "t:global.text.text",
           "default": "Heading"
-        },
-        {
-          "type": "range",
-          "id": "heading_font_size",
-          "min": 1,
-          "max": 30,
-          "step": 1,
-          "unit": "vw",
-          "label": "Title Font Size",
-          "default": 10
         },
         {
           "type": "select",
