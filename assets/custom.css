@@ -445,7 +445,6 @@ button.glider-next {
   grid-column: span 2;
 }
 
-
 /* circular text */
 .content-page-section__circular-text-container {
   position: relative;
@@ -465,4 +464,10 @@ button.glider-next {
 /* customer profile page */
 h1#cae-heading {
   text-transform: capitalize;
+}
+
+.mega_menu__linklist--brands {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
