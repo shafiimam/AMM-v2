@@ -8216,7 +8216,7 @@ product-rerender {
 .smallcaps {
   text-transform: uppercase;
   letter-spacing: var(--heading-letter-spacing);
-  font-size: 0.625rem;
+  font-size: 0.8rem;
 }
 
 .text-xxs {

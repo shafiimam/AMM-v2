@@ -471,3 +471,19 @@ h1#cae-heading {
   display: flex;
   justify-content: space-between;
 }
+
+.customer-orders-container {
+  margin-top: 50px;
+}
+.customer-orders-container table,
+.customer-orders-container th,
+.order-summary__header th,
+.customer-order__address-list .h6 {
+  font-size: 14px !important;
+  color: #000;
+}
+.customer-orders-container th,
+.order-summary__header th {
+  font-weight: 500;
+  opacity: 1;
+}
