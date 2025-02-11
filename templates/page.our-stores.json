@@ -39,15 +39,6 @@
             "left": 31
           }
         },
-        "hotspot_Vx6weR": {
-          "type": "hotspot",
-          "settings": {
-            "title": "",
-            "text": "",
-            "top": 0,
-            "left": 0
-          }
-        },
         "hotspot_K7Dpyz": {
           "type": "hotspot",
           "settings": {
@@ -61,7 +52,6 @@
       "block_order": [
         "hotspot_8hxXcb",
         "hotspot_CDgjBH",
-        "hotspot_Vx6weR",
         "hotspot_K7Dpyz"
       ],
       "settings": {
