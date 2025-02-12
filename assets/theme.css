@@ -4965,7 +4965,7 @@ product-rerender {
 }
 
 .footer__aside .payment-methods {
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 30rem;
 }
 
