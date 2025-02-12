@@ -66,7 +66,11 @@
 
       hoverTrigger.addEventListener('mousemove', (e) => {
         console.log(`Mouse X: ${e.pageX}, Mouse Y: ${e.pageY}`);
-        hoverImage.style.left = `${e.pageX + 15}px`; // Position image near cursor
+        if (window.innerWidth < 768) {
+          hoverImage.style.left = 0;
+        } else {
+          hoverImage.style.left = `${e.pageX + 15}px`; // Position image near cursor
+        }
         hoverImage.style.top = `${e.pageY + 15}px`;
       });
     });
