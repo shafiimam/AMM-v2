@@ -54,7 +54,7 @@
         "heading_pa4TXe": {
           "type": "heading",
           "settings": {
-            "text": "Outerwear",
+            "text": "Lifestyle",
             "heading_tag": "h1"
           }
         },
@@ -178,14 +178,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC00479_DC_1.jpg",
+            "image": "shopify://shop_images/DSC00248_DC_1.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://collections/all",
+            "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -196,6 +196,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/DSC00108_DC_020f746e-2226-4c9d-8677-63c484050d13.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -213,7 +214,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC00479_DC_1.jpg",
+            "image": "shopify://shop_images/DSC09869_DC_1_copy.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
