@@ -86,7 +86,7 @@
         "color_scheme": "",
         "image_size": "md",
         "image": "shopify://shop_images/DSC09039_DC_copy_4d42870e-8fa6-4e32-a3a0-88893a1bbfbb.jpg",
-        "mobile_image": "shopify://shop_images/image_33_41452a54-9b77-4e00-b466-aa866bf14b4f.png",
+        "mobile_image": "shopify://shop_images/DSC09039_DC_copy_4d42870e-8fa6-4e32-a3a0-88893a1bbfbb.jpg",
         "content_width": "sm",
         "enable_parallax": false,
         "remove_vertical_spacing": true
@@ -134,7 +134,7 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/DSC09579_DC_copy.jpg",
-        "mobile_image": "shopify://shop_images/Group_5.png",
+        "mobile_image": "shopify://shop_images/DSC09579_DC_copy.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
