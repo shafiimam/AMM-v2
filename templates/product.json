@@ -224,6 +224,38 @@
         "text_color": ""
       }
     },
+    "video_w7EHKd": {
+      "type": "video",
+      "blocks": {
+        "play_ercKnb": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_ccNJx6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_ercKnb",
+        "heading_ccNJx6"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "fill",
+        "video": "shopify://files/videos/New era 4k Logos .mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "image_with_text_rLpTcJ": {
       "type": "image-with-text",
       "blocks": {
@@ -246,6 +278,7 @@
         "heading_xC4Ffm",
         "richtext_MhbeEc"
       ],
+      "disabled": true,
       "custom_css": [
         ".h2 {font-size: 36px; font-weight: 600;}"
       ],
@@ -283,6 +316,7 @@
     "breeadcrumbs_zf6QQE",
     "main",
     "scrolling_content_t7zNyY",
+    "video_w7EHKd",
     "image_with_text_rLpTcJ",
     "related-products"
   ]
