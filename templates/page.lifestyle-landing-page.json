@@ -18,6 +18,31 @@
         "page_width": "xs"
       }
     },
+    "rich_text_wppe8r": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pa4TXe": {
+          "type": "heading",
+          "settings": {
+            "text": "Lifestyle",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pa4TXe"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 120px; @media only screen and (max-width: 768px){font-size: 60px; }}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
     "image_with_text_custom_qxrkki": {
       "type": "image-with-text-custom",
       "blocks": {
@@ -32,6 +57,7 @@
       "block_order": [
         "heading_QcgKxR"
       ],
+      "disabled": true,
       "custom_css": [
         "picture {display: flex; justify-content: space-around;}"
       ],
@@ -285,6 +311,7 @@
   },
   "order": [
     "main",
+    "rich_text_wppe8r",
     "image_with_text_custom_qxrkki",
     "rich_text_xwKKEF",
     "image_with_text_block_mTzP8F",
