@@ -25,7 +25,6 @@
           "type": "heading",
           "settings": {
             "text": "Footwear",
-            "heading_font_size": 8,
             "heading_tag": "h1"
           }
         },
@@ -93,7 +92,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image": "shopify://shop_images/black_shoes.png",
         "mobile_image": "shopify://shop_images/black_shoes.png",
         "circular_text": "Balenciaga jordan pro balenciaga jordan pro Balenciaga",
