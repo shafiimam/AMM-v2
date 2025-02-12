@@ -33,13 +33,13 @@
         "heading_pa4TXe"
       ],
       "custom_css": [
-        ".h1 {font-size: 120px; @media only screen and (max-width: 768px){font-size: 60px; }}"
+        ".h1 {font-size: 120px; @media only screen and (max-width: 768px) {font-size: 60px; }}"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "content_width": "lg",
-        "text_position": "start",
+        "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
