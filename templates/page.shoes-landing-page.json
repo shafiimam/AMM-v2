@@ -60,7 +60,7 @@
         "image_position": "end",
         "image_position_mobile": "bottom",
         "content_width": "lg",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "section_rounded_text_column_3Ff7F4": {
