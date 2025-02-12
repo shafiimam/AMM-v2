@@ -46,13 +46,36 @@
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": true,
-        "media_size": "auto",
+        "media_size": "fill",
         "show_initial_transition": false,
         "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "video_RcEDE7": {
+      "type": "video",
+      "blocks": {
+        "heading_Y4ejHW": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y4ejHW"
+      ],
+      "disabled": true,
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     },
     "featureed_image_and_products_zaMf8b": {
@@ -393,6 +416,7 @@
   },
   "order": [
     "slideshow_QGYQ6e",
+    "video_RcEDE7",
     "featureed_image_and_products_zaMf8b",
     "before-after",
     "featured-collections",
