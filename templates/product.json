@@ -52,6 +52,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "true_fit_widget_tpCKyE": {
+          "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -65,6 +69,7 @@
         },
         "feature_with_icon_TyMeDX": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Hand Made",
             "link": "",
@@ -78,6 +83,7 @@
         },
         "feature_with_icon_zCCbKy": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Discount",
             "link": "",
@@ -91,6 +97,7 @@
         },
         "feature_with_icon_jny9WQ": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Best Seller",
             "link": "",
@@ -104,20 +111,10 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false,
             "show_below_gallery": false
-          }
-        },
-        "accordion_XCVwAf": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": false,
-            "icon": "none",
-            "title": "More Information",
-            "content": "<p>Share some content to your customers about your products.</p>",
-            "liquid": "",
-            "page": ""
           }
         },
         "accordion_XRHUfQ": {
@@ -136,8 +133,8 @@
           "settings": {
             "show_below_gallery": true,
             "icon": "none",
-            "title": "Shipping And Details",
-            "content": "<p>{{ product.description }}</p>",
+            "title": "Shipping & Returns",
+            "content": "{{ product.description }}",
             "liquid": "",
             "page": ""
           }
@@ -145,11 +142,18 @@
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
-            "title": "Combine With",
-            "products_count": 2,
+            "title": "You May Also Like",
+            "products_count": 4,
             "show_below_gallery": true,
-            "stack_products": true,
+            "stack_products": false,
             "show_quick_buy": true
+          }
+        },
+        "more_information_mebE7W": {
+          "type": "more_information",
+          "disabled": true,
+          "settings": {
+            "text": "More information"
           }
         }
       },
@@ -160,15 +164,16 @@
         "separator",
         "variant_picker",
         "quantity_selector",
+        "true_fit_widget_tpCKyE",
         "buy_buttons",
         "feature_with_icon_TyMeDX",
         "feature_with_icon_zCCbKy",
         "feature_with_icon_jny9WQ",
         "description",
-        "accordion_XCVwAf",
         "accordion_XRHUfQ",
         "accordion_8jqzLY",
-        "complementary_products"
+        "complementary_products",
+        "more_information_mebE7W"
       ],
       "settings": {
         "color_scheme": "",
@@ -213,8 +218,8 @@
         "text_font": "body",
         "text_font_size_mobile": 40,
         "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 10,
-        "section_vertical_spacing_desktop": 10,
+        "section_vertical_spacing_mobile": 40,
+        "section_vertical_spacing_desktop": 40,
         "item_horizontal_spacing_mobile": 10,
         "item_horizontal_spacing_desktop": 60,
         "background": "",
@@ -254,11 +259,13 @@
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
       }
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -273,6 +280,54 @@
         "title": "You may also like",
         "content": ""
       }
+    },
+    "faq_GQwnbW": {
+      "type": "faq",
+      "blocks": {
+        "category_7T9MxT": {
+          "type": "category",
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_GB7Fp7": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "question_NacQBq": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "question_dWdFHn": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_7T9MxT",
+        "question_GB7Fp7",
+        "question_NacQBq",
+        "question_dWdFHn"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -280,6 +335,7 @@
     "main",
     "scrolling_content_t7zNyY",
     "image_with_text_rLpTcJ",
-    "related-products"
+    "related-products",
+    "faq_GQwnbW"
   ]
 }

@@ -26,6 +26,14 @@
             "button_text_color": ""
           }
         },
+        "links_aYeMKk": {
+          "type": "links",
+          "settings": {
+            "menu": "locations",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -47,12 +55,13 @@
           "settings": {
             "menu": "footer-menu-customer-care",
             "show_menu_title": true,
-            "menu_title": "Information"
+            "menu_title": "Customer Care"
           }
         }
       },
       "block_order": [
         "newsletter",
+        "links_aYeMKk",
         "links",
         "links_GazYEC",
         "links_HTje7z"
@@ -65,7 +74,7 @@
         "show_country_selector": true,
         "show_country_name": true,
         "show_country_flag": true,
-        "show_locale_selector": true
+        "show_locale_selector": false
       }
     }
   },

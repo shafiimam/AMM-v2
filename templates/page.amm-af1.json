@@ -1,0 +1,532 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme.stories",
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "full"
+      }
+    },
+    "hero_with_logo_nPMzTc": {
+      "type": "hero-with-logo",
+      "settings": {
+        "image": "shopify://shop_images/NEW_HEADER_MICROSITE2.jpg",
+        "logo_image": "shopify://shop_images/jordan-2-logo.svg",
+        "title": "A Ma Maniére x NIKE Air Force 1 \"W.Y.W.S.\"",
+        "title_color": "#ffffff",
+        "title_color_mobile": "#ffffff",
+        "title_shadow": 17,
+        "title_shadow_mobile": 20,
+        "title_size": 29,
+        "title_size_mobile": 20,
+        "description": "Launches on A Ma Maniére on 11.22.24",
+        "description_color": "#ffffff",
+        "description_color_mobile": "#ffffff",
+        "description_shadow": 30,
+        "description_shadow_mobile": 30,
+        "description_size": 20,
+        "description_size_mobile": 20,
+        "button_url": "",
+        "button_text": "",
+        "button_style": "solid",
+        "button_background": "#efefef",
+        "button_text_color": "#1c1c1c",
+        "content_alignment": "center",
+        "horizontal_position": 90,
+        "vertical_position": 0
+      }
+    },
+    "image_with_text_7Xm8Cg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HiTgQk": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére x Air Force 1 \"W.Y.W.S.\"",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_Pdk9a9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The <strong>A Ma Maniére x NIKE Air Force 1 \"W.Y.W.S.\" </strong>officially launches on 11.22 at 11AM EST on <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong></a>, and all <strong>A Ma Maniére </strong>locations during regular business hours. Footwear is priced at $150 with sizing ranging from W5/M3.5 - W16.5/M15. The <strong>A Ma Maniére x NIKE Destroyer Varsity Jacket \"W.Y.W.S\" </strong>is priced at $600 with unisex sizing ranging from XS-3XL.</p><p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from <strong>11.18 until 11.20</strong>. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p>All available for purchase while supplies last.<br/></p><p>International shipping available.</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "text_color": "#eaeaea"
+          }
+        },
+        "countdown_cDXnhg": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "final_date": "21-04-2022",
+            "final_time": "15:00",
+            "start_countdown": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HiTgQk",
+        "richtext_Pdk9a9",
+        "countdown_cDXnhg"
+      ],
+      "custom_css": [
+        ".container * {text-align: center;}",
+        ".h1 {color: #eaeaea; font-weight: 700;}",
+        "#countdown {color: #eaeaea;}",
+        ".prose p {font-family: \"Saol Display,sans-serif\";}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/COUNTDOWN_IMAGE_fde0414f-67e7-4c96-bcfb-c75a23d5f712.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
+      }
+    },
+    "amm_af1_3d_gallery_JTnxAx": {
+      "type": "amm-af1-3d-gallery",
+      "settings": {
+        "title": "Explore in 3d",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "media_grid_HwBKby": {
+      "type": "media-grid",
+      "blocks": {
+        "image_LfqrwC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/AF1_1.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Fw9AEQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AF1_2.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UfiUPV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AF1_8_8ad6e316-44ee-44a3-8132-5024d42d8c46.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_phtcL7": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AF1_13.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_azJwxY": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/AF1_3.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Bb7rAP": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/AF1_12.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YPima3": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/AF1_6.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3Db9UK": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/AF1_5.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MHAJQT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/AF1_10.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iWhfJp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/AF1_4.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_LfqrwC",
+        "image_Fw9AEQ",
+        "image_UfiUPV",
+        "image_phtcL7",
+        "image_azJwxY",
+        "image_Bb7rAP",
+        "image_YPima3",
+        "image_3Db9UK",
+        "image_MHAJQT",
+        "image_iWhfJp"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "desktop_row_height": 530,
+        "mobile_row_height": 410,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_4MXqFL": {
+      "type": "media-grid",
+      "blocks": {
+        "image_aCqxkA": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-1_5600e22d-6cbf-4fdd-8ab0-c51b6d068368.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gkhdMq": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-4_b1107b59-d7ef-4f5d-9605-56e767bf13ff.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BEtRTU": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-5_372fbc55-34db-4b69-b170-52dfc2838878.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3tPX3b": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-2_06fe9f30-892b-4181-9025-81d007a2171d.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HVfcXg": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-8_0cbaf128-7fab-4e92-90d2-c126fc8bb957.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TB3Va4": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-3_3ce8dec6-c6ba-44fb-b70e-603aba469d63.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jckHzH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-6_8cb10a1b-cf15-43b2-bc75-b8dcfb360bef.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_FA9Bnz": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-9_bd165075-1db1-49f1-9608-2c5d08501bad.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_dLC688": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1-7_016142cd-2f43-4678-a1af-f44eabf3bfd7.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cVQmCb": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMXAJ4WYWS-10_d54aa33b-aebf-499d-9905-3a759ec40954.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_aCqxkA",
+        "image_gkhdMq",
+        "image_BEtRTU",
+        "image_3tPX3b",
+        "image_HVfcXg",
+        "image_TB3Va4",
+        "image_jckHzH",
+        "image_FA9Bnz",
+        "image_dLC688",
+        "image_cVQmCb"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "desktop_row_height": 600,
+        "mobile_row_height": 400,
+        "section_width": "full",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_with_logo_nPMzTc",
+    "image_with_text_7Xm8Cg",
+    "amm_af1_3d_gallery_JTnxAx",
+    "media_grid_HwBKby",
+    "media_grid_4MXqFL"
+  ]
+}

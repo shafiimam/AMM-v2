@@ -9,6 +9,7 @@
  */
 {
   "sections": {
+<<<<<<< HEAD
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -61,11 +62,35 @@
         "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png",
         "section_banner_desktop": "shopify://shop_images/DESK8.jpg",
         "section_banner_mobile": "shopify://shop_images/NEWERA.jpg"
+=======
+    "content_page_section_TWazeA": {
+      "type": "content-page-section",
+      "settings": {
+        "title": "About Us",
+        "description": "Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big.",
+        "circular_text": "Scroll Scroll Scroll Scroll Scroll Scroll",
+        "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png",
+        "section_banner_desktop": "shopify://shop_images/ammaboutus_7c436abc-bac4-48a0-bf4e-3193e6e38ca9.jpg",
+        "section_banner_mobile": "shopify://shop_images/ammaboutus_7c436abc-bac4-48a0-bf4e-3193e6e38ca9.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": false,
+        "page_width": "full"
+>>>>>>> 71b384941d77a9e98a530ad0c18dd468271cd116
       }
     }
   },
   "order": [
+<<<<<<< HEAD
     "main",
     "content_page_section_TWazeA"
+=======
+    "content_page_section_TWazeA",
+    "main"
+>>>>>>> 71b384941d77a9e98a530ad0c18dd468271cd116
   ]
 }

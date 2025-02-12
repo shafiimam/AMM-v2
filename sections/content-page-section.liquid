@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="section-spacing content-page-section-container container">
   <div class="v-stack gap-7 content-page-section">
     <div class="content-page-section__header">
@@ -132,3 +133,158 @@
   ]
 }
 {% endschema %}
+=======
+<style>
+  .content-page-section-container {
+    background-image: url({{section.settings.section_background_image|img_url:'master'}});
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+</style>
+
+<div class="section-spacing content-page-section-container container">
+  <div class="v-stack gap-7 content-page-section">
+    <div class="content-page-section__header">
+      <div class="h-stack justify-between gap-5 flex-sm-wrap">
+        <div class="v-stack gap-5" style="max-width: 500px;">
+          <h1 class="h1 content-page-section__title">{{ section.settings.title }}</h1>
+          <p class="content-page-section__description text-subdued">{{ section.settings.description }}</p>
+        </div>
+        <div class="content-page-section__circular-text-container">
+          <img
+            src="{{ 'arrow-down.svg' | asset_url }}"
+            alt=""
+            srcset=""
+            height="95"
+            width="50"
+            data-aos="fade-up"
+          >
+          <svg viewBox="0 0 200 200" width="230" height="230">
+            <defs>
+              <path id="circlePath" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"/>
+            </defs>
+            <text fill="black" font-size="18" font-family="var(--heading-font-family)" text-anchor="middle" class="content-page-section__circular-text">
+              <textPath xlink:href="#circlePath" startOffset="50%" >{{  section.settings.circular_text }}</textPath>
+            </text>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    {% if section.settings.section_banner_desktop != blank %}
+      <div class="content-page-section__banner">
+        <picture>
+          <source
+            media="(min-width: 769px)"
+            srcset="{{ section.settings.section_banner_desktop | image_url: width: '1000x' }} 1000w, {{ section.settings.section_banner_desktop | image_url: width: '1600x' }} 1600w, {{ section.settings.section_banner_desktop | image_url: width: '2000x' }} 2000w"
+            width="{{ section.settings.section_banner_desktop.width }}"
+            height="{{ section.settings.section_banner_desktop.height }}"
+          >
+          <source
+            media="(max-width: 699px)"
+            srcset="{{ section.settings.section_banner_mobile | image_url: width: '400x' }} 400w, {{ section.settings.section_banner_mobile | image_url: width: '600x' }} 600w, {{ section.settings.section_banner_mobile | image_url: width: '800x' }} 800w, {{ section.settings.section_banner_mobile | image_url: width: '1000x' }} 1000w"
+            width="{{ section.settings.mobile_image.width }}"
+            height="{{ section.settings.mobile_image.height }}"
+          >
+          {{-
+            section.settings.section_banner_desktop
+            | image_url: width: section.settings.section_banner_desktop.width
+            | image_tag: sizes: '100vw', widths: '900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200'
+          -}}
+        </picture>
+      </div>
+    {% endif %}
+    <div class="content-page-section__blocks-container v-stack gap-4">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'heading' %}
+            <h2 class="h2" {{ block.shopify_attributes }}>{{ block.settings.heading }}</h2>
+          {% when 'paragraph' %}
+            <div class="prose text-subdued" {{ block.shopify_attributes }}>
+              {{ block.settings.paragraph }}
+            </div>
+          {% else %}
+
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Content page section",
+  "class": "shopify-section--content-page-section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "About Us"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Description About the page"
+    },
+    {
+      "type": "textarea",
+      "id": "circular_text",
+      "label": "Rounded Text",
+      "default": "Scroll Scroll Scroll Scroll Scroll Scroll",
+      "info": "Should be of certain length to make the circular text work"
+    },
+    {
+      "type": "image_picker",
+      "id": "section_background_image",
+      "label": "Section Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "section_banner_desktop",
+      "label": "Section Banner Image Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "section_banner_mobile",
+      "label": "Section Banner Image Mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Default Heading"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "name": "Paragraph",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "paragraph",
+          "label": "Paragraph",
+          "default": "<p>Default Paragraph</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Content page section"
+    }
+  ]
+}
+{% endschema %}
+>>>>>>> 71b384941d77a9e98a530ad0c18dd468271cd116

@@ -1,0 +1,483 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme.stories",
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "full"
+      }
+    },
+    "hero_with_logo_6PtrJC": {
+      "type": "hero-with-logo",
+      "settings": {
+        "image": "shopify://shop_images/Still_2024-07-17_100501_1.6.2.jpg",
+        "logo_image": "shopify://shop_images/jordan-2-logo.svg",
+        "title": "WHILE YOU WERE SLEEPING: AN UNPRECEDENTED STORY AND COLLECTION",
+        "title_color": "#ffffff",
+        "title_color_mobile": "#ffffff",
+        "title_shadow": 25,
+        "title_shadow_mobile": 22,
+        "title_size": 25,
+        "title_size_mobile": 20,
+        "description": "WHILE YOU WERE SLEEPING: AN UNPRECEDENTED STORY AND COLLECTION",
+        "description_color": "#ffffff",
+        "description_color_mobile": "#ffffff",
+        "description_shadow": 13,
+        "description_shadow_mobile": 14,
+        "description_size": 22,
+        "description_size_mobile": 19,
+        "button_url": "",
+        "button_text": "",
+        "button_style": "solid",
+        "button_background": "",
+        "button_text_color": "",
+        "content_alignment": "center",
+        "horizontal_position": 80,
+        "vertical_position": 0
+      }
+    },
+    "rich_text_gHNwCN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LbUBz8": {
+          "type": "heading",
+          "settings": {
+            "text": "10 Years of A Ma Maniére",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NDENQR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Classic, timeless luxury, fueled by the relentless pursuit of purpose and global connection through experience.</p>"
+          }
+        },
+        "heading_LjECkY": {
+          "type": "heading",
+          "settings": {
+            "text": "An Epic Cultural Motion Picture",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_wPeVLD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>More than a story and campaign, “While You Were Sleeping” is a cultural caper celebrating the power and influence of culture in every corner of the globe.<br/><br/>Premiering soon in theaters with a gripping universe and captivating characters anchoring an epic motion picture, the world of creatives playing a key role in the story and the setting of the movie’s universe form to deliver the powerful message and call to action resonating in every city and community: “Create At All Costs”.<br/><br/>From sights of A Ma Maniére Beach to a world connecting various global cities, the short film features appearances by globally-renowned creators, creatives and entrepreneurs Jae Tips, Nina Chanel, Hebru Brantley, Chris Gibbs, Angelo Baque, Guillaume Schmidt, Frank Cooker, Jennifer Ford, Julian Gaines, Jammie Holmes, Cam Kirk and Daniel Buezo and Mel Mitchell. At the heart of the story is the Creative Resource Agency (CRA), an entity that plays a central role in the plot tying all the characters together: the CRA is the agency that was created to actualize the concept of a “Black Tax” on minority creatives around the world, targeting those who are leading the creation of culture that influences society, including the movie’s characters. The short film will release soon in theaters with details to come.<br/><br/>As we unveil this world and the narrative at its core, we want you to join in, showing and telling us how you “Create At All Costs” in all aspects of your life. Whatever your medium and canvas is, we want to hear from you. Join in on the conversation using the <strong>#CreateAtAllCosts</strong> hashtag and using the creative laid out on the A Ma Maniere channels to share your work and story with us - and challenge the CRA and the Black Tax.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LbUBz8",
+        "richtext_NDENQR",
+        "heading_LjECkY",
+        "richtext_wPeVLD"
+      ],
+      "custom_css": [
+        "p {font-family: neue-haas-grotesk-display, sans-serif;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_YzDHYa": {
+      "type": "media-grid",
+      "blocks": {
+        "image_jmtJNy": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/hebruaj4.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Jt9xGw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/aj4carpov.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_jmtJNy",
+        "image_Jt9xGw"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "desktop_row_height": 510,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_GEAcqy": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_JMUCab": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Join the movement - the global community is mobilizing to show the world how we all “Create At All Costs”. Craft, build, ideate and share your expression of the call to action with #CreateAtAllCosts across your social media channels, let us know how you defy the CRA and stand for creative liberty and freedom.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_JMUCab"
+      ],
+      "custom_css": [
+        "p {font-family: neue-haas-grotesk-display, sans-serif;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_W7q4F4": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_4qTQhe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The “While You Were Sleeping” movie and universe is a  part of A Ma Maniére’s 10-year celebrations, which have included a series of engaging social, digital, and in-store activations.<br/><br/><br/><br/>As we continue to build and unveil immersive experiences that honor our past while showcasing our vision of the future, the movie will join a list of projects already unveiled and more to come, including the recent opening of A Ma Maniére Beach in Folly Beach, SC and more.<br/><br/><br/><br/><br/>In parallel to the journey is the release and unveiling of the “While You Were Sleeping” collection, the highly anticipated 10-Year anniversary collaborative collection with Nike, Jordan Brand and Converse. The special “While You Were Sleeping” collection features six iconic silhouettes reflecting a decade of cultural impact and commitment to classic, timeless luxury. In a landmark moment for the brand, this collection includes models from all Nike brands for only the second time in Nike Inc. history, with each exclusive and limited launch of the journey, now available for purchase, connected to video trailers leading up to the release of the “While You Were Sleeping” short film.<br/><br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_4qTQhe"
+      ],
+      "custom_css": [
+        "p {font-family: neue-haas-grotesk-display, sans-serif;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_6b3Xy7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BVWfLJ": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére's \"While You Were Sleeping\" Global Release & Screenings",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BVWfLJ"
+      ],
+      "custom_css": [
+        "p {font-family: neue-haas-grotesk-display, sans-serif;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "md",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_nEjy4d": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_JHFjEL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Join us for the global release of the highly anticipated A Ma Maniére short film \"While You Were Sleeping\" - directed by The Turner Brothers, in a city near you. Be one of the first to watch the gripping, action-filled feature, highlighted by appareances Jae Tips, Aria Hughes, Bimma Williams, Angelo Baque, Nina Chanel Abney, Hebru Brantley, Jennifer Ford, Jammie Holmes, Daniel Buezo, Frank Cooker, Jeremy Clowney, Julian Gaines, Cam Kirk, Mel Mitchell and starring Dayja Riddick.<br/><br/><br/>Tickets Are No Longer Available <br/><br/><br/><a href=\"https://www.cineloungefilm.com/movies/1000016347-while-you-were-sleeping/\"> **Click here to access the Cinelounge Sunset box office to purchase tickets for daily showtimes in Los Angeles from December 18th to December 24th**</a><br/><br/><br/><br/>• You must be registered to attend the screening in your chosen city - capacity is strictly limited to access all screenings.<br/><br/></p><p>• You will be able to select your desired city and screening time as you register<br/><br/><br/>• Theater and screening locations and times are subject to change, ensure to monitor your email for event updates.<br/><br/>Register to desired screening - spaces are limited and capacity will be strictly enforced.<br/><br/>Stay connected for updates and reminders on the upcoming screenings following registration.<br/><br/>We look forward to sharing this story and moment with you and the global community.<br/><br/></p><p>*To register for London, UK screening, please reach out to brand@thewhitakergrp.com to receive your ticket*<br/><br/>If you have any questions, please reach out to brand@thewhitakergrp.com.<br/><br/></p><p>#AMM10<br/>#CreateAtAllCosts</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_JHFjEL"
+      ],
+      "custom_css": [
+        "p {font-family: neue-haas-grotesk-display, sans-serif;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_block_43hC9j": {
+      "type": "image-with-text-block",
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "image_size": "lg",
+        "image": "shopify://shop_images/DSC05751.jpg",
+        "content_width": "sm",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_Png43h": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DiyReC": {
+          "type": "heading",
+          "settings": {
+            "text": "The complete A Ma Maniére “While You Were Sleeping”  Collection consists of:",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DiyReC"
+      ],
+      "custom_css": [
+        "p {font-family: neue-haas-grotesk-display, sans-serif;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_DzGehJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BPXD8g": {
+          "type": "heading",
+          "settings": {
+            "text": "\"We are incredibly excited to unveil this special collection, it is an incredible honor to create alongside all three brands - Nike, Jordan Brand and Converse all standing united behind our mission and vision. To continue to tell our stories with these iconic silhouettes and the ‘While You Were Sleeping” short film - our most ambitious story yet at this important milestone, we can’t wait for the world to immerse themselves in the full experiences we have planned. This is our way to show our gratitude for the unwavering support from all of you through the years - you are all part of our history, these are a testament to our shared commitment to excellence, and this story is for you.\"   - <strong>James Whitner. Owner & Founder, The Whitaker Group</strong>",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BPXD8g"
+      ],
+      "custom_css": [
+        "p {font-family: neue-haas-grotesk-display, sans-serif; font-weight: 500;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_4TikkJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kmk88G": {
+          "type": "heading",
+          "settings": {
+            "text": "Click the links below to uncover and discover more about the “While You Were Sleeping” silhouettes, now available for purchase.",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kmk88G"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_HwBKby": {
+      "type": "media-grid",
+      "blocks": {
+        "image_GwM9Jx": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/AJ3-2.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "Read More",
+            "link_url": "shopify://pages/aj3-wyws",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HVrKHc": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/AJ39.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_P8bDaB": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC08867_1.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "Read More",
+            "link_url": "https://www.a-ma-maniere.com/pages/aj4-wyws",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_darnxD": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/WYWS.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "Read More",
+            "link_url": "https://www.a-ma-maniere.com/pages/amm951234",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kp6Jmb": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/AF1_WYWS_8c4cf354-1272-4cbd-9b5f-88b48b1f405a.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "Read More",
+            "link_url": "https://www.a-ma-maniere.com/pages/amm-af1",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aJtDWV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/WYWS_CONVERSE.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "Read More",
+            "link_url": "https://www.a-ma-maniere.com/pages/amm-x-converse-weapon",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_GwM9Jx",
+        "image_HVrKHc",
+        "image_P8bDaB",
+        "image_darnxD",
+        "image_kp6Jmb",
+        "image_aJtDWV"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 460,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_with_logo_6PtrJC",
+    "rich_text_gHNwCN",
+    "media_grid_YzDHYa",
+    "rich_text_GEAcqy",
+    "rich_text_W7q4F4",
+    "rich_text_6b3Xy7",
+    "rich_text_nEjy4d",
+    "image_with_text_block_43hC9j",
+    "rich_text_Png43h",
+    "rich_text_DzGehJ",
+    "rich_text_4TikkJ",
+    "media_grid_HwBKby"
+  ]
+}

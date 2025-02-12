@@ -15,9 +15,7 @@
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "page_width": "xs",
-        "hide_header": false,
-        "hide_page_content": false
+        "page_width": "xs"
       }
     },
     "image_hotspot_3KfiCc": {
@@ -45,7 +43,7 @@
           "type": "hotspot",
           "settings": {
             "title": "Houston, TX",
-            "text": "3300 Kirby Dr #6a, Houston, TX 77098, United States",
+            "text": "3300 Kirby Dr #6A, Houston, TX 77098, United States",
             "top": 46,
             "left": 23
           }
@@ -67,41 +65,35 @@
     "list_column_aAz7bE": {
       "type": "list-column",
       "blocks": {
-        "list_item_A3XHDw": {
-          "type": "list_item",
-          "settings": {
-            "item_text": "100 Market Street San Francisco, CA 94105 USA",
-            "button_link": "",
-            "button_text": "VISIT THIS STORE"
-          }
-        },
         "list_item_i3Pycr": {
           "type": "list_item",
           "settings": {
-            "item_text": "100 Market Street San Francisco, CA 94105 USA",
-            "button_link": "",
-            "button_text": "VISIT THIS STORE"
+            "item_text": "969 Marietta St NW #200, Atlanta, GA 30318, USA",
+            "button_link": "shopify://pages/amm-atlanta",
+            "button_text": "VISIT THIS STORE",
+            "hover_image": "shopify://shop_images/AMM-Store-4.jpg"
           }
         },
         "list_item_JY7gtz": {
           "type": "list_item",
           "settings": {
-            "item_text": "100 Market Street San Francisco, CA 94105 USA",
-            "button_link": "",
-            "button_text": "VISIT THIS STORE"
+            "item_text": "3300 Kirby Dr #6a, Houston, TX 77098, USA",
+            "button_link": "shopify://pages/amm-houston",
+            "button_text": "VISIT THIS STORE",
+            "hover_image": "shopify://shop_images/AMM-Houston-Store-Interior.jpg"
           }
         },
         "list_item_9WfXdL": {
           "type": "list_item",
           "settings": {
-            "item_text": "100 Market Street San Francisco, CA 94105 USA",
-            "button_link": "",
-            "button_text": "VISIT THIS STORE"
+            "item_text": "1214 H St NE, Washington, DC 20002, USA",
+            "button_link": "shopify://pages/amm-washington",
+            "button_text": "VISIT THIS STORE",
+            "hover_image": "shopify://shop_images/A_Ma_Maniere_Washington_DC_interior.jpg"
           }
         }
       },
       "block_order": [
-        "list_item_A3XHDw",
         "list_item_i3Pycr",
         "list_item_JY7gtz",
         "list_item_9WfXdL"
@@ -110,70 +102,58 @@
         "separate_section_with_border": false
       }
     },
-    "text_with_icons_dDmnRN": {
-      "type": "text-with-icons",
+    "multi_column_ALjRPH": {
+      "type": "multi-column",
       "blocks": {
-        "item_qRpBrf": {
-          "type": "item",
+        "image_with_text_DXmGFV": {
+          "type": "image_with_text",
           "settings": {
-            "icon": "picto-delivery-truck",
-            "custom_icon": "shopify://shop_images/carbon_delivery.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "Delivery",
-            "content": "<p>Enjoy seamless and reliable shipping that ensures your order arrives as expected.</p>"
+            "title": "<strong>SUPPORT</strong>",
+            "heading_tag": "text-base",
+            "content": "<p>Our friendly team is here to help.</p>",
+            "link_url": "mailto:info@a-ma-maniere.com",
+            "link_text": "info@a-ma-maniere.com"
           }
         },
-        "item_bq9XGf": {
-          "type": "item",
+        "image_with_text_NmHnUK": {
+          "type": "image_with_text",
           "settings": {
-            "icon": "picto-customer-support",
-            "custom_icon": "shopify://shop_images/streamline_return-2.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "RETURNS & EXCHANGES",
-            "content": "<p> Ensures your experience remains as elevated as the products you select.</p>"
+            "title": "<strong>SALES</strong>",
+            "heading_tag": "text-base",
+            "content": "<p>Questions or queries? Get in touch!</p>",
+            "link_url": "mailto:support@untitledui.com",
+            "link_text": "support@untitledui.com"
           }
         },
-        "item_GxwTYJ": {
-          "type": "item",
+        "image_with_text_KEBRKP": {
+          "type": "image_with_text",
           "settings": {
-            "icon": "picto-shield",
-            "custom_icon": "shopify://shop_images/ph_chat.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "CLIENT SERVICE",
-            "content": "<p>From inquiries to solutions, our team is here to provide exclusive support tailored to your needs.</p>"
-          }
-        },
-        "item_LeJkcc": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-shield",
-            "custom_icon": "shopify://shop_images/fluent_payment-20-regular.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "AFFIRM",
-            "content": "<p>Flexible payment solutions designed to make owning the extraordinary easier than ever.</p>"
+            "title": "<strong>PHONE</strong>",
+            "heading_tag": "text-base",
+            "content": "<p>Mon-Fri from 8am to 5pm.</p>",
+            "link_url": "tel:+1 (555) 000-0000",
+            "link_text": "+1 (555) 000-0000"
           }
         }
       },
       "block_order": [
-        "item_qRpBrf",
-        "item_bq9XGf",
-        "item_GxwTYJ",
-        "item_LeJkcc"
+        "image_with_text_DXmGFV",
+        "image_with_text_NmHnUK",
+        "image_with_text_KEBRKP"
       ],
-      "custom_css": [
-        ".h6 {font-family: \"DINPro\";}"
-      ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
-        "separate_section_with_border": true,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "beach_location_banner_ERteFX": {
@@ -182,58 +162,35 @@
         "location_rjmt6U": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Atlanta",
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
           }
         },
         "location_mgfyeK": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Houston",
+            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA</p>"
           }
         },
-        "location_GngVq6": {
+        "location_Yx4LpJ": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_kHDTt8": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_eiHPd3": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street\nSan Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_kdUq6F": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Washington, D.C.",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
           }
         }
       },
       "block_order": [
         "location_rjmt6U",
         "location_mgfyeK",
-        "location_GngVq6",
-        "location_kHDTt8",
-        "location_eiHPd3",
-        "location_kdUq6F"
+        "location_Yx4LpJ"
       ],
       "settings": {
-        "desktop_image": "shopify://shop_images/beach-banner.png",
-        "title": "Visit our Beach",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "desktop_image": "shopify://shop_images/Rectangle_93.png",
+        "mobile_image": "shopify://shop_images/Contact_sections_mobile.png",
+        "title": "Visit Our Stores",
+        "description": "Experience A Ma Maniére’s signature luxury retail in person at our locations, where high-end streetwear, exclusive sneaker releases, and curated fashion collections come to life. Visit us to explore immersive shopping experiences, community-driven activations, and the latest in elevated street style and designer collaborations.",
         "button_url": "",
         "button_text": "Learn More"
       }
@@ -243,7 +200,7 @@
     "main",
     "image_hotspot_3KfiCc",
     "list_column_aAz7bE",
-    "text_with_icons_dDmnRN",
+    "multi_column_ALjRPH",
     "beach_location_banner_ERteFX"
   ]
 }

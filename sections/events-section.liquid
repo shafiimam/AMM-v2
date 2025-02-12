@@ -1,14 +1,14 @@
 <section class="container container-md" aria-labelledby="events-section-heading">
   <h1 id="events-section-heading" class="sr-only">Events Section</h1>
   <div class="filter-and-search-container">
-    <div class="filter-and-search w-full h-stack justify-between">
+    <div class="filter-and-search w-full h-stack justify-between gap-2 flex-sm-wrap">
       <div class="filter-and-search__filter h-stack gap-2">
         {% render 'icons', icon_type: 'filter' %}
         <label for="filter" class="text-subdued">Filter by</label>
-        <select name="filter" id="filter" aria-label="Filter events by type" >
+        <select name="filter" id="filter" aria-label="Filter events by type">
           <option value="all">All</option>
           <option value="online">Online</option>
-          <option value="offline">Offline</option>
+          <option value="offline">In Person</option>
         </select>
       </div>
       <div class="filter-and-search__search h-stack gap-2">
@@ -23,11 +23,19 @@
       <div class="events_grid_item" data-is-online="{{ block.settings.is_online }}" {{ block.shopify_attributes }}>
         <div class="event-container">
           <div class="event__image">
-            {{-
-              block.settings.image
-              | image_url: width: block.settings.image.width
-              | image_tag: widths: '200,300,400,500,600,700,800,900', alt: block.settings.title
-            -}}
+            <picture>
+              {% if block.settings.mobile_image %}
+                <source
+                  media="(max-width: 699px)"
+                  srcset="{{ block.settings.mobile_image | image_url: width: '600x' }}"
+                >
+              {% endif %}
+              {{-
+                block.settings.image
+                | image_url: width: block.settings.image.width
+                | image_tag: widths: '200,300,400,500,600,700,800,900', alt: block.settings.title
+              -}}
+            </picture>
           </div>
           <div class="event_content">
             <h2 class="event_title h3">{{ block.settings.title }}</h2>
@@ -42,11 +50,15 @@
                   <span>Online</span>
                 {% else %}
                   {% render 'icons', icon_type: 'offline' %}
-                  <span>Offline</span>
+                  <span>In Person</span>
                 {% endif %}
               </div>
             </div>
-            <a href="#" class="button event_cta_button" aria-label="Participate in {{ block.settings.title }}">
+            <a
+              href="{{ block.settings.button_url }}"
+              class="button event_cta_button"
+              aria-label="Participate in {{ block.settings.title }}"
+            >
               {{- block.settings.button_label -}}
             </a>
           </div>
@@ -62,9 +74,14 @@
     justify-content: space-between;
     margin-bottom: 2rem;
   }
+  .filter-and-search__filter label {
+    @media screen and (max-width: 700px) {
+      display: none;
+    }
+  }
   .events_grid_container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(calc(380px - 2rem ), 1fr));
     gap: 2rem;
   }
   .event-container {
@@ -79,7 +96,8 @@
     flex-flow: column nowrap;
     gap: 15px;
   }
-  .event_location, .event_status span {
+  .event_location,
+  .event_status span {
     color: #8f8f8f;
     text-transform: uppercase;
   }
@@ -87,7 +105,6 @@
     margin-block-start: 1.2rem;
     width: -webkit-fill-available;
   }
-
 </style>
 
 <script>
@@ -109,7 +126,7 @@
         }
       });
     });
- 
+
     search.addEventListener('input', function () {
       const value = this.value.toLowerCase();
 
@@ -138,6 +155,11 @@
           "label": "Image"
         },
         {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile Image"
+        },
+        {
           "type": "text",
           "id": "title",
           "label": "Title",
@@ -160,6 +182,11 @@
           "id": "button_label",
           "label": "Button Label",
           "default": "Participate"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Button Url"
         }
       ]
     }

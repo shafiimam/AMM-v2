@@ -15,9 +15,7 @@
       "settings": {
         "color_scheme": "",
         "show_title": true,
-        "page_width": "xs",
-        "hide_header": false,
-        "hide_page_content": false
+        "page_width": "xs"
       }
     },
     "image_with_text_custom_qxrkki": {
@@ -27,7 +25,6 @@
           "type": "heading",
           "settings": {
             "text": "Lifestyle",
-            "heading_font_size": 11,
             "heading_tag": "h1"
           }
         }
@@ -35,6 +32,7 @@
       "block_order": [
         "heading_QcgKxR"
       ],
+      "disabled": true,
       "custom_css": [
         "picture {display: flex; justify-content: space-around;}"
       ],
@@ -50,36 +48,47 @@
         "remove_vertical_spacing": true
       }
     },
-    "rich_text_xwKKEF": {
+    "rich_text_wppe8r": {
       "type": "rich-text",
       "blocks": {
-        "richtext_zUKdhQ": {
+        "heading_pa4TXe": {
+          "type": "heading",
+          "settings": {
+            "text": "OUTERWEAR",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_JNFeKj": {
           "type": "richtext",
           "settings": {
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. </p>"
           }
-        },
-        "button_edRrMz": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "See All",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
-        "richtext_zUKdhQ",
-        "button_edRrMz"
+        "heading_pa4TXe",
+        "richtext_JNFeKj"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".h1 {font-size: 120px; @media only screen and (max-width: 768px) {font-size: 60px; }}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "content_width": "full-screen",
+        "content_width": "lg",
         "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_block_mTzP8F": {
+      "type": "image-with-text-block",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify://shop_images/DSC09039_DC_copy_4d42870e-8fa6-4e32-a3a0-88893a1bbfbb.jpg",
+        "mobile_image": "shopify://shop_images/DSC09039_DC_copy_4d42870e-8fa6-4e32-a3a0-88893a1bbfbb.jpg",
+        "content_width": "sm",
+        "enable_parallax": false,
         "remove_vertical_spacing": true
       }
     },
@@ -105,7 +114,7 @@
           "settings": {
             "style": "solid",
             "text": "Buy Now",
-            "url": "",
+            "url": "shopify://products/loewe-hooded-jacket-3",
             "background": "",
             "text_color": ""
           }
@@ -124,12 +133,13 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/Group_5.png",
-        "mobile_image": "shopify://shop_images/Group_5.png",
+        "image": "shopify://shop_images/DSC09579_DC_copy.jpg",
+        "mobile_image": "shopify://shop_images/DSC09579_DC_copy.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     },
     "featured_collections_e4qJwn": {
@@ -138,9 +148,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-accessories",
+            "collection": "new-bomber-jackets",
             "products_count": 8,
-            "title": "Bestsellers",
+            "title": "BOMBER JACKETS",
             "link_url": "",
             "link_text": ""
           }
@@ -153,7 +163,7 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.6,
@@ -161,8 +171,84 @@
         "subheading": ""
       }
     },
+    "media_grid_NdQyMT": {
+      "type": "media-grid",
+      "blocks": {
+        "image_ri7CMC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC00248_DC_1.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XUPrm6": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC00108_DC_020f746e-2226-4c9d-8677-63c484050d13.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TiMJ9P": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC09869_DC_1_copy.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ri7CMC",
+        "image_XUPrm6",
+        "image_TiMJ9P"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "A CLOSER LOOK",
+        "content": ""
+      }
+    },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
+      "disabled": true,
       "settings": {
         "title": "Look Closer",
         "start_index": "268",
@@ -176,10 +262,10 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere-accessories",
+            "collection": "jackets-coats",
             "products_count": 8,
             "title": "You May Also Like",
-            "link_url": "",
+            "link_url": "shopify://pages/outerwear",
             "link_text": ""
           }
         }
@@ -203,9 +289,11 @@
   "order": [
     "main",
     "image_with_text_custom_qxrkki",
-    "rich_text_xwKKEF",
+    "rich_text_wppe8r",
+    "image_with_text_block_mTzP8F",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
+    "media_grid_NdQyMT",
     "3d_gallery_Y9qVkB",
     "featured_collections_Dtrtbp"
   ]

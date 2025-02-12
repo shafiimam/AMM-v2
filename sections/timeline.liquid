@@ -10,9 +10,8 @@
     | default: section.settings.color_scheme.settings.background
     | md5
   -%}
-
   <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-    <div class="container container--md">
+    <div class="container container--lg">
       <div class="timeline">
         {%- assign carousel_id = 'carousel-' | append: section.id -%}
         <div class="timeline-header">
@@ -76,11 +75,9 @@
               </div>
             {% endcapture %}
 
-
-            {% if block.settings.image_position == 'left' %}
-              {{ block_image_content }}
-            {% endif %}
-
+              {% if block.settings.image_position == 'left' %}
+                {{ block_image_content }}
+              {% endif %}
 
               <div
                 class="timeline__item-content"
@@ -97,7 +94,9 @@
                     <p class="h2">{{ block.settings.title }}</p>
                   {%- endif -%}
 
-                  {{- block.settings.content -}}
+                  <div class="text-secondary">
+                    {{- block.settings.content -}}
+                  </div>
 
                   {%- if block.settings.link_text != blank -%}
                     {%- render 'button',
@@ -112,7 +111,6 @@
               {% if block.settings.image_position == 'right' %}
                 {{ block_image_content }}
               {% endif %}
-
             </div>
           {%- endfor -%}
         </timeline-carousel>
@@ -134,7 +132,6 @@
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    
     text-transform: uppercase;
     background: url('{{ section.settings.title_background | img_url: 'master' }}') lightgray -30.486px -132.217px /
       106.671% 235.472% no-repeat;
@@ -152,7 +149,7 @@
     width: max-content;
     float: right;
   }
-  
+
   @media screen and (min-width: 700px) {
     .timeline__item{
       margin-top: 80px;
@@ -244,12 +241,12 @@
           "label": "Block Image Position",
           "options": [
             {
-            "value": "left",
-            "label": "Left"
+              "value": "left",
+              "label": "Left"
             },
             {
-            "value": "right",
-            "label": "Right"
+              "value": "right",
+              "label": "Right"
             }
           ],
           "default": "right"

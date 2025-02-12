@@ -1,22 +1,51 @@
 {%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-MEGA MENU COMPONENT
-----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------
+  MEGA MENU COMPONENT
+  ----------------------------------------------------------------------------------------------------------------------
 
-Render the mega-menu. The mega-menu is a kind of menu optimized for showing a large number of items into several
-columns.
+  Render the mega-menu. The mega-menu is a kind of menu optimized for showing a large number of items into several
+  columns.
 
-********************************************
-Supported variables
-********************************************
+  ********************************************
+  Supported variables
+  ********************************************
 
-* link: the link from which we need to render the mega-menu. The link must always be a second level link, but it can
-        also be empty (no links), which is the case if the merchant only want to show images, for instance.
-* block: the block containing all the information about the menu to render
+  * link: the link from which we need to render the mega-menu. The link must always be a second level link, but it can
+          also be empty (no links), which is the case if the merchant only want to show images, for instance.
+  * block: the block containing all the information about the menu to render
 {%- endcomment -%}
 
-<div class="mega-menu {% if block.settings.images_position == 'left' %}mega-menu--reverse{% endif %}" {{ block.shopify_attributes }}>
-  {%- if link.levels > 0 -%}
+<div
+  class="mega-menu {% if block.settings.images_position == 'left' %}mega-menu--reverse{% endif %}"
+  {{ block.shopify_attributes }}
+>
+  {% assign link_title = link.title %}
+  {% if link_title == 'Brands' and link.levels > 0 %}
+    {% assign column_size = 4 %}
+    {% assign link_slice = link.links | slice: 1, link.links.size %}
+    {% assign links_size = link_slice.size %}
+    {% assign links_per_row = links_size | divided_by: column_size | ceil %}
+
+    <ul class="mega_menu__linklist--brands">
+      {%- for sub_link in link_slice -%}
+        {% assign index = forloop.index0 %}
+        {% assign new_column = index | modulo: links_per_row %}
+
+        {% if index == 0 or new_column == 0 %}
+          <li class="v-stack justify-items-start gap-2">
+        {% endif %}
+        {% unless sub_link.title == 'All Brands' %}
+          <a href="{{ sub_link.url }}" class="h6">{{ sub_link.title }}</a>
+        {% endunless %}
+
+        {% assign close_column = index | modulo: links_per_row %}
+        {% assign close_column_value = links_per_row | minus: 1 %}
+        {% if close_column == close_column_value or forloop.last %}
+          </li>
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+  {% elsif link.levels > 0 %}
     <ul class="mega-menu__linklist unstyled-list">
       {%- for sub_link in link.links -%}
         <li class="v-stack justify-items-start gap-2">
@@ -34,7 +63,7 @@ Supported variables
         </li>
       {%- endfor -%}
     </ul>
-  {%- endif -%}
+  {% endif %}
 
   {%- capture mega_menu_content -%}
     {%- render 'mega-menu-images', context: 'menu', block: block -%}

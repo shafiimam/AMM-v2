@@ -12,7 +12,7 @@
     }
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
-        padding: 20px 0;
+        padding: {% if section.settings.remove_top_padding %}0{% else %}20px 0{% endif %};
       }
     }
   </style>
@@ -72,7 +72,7 @@
             {%- when 'richtext' -%}
               {%- if block.settings.content != blank -%}
                 <div {{ block.shopify_attributes }} class="text-secondary image-block-richtext-{{ block.id }}">
-                  {{- block.settings.content -}}
+                  {{- block.settings.content | newline_to_br -}}
                 </div>
                 <style>
                   .image-block-richtext-{{ block.id }} p {
@@ -207,6 +207,12 @@
       "id": "remove_vertical_spacing",
       "label": "t:global.spacing.remove_vertical_spacing",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_top_padding",
+      "label": "Remove Top Padding",
+      "default": false
     }
   ],
   "blocks": [

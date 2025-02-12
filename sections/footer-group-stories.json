@@ -1,0 +1,28 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Stories footer group",
+  "sections": {
+    "stories-footer": {
+      "type": "stories-footer",
+      "settings": {
+        "title": "Follow us",
+        "footer_nav": "main-menu",
+        "form_title": "sign up for updates",
+        "form_thankyou": "thank you!",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953"
+      }
+    }
+  },
+  "order": [
+    "stories-footer"
+  ]
+}

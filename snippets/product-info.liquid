@@ -542,7 +542,7 @@
             {%- comment -%}We need at least one block compatible with below gallery information{%- endcomment -%}
             {%- if block.settings.text != blank and has_content_below_gallery -%}
               <a href="#product-extra-information" class="product-info__more-info md-max:hidden">
-                <span class="smallcaps text-xxs">{{- block.settings.text -}}</span>
+                <span class="smallcaps text-base">{{- block.settings.text -}}</span>
                 {%- render 'icon' with 'chevron-right' -%}
               </a>
             {%- endif -%}

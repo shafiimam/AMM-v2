@@ -15,7 +15,7 @@
     "product_on_sale_accent": "#1c1c1c",
     "product_sold_out_badge_background": "#efefef",
     "product_custom_badge_background": "#1c1c1c",
-    "success_color": "#307a07",
+    "success_color": "#1c1c1c",
     "warning_color": "#ed8a00",
     "error_color": "#cb2b2b",
     "heading_font": "roboto_n4",
@@ -31,7 +31,20 @@
     "product_title_max_lines": 2,
     "product_card_text_font": "body",
     "product_color_display": "hide",
+    "show_product_rating": false,
+    "show_discount": false,
+    "social_facebook": "https://www.facebook.com/maniereusa",
+    "social_twitter": "https://twitter.com/maniere_usa",
+    "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
+    "social_discord": "https://discord.com",
     "content_for_index": [],
+    "blocks": {
+      "5061257265103808445": {
+        "type": "shopify://apps/r-terms-conditions/blocks/embed-block/471882a9-9b1b-4918-8943-6c66b60c94ea",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -74,6 +87,39 @@
           "primary_button_background": "#ffffff",
           "primary_button_text_color": "#1c1c1c",
           "circle_button_background": "#1c1c1c",
+          "circle_button_icon": "#1c1c1c"
+        }
+      },
+      "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953": {
+        "settings": {
+          "background": "#000000",
+          "background_gradient": "",
+          "text_color": "#f5f5f5",
+          "primary_button_background": "#ffffff",
+          "primary_button_text_color": "#000000",
+          "circle_button_background": "#ffffff",
+          "circle_button_icon": "#1c1c1c"
+        }
+      },
+      "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a": {
+        "settings": {
+          "background": "#faf4e9",
+          "background_gradient": "",
+          "text_color": "#1c1c1c",
+          "primary_button_background": "#1c1c1c",
+          "primary_button_text_color": "#ffffff",
+          "circle_button_background": "#ffffff",
+          "circle_button_icon": "#1c1c1c"
+        }
+      },
+      "scheme-ea271ddc-c44d-4790-be7a-94c486cc0d0b": {
+        "settings": {
+          "background": "#fefbea",
+          "background_gradient": "",
+          "text_color": "#1c1c1c",
+          "primary_button_background": "#1c1c1c",
+          "primary_button_text_color": "#ffffff",
+          "circle_button_background": "#ffffff",
           "circle_button_icon": "#1c1c1c"
         }
       }

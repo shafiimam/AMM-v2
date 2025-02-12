@@ -39,21 +39,24 @@
             <a href="/a/profile" class="text-with-icon h6 link-faded" data-no-instant>
               {% render 'icons', icon_type: 'edit' %}
             </a>
-            <a href="{{ routes.account_logout_url }}" class="text-with-icon h6 link-faded">
-              {% render 'icons', icon_type: 'logout' %}
-            </a>
+            <a href="{{ routes.account_logout_url }}" class="text-base link-faded"> Log Out </a>
           </div>
         </div>
         <div class="flex flex-wrap gap-50 gap-sm-20">
-          {% if customer.addresses[0].city != blank %}
+          {% if customer.addresses.first.city != blank %}
             <span class="flex align-center gap-2 text-base text-subdued text-upcase">
               {% render 'icons', icon_type: 'pin-location' %}
-              {{ customer.addresses[0].city }}, {{ customer.addresses[0].country -}}
+              {{ customer.addresses.first.city }}, {{ customer.addresses.first.country -}}
             </span>
-            {% elsif customer.addresses[1].city != blank %}
+          {% elsif customer.addresses.last.city != blank %}
             <span class="flex align-center gap-2 text-base text-subdued text-upcase">
               {% render 'icons', icon_type: 'pin-location' %}
-              {{ customer.addresses[0].city }}, {{ customer.addresses[0].country -}}
+              {{ customer.addresses.last.city }}, {{ customer.addresses.last.country -}}
+            </span>
+          {% elsif customer.default_address.city != blank %}
+            <span class="flex align-center gap-2 text-base text-subdued text-upcase">
+              {% render 'icons', icon_type: 'pin-location' %}
+              {{ customer.default_address.city }}, {{ customer.default_address.country -}}
             </span>
           {% endif %}
 
@@ -62,6 +65,13 @@
               <span class="flex align-center gap-2 text-base text-subdued text-upcase">
                 {% render 'icons', icon_type: 'telephone' %}
                 {{ customer.phone }}
+              </span>
+            </div>
+          {% elsif customer.default_address.phone != blank %}
+            <div>
+              <span class="flex align-center gap-2 text-base text-subdued text-upcase">
+                {% render 'icons', icon_type: 'telephone' %}
+                {{ customer.default_address.phone }}
               </span>
             </div>
           {% endif %}
@@ -205,12 +215,6 @@
     display: flex;
     gap: 1.25rem;
     align-items: center;
-  }
-  .customer-orders-container {
-    margin-top: 50px;
-  }
-  .customer-orders-container table {
-    font-size: 12px;
   }
 </style>
 

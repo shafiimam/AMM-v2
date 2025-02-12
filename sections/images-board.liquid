@@ -1,0 +1,197 @@
+<script defer type="text/javascript" src="{{ 'image-board-animation.aio.min.js' | asset_url }}"></script>
+
+<div class="content">
+  <div class="grid">
+    {% assign counter1 = 0 %}
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'image' %}
+          {% assign counter = counter | plus: 1 %}
+          <div class="grid__item pos-{{ counter }}" {{ block.shopify_attributes }}>
+            <div
+              class="grid__item-img"
+              style="background-image:url({{ block.settings.image | img_url: 'master' }});"
+            ></div>
+          </div>
+      {% endcase %}
+    {% endfor %}
+    {% if section.settings.textarea != blank %}
+      <p>{{ section.settings.textarea }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+  section.images-board {
+  	background: {{ section.settings.bg_color }};
+  }
+  section.images-board {
+    width: 100%;
+    height: calc(100vh - 10rem);
+    overflow: hidden;
+    position: relative;
+  }
+
+  section.images-board .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 10rem);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 53em) {
+    section.images-board .content {
+      height: 100%;
+      justify-content: center;
+      max-height: none;
+    }
+  }
+
+  section.images-board .grid {
+    pointer-events: none;
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+    display: grid;
+    grid-template-columns: repeat(50, 2%);
+    grid-template-rows: repeat(50, 2%);
+  }
+
+  section.images-board .grid__item {
+    position: relative;
+  }
+
+  section.images-board .grid__item-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    transform: rotate(-5.15deg);
+  }
+
+  section.images-board .pos-1 {
+    grid-area: 10 / 1 / 26 / 7;
+  }
+
+  section.images-board .pos-2 {
+    grid-area: 1 / 18 / 9 / 27;
+  }
+
+  section.images-board .pos-3 {
+    grid-area: 1 / 36 / 14 / 42;
+  }
+
+  section.images-board .pos-4 {
+    grid-area: 13 / 11 / 32 / 18;
+  }
+
+  section.images-board .pos-5 {
+    grid-area: 17 / 32 / 32 / 38;
+  }
+
+  section.images-board .pos-6 {
+    grid-area: 20 / 46 / 28 / 51;
+  }
+
+  section.images-board .pos-7 {
+    grid-area: 43 / 1 / 51 / 10;
+  }
+
+  section.images-board .pos-8 {
+    grid-area: 38 / 14 / 46 / 22;
+  }
+
+  section.images-board .pos-9 {
+    grid-area: 40 / 26 / 51 / 32;
+  }
+
+  section.images-board .pos-10 {
+    grid-area: 37 / 39 / 48 / 47;
+  }
+
+  section.images-board p {
+    font-family: neue-haas-grotesk-display,sans-serif;
+    font-size: 36px;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #101;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  section.textarea {
+    background: #f8f7f7;
+    padding: 100px 15px;
+  }
+
+  @media (max-width: 639px) {
+    section.textarea {
+      padding: 50px 15px;
+    }
+  }
+
+  section.textarea h2 {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #212121;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Images Board",
+  "tag": "section",
+  "class": "images-board",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#f8f7f7"
+    },
+    {
+      "type": "textarea",
+      "id": "textarea",
+      "label": "Text area"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Sections",
+      "name": "Jordan Images Board"
+    }
+  ]
+}
+{% endschema %}

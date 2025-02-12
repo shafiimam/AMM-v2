@@ -1,0 +1,392 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme.stories",
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "full"
+      }
+    },
+    "hero_with_logo_Bjgb7J": {
+      "type": "hero-with-logo",
+      "settings": {
+        "image": "shopify://shop_images/aj4_hero_lead_1.jpg",
+        "logo_image": "shopify://shop_images/amm-logo-hd.png",
+        "title": "A Ma Maniére X Air Jordan IV",
+        "title_color": "#ffffff",
+        "title_color_mobile": "#ffffff",
+        "title_shadow": 30,
+        "title_shadow_mobile": 30,
+        "title_size": 75,
+        "title_size_mobile": 46,
+        "description": "",
+        "description_color": "#000000",
+        "description_color_mobile": "#000000",
+        "description_shadow": 30,
+        "description_shadow_mobile": 30,
+        "description_size": 30,
+        "description_size_mobile": 20,
+        "button_url": "",
+        "button_text": "",
+        "button_style": "solid",
+        "button_background": "",
+        "button_text_color": "",
+        "content_alignment": "center",
+        "horizontal_position": 42,
+        "vertical_position": 0
+      }
+    },
+    "image_with_text_J4QHLp": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_7jdrjf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>This moment is inspired by the Black and Brown leaders changing the world from the heart of their community with purpose, passion and vision. Built on the value of consistent action being the only recipe for progress, a standard set by trailblazers committed to the tireless work generational change would take to be achieved, the A Ma Maniére Air Jordan IV draws on the promise of youth to be the catalysts for change, standing up in the face of adversity and divisiveness. Standing firm on our ethos of timelessness on a silhouette renowned for its impact and significance across time, this moment serves to bring a generation together to form a better future with hope and bravery in the face of doubt and uncertainty. This is about where we’re going - and the future depends on us all.</p><p><strong>Following our order review process, along with additional units in select sizes, the A Ma Maniére x Air Jordan 4 will be available for US shipping only on Wednesday 11.23 at 9AM EST.</strong></p>",
+            "text_color": "#8f8f8f"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_7jdrjf"
+      ],
+      "custom_css": [
+        ".container * {text-align: center;}",
+        "#countdown {color: #eaeaea;}",
+        ".prose p {font-family: \"Saol Display,sans-serif\"; color: #000 !important;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/AJ4AMM-6.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
+      }
+    },
+    "media_grid_HwBKby": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Fw9AEQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/aj4_6_1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UfiUPV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/aj4_2_1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_phtcL7": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/aj4_7_1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_azJwxY": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/4jordan_1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LfqrwC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/aj4_1_1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eK3xXq": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/aj4_3_1_097c5ee6-5065-4d97-84ea-bb5896b79f50.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hh3P9q": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/aj4_5_1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MtVTMw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/aj4_8_1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Fw9AEQ",
+        "image_UfiUPV",
+        "image_phtcL7",
+        "image_azJwxY",
+        "image_LfqrwC",
+        "image_eK3xXq",
+        "image_hh3P9q",
+        "image_MtVTMw"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-ea271ddc-c44d-4790-be7a-94c486cc0d0b",
+        "separate_section_with_border": false,
+        "desktop_row_height": 400,
+        "mobile_row_height": 380,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_Q8W4HB": {
+      "type": "media-grid",
+      "blocks": {
+        "image_qRtb8k": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AJ4AMM-1_2.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TthfaN": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AJ4AMM-7_1.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_FYMeHU": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AJ4AMM-5_1.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rhF6VT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AJ4AMM-4_1.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jpx77X": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AJ4AMM-2_1.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GW7i4X": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AJ4AMM-3_1.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_qRtb8k",
+        "image_TthfaN",
+        "image_FYMeHU",
+        "image_rhF6VT",
+        "image_jpx77X",
+        "image_GW7i4X"
+      ],
+      "settings": {
+        "color_scheme": "scheme-ea271ddc-c44d-4790-be7a-94c486cc0d0b",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_with_logo_Bjgb7J",
+    "image_with_text_J4QHLp",
+    "media_grid_HwBKby",
+    "media_grid_Q8W4HB"
+  ]
+}

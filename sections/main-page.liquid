@@ -1,10 +1,6 @@
-{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
-  | default: section.settings.color_scheme.settings.background
-  | md5
--%}
-{% assign hideHeader = section.settings.hide_header %}
-{% assign hidePageContent = section.settings.hide_page_content %}
-<div class="default-page-container-{{ section.id }} section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+<div class="section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
   <div class="container container--{{ section.settings.page_width }}">
     <div class="section-stack">
       {%- if section.settings.show_title -%}
@@ -21,22 +17,6 @@
     </div>
   </div>
 </div>
-
-{% if hideHeader %}
-  <style>
-    header.shopify-section.shopify-section-group-header-group.shopify-section--header {
-      display: none;
-    }
-  </style>
-{% endif %}
-{% if hidePageContent %}
-  <style>
-    .default-page-container-{{ section.id }}  {
-      display: none;
-    }
-  </style>
-{% endif %}
-
 {% schema %}
 {
   "name": "t:sections.main_page.name",
@@ -82,21 +62,7 @@
         }
       ],
       "default": "xs"
-    },
-    {
-      "type": "checkbox",
-      "id": "hide_header",
-      "label": "Hide Header",
-      "default": false,
-      "info": "Checking this box will hide the header navigation for this page template. It will reflex only to the pages assigned to this template."
-    },
-    {
-      "type": "checkbox",
-      "id": "hide_page_content",
-      "label": "HIde Page Content",
-      "default": false,
-      "info": "Checking this box will hide the page content for this page template. It will reflex only to the pages assigned to this template."
-    },
+    }
   ]
 }
 {% endschema %}

@@ -758,6 +758,11 @@
       },
       {
         "type": "url",
+        "id": "social_discord",
+        "label": "Discord"
+      },
+      {
+        "type": "url",
         "id": "social_vimeo",
         "label": "Vimeo"
       },

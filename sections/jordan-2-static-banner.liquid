@@ -1,0 +1,294 @@
+<div class="letters">
+  <div class="grid-container">
+    <h4 class="text-left">This</h4>
+
+    <div id="left-right">
+      <span class="parent"><span data-aos="custom-left-slide" data-aos-delay="50">moment</span></span>
+      <span>&nbsp; / &nbsp;</span>
+      <span class="parent"><span data-aos="custom-right-slide" data-aos-delay="550">Journey</span></span>
+    </div>
+
+    <h4 class="text-right">is for you</h4>
+  </div>
+</div>
+<style>
+   .text-right {
+      text-align: right;
+  }
+  section.static-masonry {
+    background-color: #faf4e9;
+  }
+  section.static-masonry .grid-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.static-masonry h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #401622;
+    padding-top: 40px;
+    padding-bottom: 150px;
+  }
+  section.static-masonry .bg-image {
+    background-image: url('{{ "jordan-2-static-masonry-bg.png" | file_url }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  section.static-masonry p[data-aos='custom-fade-up'] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition-property: transform, opacity;
+  }
+  section.static-masonry p[data-aos='custom-fade-up'].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  section.static-masonry .first-line {
+    padding-top: 40px;
+    padding-bottom: 120px;
+  }
+  section.static-masonry .first-line .images {
+    text-align: center;
+  }
+  @media (min-width: 1023px) {
+    section.static-masonry .first-line .images {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  @media (max-width: 639px) {
+    section.static-masonry .first-line .images {
+      margin-top: 15px;
+    }
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .first-line .images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+  }
+  section.static-masonry .first-line .images img:first-child {
+    margin-right: 15px;
+  }
+  @media (max-width: 1023px) {
+    section.static-masonry .first-line .images img:first-child {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+  @media (max-width: 639px) {
+    section.static-masonry .first-line .images img:first-child {
+      margin-right: 15px;
+      margin-bottom: 0;
+    }
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .first-line .images img:first-child {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+  section.static-masonry .first-line p {
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #212121;
+    max-width: 500px;
+    margin-left: auto;
+    margin-top: 200px;
+  }
+  @media (max-width: 1023px) {
+    section.static-masonry .first-line p {
+      margin-top: 50px;
+    }
+  }
+  @media (max-width: 639px) {
+    section.static-masonry .first-line p {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+  section.static-masonry .second-line {
+    padding: 65px 0;
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .second-line .cell.large-8 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+  }
+  section.static-masonry .second-line > div:first-child img {
+    margin-bottom: 15px;
+  }
+  section.static-masonry .second-line > div:first-child img:first-child {
+    margin-right: 15px;
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .second-line > div:first-child img:first-child {
+      margin-right: 0;
+    }
+  }
+  section.static-masonry .third-line {
+    padding: 65px 0;
+  }
+  section.static-masonry .third-line > div:first-child .images {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;
+  }
+  @media (max-width: 1023px) {
+    section.static-masonry .third-line > div:first-child .images {
+      padding-right: 0;
+      margin-bottom: 15px;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .third-line > div:first-child .images {
+      display: block;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .third-line > div:first-child .images img {
+      display: block;
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
+  }
+  section.static-masonry .third-line > div:first-child .images img:first-child {
+    margin-right: 15px;
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .third-line > div:first-child .images img:first-child {
+      margin-bottom: 15px;
+    }
+  }
+  section.static-masonry .fourth-line {
+    padding: 120px 0;
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .fourth-line .cell.large-8 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+  }
+  section.static-masonry .fourth-line > div:first-child img {
+    margin-bottom: 15px;
+  }
+  section.static-masonry .fourth-line > div:first-child img:first-child {
+    margin-right: 15px;
+  }
+  @media (max-width: 542px) {
+    section.static-masonry .fourth-line > div:first-child img:first-child {
+      margin-right: 0;
+    }
+  }
+  section.static-masonry .letters {
+    padding-block-end: 100px;
+    position: relative;
+  }
+  @media (max-width: 1023px) {
+    section.static-masonry .letters {
+      padding: 50px 0;
+    }
+  }
+  section.static-masonry .letters .grid-container {
+    max-width: 1200px;
+  }
+  section.static-masonry .letters h4 {
+    font-weight: 400;
+    font-size: 94px;
+    text-transform: uppercase;
+    color: #401622;
+    padding: 60px 0;
+  }
+  @media (max-width: 1023px) {
+    section.static-masonry .letters h4 {
+      padding: 35px 0;
+    }
+  }
+  section.static-masonry .letters h4:first-child {
+    margin-left: 24%;
+  }
+  @media (max-width: 1023px) {
+    section.static-masonry .letters h4:first-child {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 1023px) {
+    section.static-masonry .letters h4 {
+      font-size: 7vw;
+    }
+  }
+  section.static-masonry .letters #left-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  section.static-masonry .letters #left-right span {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 94px;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+  }
+  @media (max-width: 1023px) {
+    section.static-masonry .letters #left-right span {
+      font-size: 6vw;
+    }
+  }
+  section.static-masonry .letters #left-right span.parent {
+    overflow: hidden;
+  }
+  section.static-masonry .letters #left-right span.parent span[data-aos='custom-left-slide'] {
+    opacity: 0;
+    transform: translateX(100%);
+    transition-property: transform, opacity;
+  }
+  section.static-masonry .letters #left-right span.parent span[data-aos='custom-left-slide'].aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  section.static-masonry .letters #left-right span.parent span[data-aos='custom-right-slide'] {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition-property: transform, opacity;
+  }
+  section.static-masonry .letters #left-right span.parent span[data-aos='custom-right-slide'].aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+</style>
+{% schema %}
+{
+  "name": "Jordan 2 Static Banner",
+  "tag": "section",
+  "class": "static-masonry",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Jordan 2 Static Banner"
+    }
+  ]
+}
+{% endschema %}

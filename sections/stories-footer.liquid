@@ -1,0 +1,239 @@
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
+  | default: section.settings.color_scheme.settings.background
+  | md5
+-%}
+
+<div class="stories-footer-group color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
+  <div class="v-stack gap-10">
+    <div class="h-stack justify-between container flex-md-wrap gap-10 footer-container">
+      <nav class="footer-social v-stack gap-3">
+        <h4 class="nav-title">{{ section.settings.title }}</h4>
+        {% if settings.social_instagram != blank %}
+          <a target="_blank" href="{{ settings.social_instagram }}" class="nav-link">instagram</a>
+        {% endif %}
+        {% if settings.social_twitter != blank %}
+          <a target="_blank" href="{{ settings.social_twitter }}" class="nav-link">shop</a>
+        {% endif %}
+        {% if settings.social_facebook != blank %}
+          <a target="_blank" href="{{ settings.social_facebook }}" class="nav-link">facebook</a>
+        {% endif %}
+      </nav>
+      <div class="footer-newsletter">
+        <div>
+          {% form 'customer', class: 'form-feedback v-stack gap-4' %}
+            {{ form.errors | default_errors }}
+
+            <h4 class="form-title">{{ section.settings.form_title }}</h4>
+
+            {% if form.posted_successfully? %}
+              <p class="form-thankyou">{{ section.settings.form_thankyou }}</p>
+            {% else %}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+
+              <div class="input-group">
+                <input
+                  type="email"
+                  name="contact[email]"
+                  value="{% if customer %}{{ customer.email }}{% endif %}"
+                  placeholder="your@email.com"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  required
+                >
+                <button class="input-group__button" type="submit" name="commit"></button>
+              </div>
+            {% endif %}
+          {% endform %}
+        </div>
+      </div>
+    </div>
+    <nav class="nav secondary h-stack justify-end container flex-md-wrap">
+      <span class="nav-link"
+        >Copyright © {{ 'now' | date: '%Y' }}
+        {{ shop.name -}}
+      </span>
+      {% for link in linklists[section.settings.footer_nav].links %}
+        <a href="{{ link.url }}" class="nav-link">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</div>
+<style>
+  .stories-footer-group {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+    padding: 100px 30px;
+    {% if section.settings.background-image != blank %}
+      background-image: url({{ section.settings.background-image | img_url: 'master' }});
+    {% endif %}
+  }
+  .footer-newsletter {
+    width: 100%;
+    max-width: 585px;
+  }
+  .stories-footer-group .footer-social .nav-title {
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    color: gray;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+  }
+  .stories-footer-group .footer-social .nav-link {
+    font-size: 62px;
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: 300;
+    transition: opacity 0.3s linear;
+  }
+  .stories-footer-group .form-feedback .form-title,
+  .stories-footer-group .form-feedback .form-thankyou {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+    @media screen and (max-width: 600px) {
+      text-align: center;
+    }
+  }
+
+  .input-group {
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.75rem;
+    display: flex;
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+    padding-bottom: 0.6rem;
+  }
+  footer .form-feedback .input-group input {
+    color: #ccc;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    width: -webkit-fill-available;
+  }
+  footer .form-feedback .input-group button {
+    position: relative;
+    width: 60px;
+    margin-right: 1.2rem;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+  }
+  footer .form-feedback .input-group .input-group__button::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 2px;
+    transform: translateY(-50%) rotate(-45deg);
+    height: 13px;
+    width: 13px;
+    border-right: 2px solid rgb(var(--text-color));
+    border-bottom: 2px solid rgb(var(--text-color));
+  }
+  footer .form-feedback .input-group .input-group__button::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 100%;
+    background-color: rgb(var(--text-color));
+  }
+  footer .nav.secondary .nav-link:not(:last-child) {
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+  footer .nav.secondary .nav-link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    font-weight: 300;
+    transition: opacity 0.3s linear;
+  }
+  footer .nav.secondary .nav-link:not(:last-child):before {
+    position: absolute;
+    content: '|';
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  @media (max-width: 600px) {
+    .footer-container {
+      justify-content: center;
+    }
+    .footer-social {
+      justify-items: center;
+    }
+    footer .nav.secondary .nav-link:not(:last-child) {
+      padding-right: 0;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Stories Footer",
+  "tag": "footer",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background-image",
+      "label": "Background Image"
+    },
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "Title",
+      "default": "Follow us"
+    },
+    {
+      "type": "link_list",
+      "id": "footer_nav",
+      "label": "Navigation under form",
+      "default": "main-menu"
+    },
+    {
+      "type": "header",
+      "content": "Form"
+    },
+    {
+      "type": "text",
+      "id": "form_title",
+      "label": "Title",
+      "default": "sign up for updates"
+    },
+    {
+      "type": "text",
+      "id": "form_thankyou",
+      "label": "Thank you message",
+      "default": "thank you!"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-4"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Jordan Footer"
+    }
+  ]
+}
+{% endschema %}

@@ -36,7 +36,7 @@
 -%}
 
 <div class="section-spacing section-spacing--tight color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}">
-  {%- if collections.size == 0 -%}
+  {%- if settings.collections.size == 0 -%}
     <div class="container container--xs">
       <div class="empty-state">
         <div class="prose">
@@ -61,34 +61,35 @@
           </div>
         {%- endif -%}
 
-        {%- paginate collections by 48 -%}
-          <div class="v-stack gap-6 sm:gap-8">
-            <div class="collection-list wrap">
-              {%- assign collections_to_show = section.settings.collections | default: collections -%}
+        <div class="v-stack gap-6 sm:gap-8">
+          <div class="collection-list wrap">
+           
+            {%- assign first_collections_to_show = section.settings.collections | default: collections -%}
 
-              {%- for collection in collections_to_show -%}
-                {%- if collection.featured_image == blank
-                  or section.settings.collections == empty
-                  and collection.handle == 'frontpage'
-                -%}
-                  {%- continue -%}
-                {%- endif -%}
+            {%- for collection in first_collections_to_show -%}
+              {%- if collection.featured_image == blank
+                or section.settings.collections == empty
+                and collection.handle == 'frontpage'
+              -%}
+                {%- continue -%}
+              {%- endif -%}
 
-                <div class="collection-card group">
-                  <a href="{{ collection.url }}">
-                    <div
-                      class="content-over-media content-over-media--{{ section.settings.image_size }}"
-                      style="--content-over-media-overlay: {{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }};"
-                    >
-                      {%- capture sizes -%}(max-width: 699px) 100vw, (max-width: 1149px) {{ 100 | divided_by: section.settings.collections_per_row_desktop | at_least: 50 }}vw, {{ 100 | divided_by: section.settings.collections_per_row_desktop }}vw{%- endcapture -%}
+              <div class="collection-card group">
+                <a href="{{ collection.url }}">
+                  <div
+                    class="content-over-media content-over-media--{{ section.settings.image_size }}"
+                    style="--content-over-media-overlay: {{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }};"
+                  >
+                    {%- capture sizes -%}(max-width: 699px) 100vw, (max-width: 1149px) {{ 100 | divided_by: section.settings.collections_per_row_desktop | at_least: 50 }}vw, {{ 100 | divided_by: section.settings.collections_per_row_desktop }}vw{%- endcapture -%}
 
-                      {%- assign loading_strategy = null -%}
+                    {%- assign loading_strategy = null -%}
 
-                      {%- if forloop.index > 3 -%}
-                        {%- assign loading_strategy = 'lazy' -%}
-                      {%- endif -%}
+                    {%- if forloop.index > 3 -%}
+                      {%- assign loading_strategy = 'lazy' -%}
+                    {%- endif -%}
 
-                      {% comment %} {{-
+                    {% comment %}
+                      {{-
                         collection.featured_image
                         | image_url: width: collection.featured_image.width
                         | image_tag:
@@ -97,34 +98,73 @@
                           widths: '200,300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400',
                           class: 'zoom-image group-hover:zoom',
                           draggable: 'false'
-                      -}} {% endcomment %}
+                      -}}
+                    {% endcomment %}
 
-                      <div
-                        class="collection-card__content prose prose--tight {{ section.settings.content_position }}"
-                        style="{% render 'surface', text_color: section.settings.text_color %}"
-                      >
-                        <p class="h3">{{ collection.title }}</p>
-                        <p class="h4 collection-products-count">
-                          {{ collection.products | size }} Items
-                        </p>
-                      </div>
+                    <div
+                      class="collection-card__content prose prose--tight {{ section.settings.content_position }}"
+                      style="{% render 'surface', text_color: section.settings.text_color %}"
+                    >
+                      <p class="h3">{{ collection.title }}</p>
+                      <p class="h4 collection-products-count">{{ collection.products | size }} Items</p>
                     </div>
-                  </a>
-                  {%- render 'button',
-                    href: collection.url,
-                    content: 'Shop By Brand'
-                  -%}
-                </div>
-              {%- endfor -%}
-            </div>
+                  </div>
+                </a>
+                {%- render 'button', href: collection.url, content: 'Shop By Brand' -%}
+              </div>
+            {%- endfor -%}
+            {%- assign second_collections_to_show = section.settings.collections_2 | default: collections -%}
 
-            {%- if section.settings.collections == empty -%}
-              {%- render 'pagination', paginate: paginate -%}
-            {%- endif -%}
+            {%- for collection in second_collections_to_show -%}
+              {%- if collection.featured_image == blank
+                or section.settings.collections == empty
+                and collection.handle == 'frontpage'
+              -%}
+                {%- continue -%}
+              {%- endif -%}
+
+              <div class="collection-card group">
+                <a href="{{ collection.url }}">
+                  <div
+                    class="content-over-media content-over-media--{{ section.settings.image_size }}"
+                    style="--content-over-media-overlay: {{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }};"
+                  >
+                    {%- capture sizes -%}(max-width: 699px) 100vw, (max-width: 1149px) {{ 100 | divided_by: section.settings.collections_per_row_desktop | at_least: 50 }}vw, {{ 100 | divided_by: section.settings.collections_per_row_desktop }}vw{%- endcapture -%}
+
+                    {%- assign loading_strategy = null -%}
+
+                    {%- if forloop.index > 3 -%}
+                      {%- assign loading_strategy = 'lazy' -%}
+                    {%- endif -%}
+
+                    {% comment %}
+                      {{-
+                        collection.featured_image
+                        | image_url: width: collection.featured_image.width
+                        | image_tag:
+                          loading: loading_strategy,
+                          sizes: sizes,
+                          widths: '200,300,400,500,600,800,1000,1200,1400,1600,1800,2000,2200,2400',
+                          class: 'zoom-image group-hover:zoom',
+                          draggable: 'false'
+                      -}}
+                    {% endcomment %}
+
+                    <div
+                      class="collection-card__content prose prose--tight {{ section.settings.content_position }}"
+                      style="{% render 'surface', text_color: section.settings.text_color %}"
+                    >
+                      <p class="h3">{{ collection.title }}</p>
+                      <p class="h4 collection-products-count">{{ collection.products | size }} Items</p>
+                    </div>
+                  </div>
+                </a>
+                {%- render 'button', href: collection.url, content: 'Shop By Brand' -%}
+              </div>
+            {%- endfor -%}
           </div>
-        {%- endpaginate -%}
+        </div>
       </div>
-    </div>
   {%- endif -%}
 </div>
 
@@ -149,8 +189,12 @@
     {
       "type": "collection_list",
       "id": "collections",
-      "label": "t:sections.main_list_collections.selected_collections",
-      "limit": 48
+      "label": "t:sections.main_list_collections.selected_collections"
+    },
+    {
+      "type": "collection_list",
+      "id": "collections_2",
+      "label": "Selected Collections (2)"
     },
     {
       "type": "select",

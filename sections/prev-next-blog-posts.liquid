@@ -6,7 +6,7 @@
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title -%}
 
       <div class="prev-next-blog-posts">
-        {%- capture sizes -%}(max-width: 699px) 95vw, 500px{%- endcapture -%}
+        {%- capture sizes -%}(max-width: 699px) 95vw, 800px{%- endcapture -%}
 
         {%- if blog.previous_article -%}
           {%- render 'blog-post-card', article: blog.previous_article, blog: blog, show_category: section.settings.show_category, show_excerpt: section.settings.show_excerpt, show_read_more: section.settings.show_read_more, sizes: sizes -%}
