@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "video_xwNkgq": {
+      "type": "video",
+      "blocks": {
+        "play_pRLkCR": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_PKanRE": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_pRLkCR",
+        "heading_PKanRE"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -392,6 +421,7 @@
     }
   },
   "order": [
+    "video_xwNkgq",
     "slideshow",
     "featureed_image_and_products_zaMf8b",
     "before-after",
