@@ -133,11 +133,11 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/Group_5.png",
+        "image": "shopify://shop_images/DSC09579_DC_copy.jpg",
         "mobile_image": "shopify://shop_images/Group_5.png",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "md",
+        "content_width": "sm",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
