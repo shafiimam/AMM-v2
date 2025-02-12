@@ -54,8 +54,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/AMMAIRSHIPBLACK-1-SIDE-VIEW_8d57d164-d13d-4bc4-a0a7-61476af08bb0.png",
-        "mobile_image": "shopify://shop_images/AMMAIRSHIPBLACK-1-SIDE-VIEW_8d57d164-d13d-4bc4-a0a7-61476af08bb0.png",
+        "image": "shopify://shop_images/image_14.png",
+        "mobile_image": "shopify://shop_images/image_14.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "image_position_mobile": "bottom",
@@ -69,7 +69,7 @@
         "heading_nEnngp": {
           "type": "heading",
           "settings": {
-            "text": "424 MARATHON BOOT",
+            "text": "Louis Vuitton Shoe",
             "heading_tag": "h1"
           }
         },
@@ -93,9 +93,9 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/MARATHONBOOTLEATHERBLK-4.jpg",
+        "image": "shopify://shop_images/black_shoes.png",
         "mobile_image": "shopify://shop_images/black_shoes.png",
-        "circular_text": "424 MARATHON BOOT 424 MARATHON BOOT 424 MARATHON BOOT",
+        "circular_text": "Balenciaga jordan pro balenciaga jordan pro Balenciaga",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "md",
@@ -109,9 +109,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-boots",
+            "collection": "sneakers",
             "products_count": 8,
-            "title": "BOOTS",
+            "title": "Bestsellers",
             "link_url": "",
             "link_text": ""
           }
@@ -147,7 +147,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "new-sneakers",
+            "collection": "socks",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",
