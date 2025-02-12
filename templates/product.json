@@ -133,7 +133,7 @@
           "settings": {
             "show_below_gallery": true,
             "icon": "none",
-            "title": "Shipping And Details",
+            "title": "Shipping & Returns",
             "content": "{{ product.description }}",
             "liquid": "",
             "page": ""
@@ -142,10 +142,10 @@
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
-            "title": "Combine With",
-            "products_count": 2,
+            "title": "You May Also Like",
+            "products_count": 4,
             "show_below_gallery": true,
-            "stack_products": true,
+            "stack_products": false,
             "show_quick_buy": true
           }
         },
