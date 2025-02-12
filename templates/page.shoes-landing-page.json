@@ -24,8 +24,8 @@
         "heading_QcgKxR": {
           "type": "heading",
           "settings": {
-            "text": "Shoes",
-            "heading_font_size": 30,
+            "text": "Footwear",
+            "heading_font_size": 8,
             "heading_tag": "h1"
           }
         },
