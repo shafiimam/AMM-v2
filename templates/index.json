@@ -26,29 +26,35 @@
     "video_xwNkgq": {
       "type": "video",
       "blocks": {
-        "play_pRLkCR": {
-          "type": "play",
-          "disabled": true,
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
         "heading_PKanRE": {
           "type": "heading",
           "settings": {
-            "text": "",
+            "text": "Example Text",
             "heading_tag": "h2"
+          }
+        },
+        "richtext_4nJwki": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.</p>"
+          }
+        },
+        "richtext_EWkNQj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.</p>"
           }
         }
       },
       "block_order": [
-        "play_pRLkCR",
-        "heading_PKanRE"
+        "heading_PKanRE",
+        "richtext_4nJwki",
+        "richtext_EWkNQj"
       ],
       "settings": {
         "autoplay": true,
         "show_controls": false,
-        "video_size": "auto",
+        "video_size": "fill",
         "video": "shopify://files/videos/4k retry cut.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
