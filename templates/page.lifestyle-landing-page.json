@@ -114,7 +114,7 @@
           "settings": {
             "style": "solid",
             "text": "Buy Now",
-            "url": "",
+            "url": "shopify://products/loewe-hooded-jacket-3",
             "background": "",
             "text_color": ""
           }
