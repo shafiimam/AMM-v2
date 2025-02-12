@@ -483,6 +483,7 @@
         "image_with_text_3B8fyx",
         "image_with_text_yMbUVf"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-base {font-weight: bold; text-transform: uppercase;}"
       ],
