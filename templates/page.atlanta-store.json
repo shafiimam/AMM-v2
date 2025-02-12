@@ -26,7 +26,7 @@
           "settings": {
             "style": "outline",
             "text": "Book Now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
             "background": "",
             "text_color": ""
           }
@@ -34,20 +34,20 @@
         "richtext_KWCWDr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>10:00AM -18:00PM CET</p>"
+            "content": "<p>MON - SAT: 12:00 PM - 7:00 PM EST<br/>SUN: 12:00 PM - 5:00 PM EST</p>"
           }
         },
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "AMM Atlanta",
+            "text": "A Ma Maniére Atlanta",
             "heading_tag": "h1"
           }
         },
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n100 Market Street San Francisco, CA 94105 USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n969 Marietta St NW #200 Atlanta, GA 30318, USA"
           }
         }
       },
@@ -64,8 +64,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/store-photo.png",
-        "mobile_image": "shopify://shop_images/store-photo.png",
+        "image": "shopify://shop_images/AMM-Store-4.jpg",
+        "mobile_image": "shopify://shop_images/AMM-Store-4.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -73,7 +73,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 55
       }
     },
     "rich_text_VcMXhH": {
@@ -82,27 +82,20 @@
         "heading_zmhLEp": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store Name",
+            "text": "About A Ma Maniére Atlanta",
             "heading_tag": "h1"
           }
         },
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
-          }
-        },
-        "richtext_aqLt3c": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>A Ma Maniére, established in 2014 on Marietta Street, represents the cornerstone of a journey that has reshaped the luxury retail and cultural landscape. A Ma Maniére Atlanta has carved out a unique niche reflecting the spirit of its city: rich in heritage and bold in storytelling. With a name meaning “My Way,” the boutique champions the evolving narrative of modern luxury in the South.</p>"
           }
         }
       },
       "block_order": [
         "heading_zmhLEp",
-        "richtext_Nat9dh",
-        "richtext_aqLt3c"
+        "richtext_Nat9dh"
       ],
       "settings": {
         "color_scheme": "",
@@ -118,14 +111,14 @@
         "heading_7TAyH4": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store",
+            "text": "The Flagship Experience",
             "heading_tag": "h1"
           }
         },
         "richtext_baYYWk": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>The Atlanta flagship stands as a beacon of elevated fashion and community engagement, embodying the city’s dynamic energy through carefully curated collections and immersive retail experiences. The store seamlessly merges high-end streetwear with luxury, featuring exclusive collaborations and limited-edition releases that speak to both sneaker culture and refined style. Beyond retail, A Ma Maniére Atlanta serves as a cultural hub, hosting thought-provoking events, art exhibitions, and philanthropic initiatives that uplift the local community. Its influence extends far beyond commerce, redefining what it means to shop with purpose in a city known for innovation and resilience.</p><h6></h6>"
           }
         },
         "image_block_eWDJdQ": {
@@ -136,13 +129,14 @@
             "link_target": "_self",
             "button_style": "outline",
             "text": "Book now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
             "background": "rgba(0,0,0,0)",
             "text_color": ""
           }
         },
         "image_block_fgDmzU": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "OFFERS CURBSIDE PICKUP",
             "image": "shopify://shop_images/Frame_1000002061.png",
@@ -232,6 +226,7 @@
         "review_card_yKAHrU",
         "review_card_KbcrbH"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Customers’ Reviews"
       }
@@ -444,8 +439,8 @@
         "desktop_image": "shopify://shop_images/Rectangle_93.png",
         "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
         "title": "Visit our Stores",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "button_url": "",
+        "description": "Experience A Ma Maniére’s signature luxury retail in person at our locations, where high-end streetwear, exclusive sneaker releases, and curated fashion collections come to life. Visit us to explore immersive shopping experiences, community-driven activations, and the latest in elevated street style and designer collaborations.",
+        "button_url": "shopify://pages/our-stores",
         "button_text": "Learn More"
       }
     },

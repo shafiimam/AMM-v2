@@ -26,7 +26,7 @@
           "settings": {
             "style": "outline",
             "text": "Book Now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4891101",
             "background": "",
             "text_color": ""
           }
@@ -34,20 +34,20 @@
         "richtext_KWCWDr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>10:00AM -18:00PM CET</p>"
+            "content": "<p>MON - SAT: 12:00 PM - 7:00 PM EST </p><p>SUN: 12:00 PM - 5:00 PM EST </p>"
           }
         },
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "AMM WASHINGTON",
+            "text": "A Ma Maniére D.C.",
             "heading_tag": "h1"
           }
         },
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n100 Market Street San Francisco, CA 94105 USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n124 H St NE, Washington, D.C. 20002, USA"
           }
         }
       },
@@ -64,8 +64,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/store-photo.png",
-        "mobile_image": "shopify://shop_images/store-photo.png",
+        "image": "shopify://shop_images/A_Ma_Maniere_Washington_DC_interior.jpg",
+        "mobile_image": "shopify://shop_images/A_Ma_Maniere_Washington_DC_interior.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -73,7 +73,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 55
       }
     },
     "rich_text_VcMXhH": {
@@ -82,27 +82,20 @@
         "heading_zmhLEp": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store Name",
+            "text": "About A Ma Maniére D.C.",
             "heading_tag": "h1"
           }
         },
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
-          }
-        },
-        "richtext_aqLt3c": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>Nestled in the heart of H Street, A Ma Maniére DC offers a revolutionary retail experience that redefines contemporary luxury living. Directly above the space, A Ma Maniére LIVING features two fully appointed residential suites, designed to serve as an intimate setting for creative experiences just a few blocks away from Union Station. This exclusive extension of our boutique is thoughtfully curated to host special events, gatherings, and immersive moments, all with the purpose of fostering connections in the nation’s capital.</p>"
           }
         }
       },
       "block_order": [
         "heading_zmhLEp",
-        "richtext_Nat9dh",
-        "richtext_aqLt3c"
+        "richtext_Nat9dh"
       ],
       "settings": {
         "color_scheme": "",
@@ -118,14 +111,14 @@
         "heading_7TAyH4": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store",
+            "text": "Redefining Luxury Through Fashion, Culture & Experience",
             "heading_tag": "h1"
           }
         },
         "richtext_baYYWk": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>A Ma Maniére D.C. seamlessly merges retail, lifestyle, and culture, creating an immersive experience where luxury fashion, artistic expression, and community engagement come together. More than just a boutique, it stands as a cultural movement, redefining the intersection of fashion, community, and innovation. True luxury goes beyond what you wear—it’s about how you live, connect, and influence the world around you.</p><p></p>"
           }
         },
         "image_block_eWDJdQ": {
@@ -136,13 +129,14 @@
             "link_target": "_self",
             "button_style": "outline",
             "text": "Book now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4891101",
             "background": "rgba(0,0,0,0)",
             "text_color": ""
           }
         },
         "image_block_fgDmzU": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "OFFERS CURBSIDE PICKUP",
             "image": "shopify://shop_images/Frame_1000002061.png",
@@ -179,7 +173,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
-        "map": "<div class=\"mapouter\">\n  <div class=\"gmap_canvas\">\n    <iframe\n      class=\"gmap_iframe\"\n      width=\"100%\"\n      frameborder=\"0\"\n      scrolling=\"no\"\n      marginheight=\"0\"\n      marginwidth=\"0\"\n      src=\"https://maps.google.com/maps?width=890&amp;height=631&amp;hl=en&amp;q=A Ma Maniére Atlanta&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\"\n    ></iframe\n    ><a href=\"https://sprunkiplay.com/\">Sprunki Game</a>\n  </div>\n  <style>\n    .mapouter {\n      position: relative;\n      text-align: right;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_canvas {\n      overflow: hidden;\n      background: none !important;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_iframe {\n      height: 631px !important;\n    }\n  </style>\n</div>",
+        "map": "<div class=\"mapouter\">\n  <div class=\"gmap_canvas\">\n    <iframe class=\"gmap_iframe\" width=\"100%\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.03152631823!2d-76.99218918738443!3d38.90039437160545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b911618a55ab%3A0xa592a767ba4ca80e!2sA%20Ma%20Mani%C3%A9re%20D.C.!5e0!3m2!1sen!2sbd!4v1739283319456!5m2!1sen!2sbd\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n  </div>\n  <style>\n    .mapouter {\n      position: relative;\n      text-align: right;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_canvas {\n      overflow: hidden;\n      background: none !important;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_iframe {\n      height: 631px !important;\n    }\n  </style>\n</div>",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -232,6 +226,7 @@
         "review_card_yKAHrU",
         "review_card_KbcrbH"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Customers’ Reviews"
       }
@@ -424,7 +419,7 @@
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA</p>"
           }
         },
         "location_rE4pGP": {
@@ -444,7 +439,7 @@
         "desktop_image": "shopify://shop_images/Rectangle_93.png",
         "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
         "title": "Visit our Stores",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description": "Experience A Ma Maniére’s signature luxury retail in person at our locations, where high-end streetwear, exclusive sneaker releases, and curated fashion collections come to life. Visit us to explore immersive shopping experiences, community-driven activations, and the latest in elevated street style and designer collaborations.",
         "button_url": "",
         "button_text": "Learn More"
       }

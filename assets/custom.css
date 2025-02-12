@@ -189,6 +189,11 @@ li.header__primary-nav-item a {
   font-family: var(--text-font-family);
   font-size: var(--text-base);
 }
+@media only screen and (max-width: 700px) {
+  .localization-selectors {
+    justify-content: flex-start;
+  }
+}
 /* product page */
 sale-price.h4 {
   font-family: DINPro;
@@ -426,6 +431,7 @@ button.glider-next {
   line-height: normal;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+  text-align: left;
 }
 
 @media screen and (min-width: 800px) {
@@ -445,7 +451,6 @@ button.glider-next {
   grid-column: span 2;
 }
 
-
 /* circular text */
 .content-page-section__circular-text-container {
   position: relative;
@@ -460,4 +465,31 @@ button.glider-next {
 }
 .content-page-section__circular-text-container img {
   position: absolute;
+}
+
+/* customer profile page */
+h1#cae-heading {
+  text-transform: capitalize;
+}
+
+.mega_menu__linklist--brands {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-orders-container {
+  margin-top: 50px;
+}
+.customer-orders-container table,
+.customer-orders-container th,
+.order-summary__header th,
+.customer-order__address-list .h6 {
+  font-size: 14px !important;
+  color: #000;
+}
+.customer-orders-container th,
+.order-summary__header th {
+  font-weight: 500;
+  opacity: 1;
 }

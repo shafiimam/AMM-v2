@@ -24,8 +24,8 @@
         "heading_QcgKxR": {
           "type": "heading",
           "settings": {
-            "text": "Shoes",
-            "heading_font_size": 30,
+            "text": "Footwear",
+            "heading_font_size": 8,
             "heading_tag": "h1"
           }
         },
@@ -88,7 +88,8 @@
       ],
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}"
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {margin-inline: 0;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -109,7 +110,7 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-slippers",
+            "collection": "sneakers",
             "products_count": 8,
             "title": "Bestsellers",
             "link_url": "",
@@ -147,7 +148,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "air-max",
+            "collection": "socks",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",

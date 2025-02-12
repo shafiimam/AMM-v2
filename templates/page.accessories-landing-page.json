@@ -33,7 +33,7 @@
           "settings": {
             "style": "solid",
             "text": "See All",
-            "url": "",
+            "url": "shopify://collections/new-accessories",
             "background": "",
             "text_color": ""
           }
@@ -42,6 +42,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Acc._Banner_1.5.jpg",
+            "image_mobile": "shopify://shop_images/Acc._Banner_1.5.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -64,50 +65,34 @@
         "remove_vertical_spacing": true
       }
     },
-    "section_rounded_text_column_GqPnPr": {
-      "type": "section-rounded-text-column",
+    "accessories_image_with_text_eabtxK": {
+      "type": "accessories-image-with-text",
       "blocks": {
-        "heading_mYMAJx": {
+        "heading_9GCHUT": {
           "type": "heading",
           "settings": {
             "text": "Simply  Elegant",
             "heading_tag": "h1"
           }
         },
-        "richtext_BgRjdd": {
+        "richtext_aGXpJA": {
           "type": "richtext",
           "settings": {
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. </p>",
             "text_color": "#8f8f8f"
           }
-        },
-        "button_KhbMHc": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "See All",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
-        "heading_mYMAJx",
-        "richtext_BgRjdd",
-        "button_KhbMHc"
+        "heading_9GCHUT",
+        "richtext_aGXpJA"
       ],
-      "custom_css": [
-        "p.h1 {font-size: 80px; width: max-content; width: 100%; word-break: break-word; overflow-wrap: break-word;}",
-        "@media only screen and (min-width: 1000px) {p.h1 {font-size: 120px; }}",
-        ".image-with-circular-text__container > div:first-child {align-self: flex-end;}",
-        "picture {align-self: start;}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/Frame_358.png",
-        "mobile_image": "shopify://shop_images/Frame_358.png",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/accessories.png",
+        "mobile_image": "shopify://shop_images/accessories.png",
         "circular_text": "Balenciaga Jordan Pro Balenciaga Jordan Pro Balenciaga Jordan Pro",
         "image_circular_text": "shopify://shop_images/image_28.png",
         "reveal_on_scroll": true,
@@ -172,9 +157,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-accessories",
+            "collection": "new-home",
             "products_count": 8,
-            "title": "Bestsellers",
+            "title": "HOME GOODS",
             "link_url": "",
             "link_text": ""
           }
@@ -210,7 +195,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere-accessories",
+            "collection": "new-accessories",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",
@@ -237,7 +222,7 @@
   "order": [
     "main",
     "rich_text_xwKKEF",
-    "section_rounded_text_column_GqPnPr",
+    "accessories_image_with_text_eabtxK",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
     "3d_gallery_Y9qVkB",

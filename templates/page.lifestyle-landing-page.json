@@ -25,7 +25,6 @@
           "type": "heading",
           "settings": {
             "text": "Lifestyle",
-            "heading_font_size": 11,
             "heading_tag": "h1"
           }
         }
@@ -172,8 +171,81 @@
         "subheading": ""
       }
     },
+    "media_grid_NdQyMT": {
+      "type": "media-grid",
+      "blocks": {
+        "image_ri7CMC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XUPrm6": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TiMJ9P": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ri7CMC",
+        "image_XUPrm6",
+        "image_TiMJ9P"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Media grid",
+        "content": ""
+      }
+    },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
+      "disabled": true,
       "settings": {
         "title": "Look Closer",
         "start_index": "268",
@@ -218,6 +290,7 @@
     "image_with_text_block_mTzP8F",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
+    "media_grid_NdQyMT",
     "3d_gallery_Y9qVkB",
     "featured_collections_Dtrtbp"
   ]

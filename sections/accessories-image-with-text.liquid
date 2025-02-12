@@ -10,6 +10,11 @@
       --image-with-text-content-max-width: {% if section.settings.content_width == 'sm' %}430px{% elsif section.settings.content_width == 'md' %}780px{% else %}100%{% endif %};
       padding: 0;
     }
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        padding: {% if section.settings.remove_top_padding %}0{% else %}20px 0{% endif %};
+      }
+    }
   </style>
 
   {%- comment -%}
@@ -23,33 +28,62 @@
     | md5
   -%}
 
-  <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %} image-with-text-custom">
-    <image-with-text class="image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
-      {%- if section.settings.image != blank -%}
-        <picture>
-          {%- assign sizes = '(max-width: 699px) 100vw, 50vw' -%}
-
-          {%- if section.settings.mobile_image != blank -%}
-            <source
-              media="(max-width: 699px)"
-              srcset="{{ section.settings.mobile_image | image_url: width: '400x' }} 400w, {{ section.settings.mobile_image | image_url: width: '600x' }} 600w, {{ section.settings.mobile_image | image_url: width: '800x' }} 800w, {{ section.settings.mobile_image | image_url: width: '1000x' }} 1000w"
-              width="{{ section.settings.mobile_image.width }}"
-              height="{{ section.settings.mobile_image.height }}"
+  <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+    <image-with-text class="container container--full image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
+      <div class="image-with-circular-text__container flex flex-column gap-8 justify-center align-center">
+        <div class="content-page-section__circular-text-container">
+          {% if section.settings.image_circular_text %}
+            <img
+              src="{{ section.settings.image_circular_text | img_url: 'master' }}"
+              alt=""
+              srcset=""
+              width="{{ section.settings.image_circular_text.width }}"
+              height="{{ section.settings.image_circular_text.height }}"
             >
-          {%- endif -%}
+          {% else %}
+            <img
+              src="{{ 'arrow-down.svg' | asset_url }}"
+              alt=""
+              srcset=""
+              height="95"
+              width="50"
+            >
+          {% endif %}
+          <svg viewBox="0 0 320 320" width="320" height="320">
+            <defs>
+              <path id="circlePath" d="M 160, 160 m -100, 0 a 100,100 0 1,1 200,0 a 100,100 0 1,1 -200,0"/>
+            </defs>
+            <text fill="black" font-size="18" font-family="var(--heading-font-family)" text-anchor="middle" class="content-page-section__circular-text">
+              <textPath xlink:href="#circlePath" startOffset="50%" >{{  section.settings.circular_text }}</textPath>
+            </text>
+          </svg>
+        </div>
+        {%- if section.settings.image != blank -%}
+          <picture>
+            {%- assign sizes = '(max-width: 699px) 100vw, 50vw' -%}
 
-          {{-
-            section.settings.image
-            | image_url: width: section.settings.image.width
-            | image_tag:
-              sizes: sizes,
-              widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200',
-              reveal-on-scroll: section.settings.reveal_on_scroll
-          -}}
-        </picture>
-      {%- else -%}
-        {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
-      {%- endif -%}
+            {%- if section.settings.mobile_image != blank -%}
+              <source
+                media="(max-width: 699px)"
+                srcset="{{ section.settings.mobile_image | image_url: width: '400x' }} 400w, {{ section.settings.mobile_image | image_url: width: '600x' }} 600w, {{ section.settings.mobile_image | image_url: width: '800x' }} 800w, {{ section.settings.mobile_image | image_url: width: '1000x' }} 1000w"
+                width="{{ section.settings.mobile_image.width }}"
+                height="{{ section.settings.mobile_image.height }}"
+              >
+            {%- endif -%}
+
+            {{-
+              section.settings.image
+              | image_url: width: section.settings.image.width
+              | image_tag:
+                sizes: sizes,
+                widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200',
+                reveal-on-scroll: section.settings.reveal_on_scroll
+            -}}
+          </picture>
+        {%- else -%}
+          {{- 'image' | placeholder_svg_tag: 'placeholder' -}}
+        {%- endif -%}
+      </div>
 
       <div class="prose sm:text-start">
         {%- for block in section.blocks -%}
@@ -61,16 +95,19 @@
 
             {%- when 'heading' -%}
               {%- if block.settings.text != blank -%}
-                <p class="{{ block.settings.heading_tag }} section-block-heading" {{ block.shopify_attributes }}>
-                  {{ block.settings.text }}
-                </p>
+                <p class="{{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
               {%- endif -%}
 
             {%- when 'richtext' -%}
               {%- if block.settings.content != blank -%}
-                <div {{ block.shopify_attributes }} style="font-size: 16px;">
-                  {{- block.settings.content -}}
+                <div {{ block.shopify_attributes }} class="text-secondary image-block-richtext-{{ block.id }}">
+                  {{- block.settings.content | newline_to_br -}}
                 </div>
+                <style>
+                  .image-block-richtext-{{ block.id }} p {
+                    color: {{ block.settings.text_color }} !important;
+                  }
+                </style>
               {%- endif -%}
 
             {%- when 'page' -%}
@@ -109,39 +146,41 @@
                   block: block
                 %}
               {%- endif -%}
+
+            {% when 'countdown' %}
+              {% render 'countdown', block: block %}
           {%- endcase -%}
         {%- endfor -%}
       </div>
     </image-with-text>
   </div>
 {%- endif -%}
-{% assign section_image_position_mobile = section.settings.image_position_mobile %}
-{% case section_image_position_mobile %}
-  {% when 'top' %}
-    {% assign image_position_mobile_index = 1 %}
-  {% else %}
-    {% assign image_position_mobile_index = 0 %}
-{% endcase %}
 <style>
-  .section-block-heading{
-     font-size: 135px;
-     line-height: normal;
-     font-family: var(--heading-font-family);
-     width: max-content;
+   #shopify-section-{{ section.id }} p.h1 {
+    font-size: 60px;
+    width: max-content;
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
-  @media screen and (max-width: 767px){
-    .section-block-heading{
-      font-size: 60px;
+  @media only screen and (min-width: 1000px) {
+   #shopify-section-{{ section.id }} p.h1 {
+      font-size: 100px;
     }
   }
-  .image-with-text-custom .prose{
-     grid-area : {{  image_position_mobile_index }}
+  #shopify-section-{{ section.id }} .image-with-circular-text__container > div:first-child {
+    align-self: flex-end;
+  }
+  #shopify-section-{{ section.id }} picture {
+    align-self: start;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    overflow: hidden;
   }
 </style>
-
 {% schema %}
 {
-  "name": "image with text custom",
+  "name": "Rounded Image with Text",
   "class": "shopify-section--image-with-text",
   "tag": "section",
   "max_blocks": 6,
@@ -174,6 +213,18 @@
       "info": "t:sections.image_with_text.mobile_image_size_recommendation"
     },
     {
+      "type": "textarea",
+      "id": "circular_text",
+      "label": "Rounded Text",
+      "default": "Scroll Scroll Scroll Scroll Scroll Scroll",
+      "info": "Should be of certain length to make the circular text work"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_circular_text",
+      "label": "Image inside rounded text"
+    },
+    {
       "type": "checkbox",
       "id": "reveal_on_scroll",
       "label": "t:global.animation.reveal_image_on_scroll",
@@ -193,22 +244,6 @@
           "label": "t:global.position.right"
         }
       ]
-    },
-    {
-      "type": "select",
-      "id": "image_position_mobile",
-      "label": "Image Position Mobile",
-      "options": [
-        {
-          "value": "top",
-          "label": "Top"
-        },
-        {
-          "value": "bottom",
-          "label": "Hottom"
-        }
-      ],
-      "default": "bottom"
     },
     {
       "type": "select",
@@ -235,6 +270,12 @@
       "id": "remove_vertical_spacing",
       "label": "t:global.spacing.remove_vertical_spacing",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_top_padding",
+      "label": "Remove Top Padding",
+      "default": false
     }
   ],
   "blocks": [
@@ -303,6 +344,12 @@
           "id": "content",
           "label": "t:global.text.content",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#8f8f8f"
         }
       ]
     },
@@ -388,11 +435,36 @@
           "label": "t:global.text.text"
         }
       ]
+    },
+    {
+      "type": "countdown",
+      "name": "Countdown Timer",
+      "settings": [
+        {
+          "type": "text",
+          "id": "final_date",
+          "label": "Target Date (dd-mm-yyyy)",
+          "default": "21-04-2022"
+        },
+        {
+          "type": "text",
+          "id": "final_time",
+          "label": "Target Time (hh:mm)",
+          "default": "15:00",
+          "info": "(24 hour system)"
+        },
+        {
+          "type": "checkbox",
+          "id": "start_countdown",
+          "label": "Start Countdown",
+          "default": false
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "image with text custom",
+      "name": "Rounded Image with Text",
       "blocks": [
         {
           "type": "subheading",

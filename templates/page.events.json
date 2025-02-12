@@ -22,8 +22,8 @@
       "type": "events-header-banner",
       "settings": {
         "title": "HANDWASH COLD",
-        "desktop_image": "shopify://shop_images/event-image-desktop.png",
-        "mobile_image": "shopify://shop_images/event-image-mobile.png",
+        "desktop_image": "shopify://shop_images/ffammwide_dc0d1ee5-2684-4b4e-9117-dc4e6564ea45.jpg",
+        "mobile_image": "shopify://shop_images/ffammobile4.jpg",
         "heading_font_size": 10
       }
     },
@@ -97,9 +97,9 @@
         "event_z7T663": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
+            "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
+            "title": "Future Forward",
+            "location": "Houston",
             "is_online": true,
             "button_label": "Participate",
             "button_url": ""
@@ -107,6 +107,7 @@
         },
         "event_CbK9CA": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -118,6 +119,7 @@
         },
         "event_gcKegJ": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -129,6 +131,7 @@
         },
         "event_zgLeCE": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -140,6 +143,7 @@
         },
         "event_67zwF7": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -151,6 +155,7 @@
         },
         "event_dDKLTR": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -162,6 +167,7 @@
         },
         "event_gqQFJG": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -173,6 +179,7 @@
         },
         "event_NWgm8L": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",
@@ -184,6 +191,7 @@
         },
         "event_HiPxpm": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
             "title": "Fashion Week 2024",

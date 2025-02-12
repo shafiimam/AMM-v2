@@ -179,14 +179,14 @@
           <div class="customer-order__address-list">
             {%- if order.billing_address -%}
               <div class="v-stack gap-6 sm:gap-8">
-                <p class="customer-account-category h6 text-subdued">{{ 'customer.order.billing_address' | t }}</p>
+                <p class="customer-account-category h6 text">{{ 'customer.order.billing_address' | t }}</p>
                 {{- order.billing_address | format_address -}}
               </div>
             {%- endif -%}
 
             {%- if order.shipping_address -%}
               <div class="v-stack gap-6 sm:gap-8">
-                <p class="customer-account-category h6 text-subdued">{{ 'customer.order.shipping_address' | t }}</p>
+                <p class="customer-account-category h6 text">{{ 'customer.order.shipping_address' | t }}</p>
                 {{- order.shipping_address | format_address -}}
               </div>
             {%- endif -%}

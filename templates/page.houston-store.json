@@ -26,7 +26,7 @@
           "settings": {
             "style": "outline",
             "text": "Book Now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule/8533ff13/appointment/18134611/calendar/4891086?calendarIds=4891086",
             "background": "",
             "text_color": ""
           }
@@ -34,20 +34,20 @@
         "richtext_KWCWDr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>10:00AM -18:00PM CET</p>"
+            "content": "<p>MON - SAT: 12:00 PM - 6:30 PM CST </p><p>SUN: CLOSED</p>"
           }
         },
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "AMM  Houston",
+            "text": "A Ma Maniére Houston",
             "heading_tag": "h1"
           }
         },
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n100 Market Street San Francisco, CA 94105 USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n3300 Kirby Dr. #6A, Houston, TX 77098, USA"
           }
         }
       },
@@ -64,8 +64,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/store-photo.png",
-        "mobile_image": "shopify://shop_images/store-photo.png",
+        "image": "shopify://shop_images/AMM-Houston-Store-Interior.jpg",
+        "mobile_image": "shopify://shop_images/AMM-Houston-Store-Interior.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -73,7 +73,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 55
       }
     },
     "rich_text_VcMXhH": {
@@ -82,27 +82,20 @@
         "heading_zmhLEp": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store Name",
+            "text": "About A Ma Maniére Houston",
             "heading_tag": "h1"
           }
         },
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
-          }
-        },
-        "richtext_aqLt3c": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>Located west of Downtown Houston, A Ma Maniére introduces its signature elevated retail experience to the heart of Texas, seamlessly blending luxury, storytelling, and community. The space reflects Houston’s culture through immersive activations, celebrating the icons and narratives that have shaped the city.</p>"
           }
         }
       },
       "block_order": [
         "heading_zmhLEp",
-        "richtext_Nat9dh",
-        "richtext_aqLt3c"
+        "richtext_Nat9dh"
       ],
       "settings": {
         "color_scheme": "",
@@ -118,31 +111,32 @@
         "heading_7TAyH4": {
           "type": "heading",
           "settings": {
-            "text": "About Amazing Store",
+            "text": "A Fusion of Fashion, Culture & Community",
             "heading_tag": "h1"
           }
         },
         "richtext_baYYWk": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>The store is thoughtfully designed to immerse visitors in a multi-sensory shopping experience, blending contemporary aesthetics with elements that honor Houston’s deep-rooted influence in music, art, and fashion. Through exclusive activations, brand partnerships, and curated events, A Ma Maniére Houston serves as a platform to celebrate the icons, creators, and visionaries shaping the city’s ever-evolving narrative. Whether shopping for limited-edition apparel, engaging with community-focused initiatives, or experiencing luxury retail at its finest, A Ma Maniére Houston sets a new standard for fashion, culture, and storytelling in Texas.<br/></p>"
           }
         },
         "image_block_eWDJdQ": {
           "type": "image_block",
           "settings": {
             "title": "PERSONAL SHOPPING",
-            "image": "shopify://shop_images/Frame_1000002059.png",
+            "image": "shopify://shop_images/A_Ma_Maniere_Houston_Outdoor_-_Personal_Shopping.jpg",
             "link_target": "_self",
             "button_style": "outline",
             "text": "Book now",
-            "url": "",
+            "url": "https://app.acuityscheduling.com/schedule/8533ff13/appointment/18134611/calendar/4891086?calendarIds=4891086",
             "background": "rgba(0,0,0,0)",
             "text_color": ""
           }
         },
         "image_block_fgDmzU": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "OFFERS CURBSIDE PICKUP",
             "image": "shopify://shop_images/Frame_1000002061.png",
@@ -179,7 +173,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
-        "map": "<div class=\"mapouter\">\n  <div class=\"gmap_canvas\">\n    <iframe\n      class=\"gmap_iframe\"\n      width=\"100%\"\n      frameborder=\"0\"\n      scrolling=\"no\"\n      marginheight=\"0\"\n      marginwidth=\"0\"\n      src=\"https://maps.google.com/maps?width=890&amp;height=631&amp;hl=en&amp;q=A Ma Maniére Atlanta&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\"\n    ></iframe\n    ><a href=\"https://sprunkiplay.com/\">Sprunki Game</a>\n  </div>\n  <style>\n    .mapouter {\n      position: relative;\n      text-align: right;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_canvas {\n      overflow: hidden;\n      background: none !important;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_iframe {\n      height: 631px !important;\n    }\n  </style>\n</div>",
+        "map": "<div class=\"mapouter\">\n  <div class=\"gmap_canvas\">\n<iframe class=\"gmap_iframe\" width=\"100%\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.4449092152186!2d-95.42159322445802!3d29.735834475080512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c14e1692e1c9%3A0xd62d2896ff9513d0!2sA%20Ma%20Maniere%20Eats!5e0!3m2!1sen!2sbd!4v1739283177362!5m2!1sen!2sbd\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n  </div>\n  <style>\n    .mapouter {\n      position: relative;\n      text-align: right;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_canvas {\n      overflow: hidden;\n      background: none !important;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_iframe {\n      height: 631px !important;\n    }\n  </style>\n</div>",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -232,6 +226,7 @@
         "review_card_yKAHrU",
         "review_card_KbcrbH"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Customers’ Reviews"
       }
@@ -290,6 +285,7 @@
       "block_order": [
         "collection_7ckJHb"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -308,9 +304,9 @@
         "collection_PQUcic": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere",
+            "collection": "xavier-james-skus",
             "products_count": 15,
-            "title": "My Choice:",
+            "title": "My Choices",
             "link_url": "",
             "link_text": ""
           }
@@ -325,14 +321,14 @@
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
         "title": "Meet Our Staff",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "Alisa Hester",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
+        "subheading": "Xavier James has been with TWG for nearly six years, cultivating a minimalist and strategic approach to fashion that emphasizes carefully chosen pieces and materials in line with contemporary trends. He is particularly drawn to current styles such as elevated dad looks, oversized tailored garments, bold color layering, and originality, all of which are shaping the future of fashion. Xavier welcomes anyone seeking style advice or recommendations to reach out to him @XavierJames713.",
+        "employee_name": "Xavier James",
+        "employee_image": "shopify://shop_images/IMG_0079.jpg",
+        "employee_position": "Store Manager",
         "employee_twitter": "",
         "employee_linkedin": "",
         "employee_instagram": ""
@@ -366,9 +362,9 @@
         "vertical_spacing_factor": 0.4,
         "title": "",
         "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "Alisa Hester",
+        "employee_name": "_____",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
+        "employee_position": "Assistant Manager",
         "employee_twitter": "",
         "employee_linkedin": "",
         "employee_instagram": ""
@@ -379,6 +375,7 @@
       "blocks": {
         "collection_3ieYHm": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "balenciaga",
             "products_count": 15,
@@ -391,6 +388,7 @@
       "block_order": [
         "collection_3ieYHm"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -444,7 +442,7 @@
         "desktop_image": "shopify://shop_images/Rectangle_93.png",
         "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
         "title": "Visit our Stores",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description": "Experience A Ma Maniére’s signature luxury retail in person at our locations, where high-end streetwear, exclusive sneaker releases, and curated fashion collections come to life. Visit us to explore immersive shopping experiences, community-driven activations, and the latest in elevated street style and designer collaborations.",
         "button_url": "",
         "button_text": "Learn More"
       }
