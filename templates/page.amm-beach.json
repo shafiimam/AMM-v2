@@ -266,7 +266,7 @@
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
     },
