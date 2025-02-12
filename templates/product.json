@@ -111,6 +111,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false,
             "show_below_gallery": false
@@ -150,6 +151,7 @@
         },
         "more_information_mebE7W": {
           "type": "more_information",
+          "disabled": true,
           "settings": {
             "text": "More information"
           }
