@@ -18,31 +18,6 @@
         "page_width": "xs"
       }
     },
-    "rich_text_wppe8r": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_pa4TXe": {
-          "type": "heading",
-          "settings": {
-            "text": "Lifestyle",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pa4TXe"
-      ],
-      "custom_css": [
-        ".h1 {font-size: 120px; @media only screen and (max-width: 768px) {font-size: 60px; }}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "content_width": "lg",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "image_with_text_custom_qxrkki": {
       "type": "image-with-text-custom",
       "blocks": {
@@ -73,31 +48,30 @@
         "remove_vertical_spacing": true
       }
     },
-    "rich_text_xwKKEF": {
+    "rich_text_wppe8r": {
       "type": "rich-text",
       "blocks": {
-        "richtext_zUKdhQ": {
+        "heading_pa4TXe": {
+          "type": "heading",
+          "settings": {
+            "text": "Lifestyle",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_JNFeKj": {
           "type": "richtext",
           "settings": {
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. </p>"
           }
-        },
-        "button_edRrMz": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "See All",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
-        "richtext_zUKdhQ",
-        "button_edRrMz"
+        "heading_pa4TXe",
+        "richtext_JNFeKj"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".h1 {font-size: 120px; @media only screen and (max-width: 768px) {font-size: 60px; }}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -311,9 +285,8 @@
   },
   "order": [
     "main",
-    "rich_text_wppe8r",
     "image_with_text_custom_qxrkki",
-    "rich_text_xwKKEF",
+    "rich_text_wppe8r",
     "image_with_text_block_mTzP8F",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
