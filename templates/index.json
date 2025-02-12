@@ -16,7 +16,7 @@
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/4k retry cut.mov",
-            "allow_sound": true,
+            "allow_sound": false,
             "subheading": "Tell your story",
             "title": "Video slide",
             "mobile_text_position": "place-self-center text-center",
