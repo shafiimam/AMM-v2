@@ -54,7 +54,7 @@
       "settings": {
         "autoplay": true,
         "show_controls": false,
-        "video_size": "fill",
+        "video_size": "lg",
         "video": "shopify://files/videos/4k retry cut.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
