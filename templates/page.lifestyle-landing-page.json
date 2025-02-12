@@ -178,6 +178,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/DSC00479_DC_1.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -212,6 +213,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/DSC00479_DC_1.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
