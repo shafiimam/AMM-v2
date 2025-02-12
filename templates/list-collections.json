@@ -64,6 +64,18 @@
           "kenzo",
           "lanvin"
         ],
+        "collections_2": [
+          "levis",
+          "maniere-denim",
+          "markdowns",
+          "moncler-1",
+          "off-white",
+          "puma",
+          "ray-ban",
+          "readymade-1",
+          "rick-owens",
+          "new-sneakers"
+        ],
         "collections_per_row_mobile": "1",
         "collections_per_row_desktop": 3,
         "image_size": "xs",
