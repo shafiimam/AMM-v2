@@ -44,7 +44,7 @@
         "video_zB7x7d"
       ],
       "settings": {
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_next_section_button": true,
         "media_size": "auto",
         "show_initial_transition": false,
