@@ -31,6 +31,7 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/MOB5.jpg",
             "button_text": "Shop The Look",
