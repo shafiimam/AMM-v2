@@ -9,6 +9,20 @@
  */
 {
   "sections": {
+    "media_grid_qrNw8W": {
+      "type": "media-grid",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Media grid",
+        "content": ""
+      }
+    },
     "video_xwNkgq": {
       "type": "video",
       "blocks": {
@@ -36,6 +50,7 @@
         "show_controls": false,
         "video_size": "auto",
         "video": "shopify://files/videos/4k retry cut.mov",
+        "mobile_video": "shopify://files/videos/4k retry cut.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -423,6 +438,7 @@
     }
   },
   "order": [
+    "media_grid_qrNw8W",
     "video_xwNkgq",
     "slideshow",
     "featureed_image_and_products_zaMf8b",
