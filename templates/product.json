@@ -248,8 +248,8 @@
         "heading_ccNJx6"
       ],
       "settings": {
-        "autoplay": false,
-        "show_controls": true,
+        "autoplay": true,
+        "show_controls": false,
         "video_size": "fill",
         "video": "shopify://files/videos/New era 4k Logos .mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
