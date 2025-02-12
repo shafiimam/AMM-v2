@@ -183,7 +183,7 @@
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "custom_css": [
-        ".gallery-controls{bottom: 60px;}"
+        "@media and (min-width: 1000px) {.gallery-controls {bottom: 60px; }}"
       ],
       "settings": {
         "title": "Look Closer",
