@@ -22,9 +22,7 @@
       "type": "beach-header",
       "settings": {
         "title": "A Ma Maniére Beach",
-        "image": "shopify://shop_images/image_54_fe64d72d-7de6-4778-ac8a-0873451ae676.png",
-        "horizontal_position": 41,
-        "vertical_position": 18
+        "image": "shopify://shop_images/image_54_fe64d72d-7de6-4778-ac8a-0873451ae676.png"
       }
     },
     "slideshow_CPmdyh": {
@@ -160,7 +158,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p>A Ma Maniére Beach adorns the shores of Folly Beach, SC, a luxurious seaside haven extending our A Ma Maniére Living experiential concept, first introduced in 2018 at A Ma Maniére DC.</p>",
-            "text_color": "#1c1c1c"
+            "text_color": "#8f8f8f"
           }
         },
         "richtext_Yc4nft": {
@@ -305,7 +303,7 @@
         "slide_item_qq46ec"
       ],
       "settings": {
-        "title": "AMM Beach gallery",
+        "title": "Gallery",
         "auto_play": true
       }
     },

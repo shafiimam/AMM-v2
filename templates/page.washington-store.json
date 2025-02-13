@@ -125,7 +125,7 @@
           "type": "image_block",
           "settings": {
             "title": "PERSONAL SHOPPING",
-            "image": "shopify://shop_images/Frame_1000002059.png",
+            "image": "shopify://shop_images/AMM_DC_Front_Store_View.jpg",
             "link_target": "_self",
             "button_style": "outline",
             "text": "Book now",
@@ -253,6 +253,7 @@
         "heading_McaCUH",
         "richtext_EUAmG9"
       ],
+      "disabled": true,
       "custom_css": [
         "img {width: 100%;}"
       ],
@@ -274,7 +275,7 @@
         "collection_7ckJHb": {
           "type": "collection",
           "settings": {
-            "collection": "greg-lauren",
+            "collection": "new-arrivals-1",
             "products_count": 10,
             "title": "New Arrivals",
             "link_url": "",
@@ -303,9 +304,9 @@
         "collection_PQUcic": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere",
+            "collection": "benji-subah-dc-skus",
             "products_count": 15,
-            "title": "My Choice:",
+            "title": "My Choices:",
             "link_url": "",
             "link_text": ""
           }
@@ -324,11 +325,13 @@
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
         "title": "Meet Our Staff",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "Alisa Hester",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
+        "subheading": "Benji Subah is Store Manager at A Ma Maniere D.C. He has been with The Whitaker Grp since 2021. Whether it’s curating product knowledge, fostering relationships, or setting the standard for premium service, Benji and the D.C. team remain focused on what makes A Ma Maniere D.C. a destination for sneaker and fashion enthusiasts alike.",
+        "employee_name": "Benji Subah",
+        "employee_image": "shopify://shop_images/benji.jpg",
+        "employee_position": "Store manager",
+        "enable_employee_social_media": false,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -339,9 +342,9 @@
         "collection_8nw6hE": {
           "type": "collection",
           "settings": {
-            "collection": "new-accessories",
+            "collection": "mike-diep-dc-skus",
             "products_count": 15,
-            "title": "My Choice:",
+            "title": "My Choices:",
             "link_url": "",
             "link_text": ""
           }
@@ -360,11 +363,13 @@
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
         "title": "",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "Alisa Hester",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
+        "subheading": "Mike has been a part of the company for over four years, bringing a unique approach to blending luxury with everyday streetwear. Rather than following trends, he gravitates toward timeless pieces that transcend eras. \"I don’t have a favorite trend or cater to trends—I prefer items that can be worn in any era,\" he shares, emphasizing his commitment to enduring style over fleeting fashion movements.",
+        "employee_name": "Mike Diep",
+        "employee_image": "shopify://shop_images/mike.jpg",
+        "employee_position": "Assistant Store Manager",
+        "enable_employee_social_media": false,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -386,6 +391,7 @@
       "block_order": [
         "collection_3ieYHm"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -400,7 +406,9 @@
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
         "employee_position": "Administrator",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -412,21 +420,21 @@
           "type": "location",
           "settings": {
             "title": "Atlanta",
-            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p><p>Ph: 678-973-2116</p>"
           }
         },
         "location_kJYYEU": {
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA<br/>Ph: 713-640-5945</p>"
           }
         },
         "location_rE4pGP": {
           "type": "location",
           "settings": {
-            "title": "Washington",
-            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
+            "title": "Washington, D.C.",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA<br/>Ph: 202-290-3160</p>"
           }
         }
       },

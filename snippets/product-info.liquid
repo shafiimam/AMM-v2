@@ -117,10 +117,10 @@
 
           {%- when 'vendor' -%}
             {%- if product != blank -%}
-              {%- render 'vendor' with product.vendor, class: 'h6 link-faded' -%}
+              {%- render 'vendor' with product.vendor, class: 'h5 link-faded' -%}
             {%- else -%}
               {%- assign placeholder_vendor = 'general.on_boarding.product_vendor' | t -%}
-              {%- render 'vendor' with placeholder_vendor, class: 'h6 link-faded' -%}
+              {%- render 'vendor' with placeholder_vendor, class: 'h5 link-faded' -%}
             {%- endif -%}
 
           {%- when 'title' -%}

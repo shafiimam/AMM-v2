@@ -253,6 +253,7 @@
         "heading_McaCUH",
         "richtext_EUAmG9"
       ],
+      "disabled": true,
       "custom_css": [
         "img {width: 100%;}"
       ],
@@ -274,7 +275,7 @@
         "collection_7ckJHb": {
           "type": "collection",
           "settings": {
-            "collection": "greg-lauren",
+            "collection": "new-arrivals-1",
             "products_count": 10,
             "title": "New Arrivals",
             "link_url": "",
@@ -285,7 +286,6 @@
       "block_order": [
         "collection_7ckJHb"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -296,6 +296,44 @@
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
         "subheading": ""
+      }
+    },
+    "eployee_with_collection_z3TxTy": {
+      "type": "eployee-with-collection",
+      "blocks": {
+        "collection_8nw6hE": {
+          "type": "collection",
+          "settings": {
+            "collection": "damian-estante-skus",
+            "products_count": 15,
+            "title": "My Choice:",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_8nw6hE"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "title": "",
+        "subheading": "Hailing from Houston, Texas, Damian has been a valued member of The Whitaker Group since 2017. With a keen eye for luxury fashion, he gravitates toward brands like Balenciaga and Saint Michael. Driven by his passion for style, Damian is committed to delivering an exceptional shopping experience, ensuring every customer discovers pieces that elevate their wardrobe.",
+        "employee_name": "Damian Eustate",
+        "employee_image": "shopify://shop_images/IMG_7209.jpg",
+        "employee_position": "Store Manager",
+        "enable_employee_social_media": false,
+        "employee_twitter": "",
+        "employee_tiktok": "",
+        "employee_linkedin": "",
+        "employee_instagram": ""
       }
     },
     "eployee_with_collection_mn8nDL": {
@@ -325,49 +363,15 @@
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
         "title": "Meet Our Staff",
-        "subheading": "Xavier James has been with The Whitaker Grp for nearly six years, cultivating a minimalist and strategic approach to fashion that emphasizes carefully chosen pieces and materials in line with contemporary trends. He is particularly drawn to current styles such as elevated dad looks, oversized tailored garments, bold color layering, and originality, all of which are shaping the future of fashion. Xavier welcomes anyone seeking style advice or recommendations to reach out to him @XavierJames713.",
+        "subheading": "With nearly six years at The Whitaker Group, Xavier James has honed a minimalist yet strategic approach to fashion, focusing on thoughtfully curated pieces and high-quality materials that align with contemporary trends. His style is influenced by elevated dad looks, oversized tailored silhouettes, bold color layering, and originality—all elements shaping the future of fashion. Whether you're looking for style advice or personalized recommendations, Xavier invites you to connect with him @XavierJames713.",
         "employee_name": "Xavier James",
-        "employee_image": "shopify://shop_images/IMG_0079.jpg",
-        "employee_position": "Store Manager",
+        "employee_image": "shopify://shop_images/xavier.jpg",
+        "employee_position": "Assistant Store Manager",
+        "enable_employee_social_media": false,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
-        "employee_instagram": ""
-      }
-    },
-    "eployee_with_collection_z3TxTy": {
-      "type": "eployee-with-collection",
-      "blocks": {
-        "collection_8nw6hE": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 15,
-            "title": "My Choice:",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_8nw6hE"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.4,
-        "vertical_spacing_factor": 0.4,
-        "title": "",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "_____",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Assistant Manager",
-        "employee_twitter": "",
-        "employee_linkedin": "",
-        "employee_instagram": ""
+        "employee_instagram": "https://www.instagram.com/xavierjames713/#"
       }
     },
     "eployee_with_collection_FYHyHH": {
@@ -403,7 +407,9 @@
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
         "employee_position": "Administrator",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -415,21 +421,21 @@
           "type": "location",
           "settings": {
             "title": "Atlanta",
-            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA<br/>Ph: 678-973-2116</p>"
           }
         },
         "location_kJYYEU": {
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA<br/>Ph: 713-640-5945</p>"
           }
         },
         "location_rE4pGP": {
           "type": "location",
           "settings": {
-            "title": "Washington",
-            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
+            "title": "Washington, D.C.",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA<br/>Ph: 202-290-3160</p>"
           }
         }
       },
@@ -513,8 +519,8 @@
     "reviews_slider_NJY6C3",
     "image_with_text_QNEjBt",
     "featured_collections_wzB8F7",
-    "eployee_with_collection_mn8nDL",
     "eployee_with_collection_z3TxTy",
+    "eployee_with_collection_mn8nDL",
     "eployee_with_collection_FYHyHH",
     "beach_location_banner_nGbcUy",
     "multi_column_AG6HP7"

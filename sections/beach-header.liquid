@@ -1,48 +1,36 @@
-<div class="beach-header-container">
+<div class="beach-header-container container container--full">
   <div class="beach-header-content-container">
     <h1 class="beach-header-title">{{ section.settings.title }}</h1>
-    <img
-      src="{{ section.settings.image | img_url: '600x' }}"
-      alt="Image"
-      class="beach-header-bg-image"
-    >
   </div>
 </div>
 <style>
   .beach-header-title {
     color: var(--main_dark, #242424);
     font-family: 'Saol Display';
-    font-size: clamp(3.7rem, 10vw, 11rem);
+    font-size: 100px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: -3.62px;
+    letter-spacing: normal;
     text-transform: uppercase;
-    margin-inline-start: 60px;
-    margin-block-end: 40px;
-    margin-block-start: 40px;
-  }
-  @media screen and (max-width: 600px) {
-    .beach-header-title {
-      margin-inline-start: 20px;
+    margin-block: 40px;
+    margin-right: auto;
+    @media screen and (max-width: 1000px) {
+      font-size: 40px;
     }
-
+  }
+  @media screen and (min-width: 1000px) {
+    .beach-header-title {
+      max-width: calc(100% - {{section.settings.image.width}}px);
+    }
   }
   .beach-header-container {
     position: relative;
     overflow: hidden;
-  }
-  .beach-header-bg-image {
-    position: absolute;
-    bottom: -{{ section.settings.vertical_position }}%;
-    left: {{ section.settings.horizontal_position }}%;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    background-image: url('{{ section.settings.image | img_url: '600x' }}');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
   }
 </style>
 
@@ -62,26 +50,6 @@
       "type": "image_picker",
       "id": "image",
       "label": "Background Image Overlay"
-    },
-    {
-      "type": "range",
-      "id": "horizontal_position",
-      "min": 1,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Horizontal Postion",
-      "default": 50
-    },
-    {
-      "type": "range",
-      "id": "vertical_position",
-      "min": 1,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Vertical Postion",
-      "default": 50
     }
   ],
   "presets": [

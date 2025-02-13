@@ -125,13 +125,13 @@
           "type": "image_block",
           "settings": {
             "title": "PERSONAL SHOPPING",
-            "image": "shopify://shop_images/Frame_1000002059.png",
+            "image": "shopify://shop_images/image_76838ecb-57bc-4849-bc67-64c09f203b9c.jpg",
             "link_target": "_self",
             "button_style": "outline",
             "text": "Book now",
             "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
             "background": "rgba(0,0,0,0)",
-            "text_color": ""
+            "text_color": "rgba(0,0,0,0)"
           }
         },
         "image_block_fgDmzU": {
@@ -253,6 +253,7 @@
         "heading_McaCUH",
         "richtext_EUAmG9"
       ],
+      "disabled": true,
       "custom_css": [
         "img {width: 100%;}"
       ],
@@ -274,7 +275,7 @@
         "collection_7ckJHb": {
           "type": "collection",
           "settings": {
-            "collection": "greg-lauren",
+            "collection": "new-arrivals-1",
             "products_count": 10,
             "title": "New Arrivals",
             "link_url": "",
@@ -303,9 +304,9 @@
         "collection_PQUcic": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere",
+            "collection": "jason-romero-atl-skus",
             "products_count": 15,
-            "title": "My Choice:",
+            "title": "My Choices:",
             "link_url": "",
             "link_text": ""
           }
@@ -324,11 +325,13 @@
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
         "title": "Meet Our Staff",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "Alisa Hester",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
+        "subheading": "Jason started his journey with A Ma Maniére in July 2023. He has a background in brand consulting, creative directing, and personal styling. Details paint the bigger picture - \"I like garments that focus less on heavy branding and more on the fabric and silhouette (blank canvas) and pair them with accessories like rings, bracelets, and wallet chains (paint). I’d describe my personal style as “if you know you know.” ",
+        "employee_name": "Jason Romero",
+        "employee_image": "shopify://shop_images/000076520030.jpg",
+        "employee_position": "Store Manager",
+        "enable_employee_social_media": false,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -350,6 +353,7 @@
       "block_order": [
         "collection_8nw6hE"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -364,7 +368,9 @@
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
         "employee_position": "Administrator",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -386,6 +392,7 @@
       "block_order": [
         "collection_3ieYHm"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -400,7 +407,9 @@
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
         "employee_position": "Administrator",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -412,21 +421,21 @@
           "type": "location",
           "settings": {
             "title": "Atlanta",
-            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA<br/>Ph: 678-973-2116</p>"
           }
         },
         "location_kJYYEU": {
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA<br/>Ph: 713-640-5945</p>"
           }
         },
         "location_rE4pGP": {
           "type": "location",
           "settings": {
-            "title": "Washington",
-            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
+            "title": "Washington, D.C.",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA<br/>Ph: 202-290-3160</p>"
           }
         }
       },

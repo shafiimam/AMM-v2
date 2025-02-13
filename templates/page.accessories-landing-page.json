@@ -71,14 +71,14 @@
         "heading_9GCHUT": {
           "type": "heading",
           "settings": {
-            "text": "Simply  Elegant",
+            "text": "Statement pieces",
             "heading_tag": "h1"
           }
         },
         "richtext_aGXpJA": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. </p>",
+            "content": "<p>Elevate your everyday style with luxury accessories from A Ma Maniére, featuring a curated selection of designer bags, belts, hats, jewelry, and more. Discover premium scarves, wallets, sunglasses, socks, and small goods, crafted with high-quality materials and designed for both function and fashion. Our collection also includes statement masks, home essentials, and exclusive collaborations, blending streetwear aesthetics with refined luxury. Shop the latest high-end accessories online and in-store at A Ma Maniére.</p>",
             "text_color": "#8f8f8f"
           }
         }
@@ -90,7 +90,7 @@
       "custom_css": [],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image": "shopify://shop_images/5943092AA3B1000_2_c08fcaf0-f3ec-453e-a55e-e5db563b899e.jpg",
         "mobile_image": "shopify://shop_images/5943092AA3B1000_2_c08fcaf0-f3ec-453e-a55e-e5db563b899e.jpg",
         "circular_text": "Balenciaga Jordan Pro Balenciaga Jordan Pro Balenciaga Jordan Pro",
@@ -173,7 +173,7 @@
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
-        "products_per_row_mobile": "1",
+        "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 0.6,
@@ -183,7 +183,8 @@
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "custom_css": [
-        "@media and (min-width: 1000px) {.gallery-controls {bottom: 60px; }}"
+        ".gallery-controls {bottom: -40px;}",
+        ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}"
       ],
       "settings": {
         "title": "Look Closer",
