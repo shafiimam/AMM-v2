@@ -63,11 +63,22 @@
           "settings": {
             "content": "<p>Stay elevated in luxury outerwear with A Ma Maniére’s curated selection of designer jackets, premium coats, and high-end streetwear layers. Explore a collection that blends style, functionality, and craftsmanship, featuring exclusive outerwear pieces, limited-edition collaborations, and timeless silhouettes. From tailored wool coats to sleek bomber jackets and statement puffers, each piece is designed for those who appreciate refined fashion and premium quality. Shop the latest men’s and unisex outerwear online and in-store for an effortless blend of streetwear and luxury.</p>"
           }
+        },
+        "button_UhjbVV": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SEE ALL",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_pa4TXe",
-        "richtext_JNFeKj"
+        "richtext_JNFeKj",
+        "button_UhjbVV"
       ],
       "custom_css": [
         ".h1 {font-size: 120px; @media only screen and (max-width: 768px) {font-size: 60px; }}"
