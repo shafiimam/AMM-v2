@@ -297,8 +297,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "CATALOG",
-            "url": "",
+            "text": "EXPLORE",
+            "url": "shopify://collections",
             "background": "",
             "text_color": ""
           }
