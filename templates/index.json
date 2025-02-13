@@ -91,7 +91,7 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "New Autumn Arrivals",
+        "title": "jacquemus",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/Frame_28.png",
         "image_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
@@ -149,7 +149,7 @@
           "settings": {
             "collection": "a-ma-maniere",
             "products_count": 9,
-            "title": "Featured Collections",
+            "title": "New Arrivals",
             "link_url": "",
             "link_text": "View all"
           }
