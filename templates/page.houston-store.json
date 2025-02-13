@@ -422,14 +422,14 @@
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA<br/>Ph: 713-640-5945</p>"
           }
         },
         "location_rE4pGP": {
           "type": "location",
           "settings": {
             "title": "Washington",
-            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA<br/>Ph: 202-290-3160</p>"
           }
         }
       },
