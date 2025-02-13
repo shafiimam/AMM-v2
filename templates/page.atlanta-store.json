@@ -253,6 +253,7 @@
         "heading_McaCUH",
         "richtext_EUAmG9"
       ],
+      "disabled": true,
       "custom_css": [
         "img {width: 100%;}"
       ],
@@ -274,7 +275,7 @@
         "collection_7ckJHb": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-1",
+            "collection": "greg-lauren",
             "products_count": 10,
             "title": "New Arrivals",
             "link_url": "",
