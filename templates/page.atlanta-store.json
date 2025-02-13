@@ -125,13 +125,13 @@
           "type": "image_block",
           "settings": {
             "title": "PERSONAL SHOPPING",
-            "image": "shopify://shop_images/Frame_1000002059.png",
+            "image": "shopify://shop_images/AMM-Store_d77a0787-4406-4f76-93ab-674daed91ec7.jpg",
             "link_target": "_self",
             "button_style": "outline",
             "text": "Book now",
             "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
             "background": "rgba(0,0,0,0)",
-            "text_color": ""
+            "text_color": "#000000"
           }
         },
         "image_block_fgDmzU": {
@@ -329,7 +329,9 @@
         "employee_name": "Jason Romero",
         "employee_image": "shopify://shop_images/000076520030.jpg",
         "employee_position": "Store Manager",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -366,7 +368,9 @@
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
         "employee_position": "Administrator",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -403,7 +407,9 @@
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
         "employee_position": "Administrator",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
