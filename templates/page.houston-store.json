@@ -329,7 +329,9 @@
         "employee_name": "Damian Eustate",
         "employee_image": "shopify://shop_images/IMG_7209.jpg",
         "employee_position": "Store Manager",
+        "enable_employee_social_media": false,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -365,7 +367,9 @@
         "employee_name": "Xavier James",
         "employee_image": "shopify://shop_images/xavier.jpg",
         "employee_position": "Assistant Store Manager",
+        "enable_employee_social_media": false,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": "https://www.instagram.com/xavierjames713/#"
       }
@@ -403,7 +407,9 @@
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
         "employee_position": "Administrator",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
