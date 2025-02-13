@@ -497,3 +497,8 @@ h1#cae-heading {
 .terms-relentless {
   padding-bottom: 10px;
 }
+
+.collection-toolbar__button-list .text-with-icon,
+.collection-toolbar__button-container button {
+  opacity: 1;
+}
