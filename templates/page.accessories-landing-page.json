@@ -184,7 +184,7 @@
       "type": "3d-gallery",
       "custom_css": [
         ".gallery-controls {bottom: -40px;}",
-        "#angle-view1 {width: 40vw;}"
+        ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}"
       ],
       "settings": {
         "title": "Look Closer",
