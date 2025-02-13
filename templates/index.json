@@ -58,36 +58,36 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_CqUpFr": {
+        "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-chemise-de-nimes"
+            "product": "samba-decon"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-la-chemise-cuadro"
-          }
-        },
-        "product_q8H3fy": {
-          "type": "product",
-          "settings": {
-            "product": "jacquemus-le-cuerda-horiz"
+            "product": "handball-spezial"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "jaquemus-le-cargo"
+            "product": "gazelle-indoor-1"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "adizero-aruku"
           }
         }
       },
       "block_order": [
-        "product_CqUpFr",
-        "product_eekMqY",
         "product_q8H3fy",
-        "product_mzGxhY"
+        "product_eekMqY",
+        "product_mzGxhY",
+        "product_CqUpFr"
       ],
       "settings": {
         "section_alignment": "left",
@@ -96,7 +96,7 @@
         "image": "shopify://shop_images/Untitled-1_f144aa5d-6d05-4cf6-b125-947449204141.jpg",
         "image_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
         "image_cta": "See all",
-        "image_cta_url": "shopify://collections/jacquemus"
+        "image_cta_url": "shopify://collections/a-ma-maniere"
       }
     },
     "before-after": {
@@ -149,7 +149,7 @@
           "settings": {
             "collection": "a-ma-maniere",
             "products_count": 9,
-            "title": "A MA MANIÉRE",
+            "title": "Featured Collections",
             "link_url": "",
             "link_text": "View all"
           }
@@ -177,7 +177,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Frame_51.png",
+            "image": "shopify://shop_images/cozy2.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -195,7 +195,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Frame_52.png",
+            "image": "shopify://shop_images/cozy1.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -297,8 +297,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "EXPLORE",
-            "url": "shopify://collections",
+            "text": "CATALOG",
+            "url": "",
             "background": "",
             "text_color": ""
           }
@@ -323,6 +323,72 @@
         "remove_vertical_spacing": false,
         "remove_top_padding": false
       }
+    },
+    "text_with_icons_nKDVet": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_hntM9x": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon": "shopify://shop_images/carbon_delivery.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "Delivery",
+            "content": "<p>Enjoy seamless and reliable shipping that ensures your order arrives as expected.</p>"
+          }
+        },
+        "item_pg7A3q": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon": "shopify://shop_images/streamline_return-2.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "RETURNS & EXCHANGES",
+            "content": "<p> Ensures your experience remains as elevated as the products you select.</p>"
+          }
+        },
+        "item_7Lkajk": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon": "shopify://shop_images/ph_chat.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "CLIENT SERVICE",
+            "content": "<p>From inquiries to solutions, our team is here to provide exclusive support tailored to your needs.</p>"
+          }
+        },
+        "item_DNN83m": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon": "shopify://shop_images/fluent_payment-20-regular_f14c8aba-e8f7-400b-b272-34b82d0983dc.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "AFFIRM",
+            "content": "<p>Flexible payment solutions designed to make owning the extraordinary easier than ever.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_hntM9x",
+        "item_pg7A3q",
+        "item_7Lkajk",
+        "item_DNN83m"
+      ],
+      "custom_css": [
+        ".h6 {font-family: \"DINPro\";}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "separate_section_with_border": true,
+        "stack_on_mobile": true,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
@@ -333,6 +399,7 @@
     "media_grid_DzxzqH",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
-    "image_with_text_Fx7Aqn"
+    "image_with_text_Fx7Aqn",
+    "text_with_icons_nKDVet"
   ]
 }
