@@ -134,6 +134,10 @@
     },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
+      "custom_css": [
+        ".angle-view {width: 40% !important;}",
+        ".gallery-controls{position: relative;}"
+      ],
       "settings": {
         "title": "Look Closer",
         "start_index": "881",
