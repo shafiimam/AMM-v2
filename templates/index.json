@@ -378,6 +378,7 @@
         "item_7Lkajk",
         "item_DNN83m"
       ],
+      "disabled": true,
       "custom_css": [
         ".h6 {font-family: \"DINPro\";}"
       ],
