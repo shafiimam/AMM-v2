@@ -24,7 +24,7 @@
       ],
       "settings": {
         "title": "{{ page.title }}",
-        "description": "A Ma Maniére is a premier destination for luxury streetwear, showcasing high-end fashion, exclusive sneaker drops, and designer collaborations available both online and in-store.",
+        "description": "At A Ma Maniére, we are committed to making our website and services accessible to everyone. We continuously work to improve accessibility to ensure an inclusive experience for individuals with disabilities. While we strive to make all pages and content fully accessible, this is a work in progress. If you encounter any accessibility issues or need assistance navigating our site, please contact us at info@a-ma-maniere.com, and we will work promptly to address your concerns.",
         "circular_text": "Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll",
         "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png"
       }
