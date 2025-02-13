@@ -25,7 +25,7 @@
         <h1 class="h1 text-center">
           {{ section.settings.title }}
         </h1>
-        <div class="gap-7 flex-md-wrap employee-collection-container" >
+        <div class="gap-7 flex-md-wrap employee-collection-container">
           <div class="employee-section">
             <div class="employee-info">
               <picture>
@@ -47,17 +47,22 @@
                 <p class="text-base employee-position">
                   {{ section.settings.employee_position }}
                 </p>
-                <div class="h-stack gap-6">
-                  <a href="{{ section.settings.employee_twitter }}" class="text-base">
-                    {% render 'icons', icon_type: 'x' %}
-                  </a>
-                  <a href="{{ section.settings.employee_linkedin }}" class="text-base">
-                    {% render 'icons', icon_type: 'linkedin' %}
-                  </a>
-                  <a href="{{ section.settings.employee_instagram }}" class="text-base">
-                    {% render 'icons', icon_type: 'instagram' %}
-                  </a>
-                </div>
+                {% if section.settings.enable_employee_social_media == true %}
+                  <div class="h-stack gap-6">
+                    <a href="{{ section.settings.employee_twitter }}" class="text-base">
+                      {% render 'icons', icon_type: 'x' %}
+                    </a>
+                    <a href="{{ section.settings.employee_linkedin }}" class="text-base">
+                      {% render 'icons', icon_type: 'linkedin' %}
+                    </a>
+                    <a href="{{ section.settings.employee_instagram }}" class="text-base">
+                      {% render 'icons', icon_type: 'instagram' %}
+                    </a>
+                    <a href="{{ section.settings.employee_tiktok }}" class="text-base">
+                      {% render 'icons', icon_type: 'tiktok' %}
+                    </a>
+                  </div>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -176,9 +181,9 @@
 {%- endif -%}
 
 <style>
-  .employee-collection-container{
+  .employee-collection-container {
     display: grid;
-    grid-template-columns:380px 1fr; 
+    grid-template-columns: 380px 1fr;
   }
   .employee-section {
     min-width: 100%;
@@ -227,8 +232,8 @@
     text-transform: uppercase;
   }
   @media screen and (max-width: 768px) {
-    .employee-collection-container{
-      grid-template-columns:1fr;
+    .employee-collection-container {
+      grid-template-columns: 1fr;
     }
     .employee-info picture,
     .employee-info picture img {
@@ -362,9 +367,20 @@
       "default": "Administrator"
     },
     {
+      "type": "checkbox",
+      "id": "enable_employee_social_media",
+      "label": "Enable employee social media",
+      "default": true
+    },
+    {
       "type": "url",
       "id": "employee_twitter",
       "label": "Employee Twitter"
+    },
+    {
+      "type": "url",
+      "id": "employee_tiktok",
+      "label": "Employee Tiktok"
     },
     {
       "type": "url",

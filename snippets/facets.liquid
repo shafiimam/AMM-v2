@@ -124,7 +124,9 @@ Supported variables
           {%- endcapture -%}
 
           {%- if filter_content != blank -%}
-            {%- render 'accordion', title: filter.label, content: filter_content, open: open_filters_by_default, show_arrow: true -%}
+            
+            {% assign label = filter.label | camelize%}
+            {%- render 'accordion', title: label | camelize, content: filter_content, open: open_filters_by_default, show_arrow: true -%}
           {%- endif -%}
         {%- endfor -%}
       {%- endif -%}
