@@ -304,7 +304,7 @@
         "collection_PQUcic": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere",
+            "collection": "benji-subah-dc-skus",
             "products_count": 15,
             "title": "My Choice:",
             "link_url": "",
@@ -327,8 +327,8 @@
         "title": "Meet Our Staff",
         "subheading": "Benji Subah is Store Manager at A Ma Maniere DC. He has been with TWG since 2021. Whether it’s curating product knowledge, fostering relationships, or setting the standard for premium service, Benji and the DC team remain focused on what makes A Ma Maniere DC a destination for sneaker and fashion enthusiasts alike.”",
         "employee_name": "Benji Subah",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
+        "employee_image": "shopify://shop_images/benji.jpg",
+        "employee_position": "Store manager",
         "employee_twitter": "",
         "employee_linkedin": "",
         "employee_instagram": ""
