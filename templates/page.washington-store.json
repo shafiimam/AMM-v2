@@ -329,7 +329,9 @@
         "employee_name": "Benji Subah",
         "employee_image": "shopify://shop_images/benji.jpg",
         "employee_position": "Store manager",
+        "enable_employee_social_media": false,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -365,7 +367,9 @@
         "employee_name": "Mike Diep",
         "employee_image": "shopify://shop_images/mike.jpg",
         "employee_position": "Assistant Store Manager",
+        "enable_employee_social_media": false,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
@@ -402,7 +406,9 @@
         "employee_name": "Alisa Hester",
         "employee_image": "shopify://shop_images/employee-sample-image.png",
         "employee_position": "Administrator",
+        "enable_employee_social_media": true,
         "employee_twitter": "",
+        "employee_tiktok": "",
         "employee_linkedin": "",
         "employee_instagram": ""
       }
