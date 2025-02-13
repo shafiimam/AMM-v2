@@ -351,6 +351,7 @@
       "block_order": [
         "collection_8nw6hE"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
