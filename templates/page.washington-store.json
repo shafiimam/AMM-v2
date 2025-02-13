@@ -253,6 +253,7 @@
         "heading_McaCUH",
         "richtext_EUAmG9"
       ],
+      "disabled": true,
       "custom_css": [
         "img {width: 100%;}"
       ],
