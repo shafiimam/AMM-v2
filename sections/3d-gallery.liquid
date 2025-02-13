@@ -3,7 +3,7 @@
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
-<div class="three-d-gallery-container">
+<div class="three-d-gallery-container container container--lg">
   <h2 class="h1 text-center">{{ section.settings.title | default: '3D Gallery' }}</h2>
   <div class="gallery-content-container">
     <div class="three-d-gallery">
@@ -86,7 +86,6 @@
     width: 100%;
   }
   .three-d-gallery-container {
-    max-width: 1600px;
     margin: 0 auto;
   }
   .three-d-gallery-container .title {
@@ -118,7 +117,7 @@
     right: 20px;
     top: 55%;
   }
-  @media (max-width: 768px) {
+  @media and (max-width: 768px) {
     .angle-view {
       max-width: 90dvw;
       margin: 20px auto;
