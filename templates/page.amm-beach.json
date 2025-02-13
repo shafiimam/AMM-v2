@@ -21,7 +21,7 @@
     "beach_header_696FFB": {
       "type": "beach-header",
       "settings": {
-        "title": "AMM BEACH",
+        "title": "A Ma Maniére Beach",
         "image": "shopify://shop_images/image_54_fe64d72d-7de6-4778-ac8a-0873451ae676.png",
         "horizontal_position": 41,
         "vertical_position": 18
@@ -156,6 +156,13 @@
     "image_with_text_mCYw4g": {
       "type": "image-with-text",
       "blocks": {
+        "richtext_LpBNPX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Ma Maniére Beach adorns the shores of Folly Beach, SC, a luxurious seaside haven extending our A Ma Maniére Living experiential concept, first introduced in 2018 at A Ma Maniére DC.</p>",
+            "text_color": "#1c1c1c"
+          }
+        },
         "richtext_Yc4nft": {
           "type": "richtext",
           "settings": {
@@ -186,6 +193,7 @@
         }
       },
       "block_order": [
+        "richtext_LpBNPX",
         "richtext_Yc4nft",
         "richtext_dyicj8",
         "richtext_Q3Fa7n",
@@ -198,30 +206,38 @@
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "lg",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
       }
     },
     "image_with_text_DCdVWx": {
       "type": "image-with-text",
       "blocks": {
-        "heading_x83qWC": {
-          "type": "heading",
-          "settings": {
-            "text": "Quality in every inch",
-            "heading_tag": "h1"
-          }
-        },
         "richtext_9dG8gD": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "text_color": "#8f8f8f"
+            "content": "<p><strong>A Hub for Creativity and Community</strong></p>",
+            "text_color": "#1c1c1c"
           }
         },
         "richtext_jfLmwr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "content": "<p>This space is open to all and will serve to expand our community programming, reflecting our commitment to redefining immersive consumer experiences. Through our social action platform, Hand Wash Cold, A Ma Maniére Beach will host programming, retreats, and events aimed at engaging young people locally and globally, fostering creativity, and nurturing a sense of community.</p>",
+            "text_color": "#8f8f8f"
+          }
+        },
+        "richtext_V84jGB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Expanding Horizons</strong></p>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_qHFgLb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Ma Maniére Beach joins the A Ma Maniére fleet of experiential-consumer concept, now with four locations across the nation: DC, Atlanta, Houston, and now Folly Beach. This new chapter in luxury hospitality exemplifies our unwavering commitment to reimagining possibilities.</p><p>For more information, please email <a href=\"mailto:brand@thewhitakergrp.com\"><span style=\"text-decoration:underline\"><strong>brand@thewhitakergrp.com</strong></span></a>.</p>",
             "text_color": "#8f8f8f"
           }
         },
@@ -229,17 +245,18 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Book Now",
-            "url": "",
+            "text": "Submit An Inquiry",
+            "url": "https://www.a-ma-maniere.com/pages/amm-beach-booking",
             "background": "",
             "text_color": ""
           }
         }
       },
       "block_order": [
-        "heading_x83qWC",
         "richtext_9dG8gD",
         "richtext_jfLmwr",
+        "richtext_V84jGB",
+        "richtext_qHFgLb",
         "button_drEBmM"
       ],
       "settings": {
@@ -249,7 +266,8 @@
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     },
     "perspective_slider_J4a3Uk": {

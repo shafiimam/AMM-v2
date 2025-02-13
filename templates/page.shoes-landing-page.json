@@ -25,14 +25,13 @@
           "type": "heading",
           "settings": {
             "text": "Footwear",
-            "heading_font_size": 8,
             "heading_tag": "h1"
           }
         },
         "richtext_mhLp3D": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "content": "<p>At A Ma Maniére, footwear is more than just an accessory—it’s a statement of style, culture, and craftsmanship. Our carefully curated selection of luxury sneakers, designer boots, premium sandals, and stylish slippers brings together some of the most sought-after pieces in high-end streetwear and contemporary fashion. Whether you're searching for limited-edition sneaker drops, rare collaborations, or timeless footwear essentials, our collection embodies elevated style, exclusivity, and innovation.</p><h4></h4><h4></h4>"
           }
         },
         "button_RLWyGn": {
@@ -55,13 +54,13 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/image_14.png",
-        "mobile_image": "shopify://shop_images/image_14.png",
+        "image": "shopify://shop_images/AMMAIRSHIPBLACK-1-SIDE-VIEW_8d57d164-d13d-4bc4-a0a7-61476af08bb0.png",
+        "mobile_image": "shopify://shop_images/AMMAIRSHIPBLACK-1-SIDE-VIEW_8d57d164-d13d-4bc4-a0a7-61476af08bb0.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "image_position_mobile": "bottom",
         "content_width": "lg",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "section_rounded_text_column_3Ff7F4": {
@@ -70,7 +69,7 @@
         "heading_nEnngp": {
           "type": "heading",
           "settings": {
-            "text": "Louis Vuitton Shoe",
+            "text": "424 Marathon Boot",
             "heading_tag": "h1"
           }
         },
@@ -93,10 +92,10 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image": "shopify://shop_images/black_shoes.png",
         "mobile_image": "shopify://shop_images/black_shoes.png",
-        "circular_text": "Balenciaga jordan pro balenciaga jordan pro Balenciaga",
+        "circular_text": "424 Marathon Boot 424 Marathon Boot 424 Marathon Boot",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "md",
@@ -110,9 +109,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "sneakers",
+            "collection": "new-boots",
             "products_count": 8,
-            "title": "Bestsellers",
+            "title": "Boots",
             "link_url": "",
             "link_text": ""
           }
@@ -137,9 +136,9 @@
       "type": "3d-gallery",
       "settings": {
         "title": "Look Closer",
-        "start_index": "268",
-        "end_index": "318",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC04"
+        "start_index": "881",
+        "end_index": "931",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC05"
       }
     },
     "featured_collections_Dtrtbp": {
@@ -148,7 +147,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "socks",
+            "collection": "new-sneakers",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",

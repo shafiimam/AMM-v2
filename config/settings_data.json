@@ -38,6 +38,13 @@
     "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
     "social_discord": "https://discord.com",
     "content_for_index": [],
+    "blocks": {
+      "5061257265103808445": {
+        "type": "shopify://apps/r-terms-conditions/blocks/embed-block/471882a9-9b1b-4918-8943-6c66b60c94ea",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

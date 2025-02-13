@@ -22,18 +22,21 @@
   {% assign link_title = link.title %}
   {% if link_title == 'Brands' and link.levels > 0 %}
     {% assign column_size = 4 %}
-    {% assign links_per_row = link.links.size | divided_by: column_size | ceil %}
+    {% assign link_slice = link.links | slice: 1, link.links.size %}
+    {% assign links_size = link_slice.size %}
+    {% assign links_per_row = links_size | divided_by: column_size | ceil %}
 
     <ul class="mega_menu__linklist--brands">
-      {%- for sub_link in link.links -%}
+      {%- for sub_link in link_slice -%}
         {% assign index = forloop.index0 %}
         {% assign new_column = index | modulo: links_per_row %}
 
         {% if index == 0 or new_column == 0 %}
           <li class="v-stack justify-items-start gap-2">
         {% endif %}
-
-        <a href="{{ sub_link.url }}" class="h6">{{ sub_link.title }}</a>
+        {% unless sub_link.title == 'All Brands' %}
+          <a href="{{ sub_link.url }}" class="h6">{{ sub_link.title }}</a>
+        {% endunless %}
 
         {% assign close_column = index | modulo: links_per_row %}
         {% assign close_column_value = links_per_row | minus: 1 %}
