@@ -107,6 +107,7 @@
           "settings": {
             "color_scheme": "scheme-1",
             "image": "shopify://shop_images/MARATHONBOOTLEATHERBLK-1_6b7991d1-da7e-4a81-b5eb-5f8b46fa9af8.jpg",
+            "mobile_image": "shopify://shop_images/MARATHONBOOTLEATHERBLK-1_c728b111-bf2e-43f4-bbc1-c2c9fc9f8fdf.jpg",
             "text": "Black",
             "link_text": "Shop Now",
             "link_url": "shopify://products/424-marathon-boot-1",
@@ -118,6 +119,7 @@
           "settings": {
             "color_scheme": "scheme-1",
             "image": "shopify://shop_images/MARATHONBOOTGRN-1_89f543b1-92fb-4f01-86b0-0f7da99a91a5.jpg",
+            "mobile_image": "shopify://shop_images/MARATHONBOOTGRN-1_da90c845-45a7-441a-946f-d4f991e3a743.jpg",
             "text": "Green",
             "link_text": "Shop Now",
             "link_url": "shopify://products/424-marathon-boot",
