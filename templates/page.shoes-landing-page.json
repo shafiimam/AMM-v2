@@ -50,7 +50,9 @@
         "richtext_mhLp3D",
         "button_RLWyGn"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "img{margin: 20px;}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -136,7 +138,7 @@
       "type": "3d-gallery",
       "custom_css": [
         ".angle-view {width: 40% !important;}",
-        ".gallery-controls{position: relative;}"
+        ".gallery-controls {position: relative;}"
       ],
       "settings": {
         "title": "Look Closer",
