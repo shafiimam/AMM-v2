@@ -134,7 +134,7 @@
             "show_below_gallery": true,
             "icon": "none",
             "title": "Shipping & Returns",
-            "content": "{{ product.description }}",
+            "content": "<p>At A Ma Maniére, we provide secure domestic and international shipping exclusively through FedEx, ensuring reliable delivery of your luxury fashion and footwear. Please allow up to 10 business days for domestic orders and 15 business days for international shipments, factoring in approximately 2-3 days for order processing, 1-2 business days for packing and shipping, and additional transit time based on location. During periods of high order volume or holidays, shipping and processing times may be extended. Returns are accepted within 7 days of delivery for online store credit only, provided items are unworn and in original condition. All special project sales are final, and exchanges are subject to availability. Visit our <a href=\"/pages/shipping-1\" title=\"Shipping\">Shipping </a>& <a href=\"/pages/returns-exchanges\" title=\"Returns & Exchanges\">Returns</a> page for full details.</p>",
             "liquid": "",
             "page": ""
           }
