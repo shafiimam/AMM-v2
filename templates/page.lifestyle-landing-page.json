@@ -144,8 +144,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC09579_DC_copy.jpg",
-        "mobile_image": "shopify://shop_images/DSC09579_DC_copy.jpg",
+        "image": "shopify://shop_images/resize.jpg",
+        "mobile_image": "shopify://shop_images/resize.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
