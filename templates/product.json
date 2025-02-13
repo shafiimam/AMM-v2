@@ -18,6 +18,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "vendor_wCEzJy": {
+          "type": "vendor",
+          "settings": {}
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -158,6 +162,7 @@
         }
       },
       "block_order": [
+        "vendor_wCEzJy",
         "title",
         "sku_pxTLtL",
         "price",
