@@ -304,7 +304,7 @@
         "collection_PQUcic": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere",
+            "collection": "jason-romero-atl-skus",
             "products_count": 15,
             "title": "My Choice:",
             "link_url": "",
@@ -325,10 +325,10 @@
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
         "title": "Meet Our Staff",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "Alisa Hester",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
+        "subheading": "Jason started his journey with A Ma Maniére in July 2023. He has a background in brand consulting, creative directing, and personal styling. Details paint the bigger picture - \"I like garments that focus less on heavy branding and more on the fabric and silhouette (blank canvas) and pair them with accessories like rings, bracelets, and wallet chains (paint). I’d describe my personal style as “if you know you know.” ",
+        "employee_name": "Jason Romero",
+        "employee_image": "shopify://shop_images/000076520030.jpg",
+        "employee_position": "Store Manager",
         "employee_twitter": "",
         "employee_linkedin": "",
         "employee_instagram": ""
@@ -387,6 +387,7 @@
       "block_order": [
         "collection_3ieYHm"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
