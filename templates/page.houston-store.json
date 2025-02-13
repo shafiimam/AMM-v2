@@ -324,10 +324,10 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
-        "title": "MEET OUR STAFF",
+        "title": "",
         "subheading": "Born and raised in Houston, Texas, Damian has been a dedicated member of the Whitaker Grp. since 2017. His current favorite brands are Balenciaga and Saint Michael. Damian is eager to share his passion for luxury fashion and provide you with an unparalleled shopping experience.",
         "employee_name": "Damian Eustate",
-        "employee_image": "shopify://shop_images/damian.jpg",
+        "employee_image": "shopify://shop_images/IMG_7209.jpg",
         "employee_position": "Store Manager",
         "employee_twitter": "",
         "employee_linkedin": "",
@@ -360,7 +360,7 @@
         "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
-        "title": "",
+        "title": "Meet Our Staff",
         "subheading": "Xavier James has been with The Whitaker Grp for nearly six years, cultivating a minimalist and strategic approach to fashion that emphasizes carefully chosen pieces and materials in line with contemporary trends. He is particularly drawn to current styles such as elevated dad looks, oversized tailored garments, bold color layering, and originality, all of which are shaping the future of fashion. Xavier welcomes anyone seeking style advice or recommendations to reach out to him @XavierJames713.",
         "employee_name": "Xavier James",
         "employee_image": "shopify://shop_images/IMG_0079.jpg",
@@ -415,21 +415,21 @@
           "type": "location",
           "settings": {
             "title": "Atlanta",
-            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA<br/>Ph: 678-973-2116</p>"
           }
         },
         "location_kJYYEU": {
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA<br/>Ph: 713-640-5945</p>"
           }
         },
         "location_rE4pGP": {
           "type": "location",
           "settings": {
-            "title": "Washington",
-            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
+            "title": "Washington, D.C.",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA<br/>Ph: 202-290-3160</p>"
           }
         }
       },
