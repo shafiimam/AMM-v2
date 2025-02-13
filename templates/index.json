@@ -58,36 +58,36 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "jacquemus-le-chemise-de-nimes"
+          }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "jacquemus-la-chemise-cuadro"
+          }
+        },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
             "product": "jacquemus-le-cuerda-horiz"
           }
         },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "jacquemus-le-hoodie-torneo"
-          }
-        },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "gazelle-indoor-1"
-          }
-        },
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "adizero-aruku"
+            "product": "jaquemus-le-cargo"
           }
         }
       },
       "block_order": [
-        "product_q8H3fy",
+        "product_CqUpFr",
         "product_eekMqY",
-        "product_mzGxhY",
-        "product_CqUpFr"
+        "product_q8H3fy",
+        "product_mzGxhY"
       ],
       "settings": {
         "section_alignment": "left",
