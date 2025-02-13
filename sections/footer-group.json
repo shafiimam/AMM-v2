@@ -70,7 +70,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "stack_on_mobile": false,
         "icon_color": "",
         "text_color": "",
