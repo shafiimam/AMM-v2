@@ -51,7 +51,7 @@
         "button_RLWyGn"
       ],
       "custom_css": [
-        "img{margin: 20px;}"
+        "img {margin: 20px;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -138,6 +138,7 @@
       "type": "3d-gallery",
       "custom_css": [
         ".angle-view {width: 40% !important;}",
+        "@media and (max-width: 768px) {.angle-view {width: 60%; }}",
         ".gallery-controls {position: relative;}"
       ],
       "settings": {
