@@ -323,72 +323,6 @@
         "remove_vertical_spacing": false,
         "remove_top_padding": false
       }
-    },
-    "text_with_icons_nKDVet": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_hntM9x": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-delivery-truck",
-            "custom_icon": "shopify://shop_images/carbon_delivery.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "Delivery",
-            "content": "<p>Enjoy seamless and reliable shipping that ensures your order arrives as expected.</p>"
-          }
-        },
-        "item_pg7A3q": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-delivery-truck",
-            "custom_icon": "shopify://shop_images/streamline_return-2.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "RETURNS & EXCHANGES",
-            "content": "<p> Ensures your experience remains as elevated as the products you select.</p>"
-          }
-        },
-        "item_7Lkajk": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-delivery-truck",
-            "custom_icon": "shopify://shop_images/ph_chat.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "CLIENT SERVICE",
-            "content": "<p>From inquiries to solutions, our team is here to provide exclusive support tailored to your needs.</p>"
-          }
-        },
-        "item_DNN83m": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-delivery-truck",
-            "custom_icon": "shopify://shop_images/fluent_payment-20-regular_f14c8aba-e8f7-400b-b272-34b82d0983dc.svg",
-            "icon_width": 32,
-            "mobile_icon_width": 32,
-            "title": "AFFIRM",
-            "content": "<p>Flexible payment solutions designed to make owning the extraordinary easier than ever.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_hntM9x",
-        "item_pg7A3q",
-        "item_7Lkajk",
-        "item_DNN83m"
-      ],
-      "custom_css": [
-        ".h6 {font-family: \"DINPro\";}"
-      ],
-      "settings": {
-        "color_scheme": "scheme-4",
-        "separate_section_with_border": true,
-        "stack_on_mobile": true,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
-      }
     }
   },
   "order": [
@@ -399,7 +333,6 @@
     "media_grid_DzxzqH",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
-    "image_with_text_Fx7Aqn",
-    "text_with_icons_nKDVet"
+    "image_with_text_Fx7Aqn"
   ]
 }
