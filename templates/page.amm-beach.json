@@ -22,9 +22,7 @@
       "type": "beach-header",
       "settings": {
         "title": "A Ma Maniére Beach",
-        "image": "shopify://shop_images/image_54_fe64d72d-7de6-4778-ac8a-0873451ae676.png",
-        "horizontal_position": 60,
-        "vertical_position": 18
+        "image": "shopify://shop_images/image_54_fe64d72d-7de6-4778-ac8a-0873451ae676.png"
       }
     },
     "slideshow_CPmdyh": {
@@ -305,7 +303,7 @@
         "slide_item_qq46ec"
       ],
       "settings": {
-        "title": "AMM Beach gallery",
+        "title": "Explore The Beach",
         "auto_play": true
       }
     },
