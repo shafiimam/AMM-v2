@@ -275,7 +275,7 @@
         "collection_7ckJHb": {
           "type": "collection",
           "settings": {
-            "collection": "greg-lauren",
+            "collection": "new-arrivals-1",
             "products_count": 10,
             "title": "New Arrivals",
             "link_url": "",
@@ -387,6 +387,7 @@
       "block_order": [
         "collection_3ieYHm"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
