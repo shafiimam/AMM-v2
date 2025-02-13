@@ -415,21 +415,21 @@
           "type": "location",
           "settings": {
             "title": "Atlanta",
-            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA</p>"
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA<br/>Ph: 678-973-2116</p>"
           }
         },
         "location_kJYYEU": {
           "type": "location",
           "settings": {
             "title": "Houston",
-            "description": "<p>3300 Kirby Dr #6a, Houston, TX 77098, USA</p>"
+            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA<br/>Ph: 713-640-5945</p>"
           }
         },
         "location_rE4pGP": {
           "type": "location",
           "settings": {
-            "title": "Washington",
-            "description": "<p>1214 H St NE, Washington, DC 20002, USA</p>"
+            "title": "Washington D.C.",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA<br/>Ph: 202-290-3160</p>"
           }
         }
       },
