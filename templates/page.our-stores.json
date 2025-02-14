@@ -78,7 +78,7 @@
           "type": "list_item",
           "settings": {
             "item_text": "3300 Kirby Dr #6a, Houston, TX 77098, USA",
-            "button_link": "shopify://pages/amm-houston",
+            "button_link": "shopify://pages/a-ma-maniere-houston-store",
             "button_text": "VISIT THIS STORE",
             "hover_image": "shopify://shop_images/AMM-Houston-Store-Interior.jpg"
           }
