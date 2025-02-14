@@ -138,7 +138,7 @@
         "title": "Meta Wayfarer",
         "content": "<p>Choose your Color</p>",
         "cursor_direction": "horizontal",
-        "cursor_initial_position": 51,
+        "cursor_initial_position": 50,
         "cursor_background": "#efefef",
         "cursor_arrows_color": "#000000"
       }
