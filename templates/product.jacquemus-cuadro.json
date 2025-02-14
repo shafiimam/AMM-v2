@@ -1,0 +1,429 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breeadcrumbs_zf6QQE": {
+      "type": "breeadcrumbs",
+      "settings": {
+        "gutter_below": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor_wCEzJy": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "sku_pxTLtL": {
+          "type": "sku",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "true_fit_widget_tpCKyE": {
+          "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "feature_with_icon_TyMeDX": {
+          "type": "feature_with_icon",
+          "disabled": true,
+          "settings": {
+            "text": "Hand Made",
+            "link": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/mdi_hand-clap.png",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#8f8f8f",
+            "border_color": ""
+          }
+        },
+        "feature_with_icon_zCCbKy": {
+          "type": "feature_with_icon",
+          "disabled": true,
+          "settings": {
+            "text": "Discount",
+            "link": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/ic_outline-discount.png",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#8f8f8f",
+            "border_color": ""
+          }
+        },
+        "feature_with_icon_jny9WQ": {
+          "type": "feature_with_icon",
+          "disabled": true,
+          "settings": {
+            "text": "Best Seller",
+            "link": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/material-symbols_star-outline.png",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#8f8f8f",
+            "border_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "accordion_XRHUfQ": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Product Details",
+            "content": "{{ product.description }}",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_8jqzLY": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Shipping & Returns",
+            "content": "<p>Please allow 5 to 10 business days for domestic orders and 7 to 15 business days for international shipments. This timeframe includes 2-3 days for order processing, 1-2 business days for packing and shipping, and additional transit time based on your location.</p><p>During peak seasons or holidays, processing and shipping times may be extended.</p><p>We accept returns within 7 days of delivery for online store credit only, provided that items are unworn, in original condition, and include all tags and packaging.</p><p>Please note: <strong>All special project sales are final</strong>, and exchanges are subject to availability.</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "You May Also Like",
+            "products_count": 4,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        },
+        "more_information_mebE7W": {
+          "type": "more_information",
+          "disabled": true,
+          "settings": {
+            "text": "More information"
+          }
+        }
+      },
+      "block_order": [
+        "vendor_wCEzJy",
+        "title",
+        "sku_pxTLtL",
+        "price",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "true_fit_widget_tpCKyE",
+        "buy_buttons",
+        "feature_with_icon_TyMeDX",
+        "feature_with_icon_zCCbKy",
+        "feature_with_icon_jny9WQ",
+        "description",
+        "accordion_XRHUfQ",
+        "accordion_8jqzLY",
+        "complementary_products",
+        "more_information_mebE7W"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "container_size": "lg",
+        "product_info_size": 40,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 20,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "scrolling_content_t7zNyY": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_MG8hN7": {
+          "type": "text",
+          "settings": {
+            "text": "EVERY DETAIL MATTERS"
+          }
+        },
+        "image_DypLU6": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.featured_image }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_MG8hN7",
+        "image_DypLU6"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "body",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 40,
+        "section_vertical_spacing_desktop": 40,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 60,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_rLpTcJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xC4Ffm": {
+          "type": "heading",
+          "settings": {
+            "text": "Quality in every inch",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_MhbeEc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#8f8f8f"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xC4Ffm",
+        "richtext_MhbeEc"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".h2 {font-size: 36px; font-weight: 600;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Group_1.png",
+        "mobile_image": "shopify://shop_images/Group_1.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "subheading": "",
+        "title": "You may also like",
+        "content": ""
+      }
+    },
+    "media_grid_PbjVDy": {
+      "type": "media-grid",
+      "blocks": {
+        "image_fdEKGr": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cVc6Ky": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kGAEya": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_fdEKGr",
+        "image_cVc6Ky",
+        "image_kGAEya"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Media grid",
+        "content": ""
+      }
+    },
+    "faq_GQwnbW": {
+      "type": "faq",
+      "blocks": {
+        "category_7T9MxT": {
+          "type": "category",
+          "settings": {
+            "title": "Orders",
+            "icon": "picto-info",
+            "icon_width": 16
+          }
+        },
+        "question_pQ8yXb": {
+          "type": "question",
+          "settings": {
+            "question": "What are the shipping costs?",
+            "answer": "<p>Domestic shipping is $16, and international shipping rates vary based on location and order value.</p><p></p><p></p>"
+          }
+        },
+        "question_GB7Fp7": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to receive my order?",
+            "answer": "<p>Shipping times depend on your location and chosen shipping method. Domestic orders typically arrive within 5 to 10 business days, while international shipments may take 7 to 15 business days. This includes 2-3 days for order processing, 1-2 business days for packing and shipping, and additional transit time based on your destination.</p><p></p>"
+          }
+        },
+        "question_NacQBq": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer international shipping?",
+            "answer": "<p>We offer international shipping to select countries. Rates and delivery times vary by destination.</p><p></p>"
+          }
+        },
+        "question_dWdFHn": {
+          "type": "question",
+          "settings": {
+            "question": "How can I track my order?",
+            "answer": "<p>Once your order ships, you will receive a tracking number via email. You can use this to track your package in real time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_7T9MxT",
+        "question_pQ8yXb",
+        "question_GB7Fp7",
+        "question_NacQBq",
+        "question_dWdFHn"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "breeadcrumbs_zf6QQE",
+    "main",
+    "scrolling_content_t7zNyY",
+    "image_with_text_rLpTcJ",
+    "related-products",
+    "media_grid_PbjVDy",
+    "faq_GQwnbW"
+  ]
+}
