@@ -81,11 +81,22 @@
             "content": "<p>Elevate your everyday style with luxury accessories from A Ma Maniére, featuring a curated selection of designer bags, belts, hats, jewelry, and more. Discover premium scarves, wallets, sunglasses, socks, and small goods, crafted with high-quality materials and designed for both function and fashion. Our collection also includes statement masks, home essentials, and exclusive collaborations, blending streetwear aesthetics with refined luxury. Shop the latest high-end accessories online and in-store at A Ma Maniére.</p>",
             "text_color": "#8f8f8f"
           }
+        },
+        "button_47dEVM": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop Now",
+            "url": "shopify://products/balenciaga-cash-card-holder-6",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_9GCHUT",
-        "richtext_aGXpJA"
+        "richtext_aGXpJA",
+        "button_47dEVM"
       ],
       "custom_css": [
         ".h1 {font-size: 50px !important;}"
