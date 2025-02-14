@@ -24,11 +24,12 @@
       ],
       "custom_css": [
         ".g-container .header {display: none;}",
-        ".shopify-app-block {min-height: 600px;}"
+        ".shopify-app-block {min-height: 600px;}",
+        ".globo-form-app {z-index: 0;}"
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
