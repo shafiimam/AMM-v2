@@ -1,0 +1,21 @@
+{
+   "name": "AMM PWA",
+   "short_name": "AMM-PWA",
+   "start_url": "/",
+   "display": "standalone",
+   "background_color": "#ffffff",
+   "theme_color": "#000000",
+   "icons": [
+     {
+       "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/amm-logo-hd.png?v=1733391764",
+       "type": "image/png",
+       "sizes": "242x54"
+     },
+     {
+       "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/AM10_Logo_GRAY_700_px_height_1_f4605202-b17f-4c65-b30d-7557d9e710f7.svg?v=1722106783",
+       "type": "image/png",
+       "sizes": "512x512"
+     }
+   ]
+ }
+ 

@@ -9,6 +9,60 @@
  */
 {
   "sections": {
+<<<<<<< HEAD
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "full",
+        "hide_header": false,
+        "hide_page_content": false
+      }
+    },
+    "content_page_section_TWazeA": {
+      "type": "content-page-section",
+      "blocks": {
+        "heading_d6MPph": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let’s talk"
+          }
+        },
+        "paragraph_RFycJ4": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big. Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big. Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big.</p>"
+          }
+        },
+        "paragraph_yKcLiB": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big. Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big. Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big.</p>"
+          }
+        },
+        "paragraph_X4PecY": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big. Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big. Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d6MPph",
+        "paragraph_RFycJ4",
+        "paragraph_yKcLiB",
+        "paragraph_X4PecY"
+      ],
+      "settings": {
+        "title": "About Us",
+        "description": "Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big.",
+        "header_logo": "shopify://shop_images/Group_1_3ae475ad-aee0-4db2-a5ff-c48e1a1ce7ad.png",
+        "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png",
+        "section_banner_desktop": "shopify://shop_images/DESK8.jpg",
+        "section_banner_mobile": "shopify://shop_images/NEWERA.jpg"
+=======
     "content_page_section_TWazeA": {
       "type": "content-page-section",
       "settings": {
@@ -26,11 +80,17 @@
         "color_scheme": "",
         "show_title": false,
         "page_width": "full"
+>>>>>>> 71b384941d77a9e98a530ad0c18dd468271cd116
       }
     }
   },
   "order": [
+<<<<<<< HEAD
+    "main",
+    "content_page_section_TWazeA"
+=======
     "content_page_section_TWazeA",
     "main"
+>>>>>>> 71b384941d77a9e98a530ad0c18dd468271cd116
   ]
 }
