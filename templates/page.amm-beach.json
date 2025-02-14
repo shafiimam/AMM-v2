@@ -277,6 +277,12 @@
             "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg"
           }
         },
+        "slide_item_AmJUB4": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8619-Edit.jpg"
+          }
+        },
         "slide_item_jTCaix": {
           "type": "slide_item",
           "settings": {
@@ -294,13 +300,28 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg"
           }
+        },
+        "slide_item_8MAYnQ": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8448-Edit.jpg"
+          }
+        },
+        "slide_item_eUyziP": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8921-HDR.jpg"
+          }
         }
       },
       "block_order": [
         "slide_item_8zL67V",
+        "slide_item_AmJUB4",
         "slide_item_jTCaix",
         "slide_item_Jf4GVE",
-        "slide_item_qq46ec"
+        "slide_item_qq46ec",
+        "slide_item_8MAYnQ",
+        "slide_item_eUyziP"
       ],
       "settings": {
         "title": "Gallery",
