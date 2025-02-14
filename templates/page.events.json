@@ -96,6 +96,7 @@
       "blocks": {
         "event_z7T663": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
             "title": "Future Forward",
@@ -214,12 +215,50 @@
         "event_HiPxpm"
       ],
       "settings": {}
+    },
+    "rich_text_bRWAim": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_WdCJKb": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_qFqCqb": {
+          "type": "heading",
+          "settings": {
+            "text": "EVENTS",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_yPRACt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>There are currently no events scheduled. Stay tuned for upcoming announcements!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_WdCJKb",
+        "heading_qFqCqb",
+        "richtext_yPRACt"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
     "main",
     "events_header_banner_AaNBMN",
     "multi_column_VJNMnL",
-    "events_section_ajk3kJ"
+    "events_section_ajk3kJ",
+    "rich_text_bRWAim"
   ]
 }

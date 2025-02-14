@@ -253,6 +253,7 @@
         "heading_xC4Ffm",
         "richtext_MhbeEc"
       ],
+      "disabled": true,
       "custom_css": [
         ".h2 {font-size: 36px; font-weight: 600;}"
       ],
@@ -286,6 +287,79 @@
         "content": ""
       }
     },
+    "media_grid_PbjVDy": {
+      "type": "media-grid",
+      "blocks": {
+        "image_fdEKGr": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cVc6Ky": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kGAEya": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_fdEKGr",
+        "image_cVc6Ky",
+        "image_kGAEya"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Media grid",
+        "content": ""
+      }
+    },
     "faq_GQwnbW": {
       "type": "faq",
       "blocks": {
@@ -300,7 +374,7 @@
         "question_GB7Fp7": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
+            "question": "How long will it take to receive my order?",
             "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
           }
         },
@@ -325,6 +399,7 @@
         "question_NacQBq",
         "question_dWdFHn"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -341,6 +416,7 @@
     "scrolling_content_t7zNyY",
     "image_with_text_rLpTcJ",
     "related-products",
+    "media_grid_PbjVDy",
     "faq_GQwnbW"
   ]
 }

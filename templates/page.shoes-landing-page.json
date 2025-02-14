@@ -95,8 +95,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/black_shoes.png",
-        "mobile_image": "shopify://shop_images/black_shoes.png",
+        "image": "shopify://shop_images/424_Marathon_Boot_Black.png",
+        "mobile_image": "shopify://shop_images/424_Marathon_Boot_Black.png",
         "circular_text": "marathon boot marathon boot marathon boot",
         "reveal_on_scroll": true,
         "image_position": "start",
@@ -137,7 +137,7 @@
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "custom_css": [
-        ".angle-view {width: 40% !important; @media (max-width: 768px){width: 60% !important; }}",
+        ".angle-view {width: 40% !important; @media (max-width: 768px) {width: 60% !important; }}",
         ".gallery-controls {position: relative;}"
       ],
       "settings": {
