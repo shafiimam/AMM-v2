@@ -150,6 +150,7 @@
         },
         "image_block_q6mYbV": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "OFFERS PARKING",
             "image": "shopify://shop_images/Frame_1000002060.png",
