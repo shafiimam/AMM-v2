@@ -182,14 +182,16 @@
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "custom_css": [
-        ".gallery-controls {bottom: -40px;}",
+        ".gallery-controls {bottom: 60px;}",
         ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}"
       ],
       "settings": {
         "title": "Look Closer",
         "start_index": "1",
         "end_index": "50",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB031"
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB031",
+        "button_label": "Shop Now",
+        "button_link": ""
       }
     },
     "featured_collections_Dtrtbp": {
