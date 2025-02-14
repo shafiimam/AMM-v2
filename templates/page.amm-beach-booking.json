@@ -22,6 +22,7 @@
       "block_order": [
         "paragraph_PfMi7K"
       ],
+      "disabled": true,
       "settings": {
         "title": "{{ page.title }}",
         "description": "",
