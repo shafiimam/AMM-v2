@@ -253,6 +253,7 @@
         "heading_xC4Ffm",
         "richtext_MhbeEc"
       ],
+      "disabled": true,
       "custom_css": [
         ".h2 {font-size: 36px; font-weight: 600;}"
       ],
