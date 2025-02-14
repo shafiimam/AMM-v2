@@ -55,7 +55,7 @@
         "image_HPtVF8"
       ],
       "custom_css": [
-        ".h1 {font-size: 9vw;}"
+        ".h1 {font-size: 50px;}"
       ],
       "settings": {
         "color_scheme": "",
