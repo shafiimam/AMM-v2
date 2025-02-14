@@ -25,7 +25,7 @@
         "content_width": "lg",
         "show_date": true,
         "show_category": true,
-        "show_author": true,
+        "show_author": false,
         "show_share_buttons": true,
         "show_sticky_bar": true,
         "toolbar_color_scheme": ""
