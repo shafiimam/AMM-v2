@@ -34,7 +34,7 @@
         "richtext_KWCWDr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>MON - SAT: 12:00 PM - 6:30 PM CST </p><p>SUN: CLOSED</p>"
+            "content": "<p>MON - SAT: 12:00 PM - 7:00 PM CST </p><p>SUN: 12:00 PM - 5:00 PM CST</p>"
           }
         },
         "heading_WbHVK6": {
