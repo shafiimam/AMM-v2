@@ -37,10 +37,31 @@
         "show_title": true,
         "page_width": "lg"
       }
+    },
+    "1739514477f3af7f76": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_phjJqB": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTI0NDEz\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_phjJqB"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
     "content_page_section_GifitE",
-    "main"
+    "main",
+    "1739514477f3af7f76"
   ]
 }
