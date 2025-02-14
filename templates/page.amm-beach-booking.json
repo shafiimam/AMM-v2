@@ -53,7 +53,8 @@
         "powerful_form_builder_app_block_phjJqB"
       ],
       "custom_css": [
-        ".g-container .header {display: none;}"
+        ".g-container .header {display: none;}",
+        "div#shopify-block-AQUlvREtRdFV0R242Z__powerful_form_builder_app_block_phjJqB {min-height: 600px;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -64,8 +65,8 @@
     }
   },
   "order": [
+    "1739514477f3af7f76",
     "content_page_section_GifitE",
-    "main",
-    "1739514477f3af7f76"
+    "main"
   ]
 }
