@@ -367,8 +367,15 @@
           "type": "category",
           "settings": {
             "title": "Orders",
-            "icon": "none",
+            "icon": "picto-info",
             "icon_width": 16
+          }
+        },
+        "question_pQ8yXb": {
+          "type": "question",
+          "settings": {
+            "question": "What are the shipping costs?",
+            "answer": "<p>Domestic shipping is $16, and international shipping rates vary based on location and order value.</p><p></p><p></p>"
           }
         },
         "question_GB7Fp7": {
@@ -378,13 +385,6 @@
             "answer": "<p>Shipping times depend on your location and chosen shipping method. Domestic orders typically arrive within 5 to 10 business days, while international shipments may take 7 to 15 business days. This includes 2-3 days for order processing, 1-2 business days for packing and shipping, and additional transit time based on your destination.</p><p></p>"
           }
         },
-        "question_dWdFHn": {
-          "type": "question",
-          "settings": {
-            "question": "How can I track my order?",
-            "answer": "<p>Once your order ships, you will receive a tracking number via email. You can use this to track your package in real time.</p>"
-          }
-        },
         "question_NacQBq": {
           "type": "question",
           "settings": {
@@ -392,22 +392,21 @@
             "answer": "<p>We offer international shipping to select countries. Rates and delivery times vary by destination.</p><p></p>"
           }
         },
-        "question_pQ8yXb": {
+        "question_dWdFHn": {
           "type": "question",
           "settings": {
-            "question": "What are the shipping costs?",
-            "answer": "<p>Domestic shipping is $16, and international shipping rates vary based on location and order value.</p><p></p><p></p>"
+            "question": "How can I track my order?",
+            "answer": "<p>Once your order ships, you will receive a tracking number via email. You can use this to track your package in real time.</p>"
           }
         }
       },
       "block_order": [
         "category_7T9MxT",
+        "question_pQ8yXb",
         "question_GB7Fp7",
-        "question_dWdFHn",
         "question_NacQBq",
-        "question_pQ8yXb"
+        "question_dWdFHn"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
