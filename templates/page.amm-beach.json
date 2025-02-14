@@ -346,6 +346,7 @@
         "image_with_text_jDnExU",
         "image_with_text_jTB86M"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-base {font-weight: bold;}",
         "a {margin-block-start: 1rem;}",
@@ -419,6 +420,7 @@
         "location_L7Qtwt",
         "location_wE7wCq"
       ],
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify://shop_images/beach-banner.png",
         "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
