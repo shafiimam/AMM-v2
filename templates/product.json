@@ -366,7 +366,7 @@
         "category_7T9MxT": {
           "type": "category",
           "settings": {
-            "title": "Order",
+            "title": "Orders",
             "icon": "none",
             "icon_width": 16
           }
@@ -375,29 +375,37 @@
           "type": "question",
           "settings": {
             "question": "How long will it take to receive my order?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "question_NacQBq": {
-          "type": "question",
-          "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "answer": "<p>Shipping times depend on your location and chosen shipping method. Domestic orders typically arrive within 5 to 10 business days, while international shipments may take 7 to 15 business days. This includes 2-3 days for order processing, 1-2 business days for packing and shipping, and additional transit time based on your destination.</p><p></p>"
           }
         },
         "question_dWdFHn": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "question": "How can I track my order?",
+            "answer": "<p>Once your order ships, you will receive a tracking number via email. You can use this to track your package in real time.</p>"
+          }
+        },
+        "question_NacQBq": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer international shipping?",
+            "answer": "<p>We offer international shipping to select countries. Rates and delivery times vary by destination.</p><p></p>"
+          }
+        },
+        "question_pQ8yXb": {
+          "type": "question",
+          "settings": {
+            "question": "What are the shipping costs?",
+            "answer": "<p>Domestic shipping is $16, and international shipping rates vary based on location and order value.</p><p></p><p></p>"
           }
         }
       },
       "block_order": [
         "category_7T9MxT",
         "question_GB7Fp7",
+        "question_dWdFHn",
         "question_NacQBq",
-        "question_dWdFHn"
+        "question_pQ8yXb"
       ],
       "disabled": true,
       "settings": {
