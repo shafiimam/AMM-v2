@@ -177,7 +177,11 @@
                               aria-selected="true"
                             {% endif %}
                           >
-                            <span class="reversed-link">{{ sort_option.name }}</span>
+                            {% assign sort_option_name = sort_option.name %}
+                            {% if sort_option_name == 'Best selling' %}
+                              {% assign sort_option_name = 'Bestselling' %}
+                            {% endif %}
+                            <span class="reversed-link">{{ sort_option_name }}</span>
                           </button>
                         {%- endif -%}
                       {%- endfor -%}
