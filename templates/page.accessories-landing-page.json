@@ -87,7 +87,9 @@
         "heading_9GCHUT",
         "richtext_aGXpJA"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".h1 {font-size: 50px !important;}"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
