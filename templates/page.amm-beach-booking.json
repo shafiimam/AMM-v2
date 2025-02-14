@@ -52,9 +52,12 @@
       "block_order": [
         "powerful_form_builder_app_block_phjJqB"
       ],
+      "custom_css": [
+        ".g-container .header {display: none;}"
+      ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
