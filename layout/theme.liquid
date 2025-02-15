@@ -141,7 +141,7 @@
   </body>
   <script>
     // Open (or create) an IndexedDB database
-    const dbRequest = indexedDB.open('myAssetsDB', 1);
+    const dbRequest = indexedDB.open('amm-pwa-db', 1);
 
     dbRequest.onupgradeneeded = (event) => {
       const db = event.target.result;
@@ -166,7 +166,12 @@
           '/',
           "{{ 'theme.css' | asset_url }}",
           "{{ 'custom.css' | asset_url }}",
+          "{{ 'angle.js' | asset_url }}",
           "{{ 'theme.js' | asset_url }}",
+          "{{ 'image-board-animation.aio.min.js' | asset_url }}",
+          "{{ 'DINPro-Bold.woff' | asset_url }}",
+          "{{ 'DINPro.eot' | asset_url }}",
+          "{{ 'DINPro.woff' | asset_url }}",
           "{{ 'vendor.min.js' | asset_url }}",
           "{{ 'photoswipe.min.js' | asset_url }}",
           'https://cdn.shopify.com/s/files/1/0626/9065/files/amm-logo-hd.png?v=1733391764',
@@ -192,7 +197,7 @@
       navigator.serviceWorker
         .register('{{ 'service-worker.js' | asset_url }}')
         .then((registration) => {
-          console.log('Service Worker registered with scope:', '/');
+          console.log('Service Worker registered with', registration);
         })
         .catch((error) => {
           console.error('Service Worker registration failed:', error);
