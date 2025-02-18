@@ -188,15 +188,16 @@ quick buy information in a template, that will be extracted in JS, which ensures
 </script>
 {% if product.available == false %}
   <script>
-    window.onload = function() {
+    document.addEventListener('DOMContentLoaded', function() {
       // Get the current collection's URL
       var collectionUrl = '{{ collection.url }}';
       
-      // Redirect to the collection URL
+      // Redirect to the collection URL after the page loads
       window.location.href = collectionUrl;
-    }
+    });
   </script>
 {% endif %}
+
 
 {% schema %}
 {
