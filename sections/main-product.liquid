@@ -186,6 +186,15 @@ quick buy information in a template, that will be extracted in JS, which ensures
     // Safari in private mode does not allow setting item, we silently fail
   }
 </script>
+{% if product.available == false %}
+  <script>
+    window.onload = function() {
+      var currentCategory = {{ collection.id | json }};
+      var collectionUrl = '/collections/' + currentCategory;
+      window.location.href = collectionUrl;
+    }
+  </script>
+{% endif %}
 
 {% schema %}
 {
