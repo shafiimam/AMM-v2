@@ -189,14 +189,18 @@ quick buy information in a template, that will be extracted in JS, which ensures
 {% if product.available == false %}
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // Get the current collection's URL
-      var collectionUrl = '{{ collection.url }}';
-      
-      // Redirect to the collection URL after the page loads
-      window.location.href = collectionUrl;
+      // Check if the product belongs to any collections
+      {% if product.collections.size > 0 %}
+        var collectionUrl = '{{ product.collections.first.url }}'; // Get URL of the first collection
+        window.location.href = collectionUrl; // Redirect to that collection
+      {% else %}
+        // Optional: Redirect to a default collection or homepage if no collections
+        window.location.href = '/collections/all';
+      {% endif %}
     });
   </script>
 {% endif %}
+
 
 
 {% schema %}
