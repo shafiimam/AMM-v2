@@ -189,8 +189,10 @@ quick buy information in a template, that will be extracted in JS, which ensures
 {% if product.available == false %}
   <script>
     window.onload = function() {
-      var currentCategory = {{ collection.title | json }};
-      var collectionUrl = '/collections/' + currentCategory;
+      // Get the current collection's URL
+      var collectionUrl = '{{ collection.url }}';
+      
+      // Redirect to the collection URL
       window.location.href = collectionUrl;
     }
   </script>
