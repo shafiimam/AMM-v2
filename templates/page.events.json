@@ -96,14 +96,13 @@
       "blocks": {
         "event_z7T663": {
           "type": "event",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
             "title": "Future Forward",
             "location": "Houston",
-            "is_online": true,
+            "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-houston-tickets-1255129097919?aff=oddtdtcreator"
           }
         },
         "event_CbK9CA": {
