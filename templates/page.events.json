@@ -118,9 +118,8 @@
         },
         "event_gcKegJ": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "FUTURE FORWARD ATLANTA",
             "location": "ATLANTA",
             "is_online": false,
