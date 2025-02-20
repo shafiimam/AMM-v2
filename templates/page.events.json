@@ -221,6 +221,7 @@
         },
         "heading_qFqCqb": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "EVENTS",
             "heading_tag": "h1"
@@ -228,6 +229,7 @@
         },
         "richtext_yPRACt": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>There are currently no events scheduled. Stay tuned for upcoming announcements!</p>"
           }
