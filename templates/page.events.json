@@ -129,33 +129,30 @@
         },
         "event_zgLeCE": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": true,
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD DETROIT",
+            "location": "DETROIT",
+            "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-detroit-tickets-1255125858229?aff=oddtdtcreator"
           }
         },
         "event_67zwF7": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": false,
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD HARLEM",
+            "location": "HARLEM",
+            "is_online": true,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-harlem-virtual-meeting-tickets-1255142016559?aff=oddtdtcreator"
           }
         },
         "event_dDKLTR": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
@@ -165,9 +162,8 @@
         },
         "event_gqQFJG": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Fashion Week 2024",
             "location": "New York, NY",
             "is_online": false,
