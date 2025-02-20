@@ -107,14 +107,13 @@
         },
         "event_CbK9CA": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD CHICAGO",
+            "location": "CHICAGO",
             "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-chicago-tickets-1255140441849?aff=oddtdtcreator"
           }
         },
         "event_gcKegJ": {
@@ -122,11 +121,11 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
+            "title": "FUTURE FORWARD ATLANTA",
+            "location": "ATLANTA",
             "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-atlanta-tickets-1255141204129?aff=oddtdtcreator"
           }
         },
         "event_zgLeCE": {
