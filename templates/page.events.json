@@ -91,6 +91,43 @@
         "content": ""
       }
     },
+    "rich_text_YwFccG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_zKCzpm": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_tbA7Ug": {
+          "type": "heading",
+          "settings": {
+            "text": "Future Forward February Meetings",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_4d6KQi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Februarys meeting occurs on Tuesday, February 25th at 6:30pm. Click below to find a city near you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zKCzpm",
+        "heading_tbA7Ug",
+        "richtext_4d6KQi"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "events_section_ajk3kJ": {
       "type": "events-section",
       "blocks": {
@@ -214,7 +251,6 @@
       "blocks": {
         "subheading_WdCJKb": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
             "text": "Subheading"
           }
@@ -240,6 +276,7 @@
         "heading_qFqCqb",
         "richtext_yPRACt"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -253,6 +290,7 @@
     "main",
     "events_header_banner_AaNBMN",
     "multi_column_VJNMnL",
+    "rich_text_YwFccG",
     "events_section_ajk3kJ",
     "rich_text_bRWAim"
   ]
