@@ -22,24 +22,33 @@
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
-
+    <link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="A MA MANIÉRE">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://cdn.shopify.com/s/files/1/0626/9065/files/AMM-A-icon.png?v=1740137806"
+    >
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
     {%- if settings.favicon -%}
       <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
       <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
     {%- endif -%}
-
+    
     {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preconnect" href="https://unpkg.com" crossorigin>
-
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     >
-
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     {%- unless settings.heading_font.system? -%}
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -50,11 +59,11 @@
     {%- unless settings.secondary_font.system? -%}
       <link rel="preload" href="{{ settings.secondary_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
-    <link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
     {%- render 'social-meta-tags' -%}
     {%- render 'microdata-schema' -%}
     {%- render 'css-variables' -%}
     {%- render 'js-variables' -%}
+    {% render 'splash-screens' %}
 
     {%- if request.page_type == 'gift_card' -%}
       <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script>
@@ -139,4 +148,69 @@
       {%- endif -%}
     </main>
   </body>
+  <script>
+    // Open (or create) an IndexedDB database
+    const dbRequest = indexedDB.open('amm-pwa-db', 1);
+
+    dbRequest.onupgradeneeded = (event) => {
+      const db = event.target.result;
+
+      // Create an object store if it doesn't exist
+      if (!db.objectStoreNames.contains('assets')) {
+        db.createObjectStore('assets', { keyPath: 'id' });
+      }
+    };
+
+    dbRequest.onsuccess = (event) => {
+      const db = event.target.result;
+
+      // Add the array to the IndexedDB
+      const transaction = db.transaction('assets', 'readwrite');
+      const store = transaction.objectStore('assets');
+
+      // Store the array with a unique ID
+      store.put({
+        id: 'assetList', // Use a fixed ID for easy retrieval
+        urls: [
+          '/',
+          "{{ 'theme.css' | asset_url }}",
+          "{{ 'custom.css' | asset_url }}",
+          "{{ 'angle.js' | asset_url }}",
+          "{{ 'theme.js' | asset_url }}",
+          "{{ 'image-board-animation.aio.min.js' | asset_url }}",
+          "{{ 'DINPro-Bold.woff' | asset_url }}",
+          "{{ 'DINPro.eot' | asset_url }}",
+          "{{ 'DINPro.woff' | asset_url }}",
+          "{{ 'vendor.min.js' | asset_url }}",
+          "{{ 'photoswipe.min.js' | asset_url }}",
+          'https://cdn.shopify.com/s/files/1/0626/9065/files/amm-logo-hd.png?v=1733391764',
+          'https://cdn.shopify.com/s/files/1/0626/9065/files/AM10_Logo_GRAY_700_px_height_1_f4605202-b17f-4c65-b30d-7557d9e710f7.svg?v=1722106783',
+        ],
+      });
+
+      transaction.oncomplete = () => {
+        console.log('Array stored successfully in IndexedDB.');
+      };
+
+      transaction.onerror = (error) => {
+        console.error('Error storing the array in IndexedDB:', error);
+      };
+    };
+
+    dbRequest.onerror = (error) => {
+      console.error('Error opening IndexedDB:', error);
+    };
+  </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('{{ 'service-worker.js' | asset_url }}')
+        .then((registration) => {
+          console.log('Service Worker registered with', registration);
+        })
+        .catch((error) => {
+          console.error('Service Worker registration failed:', error);
+        });
+    }
+  </script>
 </html>
