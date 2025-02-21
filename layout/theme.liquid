@@ -22,12 +22,22 @@
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
-
+    <link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="A MA MANIÉRE">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://cdn.shopify.com/s/files/1/0626/9065/files/AMM-A-icon.png?v=1740137806"
+    >
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
     {%- if settings.favicon -%}
       <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
       <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
     {%- endif -%}
-
+    
     {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +59,6 @@
     {%- unless settings.secondary_font.system? -%}
       <link rel="preload" href="{{ settings.secondary_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
-    <link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
     {%- render 'social-meta-tags' -%}
     {%- render 'microdata-schema' -%}
     {%- render 'css-variables' -%}
