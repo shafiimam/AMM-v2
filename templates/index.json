@@ -109,7 +109,7 @@
             "image": "shopify://shop_images/AMBUSHXUGGBLKFUR-1_64234f7e-9617-45c6-b81f-3a801baf67c7.jpg",
             "mobile_image": "shopify://shop_images/AMBUSHXUGGBLKFUR-1_5a7e825b-2d4b-4016-ad3c-62e31f7646ab.jpg",
             "text": "BLACK",
-            "link_text": "Shop Now",
+            "link_text": "SHOP NOW",
             "link_url": "shopify://products/ambush-loafer-black",
             "link_style": "link"
           }
@@ -121,7 +121,7 @@
             "image": "shopify://shop_images/AMBUSHXUGGBROWNFUR-1_d986ac38-e7a9-4757-99ab-aca37e31f714.jpg",
             "mobile_image": "shopify://shop_images/AMBUSHXUGGBROWNFUR-1_11eb17df-15ad-4c86-8087-de9f61178c16.jpg",
             "text": "BURGUNDY",
-            "link_text": "Shop Now",
+            "link_text": "SHOP NOW",
             "link_url": "shopify://products/ambush-loafer-burgundy",
             "link_style": "link"
           }
@@ -156,10 +156,10 @@
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "",
-            "link_url": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://products/ambush-mary-jane-pink",
             "link_style": "link",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -175,7 +175,7 @@
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://products/ambush-mary-jane-pink",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -193,7 +193,7 @@
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://products/ambush-mary-jane-pink",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
