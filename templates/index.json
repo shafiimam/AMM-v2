@@ -106,11 +106,11 @@
           "type": "before",
           "settings": {
             "color_scheme": "scheme-1",
-            "image": "shopify://shop_images/0RW4006-100_1.2_f3d2fc22-853d-4c46-8a31-515bf149ce95.jpg",
-            "mobile_image": "shopify://shop_images/0RW4006-100_1.2_40ce131c-27af-4a12-8f44-68b423e128ce.jpg",
-            "text": "Clear",
+            "image": "shopify://shop_images/AMBUSHXUGGBLKFUR-1_64234f7e-9617-45c6-b81f-3a801baf67c7.jpg",
+            "mobile_image": "shopify://shop_images/AMBUSHXUGGBLKFUR-1_5a7e825b-2d4b-4016-ad3c-62e31f7646ab.jpg",
+            "text": "BLACK",
             "link_text": "Shop Now",
-            "link_url": "shopify://products/ray-ban-meta-wayfarer-1",
+            "link_url": "shopify://products/ambush-loafer-black",
             "link_style": "link"
           }
         },
@@ -118,11 +118,11 @@
           "type": "after",
           "settings": {
             "color_scheme": "scheme-1",
-            "image": "shopify://shop_images/0RW4006-200_1_2908efb2-3ce2-4468-b6d7-bde48f11e22d.jpg",
-            "mobile_image": "shopify://shop_images/0RW4006-200_1_7d092448-9876-42ad-a186-93d1970b9c69.jpg",
-            "text": "Green",
+            "image": "shopify://shop_images/AMBUSHXUGGBROWNFUR-1_d986ac38-e7a9-4757-99ab-aca37e31f714.jpg",
+            "mobile_image": "shopify://shop_images/AMBUSHXUGGBROWNFUR-1_11eb17df-15ad-4c86-8087-de9f61178c16.jpg",
+            "text": "BURGUNDY",
             "link_text": "Shop Now",
-            "link_url": "shopify://products/ray-ban-meta-wayfarer",
+            "link_url": "shopify://products/ambush-loafer-burgundy",
             "link_style": "link"
           }
         }
@@ -135,12 +135,87 @@
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
         "subheading": "",
-        "title": "Ray-Ban Meta Wayfarer",
+        "title": "UGG X AMBUSH LOAFER",
         "content": "<p>Choose your Color</p>",
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
         "cursor_background": "#efefef",
         "cursor_arrows_color": "#000000"
+      }
+    },
+    "media_grid_p7EKPQ": {
+      "type": "media-grid",
+      "blocks": {
+        "image_e83L6V": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ambush.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jMp3XC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ugg9.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_4GKrKQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ugg10.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_e83L6V",
+        "image_jMp3XC",
+        "image_4GKrKQ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "UGG X AMBUSH",
+        "content": ""
       }
     },
     "featured-collections": {
@@ -149,9 +224,9 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere",
-            "products_count": 9,
-            "title": "A MA MANIÉRE",
+            "collection": "sneakers",
+            "products_count": 8,
+            "title": "FOOTWEAR",
             "link_url": "",
             "link_text": "View all"
           }
@@ -164,7 +239,7 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.7,
@@ -398,6 +473,7 @@
     "slideshow_QGYQ6e",
     "featureed_image_and_products_zaMf8b",
     "before-after",
+    "media_grid_p7EKPQ",
     "featured-collections",
     "media_grid_DzxzqH",
     "blog_posts_XjJCVj",
