@@ -1,21 +1,50 @@
 {
-   "name": "AMM PWA",
-   "short_name": "AMM-PWA",
-   "start_url": "/",
-   "display": "standalone",
-   "background_color": "#ffffff",
-   "theme_color": "#000000",
-   "icons": [
-     {
-       "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/amm-logo-hd.png?v=1733391764",
-       "type": "image/png",
-       "sizes": "242x54"
-     },
-     {
-       "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/AM10_Logo_GRAY_700_px_height_1_f4605202-b17f-4c65-b30d-7557d9e710f7.svg?v=1722106783",
-       "type": "image/png",
-       "sizes": "512x512"
-     }
-   ]
- }
- 
+  "name": "A Ma Maniere",
+  "short_name": "A Ma Maniere",
+  "description": "Explore luxury Men's and Unisex apparel, footwear and accessories at A Ma Maniére. Discover exclusive designer clothing and more curated with timeless style.",
+  "start_url": "/",
+  "catagories": ["fashion", "lifestyle", "shopping"],
+  "display": "standalone",
+  "shortcuts": [
+    {
+      "name": "Shop Collections",
+      "short_name": "Collections",
+      "description": "Browse our collections",
+      "url": "/collections/jacquemus"
+    }
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/AMM_PWA_LOGO.jpg?v=1739662686",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/AMM_PWA_LOGOX192.png?v=1739662745",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/Screenshot_2025-02-16_at_5.23.23_AM.png?v=1739661822",
+      "sizes": "800x1880",
+      "platform": "ios",
+      "label": "New Redesigned Home Page"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/Screenshot_2025-02-16_at_5.19.02_AM.png?v=1739661568",
+      "sizes": "800x1880",
+      "platform": "android",
+      "label": "New Redesigned Home Page"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0626/9065/files/Screenshot_2025-02-16_at_5.18.19_AM.png?v=1739661568",
+      "sizes": "800x1880",
+      "platform": "windows",
+      "label": "New Redesigned Home Page"
+    }
+  ]
+}
