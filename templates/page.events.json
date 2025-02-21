@@ -91,91 +91,121 @@
         "content": ""
       }
     },
+    "rich_text_YwFccG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_zKCzpm": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_tbA7Ug": {
+          "type": "heading",
+          "settings": {
+            "text": "Future Forward February Meetings",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_4d6KQi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Februarys meeting occurs on Tuesday, February 25th at 6:30pm. Click below to find a city near you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zKCzpm",
+        "heading_tbA7Ug",
+        "richtext_4d6KQi"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "md",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "events_section_ajk3kJ": {
       "type": "events-section",
       "blocks": {
         "event_z7T663": {
           "type": "event",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
-            "title": "Future Forward",
+            "title": "Future Forward HOUSTON",
             "location": "Houston",
-            "is_online": true,
+            "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-houston-tickets-1255129097919?aff=oddtdtcreator"
           }
         },
         "event_CbK9CA": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD CHICAGO",
+            "location": "CHICAGO",
             "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-chicago-tickets-1255140441849?aff=oddtdtcreator"
           }
         },
         "event_gcKegJ": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD ATLANTA",
+            "location": "ATLANTA",
             "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-atlanta-tickets-1255141204129?aff=oddtdtcreator"
           }
         },
         "event_zgLeCE": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": true,
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD DETROIT",
+            "location": "DETROIT",
+            "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-detroit-tickets-1255125858229?aff=oddtdtcreator"
           }
         },
         "event_67zwF7": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": false,
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD HARLEM",
+            "location": "HARLEM",
+            "is_online": true,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-harlem-virtual-meeting-tickets-1255142016559?aff=oddtdtcreator"
           }
         },
         "event_dDKLTR": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD BALTIMORE",
+            "location": "BALTIMORE",
             "is_online": false,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-baltimore-tickets-1255154172919?aff=oddtdtcreator"
           }
         },
         "event_gqQFJG": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": false,
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "FUTURE FORWARD D.C.",
+            "location": "WASHINGTON, D.C.",
+            "is_online": true,
             "button_label": "Participate",
-            "button_url": ""
+            "button_url": "https://www.eventbrite.com/e/future-forward-community-meeting-dc-virtual-meeting-tickets-1255152969319?aff=oddtdtcreator"
           }
         },
         "event_NWgm8L": {
@@ -221,13 +251,13 @@
       "blocks": {
         "subheading_WdCJKb": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
             "text": "Subheading"
           }
         },
         "heading_qFqCqb": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "EVENTS",
             "heading_tag": "h1"
@@ -235,6 +265,7 @@
         },
         "richtext_yPRACt": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>There are currently no events scheduled. Stay tuned for upcoming announcements!</p>"
           }
@@ -245,6 +276,7 @@
         "heading_qFqCqb",
         "richtext_yPRACt"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -258,6 +290,7 @@
     "main",
     "events_header_banner_AaNBMN",
     "multi_column_VJNMnL",
+    "rich_text_YwFccG",
     "events_section_ajk3kJ",
     "rich_text_bRWAim"
   ]

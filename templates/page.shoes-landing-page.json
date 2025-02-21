@@ -31,7 +31,7 @@
         "richtext_mhLp3D": {
           "type": "richtext",
           "settings": {
-            "content": "<p>At A Ma Maniére, footwear is more than just an accessory—it’s a statement of style, culture, and craftsmanship. Our carefully curated selection of luxury sneakers, designer boots, premium sandals, and stylish slippers brings together some of the most sought-after pieces in high-end streetwear and contemporary fashion. Whether you're searching for limited-edition sneaker drops, rare collaborations, or timeless footwear essentials, our collection embodies elevated style, exclusivity, and innovation.</p><h4></h4><h4></h4>"
+            "content": "<p>At A Ma Maniére, footwear is more than just an accessory—it’s a statement of style, culture, and craftsmanship. Our carefully curated selection of sneakers, designer boots, premium sandals, and stylish slippers brings together some of the most sought-after pieces in high-end streetwear and contemporary fashion. Whether you're searching for limited-edition sneaker drops, rare collaborations, or timeless footwear essentials, our collection embodies elevated style, exclusivity, and innovation.</p><h4></h4><h4></h4>"
           }
         },
         "button_RLWyGn": {
@@ -56,8 +56,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/AMMAIRSHIPBLACK-1-SIDE-VIEW_8d57d164-d13d-4bc4-a0a7-61476af08bb0.png",
-        "mobile_image": "shopify://shop_images/AMMAIRSHIPBLACK-1-SIDE-VIEW_8d57d164-d13d-4bc4-a0a7-61476af08bb0.png",
+        "image": "shopify://shop_images/AMM_AIR_SHIP_BLK_TRANSPARENT_NO_SHADOW_2_8cf198fa-f720-4f49-8c57-5eea3a94b86f.png",
+        "mobile_image": "shopify://shop_images/AMM_AIR_SHIP_BLK_TRANSPARENT_NO_SHADOW_2_8cf198fa-f720-4f49-8c57-5eea3a94b86f.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "image_position_mobile": "bottom",
@@ -81,11 +81,22 @@
             "content": "<p>The 424 Marathon Boot redefines luxury footwear, blending rugged utility with contemporary design. Crafted with premium materials and expert craftsmanship, this ankle boot offers a sleek yet durable build, making it a standout addition to any elevated streetwear wardrobe. Featuring a sturdy sole for superior traction, padded ankle support for comfort, and a streamlined silhouette, the 424 Marathon Boot delivers both functionality and fashion-forward appeal.</p><p>Designed for those who move with purpose, this boot pairs effortlessly with cargo pants, denim, or tailored streetwear pieces, making it a versatile staple for urban exploration and everyday wear. Whether you are stepping into the city or elevating a minimalist aesthetic, the 424 Marathon Boot brings bold energy and statement-making style.</p><p>Shop this exclusive release now at A Ma Maniére and experience the perfect balance of luxury craftsmanship and contemporary edge.</p>",
             "text_color": "#8f8f8f"
           }
+        },
+        "button_wLhFRN": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop Now",
+            "url": "shopify://products/424-marathon-boot-1",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_nEnngp",
-        "richtext_Wb7wth"
+        "richtext_Wb7wth",
+        "button_wLhFRN"
       ],
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
@@ -95,8 +106,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/424_Marathon_Boot_Black.png",
-        "mobile_image": "shopify://shop_images/424_Marathon_Boot_Black.png",
+        "image": "shopify://shop_images/424_FABRIC_BOOT_BLK.png",
+        "mobile_image": "shopify://shop_images/424_FABRIC_BOOT_BLK.png",
         "circular_text": "marathon boot marathon boot marathon boot",
         "reveal_on_scroll": true,
         "image_position": "start",
@@ -144,7 +155,9 @@
         "title": "Look Closer",
         "start_index": "881",
         "end_index": "931",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC05"
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC05",
+        "button_label": "Shop Now",
+        "button_link": "https://www.a-ma-maniere.com/products/424-marathon-boot"
       }
     },
     "featured_collections_Dtrtbp": {

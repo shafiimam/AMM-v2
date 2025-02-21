@@ -148,7 +148,7 @@
         "mobile_image": "shopify://shop_images/resize.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "sm",
+        "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }

@@ -54,9 +54,14 @@
           {%- if sub_link.links.size > 0 -%}
             <ul class="v-stack gap-2.5 unstyled-list">
               {%- for sub_sub_link in sub_link.links -%}
-                <li>
-                  <a href="{{ sub_sub_link.url }}" class="link-faded">{{ sub_sub_link.title }}</a>
-                </li>
+                {% unless sub_sub_link.title == 'ALL OUTERWEAR'
+                  or sub_sub_link.title == 'ALL FOOTWEAR'
+                  or sub_sub_link.title == 'ALL ACCESSORIES'
+                %}
+                  <li>
+                    <a href="{{ sub_sub_link.url }}" class="link-faded">{{ sub_sub_link.title }}</a>
+                  </li>
+                {% endunless %}
               {%- endfor -%}
             </ul>
           {%- endif -%}

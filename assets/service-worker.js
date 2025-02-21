@@ -1,7 +1,7 @@
 // Open the IndexedDB and retrieve data
 function getAssetsFromIndexedDB() {
   return new Promise((resolve, reject) => {
-    const dbRequest = indexedDB.open('myAssetsDB', 1);
+    const dbRequest = indexedDB.open('amm-pwa-db', 1);
 
     dbRequest.onsuccess = (event) => {
       const db = event.target.result;
@@ -31,7 +31,7 @@ self.addEventListener('install', (event) => {
     getAssetsFromIndexedDB()
       .then((urls) => {
         if (urls.length > 0) {
-          return caches.open('my-cache-v1').then((cache) => {
+          return caches.open('amm-pwa-cache').then((cache) => {
             console.log('Caching assets during install:', urls);
             return cache.addAll(urls);
           });
@@ -45,6 +45,7 @@ self.addEventListener('install', (event) => {
 
 // Fetch Event to Serve Cached Assets
 self.addEventListener('fetch', (event) => {
+  console.log('Fetch event for:', event.request.url);
   event.respondWith(
     caches.match(event.request).then((response) => {
       console.log('Serving from cache:', event.request.url);

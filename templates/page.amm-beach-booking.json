@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1739514477f3af7f76": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_phjJqB": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTI0NDEz\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_phjJqB"
+      ],
+      "custom_css": [
+        ".g-container .header {display: none;}",
+        ".shopify-app-block {min-height: 600px;}",
+        ".globo-form-app {z-index: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "content_page_section_GifitE": {
+      "type": "content-page-section",
+      "blocks": {
+        "paragraph_PfMi7K": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "{{ page.content }}"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_PfMi7K"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "{{ page.title }}",
+        "description": "",
+        "circular_text": "Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll",
+        "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "lg"
+      }
+    }
+  },
+  "order": [
+    "1739514477f3af7f76",
+    "content_page_section_GifitE",
+    "main"
+  ]
+}

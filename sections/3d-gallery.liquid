@@ -25,6 +25,9 @@
           srcset=""
         >
       </div>
+      {% if section.settings.button_label != blank %}
+        <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -93,7 +96,11 @@
     font-family: Saol Display, sans-serif;
   }
   .three-d-gallery {
+    display: flex;
     position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
   .top-text,
   .bottom-text {
@@ -150,6 +157,17 @@
       "type": "text",
       "id": "dynamic_link_handle",
       "label": "Link Handle"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
     }
   ],
   "presets": [

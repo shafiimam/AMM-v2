@@ -294,6 +294,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/176__SQUIDLIK.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -311,7 +312,26 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "column_count": "4",
+            "image": "shopify://shop_images/174__SQUIDLIK.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_anKKMG": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Layer0_dfcd696d-0fec-41aa-9e7b-61e81c3f201f.jpg",
+            "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -328,6 +348,25 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/175__SQUIDLIK.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tcKkAx": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/255SH080-1726-910.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -345,9 +384,10 @@
       "block_order": [
         "image_fdEKGr",
         "image_cVc6Ky",
-        "image_kGAEya"
+        "image_anKKMG",
+        "image_kGAEya",
+        "image_tcKkAx"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -356,7 +396,7 @@
         "section_width": "lg",
         "spacing": "md",
         "subheading": "",
-        "title": "Media grid",
+        "title": "",
         "content": ""
       }
     },
