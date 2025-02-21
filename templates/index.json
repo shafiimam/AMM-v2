@@ -61,25 +61,25 @@
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-la-chemise-cuadro"
+            "product": "acne-studios-airbrush-t-shirt"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-chemise-de-nimes"
+            "product": "acne-hooded-swtshrt-1"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-cuerda-horiz"
+            "product": "acne-hat-1"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "jaquemus-le-cargo"
+            "product": "acne-studios-baggy-fit-jeans"
           }
         }
       },
@@ -91,12 +91,12 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "Jacquemus",
+        "title": "ACNE STUDIOS",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/Untitled-1_f144aa5d-6d05-4cf6-b125-947449204141.jpg",
         "image_description": "<p>Renowned for its bold minimalism, inventive proportions, and effortless silhouettes, Jacquemus has reshaped modern luxury with iconic designs and refined, deconstructed tailoring.</p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/jacquemus"
+        "image_cta_url": "shopify://collections/acne-studios"
       }
     },
     "before-after": {
