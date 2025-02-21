@@ -12,6 +12,33 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_hnPPdw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Acne_Studios_Hero_Image.jpg",
+            "mobile_image": "shopify://shop_images/Acne_Studios_Hero_Image_-_Mobile.jpg",
+            "subheading": "ACNE STUDIOS",
+            "title": "SHOP THE COLLECTION",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/acne-studios",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_zB7x7d": {
           "type": "video",
           "settings": {
@@ -41,6 +68,7 @@
         }
       },
       "block_order": [
+        "image_hnPPdw",
         "video_zB7x7d"
       ],
       "settings": {
@@ -48,9 +76,9 @@
         "show_next_section_button": true,
         "media_size": "fill",
         "show_initial_transition": false,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
+        "cycle_speed": 10,
         "background": "#000000",
         "controls_color": "#ffffff"
       }
