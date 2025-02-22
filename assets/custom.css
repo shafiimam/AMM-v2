@@ -502,3 +502,8 @@ h1#cae-heading {
 .collection-toolbar__button-container button {
   opacity: 1;
 }
+
+.shopify-section.shopify-section-group-header-group.shopify-section--header {
+  padding: env(safe-area-inset-top) 0 0 env(safe-area-inset-left);
+  background-color: #ffffff;
+}

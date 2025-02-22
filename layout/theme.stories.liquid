@@ -5,9 +5,11 @@
       <meta charset="utf-8">
       <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover, minimum-scale=1.0, maximum-scale=1.0"
       >
-  
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black_translucent">
+      <meta name="apple-mobile-web-app-title" content="A MA MANIÉRE">
       <title>
         {% if page_title == blank -%}
           {{- shop.name -}}
@@ -23,9 +25,7 @@
   
       <link rel="canonical" href="{{ canonical_url }}">
       <link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
-      <meta name="apple-mobile-web-app-capable" content="yes">
-      <meta name="apple-mobile-web-app-status-bar-style" content="default">
-      <meta name="apple-mobile-web-app-title" content="A MA MANIÉRE">
+  
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -37,7 +37,7 @@
         <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
         <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
       {%- endif -%}
-      
+  
       {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
       <link rel="preconnect" href="https://fonts.googleapis.com">
