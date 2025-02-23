@@ -8652,10 +8652,10 @@ new Delegate11(document.documentElement).on(
       ));
   }
 ),
-  navigator.platform &&
-    /iPad|iPhone|iPod/.test(navigator.platform) &&
-    (document.head.querySelector('meta[name="viewport"]').content =
-      "width=device-width, initial-scale=1.0, viewport-fit=cover, height=device-height, minimum-scale=1.0, maximum-scale=1.0"),
+  // navigator.platform &&
+  //   /iPad|iPhone|iPod/.test(navigator.platform) &&
+  //   (document.head.querySelector('meta[name="viewport"]').content =
+  //     "width=device-width, initial-scale=1.0, viewport-fit=cover, height=device-height, minimum-scale=1.0, maximum-scale=1.0"),
   Array.from(document.querySelectorAll(".prose table")).forEach((table) => {
     table.outerHTML =
       '<div class="table-scroller">' + table.outerHTML + "</div>";
