@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover, height=device-height, minimum-scale=1.0, maximum-scale=1.0"
+      content=""
     >
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black_translucent">
@@ -212,5 +212,9 @@
           console.error('Service Worker registration failed:', error);
         });
     }
+    navigator.platform &&
+    /iPad|iPhone|iPod/.test(navigator.platform) &&
+    (document.head.querySelector('meta[name="viewport"]').content =
+      "width=device-width, initial-scale=1.0, viewport-fit=cover, height=device-height, minimum-scale=1.0, maximum-scale=1.0"),
   </script>
 </html>
