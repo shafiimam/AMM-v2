@@ -503,11 +503,10 @@ h1#cae-heading {
   opacity: 1;
 }
 
-.shopify-section.shopify-section-group-header-group.shopify-section--header {
-  padding: env(safe-area-inset-top) 0 0 env(safe-area-inset-left);
-  background-color: #ffffff;
-}
 @media all and (display-mode: standalone) {
+  .header {
+    padding-top: env(safe-area-inset-top);
+  }
   .header-sidebar::part(header),
   .drawer::part(header) {
     padding-top: env(safe-area-inset-top);
