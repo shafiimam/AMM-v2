@@ -165,7 +165,7 @@ span.smartwishlist .fa {
 button.localization-toggle span {
   font-family: "Roboto";
   letter-spacing: 1.4px;
-  color: #8f8f8f;
+  color: #313131;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -501,4 +501,14 @@ h1#cae-heading {
 .collection-toolbar__button-list .text-with-icon,
 .collection-toolbar__button-container button {
   opacity: 1;
+}
+
+@media all and (display-mode: standalone) {
+  .header {
+    padding-top: env(safe-area-inset-top);
+  }
+  .header-sidebar::part(header),
+  .drawer::part(header) {
+    padding-top: env(safe-area-inset-top);
+  }
 }
