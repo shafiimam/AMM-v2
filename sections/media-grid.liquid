@@ -26,19 +26,12 @@
     }
   </style>
 
-  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient
-    | default: section.settings.color_scheme.settings.background
-    | md5
-  -%}
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
   <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container {% unless section.settings.section_width == 'full' %}container--{{ section.settings.section_width }}{% endunless %}">
       <div class="section-stack">
-        {%- render 'section-header',
-          subheading: section.settings.subheading,
-          heading: section.settings.title,
-          content: section.settings.content
-        -%}
+        {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
 
         <media-grid class="media-grid">
           {%- for block in section.blocks -%}
@@ -61,7 +54,7 @@
                         assign loading_strategy = 'lazy'
                       endif
 
-                      echo block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600', class: 'zoom-image group-hover:zoom', alt: block.settings.image.alt
+                      echo block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, sizes: sizes_attribute, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600', class: 'zoom-image group-hover:zoom'
                     -%}
                   {%- else -%}
                     {%- capture collection_image -%}collection-{% cycle '1', '2', '3', '4' %}{%- endcapture -%}
@@ -91,21 +84,11 @@
             {%- endcapture -%}
 
             {%- if block.settings.link_url -%}
-              <a
-                href="{{ block.settings.link_url }}"
-                class="media-grid__item"
-                style="--media-grid-item-column-span: {{ block.settings.column_count }}; --media-grid-item-row-span: {{ block.settings.row_count }}"
-                {{ block.shopify_attributes }}
-                aria-label="Know More about this image {{ block.setting.image.alt }}"
-              >
+              <a href="{{ block.settings.link_url }}" class="media-grid__item" style="--media-grid-item-column-span: {{ block.settings.column_count }}; --media-grid-item-row-span: {{ block.settings.row_count }}" {{ block.shopify_attributes }}>
                 {{- block_content -}}
               </a>
             {%- else -%}
-              <div
-                class="media-grid__item"
-                style="--media-grid-item-column-span: {{ block.settings.column_count }}; --media-grid-item-row-span: {{ block.settings.row_count }}"
-                {{ block.shopify_attributes }}
-              >
+              <div class="media-grid__item" style="--media-grid-item-column-span: {{ block.settings.column_count }}; --media-grid-item-row-span: {{ block.settings.row_count }}" {{ block.shopify_attributes }}>
                 {{- block_content -}}
               </div>
             {%- endif -%}
