@@ -107,7 +107,11 @@
           <span class="text-subdued">-{{ discount_application.total_allocated_amount | money }}</span>
         </div>
       {% endfor %}
-
+      {% for block in section.blocks %}
+        {% if block.type == '@app' %}
+          {% render block %}
+        {% endif %}
+      {% endfor %}
       <div class="button-group">
         {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
           {%- assign view_cart = 'cart.general.view_cart' | t -%}
@@ -202,6 +206,11 @@
       "id": "cross_sell_stack_products",
       "label": "t:sections.cart_drawer.cross_sell_stack_products",
       "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
     }
   ]
 }
