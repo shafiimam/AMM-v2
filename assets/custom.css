@@ -165,7 +165,7 @@ span.smartwishlist .fa {
 button.localization-toggle span {
   font-family: "Roboto";
   letter-spacing: 1.4px;
-  color: #313131;
+  color: #8f8f8f;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -510,5 +510,15 @@ h1#cae-heading {
   .header-sidebar::part(header),
   .drawer::part(header) {
     padding-top: env(safe-area-inset-top);
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .product-gallery__media > * {
+    max-height: 70vh;
+    object-fit: contain;
+  }
+  .shopify-section--main-product .section-spacing {
+    padding-block-start: var(--container-gutter);
   }
 }
