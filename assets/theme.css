@@ -2445,7 +2445,7 @@ model-media .shopify-model-viewer-ui {
   position: relative;
   border: 1px solid #e8e8e8;
 }
-@media  screen and (orientation:landscape){
+@media  screen and (display-mode: standalone) and (orientation:landscape){
   .product-card {
     grid-template-columns: 1fr 1fr;
   }
