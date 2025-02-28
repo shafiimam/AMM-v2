@@ -2467,7 +2467,7 @@ model-media .shopify-model-viewer-ui {
   display: block;
   margin-top: 35px;
 }
-@media screen and (orientation:landscape){
+@media screen and (display-mode: standalone) and (orientation:landscape){
   .product-card__media {
     margin: 0px;
     margin-block: 15px;
