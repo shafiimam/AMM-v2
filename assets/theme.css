@@ -2539,7 +2539,7 @@ a.product-title.h6 {
   margin-right: 15px;
   margin-left: 15px;
 }
-@media screen and (orientation: landscape){
+@media screen and (display-mode: standalone) and (orientation: landscape){
   .product-card__info{
     align-content: center;
     margin: 0;
