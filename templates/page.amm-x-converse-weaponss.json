@@ -100,6 +100,7 @@
     },
     "amm_af1_3d_gallery_JTnxAx": {
       "type": "amm-af1-3d-gallery",
+      "disabled": true,
       "settings": {
         "title": "Explore in 3d",
         "color_scheme": "scheme-3"
