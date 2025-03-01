@@ -14,22 +14,21 @@
       "blocks": {
         "image_hnPPdw": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Acne_Studios_Hero_Image.jpg",
-            "mobile_image": "shopify://shop_images/Acne_Studios_Hero_Image_-_Mobile.jpg",
-            "subheading": "ACNE STUDIOS",
-            "title": "SHOP THE COLLECTION",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "image": "shopify://shop_images/balenciage_9d54fe33-6d07-4290-aa70-f094e0f9d3a4.jpg",
+            "mobile_image": "shopify://shop_images/mob1.jpg",
+            "subheading": "Balenciaga",
+            "title": "SHOP new arrivals",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/acne-studios",
+            "button_1_text": "SHOP",
+            "button_1_link": "shopify://collections/balenciaga",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
+            "button_2_text": "OVERSIZED T-SHIRT",
+            "button_2_link": "shopify://products/balenciaga-blk-oversized-t-shirt",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -118,42 +117,42 @@
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "acne-studios-airbrush-t-shirt"
-          }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "acne-studios-olv-bomber-jacket"
-          }
-        },
-        "product_mzGxhY": {
-          "type": "product",
-          "settings": {
-            "product": "acne-hat-1"
+            "product": "10xl"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "acne-studios-1996-holo-mermaid-jn"
+            "product": "balenciaga-paris-vintage-jersey"
+          }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "balenciaga-palazzo-rect-sunglas"
+          }
+        },
+        "product_mzGxhY": {
+          "type": "product",
+          "settings": {
+            "product": "balenciaga-belt-pants"
           }
         }
       },
       "block_order": [
         "product_q8H3fy",
+        "product_CqUpFr",
         "product_eekMqY",
-        "product_mzGxhY",
-        "product_CqUpFr"
+        "product_mzGxhY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "ACNE STUDIOS",
+        "title": "BALENCIAGA",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/acne2.jpg",
-        "image_description": "<p>Acclaimed for for its avant-garde approach to contemporary fashion, Acne Studios masterfully fuses minimalist sophistication with bold, artistic expression. The brand's distinctive silhouettes, unexpected textures, and refined yet edgy aesthetic have cemented its presence in the global fashion landscape.</p>",
+        "image": "shopify://shop_images/Untitled-44.jpg",
+        "image_description": "<p>Balenciaga is a luxury fashion house known for its avant-garde designs, bold silhouettes, and innovative approach to high fashion. Renowned for redefining modern streetwear, it seamlessly blends couture craftsmanship with contemporary style.</p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/acne-studios"
+        "image_cta_url": "shopify://collections/balenciaga"
       }
     },
     "before-after": {

@@ -119,6 +119,18 @@
       height: 100%;
     }
 
+    @media screen and (orientation: landscape) {
+      .section-content-container{
+        flex-direction: row !important;
+      }
+      .image-text-container{
+        width: 33%;
+      }
+      .products-container{
+        width: calc(67% - 42px);
+      }
+    }
+
     @media screen and (min-width: 1000px) {
       .image-text-container{
         width: 35%;
@@ -142,7 +154,7 @@
 
     }
 
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 699px) and (orientation: portrait) {
       .products-container{
         grid-template-columns: repeat(1, 1fr);
       }

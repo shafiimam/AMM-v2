@@ -2462,7 +2462,6 @@ model-media .shopify-model-viewer-ui {
   display: block;
   margin-top: 35px;
 }
-
 .product-card__image {
   object-fit: contain;
   object-position: center;
@@ -6496,7 +6495,7 @@ product-rerender {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (orientation: portrait) {
   .product-gallery__thumbnail-list {
     position: sticky;
     inset-block-start: calc(var(--sticky-area-height) + 20px);

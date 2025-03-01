@@ -1,5 +1,5 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="{{ 'angle.js' | asset_url }}"></script>
+<script src="{{ 'jquery.min.js'  | asset_url }}" async></script>
+<script src="{{ 'angle.js' | asset_url }}" async></script>
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
@@ -33,13 +33,19 @@
 </div>
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {
-    $('#angle-view1').angle({
-      speed: 2,
-      previous: '.prev-image',
-      next: '.next-image',
-      drag: true,
-      current: 1,
-    });
+    let loadInterval = setInterval(() => {
+      if (window.jQuery) {
+        clearInterval(loadInterval);
+        console.log('loaded');
+        $('#angle-view1').angle({
+          speed: 2,
+          previous: '.prev-image',
+          next: '.next-image',
+          drag: true,
+          current: 1,
+        }).addClass('ready');
+      }
+    }, 500);
   });
 </script>
 <style>
@@ -71,6 +77,12 @@
     background: #fff;
     position: relative;
     z-index: 1;
+    max-height: 700px;
+    transform: translateX(200%);
+    transition: all 0.5s ease-in-out;
+  }
+  .angle-view.ready{
+    transform: translateX(0) !important; 
   }
   #angle-view1 img {
     object-fit: contain;
@@ -101,6 +113,8 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    overflow: hidden;
+    height: 60vh;
   }
   .top-text,
   .bottom-text {
