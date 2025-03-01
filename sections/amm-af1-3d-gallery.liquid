@@ -53,14 +53,20 @@
   </div>
 </div>
 <script type="text/javascript">
-  $(document).ready(function () {
-    $('#angle-view1').angle({
-      speed: 2,
-      previous: '.prev-image',
-      next: '.next-image',
-      drag: true,
-      current: 1,
-    });
+  document.addEventListener('DOMContentLoaded', function () {
+    let loadInterval = setInterval(() => {
+      if (window.jQuery) {
+        clearInterval(loadInterval);
+        console.log('loaded');
+        $('#angle-view1').angle({
+          speed: 2,
+          previous: '.prev-image',
+          next: '.next-image',
+          drag: true,
+          current: 1,
+        }).addClass('ready');
+      }
+    }, 500);
   });
 </script>
 <style>
