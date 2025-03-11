@@ -101,7 +101,7 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "external_video_url": "https://youtu.be/Rn-B3ZBx7W0",
+        "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
@@ -125,7 +125,7 @@
         "richtext_cnM9KP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from 3.12 <strong>until 3.23</strong>. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p><em>Availability is </em><em><strong>LIMITED </strong></em><em>and raffle entries will be prioritized for this release. Some sizes may not be available for the online launch on  3.29</em></p>",
+            "content": "<p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from <strong>3.12 until 3.23. </strong>Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p>Availability is <strong>LIMITED </strong>and raffle entries will be prioritized for this release. Some sizes may not be available for the online launch on  3.29</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
             "text_color": "#eaeaea"
           }
         },
@@ -154,7 +154,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC05189_BM_Large_88feb627-cd40-4aa3-9c8d-f8cd028ee0fa.jpg",
+        "image": "shopify://shop_images/aj3_326929aa-ae9e-4577-a317-f8f3003acc78.jpg",
+        "mobile_image": "shopify://shop_images/aj3_e0a4df16-9e74-4b8a-8633-06d365030f9f.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
@@ -169,7 +170,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/001925360016_BM_Large_8fcaa132-afff-4588-9876-f5954fe0e3a7.jpg",
+            "image": "shopify://shop_images/FTL4.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -223,7 +224,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC02482_Large_fcfb9eb3-2259-4dae-a6e2-e8cdc1d1f374.jpg",
+            "image": "shopify://shop_images/af1_7b4af28f-1f90-4099-886e-1694f3b4b23f.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -241,25 +242,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC05189_BM_Large_e385a103-5a2b-4d85-8066-7d3be4505a93.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_cTyBUg": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC02267_DC_Large_ce507ba5-de23-4852-a848-07abd763073a.jpg",
+            "image": "shopify://shop_images/FTL3_4e34eee8-601c-4285-bb01-425610b499c3.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -295,7 +278,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/ACDSC06279_DC_Large_ce95f058-bf00-4ff3-8792-fa45a0ceea42.jpg",
+            "image": "shopify://shop_images/Untitled-31_cca74f22-a7d4-4c0c-81c9-42afe60e9b74.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -326,6 +309,24 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "image_cTyBUg": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/Untitled-36.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
@@ -334,10 +335,10 @@
         "image_UfiUPV",
         "image_iWhfJp",
         "image_RDqhLU",
-        "image_cTyBUg",
         "image_JnA3Yj",
         "image_ehLekQ",
-        "image_QtUcra"
+        "image_QtUcra",
+        "image_cTyBUg"
       ],
       "settings": {
         "color_scheme": "scheme-3",
