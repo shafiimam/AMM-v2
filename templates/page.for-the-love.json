@@ -377,7 +377,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMAM95BLUE-3_e0620f0b-fd56-4137-9962-c5db20ab1dc8.jpg",
+            "image": "shopify://shop_images/AMMAM95BLUE-1_95d485b2-4514-435b-8170-28b13c72843a.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -395,7 +395,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMAM95BLUE-4_9683a75b-46ae-4f59-b9a1-d80c39cbd2e1.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -413,7 +412,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMAJ3BLUE-1_2e962219-4b69-473e-b381-d09d88d3b14b.jpg",
+            "image": "shopify://shop_images/AMMAJ3BLUE-7_17e991fe-e12f-4e8a-9d18-04594a46de5c.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -431,7 +430,92 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMAJ3BLUE-6_c5f69df4-fe0b-4b3a-9f12-80b4bf7dceac.jpg",
+            "image": "shopify://shop_images/AMMAM95BLUE-5_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bQp3Tp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_f9jjEU": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UUL6Ak": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Q7aX4J": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hipqy3": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -451,7 +535,12 @@
         "image_rcUjrT",
         "image_7QU6UR",
         "image_4M8MNm",
-        "image_FppgHq"
+        "image_FppgHq",
+        "image_bQp3Tp",
+        "image_f9jjEU",
+        "image_UUL6Ak",
+        "image_Q7aX4J",
+        "image_hipqy3"
       ],
       "settings": {
         "color_scheme": "scheme-3",

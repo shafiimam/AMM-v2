@@ -12,6 +12,34 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_8dU8VJ": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Final Video Recut 3 Logos.mov",
+            "allow_sound": false,
+            "subheading": "The A Ma Maniére Nylon Apparel Collection & Three Exclusive Collaborative Footwear Releases",
+            "title": "A Ma Maniére's For The Love",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "RELEASE DETAILS",
+            "button_1_link": "shopify://pages/a-ma-manieres-for-the-love",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "RAFFLES",
+            "button_2_link": "https://a-ma-maniere.runfair.com/en-US/us",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_hnPPdw": {
           "type": "image",
           "settings": {
@@ -66,7 +94,7 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_8dU8VJ": {
+        "video_tcwXyh": {
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/4k retry cut.mov",
@@ -95,9 +123,10 @@
         }
       },
       "block_order": [
+        "video_8dU8VJ",
         "image_hnPPdw",
         "video_zB7x7d",
-        "video_8dU8VJ"
+        "video_tcwXyh"
       ],
       "settings": {
         "allow_transparent_header": false,
