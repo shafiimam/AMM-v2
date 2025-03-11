@@ -14,7 +14,6 @@
       "blocks": {
         "video_8dU8VJ": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Final Video Recut 3 Logos.mov",
             "allow_sound": false,

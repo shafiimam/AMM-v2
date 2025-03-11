@@ -115,7 +115,7 @@
             "text_color": "#eaeaea"
           }
         },
-        "heading_HiTgQk": {
+        "heading_dh9VqW": {
           "type": "heading",
           "settings": {
             "text": "RELEASE DETAILS",
@@ -126,6 +126,20 @@
           "type": "richtext",
           "settings": {
             "content": "<p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from <strong>3.12 until 3.23. </strong>Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p>Availability is <strong>LIMITED </strong>and raffle entries will be prioritized for this release. Some sizes may not be available for the online launch on  3.29</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "text_color": "#eaeaea"
+          }
+        },
+        "heading_HiTgQk": {
+          "type": "heading",
+          "settings": {
+            "text": "EVENT DETAILS",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XQW9D9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Join us at <em>Maison Maniére</em>, a multi-city celebration in Washington, DC on March 28, 2025 and in Houston, TX on March 30, marking a weekend-long activation connecting people and communities across cities. Registration is now open for <em>Maison Maniére</em> – <em>La Soirée</em> in Washington, DC and <em>La Matinée</em> in Houston, TX. </p>",
             "text_color": "#eaeaea"
           }
         },
@@ -141,8 +155,10 @@
       },
       "block_order": [
         "richtext_Pdk9a9",
-        "heading_HiTgQk",
+        "heading_dh9VqW",
         "richtext_cnM9KP",
+        "heading_HiTgQk",
+        "richtext_XQW9D9",
         "countdown_cDXnhg"
       ],
       "custom_css": [
@@ -373,41 +389,6 @@
             "overlay_opacity": 0
           }
         },
-        "image_rcUjrT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMAM95BLUE-1_95d485b2-4514-435b-8170-28b13c72843a.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_7QU6UR": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "image_4M8MNm": {
           "type": "image",
           "settings": {
@@ -426,11 +407,46 @@
             "overlay_opacity": 0
           }
         },
+        "image_rcUjrT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAM95BLUE-1_95d485b2-4514-435b-8170-28b13c72843a.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "image_FppgHq": {
           "type": "image",
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMMAM95BLUE-5_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_7QU6UR": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -532,10 +548,10 @@
       },
       "block_order": [
         "image_3xe3yT",
-        "image_rcUjrT",
-        "image_7QU6UR",
         "image_4M8MNm",
+        "image_rcUjrT",
         "image_FppgHq",
+        "image_7QU6UR",
         "image_bQp3Tp",
         "image_f9jjEU",
         "image_UUL6Ak",
