@@ -24,7 +24,7 @@
       "settings": {
         "image": "shopify://shop_images/ALL_TOGETHER_BM_Large_fb9edf9a-a669-4cee-ba1c-c5b36d8e75aa.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
-        "title": "FOR THE LOVE",
+        "title": "A Ma Maniére's For The Love",
         "title_color": "#ffffff",
         "title_color_mobile": "#ffffff",
         "title_shadow": 17,
@@ -108,6 +108,13 @@
     "image_with_text_7Xm8Cg": {
       "type": "image-with-text",
       "blocks": {
+        "richtext_Pdk9a9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Thank you for the passion you share with the world. More than ever, this energy keeps us all inspired.</strong></p><p><strong>We are always better, together.</strong></p><p><strong>Stay true to your purpose.</strong></p><p>A Ma Maniére’s <em>“For The Love” </em>story celebrates the power of unity, joy, and our shared passion against all odds. The A Ma Maniére Air Jordan 3 <em>“For The Love,” </em>A Ma Maniére x NIKE Air Max 95 <em>“Hand Wash Cold,” </em>and A Ma Maniére x NIKE Air Force 1 <em>“Hand Wash Cold” </em>will be exclusively available for release on March 29, 2025, at 11 AM EST online at <a href=\"http://amamaniere.com/\" target=\"_blank\">amamaniere.com</a>, and in-store at 12 PM local time in Atlanta, Washington, DC, and Houston. </p><p><strong>The raffle is now live and open.</strong></p><p><br/></p>",
+            "text_color": "#eaeaea"
+          }
+        },
         "heading_HiTgQk": {
           "type": "heading",
           "settings": {
@@ -115,15 +122,16 @@
             "heading_tag": "h1"
           }
         },
-        "richtext_Pdk9a9": {
+        "richtext_cnM9KP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Thank you for the passion you share with the world. More than ever, this energy keeps us all inspired.</p><p>We are all always better, together.Stay true to your purpose.</p><p>A Ma Maniére’s.<em>“For The Love”</em>story celebrates the power of unity, joy, and our shared passion against all odds. The A Ma Maniére Air Jordan 3<em>“For The Love,”</em>A Ma Maniére x NIKE Air Max 95<em>“Hand Wash Cold,”</em>and A Ma Maniére x NIKE Air Force 1<em>“Hand Wash Cold”</em>will be available for release on March 29, 2025, at 11 AM EST online at <a href=\"http://amamaniere.com/\" target=\"_blank\">amamaniere.com</a>, and in-store at 12 PM local time in Atlanta, Washington, DC, and Houston. </p><p>The raffle is now live and open.<br/>Accompanying the sneaker release is A Ma Maniére's latest apparel collection: The<em>A Ma Maniére Nylon Program</em>. This exclusive 4-piece capsule is crafted in Europe from premium Black Italian Nylon and includes a Coach’s Jacket, a Reversible Bomber, Tech Pant, and Cargo Pant, all featuring distinctive A Ma Maniére branding, custom “A” Monogram lining, and premium tooling. The<em>A Ma Maniére Nylon Program</em>capsule collection will be available in-store and online on March 29, 2025, exclusively from A Ma Maniére, with sizing available from XS to 2XL.</p><p>Join us at <em>Maison Maniére</em>, a multi-city celebration in Washington, DC on March 28, 2025, and in Houston, TX on March 30, marking a weekend-long activation connecting people and communities across cities. Registration is now open for<em>Maison Maniére</em>–<em>La Soirée</em>in Washington, DC and<em>La Matinée</em>in Houston, TX.</p>",
+            "content": "<p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from 3.12 <strong>until 3.23</strong>. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p><em>Availability is </em><em><strong>LIMITED </strong></em><em>and raffle entries will be prioritized for this release. Some sizes may not be available for the online launch on  3.29</em></p>",
             "text_color": "#eaeaea"
           }
         },
         "countdown_cDXnhg": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "final_date": "28-03-2025",
             "final_time": "15:00",
@@ -132,8 +140,9 @@
         }
       },
       "block_order": [
-        "heading_HiTgQk",
         "richtext_Pdk9a9",
+        "heading_HiTgQk",
+        "richtext_cnM9KP",
         "countdown_cDXnhg"
       ],
       "custom_css": [
