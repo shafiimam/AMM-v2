@@ -136,7 +136,7 @@
           "settings": {
             "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
             "title": "Maison Maniére: La Matinée in Houston, TX",
-            "location": "Houston",
+            "location": "Houston <br>3.30",
             "is_online": false,
             "button_label": "Participate",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-matinee-in-houston-tx-tickets-1279334597219?aff=oddtdtcreator"
@@ -147,7 +147,7 @@
           "settings": {
             "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC",
+            "location": "WASHINGTON DC <br> 3.28 - 3.29",
             "is_online": false,
             "button_label": "Participate",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
