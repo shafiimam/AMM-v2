@@ -22,7 +22,8 @@
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
       "settings": {
-        "image": "shopify://shop_images/ALL_TOGETHER_BM_Large_fb9edf9a-a669-4cee-ba1c-c5b36d8e75aa.jpg",
+        "image": "shopify://shop_images/cover2_cd168b7f-f72d-4ed3-94cb-1f71d52b305b.jpg",
+        "image_mobile": "shopify://shop_images/mob3_5ea30bd8-5139-496d-8c13-460f9c9e8c8c.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "A Ma Maniére's For The Love",
         "title_color": "#ffffff",
@@ -44,7 +45,7 @@
         "button_background": "#efefef",
         "button_text_color": "#1c1c1c",
         "content_alignment": "center",
-        "horizontal_position": 74,
+        "horizontal_position": 48,
         "vertical_position": 0
       }
     },
@@ -199,28 +200,6 @@
         "content_width": "lg",
         "remove_vertical_spacing": false,
         "remove_top_padding": true
-      }
-    },
-    "3d_gallery_simple_EQBEbT": {
-      "type": "3d-gallery-simple",
-      "settings": {
-        "title": "Explore In AMM 95 in 3d",
-        "start_index": "5",
-        "end_index": "56",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC064",
-        "button_label": "Shop Now",
-        "button_link": ""
-      }
-    },
-    "3d_gallery_simple_KNt3h4": {
-      "type": "3d-gallery-simple",
-      "settings": {
-        "title": "Explore AMM Air Jordan 3 in 3d",
-        "start_index": "334",
-        "end_index": "357",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC06",
-        "button_label": "Shop Now",
-        "button_link": ""
       }
     },
     "media_grid_HwBKby": {
@@ -684,8 +663,6 @@
     "slideshow_rBdfjJ",
     "video_tVEdzM",
     "image_with_text_7Xm8Cg",
-    "3d_gallery_simple_EQBEbT",
-    "3d_gallery_simple_KNt3h4",
     "media_grid_HwBKby",
     "media_grid_Ft6xEj"
   ]
