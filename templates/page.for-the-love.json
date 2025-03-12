@@ -212,6 +212,17 @@
         "button_link": ""
       }
     },
+    "3d_gallery_simple_KNt3h4": {
+      "type": "3d-gallery-simple",
+      "settings": {
+        "title": "Explore In 3d",
+        "start_index": "5",
+        "end_index": "56",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC064",
+        "button_label": "Shop Now",
+        "button_link": ""
+      }
+    },
     "media_grid_HwBKby": {
       "type": "media-grid",
       "blocks": {
@@ -674,6 +685,7 @@
     "video_tVEdzM",
     "image_with_text_7Xm8Cg",
     "3d_gallery_simple_EQBEbT",
+    "3d_gallery_simple_KNt3h4",
     "media_grid_HwBKby",
     "media_grid_Ft6xEj"
   ]
