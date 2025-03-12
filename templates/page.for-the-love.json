@@ -146,7 +146,7 @@
         "button_BQpBnw": {
           "type": "button",
           "settings": {
-            "style": "outline",
+            "style": "solid",
             "text": "Washington DC",
             "url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator",
             "background": "",
