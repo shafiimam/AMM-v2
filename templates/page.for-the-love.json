@@ -447,6 +447,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1BLKBLU-1.1_f24aa020-11ac-4f1f-8c6e-6f58a75fe867.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -464,6 +465,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1BLKBLU-5_a60352f7-2647-4089-b702-b683c3d74422.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -481,7 +483,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "column_count": "4",
+            "image": "shopify://shop_images/JACKETHER.jpg",
+            "column_count": "3",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
@@ -498,7 +501,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "column_count": "4",
+            "image": "shopify://shop_images/JACKETHIM.jpg",
+            "column_count": "3",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
@@ -515,7 +519,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "column_count": "4",
+            "image": "shopify://shop_images/PANTSHER.jpg",
+            "column_count": "3",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
@@ -532,7 +537,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "column_count": "4",
+            "image": "shopify://shop_images/PANTSHIM.jpg",
+            "column_count": "3",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
