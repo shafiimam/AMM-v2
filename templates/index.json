@@ -14,7 +14,6 @@
       "blocks": {
         "video_8dU8VJ": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Final Video Recut 3 Logos.mov",
             "allow_sound": false,
@@ -42,6 +41,7 @@
         },
         "image_hnPPdw": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/balenciage_9d54fe33-6d07-4290-aa70-f094e0f9d3a4.jpg",
             "mobile_image": "shopify://shop_images/mob1.jpg",
@@ -69,6 +69,7 @@
         },
         "video_zB7x7d": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
             "allow_sound": false,
@@ -96,6 +97,7 @@
         },
         "video_tcwXyh": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/4k retry cut.mov",
             "allow_sound": false,
