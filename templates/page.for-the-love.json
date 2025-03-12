@@ -213,6 +213,17 @@
         "button_link": ""
       }
     },
+    "3d_gallery_simple_bVBpC4": {
+      "type": "3d-gallery-simple",
+      "settings": {
+        "title": "Explore AMM Air Jordan 3 in 3d",
+        "start_index": "34",
+        "end_index": "57",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC063",
+        "button_label": "Shop Now",
+        "button_link": ""
+      }
+    },
     "media_grid_HwBKby": {
       "type": "media-grid",
       "blocks": {
@@ -675,6 +686,7 @@
     "video_tVEdzM",
     "image_with_text_7Xm8Cg",
     "3d_gallery_simple_pJ6NhK",
+    "3d_gallery_simple_bVBpC4",
     "media_grid_HwBKby",
     "media_grid_Ft6xEj"
   ]
