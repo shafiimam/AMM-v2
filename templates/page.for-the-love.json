@@ -413,6 +413,17 @@
         "content": ""
       }
     },
+    "3d_gallery_simple_eRqy96": {
+      "type": "3d-gallery-simple",
+      "settings": {
+        "title": "Explore AMM Air Force 1 in 3d",
+        "start_index": "14",
+        "end_index": "40",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC065",
+        "button_label": "Shop Now",
+        "button_link": ""
+      }
+    },
     "media_grid_Ft6xEj": {
       "type": "media-grid",
       "blocks": {
@@ -668,7 +679,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "desktop_row_height": 290,
         "mobile_row_height": 180,
         "section_width": "full",
@@ -688,6 +699,7 @@
     "3d_gallery_simple_pJ6NhK",
     "3d_gallery_simple_bVBpC4",
     "media_grid_HwBKby",
+    "3d_gallery_simple_eRqy96",
     "media_grid_Ft6xEj"
   ]
 }
