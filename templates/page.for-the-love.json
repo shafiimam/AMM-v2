@@ -143,6 +143,26 @@
             "text_color": "#eaeaea"
           }
         },
+        "button_BQpBnw": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "Washington DC",
+            "url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_gYDrLn": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "HOUSTON, TX",
+            "url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-matinee-in-houston-tx-tickets-1279334597219?aff=oddtdtcreator",
+            "background": "",
+            "text_color": ""
+          }
+        },
         "countdown_cDXnhg": {
           "type": "countdown",
           "disabled": true,
@@ -159,6 +179,8 @@
         "richtext_cnM9KP",
         "heading_HiTgQk",
         "richtext_XQW9D9",
+        "button_BQpBnw",
+        "button_gYDrLn",
         "countdown_cDXnhg"
       ],
       "custom_css": [
