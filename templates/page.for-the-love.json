@@ -202,17 +202,6 @@
         "remove_top_padding": true
       }
     },
-    "3d_gallery_simple_pJ6NhK": {
-      "type": "3d-gallery-simple",
-      "settings": {
-        "title": "Explore AMM Air Max 95 in 3d",
-        "start_index": "5",
-        "end_index": "56",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC064",
-        "button_label": "Shop Now",
-        "button_link": ""
-      }
-    },
     "3d_gallery_simple_bVBpC4": {
       "type": "3d-gallery-simple",
       "settings": {
@@ -420,6 +409,17 @@
         "start_index": "14",
         "end_index": "40",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC065",
+        "button_label": "Shop Now",
+        "button_link": ""
+      }
+    },
+    "3d_gallery_simple_pJ6NhK": {
+      "type": "3d-gallery-simple",
+      "settings": {
+        "title": "Explore AMM Air Max 95 in 3d",
+        "start_index": "5",
+        "end_index": "56",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC064",
         "button_label": "Shop Now",
         "button_link": ""
       }
@@ -696,10 +696,10 @@
     "slideshow_rBdfjJ",
     "video_tVEdzM",
     "image_with_text_7Xm8Cg",
-    "3d_gallery_simple_pJ6NhK",
     "3d_gallery_simple_bVBpC4",
     "media_grid_HwBKby",
     "3d_gallery_simple_eRqy96",
+    "3d_gallery_simple_pJ6NhK",
     "media_grid_Ft6xEj"
   ]
 }
