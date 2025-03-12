@@ -2,11 +2,11 @@
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
-<div class="three-d-gallery-container container container--lg">
+<div class="three-d-gallery-simple-container container container--lg">
   <h2 class="h1 text-center">{{ section.settings.title }}</h2>
   <div class="gallery-content-container">
-    <div class="three-d-gallery">
-      <div class="angle-view" id="angle-view-{{ section.id }}">
+    <div class="three-d-gallery-simple">
+      <div class="angle-view-simple" id="angle-view-simple-{{ section.id }}">
         <ul>
           {% for i in (start_index..end_index) %}
             <li>
@@ -15,7 +15,7 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="gallery-controls">
+      <div class="gallery-controls-simple">
         <img
           src="https://cdn.shopify.com/s/files/1/0626/9065/files/360arrow.png?v=1735330447"
           alt="gallery control"
@@ -34,7 +34,7 @@
       if (window.$) {
         clearInterval(loadInterval);
         console.log('loaded');
-        $('#angle-view-{{ section.id }}').angle({
+        $('#angle-view-simple-{{ section.id }}').angle({
           speed: 2,
           previous: '.prev-image',
           next: '.next-image',
@@ -46,30 +46,31 @@
   });
 </script>
 <style>
-  .three-d-gallery-container {
+  .three-d-gallery-simple-container {
     margin: 40px 0;
+    padding: 40px 0;
   }
-  .angle-view {
+  .angle-view-simple {
     overflow: hidden;
     width: 65vw;
     margin: 10px auto;
     border: 5px solid #cecece;
   }
-  .angle-view ul {
+  .angle-view-simple ul {
     margin: 0;
     padding: 0;
   }
-  .angle-view li {
+  .angle-view-simple li {
     list-style: none;
     display: flex;
     align-items: center;
   }
-  .angle-view img {
+  .angle-view-simple img {
     width: 90%;
     display: block;
     margin: 18px auto;
   }
-  div#angle-view-{{ section.id }} {
+  div#angle-view-simple-{{ section.id }} {
     border: none;
     background: #fff;
     position: relative;
@@ -77,14 +78,14 @@
     transform: translateX(200%);
     transition: all 0.5s ease-in-out;
   }
-  .angle-view.ready{
+  .angle-view-simple.ready{
     transform: translateX(0) !important; 
   }
-  #angle-view1 img {
+  #angle-view-simple1 img {
     object-fit: contain;
     margin: 0 auto;
   }
-  .gallery-controls {
+  .gallery-controls-simple {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -92,18 +93,18 @@
     position: absolute;
     bottom: 0;
   }
-  .gallery-controls img {
+  .gallery-controls-simple img {
     max-width: 700px;
     width: 100%;
   }
-  .three-d-gallery-container {
+  .three-d-gallery-simple-container {
     margin: 0 auto;
   }
-  .three-d-gallery-container .title {
+  .three-d-gallery-simple-container .title {
     color: #fff;
     font-family: Saol Display, sans-serif;
   }
-  .three-d-gallery {
+  .three-d-gallery-simple {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -112,7 +113,7 @@
     overflow: hidden;
   }
   @media and (max-width: 768px) {
-    .angle-view {
+    .angle-view-simple {
       max-width: 90dvw;
       margin: 20px auto;
       max-height: 500px;
@@ -121,7 +122,7 @@
 </style>
 {% schema %}
 {
-  "name": "3D Gallery",
+  "name": "3D Gallery Simple",
   "tag": "section",
   "settings": [
     {
