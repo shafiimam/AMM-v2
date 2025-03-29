@@ -206,42 +206,42 @@
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "10xl"
-          }
-        },
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "balenciaga-paris-vintage-jersey"
+            "product": "jordan-brand-amm-shooting-shirt-1"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "balenciaga-palazzo-rect-sunglas"
+            "product": "jordan-brand-a-ma-mani-re-short-sleeve-t-shirt-2"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "jordan-brand-amm-short-1"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "balenciaga-belt-pants"
+            "product": "jordan-brand-a-ma-mani-re-short-sleeve-t-shirt-1"
           }
         }
       },
       "block_order": [
         "product_q8H3fy",
-        "product_CqUpFr",
         "product_eekMqY",
+        "product_CqUpFr",
         "product_mzGxhY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "BALENCIAGA",
+        "title": "A MA MANIÉRE",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/Untitled-44.jpg",
-        "image_description": "<p>Balenciaga is a luxury fashion house known for its avant-garde designs, bold silhouettes, and innovative approach to high fashion. Renowned for redefining modern streetwear, it seamlessly blends couture craftsmanship with contemporary style.</p>",
+        "image": "shopify://shop_images/Untitled-50.jpg",
+        "image_description": "",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/balenciaga"
+        "image_cta_url": "shopify://collections/a-ma-maniere"
       }
     },
     "before-after": {
