@@ -40,7 +40,7 @@
         "description_size": 20,
         "description_size_mobile": 20,
         "button_url": "https://a-ma-maniere.runfair.com/en-US/us",
-        "button_text": "Enter Raffle",
+        "button_text": "",
         "button_style": "outline",
         "button_background": "#efefef",
         "button_text_color": "#1c1c1c",
@@ -112,7 +112,7 @@
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Thank you for the passion you share with the world. More than ever, this energy keeps us all inspired.</strong></p><p><strong>We are always better, together.</strong></p><p><strong>Stay true to your purpose.</strong></p><p>A Ma Maniére’s <em>“For The Love” </em>story celebrates the power of unity, joy, and our shared passion against all odds. The A Ma Maniére Air Jordan 3 <em>“For The Love,” </em>A Ma Maniére x NIKE Air Max 95 <em>“Hand Wash Cold,” </em>and A Ma Maniére x NIKE Air Force 1 <em>“Hand Wash Cold” </em>will be exclusively available for release on March 29, 2025, at 11 AM EST online at <a href=\"http://amamaniere.com/\" target=\"_blank\">amamaniere.com</a>, and in-store at 12 PM local time in Atlanta, Washington, DC, and Houston. </p><p>Complementing the exclusive releases is the A Ma Maniére Nylon Program–a capsule collection made in Portugal and executed on premium Limonta Nylon. Featuring four timeless pieces–a Coach's Jacket, Reversible Bomber, Tech Pant, and Cargo Pant with sizing ranging from XS - 2XL.</p><p><strong>The raffle is now live and open.</strong></p><p><br/></p>",
+            "content": "<p><strong>Thank you for the passion you share with the world. More than ever, this energy keeps us all inspired.</strong></p><p><strong>We are always better, together.</strong></p><p><strong>Stay true to your purpose.</strong></p><p>A Ma Maniére’s <em>“For The Love” </em>story celebrates the power of unity, joy, and our shared passion against all odds. The A Ma Maniére Air Jordan 3 <em>“For The Love,” </em>A Ma Maniére x NIKE Air Max 95 <em>“Hand Wash Cold,” </em>and A Ma Maniére x NIKE Air Force 1 <em>“Hand Wash Cold” </em>will be exclusively available for release on March 29, 2025, at 11 AM EST online at <a href=\"http://amamaniere.com/\" target=\"_blank\">amamaniere.com</a>, and in-store at 12 PM local time in Atlanta, Washington, DC, and Houston. </p><p>Complementing the exclusive releases is the A Ma Maniére Nylon Program–a capsule collection made in Portugal and executed on premium Limonta Nylon. Featuring four timeless pieces–a Coach's Jacket, Reversible Bomber, Tech Pant, and Cargo Pant with sizing ranging from XS - 2XL.</p><p></p><p><br/></p>",
             "text_color": "#eaeaea"
           }
         },
