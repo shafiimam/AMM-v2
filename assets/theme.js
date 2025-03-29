@@ -5858,7 +5858,7 @@ var _listenersAbortController2,
       }`,
       queryParams = `q=${encodeURIComponent(
         __privateGet(this, _queryInput).value
-      )}&section_id=predictive-search&resources[limit]=10&resources[limit_scope]=each`,
+      )}&section_id=predictive-search&resources[limit]=10&resources[limit_scope]=each&resources[options][fields]=title,variants.sku,product_type,variants.title`,
       tempDoc = new DOMParser().parseFromString(
         await (
           await cachedFetch(`${url}?${queryParams}`, {

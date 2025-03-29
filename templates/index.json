@@ -12,8 +12,92 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_hFWrAE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cover2_3d18e958-590a-4fb3-99c3-3497d2ad4aa1.jpg",
+            "mobile_image": "shopify://shop_images/T1.jpg",
+            "subheading": "<strong>AVAILABLE NOW </strong>",
+            "title": "A Ma Maniére's \"For The Love\"",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/for-the-love",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "video_8dU8VJ": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/No logo 4k WEB.mov",
+            "allow_sound": false,
+            "subheading": "The A Ma Maniére Nylon Apparel Collection & Three Exclusive Collaborative Footwear Releases",
+            "title": "A Ma Maniére's For The Love",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "BUY NOW",
+            "button_1_link": "shopify://pages/a-ma-manieres-for-the-love",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "video_LYYYmT": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/No logo 4k WEB.mov",
+            "allow_sound": false,
+            "subheading": "The A Ma Maniére Nylon Apparel Collection & Three Exclusive Collaborative Footwear Releases",
+            "title": "A Ma Maniére's For The Love",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "RELEASE DETAILS",
+            "button_1_link": "shopify://pages/a-ma-manieres-for-the-love",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "RAFFLES",
+            "button_2_link": "https://a-ma-maniere.runfair.com/en-US/us",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_hnPPdw": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/balenciage_9d54fe33-6d07-4290-aa70-f094e0f9d3a4.jpg",
             "mobile_image": "shopify://shop_images/mob1.jpg",
@@ -41,6 +125,7 @@
         },
         "video_zB7x7d": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
             "allow_sound": false,
@@ -66,8 +151,9 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_8dU8VJ": {
+        "video_tcwXyh": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/4k retry cut.mov",
             "allow_sound": false,
@@ -95,16 +181,19 @@
         }
       },
       "block_order": [
+        "image_hFWrAE",
+        "video_8dU8VJ",
+        "video_LYYYmT",
         "image_hnPPdw",
         "video_zB7x7d",
-        "video_8dU8VJ"
+        "video_tcwXyh"
       ],
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": true,
         "media_size": "fill",
         "show_initial_transition": false,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_pause_on_video": true,
         "cycle_speed": 10,
         "background": "#000000",
@@ -117,42 +206,42 @@
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "10xl"
-          }
-        },
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "balenciaga-paris-vintage-jersey"
+            "product": "jordan-brand-amm-shooting-shirt-1"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "balenciaga-palazzo-rect-sunglas"
+            "product": "jordan-brand-a-ma-mani-re-short-sleeve-t-shirt-2"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "jordan-brand-amm-short-1"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "balenciaga-belt-pants"
+            "product": "jordan-brand-a-ma-mani-re-short-sleeve-t-shirt-1"
           }
         }
       },
       "block_order": [
         "product_q8H3fy",
-        "product_CqUpFr",
         "product_eekMqY",
+        "product_CqUpFr",
         "product_mzGxhY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "BALENCIAGA",
+        "title": "A MA MANIÉRE",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/Untitled-44.jpg",
-        "image_description": "<p>Balenciaga is a luxury fashion house known for its avant-garde designs, bold silhouettes, and innovative approach to high fashion. Renowned for redefining modern streetwear, it seamlessly blends couture craftsmanship with contemporary style.</p>",
+        "image": "shopify://shop_images/Untitled-50.jpg",
+        "image_description": "",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/balenciaga"
+        "image_cta_url": "shopify://collections/a-ma-maniere"
       }
     },
     "before-after": {
@@ -206,17 +295,17 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ambush.jpg",
+            "image": "shopify://shop_images/JAQ1_copy.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "SHOP NOW",
-            "link_url": "shopify://products/ambush-mary-jane-pink",
-            "link_style": "link",
+            "link_url": "shopify://products/jacquemus-le-sweatshirt-baseba",
+            "link_style": "solid",
             "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
+            "overlay_color": "#1c1c1c",
             "overlay_opacity": 0
           }
         },
@@ -224,14 +313,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ugg9.jpg",
+            "image": "shopify://shop_images/BAG.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://products/ambush-mary-jane-pink",
+            "link_url": "shopify://products/jacquemus-le-cuerda-horiz",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -242,14 +331,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ugg10.jpg",
+            "image": "shopify://shop_images/jaq1_69b01056-5bf5-4bd4-9487-dd6066068534.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://products/ambush-mary-jane-pink",
+            "link_url": "shopify://products/jacquemus-le-hoodie-torneo",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -270,7 +359,7 @@
         "section_width": "lg",
         "spacing": "md",
         "subheading": "",
-        "title": "UGG X AMBUSH MARY JANE",
+        "title": "JACQUEMUS",
         "content": ""
       }
     },
