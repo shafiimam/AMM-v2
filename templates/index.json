@@ -15,15 +15,15 @@
         "image_hFWrAE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cover2_3d18e958-590a-4fb3-99c3-3497d2ad4aa1.jpg",
-            "mobile_image": "shopify://shop_images/T1.jpg",
+            "image": "shopify://shop_images/apbdesk3.jpg",
+            "mobile_image": "shopify://shop_images/apbmob2.jpg",
             "subheading": "<strong>AVAILABLE NOW </strong>",
-            "title": "A Ma Maniére's \"For The Love\"",
+            "title": "A MA MANIÉRE x NIKE AIR MAX 95 \"HAND WASH COLD\"",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/for-the-love",
+            "button_1_link": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/amm-x-air-max-95-black-violet-ore",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -203,32 +203,32 @@
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "jordan-brand-amm-shooting-shirt-1"
-          }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "jordan-brand-a-ma-mani-re-short-sleeve-t-shirt-2"
+            "product": "a-ma-maniere-petratex-nylon-reversible-bomber-jacket"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "jordan-brand-amm-short-1"
+            "product": "a-ma-maniere-nylon-cargo-pants"
+          }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "a-ma-maniere-varsity-jacket-5"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "jordan-brand-a-ma-mani-re-short-sleeve-t-shirt-1"
+            "product": "a-ma-maniere-nylon-tech-pants"
           }
         }
       },
       "block_order": [
         "product_q8H3fy",
-        "product_eekMqY",
         "product_CqUpFr",
+        "product_eekMqY",
         "product_mzGxhY"
       ],
       "settings": {
