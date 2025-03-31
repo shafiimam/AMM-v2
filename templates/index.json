@@ -14,6 +14,7 @@
       "blocks": {
         "image_hFWrAE": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/cover2_3d18e958-590a-4fb3-99c3-3497d2ad4aa1.jpg",
             "mobile_image": "shopify://shop_images/T1.jpg",
@@ -95,37 +96,8 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "image_hnPPdw": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/balenciage_9d54fe33-6d07-4290-aa70-f094e0f9d3a4.jpg",
-            "mobile_image": "shopify://shop_images/mob1.jpg",
-            "subheading": "Balenciaga",
-            "title": "SHOP new arrivals",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "SHOP",
-            "button_1_link": "shopify://collections/balenciaga",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "OVERSIZED T-SHIRT",
-            "button_2_link": "shopify://products/balenciaga-blk-oversized-t-shirt",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "video_zB7x7d": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
             "allow_sound": false,
@@ -151,9 +123,35 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
+        "image_hnPPdw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/balenciage_9d54fe33-6d07-4290-aa70-f094e0f9d3a4.jpg",
+            "mobile_image": "shopify://shop_images/mob1.jpg",
+            "subheading": "Balenciaga",
+            "title": "SHOP new arrivals",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "SHOP",
+            "button_1_link": "shopify://collections/balenciaga",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "OVERSIZED T-SHIRT",
+            "button_2_link": "shopify://products/balenciaga-blk-oversized-t-shirt",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_tcwXyh": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/4k retry cut.mov",
             "allow_sound": false,
@@ -184,8 +182,8 @@
         "image_hFWrAE",
         "video_8dU8VJ",
         "video_LYYYmT",
-        "image_hnPPdw",
         "video_zB7x7d",
+        "image_hnPPdw",
         "video_tcwXyh"
       ],
       "settings": {
