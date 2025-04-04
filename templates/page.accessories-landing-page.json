@@ -211,7 +211,8 @@
     "3d_gallery_fKkNmV": {
       "type": "3d-gallery",
       "custom_css": [
-        ".gallery-controls {position: relative;}"
+        ".gallery-controls {position: relative;}",
+        ".angle-view {width: 40% !important; @media (max-width: 768px) {width: 60% !important; }}"
       ],
       "settings": {
         "title": "Look Closer",
