@@ -148,7 +148,7 @@
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "custom_css": [
-        ".angle-view {width: 40% !important; @media (max-width: 768px) {width: 60% !important; }}",
+        ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}",
         ".gallery-controls {position: relative;}"
       ],
       "settings": {
