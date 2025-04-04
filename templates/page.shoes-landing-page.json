@@ -56,10 +56,10 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/AMM_AIR_SHIP_BLK_TRANSPARENT_NO_SHADOW_2_8cf198fa-f720-4f49-8c57-5eea3a94b86f.png",
-        "mobile_image": "shopify://shop_images/AMM_AIR_SHIP_BLK_TRANSPARENT_NO_SHADOW_2_8cf198fa-f720-4f49-8c57-5eea3a94b86f.png",
+        "image": "shopify://shop_images/DSC06405_34c93be9-0733-4796-aafc-672b0e8419e8.png",
+        "mobile_image": "shopify://shop_images/DSC06405_b11096cb-0790-4502-ae6c-6ffd7950dac3.png",
         "reveal_on_scroll": true,
-        "image_position": "end",
+        "image_position": "start",
         "image_position_mobile": "bottom",
         "content_width": "lg",
         "remove_vertical_spacing": true
@@ -98,6 +98,7 @@
         "richtext_Wb7wth",
         "button_wLhFRN"
       ],
+      "disabled": true,
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
         "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
@@ -122,9 +123,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-boots",
+            "collection": "new-sneakers",
             "products_count": 8,
-            "title": "Boots",
+            "title": "SNEAKERS",
             "link_url": "",
             "link_text": ""
           }
@@ -166,7 +167,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "new-sneakers",
+            "collection": "socks",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",

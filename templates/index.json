@@ -14,7 +14,6 @@
       "blocks": {
         "video_tcwXyh": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/No logo 4k.mov",
             "allow_sound": false,
@@ -203,42 +202,42 @@
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-petratex-nylon-reversible-bomber-jacket"
-          }
-        },
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "a-ma-maniere-nylon-cargo-pants"
-          }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "a-ma-maniere-varsity-jacket-5"
+            "product": "rivington-heritage-cva-pullovr"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-nylon-tech-pants"
+            "product": "rivington-crit-proximity-tee"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "rivington-he-rose-3"
+          }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "rivington-inner-chamber-tee"
           }
         }
       },
       "block_order": [
         "product_q8H3fy",
+        "product_mzGxhY",
         "product_CqUpFr",
-        "product_eekMqY",
-        "product_mzGxhY"
+        "product_eekMqY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "A MA MANIÉRE",
+        "title": "RIVINGTON",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/varsity_jacket.jpg",
+        "image": "shopify://shop_images/rivington1_627b632a-30f5-4083-8b6d-e39c8334a08b.jpg",
         "image_description": "",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/a-ma-maniere"
+        "image_cta_url": "shopify://collections/rivington-4"
       }
     },
     "before-after": {
