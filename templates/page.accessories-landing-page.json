@@ -210,6 +210,9 @@
     },
     "3d_gallery_fKkNmV": {
       "type": "3d-gallery",
+      "custom_css": [
+        ".gallery-controls{bottom: 70px;}"
+      ],
       "settings": {
         "title": "Look Closer",
         "start_index": "5",
