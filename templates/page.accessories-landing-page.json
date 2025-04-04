@@ -194,6 +194,7 @@
     },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
+      "disabled": true,
       "custom_css": [
         ".gallery-controls {bottom: 60px;}",
         ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}"
@@ -203,6 +204,17 @@
         "start_index": "1",
         "end_index": "50",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB031",
+        "button_label": "Shop Now",
+        "button_link": "https://www.a-ma-maniere.com/collections/jacquemus/products/jacquemus-le-cuerda-horiz"
+      }
+    },
+    "3d_gallery_fKkNmV": {
+      "type": "3d-gallery",
+      "settings": {
+        "title": "Look Closer",
+        "start_index": "5",
+        "end_index": "62",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB034",
         "button_label": "Shop Now",
         "button_link": "https://www.a-ma-maniere.com/collections/jacquemus/products/jacquemus-le-cuerda-horiz"
       }
@@ -244,6 +256,7 @@
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
     "3d_gallery_Y9qVkB",
+    "3d_gallery_fKkNmV",
     "featured_collections_Dtrtbp"
   ]
 }
