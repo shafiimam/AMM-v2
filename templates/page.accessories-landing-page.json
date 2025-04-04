@@ -194,7 +194,6 @@
     },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
-      "disabled": true,
       "custom_css": [
         ".gallery-controls {bottom: 60px;}",
         ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}"
@@ -210,6 +209,7 @@
     },
     "3d_gallery_fKkNmV": {
       "type": "3d-gallery",
+      "disabled": true,
       "settings": {
         "title": "Look Closer",
         "start_index": "5",
