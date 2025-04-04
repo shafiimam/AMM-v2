@@ -148,14 +148,14 @@
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "custom_css": [
-        ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}",
+        ".angle-view {width: 40% !important; @media (max-width: 768px) {width: 60% !important; }}",
         ".gallery-controls {position: relative;}"
       ],
       "settings": {
         "title": "Look Closer",
-        "start_index": "268",
-        "end_index": "318",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC04",
+        "start_index": "881",
+        "end_index": "931",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC05",
         "button_label": "Shop Now",
         "button_link": "https://www.a-ma-maniere.com/products/424-marathon-boot"
       }
