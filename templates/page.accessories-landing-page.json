@@ -211,7 +211,7 @@
     "3d_gallery_fKkNmV": {
       "type": "3d-gallery",
       "custom_css": [
-        ".gallery-controls{bottom: 70px;}"
+        ".gallery-controls {position: relative;}"
       ],
       "settings": {
         "title": "Look Closer",
