@@ -150,6 +150,7 @@
         },
         "video_yhBgYq": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/4k retry cut.mov",
             "allow_sound": false,
