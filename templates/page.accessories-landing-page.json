@@ -71,14 +71,14 @@
         "heading_9GCHUT": {
           "type": "heading",
           "settings": {
-            "text": "Statement pieces",
+            "text": "SPRING ESSENTIALS",
             "heading_tag": "h1"
           }
         },
         "richtext_aGXpJA": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Elevate your everyday style with luxury accessories from A Ma Maniére, featuring a curated selection of designer bags, belts, hats, jewelry, and more. Discover premium scarves, wallets, sunglasses, socks, and small goods, crafted with high-quality materials and designed for both function and fashion. Our collection also includes statement masks, home essentials, and exclusive collaborations, blending streetwear aesthetics with refined luxury. Shop the latest high-end accessories online and in-store at A Ma Maniére.</p>",
+            "content": "<p>Elevate your everyday style with luxury accessories from A Ma Maniére, featuring a curated selection of designer bags, belts, hats, jewelry, and more. Discover premium scarves, wallets, sunglasses, socks, and small goods, crafted with high-quality materials and designed for both function and fashion. Our collection also includes statement masks, home essentials, and exclusive collaborations, blending streetwear aesthetics with refined luxury. Shop the latest high-end accessories online and in-store at A Ma Maniére.</p><p>This season, accessories take center stage. From structured bags that define the silhouette to sculptural jewelry, elevated home accents, and thoughtfully designed small goods—each piece is made to transition with ease and intention. Lightweight yet impactful, our Spring Essentials collection brings a sense of quiet sophistication to every moment, designed to layer seamlessly into your life and wardrobe.</p>",
             "text_color": "#8f8f8f"
           }
         },
@@ -87,7 +87,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop Now",
-            "url": "shopify://products/balenciaga-cash-card-holder-6",
+            "url": "shopify://collections/spring-essentials",
             "background": "",
             "text_color": ""
           }
@@ -104,9 +104,9 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/5943092AA3B1000_2_c08fcaf0-f3ec-453e-a55e-e5db563b899e.jpg",
-        "mobile_image": "shopify://shop_images/5943092AA3B1000_2_c08fcaf0-f3ec-453e-a55e-e5db563b899e.jpg",
-        "circular_text": "Balenciaga Card Holder Balenciaga Card Holder",
+        "image": "shopify://shop_images/knithat_350d942f-f816-4d54-ba3f-b0857841354e.jpg",
+        "mobile_image": "shopify://shop_images/knithat_9831a2de-fc4d-4e70-8371-5cf7b073d5ae.jpg",
+        "circular_text": "ADISH CROCHETED BUCKET HAT ADISH CROCHETED BUCKET",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -169,10 +169,10 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-home",
-            "products_count": 8,
-            "title": "HOME GOODS",
-            "link_url": "",
+            "collection": "new-bags",
+            "products_count": 4,
+            "title": "BAGS",
+            "link_url": "shopify://collections/new-bags",
             "link_text": ""
           }
         }
@@ -194,6 +194,7 @@
     },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
+      "disabled": true,
       "custom_css": [
         ".gallery-controls {bottom: 60px;}",
         ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}"
@@ -209,7 +210,6 @@
     },
     "3d_gallery_fKkNmV": {
       "type": "3d-gallery",
-      "disabled": true,
       "settings": {
         "title": "Look Closer",
         "start_index": "5",
@@ -225,7 +225,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "new-accessories",
+            "collection": "medicom",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",
