@@ -103,6 +103,7 @@
         },
         "heading_tbA7Ug": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "<strong>A Ma Maniére Presents: Maison Maniére</strong>",
             "heading_tag": "h2"
@@ -111,7 +112,7 @@
         "richtext_4d6KQi": {
           "type": "richtext",
           "settings": {
-            "content": "<p>As we mark our latest story \"For The Love\", join us for a celebration of positivity, community and togetherness. With sounds by surprise guest DJs and special guests, enjoy an afternoon of release amongst friends, peers and others to make this day special, memorable and a moment for us all to feel the love.<br/><br/>Be part of the celebration and we look forward to connecting with you at @maniere_usa .<br/><br/><strong>IMPORTANT NOTE: Attendance is free with RSVP - no tickets are sold or available for sale for this event. Capacity will be limited and entry will be on a first-come, first-serve basis until capacity is reached. We truly hope to be able to accommodate everybody but please be aware that RSVP does not guarantee your entry and we encourage you to arrive early.</strong></p>"
+            "content": ""
           }
         }
       },
@@ -133,10 +134,11 @@
       "blocks": {
         "event_z7T663": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
             "title": "Maison Maniére: La Matinée in Houston, TX",
-            "location": "Houston <br>3.30",
+            "location": "Houston 3.30",
             "is_online": false,
             "button_label": "Participate",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-matinee-in-houston-tx-tickets-1279334597219?aff=oddtdtcreator"
@@ -144,6 +146,7 @@
         },
         "event_CbK9CA": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
