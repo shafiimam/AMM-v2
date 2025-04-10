@@ -41,7 +41,7 @@
         "image_HPtVF8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Acc._Banner_1.5_3cb400cc-27f9-4e46-a4ad-706ed17175fd.jpg",
+            "image": "shopify://shop_images/DSC05344207.jpg",
             "image_mobile": "shopify://shop_images/Acc._Banner_1.5_3cb400cc-27f9-4e46-a4ad-706ed17175fd.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
@@ -104,9 +104,9 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/knithat_350d942f-f816-4d54-ba3f-b0857841354e.jpg",
-        "mobile_image": "shopify://shop_images/knithat_9831a2de-fc4d-4e70-8371-5cf7b073d5ae.jpg",
-        "circular_text": "ADISH CROCHETED BUCKET HAT ADISH CROCHETED BUCKET",
+        "image": "shopify://shop_images/DSC07068_BB_3.jpg",
+        "mobile_image": "shopify://shop_images/DSC07068_BB_3.jpg",
+        "circular_text": "FLATLISTEYEWEAFRFLATLISTEYEWEAR FLATLISTEYEWEAR",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -171,8 +171,8 @@
           "settings": {
             "collection": "new-bags",
             "products_count": 4,
-            "title": "BAGS",
-            "link_url": "shopify://collections/new-bags",
+            "title": "Sunglasses",
+            "link_url": "shopify://collections/sunglasses",
             "link_text": ""
           }
         }
