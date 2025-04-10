@@ -59,7 +59,7 @@
         "image": "shopify://shop_images/DSC06405_34c93be9-0733-4796-aafc-672b0e8419e8.png",
         "mobile_image": "shopify://shop_images/DSC06405_b11096cb-0790-4502-ae6c-6ffd7950dac3.png",
         "reveal_on_scroll": true,
-        "image_position": "start",
+        "image_position": "end",
         "image_position_mobile": "bottom",
         "content_width": "lg",
         "remove_vertical_spacing": true
