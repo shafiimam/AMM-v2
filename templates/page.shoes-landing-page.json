@@ -150,7 +150,7 @@
       "type": "3d-gallery",
       "custom_css": [
         ".gallery-controls {position: relative;}",
-        "@media screen and (min-width: 1000px){.angle-view {max-width: 50vw; }}"
+        "@media screen and (min-width: 1000px){.angle-view {max-width: 50vw;}}"
       ],
       "settings": {
         "title": "Look Closer",
