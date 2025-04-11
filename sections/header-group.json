@@ -16,15 +16,15 @@
       "blocks": {
         "message-1": {
           "type": "message",
+          "disabled": true,
           "settings": {
-            "text": "Announce something here"
+            "text": "SPRING SALE: FROM 04.12 - 04.18, ENJOY 15% OFF  IN STORE & ONLINE. SOME EXCLUSIONS MAY APPLY"
           }
         }
       },
       "block_order": [
         "message-1"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "enable_sticky": false,
