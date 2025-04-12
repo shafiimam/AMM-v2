@@ -123,6 +123,7 @@
         },
         "video_zB7x7d": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
             "allow_sound": false,
