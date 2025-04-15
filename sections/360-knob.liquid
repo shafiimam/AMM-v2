@@ -1,0 +1,88 @@
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+  }
+  .slider-container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+  }
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .knob {
+    width: 40px;
+    height: 40px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 8px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    user-select: none;
+  }
+  .knob span {
+    transform: rotate(-45deg);
+  }
+</style>
+<div class="slider-container">
+  <svg width="600" height="300">
+    <path id="ellipsePath"
+          d="M 50 150 Q 300 50 550 150"
+          stroke="#999"
+          stroke-width="2"
+          fill="transparent"
+    />
+  </svg>
+  <div class="knob" id="knob"><span>360°</span></div>
+</div>
+
+<script>
+  const path = document.getElementById('ellipsePath');
+  const knob = document.getElementById('knob');
+  const pathLength = path.getTotalLength();
+
+  function updateKnobPosition(percent) {
+    const pos = path.getPointAtLength((percent / 100) * pathLength);
+    knob.style.left = `${pos.x - 20}px`; // offset by half of knob
+    knob.style.top = `${pos.y - 20}px`;
+  }
+
+  function getMousePercent(e) {
+    const rect = path.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const closestLength = Math.max(0, Math.min(pathLength, (x / rect.width) * pathLength));
+    return (closestLength / pathLength) * 100;
+  }
+
+  // Initial position
+  let currentPercent = 50;
+  updateKnobPosition(currentPercent);
+
+  knob.addEventListener('mousedown', (e) => {
+    const onMouseMove = (eMove) => {
+      currentPercent = getMousePercent(eMove);
+      updateKnobPosition(currentPercent);
+      console.log('Current Slide %:', Math.round(currentPercent));
+      // TODO: Use this value to show correct 360 image
+    };
+
+    const onMouseUp = () => {
+      window.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('mouseup', onMouseUp);
+    };
+
+    window.addEventListener('mousemove', onMouseMove);
+    window.addEventListener('mouseup', onMouseUp);
+  });
+</script>
