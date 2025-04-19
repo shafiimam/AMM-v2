@@ -113,7 +113,6 @@
       }
     }
     knob.style.bottom = `${bottom}px`;
-    console.log('percent, left, bottom', percent, left, bottom);
     if (lastStep === null) {
       lastStep = step;
       return;
@@ -132,7 +131,6 @@
     const rect = sliderArea.getBoundingClientRect();
     const clampedX = Math.max(0, Math.min(x - rect.left, rect.width));
     const percent = (clampedX / rect.width) * 100;
-    console.log('percent,', percent);
     return Math.max(0, Math.min(100, percent));
   }
 
