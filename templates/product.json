@@ -71,6 +71,12 @@
             "payment_button_text_color": ""
           }
         },
+        "product_availability_bm4JRe": {
+          "type": "product_availability",
+          "settings": {
+            "product_skus": "HV8571-100, FZ8743-001, HF4084-001"
+          }
+        },
         "feature_with_icon_TyMeDX": {
           "type": "feature_with_icon",
           "disabled": true,
@@ -171,6 +177,7 @@
         "quantity_selector",
         "true_fit_widget_tpCKyE",
         "buy_buttons",
+        "product_availability_bm4JRe",
         "feature_with_icon_TyMeDX",
         "feature_with_icon_zCCbKy",
         "feature_with_icon_jny9WQ",

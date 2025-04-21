@@ -96,8 +96,8 @@
       "settings": {
         "color_scheme": "",
         "image_size": "md",
-        "image": "shopify://shop_images/DSC09039_DC_copy_4d42870e-8fa6-4e32-a3a0-88893a1bbfbb.jpg",
-        "mobile_image": "shopify://shop_images/DSC09039_DC_copy_4d42870e-8fa6-4e32-a3a0-88893a1bbfbb.jpg",
+        "image": "shopify://shop_images/MOB07590_copy_2_1_1292e67c-261a-4033-8d02-6e0d44978739.jpg",
+        "mobile_image": "shopify://shop_images/MOB07590_copy_2_1_5032dc4c-fa51-46f7-84b8-6db3dbb0c94a.jpg",
         "content_width": "sm",
         "enable_parallax": false,
         "remove_vertical_spacing": true
@@ -109,14 +109,14 @@
         "heading_6KUjqd": {
           "type": "heading",
           "settings": {
-            "text": "Ten C Edge Down Jacket",
+            "text": "A Ma Maniére Petratex Nylon Reversible Bomber Jacket",
             "heading_tag": "h1"
           }
         },
         "richtext_KgnhFQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Ten C Edge Down Jacket is a relaxed-fit puffer that redefines luxury outerwear. Designed for both function and style, this jacket is insulated with 100% white duck down, delivering exceptional warmth for colder seasons.</p><p>What makes this piece truly unique is its special pigment treatment. A sandy pigment with a coarse grain is applied to the pre-dyed fabric, gradually eroding the base color. The result? A distinctive, depth-filled effect, with each jacket featuring one-of-a-kind variations in pigment deposits.<br/><br/><strong>Key Features:</strong></p><ul><li>Relaxed Fit – Effortless layering and modern comfort</li><li>Unique Pigment Treatment – Creates a one-of-a-kind, weathered look</li><li>Premium Construction – 100% Nylon exterior for durability and protection</li><li>Superior Insulation – 100% White Duck Down for unmatched warmth</li><li>Functional Details – Two snap-button hand pockets & zip-up closure with snap placket</li></ul><p>The Ten C Edge Down Jacket is a statement piece, merging innovation with timeless streetwear aesthetics.</p>",
+            "content": "<p>Built for those who live at the intersection of purpose and poise, the A Ma Maniére Petratex Nylon Reversible Bomber is a modern essential—redefined. With a sleek silhouette and dual-wear design, this piece delivers effortless versatility, adapting to every setting without compromising intention.</p><p>Crafted from 100% premium Limonta Nylon with refined detailing—ribbed trims, logo-engraved snap closures, and subtle branding—it’s a quiet declaration of style that speaks volumes. From dusk to dawn, street to suite, this jacket transforms with you.This is not just reversible. It’s reliable. Remarkable. And unmistakably A Ma Maniére. </p>",
             "text_color": "#8f8f8f"
           }
         },
@@ -125,7 +125,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop Now",
-            "url": "shopify://products/ten-c-edge-down-jacket",
+            "url": "shopify://products/a-ma-maniere-petratex-nylon-reversible-bomber-jacket",
             "background": "",
             "text_color": ""
           }
@@ -144,8 +144,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/resize.jpg",
-        "mobile_image": "shopify://shop_images/resize.jpg",
+        "image": "shopify://shop_images/nylon_b84de42d-83ed-4604-8306-57711d82363e.jpg",
+        "mobile_image": "shopify://shop_images/nylon_a87a230a-fe58-4919-a890-506e0632f901.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -159,9 +159,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-bomber-jackets",
+            "collection": "jackets",
             "products_count": 8,
-            "title": "BOMBER JACKETS",
+            "title": "jackets",
             "link_url": "",
             "link_text": ""
           }
@@ -189,7 +189,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC00248_DC_1.jpg",
+            "image": "shopify://shop_images/vjackets_2104abd3-9564-438c-9765-00c271bfdbc1.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -207,7 +207,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC00108_DC_020f746e-2226-4c9d-8677-63c484050d13.jpg",
+            "image": "shopify://shop_images/blue2_e2a300cf-03be-4df5-9e32-895ebfb24f5f.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -225,7 +225,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC09869_DC_1_copy.jpg",
+            "image": "shopify://shop_images/blackvarsity2_3b2b9d87-79b3-41f7-895b-5d04a497de64.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -264,7 +264,9 @@
         "title": "Look Closer",
         "start_index": "268",
         "end_index": "318",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC04"
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC04",
+        "button_label": "Shop Now",
+        "button_link": ""
       }
     },
     "featured_collections_Dtrtbp": {
@@ -273,7 +275,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "jackets-coats",
+            "collection": "new-denim-jackets",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "shopify://pages/outerwear",

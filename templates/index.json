@@ -12,23 +12,107 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_hnPPdw": {
+        "image_ipYKBe": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/balenciage_9d54fe33-6d07-4290-aa70-f094e0f9d3a4.jpg",
-            "mobile_image": "shopify://shop_images/mob1.jpg",
-            "subheading": "Balenciaga",
-            "title": "SHOP new arrivals",
+            "image": "shopify://shop_images/AMM_SPRING_SALE_-_WEB.jpg",
+            "mobile_image": "shopify://shop_images/AMM_SPRING_SALE_-_STORY.jpg",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "SHOP",
-            "button_1_link": "shopify://collections/balenciaga",
+            "button_1_text": "",
+            "button_1_link": "/",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
-            "button_2_text": "OVERSIZED T-SHIRT",
-            "button_2_link": "shopify://products/balenciaga-blk-oversized-t-shirt",
+            "button_2_text": "",
+            "button_2_link": "/",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "video_tcwXyh": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/No logo 4k.mov",
+            "allow_sound": false,
+            "subheading": "Discover New Arrivals",
+            "title": "RIVINGTON",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/rivington-4",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "shopify://products/jacquemus-le-chemise-de-nimes",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_hFWrAE": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/apbdesk3.jpg",
+            "mobile_image": "shopify://shop_images/apbmob2.jpg",
+            "subheading": "<strong>AVAILABLE NOW </strong>",
+            "title": "A MA MANIÉRE x NIKE AIR MAX 95 \"HAND WASH COLD\"",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/amm-x-air-max-95-black-violet-ore",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "video_8dU8VJ": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/No logo 4k WEB.mov",
+            "allow_sound": false,
+            "subheading": "The A Ma Maniére Nylon Apparel Collection & Three Exclusive Collaborative Footwear Releases",
+            "title": "A Ma Maniére's For The Love",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "BUY NOW",
+            "button_1_link": "shopify://pages/a-ma-manieres-for-the-love",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -66,8 +150,9 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_8dU8VJ": {
+        "video_yhBgYq": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/4k retry cut.mov",
             "allow_sound": false,
@@ -95,16 +180,19 @@
         }
       },
       "block_order": [
-        "image_hnPPdw",
+        "image_ipYKBe",
+        "video_tcwXyh",
+        "image_hFWrAE",
+        "video_8dU8VJ",
         "video_zB7x7d",
-        "video_8dU8VJ"
+        "video_yhBgYq"
       ],
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": true,
         "media_size": "fill",
         "show_initial_transition": false,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_pause_on_video": true,
         "cycle_speed": 10,
         "background": "#000000",
@@ -117,42 +205,42 @@
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "10xl"
-          }
-        },
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "balenciaga-paris-vintage-jersey"
-          }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "balenciaga-palazzo-rect-sunglas"
+            "product": "rivington-heritage-cva-pullovr"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "balenciaga-belt-pants"
+            "product": "rivington-crit-proximity-tee"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "rivington-he-rose-3"
+          }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "rivington-inner-chamber-tee"
           }
         }
       },
       "block_order": [
         "product_q8H3fy",
+        "product_mzGxhY",
         "product_CqUpFr",
-        "product_eekMqY",
-        "product_mzGxhY"
+        "product_eekMqY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "BALENCIAGA",
+        "title": "RIVINGTON",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/Untitled-44.jpg",
-        "image_description": "<p>Balenciaga is a luxury fashion house known for its avant-garde designs, bold silhouettes, and innovative approach to high fashion. Renowned for redefining modern streetwear, it seamlessly blends couture craftsmanship with contemporary style.</p>",
+        "image": "shopify://shop_images/rivington1_627b632a-30f5-4083-8b6d-e39c8334a08b.jpg",
+        "image_description": "<p>RIVINGTON roi Rebis fuses a rock 'n' roll attitude with elevated streetwear design, delivering bold, oversized essentials built for everyday versatility—from city days to late nights.</p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/balenciaga"
+        "image_cta_url": "shopify://collections/rivington-4"
       }
     },
     "before-after": {
@@ -187,6 +275,7 @@
         "before",
         "after"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -206,17 +295,17 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ambush.jpg",
+            "image": "shopify://shop_images/JAQ1_copy.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "SHOP NOW",
-            "link_url": "shopify://products/ambush-mary-jane-pink",
-            "link_style": "link",
+            "link_url": "shopify://products/jacquemus-le-sweatshirt-baseba",
+            "link_style": "solid",
             "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
+            "overlay_color": "#1c1c1c",
             "overlay_opacity": 0
           }
         },
@@ -224,14 +313,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ugg9.jpg",
+            "image": "shopify://shop_images/BAG.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://products/ambush-mary-jane-pink",
+            "link_url": "shopify://products/jacquemus-le-cuerda-horiz",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -242,14 +331,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ugg10.jpg",
+            "image": "shopify://shop_images/jaq1_69b01056-5bf5-4bd4-9487-dd6066068534.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://products/ambush-mary-jane-pink",
+            "link_url": "shopify://products/jacquemus-le-hoodie-torneo",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -262,6 +351,7 @@
         "image_jMp3XC",
         "image_4GKrKQ"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -270,7 +360,7 @@
         "section_width": "lg",
         "spacing": "md",
         "subheading": "",
-        "title": "UGG X AMBUSH MARY JANE",
+        "title": "JACQUEMUS",
         "content": ""
       }
     },
@@ -310,14 +400,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC04255_copy.jpg",
+            "image": "shopify://shop_images/bode6_ddf3a8ab-3c2e-4e5c-89b5-9383d0b631e5.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "CASABLANCA",
-            "link_url": "shopify://collections/casa-blanca",
+            "link_text": "BODE",
+            "link_url": "shopify://collections/bode",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -328,14 +418,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/cozy2_d01e496a-6018-42ac-a3b6-ab00ed700ea9.jpg",
+            "image": "shopify://shop_images/BAL2_b4c2752a-480a-42c3-bf39-13d064bb9607.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "WHO DECIDES WAR",
-            "link_url": "shopify://collections/who-decides-war",
+            "link_text": "BALENCIAGA",
+            "link_url": "shopify://collections/balenciaga",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",

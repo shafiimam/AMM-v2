@@ -373,18 +373,27 @@
                 payment_button_background: block.settings.payment_button_background,
                 payment_button_text_color: block.settings.payment_button_text_color
             {-%}
-            {% if product.compare_at_price > product.price %}
-            <span style="display: block; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 25px 0 5px 0;">
-              This item is on final sale, it cannot be exchanged or returned.
-            </span>
-          {% endif %}
-        
-          {% assign vendorArray = "Jordan Brand, Jordan, JORDAN BRAND, JORDAN, NIKE, Nike, CONVERSE, Converse" %}
-          {% if vendorArray contains product.vendor %}
-            <span style="display: block; width: 100%; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 15px 0 5px 0; padding: 10px 5px; border: 1px dashed #CF0C28;">
-              This product is not eligible for international shipping.
-            </span>
-          {% endif %}
+
+            {% when 'product_availability' %}
+              {% assign product_skus = block.settings.product_skus | replate: "," , " " %}
+              
+              {% if product.compare_at_price > product.price %}
+                <span style="display: block; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 25px 0 5px 0;">
+                  This item is on final sale, it cannot be exchanged or returned.
+                </span>
+              {% endif %}
+          
+              {% assign vendor_array = "Jordan Brand, Jordan, JORDAN BRAND, JORDAN, NIKE, Nike, CONVERSE, Converse" %}
+               
+              {% if vendor_array contains product.vendor %}
+                {% assign first_sku = product.variants[0].sku | split: " " | first %}
+                {% unless product_skus contains first_sku %}
+                <span style="display: block; width: 100%; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 15px 0 5px 0; padding: 10px 5px; border: 1px dashed #CF0C28;">
+                  This product is not eligible for international shipping.
+                </span>
+                {%endunless %}
+              {% endif %}
+            
           {%- when 'pickup_availability' -%}
             {%- if product != blank -%}
               {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant -%}
@@ -599,24 +608,28 @@
 </safe-sticky>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     var copyButton = document.querySelectorAll('.copy-to-clip');
-    copyButton.forEach(function(button) {
-      button.addEventListener('click', function() {
+    copyButton.forEach(function (button) {
+      button.addEventListener('click', function () {
         var text = button.getAttribute('data-text');
         navigator.clipboard.writeText(text);
         showCopySuccessPopupBesideButton();
       });
     });
 
-    function showCopySuccessPopupBesideButton(){
+    function showCopySuccessPopupBesideButton() {
       var copySuccessPopup = document.createElement('div');
       copySuccessPopup.classList.add('copy-success-popup');
       copySuccessPopup.innerHTML = 'SKU copied';
       document.body.appendChild(copySuccessPopup);
-      $('.copy-success-popup').fadeIn(400).delay(1500).fadeOut(400).queue(function() {
-        $(this).remove();
-      });
+      $('.copy-success-popup')
+        .fadeIn(400)
+        .delay(1500)
+        .fadeOut(400)
+        .queue(function () {
+          $(this).remove();
+        });
     }
   });
 </script>

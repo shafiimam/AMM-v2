@@ -1,0 +1,705 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme.stories",
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "full"
+      }
+    },
+    "hero_with_logo_nPMzTc": {
+      "type": "hero-with-logo",
+      "settings": {
+        "image": "shopify://shop_images/cover2_cd168b7f-f72d-4ed3-94cb-1f71d52b305b.jpg",
+        "image_mobile": "shopify://shop_images/mob3_5ea30bd8-5139-496d-8c13-460f9c9e8c8c.jpg",
+        "logo_image": "shopify://shop_images/jordan-2-logo.svg",
+        "title": "A Ma Maniére's For The Love",
+        "title_color": "#ffffff",
+        "title_color_mobile": "#ffffff",
+        "title_shadow": 17,
+        "title_shadow_mobile": 20,
+        "title_size": 29,
+        "title_size_mobile": 20,
+        "description": "Launches exclusively at A Ma Maniére on 3.29.25",
+        "description_color": "#ffffff",
+        "description_color_mobile": "#ffffff",
+        "description_shadow": 30,
+        "description_shadow_mobile": 30,
+        "description_size": 20,
+        "description_size_mobile": 20,
+        "button_url": "https://a-ma-maniere.runfair.com/en-US/us",
+        "button_text": "",
+        "button_style": "outline",
+        "button_background": "#efefef",
+        "button_text_color": "#1c1c1c",
+        "content_alignment": "center",
+        "horizontal_position": 48,
+        "vertical_position": 0
+      }
+    },
+    "slideshow_rBdfjJ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_jXdmtV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AJ5_HEADER_31ae242f-9f9d-401d-b1db-9ba46d63c436.jpg",
+            "subheading": "Launches on A Ma Maniére on 11.24.23",
+            "title": "A Ma Maniére x Air Jordan V",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "#000000",
+            "background_opacity": 31,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_jXdmtV"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "video_tVEdzM": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "fill",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "image_with_text_7Xm8Cg": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_Pdk9a9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Thank you for the passion you share with the world. More than ever, this energy keeps us all inspired.</strong></p><p><strong>We are always better, together.</strong></p><p><strong>Stay true to your purpose.</strong></p><p>A Ma Maniére’s <em>“For The Love” </em>story celebrates the power of unity, joy, and our shared passion against all odds. The A Ma Maniére Air Jordan 3 <em>“For The Love,” </em>A Ma Maniére x NIKE Air Max 95 <em>“Hand Wash Cold,” </em>and A Ma Maniére x NIKE Air Force 1 <em>“Hand Wash Cold” </em>will be exclusively available for release on March 29, 2025, at 11 AM EST online at <a href=\"http://amamaniere.com/\" target=\"_blank\">amamaniere.com</a>, and in-store at 12 PM local time in Atlanta, Washington, DC, and Houston. </p><p>Complementing the exclusive releases is the A Ma Maniére Nylon Program–a capsule collection made in Portugal and executed on premium Limonta Nylon. Featuring four timeless pieces–a Coach's Jacket, Reversible Bomber, Tech Pant, and Cargo Pant with sizing ranging from XS - 2XL.</p><p></p><p><br/></p>",
+            "text_color": "#eaeaea"
+          }
+        },
+        "heading_dh9VqW": {
+          "type": "heading",
+          "settings": {
+            "text": "RELEASE DETAILS",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_cnM9KP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from <strong>3.12 until 3.23. </strong>Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p>Availability is <strong>LIMITED </strong>and raffle entries will be prioritized for this release. Some sizes may not be available for the online launch on  3.29</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "text_color": "#eaeaea"
+          }
+        },
+        "heading_HiTgQk": {
+          "type": "heading",
+          "settings": {
+            "text": "EVENT DETAILS",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XQW9D9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Join us at <em>Maison Maniére</em>, a multi-city celebration in Washington, DC on March 28, 2025 and in Houston, TX on March 30, marking a weekend-long activation connecting people and communities across cities. Registration is now open for <em>Maison Maniére</em> – <em>La Soirée</em> in Washington, DC and <em>La Matinée</em> in Houston, TX. </p>",
+            "text_color": "#eaeaea"
+          }
+        },
+        "button_BQpBnw": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Washington, DC",
+            "url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_gYDrLn": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "HOUSTON, TX",
+            "url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-matinee-in-houston-tx-tickets-1279334597219?aff=oddtdtcreator",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "countdown_cDXnhg": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "final_date": "28-03-2025",
+            "final_time": "15:00",
+            "start_countdown": true
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Pdk9a9",
+        "heading_dh9VqW",
+        "richtext_cnM9KP",
+        "heading_HiTgQk",
+        "richtext_XQW9D9",
+        "button_BQpBnw",
+        "button_gYDrLn",
+        "countdown_cDXnhg"
+      ],
+      "custom_css": [
+        ".container * {text-align: center;}",
+        ".h1 {color: #eaeaea; font-weight: 700;}",
+        "#countdown {color: #eaeaea;}",
+        ".prose p {font-family: \"Saol Display,sans-serif\";}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/aj3_326929aa-ae9e-4577-a317-f8f3003acc78.jpg",
+        "mobile_image": "shopify://shop_images/aj3_e0a4df16-9e74-4b8a-8633-06d365030f9f.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
+      }
+    },
+    "3d_gallery_simple_bVBpC4": {
+      "type": "3d-gallery-simple",
+      "settings": {
+        "title": "A Ma Maniére Air Jordan 3 “For The Love” in 3D",
+        "start_index": "34",
+        "end_index": "88",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC063",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "media_grid_HwBKby": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Fw9AEQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/FTL4.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mftQfm": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ACDSC06279_DC_Large_ce95f058-bf00-4ff3-8792-fa45a0ceea42.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UfiUPV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ACDSC04733_DC_1_Large_becef6bd-71af-494f-8649-ca838894e83b.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iWhfJp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/af1_7b4af28f-1f90-4099-886e-1694f3b4b23f.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_RDqhLU": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/FTL3_4e34eee8-601c-4285-bb01-425610b499c3.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JnA3Yj": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC09208_BB__2_Large_3fd8c342-02c3-4328-9e30-3cfd23824ee0.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ehLekQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/Untitled-31_cca74f22-a7d4-4c0c-81c9-42afe60e9b74.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QtUcra": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC05325_BM_Large_baa0aee3-2761-48ad-8cff-da36a9922b52.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cTyBUg": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/Untitled-36.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Fw9AEQ",
+        "image_mftQfm",
+        "image_UfiUPV",
+        "image_iWhfJp",
+        "image_RDqhLU",
+        "image_JnA3Yj",
+        "image_ehLekQ",
+        "image_QtUcra",
+        "image_cTyBUg"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "desktop_row_height": 390,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "3d_gallery_simple_pJ6NhK": {
+      "type": "3d-gallery-simple",
+      "settings": {
+        "title": "A Ma Maniére x NIKE Air Max 95 “Hand Wash Cold\" in 3D",
+        "start_index": "5",
+        "end_index": "56",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC064",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "3d_gallery_simple_eRqy96": {
+      "type": "3d-gallery-simple",
+      "settings": {
+        "title": "A Ma Maniére x NIKE Air Force 1 “Hand Wash Cold” in 3D",
+        "start_index": "14",
+        "end_index": "73",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC065",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "media_grid_Ft6xEj": {
+      "type": "media-grid",
+      "blocks": {
+        "image_3xe3yT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAJ3BLUE-1_2e962219-4b69-473e-b381-d09d88d3b14b.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_4M8MNm": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAJ3BLUE-7_17e991fe-e12f-4e8a-9d18-04594a46de5c.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_T3y8iT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAJ3BLUE-5_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rcUjrT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAM95BLUE-1_95d485b2-4514-435b-8170-28b13c72843a.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_FppgHq": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAM95BLUE-5_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zNTqCR": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAM95BLUE-3_3.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_7QU6UR": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1BLKBLU-1.1_f24aa020-11ac-4f1f-8c6e-6f58a75fe867.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bQp3Tp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1BLKBLU-5_a60352f7-2647-4089-b702-b683c3d74422.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_7nhPha": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMAF1BLKBLU-3_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_f9jjEU": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/JACKETHER.jpg",
+            "column_count": "3",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UUL6Ak": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/JACKETHIM.jpg",
+            "column_count": "3",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Q7aX4J": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/PANTSHER.jpg",
+            "column_count": "3",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hipqy3": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/PANTSHIM.jpg",
+            "column_count": "3",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3xe3yT",
+        "image_4M8MNm",
+        "image_T3y8iT",
+        "image_rcUjrT",
+        "image_FppgHq",
+        "image_zNTqCR",
+        "image_7QU6UR",
+        "image_bQp3Tp",
+        "image_7nhPha",
+        "image_f9jjEU",
+        "image_UUL6Ak",
+        "image_Q7aX4J",
+        "image_hipqy3"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_with_logo_nPMzTc",
+    "slideshow_rBdfjJ",
+    "video_tVEdzM",
+    "image_with_text_7Xm8Cg",
+    "3d_gallery_simple_bVBpC4",
+    "media_grid_HwBKby",
+    "3d_gallery_simple_pJ6NhK",
+    "3d_gallery_simple_eRqy96",
+    "media_grid_Ft6xEj"
+  ]
+}
