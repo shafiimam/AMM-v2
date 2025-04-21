@@ -40,14 +40,12 @@ function updateKnobPosition(percent) {
       document.querySelector(".angle-view").getAttribute("data-current")
     );
     const nextImageIndex = currentImageIndex + 1;
-    console.log("nextImageIndex", nextImageIndex);
     window.angleViewer.goTo(nextImageIndex);
   } else if (step < lastStep && window.angleViewer?.prev) {
     const currentImageIndex = parseInt(
       document.querySelector(".angle-view").getAttribute("data-current")
     );
     const prevImageIndex = currentImageIndex - 1;
-    console.log("prevImageIndex", prevImageIndex);
     window.angleViewer.goTo(prevImageIndex);
   }
 
