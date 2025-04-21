@@ -109,7 +109,7 @@
         "circular_text": "FLATLISTEYEWEAFRFLATLISTEYEWEAR FLATLISTEYEWEAR",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "md",
+        "content_width": "sm",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
