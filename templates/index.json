@@ -211,27 +211,27 @@
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "rivington-crit-proximity-tee"
-          }
-        },
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "rivington-he-rose-3"
+            "product": "rivington-uso-123-tyler-tee"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "rivington-inner-chamber-tee"
+            "product": "rivington-enemy-sweat"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "rivington-rchon-muscle-tee"
           }
         }
       },
       "block_order": [
         "product_q8H3fy",
         "product_mzGxhY",
-        "product_CqUpFr",
-        "product_eekMqY"
+        "product_eekMqY",
+        "product_CqUpFr"
       ],
       "settings": {
         "section_alignment": "left",
