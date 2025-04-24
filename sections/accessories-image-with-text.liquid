@@ -13,6 +13,12 @@
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         padding: {% if section.settings.remove_top_padding %}0{% else %}20px 0{% endif %};
+        max-width: 1440px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+      }
+      #shopify-section-{{ section.id }} .image-with-text--reverse > .prose {
+        margin-inline-start: 0;
       }
     }
   </style>
@@ -29,7 +35,7 @@
   -%}
 
   <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-    <image-with-text class="container container--full image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
+    <image-with-text class="container container--full image-with-text accessories-image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
       <div class="image-with-circular-text__container flex flex-column gap-8 justify-center align-center">
         <div class="content-page-section__circular-text-container">
           {% if section.settings.image_circular_text %}
