@@ -30,8 +30,15 @@
         },
         "richtext_mhLp3D": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p><strong>A Ma Maniére x Nike Air Max 95 “Hand Wash Cold”</strong></p><p>The A Ma Maniére x Nike Air Max 95 “Hand Wash Cold” is a reflection of love in its purest form—measured not just in design, but in devotion. Built from rich black suede and smooth violet ore leather, every layer is stacked with purpose, precision, and poise. From the laser-etched branding that whispers legacy to the jacquard monogram satin lining that hugs your step, each detail is a love letter to those who move with grace against the grain.</p><p>Reflective 3M accents catch light like memory. A cushioned insole and mauve-hued air units ground you in comfort, reminding you that care begins beneath the surface. With three alternate lace options, this pair gives you the freedom to define your own expression of style.</p><p>This is more than a sneaker—it’s a symbol of what’s possible when we move <em>For The Love</em>.<br/></p><p>Because what we build with care, we honor with every step.</p><h4></h4><h4></h4>"
+          }
+        },
+        "richtext_g9CWFB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At A Ma Maniére, footwear is more than just an accessory—it’s a statement of style, culture, and craftsmanship. Our carefully curated selection of sneakers, designer boots, premium sandals, and stylish slippers brings together some of the most sought-after pieces in high-end streetwear and contemporary fashion. Whether you're searching for limited-edition sneaker drops, rare collaborations, or timeless footwear essentials, our collection embodies elevated style, exclusivity, and innovation.</p><h4></h4><h4></h4>"
           }
         },
         "button_RLWyGn": {
@@ -48,6 +55,7 @@
       "block_order": [
         "heading_QcgKxR",
         "richtext_mhLp3D",
+        "richtext_g9CWFB",
         "button_RLWyGn"
       ],
       "custom_css": [
@@ -56,8 +64,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC06405_34c93be9-0733-4796-aafc-672b0e8419e8.png",
-        "mobile_image": "shopify://shop_images/DSC06405_b11096cb-0790-4502-ae6c-6ffd7950dac3.png",
+        "image": "shopify://shop_images/AMM_AIR_SHIP_BLK_TRANSPARENT_NO_SHADOW_2_8cf198fa-f720-4f49-8c57-5eea3a94b86f.png",
+        "mobile_image": "shopify://shop_images/AMM_AIR_SHIP_BLK_TRANSPARENT_NO_SHADOW_2_8cf198fa-f720-4f49-8c57-5eea3a94b86f.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "image_position_mobile": "bottom",
