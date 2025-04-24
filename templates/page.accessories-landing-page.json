@@ -104,12 +104,12 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC07068_BB_3.jpg",
-        "mobile_image": "shopify://shop_images/DSC07068_BB_3.jpg",
+        "image": "shopify://shop_images/DSC07068_BB_3.png",
+        "mobile_image": "shopify://shop_images/DSC07068_BB_3.png",
         "circular_text": "FLATLISTEYEWEAFRFLATLISTEYEWEAR FLATLISTEYEWEAR",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "md",
+        "content_width": "sm",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
