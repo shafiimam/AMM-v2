@@ -42,7 +42,6 @@
         },
         "video_tcwXyh": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ES 4k NO LOGO WEB.mov",
             "allow_sound": false,
@@ -57,7 +56,34 @@
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
-            "button_2_link": "shopify://products/jacquemus-le-chemise-de-nimes",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "video_zB7x7d": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
+            "allow_sound": false,
+            "subheading": "ACNE STUDIOS",
+            "title": "SHOP THE COLLECTION",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/acne-studios",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "PRINTED DENIM TROUSER",
+            "button_2_link": "shopify://products/acne-studios-printed-denim-trousr",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -150,42 +176,15 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
-        },
-        "video_zB7x7d": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
-            "allow_sound": false,
-            "subheading": "ACNE STUDIOS",
-            "title": "SHOP THE COLLECTION",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/acne-studios",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "PRINTED DENIM TROUSER",
-            "button_2_link": "shopify://products/acne-studios-printed-denim-trousr",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
         }
       },
       "block_order": [
         "image_ipYKBe",
         "video_tcwXyh",
+        "video_zB7x7d",
         "video_nccGAr",
         "image_hFWrAE",
-        "video_8dU8VJ",
-        "video_zB7x7d"
+        "video_8dU8VJ"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -202,45 +201,45 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_q8H3fy": {
-          "type": "product",
-          "settings": {
-            "product": "rivington-heritage-cva-pullovr"
-          }
-        },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "rivington-uso-123-tyler-tee"
+            "product": "entire-studios-heavy-hoodie-rhino"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "rivington-enemy-sweat"
+            "product": "entire-studios-spar-denim-shorts-1"
+          }
+        },
+        "product_q8H3fy": {
+          "type": "product",
+          "settings": {
+            "product": "entire-studios-burns-knit-vest"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "rivington-rchon-muscle-tee"
+            "product": "entire-studios-straight-leather-pnt"
           }
         }
       },
       "block_order": [
-        "product_q8H3fy",
         "product_mzGxhY",
         "product_eekMqY",
+        "product_q8H3fy",
         "product_CqUpFr"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "RIVINGTON",
+        "title": "ENTIRE STUDIOS",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/rivington1_627b632a-30f5-4083-8b6d-e39c8334a08b.jpg",
-        "image_description": "<p>RIVINGTON roi Rebis fuses a rock 'n' roll attitude with elevated streetwear design, delivering bold, oversized essentials built for everyday versatility—from city days to late nights.</p>",
+        "image": "shopify://shop_images/ES1_1a23217a-8ca3-46c2-b6c6-467bac507a9d.jpg",
+        "image_description": "<p>ENTIRE STUDIOS delivers a future-facing uniform rooted in utility, minimalism, and bold proportion - redefining everyday essentials through elevated silhouettes and modern functionality.</p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/rivington-4"
+        "image_cta_url": "shopify://collections/entire-studios"
       }
     },
     "before-after": {
