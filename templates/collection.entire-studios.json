@@ -26,6 +26,17 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_block_TmCWVh": {
+      "type": "image-with-text-block",
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "content_width": "sm",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -70,6 +81,7 @@
   },
   "order": [
     "collection-banner",
+    "image_with_text_block_TmCWVh",
     "main"
   ]
 }
