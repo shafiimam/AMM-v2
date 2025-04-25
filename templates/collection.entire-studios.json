@@ -117,12 +117,86 @@
         "show_filter_values_count": true,
         "open_filters_by_default": false
       }
+    },
+    "media_grid_7dgzCE": {
+      "type": "media-grid",
+      "blocks": {
+        "image_WDGmrp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_THgLp7": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_L9NNFw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WDGmrp",
+        "image_THgLp7",
+        "image_L9NNFw"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "A Closer Look",
+        "content": ""
+      }
     }
   },
   "order": [
     "collection-banner",
     "image_with_text_block_TmCWVh",
     "image_with_text_4tkWmw",
-    "main"
+    "main",
+    "media_grid_7dgzCE"
   ]
 }
