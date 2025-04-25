@@ -32,44 +32,40 @@
       "settings": {
         "color_scheme": "",
         "image_size": "md",
+        "image": "shopify://shop_images/DSC08655_BB_1.jpg",
         "content_width": "sm",
         "enable_parallax": false,
         "remove_vertical_spacing": true
       }
     },
-    "image_with_text_4tkWmw": {
+    "image_with_text_jLdmmU": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_Pk9qHT": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_bjpQ4P": {
+        "heading_MAfpmm": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
-            "heading_tag": "h1"
+            "text": "Entire studios shrunken denim jacket",
+            "heading_tag": "h5"
           }
         },
-        "richtext_X4Wqgd": {
+        "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
             "text_color": "#8f8f8f"
           }
         }
       },
       "block_order": [
-        "subheading_Pk9qHT",
-        "heading_bjpQ4P",
-        "richtext_X4Wqgd"
+        "heading_MAfpmm",
+        "richtext_nmR43n"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
@@ -118,13 +114,14 @@
         "open_filters_by_default": false
       }
     },
-    "media_grid_7dgzCE": {
+    "media_grid_wGyTFz": {
       "type": "media-grid",
       "blocks": {
-        "image_WDGmrp": {
+        "image_3g6hHn": {
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/DSC07518_BB.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -138,10 +135,11 @@
             "overlay_opacity": 0
           }
         },
-        "image_THgLp7": {
+        "image_Fdedra": {
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/ACDSC01277_DC_1.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -155,10 +153,11 @@
             "overlay_opacity": 0
           }
         },
-        "image_L9NNFw": {
+        "image_xKjBF6": {
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/396__SQUIDLIK.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -174,9 +173,9 @@
         }
       },
       "block_order": [
-        "image_WDGmrp",
-        "image_THgLp7",
-        "image_L9NNFw"
+        "image_3g6hHn",
+        "image_Fdedra",
+        "image_xKjBF6"
       ],
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
@@ -187,7 +186,7 @@
         "section_width": "lg",
         "spacing": "md",
         "subheading": "",
-        "title": "A Closer Look",
+        "title": "Media grid",
         "content": ""
       }
     }
@@ -195,8 +194,8 @@
   "order": [
     "collection-banner",
     "image_with_text_block_TmCWVh",
-    "image_with_text_4tkWmw",
+    "image_with_text_jLdmmU",
     "main",
-    "media_grid_7dgzCE"
+    "media_grid_wGyTFz"
   ]
 }
