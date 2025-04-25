@@ -96,7 +96,7 @@
       "settings": {
         "color_scheme": "",
         "image_size": "md",
-        "image": "shopify://shop_images/MOB07590_copy_2_1_1292e67c-261a-4033-8d02-6e0d44978739.jpg",
+        "image": "shopify://shop_images/DSC08655_BB_1.jpg",
         "mobile_image": "shopify://shop_images/MOB07590_copy_2_1_5032dc4c-fa51-46f7-84b8-6db3dbb0c94a.jpg",
         "content_width": "sm",
         "enable_parallax": false,
@@ -116,7 +116,7 @@
         "richtext_KgnhFQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Built for those who live at the intersection of purpose and poise, the A Ma Maniére Petratex Nylon Reversible Bomber is a modern essential—redefined. With a sleek silhouette and dual-wear design, this piece delivers effortless versatility, adapting to every setting without compromising intention.</p><p>Crafted from 100% premium Limonta Nylon with refined detailing—ribbed trims, logo-engraved snap closures, and subtle branding—it’s a quiet declaration of style that speaks volumes. From dusk to dawn, street to suite, this jacket transforms with you.This is not just reversible. It’s reliable. Remarkable. And unmistakably A Ma Maniére. </p>",
+            "content": "<p>Entire Studios reimagines transitional layering with precision and purpose. From structured denim jackets to sleek full-zips, cropped puffers to relaxed bombers, each piece is designed to move with you—merging bold form with everyday function. The addition of heavyweight hoodies enhances the lineup with a utilitarian edge, offering standalone presence or easy layering under jackets. Lightweight yet impactful, these silhouettes carry the brand’s signature language of volume and minimalism, striking a balance between refined style and functional design.This season’s outerwear collection is built for versatility, whether you're navigating cool mornings or city nights. Hoodies introduce softness with substance, while jacket styles emphasize structure and shape—each piece engineered with intent. Entire Studios invites you to step into spring with outerwear that blends clean lines, quiet confidence, and unmistakable presence, redefining what it means to dress with purpose in every layer.</p>",
             "text_color": "#8f8f8f"
           }
         },
@@ -125,7 +125,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop Now",
-            "url": "shopify://products/a-ma-maniere-petratex-nylon-reversible-bomber-jacket",
+            "url": "shopify://collections/entire-studios",
             "background": "",
             "text_color": ""
           }
@@ -144,8 +144,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/nylon_b84de42d-83ed-4604-8306-57711d82363e.jpg",
-        "mobile_image": "shopify://shop_images/nylon_a87a230a-fe58-4919-a890-506e0632f901.jpg",
+        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -159,7 +159,7 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "jackets",
+            "collection": "entire-studios",
             "products_count": 8,
             "title": "jackets",
             "link_url": "",
@@ -189,7 +189,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/vjackets_2104abd3-9564-438c-9765-00c271bfdbc1.jpg",
+            "image": "shopify://shop_images/DSC07518_BB.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -207,7 +207,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/blue2_e2a300cf-03be-4df5-9e32-895ebfb24f5f.jpg",
+            "image": "shopify://shop_images/396__SQUIDLIK.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -225,7 +225,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/blackvarsity2_3b2b9d87-79b3-41f7-895b-5d04a497de64.jpg",
+            "image": "shopify://shop_images/ACDSC01277_DC_1.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -275,7 +275,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "new-denim-jackets",
+            "collection": "new-cargo-pants",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "shopify://pages/outerwear",
