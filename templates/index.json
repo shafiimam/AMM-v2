@@ -392,6 +392,51 @@
         "subheading": ""
       }
     },
+    "multiple_media_with_text_Lgp4CV": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_cHgxNx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/H526Y1DW13-6395_1.webp",
+            "rotation": 0
+          }
+        },
+        "image_TpyxFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/H526Y1DW13-6395_2_847652d0-9de5-40ab-b112-b454ededafff.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_cHgxNx",
+        "image_TpyxFX"
+      ],
+      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Seasonal Layers",
+        "title": "Refined Essentials for Spring",
+        "content": "<p>Step into the season with intentional pieces built for movement, light layering, and transitional style. From crisp bombers to relaxed trousers, spring calls for refined silhouettes, breathable textures, and a palette that balances softness with structure.</p>",
+        "button_1_text": "DISCOVER MORE",
+        "button_1_link": "https://www.a-ma-maniere.com/collections/seasonal-layering",
+        "button_1_style": "link",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
     "media_grid_DzxzqH": {
       "type": "media-grid",
       "blocks": {
@@ -620,6 +665,7 @@
     "before-after",
     "media_grid_p7EKPQ",
     "featured-collections",
+    "multiple_media_with_text_Lgp4CV",
     "media_grid_DzxzqH",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
