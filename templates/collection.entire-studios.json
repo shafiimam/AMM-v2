@@ -61,6 +61,11 @@
         "heading_MAfpmm",
         "richtext_nmR43n"
       ],
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
@@ -69,7 +74,7 @@
         "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "sm",
+        "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
