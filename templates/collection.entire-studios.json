@@ -61,9 +61,7 @@
         "heading_MAfpmm",
         "richtext_nmR43n"
       ],
-      "custom_css": [
-        ".image-with-text > .prose{padding-inline-start: 0;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
