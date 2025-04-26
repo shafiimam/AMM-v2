@@ -62,7 +62,9 @@
         "richtext_nmR43n"
       ],
       "custom_css": [
-        ".image-with-text > .prose {padding-inline-start: 0 !important;}"
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
