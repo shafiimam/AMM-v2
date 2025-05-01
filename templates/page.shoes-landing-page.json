@@ -79,14 +79,14 @@
         "heading_nEnngp": {
           "type": "heading",
           "settings": {
-            "text": "424 Marathon Boot",
+            "text": "A Ma Maniére x Nike Air Max 95 “Hand Wash Cold”",
             "heading_tag": "h1"
           }
         },
         "richtext_Wb7wth": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The 424 Marathon Boot redefines luxury footwear, blending rugged utility with contemporary design. Crafted with premium materials and expert craftsmanship, this ankle boot offers a sleek yet durable build, making it a standout addition to any elevated streetwear wardrobe. Featuring a sturdy sole for superior traction, padded ankle support for comfort, and a streamlined silhouette, the 424 Marathon Boot delivers both functionality and fashion-forward appeal.</p><p>Designed for those who move with purpose, this boot pairs effortlessly with cargo pants, denim, or tailored streetwear pieces, making it a versatile staple for urban exploration and everyday wear. Whether you are stepping into the city or elevating a minimalist aesthetic, the 424 Marathon Boot brings bold energy and statement-making style.</p><p>Shop this exclusive release now at A Ma Maniére and experience the perfect balance of luxury craftsmanship and contemporary edge.</p>",
+            "content": "<p>The A Ma Maniére x Nike Air Max 95 “Hand Wash Cold” is a reflection of love in its purest form—measured not just in design, but in devotion. Built from rich black suede and smooth violet ore leather, every layer is stacked with purpose, precision, and poise. From the laser-etched branding that whispers legacy to the jacquard monogram satin lining that hugs your step, each detail is a love letter to those who move with grace against the grain.</p><p>Reflective 3M accents catch light like memory. A cushioned insole and mauve-hued air units ground you in comfort, reminding you that care begins beneath the surface. With three alternate lace options, this pair gives you the freedom to define your own expression of style.</p><p>This is more than a sneaker—it’s a symbol of what’s possible when we move <em>For The Love</em>.<br/></p><p>Because what we build with care, we honor with every step.</p>",
             "text_color": "#8f8f8f"
           }
         },
@@ -95,7 +95,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop Now",
-            "url": "shopify://products/424-marathon-boot-1",
+            "url": "shopify://products/amm-x-air-max-95-black-violet-ore",
             "background": "",
             "text_color": ""
           }
@@ -114,9 +114,9 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/424_FABRIC_BOOT_BLK.png",
-        "mobile_image": "shopify://shop_images/424_FABRIC_BOOT_BLK.png",
-        "circular_text": "marathon boot marathon boot marathon boot",
+        "image": "shopify://shop_images/am95.jpg",
+        "mobile_image": "shopify://shop_images/am95_eeb1db89-dc43-4c49-abcc-2d3ca697280a.jpg",
+        "circular_text": "A Ma Maniére x Nike Air Max 95 \"HAND WASH COLD\". NIKE X",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "md",
