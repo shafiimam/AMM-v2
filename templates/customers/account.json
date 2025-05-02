@@ -43,11 +43,20 @@
       ],
       "disabled": true,
       "settings": {}
+    },
+    "section_wishlist_z8xXKV": {
+      "type": "section-wishlist",
+      "name": "Wishlist",
+      "settings": {
+        "title": "Wishlist",
+        "color_scheme": "scheme-1"
+      }
     }
   },
   "order": [
     "breeadcrumbs_BVDBwW",
     "customer_profile_kLNzYW",
-    "main"
+    "main",
+    "section_wishlist_z8xXKV"
   ]
 }
