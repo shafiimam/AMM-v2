@@ -55,8 +55,7 @@
     z-index: 2;
   }
 </style>
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer></script>
+{% render 'flickity-assets' %}
 <script>
   window.addEventListener('load', function () {
     var elem = document.querySelector('.perspective-slider-container');
@@ -67,12 +66,6 @@
       selectedAttraction: 0.01,
       friction: 0.15,
       pageDots: false,
-    });
-
-    // element argument can be a selector string
-    //   for an individual element
-    var flkty = new Flickity('.perspective-slider-container', {
-      // options
     });
   });
 </script>
