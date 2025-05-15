@@ -1,0 +1,107 @@
+<section class="releases">
+  <div class="container">
+    <h2 class="text-center h2">{{ section.settings.title }}</h2>
+    <div class="releases__grid">
+      {% for block in section.blocks %}
+        <a class="release__item" {{ block.shopify_attributes }} data-release-id="{{ block.id }}" href="{{ block.settings.release_link }}"> 
+          <h4 class="release__item-title h4 text-center">{{ block.settings.release_title }}</h4>
+          <img src="{{ block.settings.release_image | img_url: 'master' }}" alt="{{ block.settings.release_title }}">
+          <h4 class="release__item-product-title h5 text-center" aria-label="{{ block.settings.product_title }}">{{ block.settings.product_title }}</h4>
+          <p class="text-center h6" aria-label="{{ block.settings.product_vendor }}">{{ block.settings.product_vendor }}</p>
+          <p class="text-subdued text-center" aria-label="{{ block.settings.product_price }}">{{ block.settings.product_price }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .releases {
+    padding: 40px 0;
+  }
+  .releases__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24.5px;
+    padding-block: 60px;
+  }
+  .release__item-product-title {
+    font-family: var(--text-font-family);
+  }
+  .release__item-title {
+    font-family: var(--text-font-family);
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+  }
+  .release__item-product-title {
+    font-family: var(--text-font-family);
+    padding: 0.5rem 1rem;
+  }
+  @media (max-width: 768px) {
+    .releases__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 480px) {
+    .releases__grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Releases",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Releases"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "release",
+      "name": "Release",
+      "settings": [
+        {
+          "type": "text",
+          "id": "release_title",
+          "label": "Release Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "release_image",
+          "label": "Product Image"
+        },
+        {
+          "type": "text",
+          "id": "product_title",
+          "label": "Product Title"
+        },
+        {
+          "type": "text",
+          "id": "product_vendor",
+          "label": "Product Vendor"
+        },
+        {
+          "type": "text",
+          "id": "product_price",
+          "label": "Product Price"
+        },
+        {
+          "type": "url",
+          "id": "release_link",
+          "label": "Release Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Releases"
+    }
+  ]
+}
+{% endschema %}
