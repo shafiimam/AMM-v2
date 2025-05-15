@@ -19,7 +19,9 @@
             "image": "shopify://shop_images/AMM_SPRING_SALE_-_WEB.jpg",
             "mobile_image": "shopify://shop_images/AMM_SPRING_SALE_-_STORY.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
@@ -47,7 +49,9 @@
             "video": "shopify://files/videos/ERL Rollout AMA web .mov",
             "allow_sound": false,
             "subheading": "New styles",
+            "subheading_size": 12,
             "title": "ERL",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -74,7 +78,9 @@
             "video": "shopify://files/videos/Rickster Reel 1 (1).mov",
             "allow_sound": false,
             "subheading": "new styles",
+            "subheading_size": 12,
             "title": "RICK OWENS",
+            "title_size": 32,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
@@ -101,7 +107,9 @@
             "video": "shopify://files/videos/ES 4k NO LOGO WEB.mov",
             "allow_sound": false,
             "subheading": "INTRODUCING",
+            "subheading_size": 12,
             "title": "ENTIRE STUDIOS",
+            "title_size": 32,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
@@ -128,7 +136,9 @@
             "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
             "allow_sound": false,
             "subheading": "ACNE STUDIOS",
+            "subheading_size": 12,
             "title": "SHOP THE COLLECTION",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -156,7 +166,9 @@
             "image": "shopify://shop_images/apbdesk3.jpg",
             "mobile_image": "shopify://shop_images/apbmob2.jpg",
             "subheading": "<strong>AVAILABLE NOW </strong>",
+            "subheading_size": 12,
             "title": "A MA MANIÉRE x NIKE AIR MAX 95 \"HAND WASH COLD\"",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -222,7 +234,7 @@
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "vintage-sneaks-2"
+            "product": "megalaced-mule"
           }
         }
       },
