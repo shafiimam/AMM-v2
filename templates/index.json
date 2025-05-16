@@ -246,7 +246,7 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "rick owens",
+        "title": "RICK OWENS",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/ro4_31556b15-2c0a-49d9-9ba6-efa6eaedd471.jpg",
         "image_description": "<p>RICK OWEN redefines luxury with dark, architectural silhouettes and a fearless, avant-garde spirit. His designs merge brutalist beauty with subcultural edge, pushing fashion into bold new territory.</p>",
@@ -381,9 +381,9 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "sneakers",
+            "collection": "a-ma-maniere",
             "products_count": 8,
-            "title": "FOOTWEAR",
+            "title": "A MA MANIÉRE",
             "link_url": "",
             "link_text": "View all"
           }
