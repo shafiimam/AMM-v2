@@ -44,7 +44,6 @@
         },
         "video_cHFk9Y": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ERL Rollout AMA web .mov",
             "allow_sound": false,
@@ -132,6 +131,7 @@
         },
         "video_zB7x7d": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
             "allow_sound": false,
@@ -213,45 +213,45 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_mzGxhY": {
-          "type": "product",
-          "settings": {
-            "product": "rick-owens-mainline-tommy-t-1"
-          }
-        },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-mainline-bolan-banana-pant"
+            "product": "erl-skull-t-shirt"
+          }
+        },
+        "product_mzGxhY": {
+          "type": "product",
+          "settings": {
+            "product": "erl-embroidered-cap-1"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-mainline-zipped-hoodie"
+            "product": "erl-indiana-denim-short"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "megalaced-mule"
+            "product": "vamp-skate-sneaker-1"
           }
         }
       },
       "block_order": [
-        "product_mzGxhY",
         "product_eekMqY",
+        "product_mzGxhY",
         "product_q8H3fy",
         "product_CqUpFr"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "RICK OWENS",
+        "title": "ERL",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/ro4_31556b15-2c0a-49d9-9ba6-efa6eaedd471.jpg",
-        "image_description": "<p>RICK OWEN redefines luxury with dark, architectural silhouettes and a fearless, avant-garde spirit. His designs merge brutalist beauty with subcultural edge, pushing fashion into bold new territory.</p>",
+        "image": "shopify://shop_images/ERL1.jpg",
+        "image_description": "<p>ERL, the vision of artist and designer Eli Russell Linnetz, brings a cinematic lens to American fashion—merging sculptural forms, soft tones, and narrative depth. Rooted in Venice Beach, each piece reflects a laid-back yet intentional spirit shaped by storytelling and design.</p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/rick-owens"
+        "image_cta_url": "shopify://collections/erl"
       }
     },
     "before-after": {
