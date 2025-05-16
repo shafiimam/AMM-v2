@@ -160,6 +160,36 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
+        "video_zB7x7d": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
+            "allow_sound": false,
+            "subheading": "ACNE STUDIOS",
+            "subheading_size": 12,
+            "title": "SHOP THE COLLECTION",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/acne-studios",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "PRINTED DENIM TROUSER",
+            "button_2_link": "shopify://products/acne-studios-printed-denim-trousr",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_hFWrAE": {
           "type": "image",
           "disabled": true,
@@ -217,25 +247,25 @@
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "new-era-amm-a-logo-fitted-hat-plum"
+            "product": "erl-skull-t-shirt"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "new-era-amm-a-logo-fitted-hat-indigo"
+            "product": "erl-embroidered-cap-1"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "new-era-amm-a-logo-fitted-hat-pink"
+            "product": "erl-indiana-denim-short"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "new-era-amm-a-logo-fitted-hat-walnut"
+            "product": "vamp-skate-sneaker-1"
           }
         }
       },
@@ -247,12 +277,12 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "RICK OWENS",
+        "title": "ERL",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/NEW_ERA_AMA_10.jpg",
-        "image_description": "<p>The A Ma Maniére x NEW ERA “A” Logo Fitted returns—now in <strong>four new colorways</strong>.<br/><br/>Now available in Plum, Brown, Indigo, and Pink, the iconic “A” Logo Fitted returns with bold detail and refined energy. Featuring the signature front logo and globe crest side patch, this 59FIFTY cap fuses elevated streetwear with collectible culture.</p>",
+        "image": "shopify://shop_images/ERL1.jpg",
+        "image_description": "<p>ERL, the vision of artist and designer Eli Russell Linnetz, brings a cinematic lens to American fashion—merging sculptural forms, soft tones, and narrative depth. Rooted in Venice Beach, each piece reflects a laid-back yet intentional spirit shaped by storytelling and design.</p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/new-era"
+        "image_cta_url": "shopify://collections/erl"
       }
     },
     "before-after": {
