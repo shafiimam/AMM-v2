@@ -42,6 +42,37 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
+        "video_zB7x7d": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Never miss 4.3 [FV].mov",
+            "mobile_video": "shopify://files/videos/Never miss 4.3 [FV].mov",
+            "allow_sound": false,
+            "subheading": "AVAILABLE NOW",
+            "subheading_size": 19,
+            "title": "A MA MANIÉRE X NEW ERA HATS",
+            "title_size": 30,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/a-ma-maniere",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_cHFk9Y": {
           "type": "video",
           "settings": {
@@ -129,36 +160,6 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_zB7x7d": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
-            "allow_sound": false,
-            "subheading": "ACNE STUDIOS",
-            "subheading_size": 12,
-            "title": "SHOP THE COLLECTION",
-            "title_size": 32,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/acne-studios",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "PRINTED DENIM TROUSER",
-            "button_2_link": "shopify://products/acne-studios-printed-denim-trousr",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "image_hFWrAE": {
           "type": "image",
           "disabled": true,
@@ -192,10 +193,10 @@
       },
       "block_order": [
         "image_ipYKBe",
+        "video_zB7x7d",
         "video_cHFk9Y",
         "video_nccGAr",
         "video_tcwXyh",
-        "video_zB7x7d",
         "image_hFWrAE"
       ],
       "settings": {
