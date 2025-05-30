@@ -98,7 +98,7 @@
 
     {%- assign menu = section.settings.menu -%}
     {%- assign sidebar_menu = section.settings.sidebar_menu -%}
-
+    {% assign release_menu_link = '' %}
     {%- if menu.links.size > 0 or sidebar_menu.links.size > 0 -%}
       <nav class="header__primary-nav {% if section.settings.layout == 'logo_center_navigation_below' or section.settings.layout == 'logo_left_navigation_center' %}header__primary-nav--center{% endif %}" aria-label="{{ 'header.general.primary_navigation' | t | escape }}">
         <button type="button" aria-controls="sidebar-menu" {% unless section.settings.layout == 'drawer' %}class="md:hidden"{% endunless %}>
@@ -121,8 +121,19 @@
                     break
                   endif
 
+                  if link_title_downcase == 'releases'
+                    assign release_menu_link = link
+                  endif
+
                 endfor
               %}
+
+              {% comment %} custom code for releases {% endcomment %}
+              {% if link_title_downcase == 'releases' and section.settings.show_releases %}
+                {% assign release_blocks = section.blocks | where: 'type', 'release' %}
+                  {% render 'release-menu-item', release_blocks: release_blocks, section: section, release_menu_link: release_menu_link %}
+                {% continue %}
+              {% endif %}
 
               <li class="header__primary-nav-item" data-title="{{ link.title | escape }}">
                 {%- if link.levels == 0 and mega_menu_block == '' -%}
@@ -181,6 +192,7 @@
                 {%- endif -%}
               </li>
             {%- endfor -%}
+            
           </ul>
         {%- endif -%}
       </nav>
@@ -546,6 +558,17 @@
       "id": "transparent_logo",
       "label": "t:sections.header.transparent_header_logo_image",
       "info": "t:sections.header.transparent_header_logo_size_recommendation"
+    },
+    {
+      "type": "header",
+      "content": "Releases Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_releases",
+      "label": "Show Releases",
+      "default": false,
+      "info": "checking this box will show the releases inside the mega menu"
     }
   ],
   "blocks": [
@@ -624,6 +647,42 @@
           "type": "url",
           "id": "image_2_link",
           "label": "t:global.text.link"
+        }
+      ]
+    },
+    {
+      "type": "release",
+      "name": "Release",
+      "settings": [
+        {
+          "type": "text",
+          "id": "release_title",
+          "label": "Release Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "release_image",
+          "label": "Product Image"
+        },
+        {
+          "type": "text",
+          "id": "product_title",
+          "label": "Product Title"
+        },
+        {
+          "type": "text",
+          "id": "product_vendor",
+          "label": "Product Vendor"
+        },
+        {
+          "type": "text",
+          "id": "product_price",
+          "label": "Product Price"
+        },
+        {
+          "type": "url",
+          "id": "release_link",
+          "label": "Release Link"
         }
       ]
     }

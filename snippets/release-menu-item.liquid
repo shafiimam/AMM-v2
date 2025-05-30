@@ -1,0 +1,65 @@
+<li class="header__primary-nav-item" data-title="Releases">
+  {%- capture disclosure_content -%}
+   <details class="header__menu-disclosure">
+      <summary class="header__menu-release-item-summary" data-follow-link="{{ release_menu_link.url }}" {% if section.settings.menu_text_font=='heading' %}class="h6" {% endif %}>
+         <a href="{{ release_menu_link.url }}" class="block {% if section.settings.menu_text_font == 'heading' %}h6{% endif %}">{{ release_menu_link.title }}</a>
+      </summary>
+
+      
+      <ul class="mega-menu unstyled-list header__menu-release-item-list" role="group">
+         {% if release_menu_link.links.size > 0 %}
+         <li>
+            {% for link in release_menu_link.links %}
+               <summary href="{{ link.url }}" class="block {% if section.settings.menu_text_font == 'heading' %}h6{% endif %}">{{ link.title }}</summary>
+            {% endfor %}
+         </li>
+         {% endif %}
+         {%- for block in release_blocks -%}
+         <li>
+            <summary class="header__menu-release-item-summary" data-follow-link="{{ block.settings.release_link }}">
+               <p class="h4">{{ block.settings.release_title }}</p>
+               <img src="{{ block.settings.release_image | image_url: width: 800 }}"
+                  alt="{{ block.settings.release_title }}" class="release-image" width="{{ block.settings.release_image.width }}" height="{{ block.settings.release_image.height }}">
+               {% if block.settings.product_title != blank %}
+                  <p class="release-title">{{ block.settings.product_title }}</p>
+               {% endif %}
+               {% if block.settings.product_vendor != blank %}
+                  <p class="release-vendor">{{ block.settings.product_vendor }}</p>
+               {% endif %}
+               {% if block.settings.product_price != blank %}
+                  <p class="text-subdued">{{ block.settings.product_price }}</p>
+               {% endif %}
+            </summary>
+         </li>
+         {%- endfor -%}
+      </ul>
+   </details>
+   {%- endcapture -%}
+
+  <mega-menu-disclosure follow-summary-link trigger="{{ section.settings.menu_open_trigger }}">
+    {{- disclosure_content -}}
+  </mega-menu-disclosure>
+</li>
+
+{% style %}
+  .header__menu-release-item-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .header__menu-release-item-list li {
+    flex-basis: calc((100% - (var(--container-gutter) * 2)) / 4);
+  }
+  .header__menu-release-item-list p {
+    text-align: center;
+  }
+  .header__menu-release-item-list p.h4 {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0;
+    font-family: var(--text-font-family);
+  }
+{% endstyle %}
