@@ -1,7 +1,6 @@
 {
   "article": [],
   "blog": [],
-  "brand": [],
   "collection": [],
   "company": [],
   "company_location": [],
@@ -77,46 +76,6 @@
       "description": "Defines the size of an accessory product, such as one size or compact",
       "type": {
         "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "queries",
-      "namespace": "shopify--discovery--product_search_boost",
-      "name": "Search product boosts",
-      "description": "List of search queries for which a product gets higher rank in search results",
-      "type": {
-        "name": "list.single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "related_products",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Related products",
-      "description": "List of related products",
-      "type": {
-        "name": "list.product_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "related_products_display",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Related products settings",
-      "description": "Determines how related products are displayed along with algorithmic product recommendations",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "complementary_products",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Complementary products",
-      "description": "List of complementary products",
-      "type": {
-        "name": "list.product_reference",
         "category": "REFERENCE"
       }
     },
@@ -208,6 +167,16 @@
       "type": {
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "taxcode",
+      "namespace": "avalara",
+      "name": "Avalara Tax Code",
+      "description": "Used only for Avalara integration.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
       }
     }
   ],
@@ -317,6 +286,16 @@
       "namespace": "mm-google-shopping",
       "name": "Google: Age Group",
       "description": "The demographic for which your product is intended.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "taxcode",
+      "namespace": "avalara",
+      "name": "Avalara Tax Code",
+      "description": "Used only for Avalara integration.",
       "type": {
         "name": "single_line_text_field",
         "category": "TEXT"

@@ -63,11 +63,71 @@
             "image_2_text": "",
             "image_2_link": ""
           }
+        },
+        "release_grzi44": {
+          "type": "release",
+          "settings": {
+            "release_title": "Launching In 6.12",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A Ma Maniere Air Jordan 4",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+          }
+        },
+        "release_eXhVAx": {
+          "type": "release",
+          "settings": {
+            "release_title": "Launching In 6.12",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A Ma Maniere Air Jordan 4",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+          }
+        },
+        "release_bH6tCn": {
+          "type": "release",
+          "settings": {
+            "release_title": "Launching In 6.12",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A Ma Maniere Air Jordan 4",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+          }
+        },
+        "release_VFtaEe": {
+          "type": "release",
+          "settings": {
+            "release_title": "Launching In 6.12",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A Ma Maniere Air Jordan 4",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+          }
+        },
+        "release_N3pyfq": {
+          "type": "release",
+          "settings": {
+            "release_title": "Launching In 6.12",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A Ma Maniere Air Jordan 4",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
-        "mega_menu_px7EJK"
+        "mega_menu_px7EJK",
+        "release_grzi44",
+        "release_eXhVAx",
+        "release_bH6tCn",
+        "release_VFtaEe",
+        "release_N3pyfq"
       ],
       "settings": {
         "color_scheme": "",
@@ -93,7 +153,8 @@
         "show_country_name": false,
         "show_country_flag": true,
         "show_locale_selector": false,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "show_releases": false
       }
     }
   },
