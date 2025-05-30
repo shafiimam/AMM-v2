@@ -64,70 +64,70 @@
             "image_2_link": ""
           }
         },
-        "release_grzi44": {
+        "release_CVty6Q": {
           "type": "release",
           "settings": {
-            "release_title": "Launching In 6.12",
+            "release_title": "6.12",
             "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
-            "product_title": "A Ma Maniere Air Jordan 4",
-            "product_vendor": "A MA Maniere",
-            "product_price": "123.00",
-            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+            "product_title": "A Ma Maniere Shoe",
+            "product_vendor": "A Ma Maniere",
+            "product_price": "123",
+            "release_link": ""
           }
         },
-        "release_eXhVAx": {
+        "release_cd68xi": {
           "type": "release",
           "settings": {
-            "release_title": "Launching In 6.12",
+            "release_title": "6.12",
             "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
-            "product_title": "A Ma Maniere Air Jordan 4",
-            "product_vendor": "A MA Maniere",
-            "product_price": "123.00",
-            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+            "product_title": "A Ma Maniere Shoe",
+            "product_vendor": "A Ma Maniere",
+            "product_price": "123",
+            "release_link": ""
           }
         },
-        "release_bH6tCn": {
+        "release_rJHyVH": {
           "type": "release",
           "settings": {
-            "release_title": "Launching In 6.12",
+            "release_title": "6.12",
             "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
-            "product_title": "A Ma Maniere Air Jordan 4",
-            "product_vendor": "A MA Maniere",
-            "product_price": "123.00",
-            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+            "product_title": "A Ma Maniere Shoe",
+            "product_vendor": "A Ma Maniere",
+            "product_price": "123",
+            "release_link": ""
           }
         },
-        "release_VFtaEe": {
+        "release_z6DQMd": {
           "type": "release",
           "settings": {
-            "release_title": "Launching In 6.12",
+            "release_title": "6.12",
             "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
-            "product_title": "A Ma Maniere Air Jordan 4",
-            "product_vendor": "A MA Maniere",
-            "product_price": "123.00",
-            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+            "product_title": "A Ma Maniere Shoe",
+            "product_vendor": "A Ma Maniere",
+            "product_price": "123",
+            "release_link": ""
           }
         },
-        "release_N3pyfq": {
+        "release_xkW8Dk": {
           "type": "release",
           "settings": {
-            "release_title": "Launching In 6.12",
+            "release_title": "6.12",
             "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
-            "product_title": "A Ma Maniere Air Jordan 4",
-            "product_vendor": "A MA Maniere",
-            "product_price": "123.00",
-            "release_link": "shopify://metaobjects/app--212954316801--offerpage/air-jordan-3-retro-for-the-love-fandf"
+            "product_title": "A Ma Maniere Shoe",
+            "product_vendor": "A Ma Maniere",
+            "product_price": "123",
+            "release_link": ""
           }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_grzi44",
-        "release_eXhVAx",
-        "release_bH6tCn",
-        "release_VFtaEe",
-        "release_N3pyfq"
+        "release_CVty6Q",
+        "release_cd68xi",
+        "release_rJHyVH",
+        "release_z6DQMd",
+        "release_xkW8Dk"
       ],
       "settings": {
         "color_scheme": "",
