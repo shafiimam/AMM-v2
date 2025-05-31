@@ -22,6 +22,7 @@
       "block_order": [
         "paragraph_PfMi7K"
       ],
+      "disabled": true,
       "settings": {
         "title": "{{ page.title }}",
         "description": "",
@@ -37,10 +38,82 @@
         "show_title": true,
         "page_width": "lg"
       }
+    },
+    "releases_w6pdWj": {
+      "type": "releases",
+      "blocks": {
+        "release_E6K3UB": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.06",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A MA Maniere Shoe",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": ""
+          }
+        },
+        "release_WG8AF3": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.06",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A MA Maniere Shoe",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": ""
+          }
+        },
+        "release_fTYeEb": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.06",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A MA Maniere Shoe",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": ""
+          }
+        },
+        "release_Dggarw": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.06",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A MA Maniere Shoe",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": ""
+          }
+        },
+        "release_iMdeX7": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.06",
+            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
+            "product_title": "A MA Maniere Shoe",
+            "product_vendor": "A MA Maniere",
+            "product_price": "123.00",
+            "release_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "release_E6K3UB",
+        "release_WG8AF3",
+        "release_fTYeEb",
+        "release_Dggarw",
+        "release_iMdeX7"
+      ],
+      "name": "Releases",
+      "settings": {
+        "title": "Releases"
+      }
     }
   },
   "order": [
     "content_page_section_GifitE",
-    "main"
+    "main",
+    "releases_w6pdWj"
   ]
 }
