@@ -118,6 +118,17 @@
             "product_price": "123",
             "release_link": ""
           }
+        },
+        "release_QpKyJV": {
+          "type": "release",
+          "settings": {
+            "release_title": "04.12",
+            "release_image": "shopify://shop_images/AM95BIGBUBBLEBRIGHTMANDARIN-1.jpg",
+            "product_title": "",
+            "product_vendor": "",
+            "product_price": "",
+            "release_link": ""
+          }
         }
       },
       "block_order": [
@@ -127,7 +138,8 @@
         "release_cd68xi",
         "release_rJHyVH",
         "release_z6DQMd",
-        "release_xkW8Dk"
+        "release_xkW8Dk",
+        "release_QpKyJV"
       ],
       "settings": {
         "color_scheme": "",
