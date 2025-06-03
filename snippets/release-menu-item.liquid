@@ -17,7 +17,8 @@
          {%- for block in release_blocks -%}
          <li>
             <summary class="header__menu-release-item-summary" data-follow-link="{{ block.settings.release_link }}">
-               <p class="h4">{{ block.settings.release_title }}</p>
+               <a href="{{ block.settings.release_link }}">
+                 <p class="h4">{{ block.settings.release_title }}</p>
                <img src="{{ block.settings.release_image | image_url: width: 800 }}"
                   alt="{{ block.settings.release_title }}" class="release-image" width="{{ block.settings.release_image.width }}" height="{{ block.settings.release_image.height }}">
                {% if block.settings.product_title != blank %}
@@ -29,6 +30,7 @@
                {% if block.settings.product_price != blank %}
                   <p class="text-subdued">{{ block.settings.product_price }}</p>
                {% endif %}
+               </a>
             </summary>
          </li>
          {%- endfor -%}
