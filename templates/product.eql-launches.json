@@ -52,26 +52,9 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
         "true_fit_widget_tpCKyE": {
           "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
           "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
         },
         "product_availability_bm4JRe": {
           "type": "product_availability",
@@ -176,9 +159,7 @@
         "price",
         "separator",
         "variant_picker",
-        "quantity_selector",
         "true_fit_widget_tpCKyE",
-        "buy_buttons",
         "product_availability_bm4JRe",
         "feature_with_icon_TyMeDX",
         "feature_with_icon_zCCbKy",
