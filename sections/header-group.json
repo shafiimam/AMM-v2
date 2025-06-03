@@ -155,7 +155,7 @@
         "show_country_flag": true,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
-        "show_releases": false
+        "show_releases": true
       }
     }
   },
