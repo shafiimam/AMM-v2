@@ -52,6 +52,20 @@
             "size_chart_page": ""
           }
         },
+        "eql_launches_eql_raffle_y448WU": {
+          "type": "shopify://apps/eql-launches/blocks/eql-raffle/527a5c25-0ce4-4c16-8597-6f87dfefb064",
+          "settings": {
+            "border_radius": "0",
+            "color_background": "#FFFFFF00",
+            "color_button_background": "#000000",
+            "color_button_text": "#FFFFFF",
+            "color_error_text": "#F00000",
+            "color_field_background": "#FFFFFF",
+            "color_field_text": "#000000",
+            "color_field_border": "#000000",
+            "color_text": "#000000"
+          }
+        },
         "true_fit_widget_tpCKyE": {
           "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
           "settings": {}
@@ -159,6 +173,7 @@
         "price",
         "separator",
         "variant_picker",
+        "eql_launches_eql_raffle_y448WU",
         "true_fit_widget_tpCKyE",
         "product_availability_bm4JRe",
         "feature_with_icon_TyMeDX",
@@ -405,6 +420,15 @@
         "title": "Frequently Asked Questions",
         "content": ""
       }
+    },
+    "17489835520db9de86": {
+      "type": "apps",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
@@ -414,6 +438,7 @@
     "image_with_text_rLpTcJ",
     "related-products",
     "media_grid_PbjVDy",
-    "faq_GQwnbW"
+    "faq_GQwnbW",
+    "17489835520db9de86"
   ]
 }
