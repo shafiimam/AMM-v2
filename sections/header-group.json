@@ -64,28 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_CVty6Q": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.06",
-            "release_image": "shopify://shop_images/AM95BIGBUBBLEBRIGHTMANDARIN-1_f00203d0-87c1-48d6-9b32-563de57c1ac6.jpg",
-            "product_title": "NIKE AIR MAX 95 OG \"BRIGHT MANDARIN\"",
-            "product_vendor": "NIKE",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-bright-mandarin"
-          }
-        },
-        "release_cd68xi": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.06",
-            "release_image": "shopify://shop_images/GEL-KAYANO14_CREAM_IRONCLAD_-1_73087b97-102c-4975-ac79-2f184aa494cd.jpg",
-            "product_title": "ASICS GEL-KAYANO 14 \"CREAM/IRON CLAD\"",
-            "product_vendor": "ASICS",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-gel-kayano-14-creamiron-clad"
-          }
-        },
         "release_rJHyVH": {
           "type": "release",
           "settings": {
@@ -108,6 +86,28 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-abzorb-2000-baby-blue"
           }
         },
+        "release_CVty6Q": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.13",
+            "release_image": "shopify://shop_images/VANDYTHEPINKXGEL-NIMBUS10.1_PINKBASE_-1_e36637d6-0b0b-457f-a22d-c7b4e27a6a9b.jpg",
+            "product_title": "ASICS GEL-NIMBUS 10.1 X VANDY THE PINK \"PINK BASE\"",
+            "product_vendor": "ASICS",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-vandy-the-pink-asics-gel-nimbus-101"
+          }
+        },
+        "release_cd68xi": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.14",
+            "release_image": "shopify://shop_images/AJ14FERRARI-1.jpg",
+            "product_title": "AIR JORDAN 14 RETRO \"FERRARI\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$210",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-14-retro-ferrari"
+          }
+        },
         "release_xkW8Dk": {
           "type": "release",
           "disabled": true,
@@ -124,10 +124,10 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_CVty6Q",
-        "release_cd68xi",
         "release_rJHyVH",
         "release_z6DQMd",
+        "release_CVty6Q",
+        "release_cd68xi",
         "release_xkW8Dk"
       ],
       "settings": {
