@@ -213,22 +213,10 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "satoshi-nakamoto-skeleton-vest-beige"
-          }
-        },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
             "product": "satoshi-nakamoto-smiley-tee-black"
-          }
-        },
-        "product_q8H3fy": {
-          "type": "product",
-          "settings": {
-            "product": "satoshi-nakamoto-enduro-denim-1"
           }
         },
         "product_CqUpFr": {
@@ -236,13 +224,25 @@
           "settings": {
             "product": "satoshi-nakamoto-mesh-moto-short"
           }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "satoshi-nakamoto-patchwork-flannel-shirt-multicolor"
+          }
+        },
+        "product_q8H3fy": {
+          "type": "product",
+          "settings": {
+            "product": "satoshi-nakamoto-enduro-denim-1"
+          }
         }
       },
       "block_order": [
-        "product_eekMqY",
         "product_mzGxhY",
-        "product_q8H3fy",
-        "product_CqUpFr"
+        "product_CqUpFr",
+        "product_eekMqY",
+        "product_q8H3fy"
       ],
       "settings": {
         "section_alignment": "left",
