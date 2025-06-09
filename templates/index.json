@@ -375,6 +375,81 @@
         "content": ""
       }
     },
+    "collection_list_cLGdiA": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_TTQa9R": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "juney-1",
+            "image": "shopify://shop_images/JUNETEENTH2.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "CELEBRATE JUNETEENTH<br>SHOP BLACK BRANDS",
+            "button_link": "shopify://collections/juney-1",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_WzFiA6": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "summer-collection",
+            "image": "shopify://shop_images/es2_5a8414bb-a493-4f0e-9512-a6eb14782959.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "SHOP SUMMER ESSENTIALS",
+            "button_link": "shopify://collections/summer-collection",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_xdtgbb": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "fathers-day",
+            "image": "shopify://shop_images/fatherday.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "GIFTS FOR HIM",
+            "button_link": "shopify://collections/fathers-day",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_TTQa9R",
+        "collection_WzFiA6",
+        "collection_xdtgbb"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "THE SUMMER ESCAPE EDIT",
+        "content": ""
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -383,7 +458,7 @@
           "settings": {
             "collection": "fathers-day",
             "products_count": 8,
-            "title": "For Every Kind of Father",
+            "title": "<strong>For Every Kind of Father</strong>",
             "link_url": "shopify://collections/fathers-day",
             "link_text": "View all"
           }
@@ -426,6 +501,7 @@
         "image_cHgxNx",
         "image_TpyxFX"
       ],
+      "disabled": true,
       "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
       "settings": {
         "color_scheme": "",
@@ -456,14 +532,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/bode6_ddf3a8ab-3c2e-4e5c-89b5-9383d0b631e5.jpg",
+            "image": "shopify://shop_images/2_7c1a7a69-35b1-4286-9096-478f1956fc38.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "BODE",
-            "link_url": "shopify://collections/bode",
+            "link_text": "ERL",
+            "link_url": "shopify://collections/erl",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -474,14 +550,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/BAL2_b4c2752a-480a-42c3-bf39-13d064bb9607.jpg",
+            "image": "shopify://shop_images/keishapinkhat_6d7b07f9-a662-4a59-a2b7-3c6b97a48219.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "BALENCIAGA",
-            "link_url": "shopify://collections/balenciaga",
+            "link_text": "NEW ERA",
+            "link_url": "shopify://collections/new-era",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -588,6 +664,7 @@
         "richtext_cBEMWd",
         "button_MkANMM"
       ],
+      "disabled": true,
       "custom_css": [
         "strong {color: #000;}",
         "p {margin-block-start: 2.5rem;}"
@@ -676,6 +753,7 @@
     "featureed_image_and_products_zaMf8b",
     "before-after",
     "media_grid_p7EKPQ",
+    "collection_list_cLGdiA",
     "featured-collections",
     "multiple_media_with_text_Lgp4CV",
     "media_grid_DzxzqH",
