@@ -66,6 +66,7 @@
         },
         "release_rJHyVH": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "6.07",
             "release_image": "shopify://shop_images/AJ11LOWIGLOO-1_044ca240-aad2-4689-9a76-d0913a9eae62.jpg",
