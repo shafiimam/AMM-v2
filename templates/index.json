@@ -203,7 +203,7 @@
         "show_next_section_button": true,
         "media_size": "fill",
         "show_initial_transition": false,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 10,
         "background": "#000000",
