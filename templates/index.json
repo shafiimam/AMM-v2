@@ -381,10 +381,10 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-1",
+            "collection": "fathers-day",
             "products_count": 8,
-            "title": "New Arrivals",
-            "link_url": "shopify://collections/new-arrivals-1",
+            "title": "For Every Kind of Father",
+            "link_url": "shopify://collections/fathers-day",
             "link_text": "View all"
           }
         }
