@@ -422,7 +422,7 @@
             "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "GIFTS FOR HIM",
+            "button_text": "GIFTS FOR dad",
             "button_link": "shopify://collections/fathers-day",
             "button_style": "solid",
             "overlay_color": "#000000",
@@ -446,7 +446,7 @@
         "collections_per_row_mobile": "1",
         "collections_per_row_desktop": 3,
         "subheading": "",
-        "title": "THE SUMMER ESCAPE EDIT",
+        "title": "",
         "content": ""
       }
     },
