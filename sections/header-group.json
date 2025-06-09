@@ -111,14 +111,13 @@
         },
         "release_xkW8Dk": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "6.12",
-            "release_image": "shopify://shop_images/NB2000BABYBLUE-1.jpg",
-            "product_title": "A Ma Maniere Shoe",
-            "product_vendor": "A Ma Maniere",
-            "product_price": "123",
-            "release_link": ""
+            "release_title": "6.14",
+            "release_image": "shopify://shop_images/AJ14FERARRIGS-1_1.jpg",
+            "product_title": "AIR JORDAN 14 RETRO \"CHALLENGE RED\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-14-retro-challenge-red-gs"
           }
         }
       },
