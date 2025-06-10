@@ -664,7 +664,6 @@
         "richtext_cBEMWd",
         "button_MkANMM"
       ],
-      "disabled": true,
       "custom_css": [
         "strong {color: #000;}",
         "p {margin-block-start: 2.5rem;}"
