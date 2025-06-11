@@ -42,26 +42,28 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "image_hFWrAE": {
-          "type": "image",
+        "video_Ap4miJ": {
+          "type": "video",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/satoshidesk2.jpg",
-            "mobile_image": "shopify://shop_images/satoshimob3.jpg",
-            "subheading": "shop new pieces",
-            "subheading_size": 14,
-            "title": "Satoshi Nakamoto",
-            "title_size": 30,
-            "mobile_text_position": "place-self-end text-end",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "video": "shopify://files/videos/ADIDEM V6.mov",
+            "mobile_video": "shopify://files/videos/ADIDEM V6.mov",
+            "allow_sound": false,
+            "subheading": "New styles",
+            "subheading_size": 12,
+            "title": "ADIDEM ASTERISKS",
+            "title_size": 26,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/satoshi-nakamoto",
-            "button_1_style": "link",
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/adidem-asterisks",
+            "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
             "button_2_link": "",
-            "button_2_style": "solid",
+            "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
@@ -71,15 +73,14 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "image_JfLDtr": {
+        "image_hFWrAE": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/ADIDEM_DESK1.jpg",
-            "mobile_image": "shopify://shop_images/ADIDEMMOB.jpg",
-            "subheading": "new pieces",
+            "image": "shopify://shop_images/satoshidesk2.jpg",
+            "mobile_image": "shopify://shop_images/satoshimob3.jpg",
+            "subheading": "shop new pieces",
             "subheading_size": 14,
-            "title": "adidem asterick",
+            "title": "Satoshi Nakamoto",
             "title_size": 30,
             "mobile_text_position": "place-self-end text-end",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -192,8 +193,8 @@
       },
       "block_order": [
         "image_ipYKBe",
+        "video_Ap4miJ",
         "image_hFWrAE",
-        "image_JfLDtr",
         "video_zB7x7d",
         "video_cHFk9Y",
         "video_tcwXyh"
