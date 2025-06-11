@@ -336,6 +336,44 @@
         "employee_instagram": ""
       }
     },
+    "eployee_with_collection_QcH3WA": {
+      "type": "eployee-with-collection",
+      "blocks": {
+        "collection_jNVWrq": {
+          "type": "collection",
+          "settings": {
+            "collection": "trevor-lloyd-skus",
+            "products_count": 15,
+            "title": "My Choices:",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_jNVWrq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "title": "Meet Our Staff",
+        "subheading": "Trevor started his journey at The Whitaker Group in 2023 after styling and buying for athletes at the collegiate and professional level. With a keen eye for luxury and a talent for conceptualizing refined aesthetics, he excels at curating elevated client experiences and cultivating an aspirational atmosphere. Based in Atlanta, Trevor blends global inspirations with warm hospitality to lead the team in delivering the brand’s signature blend of style, sophistication, and service.",
+        "employee_name": "Trevor Lloyd",
+        "employee_image": "shopify://shop_images/60F6547C-4646-49F0-97E4-F248576B1C48.jpg",
+        "employee_position": "Assistant Store Manager",
+        "enable_employee_social_media": false,
+        "employee_twitter": "",
+        "employee_tiktok": "",
+        "employee_linkedin": "",
+        "employee_instagram": ""
+      }
+    },
     "eployee_with_collection_z3TxTy": {
       "type": "eployee-with-collection",
       "blocks": {
@@ -520,6 +558,7 @@
     "image_with_text_QNEjBt",
     "featured_collections_wzB8F7",
     "eployee_with_collection_mn8nDL",
+    "eployee_with_collection_QcH3WA",
     "eployee_with_collection_z3TxTy",
     "eployee_with_collection_FYHyHH",
     "beach_location_banner_nGbcUy",
