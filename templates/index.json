@@ -71,6 +71,36 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
+        "image_JfLDtr": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ADIDEM_DESK1.jpg",
+            "mobile_image": "shopify://shop_images/ADIDEMMOB.jpg",
+            "subheading": "new pieces",
+            "subheading_size": 14,
+            "title": "adidem asterick",
+            "title_size": 30,
+            "mobile_text_position": "place-self-end text-end",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/satoshi-nakamoto",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_zB7x7d": {
           "type": "video",
           "settings": {
@@ -158,45 +188,15 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
-        },
-        "video_XmCw8t": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
-            "allow_sound": false,
-            "subheading": "new styles",
-            "subheading_size": 20,
-            "title": "WILLY CHAVARRIA",
-            "title_size": 44,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/willy-chavarria",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
         }
       },
       "block_order": [
         "image_ipYKBe",
         "image_hFWrAE",
+        "image_JfLDtr",
         "video_zB7x7d",
         "video_cHFk9Y",
-        "video_tcwXyh",
-        "video_XmCw8t"
+        "video_tcwXyh"
       ],
       "settings": {
         "allow_transparent_header": false,
