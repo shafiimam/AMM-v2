@@ -42,19 +42,18 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_Ap4miJ": {
+        "video_tcwXyh": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ADIDEM V6.mov",
             "mobile_video": "shopify://files/videos/ADIDEM V6.mov",
             "allow_sound": false,
-            "subheading": "New styles",
-            "subheading_size": 12,
-            "title": "ADIDEM ASTERISKS",
-            "title_size": 26,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "new styles",
+            "subheading_size": 15,
+            "title": "A Ma Maniére x Adidem Asterisks",
+            "title_size": 24,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "Shop",
             "button_1_link": "shopify://collections/adidem-asterisks",
@@ -132,36 +131,7 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_cHFk9Y": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/ERL Rollout AMA web .mov",
-            "allow_sound": false,
-            "subheading": "New styles",
-            "subheading_size": 12,
-            "title": "ERL",
-            "title_size": 32,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/erl",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "video_tcwXyh": {
+        "video_7KwqgJ": {
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/ES 4k NO LOGO WEB.mov",
@@ -193,11 +163,10 @@
       },
       "block_order": [
         "image_ipYKBe",
-        "video_Ap4miJ",
+        "video_tcwXyh",
         "image_hFWrAE",
         "video_zB7x7d",
-        "video_cHFk9Y",
-        "video_tcwXyh"
+        "video_7KwqgJ"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -217,42 +186,42 @@
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "satoshi-nakamoto-smiley-tee-black"
+            "product": "adidem-asterisks-59fifty-dc-cap-red"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "satoshi-nakamoto-mesh-moto-short"
-          }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "satoshi-nakamoto-patchwork-flannel-shirt-multicolor"
+            "product": "adidem-asterisks-apple-tee"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "satoshi-nakamoto-enduro-denim-1"
+            "product": "adidem-asterisks-crm-knit-jersey"
+          }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "adidem-asterisks-rust-studded-denim-short"
           }
         }
       },
       "block_order": [
         "product_mzGxhY",
         "product_CqUpFr",
-        "product_eekMqY",
-        "product_q8H3fy"
+        "product_q8H3fy",
+        "product_eekMqY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "Satoshi nakamoto",
+        "title": "Adidem Asterisks*",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/satoshicopy.jpg",
-        "image_description": "<p>A name shrouded in mystery. A legacy defined by vision.<br/><br/>At the intersection of anonymity and influence, <strong>SATOSHI NAKAMOTO </strong>embodies quiet power, precision, and modern elegance.</p><p>Luxury in code. Identity in silence.</p>",
+        "image": "shopify://shop_images/Untitled-12_fe60b484-b76e-448d-93ef-6469adb12837.jpg",
+        "image_description": "<p><strong> A Ma Maniére x Adidem Asterisks* \"A\" Logo Fitted Cap. </strong>Now available in Navy Blue, Red, and Burgundy.<br/><br/>The iconic “A” Logo Fitted makes its return—reimagined with bold detail and elevated energy. Drawing inspiration from vintage baseball caps, A Ma Maniére and Adidem Asterisks* join forces to modernize the classic New Era 59FIFTY silhouette.<strong><br/><br/></strong>Premium textures. Timeless structure.<br/><br/></p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/satoshi-nakamoto"
+        "image_cta_url": "shopify://collections/adidem-asterisks"
       }
     },
     "before-after": {
@@ -389,7 +358,7 @@
             "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "CELEBRATE JUNETEENTH<br>SHOP BLACK BRANDS",
+            "button_text": "CELEBRATE JUNETEENTHSHOP BLACK BRANDS",
             "button_link": "shopify://collections/juney-1",
             "button_style": "solid",
             "overlay_color": "#000000",
@@ -436,7 +405,6 @@
         "collection_WzFiA6",
         "collection_xdtgbb"
       ],
-      "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -503,7 +471,6 @@
         "image_TpyxFX"
       ],
       "disabled": true,
-      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
       "settings": {
         "color_scheme": "",
         "reveal_on_scroll": true,
