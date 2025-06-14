@@ -132,9 +132,8 @@
         },
         "countdown_cDXnhg": {
           "type": "countdown",
-          "disabled": true,
           "settings": {
-            "final_date": "21-04-2022",
+            "final_date": "21-06-2025",
             "final_time": "15:00",
             "start_countdown": true
           }
