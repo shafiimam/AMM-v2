@@ -56,7 +56,9 @@
           "settings": {
             "image": "shopify://shop_images/AJ5_HEADER_31ae242f-9f9d-401d-b1db-9ba46d63c436.jpg",
             "subheading": "Launches on A Ma Maniére on 11.24.23",
+            "subheading_size": 12,
             "title": "A Ma Maniére x Air Jordan V",
+            "title_size": 32,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
@@ -102,6 +104,13 @@
         "video_size": "fill",
         "external_video_url": "https://youtu.be/Rn-B3ZBx7W0",
         "text_color": "#ffffff"
+      }
+    },
+    "amm_af1_3d_gallery_UgTUxL": {
+      "type": "amm-af1-3d-gallery",
+      "settings": {
+        "title": "Explore in 3d",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953"
       }
     },
     "image_with_text_7Xm8Cg": {
@@ -879,6 +888,7 @@
     "hero_with_logo_nPMzTc",
     "slideshow_rBdfjJ",
     "video_tVEdzM",
+    "amm_af1_3d_gallery_UgTUxL",
     "image_with_text_7Xm8Cg",
     "media_grid_HwBKby",
     "media_grid_4MXqFL"
