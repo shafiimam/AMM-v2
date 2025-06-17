@@ -79,34 +79,12 @@
         "release_CVty6Q": {
           "type": "release",
           "settings": {
-            "release_title": "6.13",
-            "release_image": "shopify://shop_images/VANDYTHEPINKXGEL-NIMBUS10.1_PINKBASE_-1_e36637d6-0b0b-457f-a22d-c7b4e27a6a9b.jpg",
-            "product_title": "ASICS GEL-NIMBUS 10.1 X VANDY THE PINK \"PINK BASE\"",
+            "release_title": "6.19",
+            "release_image": "shopify://shop_images/MADEINUK991V2_MINERALGREEN_-1_b46a24af-3da2-4af3-8f2f-9463b82a866f.jpg",
+            "product_title": "NEW BALANCE MADE IN UK 991v2 \"MINERAL GREEN\"",
             "product_vendor": "",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-vandy-the-pink-asics-gel-nimbus-101"
-          }
-        },
-        "release_cd68xi": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.14",
-            "release_image": "shopify://shop_images/AJ14FERRARI-1.jpg",
-            "product_title": "AIR JORDAN 14 RETRO \"CHALLENGE RED\"",
-            "product_vendor": "",
-            "product_price": "$210",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-14-retro-ferrari"
-          }
-        },
-        "release_xkW8Dk": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.14",
-            "release_image": "shopify://shop_images/AJ14FERARRIGS-1_1.jpg",
-            "product_title": "AIR JORDAN 14 RETRO \"CHALLENGE RED\" GS",
-            "product_vendor": "",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-14-retro-challenge-red-gs"
+            "product_price": "$250",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-uk-991-v2-mineral-green"
           }
         },
         "release_z6DQMd": {
@@ -119,6 +97,28 @@
             "product_price": "$140",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-waffle-sp-2"
           }
+        },
+        "release_cd68xi": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.20",
+            "release_image": "shopify://shop_images/FOAMPOSITEWHITE-1_1.jpg",
+            "product_title": "NIKE AIR FOAMPOSITE ONE \"WHITE\"",
+            "product_vendor": "",
+            "product_price": "$230",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-foamposite-one-white"
+          }
+        },
+        "release_xkW8Dk": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.21",
+            "release_image": "shopify://shop_images/EDISONCHENSTANSMITH_WHITE_NAVY_-1_de85f275-74ea-4d80-b89b-97d7ba8d6702.jpg",
+            "product_title": "ADIDAS EDISON CHEN STAN SMITH 'WHITE/NAVY'",
+            "product_vendor": "",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-edison-chen-stan-smith-whitenavy"
+          }
         }
       },
       "block_order": [
@@ -126,9 +126,9 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_CVty6Q",
+        "release_z6DQMd",
         "release_cd68xi",
-        "release_xkW8Dk",
-        "release_z6DQMd"
+        "release_xkW8Dk"
       ],
       "settings": {
         "color_scheme": "",
