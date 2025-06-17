@@ -1,5 +1,4 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="{{ 'angle.js' | asset_url }}"></script>
+<script src="{{ 'angle.js' | asset_url }}" async></script>
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
@@ -8,22 +7,18 @@
   <div class="gallery-content-container">
     <div class="three-d-gallery">
       <div class="top-text">Try</div>
-      <div class="angle-view" id="angle-view1">
+      <div class="angle-view" id="angle-view-{{ section.id }}">
         <ul>
           {% for i in (start_index..end_index) %}
             <li>
-              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600">
+              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600" class="angle-image">
             </li>
           {% endfor %}
         </ul>
       </div>
       <div class="bottom-text">Now</div>
       <div class="gallery-controls">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0626/9065/files/360arrow.png?v=1735330447"
-          alt="gallery control"
-          srcset=""
-        >
+        {% render '360-knob' %}
       </div>
       {% if section.settings.button_label != blank %}
         <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
@@ -33,13 +28,23 @@
 </div>
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {
-    $('#angle-view1').angle({
-      speed: 2,
-      previous: '.prev-image',
-      next: '.next-image',
-      drag: true,
-      current: 1,
-    });
+    let loadInterval = setInterval(() => {
+      if (window.$) {
+        clearInterval(loadInterval);
+        console.log('loaded');
+        const angleInstance = $('#angle-view-{{ section.id }}').angle({
+          speed: 2,
+          previous: '.prev-image',
+          next: '.next-image',
+          drag: true,
+          current: 1,
+        })
+        $('#angle-view-{{ section.id }}').addClass('ready');
+        console.log(angleInstance);
+        // Store the instance for external access (e.g., from slider knob)
+        window.angleViewer = angleInstance;
+      }
+    }, 500);
   });
 </script>
 <style>
@@ -66,11 +71,16 @@
     display: block;
     margin: 18px auto;
   }
-  div#angle-view1 {
+  div#angle-view-{{ section.id }} {
     border: none;
     background: #fff;
     position: relative;
     z-index: 1;
+    transform: translateX(200%);
+    transition: all 0.5s ease-in-out;
+  }
+  .angle-view.ready{
+    transform: translateX(0) !important; 
   }
   #angle-view1 img {
     object-fit: contain;
@@ -101,6 +111,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    overflow: hidden;
   }
   .top-text,
   .bottom-text {
