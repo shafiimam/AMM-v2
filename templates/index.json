@@ -16,6 +16,35 @@
           "type": "image",
           "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/desk6_52f1397b-ea0b-4467-b8ab-3653e5e67b2b.jpg",
+            "subheading": "\"Every Summer Tells a Story \"",
+            "subheading_size": 21,
+            "title": "Act 1: the block",
+            "title_size": 24,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-start-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "ENTER RAFFLE",
+            "button_1_link": "/",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "/",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_xqxJfJ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
             "image": "shopify://shop_images/ammdesk2_6bb8dc5a-6ea4-437a-97d6-61261f40bf50.jpg",
             "mobile_image": "shopify://shop_images/apbmob2_6ccdc5a0-34d9-453b-a9a3-9145afa0abd6.jpg",
             "subheading": "AVAILABLE 6.27 AT 11AM",
@@ -163,6 +192,7 @@
       },
       "block_order": [
         "image_ipYKBe",
+        "image_xqxJfJ",
         "video_tcwXyh",
         "image_hFWrAE",
         "video_zB7x7d",
