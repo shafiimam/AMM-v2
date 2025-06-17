@@ -34,13 +34,17 @@
       if (window.$) {
         clearInterval(loadInterval);
         console.log('loaded');
-        $('#angle-view-simple-{{ section.id }}').angle({
+        const angleInstance = $('#angle-view-{{ section.id }}').angle({
           speed: 2,
           previous: '.prev-image',
           next: '.next-image',
           drag: true,
           current: 1,
-        }).addClass('ready');
+        })
+        $('#angle-view-{{ section.id }}').addClass('ready');
+        console.log(angleInstance);
+        // Store the instance for external access (e.g., from slider knob)
+        window.angleViewer = angleInstance;
       }
     }, 500);
   });
