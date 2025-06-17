@@ -1,59 +1,6 @@
-<style>
-  .slider-container {
-    position: relative;
-    width: 600px;
-    height: 140px;
-  }
-  .slider-track {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: translateY(-50%);
-    border-radius: 2px;
-  }
-  .slider-track svg {
-    width: 100%;
-    height: 100%;
-  }
 
-  .knob {
-    width: 80px;
-    height: 80px;
-    background: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    position: absolute;
-    cursor: pointer;
-    user-select: none;
-    bottom: 5px;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  }
-  @media (max-width: 500px) {
-    .slider-container {
-      height: 100px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .slider-container {
-      display: flex;
-      justify-content: center;
-      width: 90vw;
-    }
-    .knob {
-      width: 60px;
-      height: 60px;
-    }
-  }
-</style>
-<div class="slider-container" id="sliderArea">
-  <div class="slider-track">
+<div class="gallery-slider-knob-container" id="sliderArea-{{ section.id }}">
+  <div class="slider-knob-track">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="702"
@@ -72,7 +19,7 @@
       </defs>
     </svg>
   </div>
-  <div class="knob" id="knob">
+  <div class="knob" id="knob-{{ section.id }}" data-section-id="{{ section.id }}">
     <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
       <path d="M13.2799 2.52319L20.8633 6.94753V12.7986C21.9791 13.2883 22.9509 13.9014 23.6908 14.6262C24.5878 15.5037 25.1966 16.6033 25.1966 17.861C25.1966 19.9876 23.5001 21.6224 21.4245 22.6602C19.2838 23.7305 16.4032 24.361 13.2799 24.361C10.1567 24.361 7.27503 23.7305 5.13545 22.6602C3.05978 21.6224 1.36328 19.9887 1.36328 17.861C1.36328 16.6033 1.97211 15.5048 2.86911 14.6262C3.60903 13.9004 4.58078 13.2883 5.69662 12.7986V6.94753L13.2799 2.52319ZM5.69662 15.2177C5.21934 15.4787 4.77798 15.8006 4.38362 16.1754C3.77261 16.7734 3.52995 17.3464 3.52995 17.861C3.52995 18.7255 4.25903 19.8002 6.10395 20.7221C7.88495 21.6126 10.4199 22.1944 13.2799 22.1944C16.1399 22.1944 18.6749 21.6126 20.456 20.7221C22.3009 19.8002 23.03 18.7255 23.03 17.861C23.03 17.3464 22.7873 16.7734 22.1763 16.1743C21.7819 15.7999 21.3405 15.4784 20.8633 15.2177V15.7756L13.2799 20.1999L5.69662 15.7756V15.2177ZM18.6966 14.5319V9.58978L14.3633 11.998V17.0583L18.6966 14.5319ZM12.1966 17.0594V12.0002L7.86328 9.58869V14.5287L12.1966 17.0594ZM8.81228 7.63761L13.2799 10.1217L17.7476 7.63761L13.2799 5.03219L8.81228 7.63761Z" fill="white"/>
     </svg>
@@ -80,4 +27,21 @@
   </div>
 </div>
 
-<script src="{{ '360-knob.js' | asset_url }}" defer></script>
+<script>
+  // Initialize the controller when angleViewer is ready
+  (function () {
+    const angleReadyInterval = setInterval(() => {
+      if (window?.angleViewerInstances?.length) {
+        const angleViewer = window.angleViewerInstances.find((instance) => instance.sectionId === '{{ section.id }}');
+        clearInterval(angleReadyInterval);
+        const knobController = new KnobController({
+          knobId: 'knob-{{ section.id }}',
+          sliderAreaId: 'sliderArea-{{ section.id }}',
+          angleViewer: angleViewer.instance,
+          angleViewId: 'angle-view-{{ section.id }}',
+        });
+        knobController.init();
+      }
+    }, 300);
+  })();
+</script>
