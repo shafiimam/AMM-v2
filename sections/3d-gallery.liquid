@@ -1,22 +1,29 @@
-<script src="{{ 'angle.js' | asset_url }}" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="{{ 'angle.js' | asset_url }}"></script>
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
-<div class="three-d-gallery-container container container--lg" id="shopify-section-{{ section.id }}">
+<div class="three-d-gallery-container container container--lg">
   <h2 class="h1 text-center">{{ section.settings.title | default: '3D Gallery' }}</h2>
   <div class="gallery-content-container">
     <div class="three-d-gallery">
-      <div class="angle-view" id="angle-view-{{ section.id }}">
+      <div class="top-text">Try</div>
+      <div class="angle-view" id="angle-view1">
         <ul>
           {% for i in (start_index..end_index) %}
             <li>
-              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600" class="angle-image">
+              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600">
             </li>
           {% endfor %}
         </ul>
       </div>
+      <div class="bottom-text">Now</div>
       <div class="gallery-controls">
-        {% render '360-knob' , section: section %}
+        <img
+          src="https://cdn.shopify.com/s/files/1/0626/9065/files/360arrow.png?v=1735330447"
+          alt="gallery control"
+          srcset=""
+        >
       </div>
       {% if section.settings.button_label != blank %}
         <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
@@ -26,27 +33,17 @@
 </div>
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {
-    let loadInterval = setInterval(() => {
-      if (window.$) {
-        clearInterval(loadInterval);
-        console.log('loaded');
-        const angleInstance = $('#angle-view-{{ section.id }}').angle({
-          speed: 2,
-          previous: '.prev-image',
-          next: '.next-image',
-          drag: true,
-          current: 1,
-        })
-        $('#angle-view-{{ section.id }}').addClass('ready');
-        console.log(angleInstance);
-        // Store the instance for external access (e.g., from slider knob)
-        window.angleViewer = angleInstance;
-      }
-    }, 500);
+    $('#angle-view1').angle({
+      speed: 2,
+      previous: '.prev-image',
+      next: '.next-image',
+      drag: true,
+      current: 1,
+    });
   });
 </script>
 <style>
-  #shopify-section-{{ section.id }} {
+  .three-d-gallery-container {
     margin: 40px 0;
   }
   .angle-view {
@@ -69,16 +66,11 @@
     display: block;
     margin: 18px auto;
   }
-  div#angle-view-{{ section.id }} {
+  div#angle-view1 {
     border: none;
     background: #fff;
     position: relative;
     z-index: 1;
-    transform: translateX(200%);
-    transition: all 0.5s ease-in-out;
-  }
-  .angle-view.ready{
-    transform: translateX(0) !important; 
   }
   #angle-view1 img {
     object-fit: contain;
@@ -90,7 +82,7 @@
     width: 100%;
     z-index: 2;
     position: absolute;
-    bottom: 100px;
+    bottom: 0;
   }
   .gallery-controls img {
     max-width: 700px;
@@ -109,7 +101,6 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    overflow: hidden;
   }
   .top-text,
   .bottom-text {
