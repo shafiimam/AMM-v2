@@ -2,11 +2,10 @@
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
-<div class="three-d-gallery-container container container--lg">
+<div class="three-d-gallery-container container container--lg" id="shopify-section-{{ section.id }}">
   <h2 class="h1 text-center">{{ section.settings.title | default: '3D Gallery' }}</h2>
   <div class="gallery-content-container">
     <div class="three-d-gallery">
-      <div class="top-text">Try</div>
       <div class="angle-view" id="angle-view-{{ section.id }}">
         <ul>
           {% for i in (start_index..end_index) %}
@@ -16,7 +15,6 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="bottom-text">Now</div>
       <div class="gallery-controls">
         {% render '360-knob' %}
       </div>
@@ -48,7 +46,7 @@
   });
 </script>
 <style>
-  .three-d-gallery-container {
+  #shopify-section-{{ section.id }} {
     margin: 40px 0;
   }
   .angle-view {
@@ -92,7 +90,7 @@
     width: 100%;
     z-index: 2;
     position: absolute;
-    bottom: 0;
+    bottom: 100px;
   }
   .gallery-controls img {
     max-width: 700px;
