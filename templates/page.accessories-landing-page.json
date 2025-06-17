@@ -106,7 +106,6 @@
         "separate_section_with_border": false,
         "image": "shopify://shop_images/DSC07068_BB_3.png",
         "mobile_image": "shopify://shop_images/DSC07068_BB_3.png",
-
         "circular_text": "FLATLISTEYEWEAFRFLATLISTEYEWEAR FLATLISTEYEWEAR",
         "reveal_on_scroll": true,
         "image_position": "end",
@@ -206,22 +205,31 @@
         "end_index": "50",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB031",
         "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/jacquemus/products/jacquemus-le-cuerda-horiz"
+        "button_link": "https://www.a-ma-maniere.com/collections/jacquemus/products/jacquemus-le-cuerda-horiz",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "3d_gallery_fKkNmV": {
       "type": "3d-gallery",
-      "custom_css": [
-        ".gallery-controls {position: relative;}",
-        ".angle-view {width: 40% !important; @media (max-width: 768px) {width: 60% !important; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Look Closer",
         "start_index": "5",
         "end_index": "62",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB034",
         "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/rick-owens/products/rick-owens-mainline-kreister-sunglasses"
+        "button_link": "https://www.a-ma-maniere.com/collections/rick-owens/products/rick-owens-mainline-kreister-sunglasses",
+        "knob_position": 100,
+        "gallery_width": 40,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "featured_collections_Dtrtbp": {
