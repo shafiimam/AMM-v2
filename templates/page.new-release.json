@@ -118,6 +118,18 @@
         "button_link": ""
       }
     },
+    "3d_gallery_simple_tzqkH8": {
+      "type": "3d-gallery-simple",
+      "name": "3D Gallery",
+      "settings": {
+        "title": "AMM AF1 3D Gallery",
+        "start_index": "2",
+        "end_index": "53",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC077",
+        "button_label": "Shop Now",
+        "button_link": ""
+      }
+    },
     "image_with_text_7Xm8Cg": {
       "type": "image-with-text",
       "blocks": {
@@ -765,6 +777,7 @@
     "slideshow_rBdfjJ",
     "video_tVEdzM",
     "3d_gallery_simple_BHbaNw",
+    "3d_gallery_simple_tzqkH8",
     "image_with_text_7Xm8Cg",
     "media_grid_HwBKby",
     "media_grid_4MXqFL"
