@@ -2,25 +2,23 @@
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
-<div class="three-d-gallery-simple-container container container--lg">
-  <h2 class="h1 text-center">{{ section.settings.title }}</h2>
+<div class="three-d-gallery-container container container--lg">
+  <h2 class="h1 text-center">{{ section.settings.title | default: '3D Gallery' }}</h2>
   <div class="gallery-content-container">
-    <div class="three-d-gallery-simple">
-      <div class="angle-view-simple" id="angle-view-simple-{{ section.id }}">
+    <div class="three-d-gallery">
+      <div class="top-text">Try</div>
+      <div class="angle-view" id="angle-view-{{ section.id }}">
         <ul>
           {% for i in (start_index..end_index) %}
             <li>
-              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600">
+              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600" class="angle-image">
             </li>
           {% endfor %}
         </ul>
       </div>
-      <div class="gallery-controls-simple">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0626/9065/files/360arrow.png?v=1735330447"
-          alt="gallery control"
-          srcset=""
-        >
+      <div class="bottom-text">Now</div>
+      <div class="gallery-controls">
+        {% render '360-knob' %}
       </div>
       {% if section.settings.button_label != blank %}
         <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
@@ -50,30 +48,30 @@
   });
 </script>
 <style>
-  .three-d-gallery-simple-container {
+  .three-d-gallery-container {
     margin: 40px 0;
-    padding: 40px 0;
   }
-  .angle-view-simple {
+  .angle-view {
     overflow: hidden;
+    width: 65vw;
     margin: 10px auto;
     border: 5px solid #cecece;
   }
-  .angle-view-simple ul {
+  .angle-view ul {
     margin: 0;
     padding: 0;
   }
-  .angle-view-simple li {
+  .angle-view li {
     list-style: none;
     display: flex;
     align-items: center;
   }
-  .angle-view-simple img {
+  .angle-view img {
     width: 90%;
     display: block;
     margin: 18px auto;
   }
-  div#angle-view-simple-{{ section.id }} {
+  div#angle-view-{{ section.id }} {
     border: none;
     background: #fff;
     position: relative;
@@ -81,33 +79,33 @@
     transform: translateX(200%);
     transition: all 0.5s ease-in-out;
   }
-  .angle-view-simple.ready{
+  .angle-view.ready{
     transform: translateX(0) !important; 
   }
-  #angle-view-simple1 img {
+  #angle-view1 img {
     object-fit: contain;
     margin: 0 auto;
   }
-  .gallery-controls-simple {
+  .gallery-controls {
     display: flex;
     justify-content: center;
     width: 100%;
     z-index: 2;
+    position: absolute;
     bottom: 0;
-    max-width: 30vw;
   }
-  .gallery-controls-simple img {
+  .gallery-controls img {
     max-width: 700px;
     width: 100%;
   }
-  .three-d-gallery-simple-container {
+  .three-d-gallery-container {
     margin: 0 auto;
   }
-  .three-d-gallery-simple-container .title {
+  .three-d-gallery-container .title {
     color: #fff;
     font-family: Saol Display, sans-serif;
   }
-  .three-d-gallery-simple {
+  .three-d-gallery {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -115,8 +113,30 @@
     gap: 20px;
     overflow: hidden;
   }
+  .top-text,
+  .bottom-text {
+    color: rgba(36, 36, 36, 0.15);
+    font-family: 'Saol Display';
+    font-size: 15vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -5.4px;
+    text-transform: uppercase;
+    z-index: 2;
+    user-select: none;
+  }
+  .top-text {
+    position: absolute;
+    left: 20px;
+  }
+  .bottom-text {
+    position: absolute;
+    right: 20px;
+    top: 55%;
+  }
   @media and (max-width: 768px) {
-    .angle-view-simple {
+    .angle-view {
       max-width: 90dvw;
       margin: 20px auto;
       max-height: 500px;
@@ -125,7 +145,7 @@
 </style>
 {% schema %}
 {
-  "name": "3D Gallery Simple",
+  "name": "3D Gallery",
   "tag": "section",
   "settings": [
     {
