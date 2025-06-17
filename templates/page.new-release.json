@@ -106,11 +106,16 @@
         "text_color": "#ffffff"
       }
     },
-    "amm_af1_3d_gallery_UgTUxL": {
-      "type": "amm-af1-3d-gallery",
+    "3d_gallery_simple_BHbaNw": {
+      "type": "3d-gallery-simple",
+      "name": "3D Gallery",
       "settings": {
-        "title": "Explore in 3d",
-        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953"
+        "title": "3D Gallery",
+        "start_index": "2",
+        "end_index": "53",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC077",
+        "button_label": "Shop Now",
+        "button_link": ""
       }
     },
     "image_with_text_7Xm8Cg": {
@@ -759,7 +764,7 @@
     "hero_with_logo_nPMzTc",
     "slideshow_rBdfjJ",
     "video_tVEdzM",
-    "amm_af1_3d_gallery_UgTUxL",
+    "3d_gallery_simple_BHbaNw",
     "image_with_text_7Xm8Cg",
     "media_grid_HwBKby",
     "media_grid_4MXqFL"
