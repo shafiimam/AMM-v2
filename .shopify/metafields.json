@@ -178,6 +178,26 @@
         "name": "single_line_text_field",
         "category": "TEXT"
       }
+    },
+    {
+      "key": "launchId",
+      "namespace": "eqlLaunchesApp",
+      "name": "EQL Launch ID",
+      "description": null,
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "launchType",
+      "namespace": "eqlLaunchesApp",
+      "name": "EQL Launch Type",
+      "description": null,
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "variant": [
