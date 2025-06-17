@@ -6,7 +6,6 @@
   <h2 class="h1 text-center">{{ section.settings.title | default: '3D Gallery' }}</h2>
   <div class="gallery-content-container">
     <div class="three-d-gallery">
-      <div class="top-text">Try</div>
       <div class="angle-view" id="angle-view-{{ section.id }}">
         <ul>
           {% for i in (start_index..end_index) %}
@@ -16,7 +15,6 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="bottom-text">Now</div>
       <div class="gallery-controls">
         {% render '360-knob' %}
       </div>
