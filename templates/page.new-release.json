@@ -108,6 +108,7 @@
     },
     "3d_gallery_simple_BHbaNw": {
       "type": "3d-gallery-simple",
+      "disabled": true,
       "name": "3D Gallery",
       "settings": {
         "title": "AMM AF1 3D Gallery",
