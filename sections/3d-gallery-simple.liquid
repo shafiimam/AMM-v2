@@ -16,7 +16,8 @@
         </ul>
       </div>
       <div class="gallery-controls">
-        {% render '360-knob' %}
+         {% assign selector = 'shopify-section' | append : section.id %}
+        {% render '360-knob' , selector: selector %}
       </div>
       {% if section.settings.button_label != blank %}
         <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
