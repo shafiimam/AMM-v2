@@ -2,22 +2,25 @@
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
-<div class="three-d-gallery-container container container--lg" id="shopify-section-{{ section.id }}">
-  <h2 class="h1 text-center">{{ section.settings.title | default: '3D Gallery' }}</h2>
+<div class="three-d-gallery-container container container--lg">
+  <h2 class="h1 text-center">{{ section.settings.title }}</h2>
   <div class="gallery-content-container">
     <div class="three-d-gallery">
       <div class="angle-view" id="angle-view-{{ section.id }}">
         <ul>
           {% for i in (start_index..end_index) %}
             <li>
-              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600" class="angle-image">
+              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600">
             </li>
           {% endfor %}
         </ul>
       </div>
       <div class="gallery-controls">
-         {% assign selector = 'shopify-section' | append : section.id %}
-        {% render '360-knob' , selector: selector %}
+        <img
+          src="https://cdn.shopify.com/s/files/1/0626/9065/files/360arrow.png?v=1735330447"
+          alt="gallery control"
+          srcset=""
+        >
       </div>
       {% if section.settings.button_label != blank %}
         <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
@@ -31,23 +34,19 @@
       if (window.$) {
         clearInterval(loadInterval);
         console.log('loaded');
-        const angleInstance = $('#angle-view-{{ section.id }}').angle({
+        $('#angle-view-{{ section.id }}').angle({
           speed: 2,
           previous: '.prev-image',
           next: '.next-image',
           drag: true,
           current: 1,
-        })
-        $('#angle-view-{{ section.id }}').addClass('ready');
-        console.log(angleInstance);
-        // Store the instance for external access (e.g., from slider knob)
-        window.angleViewer = angleInstance;
+        }).addClass('ready');
       }
     }, 500);
   });
 </script>
 <style>
-  #shopify-section-{{ section.id }} {
+  .three-d-gallery-container {
     margin: 40px 0;
   }
   .angle-view {
@@ -91,7 +90,7 @@
     width: 100%;
     z-index: 2;
     position: absolute;
-    bottom: 100px;
+    bottom: 0;
   }
   .gallery-controls img {
     max-width: 700px;
@@ -111,28 +110,6 @@
     align-items: center;
     gap: 20px;
     overflow: hidden;
-  }
-  .top-text,
-  .bottom-text {
-    color: rgba(36, 36, 36, 0.15);
-    font-family: 'Saol Display';
-    font-size: 15vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -5.4px;
-    text-transform: uppercase;
-    z-index: 2;
-    user-select: none;
-  }
-  .top-text {
-    position: absolute;
-    left: 20px;
-  }
-  .bottom-text {
-    position: absolute;
-    right: 20px;
-    top: 55%;
   }
   @media and (max-width: 768px) {
     .angle-view {
