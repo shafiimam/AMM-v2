@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "slideshow_QGYQ6e": {
       "type": "slideshow",
@@ -384,7 +384,7 @@
             "color_scheme": "",
             "collection": "juney-1",
             "image": "shopify://shop_images/JUNETEENTH2.jpg",
-            "expand_collection": false,
+            "expand_collection": true,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
@@ -401,7 +401,7 @@
             "color_scheme": "",
             "collection": "summer-collection",
             "image": "shopify://shop_images/es2_5a8414bb-a493-4f0e-9512-a6eb14782959.jpg",
-            "expand_collection": false,
+            "expand_collection": true,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
@@ -414,6 +414,7 @@
         },
         "collection_xdtgbb": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "collection": "fathers-day",
@@ -454,6 +455,7 @@
       "blocks": {
         "collection-1": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "fathers-day",
             "products_count": 8,
