@@ -21,6 +21,7 @@
     },
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Untitled-23_d6b35551-a0c8-4fc6-b4e5-292bed384bfd.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
@@ -337,7 +338,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/am11.jpg",
+            "image": "shopify://shop_images/803e3cd3c1410f61ee939257a7c88173.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
