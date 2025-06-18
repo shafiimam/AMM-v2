@@ -145,12 +145,23 @@
             "final_time": "15:00",
             "start_countdown": true
           }
+        },
+        "button_JRcf9n": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_HiTgQk",
         "richtext_Pdk9a9",
-        "countdown_cDXnhg"
+        "countdown_cDXnhg",
+        "button_JRcf9n"
       ],
       "custom_css": [
         ".container * {text-align: center;}",
