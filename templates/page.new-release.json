@@ -138,6 +138,16 @@
             "text_color": "#eaeaea"
           }
         },
+        "button_JRcf9n": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "ENTER RAFFLE NOW",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "background": "",
+            "text_color": ""
+          }
+        },
         "countdown_cDXnhg": {
           "type": "countdown",
           "settings": {
@@ -145,23 +155,13 @@
             "final_time": "15:00",
             "start_countdown": true
           }
-        },
-        "button_JRcf9n": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
         "heading_HiTgQk",
         "richtext_Pdk9a9",
-        "countdown_cDXnhg",
-        "button_JRcf9n"
+        "button_JRcf9n",
+        "countdown_cDXnhg"
       ],
       "custom_css": [
         ".container * {text-align: center;}",
