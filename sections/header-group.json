@@ -87,28 +87,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-uk-991-v2-mineral-green"
           }
         },
-        "release_z6DQMd": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.19",
-            "release_image": "shopify://shop_images/AIRMAXWAFFLESP2GRNPINK-1_54c4afac-b086-4fc4-ae41-1d0f8fca43c5.jpg",
-            "product_title": "NIKE AIR MAX WAFFLE SP 2",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-waffle-sp-2"
-          }
-        },
-        "release_cd68xi": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.20",
-            "release_image": "shopify://shop_images/FOAMPOSITEWHITE-1_1.jpg",
-            "product_title": "NIKE AIR FOAMPOSITE ONE \"WHITE\"",
-            "product_vendor": "",
-            "product_price": "$230",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-foamposite-one-white"
-          }
-        },
         "release_xkW8Dk": {
           "type": "release",
           "settings": {
@@ -119,6 +97,28 @@
             "product_price": "$160",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-edison-chen-stan-smith-whitenavy"
           }
+        },
+        "release_cd68xi": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.27",
+            "release_image": "shopify://shop_images/AMMXAM95TAUPE-1_fedf3cce-300c-4acc-851e-fb066d32e182.jpg",
+            "product_title": "A MA MANIÉRE x NIKE AIR MAX 95 \"DIFFUSED TAUPE/PHANTOM\"",
+            "product_vendor": "",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-nike-air-max-95-diffused-taupephantom"
+          }
+        },
+        "release_z6DQMd": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.27",
+            "release_image": "shopify://shop_images/AMMXAF1WHITE-1_4231cf87-54a3-4459-8867-7d84cfa1c830.jpg",
+            "product_title": "WOMEN'S A MA MANIÉRE AIR FORCE 1 \"WHITE/WHITE\"",
+            "product_vendor": "",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-a-ma-maniere-air-force-1-whitewhite"
+          }
         }
       },
       "block_order": [
@@ -126,9 +126,9 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_CVty6Q",
-        "release_z6DQMd",
+        "release_xkW8Dk",
         "release_cd68xi",
-        "release_xkW8Dk"
+        "release_z6DQMd"
       ],
       "settings": {
         "color_scheme": "",
