@@ -14,6 +14,7 @@
       "blocks": {
         "video_tcwXyh": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
             "mobile_video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
