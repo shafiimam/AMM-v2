@@ -96,42 +96,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "3d_gallery_simple_tzqkH8": {
-      "type": "3d-gallery-simple",
-      "name": "3D Gallery",
-      "settings": {
-        "title": "AMM AF1 3D Gallery",
-        "start_index": "2",
-        "end_index": "53",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC077",
-        "button_label": "Shop Now",
-        "button_link": "",
-        "knob_position": 100,
-        "gallery_width": 60,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
-      }
-    },
-    "3d_gallery_simple_XCnGWB": {
-      "type": "3d-gallery-simple",
-      "name": "3D Gallery",
-      "settings": {
-        "title": "AMM AF1 3D Gallery",
-        "start_index": "871",
-        "end_index": "929",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC07",
-        "button_label": "Shop Now",
-        "button_link": "",
-        "knob_position": 100,
-        "gallery_width": 60,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
-      }
-    },
     "image_with_text_7Xm8Cg": {
       "type": "image-with-text",
       "blocks": {
@@ -152,7 +116,7 @@
         "countdown_cDXnhg": {
           "type": "countdown",
           "settings": {
-            "final_date": "21-06-2026",
+            "final_date": "27-06-2025",
             "final_time": "15:00",
             "start_countdown": true
           }
@@ -172,12 +136,30 @@
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/COUNTDOWN.jpg",
+        "image": "shopify://shop_images/am4.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
         "remove_vertical_spacing": false,
         "remove_top_padding": true
+      }
+    },
+    "3d_gallery_simple_tzqkH8": {
+      "type": "3d-gallery-simple",
+      "name": "3D Gallery",
+      "settings": {
+        "title": "AMM AF1 3D Gallery",
+        "start_index": "2",
+        "end_index": "53",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC077",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 100,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "media_grid_HwBKby": {
@@ -187,7 +169,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AJ5_2_a790732c-88bd-4d53-b355-5736bd0ea095.jpg",
+            "image": "shopify://shop_images/am3.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -386,6 +368,24 @@
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "3d_gallery_simple_XCnGWB": {
+      "type": "3d-gallery-simple",
+      "name": "3D Gallery",
+      "settings": {
+        "title": "AMM AF1 3D Gallery",
+        "start_index": "871",
+        "end_index": "929",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC07",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 100,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "media_grid_4MXqFL": {
@@ -777,10 +777,10 @@
     "main",
     "hero_with_logo_nPMzTc",
     "slideshow_rBdfjJ",
-    "3d_gallery_simple_tzqkH8",
-    "3d_gallery_simple_XCnGWB",
     "image_with_text_7Xm8Cg",
+    "3d_gallery_simple_tzqkH8",
     "media_grid_HwBKby",
+    "3d_gallery_simple_XCnGWB",
     "media_grid_4MXqFL"
   ]
 }
