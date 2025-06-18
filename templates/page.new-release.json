@@ -148,7 +148,7 @@
       "type": "3d-gallery-simple",
       "name": "3D Gallery",
       "settings": {
-        "title": "AMM AF1 3D Gallery",
+        "title": "",
         "start_index": "2",
         "end_index": "53",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC077",
@@ -380,7 +380,7 @@
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC07",
         "button_label": "",
         "button_link": "",
-        "knob_position": 92,
+        "knob_position": 100,
         "gallery_width": 60,
         "show_button": true,
         "show_section_texts": true,
