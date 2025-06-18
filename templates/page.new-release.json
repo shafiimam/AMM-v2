@@ -104,23 +104,15 @@
           "settings": {
             "icon_color": "#ffffff"
           }
-        },
-        "heading_V3QnB3": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h2"
-          }
         }
       },
       "block_order": [
-        "play_teHULm",
-        "heading_V3QnB3"
+        "play_teHULm"
       ],
       "name": "t:sections.video.presets.video.name",
       "settings": {
-        "autoplay": false,
-        "show_controls": true,
+        "autoplay": true,
+        "show_controls": false,
         "video_size": "md",
         "video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
         "mobile_video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
