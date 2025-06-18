@@ -14,7 +14,6 @@
       "blocks": {
         "video_tcwXyh": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
             "mobile_video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
@@ -27,7 +26,7 @@
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "Details",
-            "button_1_link": "shopify://pages/a-ma-maniere-atlanta-store",
+            "button_1_link": "shopify://pages/new-release",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
