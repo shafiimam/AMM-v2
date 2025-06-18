@@ -76,17 +76,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-air-jordan-11-retro-igloo"
           }
         },
-        "release_CVty6Q": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.19",
-            "release_image": "shopify://shop_images/MADEINUK991V2_MINERALGREEN_-1_b46a24af-3da2-4af3-8f2f-9463b82a866f.jpg",
-            "product_title": "NEW BALANCE MADE IN UK 991v2 \"MINERAL GREEN\"",
-            "product_vendor": "",
-            "product_price": "$250",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-uk-991-v2-mineral-green"
-          }
-        },
         "release_xkW8Dk": {
           "type": "release",
           "settings": {
@@ -96,6 +85,17 @@
             "product_vendor": "",
             "product_price": "$160",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-edison-chen-stan-smith-whitenavy"
+          }
+        },
+        "release_CVty6Q": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.26",
+            "release_image": "shopify://shop_images/AIRFLIGHTPOSITEONE_DUSTYCACTUS_-1_0bc0903d-b76c-43ad-900c-f94f9ddfda0c.jpg",
+            "product_title": "NIKE AIR FLIGHTPOSITE ONE \"DUSTY CACTUS\"",
+            "product_vendor": "",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-flightposite-one-dusty-cactus"
           }
         },
         "release_cd68xi": {
@@ -125,8 +125,8 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_CVty6Q",
         "release_xkW8Dk",
+        "release_CVty6Q",
         "release_cd68xi",
         "release_z6DQMd"
       ],
