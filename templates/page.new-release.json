@@ -22,7 +22,7 @@
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
       "settings": {
-        "image": "shopify://shop_images/AJ5_HEADER_31ae242f-9f9d-401d-b1db-9ba46d63c436.jpg",
+        "image": "shopify://shop_images/Untitled-23_d6b35551-a0c8-4fc6-b4e5-292bed384bfd.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "Every Summer Tells A Story: Act 1",
         "title_color": "#ffffff",
@@ -109,8 +109,8 @@
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>GENERAL RAFFLE:</strong> The online EQL raffle for <strong>A Ma Maniére x NIKE Air Force 1 Low “White on White”</strong> both US & International access, is available at <a href=\"https://www.a-ma-maniere.com/\" title=\"https://www.a-ma-maniere.com/\">amamaniere.com</a> from 6.18 until 6.23. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear or apparel.</p><p>The<strong> A Ma Maniére x NIKE Air Force 1 Low “White on White” </strong>is in WOMENS sizing ranging from W5/M3.5 - W16.5/M14. Priced at $150</p><p></p><p><strong>GENERAL RAFFLE: </strong>The online EQL raffle of the<strong> A Ma Maniére x NIKE Air Max 95 “Diffused Taupe/Phantom”</strong> for all to enter, both US & International access, is open at <a href=\"https://www.a-ma-maniere.com/\" title=\"https://www.a-ma-maniere.com/\">amamaniere.com</a> from 6.18 until 6.23. Entries are limited to 1 per person.</p><p>The \"<strong>A Ma Maniére x NIKE Air Max 95 “Diffused Taupe/Phantom”</strong> is in MEN'S sizing ranging from M3 - M16.</p><p>All available for purchase while supplies last.</p><p><strong>PLEASE NOTE:</strong> SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
-            "text_color": "#f5f5f5"
+            "content": "<p><strong>GENERAL RAFFLE:</strong> The online EQL raffle for <strong>A Ma Maniére x Air Jordan V “Dawn” </strong>to enter, both US & international access, is available at amamaniere.com from 11.6 until 11.14. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear or apparel.</p><p><strong>GENERAL RAFFLE: </strong>The online EQL raffle of the <strong>A Ma Maniére x Air Jordan V “Dusk”</strong> for all to enter, both US & international access, is available at amamaniere.com from 11.14 until 11.21. Entries are limited to 1 per person.</p><p>The launch of the A Ma Maniére x Air Jordan V “Dawn” and \"Dusk\" collaborative A Ma Maniére x Jordan Brand Apparel Collection will take place on Friday November 24th at 11AM EST on amamaniere.com. </p><p>Footwear is priced at $225 for noth colorways. The <strong>\"Dawn\" </strong>colorway is in Women’s sizing ranging from W5/M3.5 - W16.5/M15, Preschool sizing priced at $100 ranging from 10.5C - 3Y, and Toddler sizing priced at $85 ranging from 2C - 10C. The <strong>\"Dusk\"</strong> colorway is in Men’s sizing ranging from M3.5/W5 - M16/W17.5. Apparel sizing will range from Men’s XS to 3XL with pricing varying across pieces.</p><p>All available for purchase while supplies last.</p><p><strong>PLEASE NOTE:</strong> SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "text_color": "#eaeaea"
           }
         },
         "countdown_cDXnhg": {
@@ -152,7 +152,7 @@
         "start_index": "2",
         "end_index": "53",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC077",
-        "button_label": "",
+        "button_label": "Shop Now",
         "button_link": "",
         "knob_position": 100,
         "gallery_width": 60,
@@ -187,7 +187,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AJ5_1_39b2361a-1334-4a6d-b2b6-88ce1e4f9cf1.jpg",
+            "image": "shopify://shop_images/am1.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -205,7 +205,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AJ5_7_ee1f7f85-a820-412f-9014-a088ff3a96d7.jpg",
+            "image": "shopify://shop_images/am6.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -223,7 +223,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_6_140a3a56-a43e-4b80-9039-46e0bec0825f.jpg",
+            "image": "shopify://shop_images/Untitled-4_77fad7c9-df95-4dc1-aa5f-18667b181c16.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -255,11 +255,11 @@
             "overlay_opacity": 0
           }
         },
-        "image_YPima3": {
+        "image_3Db9UK": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_4_3d16dc85-9d83-4d28-abc1-6020fa6d6a93.jpg",
+            "image": "shopify://shop_images/Untitled-44_0266a578-9fa3-49b7-8b3f-63a9ef49e67e.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -273,11 +273,11 @@
             "overlay_opacity": 0
           }
         },
-        "image_3Db9UK": {
+        "image_YPima3": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_10_3ac5996b-b7ac-46b9-8ee7-f44e53629e8b.jpg",
+            "image": "shopify://shop_images/am10.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -295,7 +295,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_5_30bb1deb-3569-4028-bbe3-5626fc1f013b.jpg",
+            "image": "shopify://shop_images/am8.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -313,7 +313,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_11.jpg",
+            "image": "shopify://shop_images/am11.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -331,7 +331,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AJ5_9_bba6c3b0-ec67-4a36-8547-3b21537c7901.jpg",
+            "image": "shopify://shop_images/am2.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -352,8 +352,8 @@
         "image_phtcL7",
         "image_azJwxY",
         "image_LfqrwC",
-        "image_YPima3",
         "image_3Db9UK",
+        "image_YPima3",
         "image_MHAJQT",
         "image_Bb7rAP",
         "image_iWhfJp"
@@ -378,7 +378,7 @@
         "start_index": "871",
         "end_index": "929",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC07",
-        "button_label": "",
+        "button_label": "Shop Now",
         "button_link": "",
         "knob_position": 100,
         "gallery_width": 60,
@@ -447,6 +447,7 @@
         },
         "image_3tPX3b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMMXAF1WHITE-3_d1fe3130-ce8e-4092-b285-4a7afd8eea35.jpg",
@@ -465,6 +466,7 @@
         },
         "image_HVfcXg": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMMXAF1WHITE-8_5ed1f690-ada8-4b74-a4be-723602252a7e.jpg",
@@ -483,6 +485,7 @@
         },
         "image_TB3Va4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMMXAF1WHITE-4_c2d2d39f-d770-43cc-98ee-679edb9bff88.jpg",
@@ -535,13 +538,13 @@
             "overlay_opacity": 0
           }
         },
-        "image_jckHzH": {
+        "image_FX34kT": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAM95TAUPE-2_bdd7cb46-53a9-4a8d-bcfb-bf0eae57f779.jpg",
+            "image": "shopify://shop_images/AMMXAM95TAUPE-5_7fabaee4-4fc2-4a87-866a-13569824ff3e.jpg",
             "column_count": "4",
-            "row_count": 2,
+            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -560,6 +563,24 @@
             "image": "shopify://shop_images/AMMXAM95TAUPE-3_641ca495-f6ab-484e-ac11-38fb0565396c.jpg",
             "column_count": "4",
             "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jckHzH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMXAM95TAUPE-2_bdd7cb46-53a9-4a8d-bcfb-bf0eae57f779.jpg",
+            "column_count": "4",
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -607,30 +628,11 @@
             "overlay_opacity": 0
           }
         },
-        "image_FX34kT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-2_1cc19bab-dabb-41c9-b215-9113d2355013.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "image_aqJyNj": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-3_18bfda09-7184-4a2c-ba50-ff4a272f380a.jpg",
+            "image": "shopify://shop_images/AMMXAF1WHITE-10_d4bff1ae-f69c-4909-bf2b-cad750da10f4.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -686,7 +688,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ5-6_5f149220-313d-4e50-829d-9d6bc56258e7.jpg",
+            "image": "shopify://shop_images/AMMXAM95TAUPE-4_cec257d9-3d5a-4bd9-8f8f-33cd27672cad.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -748,11 +750,11 @@
         "image_TB3Va4",
         "image_VUGUiT",
         "image_NEzhqf",
-        "image_jckHzH",
+        "image_FX34kT",
         "image_NkQ7tz",
+        "image_jckHzH",
         "image_FFqHYp",
         "image_dLC688",
-        "image_FX34kT",
         "image_aqJyNj",
         "image_EQM3bg",
         "image_r6bAFX",
