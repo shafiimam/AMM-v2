@@ -14,11 +14,10 @@
       "blocks": {
         "video_tcwXyh": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
             "mobile_video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
-            "allow_sound": false,
+            "allow_sound": true,
             "subheading": "Act 1: the block",
             "subheading_size": 18,
             "title": "\"Every Summer Tells a Story\"",
