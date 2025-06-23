@@ -76,17 +76,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-air-jordan-11-retro-igloo"
           }
         },
-        "release_xkW8Dk": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.21",
-            "release_image": "shopify://shop_images/EDISONCHENSTANSMITH_WHITE_NAVY_-1_de85f275-74ea-4d80-b89b-97d7ba8d6702.jpg",
-            "product_title": "ADIDAS EDISON CHEN STAN SMITH 'WHITE/NAVY'",
-            "product_vendor": "",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-edison-chen-stan-smith-whitenavy"
-          }
-        },
         "release_CVty6Q": {
           "type": "release",
           "settings": {
@@ -96,6 +85,17 @@
             "product_vendor": "",
             "product_price": "$240",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-flightposite-one-dusty-cactus"
+          }
+        },
+        "release_xkW8Dk": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.27",
+            "release_image": "shopify://shop_images/GEL-KAYANO14SPRITE-1_251a8dc4-53c1-4f01-8a36-1925d6aaa541.jpg",
+            "product_title": "ASICS GEL-KAYANO 14 \"WHITE/LIME GREEN\"",
+            "product_vendor": "",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-gel-kayano-14-whitelime-green"
           }
         },
         "release_cd68xi": {
@@ -125,8 +125,8 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_xkW8Dk",
         "release_CVty6Q",
+        "release_xkW8Dk",
         "release_cd68xi",
         "release_z6DQMd"
       ],
