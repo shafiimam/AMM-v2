@@ -76,6 +76,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-air-jordan-11-retro-igloo"
           }
         },
+        "release_z6DQMd": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.26",
+            "release_image": "shopify://shop_images/NEIGHBORHOODXOTWHALFCAB33_BLACK_-1_1ca4ecb5-978d-4581-9764-07ccfa218a19.jpg",
+            "product_title": "VANS X NEIGHBORHOOD OTW HALF CAB 33 \"BLACK\"",
+            "product_vendor": "",
+            "product_price": "$135",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-x-neighborhood-otw-half-cab-33-black"
+          }
+        },
         "release_CVty6Q": {
           "type": "release",
           "settings": {
@@ -85,6 +96,17 @@
             "product_vendor": "",
             "product_price": "$240",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-flightposite-one-dusty-cactus"
+          }
+        },
+        "release_cd68xi": {
+          "type": "release",
+          "settings": {
+            "release_title": "6.26",
+            "release_image": "shopify://shop_images/NEIGHBORHOODXOTWCLASSICSLIPON_WHITE_-1_0ecc66c3-c796-4745-8d85-c38c6136bfce.jpg",
+            "product_title": "VANS X NEIGHBORHOOD OTW CLASSIC SLIP ON \"WHITE\"",
+            "product_vendor": "",
+            "product_price": "$120",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-x-neighborhood-otw-classic-slip-on-white"
           }
         },
         "release_xkW8Dk": {
@@ -97,38 +119,16 @@
             "product_price": "$150",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-gel-kayano-14-whitelime-green"
           }
-        },
-        "release_cd68xi": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.27",
-            "release_image": "shopify://shop_images/AMMXAM95TAUPE-1_fedf3cce-300c-4acc-851e-fb066d32e182.jpg",
-            "product_title": "A MA MANIÉRE x NIKE AIR MAX 95 \"DIFFUSED TAUPE/PHANTOM\"",
-            "product_vendor": "",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-nike-air-max-95-diffused-taupephantom"
-          }
-        },
-        "release_z6DQMd": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.27",
-            "release_image": "shopify://shop_images/AMMXAF1WHITE-1_4231cf87-54a3-4459-8867-7d84cfa1c830.jpg",
-            "product_title": "WOMEN'S A MA MANIÉRE AIR FORCE 1 \"WHITE/WHITE\"",
-            "product_vendor": "",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-a-ma-maniere-air-force-1-whitewhite"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
+        "release_z6DQMd",
         "release_CVty6Q",
-        "release_xkW8Dk",
         "release_cd68xi",
-        "release_z6DQMd"
+        "release_xkW8Dk"
       ],
       "settings": {
         "color_scheme": "",
