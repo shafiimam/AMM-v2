@@ -140,6 +140,7 @@
         },
         "button_JRcf9n": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "ENTER RAFFLE NOW",
