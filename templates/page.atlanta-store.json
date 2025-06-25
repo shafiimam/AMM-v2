@@ -276,7 +276,7 @@
           "type": "collection",
           "settings": {
             "collection": "new-arrivals-1",
-            "products_count": 10,
+            "products_count": 9,
             "title": "New Arrivals",
             "link_url": "",
             "link_text": ""

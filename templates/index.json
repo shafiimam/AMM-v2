@@ -224,6 +224,36 @@
         "image_cta_url": "shopify://collections/adidem-asterisks"
       }
     },
+    "featured_collections_bFrXKx": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ABw4Mi": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals-1",
+            "products_count": 8,
+            "title": "shop new arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ABw4Mi"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "before-after": {
       "type": "before-after",
       "blocks": {
@@ -411,7 +441,7 @@
         "separate_section_with_border": true,
         "image_size": "xs",
         "show_text_outside": false,
-        "space_items": true,
+        "space_items": false,
         "stack_collections": true,
         "collections_per_row_mobile": "1",
         "collections_per_row_desktop": 3,
@@ -720,6 +750,7 @@
   "order": [
     "slideshow_QGYQ6e",
     "featureed_image_and_products_zaMf8b",
+    "featured_collections_bFrXKx",
     "before-after",
     "media_grid_p7EKPQ",
     "collection_list_cLGdiA",
