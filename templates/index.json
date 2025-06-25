@@ -441,7 +441,7 @@
         "separate_section_with_border": true,
         "image_size": "xs",
         "show_text_outside": false,
-        "space_items": false,
+        "space_items": true,
         "stack_collections": true,
         "collections_per_row_mobile": "1",
         "collections_per_row_desktop": 3,
