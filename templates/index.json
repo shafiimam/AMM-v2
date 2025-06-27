@@ -12,6 +12,35 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_zYRhhK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EDRDESK1.jpg",
+            "mobile_image": "shopify://shop_images/ERDMOB1.jpg",
+            "subheading": "<p>INTRODUCING </p>",
+            "subheading_size": 18,
+            "title": "<p>Enfants Riches Déprimés</p>",
+            "title_size": 42,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/enfants-riches-deprimes",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_39c4Lf": {
           "type": "image",
           "disabled": true,
@@ -33,67 +62,6 @@
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "video_tcwXyh": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
-            "mobile_video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
-            "allow_sound": true,
-            "subheading": "Act 1: the block",
-            "subheading_size": 18,
-            "title": "\"Every Summer Tells a Story\"",
-            "title_size": 24,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Details",
-            "button_1_link": "shopify://pages/a-ma-maniere-every-summer-tells-a-story",
-            "button_1_style": "outline",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "video_TrrkwE": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/ADIDEM V6.mov",
-            "mobile_video": "shopify://files/videos/ADIDEM V6.mov",
-            "allow_sound": false,
-            "subheading": "new styles",
-            "subheading_size": 15,
-            "title": "A Ma Maniére x Adidem Asterisks*",
-            "title_size": 24,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/adidem-asterisks",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
@@ -132,21 +100,21 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_zB7x7d": {
+        "video_TrrkwE": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Never miss 4.3 [FV].mov",
-            "mobile_video": "shopify://files/videos/Never miss 4.3 [FV].mov",
+            "video": "shopify://files/videos/ADIDEM V6.mov",
+            "mobile_video": "shopify://files/videos/ADIDEM V6.mov",
             "allow_sound": false,
-            "subheading": "AVAILABLE NOW",
-            "subheading_size": 19,
-            "title": "A MA MANIÉRE X NEW ERA HATS",
-            "title_size": 30,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "new styles",
+            "subheading_size": 15,
+            "title": "A Ma Maniére x Adidem Asterisks*",
+            "title_size": 24,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/new-era",
+            "button_1_link": "shopify://collections/adidem-asterisks",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -190,15 +158,45 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
+        },
+        "video_zB7x7d": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Never miss 4.3 [FV].mov",
+            "mobile_video": "shopify://files/videos/Never miss 4.3 [FV].mov",
+            "allow_sound": false,
+            "subheading": "AVAILABLE NOW",
+            "subheading_size": 19,
+            "title": "A MA MANIÉRE X NEW ERA HATS",
+            "title_size": 30,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/new-era",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
         }
       },
       "block_order": [
+        "image_zYRhhK",
         "image_39c4Lf",
-        "video_tcwXyh",
-        "video_TrrkwE",
         "image_hFWrAE",
-        "video_zB7x7d",
-        "video_7KwqgJ"
+        "video_TrrkwE",
+        "video_7KwqgJ",
+        "video_zB7x7d"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -215,45 +213,45 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_mzGxhY": {
-          "type": "product",
-          "settings": {
-            "product": "adidem-asterisks-59fifty-dc-cap-red"
-          }
-        },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "adidem-asterisks-apple-tee"
+            "product": "enfants-riches-deprimes-pharms-daughter-tee-white"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "adidem-asterisks-crm-knit-jersey"
+            "product": "enfants-riches-deprimes-boiler-room-shorts-black-ivory"
+          }
+        },
+        "product_mzGxhY": {
+          "type": "product",
+          "settings": {
+            "product": "enfants-riches-deprimes-paneled-track-pants-burgundy"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "adidem-asterisks-rust-studded-denim-short"
+            "product": "enfants-riches-deprimes-goodbye-franky-belt"
           }
         }
       },
       "block_order": [
-        "product_mzGxhY",
         "product_CqUpFr",
         "product_q8H3fy",
+        "product_mzGxhY",
         "product_eekMqY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "Adidem Asterisks*",
+        "title": "Enfants Riches Déprimés",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/Untitled-12_fe60b484-b76e-448d-93ef-6469adb12837.jpg",
-        "image_description": "<p><strong> A Ma Maniére x Adidem Asterisks* \"A\" Logo Fitted Cap. </strong>Now available in Navy Blue, Red, and Burgundy.<br/><br/>The iconic “A” Logo Fitted makes its return—reimagined with bold detail and elevated energy. Drawing inspiration from vintage baseball caps, A Ma Maniére and Adidem Asterisks* join forces to modernize the classic New Era 59FIFTY silhouette.<strong><br/><br/></strong>Premium textures. Timeless structure.<br/><br/></p>",
+        "image": "shopify://shop_images/Untitled-6_d50630e6-7e05-4a26-bb9f-d92339767327.jpg",
+        "image_description": "<p><strong>Enfants Riches Déprimés</strong>—<em>French for “Depressed Rich Kids”</em>—was founded by artist-designer Henri Alexander Levy. Born from punk and provocation, the brand makes wearable art that dares you to care—each piece a sharp rejection of fashion’s status quo.</p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/adidem-asterisks"
+        "image_cta_url": "shopify://collections/enfants-riches-deprimes"
       }
     },
     "featured_collections_bFrXKx": {
