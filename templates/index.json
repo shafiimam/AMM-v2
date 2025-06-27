@@ -16,8 +16,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/satoshidesk2.jpg",
-            "mobile_image": "shopify://shop_images/satoshimob3.jpg",
+            "image": "shopify://shop_images/Every_Summer_Tells_a_Story_Mobile_v2.jpg",
+            "mobile_image": "shopify://shop_images/Every_Summer_Tells_a_Story_Mobile_v2.jpg",
             "subheading": "AVAILABLE NOW",
             "subheading_size": 14,
             "title": "\"EVERY SUMMER TELLS A STORY\" ACT I: THE BLOCK",
@@ -44,6 +44,7 @@
         },
         "video_tcwXyh": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
             "mobile_video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
@@ -74,6 +75,7 @@
         },
         "video_TrrkwE": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ADIDEM V6.mov",
             "mobile_video": "shopify://files/videos/ADIDEM V6.mov",
@@ -104,6 +106,7 @@
         },
         "image_hFWrAE": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/satoshidesk2.jpg",
             "mobile_image": "shopify://shop_images/satoshimob3.jpg",
@@ -133,6 +136,7 @@
         },
         "video_zB7x7d": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Never miss 4.3 [FV].mov",
             "mobile_video": "shopify://files/videos/Never miss 4.3 [FV].mov",
@@ -163,6 +167,7 @@
         },
         "video_7KwqgJ": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ES 4k NO LOGO WEB.mov",
             "allow_sound": false,
