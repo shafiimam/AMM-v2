@@ -17,9 +17,9 @@
           "settings": {
             "image": "shopify://shop_images/Every_Summer_Tells_a_Story_Mobile_v2.jpg",
             "mobile_image": "shopify://shop_images/Every_Summer_Tells_a_Story_Mobile_v2.jpg",
-            "subheading": "AVAILABLE NOW",
+            "subheading": "<p>AVAILABLE NOW</p>",
             "subheading_size": 14,
-            "title": "ACT I: THE BLOCK OF \"EVERY SUMMER TELLS A STORY\"",
+            "title": "<p>ACT I: THE BLOCK OF </p><p>\"EVERY SUMMER TELLS A STORY\"</p>",
             "title_size": 30,
             "mobile_text_position": "place-self-end text-end",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -109,9 +109,9 @@
           "settings": {
             "image": "shopify://shop_images/satoshidesk2.jpg",
             "mobile_image": "shopify://shop_images/satoshimob3.jpg",
-            "subheading": "shop new pieces",
+            "subheading": "<p>shop new pieces</p>",
             "subheading_size": 14,
-            "title": "Satoshi Nakamoto",
+            "title": "<p>Satoshi Nakamoto</p>",
             "title_size": 30,
             "mobile_text_position": "place-self-end text-end",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
