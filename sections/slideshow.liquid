@@ -98,7 +98,7 @@ may have important consequence on the section itself.
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="h1" style="font-size: {{ block.settings.title_size }}px;">{{ block.settings.title }}</p>
+                <div class="h1" style="font-size: {{ block.settings.title_size }}px;">{{ block.settings.title }}</div>
               {%- endif -%}
 
               {%- if block.settings.button_1_text != blank or block.settings.button_2_text != blank -%}
@@ -319,10 +319,10 @@ may have important consequence on the section itself.
           "default": 12
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "title",
           "label": "t:global.text.heading",
-          "default": "Image slide"
+          "default": "<p>Image slide</p>"
         },
         {
           "type": "range",
@@ -855,13 +855,13 @@ may have important consequence on the section itself.
         {
           "type": "image",
           "settings": {
-            "title": "Slide 1"
+            "title": "<p>Slide 1</p>"
           }
         },
         {
           "type": "image",
           "settings": {
-            "title": "Slide 2"
+            "title": "<p>Slide 2</p>"
           }
         }
       ]
