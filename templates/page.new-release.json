@@ -56,9 +56,9 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/AJ5_HEADER_31ae242f-9f9d-401d-b1db-9ba46d63c436.jpg",
-            "subheading": "Launches on A Ma Maniére on 11.24.23",
+            "subheading": "<p>Launches on A Ma Maniére on 11.24.23</p>",
             "subheading_size": 12,
-            "title": "A Ma Maniére x Air Jordan V",
+            "title": "<p>A Ma Maniére x Air Jordan V</p>",
             "title_size": 32,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -127,14 +127,14 @@
         "heading_HiTgQk": {
           "type": "heading",
           "settings": {
-            "text": "RELEASE DETAILS",
-            "heading_tag": "h1"
+            "text": "A Ma Maniére x NIKE Air Force 1 Low & the A Ma Maniére x NIKE Air Max 95",
+            "heading_tag": "h2"
           }
         },
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>GENERAL RAFFLE:</strong> The online EQL raffle for <strong>A Ma Maniére x NIKE Air Force 1 Low “White on White”</strong>, both US & international access, is open at <a href=\"https://www.a-ma-maniere.com/\" title=\"https://www.a-ma-maniere.com/\">amamaniere.com</a> from 6.18 until 6.23. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p>The <strong>A Ma Maniére x NIKE Air Force 1 Low “White on White” </strong>is in <strong>WOMEN'S</strong> sizing ranging from W5/M3.5 - W16.5/M14. Priced at $150.</p><p></p><p><strong>GENERAL RAFFLE: </strong>The online EQL raffle of the <strong>A Ma Maniére x NIKE Air Max 95 “Diffused Taupe/Phantom”</strong> for all to enter, both US & international access, is available at <a href=\"https://www.a-ma-maniere.com/\" title=\"https://www.a-ma-maniere.com/\">amamaniere.com</a> from 6.18 until 6.23. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p>The <strong>A Ma Maniére x NIKE Air Max 95 “Diffused Taupe/Phantom </strong>is in <strong>MEN'S</strong> sizing ranging from M3- M16. Priced at $190.</p><p>All available for purchase while supplies last.</p><p><strong>PLEASE NOTE:</strong> SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "content": "<p><em>Act I: The Block</em> of <em>Every Summer Tells a Story</em> is a love letter celebrating the collective rhythm of movement, memory, and joy. Long before sneakers became global staples, they were born in the culture and celebrated by it. The block was the runway, and the Air Force 1 and Air Max 95 were worn not for trends, but for what they represented. From corner stores to courts, from stoops to summer streets, these silhouettes became staples of Black summer life. </p><p>Rooted in the heart of Atlanta, the <em>Act I: The Block</em> film is a visual tribute to the spirit of summer and the communities that shape the culture.</p><p><em>Every Summer Tells a Story</em> honors that energy — the stories, the people, and the legacy and summer traditions of Black culture.</p><p></p><p><em>Every Summer Tells a Story</em> is a reflection of presence, memory, and community. It lives on courts and stoops, in shared laughter and city heat. Each silhouette steps into the season with intention — not chasing trends, but carrying history, identity, and the spirit of summer that lives far beyond the calendar.</p><p>This is the first act. The story continues.</p><p></p>",
             "text_color": "#eaeaea"
           }
         },
@@ -148,21 +148,12 @@
             "background": "",
             "text_color": ""
           }
-        },
-        "countdown_cDXnhg": {
-          "type": "countdown",
-          "settings": {
-            "final_date": "27-06-2025",
-            "final_time": "15:00",
-            "start_countdown": true
-          }
         }
       },
       "block_order": [
         "heading_HiTgQk",
         "richtext_Pdk9a9",
-        "button_JRcf9n",
-        "countdown_cDXnhg"
+        "button_JRcf9n"
       ],
       "custom_css": [
         ".container * {text-align: center;}",
