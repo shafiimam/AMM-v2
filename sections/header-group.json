@@ -78,6 +78,7 @@
         },
         "release_z6DQMd": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.01",
             "release_image": "shopify://shop_images/AF1XKOBETRPLWHT-1_8968ce9a-bec9-4d0e-9772-3f464d51f066.jpg",
@@ -89,6 +90,7 @@
         },
         "release_CVty6Q": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.01",
             "release_image": "shopify://shop_images/GAZELLEINDOOR_PURETEA_OFFWHITE_-1_1.jpg",
@@ -101,12 +103,12 @@
         "release_cd68xi": {
           "type": "release",
           "settings": {
-            "release_title": "7.01",
-            "release_image": "shopify://shop_images/GAZELLEINDOOR_ORANGE_OFFWHITE_-1_ac9a47b6-8c44-4127-9273-4e58a3f3b521.jpg",
-            "product_title": "ADIDAS GAZELLE INDOOR \"ORANGE/OFF WHITE\"",
+            "release_title": "7.03",
+            "release_image": "shopify://shop_images/AJ3PUREMONEYGS-1_65b5a4d9-0243-4625-ac99-570b25589668.jpg",
+            "product_title": "AIR JORDAN 3 \"PURE MONEY\" GS",
             "product_vendor": "",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-gazelle-indoor-orangeoff-white"
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-pure-money-gs"
           }
         },
         "release_xkW8Dk": {
