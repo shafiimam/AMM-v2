@@ -12,6 +12,36 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_JNAG8X": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/satoshidesk2.jpg",
+            "mobile_image": "shopify://shop_images/satoshimob3.jpg",
+            "subheading": "<p>ENTER DRAW</p>",
+            "subheading_size": 14,
+            "title": "<p>The Whitaker Group For New Balance \"Willful Bias\" For Education</p>",
+            "title_size": 30,
+            "mobile_text_position": "place-self-end text-end",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/satoshi-nakamoto",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_zYRhhK": {
           "type": "image",
           "settings": {
@@ -130,35 +160,6 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_7KwqgJ": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/ES 4k NO LOGO WEB.mov",
-            "allow_sound": false,
-            "subheading": "INTRODUCING",
-            "subheading_size": 12,
-            "title": "ENTIRE STUDIOS",
-            "title_size": 32,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop NOW",
-            "button_1_link": "shopify://collections/entire-studios",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "video_zB7x7d": {
           "type": "video",
           "settings": {
@@ -191,11 +192,11 @@
         }
       },
       "block_order": [
+        "image_JNAG8X",
         "image_zYRhhK",
         "image_39c4Lf",
         "image_hFWrAE",
         "video_TrrkwE",
-        "video_7KwqgJ",
         "video_zB7x7d"
       ],
       "settings": {
