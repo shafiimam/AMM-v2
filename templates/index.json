@@ -471,7 +471,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image_size": "lg",
+        "image_size": "sm",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": true,
