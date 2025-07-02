@@ -411,6 +411,7 @@
       "blocks": {
         "collection_TTQa9R": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "collection": "juney-1",
@@ -431,9 +432,9 @@
           "settings": {
             "color_scheme": "",
             "collection": "summer-collection",
-            "image": "shopify://shop_images/es2_5a8414bb-a493-4f0e-9512-a6eb14782959.jpg",
+            "image": "shopify://shop_images/summmmer.jpg",
             "expand_collection": true,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "",
             "button_text": "SHOP SUMMER ESSENTIALS",
@@ -563,14 +564,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/2_7c1a7a69-35b1-4286-9096-478f1956fc38.jpg",
-            "column_count": "6",
+            "image": "shopify://shop_images/satoshi2.jpg",
+            "column_count": "4",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "ERL",
-            "link_url": "shopify://collections/erl",
+            "link_text": "SATOSHI NAKAMOTO",
+            "link_url": "shopify://collections/satoshi-nakamoto",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -581,14 +582,51 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/keishapinkhat_6d7b07f9-a662-4a59-a2b7-3c6b97a48219.jpg",
-            "column_count": "6",
+            "image": "shopify://shop_images/jacquemus2.jpg",
+            "column_count": "4",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "NEW ERA",
-            "link_url": "shopify://collections/new-era",
+            "link_text": "JACQUEMUS",
+            "link_url": "shopify://collections/jacquemus",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MjnGXF": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ES5_dbdb285c-53e4-47b4-b0b9-026b1ba4f348.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "ENTIRE STUDIOS",
+            "link_url": "shopify://collections/entire-studios",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EEcWhz": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/jacquemus2.jpg",
+            "column_count": "3",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "JACQUEMUS",
+            "link_url": "shopify://collections/jacquemus",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -598,7 +636,9 @@
       },
       "block_order": [
         "image_U6Am3q",
-        "image_MHFH6K"
+        "image_MHFH6K",
+        "image_MjnGXF",
+        "image_EEcWhz"
       ],
       "settings": {
         "color_scheme": "",
