@@ -432,9 +432,9 @@
           "settings": {
             "color_scheme": "",
             "collection": "summer-collection",
-            "image": "shopify://shop_images/summmmer.jpg",
+            "image": "shopify://shop_images/sea_2631b3f5-756f-4bfc-9ecc-0426b8422c84.jpg",
             "expand_collection": true,
-            "content_position": "place-self-center text-center",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
             "button_text": "SHOP SUMMER ESSENTIALS",
@@ -470,8 +470,8 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "xs",
+        "separate_section_with_border": false,
+        "image_size": "lg",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": true,
@@ -563,7 +563,7 @@
         "image_U6Am3q": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-4",
             "image": "shopify://shop_images/satoshi2.jpg",
             "column_count": "4",
             "row_count": 2,
@@ -646,7 +646,7 @@
         "desktop_row_height": 400,
         "mobile_row_height": 180,
         "section_width": "full",
-        "spacing": "none",
+        "spacing": "md",
         "subheading": "",
         "title": "",
         "content": ""
