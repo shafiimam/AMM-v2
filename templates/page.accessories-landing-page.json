@@ -231,7 +231,7 @@
         "subheading": "",
         "title": "find your shade",
         "content": "",
-        "cursor_direction": "horizontal",
+        "cursor_direction": "vertical",
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
         "cursor_arrows_color": "#000000"
