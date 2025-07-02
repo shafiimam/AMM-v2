@@ -199,9 +199,11 @@
           "type": "before",
           "settings": {
             "color_scheme": "",
-            "text": "Before",
+            "image": "shopify://shop_images/0RB4940-683387_1_81439f33-71f9-4e9e-8919-ede3a5644388.jpg",
+            "mobile_image": "shopify://shop_images/0RB4940-683387_1_81439f33-71f9-4e9e-8919-ede3a5644388.jpg",
+            "text": "blue",
             "link_text": "",
-            "link_url": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/sunglasses/products/ray-ban-a-ap-rocky-puffy-wayfarer-sunglasses-blue",
             "link_style": "link"
           }
         },
@@ -209,9 +211,11 @@
           "type": "after",
           "settings": {
             "color_scheme": "",
-            "text": "After",
+            "image": "shopify://shop_images/0RB4940-683087_1_732e98c1-172f-436c-8f86-f7c4a12ed2bc.jpg",
+            "mobile_image": "shopify://shop_images/0RB4940-683087_1_732e98c1-172f-436c-8f86-f7c4a12ed2bc.jpg",
+            "text": "yellow",
             "link_text": "",
-            "link_url": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/sunglasses/products/ray-ban-a-ap-rocky-puffy-wayfarer-sunglasses-yellow",
             "link_style": "link"
           }
         }
@@ -220,14 +224,13 @@
         "before_JqNGTR",
         "after_3kLndA"
       ],
-      "disabled": true,
       "name": "t:sections.before_after.presets.before_after.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
         "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "content": "",
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
@@ -258,6 +261,7 @@
     },
     "3d_gallery_fKkNmV": {
       "type": "3d-gallery",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "Look Closer",
