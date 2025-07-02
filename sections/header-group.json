@@ -88,18 +88,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-air-force-1-low-white"
           }
         },
-        "release_CVty6Q": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.01",
-            "release_image": "shopify://shop_images/GAZELLEINDOOR_PURETEA_OFFWHITE_-1_1.jpg",
-            "product_title": "ADIDAS GAZELLE INDOOR \"PURE TEA/OFF WHITE\"",
-            "product_vendor": "",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-gazelle-indoor-pure-teaoff-white"
-          }
-        },
         "release_xkW8Dk": {
           "type": "release",
           "settings": {
@@ -121,6 +109,17 @@
             "product_price": "$150",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-pure-money-gs"
           }
+        },
+        "release_CVty6Q": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.10",
+            "release_image": "shopify://shop_images/ABZORB2000GRYBLU-1_24b6c21f-bb82-4aea-b380-a612fc997fea.jpg",
+            "product_title": "NEW BALANCE ABZORB 2000 \"GREY BLUE\"",
+            "product_vendor": "",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-abzorb-2000-grey-blue"
+          }
         }
       },
       "block_order": [
@@ -128,9 +127,9 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_z6DQMd",
-        "release_CVty6Q",
         "release_xkW8Dk",
-        "release_cd68xi"
+        "release_cd68xi",
+        "release_CVty6Q"
       ],
       "settings": {
         "color_scheme": "",
