@@ -169,10 +169,10 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "sunglasses",
+            "collection": "new-bags",
             "products_count": 4,
-            "title": "Sunglasses",
-            "link_url": "shopify://collections/sunglasses",
+            "title": "bags",
+            "link_url": "shopify://collections/new-bags",
             "link_text": ""
           }
         }
@@ -190,6 +190,48 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 0.6,
         "subheading": ""
+      }
+    },
+    "before_after_zNnGJf": {
+      "type": "before-after",
+      "blocks": {
+        "before_JqNGTR": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        },
+        "after_3kLndA": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_JqNGTR",
+        "after_3kLndA"
+      ],
+      "disabled": true,
+      "name": "t:sections.before_after.presets.before_after.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
       }
     },
     "3d_gallery_Y9qVkB": {
@@ -268,6 +310,7 @@
     "accessories_image_with_text_eabtxK",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
+    "before_after_zNnGJf",
     "3d_gallery_Y9qVkB",
     "3d_gallery_fKkNmV",
     "featured_collections_Dtrtbp"
