@@ -214,16 +214,22 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "enfants-riches-deprimes-cross-emblem-wallet"
+          }
+        },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "enfants-riches-deprimes-pharms-daughter-tee-white"
+            "product": "you-are-nothing-tee"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "enfants-riches-deprimes-boiler-room-shorts-black-ivory"
+            "product": "enfants-riches-deprimes-wider-leg-flare-jean-light-blue"
           }
         },
         "product_mzGxhY": {
@@ -231,19 +237,13 @@
           "settings": {
             "product": "engineer-boot"
           }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "enfants-riches-deprimes-goodbye-franky-belt"
-          }
         }
       },
       "block_order": [
+        "product_eekMqY",
         "product_CqUpFr",
         "product_q8H3fy",
-        "product_mzGxhY",
-        "product_eekMqY"
+        "product_mzGxhY"
       ],
       "settings": {
         "section_alignment": "left",
