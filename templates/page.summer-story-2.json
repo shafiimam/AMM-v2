@@ -400,6 +400,7 @@
     },
     "3d_gallery_simple_XCnGWB": {
       "type": "3d-gallery-simple",
+      "disabled": true,
       "name": "3D Gallery",
       "settings": {
         "title": "A Ma Maniére x NIKE Air Max 95",
@@ -790,6 +791,7 @@
         "image_LQiKdf",
         "image_gr4brp"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
