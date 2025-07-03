@@ -88,6 +88,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-air-force-1-low-white"
           }
         },
+        "release_CVty6Q": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.10",
+            "release_image": "shopify://shop_images/ABZORB2000GRYBLU-1_24b6c21f-bb82-4aea-b380-a612fc997fea.jpg",
+            "product_title": "NEW BALANCE ABZORB 2000 \"GREY BLUE\"",
+            "product_vendor": "",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-abzorb-2000-grey-blue"
+          }
+        },
         "release_xkW8Dk": {
           "type": "release",
           "settings": {
@@ -109,17 +120,6 @@
             "product_price": "205",
             "release_link": "https://a-ma-maniere.runfair.com/us/nike-levis-x-air-max-95-blackblack"
           }
-        },
-        "release_CVty6Q": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.10",
-            "release_image": "shopify://shop_images/ABZORB2000GRYBLU-1_24b6c21f-bb82-4aea-b380-a612fc997fea.jpg",
-            "product_title": "NEW BALANCE ABZORB 2000 \"GREY BLUE\"",
-            "product_vendor": "",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-abzorb-2000-grey-blue"
-          }
         }
       },
       "block_order": [
@@ -127,9 +127,9 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_z6DQMd",
+        "release_CVty6Q",
         "release_xkW8Dk",
-        "release_cd68xi",
-        "release_CVty6Q"
+        "release_cd68xi"
       ],
       "settings": {
         "color_scheme": "",
