@@ -12,6 +12,36 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_QkmaYk": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/ERD PARIS WEB.mov",
+            "mobile_video": "shopify://files/videos/ERD PARIS WEB.mov",
+            "allow_sound": false,
+            "subheading": "AVAILABLE NOW",
+            "subheading_size": 19,
+            "title": "Enfants Riches Déprimés",
+            "title_size": 30,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/new-era",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_JNAG8X": {
           "type": "image",
           "disabled": true,
@@ -44,6 +74,7 @@
         },
         "image_zYRhhK": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/EDRDESK1.jpg",
             "mobile_image": "shopify://shop_images/ERDMOB1.jpg",
@@ -57,36 +88,6 @@
             "button_1_text": "SHOP NOW",
             "button_1_link": "shopify://collections/enfants-riches-deprimes",
             "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "image_39c4Lf": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Every_Summer_Tells_a_Story_Mobile_v2.jpg",
-            "mobile_image": "shopify://shop_images/Every_Summer_Tells_a_Story_Mobile_v2.jpg",
-            "subheading": "<p>AVAILABLE NOW</p>",
-            "subheading_size": 14,
-            "title": "<p>ACT I: THE BLOCK </p><p>\"EVERY SUMMER TELLS A STORY\"</p>",
-            "title_size": 30,
-            "mobile_text_position": "place-self-end text-end",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "https://www.195theblock.com/",
-            "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
@@ -192,9 +193,9 @@
         }
       },
       "block_order": [
+        "video_QkmaYk",
         "image_JNAG8X",
         "image_zYRhhK",
-        "image_39c4Lf",
         "image_hFWrAE",
         "video_TrrkwE",
         "video_zB7x7d"
