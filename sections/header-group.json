@@ -76,17 +76,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-air-jordan-11-retro-igloo"
           }
         },
-        "release_z6DQMd": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.11",
-            "release_image": "shopify://shop_images/AM95WHITHYPERJADE-1.jpg",
-            "product_title": "NIKE AIR MAX 95 OG \"WHITE/HYPER JADE\"",
-            "product_vendor": "",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/us/nike-air-max-95-og-whitehyper-jade-success-active"
-          }
-        },
         "release_CVty6Q": {
           "type": "release",
           "settings": {
@@ -119,16 +108,27 @@
             "product_price": "$205",
             "release_link": "https://a-ma-maniere.runfair.com/us/nike-levis-x-air-max-95-blackblack"
           }
+        },
+        "release_z6DQMd": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.11",
+            "release_image": "shopify://shop_images/AM95WHITHYPERJADE-1.jpg",
+            "product_title": "NIKE AIR MAX 95 OG \"WHITE/HYPER JADE\"",
+            "product_vendor": "",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/us/nike-air-max-95-og-whitehyper-jade-success-active"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_z6DQMd",
         "release_CVty6Q",
         "release_xkW8Dk",
-        "release_cd68xi"
+        "release_cd68xi",
+        "release_z6DQMd"
       ],
       "settings": {
         "color_scheme": "",
