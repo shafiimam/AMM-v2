@@ -87,6 +87,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-abzorb-2000-grey-blue"
           }
         },
+        "release_cd68xi": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.10",
+            "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARDRESS_OFFWHITE_MARINE_-1_fbedbdce-5f30-4b36-bdcd-d2cec10c0299.jpg",
+            "product_title": "ADIDAS X WILLY CHAVARRIA JABBAR DRESS \"OFF WHITE/BLACK\"",
+            "product_vendor": "",
+            "product_price": "$250",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-x-willy-chavarria-jabbar-dress-off-whiteblack"
+          }
+        },
         "release_z6DQMd": {
           "type": "release",
           "settings": {
@@ -108,17 +119,6 @@
             "product_price": "$195",
             "release_link": "https://a-ma-maniere.runfair.com/us/nike-levis-x-air-max-95-light-orewood-brown"
           }
-        },
-        "release_cd68xi": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.11",
-            "release_image": "shopify://shop_images/LEVISXAM95BLK-1.jpg",
-            "product_title": "NIKE LEVI'S X AIR MAX 95 \"BLACK/BLACK\"",
-            "product_vendor": "",
-            "product_price": "$195",
-            "release_link": "https://a-ma-maniere.runfair.com/us/nike-levis-x-air-max-95-blackblack"
-          }
         }
       },
       "block_order": [
@@ -126,9 +126,9 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_CVty6Q",
+        "release_cd68xi",
         "release_z6DQMd",
-        "release_xkW8Dk",
-        "release_cd68xi"
+        "release_xkW8Dk"
       ],
       "settings": {
         "color_scheme": "",
