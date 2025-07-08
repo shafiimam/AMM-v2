@@ -87,6 +87,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-abzorb-2000-grey-blue"
           }
         },
+        "release_z6DQMd": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.11",
+            "release_image": "shopify://shop_images/WHODECIDESWARXAJFLIGHTCOCOMILK-1_aa4aecd9-5c6f-4d43-8a01-e65f1fa38956.jpg",
+            "product_title": "WOMEN'S WHO DECIDES WAR X TELA JORDAN FLIGHT COURT SP \"COCONUT MILK\"",
+            "product_vendor": "",
+            "product_price": "$120",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-who-decides-war-x-tela-jordan-flight-court-sp-coconut-milk"
+          }
+        },
         "release_xkW8Dk": {
           "type": "release",
           "settings": {
@@ -108,17 +119,6 @@
             "product_price": "$195",
             "release_link": "https://a-ma-maniere.runfair.com/us/nike-levis-x-air-max-95-blackblack"
           }
-        },
-        "release_z6DQMd": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.17",
-            "release_image": "shopify://shop_images/AM95WHITHYPERJADE-1.jpg",
-            "product_title": "NIKE AIR MAX 95 OG \"WHITE/HYPER JADE\"",
-            "product_vendor": "",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/us/nike-air-max-95-og-whitehyper-jade-success-active"
-          }
         }
       },
       "block_order": [
@@ -126,9 +126,9 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_CVty6Q",
+        "release_z6DQMd",
         "release_xkW8Dk",
-        "release_cd68xi",
-        "release_z6DQMd"
+        "release_cd68xi"
       ],
       "settings": {
         "color_scheme": "",
