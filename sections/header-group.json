@@ -76,28 +76,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-air-jordan-11-retro-igloo"
           }
         },
-        "release_CVty6Q": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.10",
-            "release_image": "shopify://shop_images/ABZORB2000GRYBLU-1_24b6c21f-bb82-4aea-b380-a612fc997fea.jpg",
-            "product_title": "NEW BALANCE ABZORB 2000 \"GREY BLUE\"",
-            "product_vendor": "",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-abzorb-2000-grey-blue"
-          }
-        },
-        "release_cd68xi": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.10",
-            "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARDRESS_OFFWHITE_MARINE_-1_fbedbdce-5f30-4b36-bdcd-d2cec10c0299.jpg",
-            "product_title": "ADIDAS X WILLY CHAVARRIA JABBAR DRESS \"OFF WHITE/BLACK\"",
-            "product_vendor": "",
-            "product_price": "$250",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-x-willy-chavarria-jabbar-dress-off-whiteblack"
-          }
-        },
         "release_z6DQMd": {
           "type": "release",
           "settings": {
@@ -119,16 +97,38 @@
             "product_price": "$195",
             "release_link": "https://a-ma-maniere.runfair.com/us/nike-levis-x-air-max-95-light-orewood-brown"
           }
+        },
+        "release_CVty6Q": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.12",
+            "release_image": "shopify://shop_images/CLOTSTANSMITH_BLACK_GREEN_-1_1.jpg",
+            "product_title": "ADIDAS CLOT STAN SMITH \"BLACK/GREEN\"",
+            "product_vendor": "",
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-clot-stan-smith-blackgreen"
+          }
+        },
+        "release_cd68xi": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.12",
+            "release_image": "shopify://shop_images/CLOTSTANSMITH_WHITE_GREEN_-1_1.jpg",
+            "product_title": "ADIDAS CLOT STAN SMITH \"WHITE/GREEN\"",
+            "product_vendor": "",
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-clot-stan-smith-whitegreen"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_CVty6Q",
-        "release_cd68xi",
         "release_z6DQMd",
-        "release_xkW8Dk"
+        "release_xkW8Dk",
+        "release_CVty6Q",
+        "release_cd68xi"
       ],
       "settings": {
         "color_scheme": "",
