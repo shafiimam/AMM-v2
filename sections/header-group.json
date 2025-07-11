@@ -66,7 +66,6 @@
         },
         "release_rJHyVH": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "7.17",
             "release_image": "shopify://shop_images/AVAROVER_BLACK_ANTHRACITE_-1.jpg",
@@ -76,33 +75,8 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-ava-rover-blackanthracite"
           }
         },
-        "release_HgBrbN": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.25",
-            "release_image": "shopify://shop_images/AMMXAJ5JUNETEENTH-1_72db9489-cbff-4d41-b0e1-113f726022e5.jpg",
-            "product_title": "A MA MANIÉRE X AIR JORDAN 5 \"BLACK COLLECTIVE\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "225",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-5-violet-ore"
-          }
-        },
-        "release_6QqqMN": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.17",
-            "release_image": "shopify://shop_images/AM95WHITHYPERJADE-1.jpg",
-            "product_title": "NIKE AIR MAX 95 OG \"WHITE/HYPER JADE\"",
-            "product_vendor": "NIKE",
-            "product_price": "190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whitehyper-jade-success-active"
-          }
-        },
         "release_RU8N8q": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "7.18",
             "release_image": "shopify://shop_images/KOBEVITOTALORANGE-1.jpg",
@@ -112,8 +86,31 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-vi-protro-total-orange"
           }
         },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.17",
+            "release_image": "shopify://shop_images/AM95WHITHYPERJADE-1.jpg",
+            "product_title": "NIKE AIR MAX 95 OG \"WHITE/HYPER JADE\"",
+            "product_vendor": "NIKE",
+            "product_price": "190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whitehyper-jade-success-active"
+          }
+        },
+        "release_HgBrbN": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.25",
+            "release_image": "shopify://shop_images/AMMXAJ5JUNETEENTH-1_72db9489-cbff-4d41-b0e1-113f726022e5.jpg",
+            "product_title": "A MA MANIÉRE X AIR JORDAN 5 \"BLACK COLLECTIVE\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "225",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-5-violet-ore"
+          }
+        },
         "release_z6DQMd": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.12",
             "release_image": "shopify://shop_images/MOSTROXJJJJOUND_DARKCHOCOLATE_-1_18d1abf2-e213-4719-9140-d4fbbb8698d6.jpg",
@@ -125,6 +122,7 @@
         },
         "release_xkW8Dk": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.12",
             "release_image": "shopify://shop_images/JJJJOUNDXMOSTRO_DEEPNAVY_-1_ee080b4e-48a9-4537-a55c-d4d9c99fb32f.jpg",
@@ -136,6 +134,7 @@
         },
         "release_CVty6Q": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.12",
             "release_image": "shopify://shop_images/CLOTSTANSMITH_BLACK_GREEN_-1_1.jpg",
@@ -147,6 +146,7 @@
         },
         "release_cd68xi": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.12",
             "release_image": "shopify://shop_images/CLOTSTANSMITH_WHITE_GREEN_-1_1.jpg",
@@ -161,9 +161,9 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_HgBrbN",
-        "release_6QqqMN",
         "release_RU8N8q",
+        "release_6QqqMN",
+        "release_HgBrbN",
         "release_z6DQMd",
         "release_xkW8Dk",
         "release_CVty6Q",
