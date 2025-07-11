@@ -68,12 +68,48 @@
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "6.07",
-            "release_image": "shopify://shop_images/AJ11LOWIGLOO-1_044ca240-aad2-4689-9a76-d0913a9eae62.jpg",
-            "product_title": "WOMEN'S AIR JORDAN 11 RETRO \"IGLOO\"",
+            "release_title": "7.17",
+            "release_image": "shopify://shop_images/AVAROVER_BLACK_ANTHRACITE_-1.jpg",
+            "product_title": "NIKE AVA ROVER \"BLACK/ANTHRACITE\"",
+            "product_vendor": "NIKE",
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-ava-rover-blackanthracite"
+          }
+        },
+        "release_HgBrbN": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "7.25",
+            "release_image": "shopify://shop_images/AMMXAJ5JUNETEENTH-1_72db9489-cbff-4d41-b0e1-113f726022e5.jpg",
+            "product_title": "A MA MANIÉRE X AIR JORDAN 5 \"BLACK COLLECTIVE\"",
             "product_vendor": "JORDAN BRAND",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-air-jordan-11-retro-igloo"
+            "product_price": "225",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-5-violet-ore"
+          }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "7.17",
+            "release_image": "shopify://shop_images/AM95WHITHYPERJADE-1.jpg",
+            "product_title": "NIKE AIR MAX 95 OG \"WHITE/HYPER JADE\"",
+            "product_vendor": "NIKE",
+            "product_price": "190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whitehyper-jade-success-active"
+          }
+        },
+        "release_RU8N8q": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "7.18",
+            "release_image": "shopify://shop_images/KOBEVITOTALORANGE-1.jpg",
+            "product_title": "NIKE KOBE VI PROTRO \"TOTAL ORANGE\"",
+            "product_vendor": "NIKE",
+            "product_price": "190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-vi-protro-total-orange"
           }
         },
         "release_z6DQMd": {
@@ -125,6 +161,9 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
+        "release_HgBrbN",
+        "release_6QqqMN",
+        "release_RU8N8q",
         "release_z6DQMd",
         "release_xkW8Dk",
         "release_CVty6Q",
