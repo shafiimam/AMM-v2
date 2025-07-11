@@ -164,7 +164,61 @@
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/am4.jpg",
+        "image": "shopify://shop_images/25_CL_Large_6a321b99-536c-4b87-822f-7b4d4967939a.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
+      }
+    },
+    "image_with_text_7Mi6YC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_T8FqeW": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére x NIKE Air Force 1 Low & the A Ma Maniére x NIKE Air Max 95",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_cJtkFk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>Act I: The Block</em> of <em>Every Summer Tells a Story</em> is a love letter celebrating the collective rhythm of movement, memory, and joy. Long before sneakers became global staples, they were born in the culture and celebrated by it. The block was the runway, and the Air Force 1 and Air Max 95 were worn not for trends, but for what they represented. From corner stores to courts, from stoops to summer streets, these silhouettes became staples of Black summer life. </p><p>Rooted in the heart of Atlanta, the <em>Act I: The Block</em> film is a visual tribute to the spirit of summer and the communities that shape the culture.</p><p><em>Every Summer Tells a Story</em> honors that energy — the stories, the people, and the legacy and summer traditions of Black culture.</p><p></p><p><em>Every Summer Tells a Story</em> is a reflection of presence, memory, and community. It lives on courts and stoops, in shared laughter and city heat. Each silhouette steps into the season with intention — not chasing trends, but carrying history, identity, and the spirit of summer that lives far beyond the calendar.</p><p>This is the first act. The story continues.</p><p></p>",
+            "text_color": "#eaeaea"
+          }
+        },
+        "button_ekUPze": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "ENTER RAFFLE NOW",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "countdown_g9Ahtp": {
+          "type": "countdown",
+          "settings": {
+            "final_date": "21-04-2026",
+            "final_time": "15:00",
+            "start_countdown": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_T8FqeW",
+        "richtext_cJtkFk",
+        "button_ekUPze",
+        "countdown_g9Ahtp"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/25_CL_Large_6a321b99-536c-4b87-822f-7b4d4967939a.png",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
@@ -811,6 +865,7 @@
     "slideshow_rBdfjJ",
     "video_G36CwU",
     "image_with_text_7Xm8Cg",
+    "image_with_text_7Mi6YC",
     "3d_gallery_simple_tzqkH8",
     "media_grid_HwBKby",
     "3d_gallery_simple_XCnGWB",
