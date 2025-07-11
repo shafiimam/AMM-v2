@@ -97,10 +97,10 @@
         "controls_color": "#ffffff"
       }
     },
-    "video_G36CwU": {
+    "video_hc4e9m": {
       "type": "video",
       "blocks": {
-        "play_teHULm": {
+        "play_RWKECc": {
           "type": "play",
           "settings": {
             "icon_color": "#ffffff"
@@ -108,15 +108,15 @@
         }
       },
       "block_order": [
-        "play_teHULm"
+        "play_RWKECc"
       ],
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
         "show_controls": false,
         "video_size": "md",
-        "video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
-        "mobile_video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
+        "video": "shopify://files/videos/AJ5 VINGETTE 3.mov",
+        "mobile_video": "shopify://files/videos/AJ5 VINGETTE 3.mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
@@ -127,20 +127,19 @@
         "heading_HiTgQk": {
           "type": "heading",
           "settings": {
-            "text": "A Ma Maniére x NIKE Air Force 1 Low & the A Ma Maniére x NIKE Air Max 95",
+            "text": "A Ma Maniére x AIR JORDAN 5 RETRO \"BLACK COLLECTIVE\"",
             "heading_tag": "h2"
           }
         },
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em>Act I: The Block</em> of <em>Every Summer Tells a Story</em> is a love letter celebrating the collective rhythm of movement, memory, and joy. Long before sneakers became global staples, they were born in the culture and celebrated by it. The block was the runway, and the Air Force 1 and Air Max 95 were worn not for trends, but for what they represented. From corner stores to courts, from stoops to summer streets, these silhouettes became staples of Black summer life. </p><p>Rooted in the heart of Atlanta, the <em>Act I: The Block</em> film is a visual tribute to the spirit of summer and the communities that shape the culture.</p><p><em>Every Summer Tells a Story</em> honors that energy — the stories, the people, and the legacy and summer traditions of Black culture.</p><p></p><p><em>Every Summer Tells a Story</em> is a reflection of presence, memory, and community. It lives on courts and stoops, in shared laughter and city heat. Each silhouette steps into the season with intention — not chasing trends, but carrying history, identity, and the spirit of summer that lives far beyond the calendar.</p><p>This is the first act. The story continues.</p><p></p>",
+            "content": "<p><em><strong>Every Summer Tells a Story: Act II — The Reclamation<br/><br/>RELEASE DETAILS <br/><br/></strong></em>The A Ma Maniére x Air Jordan 5 RETRO \"Black Collective\" launches on 7.25 at 11AM EST on <a href=\"https://www.a-ma-maniere.com/\" title=\"https://www.a-ma-maniere.com/\"><strong>amamaniere.com </strong></a>and at all A Ma Maniére locations. </p><p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from 7.11 until 7.21. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear. Footwear is priced at $225 with sizing ranging from 3.5M/5W -16M/17.5W<br/><br/></p>",
             "text_color": "#eaeaea"
           }
         },
         "button_JRcf9n": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "ENTER RAFFLE NOW",
@@ -148,12 +147,20 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "richtext_jcAFyH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Act II — The Reclamation — explores the evolution of cultural memory through the lens of Black identity. </p><p>The Air Jordan 5 Retro OG “Black Collective” is more than a sneaker—it’s a statement. A powerful convergence of craft, culture, and legacy, this silhouette arrives wrapped in smooth white leather and shaded in rich Violet Ore. Every detail tells a story: Southern-grown cotton laces from Black farmers, woven through our Seed2Shirt BLACKollective partnership—carrying generations of resilience in every thread.</p><p>This pair is stitched with pride—built to honor the past, reclaim the narrative, and stride boldly toward what’s next.<br/></p>",
+            "text_color": "#eaeaea"
+          }
         }
       },
       "block_order": [
         "heading_HiTgQk",
         "richtext_Pdk9a9",
-        "button_JRcf9n"
+        "button_JRcf9n",
+        "richtext_jcAFyH"
       ],
       "custom_css": [
         ".container * {text-align: center;}",
@@ -170,6 +177,30 @@
         "content_width": "lg",
         "remove_vertical_spacing": false,
         "remove_top_padding": true
+      }
+    },
+    "countdown_yXBFF9": {
+      "type": "countdown",
+      "disabled": true,
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_link": "",
+        "button_text": "",
+        "expiration_date": "2025-07-25",
+        "expiration_behavior": "hide",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "#efefef",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 24
       }
     },
     "image_with_text_7Mi6YC": {
@@ -231,25 +262,7 @@
       "type": "3d-gallery-simple",
       "name": "3D Gallery",
       "settings": {
-        "title": "A Ma Maniére x NIKE Air Force 1 Low",
-        "start_index": "503",
-        "end_index": "555",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC07",
-        "button_label": "",
-        "button_link": "",
-        "knob_position": 0,
-        "gallery_width": 60,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
-      }
-    },
-    "3d_gallery_simple_qWbxt4": {
-      "type": "3d-gallery-simple",
-      "name": "3D Gallery",
-      "settings": {
-        "title": "A Ma Maniére x NIKE Air Force 1 Low",
+        "title": "A Ma Maniére x AIR JORDAN 5 RETRO \"BLACK COLLECTIVE\"",
         "start_index": "503",
         "end_index": "555",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC07",
@@ -653,6 +666,94 @@
         "content": ""
       }
     },
+    "video_G36CwU": {
+      "type": "video",
+      "blocks": {
+        "play_teHULm": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_teHULm"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "md",
+        "video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
+        "mobile_video": "shopify://files/videos/AF1 Final export FRFR 2.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "image_with_text_MwkCCe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MypYP4": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére x NIKE Air Force 1 Low & the A Ma Maniére x NIKE Air Max 95",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_WMXepL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>Act I: The Block</em> of <em>Every Summer Tells a Story</em> is a love letter celebrating the collective rhythm of movement, memory, and joy. Long before sneakers became global staples, they were born in the culture and celebrated by it. The block was the runway, and the Air Force 1 and Air Max 95 were worn not for trends, but for what they represented. From corner stores to courts, from stoops to summer streets, these silhouettes became staples of Black summer life. </p><p>Rooted in the heart of Atlanta, the <em>Act I: The Block</em> film is a visual tribute to the spirit of summer and the communities that shape the culture.</p><p><em>Every Summer Tells a Story</em> honors that energy — the stories, the people, and the legacy and summer traditions of Black culture.</p><p></p><p><em>Every Summer Tells a Story</em> is a reflection of presence, memory, and community. It lives on courts and stoops, in shared laughter and city heat. Each silhouette steps into the season with intention — not chasing trends, but carrying history, identity, and the spirit of summer that lives far beyond the calendar.</p><p>This is the first act. The story continues.</p><p></p>",
+            "text_color": "#eaeaea"
+          }
+        },
+        "button_ijDHMD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "ENTER RAFFLE NOW",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MypYP4",
+        "richtext_WMXepL",
+        "button_ijDHMD"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/am4_ea9aafc9-9194-41ec-8c56-3dcdeecc6b20.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
+      }
+    },
+    "3d_gallery_simple_qWbxt4": {
+      "type": "3d-gallery-simple",
+      "disabled": true,
+      "name": "3D Gallery",
+      "settings": {
+        "title": "A Ma Maniére x NIKE Air Force 1 Low",
+        "start_index": "503",
+        "end_index": "555",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC07",
+        "button_label": "",
+        "button_link": "",
+        "knob_position": 0,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
     "media_grid_HwBKby": {
       "type": "media-grid",
       "blocks": {
@@ -866,12 +967,15 @@
     "main",
     "hero_with_logo_nPMzTc",
     "slideshow_rBdfjJ",
-    "video_G36CwU",
+    "video_hc4e9m",
     "image_with_text_7Xm8Cg",
+    "countdown_yXBFF9",
     "image_with_text_7Mi6YC",
     "3d_gallery_simple_tzqkH8",
-    "3d_gallery_simple_qWbxt4",
     "media_grid_4MXqFL",
+    "video_G36CwU",
+    "image_with_text_MwkCCe",
+    "3d_gallery_simple_qWbxt4",
     "media_grid_HwBKby"
   ]
 }
