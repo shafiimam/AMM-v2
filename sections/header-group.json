@@ -75,17 +75,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-ava-rover-blackanthracite"
           }
         },
-        "release_RU8N8q": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.18",
-            "release_image": "shopify://shop_images/KOBEVITOTALORANGE-1.jpg",
-            "product_title": "NIKE KOBE VI PROTRO \"TOTAL ORANGE\"",
-            "product_vendor": "NIKE",
-            "product_price": "190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-vi-protro-total-orange"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
           "settings": {
@@ -95,6 +84,17 @@
             "product_vendor": "NIKE",
             "product_price": "190",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whitehyper-jade-success-active"
+          }
+        },
+        "release_RU8N8q": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.18",
+            "release_image": "shopify://shop_images/KOBEVITOTALORANGE-1.jpg",
+            "product_title": "NIKE KOBE VI PROTRO \"TOTAL ORANGE\"",
+            "product_vendor": "NIKE",
+            "product_price": "190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-vi-protro-total-orange"
           }
         },
         "release_HgBrbN": {
@@ -161,8 +161,8 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_RU8N8q",
         "release_6QqqMN",
+        "release_RU8N8q",
         "release_HgBrbN",
         "release_z6DQMd",
         "release_xkW8Dk",
