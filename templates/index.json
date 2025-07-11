@@ -17,7 +17,7 @@
           "settings": {
             "video": "shopify://files/videos/AJ5 VINGETTE 3.mov",
             "mobile_video": "shopify://files/videos/AJ5 VINGETTE 3.mov",
-            "allow_sound": false,
+            "allow_sound": true,
             "subheading": "exclusive release 7.25 at 11am est",
             "subheading_size": 15,
             "title": "A Ma Maniére x air jordan 5 retro \"black collective\"",
