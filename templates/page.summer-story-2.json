@@ -215,6 +215,7 @@
         "button_ekUPze",
         "countdown_g9Ahtp"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": false,
@@ -819,7 +820,6 @@
         "image_Bb7rAP",
         "image_iWhfJp"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
