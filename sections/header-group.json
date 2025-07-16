@@ -64,17 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_rJHyVH": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.17",
-            "release_image": "shopify://shop_images/AVAROVER_BLACK_ANTHRACITE_-1.jpg",
-            "product_title": "NIKE AVA ROVER \"BLACK/ANTHRACITE\"",
-            "product_vendor": "NIKE",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-ava-rover-blackanthracite"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
           "settings": {
@@ -97,6 +86,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-vi-protro-total-orange"
           }
         },
+        "release_rJHyVH": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.25",
+            "release_image": "shopify://shop_images/AVAROVER_BLACK_ANTHRACITE_-1.jpg",
+            "product_title": "NIKE AVA ROVER \"BLACK/ANTHRACITE\"",
+            "product_vendor": "NIKE",
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-ava-rover-blackanthracite"
+          }
+        },
         "release_HgBrbN": {
           "type": "release",
           "settings": {
@@ -107,80 +107,15 @@
             "product_price": "$225",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-5-violet-ore"
           }
-        },
-        "release_8beFqY": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.19",
-            "release_image": "shopify://shop_images/AJ8AQUA-1.jpg",
-            "product_title": "AIR JORDAN 8 RETRO \"AQUA\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$210",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-8-retro-aqua"
-          }
-        },
-        "release_z6DQMd": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.12",
-            "release_image": "shopify://shop_images/MOSTROXJJJJOUND_DARKCHOCOLATE_-1_18d1abf2-e213-4719-9140-d4fbbb8698d6.jpg",
-            "product_title": "PUMA MOSTRO X JJJJOUND \"DARK CHOCOLATE\"",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-mostro-x-jjjjound-dark-chocolate"
-          }
-        },
-        "release_xkW8Dk": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.12",
-            "release_image": "shopify://shop_images/JJJJOUNDXMOSTRO_DEEPNAVY_-1_ee080b4e-48a9-4537-a55c-d4d9c99fb32f.jpg",
-            "product_title": "PUMA MOSTRO X JJJJOUND \"DEEP NAVY\"",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-mostro-x-jjjjound-deep-navy"
-          }
-        },
-        "release_CVty6Q": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.12",
-            "release_image": "shopify://shop_images/CLOTSTANSMITH_BLACK_GREEN_-1_1.jpg",
-            "product_title": "ADIDAS CLOT STAN SMITH \"BLACK/GREEN\"",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-clot-stan-smith-blackgreen"
-          }
-        },
-        "release_cd68xi": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.12",
-            "release_image": "shopify://shop_images/CLOTSTANSMITH_WHITE_GREEN_-1_1.jpg",
-            "product_title": "ADIDAS CLOT STAN SMITH \"WHITE/GREEN\"",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-clot-stan-smith-whitegreen"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_rJHyVH",
         "release_6QqqMN",
         "release_RU8N8q",
-        "release_HgBrbN",
-        "release_8beFqY",
-        "release_z6DQMd",
-        "release_xkW8Dk",
-        "release_CVty6Q",
-        "release_cd68xi"
+        "release_rJHyVH",
+        "release_HgBrbN"
       ],
       "settings": {
         "color_scheme": "",
