@@ -64,17 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_RU8N8q": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.18",
-            "release_image": "shopify://shop_images/KOBEVITOTALORANGE-1.jpg",
-            "product_title": "NIKE KOBE VI PROTRO \"TOTAL ORANGE\"",
-            "product_vendor": "NIKE",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-vi-protro-total-orange"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
           "settings": {
@@ -97,6 +86,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-ava-rover-blackanthracite"
           }
         },
+        "release_RU8N8q": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.25",
+            "release_image": "shopify://shop_images/DSC07872.png",
+            "product_title": "A MA MANIÉRE x NIKE AIR MAX 95 \"DIFFUSED TAUPE/PHANTOM\"",
+            "product_vendor": "NIKE",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-nike-air-max-95-diffused-taupephantom2"
+          }
+        },
         "release_HgBrbN": {
           "type": "release",
           "settings": {
@@ -112,9 +112,9 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_RU8N8q",
         "release_6QqqMN",
         "release_rJHyVH",
+        "release_RU8N8q",
         "release_HgBrbN"
       ],
       "settings": {
