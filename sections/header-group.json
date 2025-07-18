@@ -64,17 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_6QqqMN": {
-          "type": "release",
-          "settings": {
-            "release_title": "7.19",
-            "release_image": "shopify://shop_images/AE1LOWPRELOVEDLIME-1_3490d10f-27bb-46a2-9ea1-34a04e67f251.jpg",
-            "product_title": "ADIDAS ANTHONY EDWARDS I \"LIME GREEN\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$110",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/anthony-edwards-i-lime-green"
-          }
-        },
         "release_rJHyVH": {
           "type": "release",
           "settings": {
@@ -90,11 +79,11 @@
           "type": "release",
           "settings": {
             "release_title": "7.25",
-            "release_image": "shopify://shop_images/AMMXAM95TAUPE-1_fedf3cce-300c-4acc-851e-fb066d32e182.jpg",
-            "product_title": "A MA MANIÉRE x NIKE AIR MAX 95 \"DIFFUSED TAUPE/PHANTOM\"",
-            "product_vendor": "NIKE",
+            "release_image": "shopify://shop_images/GELKAYANO-14SOFTYELLOW_SILVER-1_28a81c38-e2c8-4c2f-acff-201f2ff8d418.jpg",
+            "product_title": "ASICS GEL-KAYANO 14 \"SOFT YELLOW\"",
+            "product_vendor": "ASICS",
             "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-nike-air-max-95-diffused-taupephantom2"
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-gel-kayano-14-soft-yellow"
           }
         },
         "release_HgBrbN": {
@@ -107,15 +96,26 @@
             "product_price": "$225",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-5-violet-ore"
           }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.26",
+            "release_image": "shopify://shop_images/AJ4RAREAIR-1_b0f04474-8fbc-4bc5-9aa6-4e15c25e8c07.jpg",
+            "product_title": "AIR JORDAN 4 RETRO \"RARE AIR\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$225",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/anthony-edwards-i-lime-green"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_6QqqMN",
         "release_rJHyVH",
         "release_RU8N8q",
-        "release_HgBrbN"
+        "release_HgBrbN",
+        "release_6QqqMN"
       ],
       "settings": {
         "color_scheme": "",
