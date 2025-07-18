@@ -163,6 +163,7 @@
         },
         "video_zB7x7d": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Never miss 4.3 [FV].mov",
             "mobile_video": "shopify://files/videos/Never miss 4.3 [FV].mov",
