@@ -102,35 +102,6 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "image_hFWrAE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/satoshidesk2.jpg",
-            "mobile_image": "shopify://shop_images/satoshimob3.jpg",
-            "subheading": "<p>shop new pieces</p>",
-            "subheading_size": 14,
-            "title": "<p>Satoshi Nakamoto</p>",
-            "title_size": 30,
-            "mobile_text_position": "place-self-end text-end",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/satoshi-nakamoto",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "video_LkrFHX": {
           "type": "video",
           "settings": {
@@ -152,6 +123,36 @@
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_hFWrAE": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/satoshidesk2.jpg",
+            "mobile_image": "shopify://shop_images/satoshimob3.jpg",
+            "subheading": "<p>shop new pieces</p>",
+            "subheading_size": 14,
+            "title": "<p>Satoshi Nakamoto</p>",
+            "title_size": 30,
+            "mobile_text_position": "place-self-end text-end",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/satoshi-nakamoto",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
@@ -197,8 +198,8 @@
         "video_EUxE7d",
         "video_TrrkwE",
         "video_QkmaYk",
-        "image_hFWrAE",
         "video_LkrFHX",
+        "image_hFWrAE",
         "video_zB7x7d"
       ],
       "settings": {
