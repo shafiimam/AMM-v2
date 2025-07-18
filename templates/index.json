@@ -14,7 +14,6 @@
       "blocks": {
         "video_EUxE7d": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
             "mobile_video": "shopify://files/videos/WILLY FULL VID WEB.mov",
@@ -219,42 +218,42 @@
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "enfants-riches-deprimes-cross-emblem-wallet"
-          }
-        },
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "you-are-nothing-tee"
+            "product": "willy-chavarria-budweiserria-tee-black"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "enfants-riches-deprimes-wider-leg-flare-jean-light-blue"
+            "product": "willy-chavarria-borracho-short-black"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "engineer-boot"
+            "product": "willy-chavarria-x-jabbar-lo-off-white-black"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "willy-chavarria-bad-boy-cap"
           }
         }
       },
       "block_order": [
         "product_eekMqY",
-        "product_CqUpFr",
         "product_q8H3fy",
-        "product_mzGxhY"
+        "product_mzGxhY",
+        "product_CqUpFr"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "Enfants Riches Déprimés",
+        "title": "Willy chavarria",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/Untitled-6_d50630e6-7e05-4a26-bb9f-d92339767327.jpg",
-        "image_description": "<p><strong>Enfants Riches Déprimés</strong>—<em>French for “Depressed Rich Kids”</em>—was founded by artist-designer Henri Alexander Levy. Born from punk and provocation, the brand makes wearable art that dares you to care—each piece a sharp rejection of fashion’s status quo.</p>",
+        "image": "shopify://shop_images/WILLT2.jpg",
+        "image_description": "<p>Willy Chavarria’s latest collection stands as a poignant tribute to Chicano street style. Chavarria masterfully leverages oversized shapes and cinched waists to create a virile aesthetic that's unapologetically bold and effortlessly. These cultural signifiers are not merely referenced—they are reinterpreted through a sophisticated, high-fashion lens that transforms each garment into a powerful work of art.</p>",
         "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/enfants-riches-deprimes"
+        "image_cta_url": "shopify://collections/willy-chavarria"
       }
     },
     "featured_collections_bFrXKx": {
