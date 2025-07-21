@@ -44,6 +44,7 @@
         },
         "video_TrrkwE": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AJ5 VINGETTE 3.mov",
             "mobile_video": "shopify://files/videos/AJ5 VINGETTE 3.mov",
