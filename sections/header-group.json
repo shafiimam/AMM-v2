@@ -88,7 +88,6 @@
         },
         "release_HgBrbN": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "7.26",
             "release_image": "shopify://shop_images/BADBUNNYGAZELLE_WONDERCLAY_-1.jpg",
