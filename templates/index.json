@@ -217,23 +217,25 @@
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "willy-chavarria-budweiserria-tee-black"
+            "product": "asap-rocky-next-generation-frames-ultra-black"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "willy-chavarria-borracho-short-black"
+            "product": "asap-rocky-next-generation-frames-light-grey-mirror-blue"
           }
         },
         "product_mzGxhY": {
           "type": "product",
+          "disabled": true,
           "settings": {
-            "product": "willy-chavarria-x-jabbar-lo-off-white-black"
+            "product": "asap-rocky-next-generation-ultra-black-frames"
           }
         },
         "product_CqUpFr": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "willy-chavarria-bad-boy-cap"
           }
@@ -247,12 +249,12 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "Willy chavarria",
+        "title": "A$ap rocky x ray-ban",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/WILLT2.jpg",
-        "image_description": "<p>Willy Chavarria’s latest collection stands as a poignant tribute to Chicano street style. Chavarria masterfully leverages oversized shapes and cinched waists to create a virile aesthetic that's unapologetically bold and effortlessly. These cultural signifiers are not merely referenced—they are reinterpreted through a sophisticated, high-fashion lens that transforms each garment into a powerful work of art.</p>",
-        "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/willy-chavarria"
+        "image": "shopify://shop_images/rayban5.jpg",
+        "image_description": "<p>Step into the future with the Next Generation collection by A$AP Rocky. Featuring futuristic designs that reimagine what's possible, this collection includes three ultra-<br/>wrapped models in a classic standout black along with other bold combinations that push the boundaries of style.</p>",
+        "image_cta": "Shop all",
+        "image_cta_url": "shopify://collections/asap-rocky-x-ray-ban"
       }
     },
     "featured_collections_bFrXKx": {
@@ -702,24 +704,24 @@
         "separate_section_with_border": false
       }
     },
-    "image_with_text_Fx7Aqn": {
+    "image_with_text_3MihKd": {
       "type": "image-with-text",
       "blocks": {
-        "heading_jdQf64": {
+        "heading_DXMakb": {
           "type": "heading",
           "settings": {
             "text": "The Essence Of Luxury",
             "heading_tag": "h2"
           }
         },
-        "richtext_cBEMWd": {
+        "richtext_HyJYfF": {
           "type": "richtext",
           "settings": {
             "content": "<p><strong>WORLD-CLASS CRAFTSMANSHIP</strong> - timeless seasonal pieces designed, developed and executed by the world's best and most celebrated contributors to style and fashion</p><p></p><p><strong>REFINED MATERIAL</strong>- sourced from across the globe, our pieces and collections are anchored by a commitment to adopting the finest and most desired materials of our time</p><p></p><p><strong>TIMELESS ELEGANCE - </strong>the styling and execution across collections stand as our commitment to sophistication, embodying the attention to detail of iconic pieces of history</p>",
             "text_color": "#8f8f8f"
           }
         },
-        "button_MkANMM": {
+        "button_aJ4tit": {
           "type": "button",
           "settings": {
             "style": "solid",
@@ -731,13 +733,9 @@
         }
       },
       "block_order": [
-        "heading_jdQf64",
-        "richtext_cBEMWd",
-        "button_MkANMM"
-      ],
-      "custom_css": [
-        "strong {color: #000;}",
-        "p {margin-block-start: 2.5rem;}"
+        "heading_DXMakb",
+        "richtext_HyJYfF",
+        "button_aJ4tit"
       ],
       "settings": {
         "color_scheme": "",
@@ -830,7 +828,7 @@
     "media_grid_DzxzqH",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
-    "image_with_text_Fx7Aqn",
+    "image_with_text_3MihKd",
     "text_with_icons_nKDVet"
   ]
 }
