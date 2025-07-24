@@ -12,6 +12,36 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_TrrkwE": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+            "mobile_video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+            "allow_sound": true,
+            "subheading": "SHOP THE COLLECTION",
+            "subheading_size": 18,
+            "title": "A$AP ROCKY x RAY-BAN \"NEXT GENERATION\"",
+            "title_size": 24,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 740,
+            "button_1_text": "buy now",
+            "button_1_link": "shopify://collections/asap-rocky-x-ray-ban",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_EUxE7d": {
           "type": "video",
           "settings": {
@@ -28,35 +58,6 @@
             "button_1_text": "Shop",
             "button_1_link": "shopify://collections/willy-chavarria",
             "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "video_TrrkwE": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "allow_sound": true,
-            "subheading": "Available now and in store 12PM",
-            "subheading_size": 15,
-            "title": "A Ma Maniére x air jordan 5 retro \"black collective\"",
-            "title_size": 24,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "buy now",
-            "button_1_link": "shopify://pages/every-summer-tells-a-story-act-ii-the-reclamation",
-            "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
@@ -191,8 +192,8 @@
         }
       },
       "block_order": [
-        "video_EUxE7d",
         "video_TrrkwE",
+        "video_EUxE7d",
         "image_BwHm3D",
         "video_QkmaYk",
         "video_LkrFHX",
