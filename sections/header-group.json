@@ -66,6 +66,7 @@
         },
         "release_rJHyVH": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.25",
             "release_image": "shopify://shop_images/AVAROVER_BLACK_ANTHRACITE_-1.jpg",
@@ -77,6 +78,7 @@
         },
         "release_RU8N8q": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.25",
             "release_image": "shopify://shop_images/GELKAYANO-14SOFTYELLOW_SILVER-1_28a81c38-e2c8-4c2f-acff-201f2ff8d418.jpg",
@@ -110,7 +112,6 @@
         },
         "release_j7Nfhn": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "7.26",
             "release_image": "shopify://shop_images/AJ4RAREAIRGS-1.jpg",
@@ -122,7 +123,6 @@
         },
         "release_mUi7ki": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "7.26",
             "release_image": "shopify://shop_images/SABRINA3BLUEPRINT-1.jpg",
