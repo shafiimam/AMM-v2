@@ -107,6 +107,18 @@
             "product_price": "$220",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-rare-air"
           }
+        },
+        "release_mUi7ki": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "7.25",
+            "release_image": "shopify://shop_images/SABRINA3BLUEPRINT-1.jpg",
+            "product_title": "WOMEN'S NIKE SABRINA 3 \"GLACIER BLUE/METALLIC GOLD\"",
+            "product_vendor": "NIKE",
+            "product_price": "$135",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-nike-sabrina-3-glacier-bluemetallic-gold"
+          }
         }
       },
       "block_order": [
@@ -115,7 +127,8 @@
         "release_rJHyVH",
         "release_RU8N8q",
         "release_HgBrbN",
-        "release_6QqqMN"
+        "release_6QqqMN",
+        "release_mUi7ki"
       ],
       "settings": {
         "color_scheme": "",
