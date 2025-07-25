@@ -25,7 +25,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "https://5collectiv5.com/",
+            "button_1_link": "shopify://collections/a-ma-maniere",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
