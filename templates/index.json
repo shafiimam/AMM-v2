@@ -43,7 +43,6 @@
         },
         "video_TrrkwE": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
             "mobile_video": "shopify://files/videos/Ray Ban 4k WEB.mov",
@@ -74,7 +73,6 @@
         },
         "video_EUxE7d": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
             "mobile_video": "shopify://files/videos/WILLY FULL VID WEB.mov",
@@ -105,7 +103,6 @@
         },
         "video_QkmaYk": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ERD PARIS WEB.mov",
             "mobile_video": "shopify://files/videos/ERD PARIS WEB.mov",
