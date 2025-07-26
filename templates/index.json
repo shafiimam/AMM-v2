@@ -222,27 +222,25 @@
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "asap-rocky-next-generation-frames-ultra-black"
+            "product": "amm-x-air-jordan-5-white-violet-ore-burgundy-crush-black"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "asap-rocky-next-generation-frames-light-grey-mirror-blue"
+            "product": "a-ma-maniere-w-y-w-s-air-force-1-white-white"
           }
         },
         "product_mzGxhY": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "asap-rocky-next-generation-ultra-black-frames"
+            "product": "jordan-brand-x-amm-black-collective-tee"
           }
         },
         "product_CqUpFr": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "willy-chavarria-bad-boy-cap"
+            "product": "jordan-brand-x-amm-collective-fleece-shorts"
           }
         }
       },
@@ -254,12 +252,12 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "A$ap rocky x ray-ban",
+        "title": "act II: The reclamation",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/rayban5.jpg",
-        "image_description": "<p>Step into the future with the Next Generation collection by A$AP Rocky. Featuring futuristic designs that reimagine what's possible, this collection includes three ultra-<br/>wrapped models in a classic standout black along with other bold combinations that push the boundaries of style.</p>",
+        "image": "shopify://shop_images/aj5cover2.jpg",
+        "image_description": "<p>Act II of \"Every Summer Tells a Story\" — The Reclamation — explores the evolution of cultural memory through the lens of Black identity. From timeless design to hidden narratives, this capsule isn’t just about style—it’s a declaration. A statement of truth. A reclaiming of pride, identity, and power.</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/asap-rocky-x-ray-ban"
+        "image_cta_url": "shopify://collections/a-ma-maniere"
       }
     },
     "featured_collections_bFrXKx": {
