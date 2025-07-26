@@ -90,6 +90,7 @@
         },
         "release_HgBrbN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.26",
             "release_image": "shopify://shop_images/BADBUNNYGAZELLE_WONDERCLAY_-1.jpg",
@@ -101,6 +102,7 @@
         },
         "release_6QqqMN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.26",
             "release_image": "shopify://shop_images/AJ4RAREAIR-1_b0f04474-8fbc-4bc5-9aa6-4e15c25e8c07.jpg",
@@ -112,6 +114,7 @@
         },
         "release_j7Nfhn": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.26",
             "release_image": "shopify://shop_images/AJ4RAREAIRGS-1.jpg",
@@ -123,6 +126,7 @@
         },
         "release_mUi7ki": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.26",
             "release_image": "shopify://shop_images/SABRINA3BLUEPRINT-1.jpg",
