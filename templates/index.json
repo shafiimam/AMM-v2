@@ -16,7 +16,6 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/satoshidesk2.jpg",
             "mobile_image": "shopify://shop_images/satoshimob3.jpg",
             "subheading": "<p>exclusive release 8/8 at 11 am ESt</p>",
             "subheading_size": 16,
