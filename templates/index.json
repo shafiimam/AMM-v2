@@ -14,7 +14,6 @@
       "blocks": {
         "video_AE6bz8": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/PART 2 DIALOGUE .mov",
             "mobile_video": "shopify://files/videos/PART 2 DIALOGUE .mov",
@@ -26,8 +25,8 @@
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/willy-chavarria",
+            "button_1_text": "enter raffles",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
