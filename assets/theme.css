@@ -2460,10 +2460,9 @@ model-media .shopify-model-viewer-ui {
 .product-card__media {
   isolation: isolate;
   display: block;
-  margin-top: 35px;
 }
 .product-card__image {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   margin-inline: auto;
   transition: opacity 0.1s ease-in-out;
