@@ -73,6 +73,7 @@
         },
         "image_BwHm3D": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DSC01257BB.jpg",
             "mobile_image": "shopify://shop_images/DSC06757_DC_1_copy_1.jpg",
@@ -135,7 +136,7 @@
           "settings": {
             "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
             "mobile_video": "shopify://files/videos/WILLY FULL VID WEB.mov",
-            "allow_sound": false,
+            "allow_sound": true,
             "subheading": "new pieces",
             "subheading_size": 19,
             "title": "willy chavarria",
@@ -165,7 +166,7 @@
           "settings": {
             "video": "shopify://files/videos/ERD PARIS WEB.mov",
             "mobile_video": "shopify://files/videos/ERD PARIS WEB.mov",
-            "allow_sound": false,
+            "allow_sound": true,
             "subheading": "AVAILABLE NOW",
             "subheading_size": 19,
             "title": "Enfants Riches Déprimés",
@@ -217,23 +218,25 @@
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "amm-x-air-jordan-5-white-violet-ore-burgundy-crush-black"
+            "product": "asap-rocky-next-generation-ultra-black-frames"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-w-y-w-s-air-force-1-white-white"
+            "product": "asap-rocky-next-generation-frames-light-grey-mirror-blue"
           }
         },
         "product_mzGxhY": {
           "type": "product",
+          "disabled": true,
           "settings": {
-            "product": "jordan-brand-x-amm-black-collective-tee"
+            "product": "asap-rocky-next-generation-frames-ultra-black"
           }
         },
         "product_CqUpFr": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "jordan-brand-x-amm-collective-fleece-shorts"
           }
@@ -247,12 +250,12 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "act II: The reclamation",
+        "title": "A$AP ROCKY X RAY-BAN",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/aj5cover2.jpg",
-        "image_description": "<p>Act II of \"Every Summer Tells a Story\" — The Reclamation — explores the evolution of cultural memory through the lens of Black identity. From timeless design to hidden narratives, this capsule isn’t just about style—it’s a declaration. A statement of truth. A reclaiming of pride, identity, and power.</p>",
+        "image": "shopify://shop_images/asap.jpg",
+        "image_description": "<p>The A$AP Rocky x Ray-Ban \"Next Generation\" Collection — where statement eyewear meets visionary design. This exclusive range blends bold aesthetics with A$AP Rocky's cultural influence and fashion innovation.</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/every-summer-tells-a-story"
+        "image_cta_url": "shopify://collections/asap-rocky-x-ray-ban"
       }
     },
     "featured_collections_bFrXKx": {
@@ -261,10 +264,10 @@
         "collection_ABw4Mi": {
           "type": "collection",
           "settings": {
-            "collection": "new-shorts",
+            "collection": "new-arrivals-1",
             "products_count": 8,
-            "title": "shop summer shorts",
-            "link_url": "shopify://collections/new-shorts",
+            "title": "shop new arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
             "link_text": "View all"
           }
         }
