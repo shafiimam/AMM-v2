@@ -64,52 +64,48 @@
             "image_2_link": ""
           }
         },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "7.30",
+            "release_image": "shopify://shop_images/NB204LMUSHROOM-1_78bc3073-2207-4220-8350-21d1b7cd967a.jpg",
+            "product_title": "NEW BALANCE 204L \"MUSHROOM\"",
+            "product_vendor": "NEW BALANCE",
+            "product_price": "$110",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-204l-mushroom"
+          }
+        },
         "release_rJHyVH": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "7.25",
-            "release_image": "shopify://shop_images/AVAROVER_BLACK_ANTHRACITE_-1.jpg",
-            "product_title": "NIKE AVA ROVER \"BLACK/ANTHRACITE\"",
-            "product_vendor": "NIKE",
-            "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-ava-rover-blackanthracite"
+            "release_title": "8.08",
+            "release_image": "shopify://shop_images/JAIDEXNB998-1_12289af6-d4a5-4872-8da6-7ad78c7c084b.jpg",
+            "product_title": "The Whitaker Group and New Balance Made In USA 998",
+            "product_vendor": "NEW BALANCE",
+            "product_price": "$220",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/the-whitaker-grp-x-made-in-usa-998"
           }
         },
         "release_RU8N8q": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "7.25",
-            "release_image": "shopify://shop_images/GELKAYANO-14SOFTYELLOW_SILVER-1_28a81c38-e2c8-4c2f-acff-201f2ff8d418.jpg",
-            "product_title": "ASICS GEL-KAYANO 14 \"SOFT YELLOW\"",
-            "product_vendor": "ASICS",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-gel-kayano-14-soft-yellow"
+            "release_title": "8.08",
+            "release_image": "shopify://shop_images/JAIDEXNB990v4-1_1.jpg",
+            "product_title": "The Whitaker Group and New Balance Made In USA 990v4",
+            "product_vendor": "NEW BALANCE",
+            "product_price": "$220",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/the-whitaker-group-x-made-in-usa-990-v4"
           }
         },
         "release_HgBrbN": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "7.26",
-            "release_image": "shopify://shop_images/BADBUNNYGAZELLE_WONDERCLAY_-1.jpg",
-            "product_title": "ADIDAS X BAD BUNNY GAZELLE \"CABO ROJO\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/us/adidas-bad-bunny-gazelle-wonder-clay"
-          }
-        },
-        "release_6QqqMN": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.26",
-            "release_image": "shopify://shop_images/AJ4RAREAIR-1_b0f04474-8fbc-4bc5-9aa6-4e15c25e8c07.jpg",
-            "product_title": "AIR JORDAN 4 RETRO \"RARE AIR\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-rare-air"
+            "release_title": "8.08",
+            "release_image": "shopify://shop_images/JAIDEXNB990v4PS-1_8e55bfac-5412-4f20-9f5e-6cd84989f8c8.jpg",
+            "product_title": "The Whitaker Group and New Balance Little Kids 990v4 (Preschool)",
+            "product_vendor": "NEW BALANCE",
+            "product_price": "$110",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/the-whitaker-grp-x-made-in-usa-990-v4-little-kids"
           }
         },
         "release_j7Nfhn": {
@@ -140,10 +136,10 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
+        "release_6QqqMN",
         "release_rJHyVH",
         "release_RU8N8q",
         "release_HgBrbN",
-        "release_6QqqMN",
         "release_j7Nfhn",
         "release_mUi7ki"
       ],
