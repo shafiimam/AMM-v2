@@ -17,7 +17,7 @@
           "settings": {
             "video": "shopify://files/videos/PART 2 DIALOGUE .mov",
             "mobile_video": "shopify://files/videos/PART 2 DIALOGUE .mov",
-            "allow_sound": true,
+            "allow_sound": false,
             "subheading": "exclusive release 8/8 at 11 am EST",
             "subheading_size": 18,
             "title": "The Whitaker Group and New Balance \"Willful Bias\" For Education",
@@ -201,7 +201,7 @@
         "video_QkmaYk"
       ],
       "settings": {
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "show_next_section_button": true,
         "media_size": "fill",
         "show_initial_transition": false,
