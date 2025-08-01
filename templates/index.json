@@ -12,36 +12,6 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_BwHm3D": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/jaq2_eab04d0e-6f15-4fd8-af18-d415b507c68c.jpg",
-            "mobile_image": "shopify://shop_images/jaqmob2.jpg",
-            "subheading": "<p>shop new fall pieces</p>",
-            "subheading_size": 16,
-            "title": "<p>JACQUEMUS</p>",
-            "title_size": 28,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "SHOP ALL",
-            "button_1_link": "shopify://collections/jacquemus",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "CAMEL CREWNECK",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "video_EUxE7d": {
           "type": "video",
           "settings": {
@@ -60,8 +30,8 @@
             "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
-            "button_2_text": "camel crewneck",
-            "button_2_link": "",
+            "button_2_text": "knit polo",
+            "button_2_link": "shopify://products/jacquemus-le-polo-punto-mc-beige",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -194,7 +164,6 @@
         }
       },
       "block_order": [
-        "image_BwHm3D",
         "video_EUxE7d",
         "video_AE6bz8",
         "image_kxz3ft",
