@@ -77,6 +77,7 @@
         },
         "release_rJHyVH": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.08",
             "release_image": "shopify://shop_images/JAIDEXNB998-1_12289af6-d4a5-4872-8da6-7ad78c7c084b.jpg",
@@ -88,6 +89,7 @@
         },
         "release_RU8N8q": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.08",
             "release_image": "shopify://shop_images/JAIDEXNB990v4-1_1.jpg",
@@ -99,6 +101,7 @@
         },
         "release_HgBrbN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.08",
             "release_image": "shopify://shop_images/JAIDEXNB990v4PS-1_8e55bfac-5412-4f20-9f5e-6cd84989f8c8.jpg",
