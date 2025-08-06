@@ -77,26 +77,24 @@
         },
         "release_rJHyVH": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "8.08",
-            "release_image": "shopify://shop_images/JAIDEXNB998-1_12289af6-d4a5-4872-8da6-7ad78c7c084b.jpg",
-            "product_title": "The Whitaker Group and New Balance Made In USA 998",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/the-whitaker-grp-x-made-in-usa-998"
+            "release_title": "8.16",
+            "release_image": "shopify://shop_images/AJ12FRENCHBLUE-1.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$205",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue"
           }
         },
         "release_RU8N8q": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "8.08",
-            "release_image": "shopify://shop_images/JAIDEXNB990v4-1_1.jpg",
-            "product_title": "The Whitaker Group and New Balance Made In USA 990v4",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/the-whitaker-group-x-made-in-usa-990-v4"
+            "release_title": "8.16",
+            "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1_5e18f35b-0394-421f-bb86-e707d0943981.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "$205",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
           }
         },
         "release_HgBrbN": {
