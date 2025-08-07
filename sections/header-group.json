@@ -66,6 +66,7 @@
         },
         "release_6QqqMN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.08",
             "release_image": "shopify://shop_images/AM95BLUESPARK-1.jpg",
@@ -97,6 +98,18 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
           }
         },
+        "release_j7Nfhn": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "8.16",
+            "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
+          }
+        },
         "release_HgBrbN": {
           "type": "release",
           "disabled": true,
@@ -107,18 +120,6 @@
             "product_vendor": "JORDAN",
             "product_price": "$165",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nigel-sylvester-air-jordan-1-retro-low-og-nitro-black-muslinvarsity-red"
-          }
-        },
-        "release_j7Nfhn": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "7.26",
-            "release_image": "shopify://shop_images/AJ4RAREAIRGS-1.jpg",
-            "product_title": "AIR JORDAN 4 RETRO \"RARE AIR\" GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-rare-air-gs"
           }
         },
         "release_mUi7ki": {
@@ -140,8 +141,8 @@
         "release_6QqqMN",
         "release_rJHyVH",
         "release_RU8N8q",
-        "release_HgBrbN",
         "release_j7Nfhn",
+        "release_HgBrbN",
         "release_mUi7ki"
       ],
       "settings": {
