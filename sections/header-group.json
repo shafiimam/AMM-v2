@@ -99,7 +99,6 @@
         },
         "release_HgBrbN": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "8.16",
             "release_image": "shopify://shop_images/NIGELXAJ1LOWBLK-1.jpg",
