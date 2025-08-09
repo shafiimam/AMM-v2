@@ -66,58 +66,71 @@
         },
         "release_rJHyVH": {
           "type": "release",
+          "settings": {
+            "release_title": "8.16",
+            "release_image": "shopify://shop_images/AJ12FRENCHBLUE-1.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$205",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue"
+          }
+        },
+        "release_RU8N8q": {
+          "type": "release",
+          "settings": {
+            "release_title": "8.16",
+            "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1_5e18f35b-0394-421f-bb86-e707d0943981.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "$205",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
+          }
+        },
+        "release_mUi7ki": {
+          "type": "release",
+          "settings": {
+            "release_title": "8.19",
+            "release_image": "shopify://shop_images/HANDBALLSPEZIALMADEINGERMANY_BLUE_WHITE_-1.jpg",
+            "product_title": "ADIDAS HANDBALL SPEZIAL MADE IN GERMANY \"BLUE/WHITE\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-handball-spezial-made-in-germany-bluewhite"
+          }
+        },
+        "release_j7Nfhn": {
+          "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "6.07",
-            "release_image": "shopify://shop_images/AJ11LOWIGLOO-1_044ca240-aad2-4689-9a76-d0913a9eae62.jpg",
-            "product_title": "WOMEN'S AIR JORDAN 11 RETRO \"IGLOO\"",
-            "product_vendor": "JORDAN BRAND",
+            "release_title": "8.16",
+            "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
+          }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "8.08",
+            "release_image": "shopify://shop_images/AM95BLUESPARK-1.jpg",
+            "product_title": "NIKE AIR MAX 95 OG \"WHITE/BLUE SPARK\"",
+            "product_vendor": "NIKE",
             "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-air-jordan-11-retro-igloo"
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whiteblue-spark"
           }
         },
-        "release_CVty6Q": {
+        "release_HgBrbN": {
           "type": "release",
+          "disabled": true,
           "settings": {
-            "release_title": "6.19",
-            "release_image": "shopify://shop_images/MADEINUK991V2_MINERALGREEN_-1_b46a24af-3da2-4af3-8f2f-9463b82a866f.jpg",
-            "product_title": "NEW BALANCE MADE IN UK 991v2 \"MINERAL GREEN\"",
-            "product_vendor": "",
-            "product_price": "$250",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-uk-991-v2-mineral-green"
-          }
-        },
-        "release_z6DQMd": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.19",
-            "release_image": "shopify://shop_images/AIRMAXWAFFLESP2GRNPINK-1_54c4afac-b086-4fc4-ae41-1d0f8fca43c5.jpg",
-            "product_title": "NIKE AIR MAX WAFFLE SP 2",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-waffle-sp-2"
-          }
-        },
-        "release_cd68xi": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.20",
-            "release_image": "shopify://shop_images/FOAMPOSITEWHITE-1_1.jpg",
-            "product_title": "NIKE AIR FOAMPOSITE ONE \"WHITE\"",
-            "product_vendor": "",
-            "product_price": "$230",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-foamposite-one-white"
-          }
-        },
-        "release_xkW8Dk": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.21",
-            "release_image": "shopify://shop_images/EDISONCHENSTANSMITH_WHITE_NAVY_-1_de85f275-74ea-4d80-b89b-97d7ba8d6702.jpg",
-            "product_title": "ADIDAS EDISON CHEN STAN SMITH 'WHITE/NAVY'",
-            "product_vendor": "",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-edison-chen-stan-smith-whitenavy"
+            "release_title": "8.16",
+            "release_image": "shopify://shop_images/NIGELXAJ1LOWBLK-1.jpg",
+            "product_title": "NIGEL SYLVESTER AIR JORDAN 1 RETRO LOW OG NITRO \"BLACK/ MUSLIN/VARSITY RED\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$165",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nigel-sylvester-air-jordan-1-retro-low-og-nitro-black-muslinvarsity-red"
           }
         }
       },
@@ -125,13 +138,14 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_CVty6Q",
-        "release_z6DQMd",
-        "release_cd68xi",
-        "release_xkW8Dk"
+        "release_RU8N8q",
+        "release_mUi7ki",
+        "release_j7Nfhn",
+        "release_6QqqMN",
+        "release_HgBrbN"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "enable_sticky": true,
         "hide_on_scroll": false,
         "show_separation_border": true,
@@ -155,6 +169,7 @@
         "show_country_flag": true,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
         "show_releases": true
       }
     }

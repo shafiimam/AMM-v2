@@ -71,14 +71,14 @@
         "heading_9GCHUT": {
           "type": "heading",
           "settings": {
-            "text": "SPRING ESSENTIALS",
+            "text": "SUMMER ESSENTIALS",
             "heading_tag": "h1"
           }
         },
         "richtext_aGXpJA": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Elevate your everyday style with luxury accessories from A Ma Maniére, featuring a curated selection of designer bags, belts, hats, jewelry, and more. Discover premium scarves, wallets, sunglasses, socks, and small goods, crafted with high-quality materials and designed for both function and fashion. Our collection also includes statement masks, home essentials, and exclusive collaborations, blending streetwear aesthetics with refined luxury. Shop the latest high-end accessories online and in-store at A Ma Maniére.</p><p>This season, accessories take center stage. From structured bags that define the silhouette to sculptural jewelry, elevated home accents, and thoughtfully designed small goods—each piece is made to transition with ease and intention. Lightweight yet impactful, our Spring Essentials collection brings a sense of quiet sophistication to every moment, designed to layer seamlessly into your life and wardrobe</p>",
+            "content": "<p>Elevate your everyday style with luxury accessories from A Ma Maniére, featuring a curated selection of designer bags, belts, hats, jewelry, and more. Discover premium scarves, wallets, sunglasses, socks, and small goods, crafted with high-quality materials and designed for both function and fashion. Our collection also includes statement masks, home essentials, and exclusive collaborations, blending streetwear aesthetics with refined luxury. Shop the latest high-end accessories online and in-store at A Ma Maniére.</p><p>This season, accessories take center stage. From structured bags that define the silhouette to sculptural jewelry, elevated home accents, and thoughtfully designed small goods—each piece is made to transition with ease and intention. Lightweight yet impactful, our Summer Essentials collection brings a sense of quiet sophistication to every moment, designed to layer seamlessly into your life and wardrobe</p>",
             "text_color": "#8f8f8f"
           }
         },
@@ -106,7 +106,6 @@
         "separate_section_with_border": false,
         "image": "shopify://shop_images/DSC07068_BB_3.png",
         "mobile_image": "shopify://shop_images/DSC07068_BB_3.png",
-
         "circular_text": "FLATLISTEYEWEAFRFLATLISTEYEWEAR FLATLISTEYEWEAR",
         "reveal_on_scroll": true,
         "image_position": "end",
@@ -170,10 +169,10 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "sunglasses",
+            "collection": "new-bags",
             "products_count": 4,
-            "title": "Sunglasses",
-            "link_url": "shopify://collections/sunglasses",
+            "title": "bags",
+            "link_url": "shopify://collections/new-bags",
             "link_text": ""
           }
         }
@@ -193,6 +192,52 @@
         "subheading": ""
       }
     },
+    "before_after_zNnGJf": {
+      "type": "before-after",
+      "blocks": {
+        "before_JqNGTR": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/0RB4940-683387_1_81439f33-71f9-4e9e-8919-ede3a5644388.jpg",
+            "mobile_image": "shopify://shop_images/0RB4940-683387_1_81439f33-71f9-4e9e-8919-ede3a5644388.jpg",
+            "text": "blue",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/sunglasses/products/ray-ban-a-ap-rocky-puffy-wayfarer-sunglasses-blue",
+            "link_style": "link"
+          }
+        },
+        "after_3kLndA": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/0RB4940-683087_1_732e98c1-172f-436c-8f86-f7c4a12ed2bc.jpg",
+            "mobile_image": "shopify://shop_images/0RB4940-683087_1_732e98c1-172f-436c-8f86-f7c4a12ed2bc.jpg",
+            "text": "yellow",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/sunglasses/products/ray-ban-a-ap-rocky-puffy-wayfarer-sunglasses-yellow",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_JqNGTR",
+        "after_3kLndA"
+      ],
+      "disabled": true,
+      "name": "t:sections.before_after.presets.before_after.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "find your shade",
+        "content": "",
+        "cursor_direction": "vertical",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "disabled": true,
@@ -206,22 +251,31 @@
         "end_index": "50",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB031",
         "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/jacquemus/products/jacquemus-le-cuerda-horiz"
+        "button_link": "https://www.a-ma-maniere.com/collections/jacquemus/products/jacquemus-le-cuerda-horiz",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "3d_gallery_fKkNmV": {
       "type": "3d-gallery",
-      "custom_css": [
-        ".gallery-controls {position: relative;}",
-        ".angle-view {width: 40% !important; @media (max-width: 768px) {width: 60% !important; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Look Closer",
         "start_index": "5",
         "end_index": "62",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB034",
         "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/rick-owens/products/rick-owens-mainline-kreister-sunglasses"
+        "button_link": "https://www.a-ma-maniere.com/collections/rick-owens/products/rick-owens-mainline-kreister-sunglasses",
+        "knob_position": 100,
+        "gallery_width": 40,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "featured_collections_Dtrtbp": {
@@ -260,6 +314,7 @@
     "accessories_image_with_text_eabtxK",
     "image_with_text_3RCJ8L",
     "featured_collections_e4qJwn",
+    "before_after_zNnGJf",
     "3d_gallery_Y9qVkB",
     "3d_gallery_fKkNmV",
     "featured_collections_Dtrtbp"

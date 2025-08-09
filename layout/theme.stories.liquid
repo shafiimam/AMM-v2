@@ -45,7 +45,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     >
-
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     {%- unless settings.heading_font.system? -%}
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
@@ -88,18 +87,18 @@
       }
     </script>
 
-    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script> 
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
-    <script src="{{ 'jquery.min.js' | asset_url }}" async></script>
-    <script src="{{ 'aos.js' | asset_url }}" async></script>
+    <script src="{{ 'jquery.min.js'  | asset_url }}" defer></script>
+    <script src="{{ 'angle.js' | asset_url }}" defer></script>
+    <script src="{{ '360-knob.js' | asset_url }}" defer></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'custom.css' | asset_url | stylesheet_tag: preload: true -}}
-    {{- 'aos.css' | asset_url | stylesheet_tag: preload: true -}}
-
     <script>
       navigator.platform &&
         /iPad|iPhone|iPod/.test(navigator.platform) &&
@@ -109,7 +108,7 @@
   </head>
 
   {% liquid
-    assign features_class = 'media-grid__item'
+    assign features_class = ''
 
     if settings.show_button_transition
       assign features_class = features_class | append: 'features--button-transition '
@@ -182,9 +181,7 @@
           '/',
           "{{ 'theme.css' | asset_url }}",
           "{{ 'custom.css' | asset_url }}",
-          "{{ 'aos.css' | asset_url }}",
           "{{ 'jquery.min.js' | asset_url }}",
-          "{{ 'aos.js' | asset_url }}",
           "{{ 'angle.js' | asset_url }}",
           "{{ 'theme.js' | asset_url }}",
           "{{ 'image-board-animation.aio.min.js' | asset_url }}",

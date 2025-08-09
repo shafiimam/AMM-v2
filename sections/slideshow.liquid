@@ -94,11 +94,11 @@ may have important consequence on the section itself.
           <div class="slideshow__slide-content {% if is_boxed %}slideshow__slide-content--boxed{% endif %} {% if has_border %}slideshow__slide-content--with-border{% endif %} {% if has_inside_offset %}slideshow__slide-content--with-border-offset{% endif %} {{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}" style="{% render 'surface', background: block.settings.background, background_opacity: block.settings.background_opacity, text_color: block.settings.text_color, border_color: block.settings.border_color %}">
             <div class="prose">
               {%- if block.settings.subheading != blank -%}
-                <p class="h6" style="font-size: {{ block.settings.subheading_size }}px;">{{ block.settings.subheading }}</p>
+                <div class="h6" style="font-size: {{ block.settings.subheading_size }}px;">{{ block.settings.subheading }}</div>
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="h1" style="font-size: {{ block.settings.title_size }}px;">{{ block.settings.title }}</p>
+                <div class="h1" style="font-size: {{ block.settings.title_size }}px;">{{ block.settings.title }}</div>
               {%- endif -%}
 
               {%- if block.settings.button_1_text != blank or block.settings.button_2_text != blank -%}
@@ -303,10 +303,10 @@ may have important consequence on the section itself.
           "content": "t:sections.slideshow.blocks.image.content_category"
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "subheading",
           "label": "t:global.text.subheading",
-          "default": "Tell your story"
+          "default": "<p>Tell your story</p>"
         },
         {
           "type": "range",
@@ -319,10 +319,10 @@ may have important consequence on the section itself.
           "default": 12
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "title",
           "label": "t:global.text.heading",
-          "default": "Image slide"
+          "default": "<p>Image slide</p>"
         },
         {
           "type": "range",
@@ -855,13 +855,13 @@ may have important consequence on the section itself.
         {
           "type": "image",
           "settings": {
-            "title": "Slide 1"
+            "title": "<p>Slide 1</p>"
           }
         },
         {
           "type": "image",
           "settings": {
-            "title": "Slide 2"
+            "title": "<p>Slide 2</p>"
           }
         }
       ]

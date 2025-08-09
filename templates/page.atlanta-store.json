@@ -276,7 +276,7 @@
           "type": "collection",
           "settings": {
             "collection": "new-arrivals-1",
-            "products_count": 10,
+            "products_count": 9,
             "title": "New Arrivals",
             "link_url": "",
             "link_text": ""
@@ -315,6 +315,7 @@
       "block_order": [
         "collection_PQUcic"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,

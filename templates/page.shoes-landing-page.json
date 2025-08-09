@@ -155,17 +155,20 @@
     },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
-      "custom_css": [
-        ".gallery-controls {position: relative;}",
-        "@media screen and (min-width: 1000px) {.angle-view {max-width: 50vw; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Look Closer",
         "start_index": "44",
         "end_index": "96",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC068",
         "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/drkshdw/products/denim-vintage-sneaks-1"
+        "button_link": "https://www.a-ma-maniere.com/collections/drkshdw/products/denim-vintage-sneaks-1",
+        "knob_position": 100,
+        "gallery_width": 50,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "featured_collections_Dtrtbp": {
