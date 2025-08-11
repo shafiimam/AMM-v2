@@ -66,6 +66,7 @@
         },
         "release_rJHyVH": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.16",
             "release_image": "shopify://shop_images/AJ12FRENCHBLUE-1.jpg",
@@ -77,6 +78,7 @@
         },
         "release_RU8N8q": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.16",
             "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1_5e18f35b-0394-421f-bb86-e707d0943981.jpg",
