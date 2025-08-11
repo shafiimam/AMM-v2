@@ -14,6 +14,7 @@
       "blocks": {
         "image_GfQhAq": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ammdesk1_5d8d8fba-adac-4015-b4ad-b4842930e3a6.jpg",
             "mobile_image": "shopify://shop_images/DSC05090_DC_copy.jpg",
