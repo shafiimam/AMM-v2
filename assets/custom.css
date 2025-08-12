@@ -322,6 +322,22 @@ variant-sku {
 
 .copy-to-clip {
   cursor: pointer;
+  position: relative;
+}
+.copy-to-clip .tooltip{
+  position: absolute;
+  width: max-content;
+  font-size: 12px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 2px;
+  top: -120%;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+.copy-to-clip:hover .tooltip{
+  opacity: 1;
 }
 .copy-success-popup {
   position: fixed;
@@ -521,4 +537,11 @@ h1#cae-heading {
   .shopify-section--main-product .section-spacing {
     padding-block-start: var(--container-gutter);
   }
+}
+
+.footer-newsltere-subtitle h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--text-font-family);
 }

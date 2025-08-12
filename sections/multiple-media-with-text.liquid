@@ -116,11 +116,11 @@
         <div class="multiple-media-with-text__content-wrapper align-self-{{ section.settings.text_alignment }}">
           <div class="prose">
             {%- if section.settings.subheading != blank -%}
-              <p class="h6">{{ section.settings.subheading }}</p>
+              <h2 class="h6">{{ section.settings.subheading }}</h2>
             {%- endif -%}
 
             {%- if section.settings.title != blank -%}
-              <p class="h3">{{ section.settings.title }}</p>
+              <h3 class="h3">{{ section.settings.title }}</h3>
             {%- endif -%}
 
             {{- section.settings.content -}}
@@ -128,11 +128,14 @@
             {%- if section.settings.button_1_text != blank or section.settings.button_2_text != blank -%}
               <div class="button-group">
                 {%- if section.settings.button_1_text != blank -%}
-                  {%- render 'button', href: section.settings.button_1_link, content: section.settings.button_1_text, style: section.settings.button_1_style -%}
+                {% capture aria_title_1 %}{% render 'resolve-link-title', url: section.settings.button_1_link, fallback: section.settings.button_1_text %}{% endcapture %}
+                  {%- render 'button', href: section.settings.button_1_link, content: section.settings.button_1_text, style: section.settings.button_1_style , aria_label: aria_title_1 -%}
                 {%- endif -%}
 
                 {%- if section.settings.button_2_text != blank -%}
-                  {%- render 'button', href: section.settings.button_2_link, content: section.settings.button_2_text, style: section.settings.button_2_style -%}
+                {% capture aria_title_2 %}{% render 'resolve-link-title', url: section.settings.button_2_link, fallback: section.settings.button_2_text %}{% endcapture %}
+
+                  {%- render 'button', href: section.settings.button_2_link, content: section.settings.button_2_text, style: section.settings.button_2_style , aria_label: aria_title_2 -%}
                 {%- endif -%}
               </div>
             {%- endif -%}

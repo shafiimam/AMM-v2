@@ -22,7 +22,7 @@
               {%- case block.type -%}
                 {%- when 'category' -%}
                   {%- if block.settings.title != blank -%}
-                    <p id="block-{{ block.id }}" class="faq__category h4" {{ block.shopify_attributes }}>
+                    <h2 id="block-{{ block.id }}" class="faq__category h4" {{ block.shopify_attributes }}>
                     {%- if block.settings.custom_icon != blank -%}
                       {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
                       {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
@@ -34,7 +34,7 @@
                     {%- endif -%}
 
                       {{- block.settings.title -}}
-                    </p>
+                    </h2>
                   {%- endif -%}
 
                 {%- when 'question' -%}

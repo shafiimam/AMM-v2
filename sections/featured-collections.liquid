@@ -89,7 +89,9 @@
                 {%- assign button_link = block.settings.link_url | default: block.settings.collection.url | default: '#' -%}
 
                 <div class="justify-self-center">
-                  {%- render 'button', href: button_link, content: block.settings.link_text -%}
+                  {%- assign collection_title = block.settings.collection.title | default: block.settings.title | default: 'Collection' -%}
+                  {%- capture view_all_label -%}View all {{ collection_title }}{%- endcapture -%}
+                  {%- render 'button', href: button_link, content: block.settings.link_text, aria_label: view_all_label -%}
                 </div>
               {%- endif -%}
             </div>

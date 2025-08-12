@@ -78,7 +78,7 @@
 
                 {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
                   <div class="prose prose--tight {{ block.settings.text_position }}">
-                    <p class="{{ block.settings.heading_tag }}">{{ block.settings.title }}</p>
+                    <{{ block.settings.heading_tag | default: 'h3' }} class="m-0">{{ block.settings.title }}</{{ block.settings.heading_tag | default: 'h3' }}>
 
                     {{- block.settings.content -}}
 
@@ -91,12 +91,15 @@
             {%- endcapture -%}
 
             {%- if block.settings.link_url -%}
+              {% capture aria_title %}
+                {% render 'resolve-link-title', url: block.settings.link_url, fallback: 'Know more about this image' %}
+              {% endcapture %}
               <a
                 href="{{ block.settings.link_url }}"
                 class="media-grid__item"
                 style="--media-grid-item-column-span: {{ block.settings.column_count }}; --media-grid-item-row-span: {{ block.settings.row_count }}"
                 {{ block.shopify_attributes }}
-                aria-label="Know More about this image {{ block.setting.image.alt }}"
+                aria-label="Know more about {{ aria_title | strip }}"
               >
                 {{- block_content -}}
               </a>
