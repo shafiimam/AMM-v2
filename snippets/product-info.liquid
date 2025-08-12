@@ -144,7 +144,10 @@
             {% if product.selected_or_first_available_variant.sku != blank %}
               <variant-sku class="variant-sku text-lg text-subdued">
                 {{ product.selected_or_first_available_variant.sku -}}
-                <p role="button" class="copy-to-clip" data-text="{{ product.first_available_variant.sku }}">{% render 'icons', icon_type : 'copy' %}</p>
+                <p aria-label="Copy product sku to clipboard" role="button" class="copy-to-clip" data-text="{{ product.first_available_variant.sku }}">
+                  <span class="tooltip">Copy SKU</span>  
+                {% render 'icons', icon_type : 'copy' %}
+                  </p>
               </variant-sku>
             {%- endif -%}
            {%- when 'color' -%}

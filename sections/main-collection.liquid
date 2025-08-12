@@ -112,9 +112,9 @@
   <div class="container">
     <div class="v-stack gap-6 sm:gap-12">
       {%- if collection.all_products_count == 0 -%}
-        <div class="empty-state">
+             <div class="empty-state">
           <div class="prose">
-            <h1 class="h4">{{ collection.title }}</h1>
+            <h2 class="h4">{{ collection.title }}</h2>
             <p>{{ 'collection.general.empty_collection' | t }}</p>
 
             {%- assign button_content = 'collection.general.continue_shopping' | t -%}
@@ -340,7 +340,8 @@
                       reveal: settings.stagger_products_apparition,
                       position: forloop.index,
                       hide_product_information: section.settings.hide_product_information,
-                      stacked: true
+                      stacked: true,
+                      heading_tag: 'h2'
                     -%}
                   {%- endfor -%}
                 </product-list>

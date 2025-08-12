@@ -1,0 +1,108 @@
+{%- comment -%}
+Resolve Link Title
+------------------
+Given a URL (relative or absolute), this snippet outputs the resource title for:
+- Product URLs: /products/<handle>
+- Collection URLs: /collections/<handle>
+- Blog URLs: /blogs/<blog-handle>
+- Article URLs: /blogs/<blog-handle>/<article-handle>
+
+It strips query parameters and hash fragments, and ignores extra path parts (filters) after the main handle.
+
+Usage:
+  {% capture resolved_title %}
+    {% render 'resolve-link-title', url: link_or_href %}
+  {% endcapture %}
+  {# use {{ resolved_title | strip }} in aria-labels or text #}
+
+Params:
+- url: required. The link to resolve.
+- fallback (optional): fallback string if nothing resolved.
+{%- endcomment -%}
+
+{% liquid
+  assign input_url = url 
+
+  # Remove query string and hash
+  assign normalized = input_url | split: '?' | first | split: '#' | first
+
+  # Try to detect resources by splitting on well-known path anchors. This works for both relative and absolute URLs.
+  assign resolved_title = ''
+
+  # 1) Article or Blog
+  assign after_blogs = normalized | split: '/blogs/' | last
+  if after_blogs != normalized
+    assign blog_handle = after_blogs | split: '/' | first
+    assign article_handle = normalized | split: '/blogs/' | last
+
+    assign blog = blogs[blog_handle]
+    if article_handle != blank and blog
+      # Attempt to find article by handle within blog
+      
+      for article in blogs[blog_handle].articles
+        if article.handle == article_handle
+          assign found_article = article
+        endif
+      endfor
+      if found_article != blank
+        assign resolved_title = found_article.title
+      else
+        assign resolved_title = blog.title
+      endif
+    endif
+    if resolved_title == '' and blog
+      assign resolved_title = blog.title
+    endif
+  endif
+
+  # 2) Product
+  if resolved_title == ''
+    assign after_products = normalized | split: '/products/' | last
+    if after_products != normalized
+      assign product_handle = after_products | split: '/' | first
+      assign product_obj = all_products[product_handle]
+      if product_obj
+        assign resolved_title = product_obj.title
+      endif
+    endif
+  endif
+
+  # 3) Collection
+  if resolved_title == ''
+    assign after_collections = normalized | split: '/collections/' | last
+    if after_collections != normalized
+      assign collection_handle = after_collections | split: '/' | first
+      assign collection_obj = collections[collection_handle]
+      if collection_obj
+        assign resolved_title = 'the ' | append:  collection_obj.title | append: ' collection'
+      endif
+    endif
+  endif
+
+  # 4) All Collections
+  if resolved_title == ''
+    if normalized == '/collections' or normalized == '/collections/'
+      assign resolved_title = 'Collections'
+    endif
+  endif
+
+  # 5) Page (optional convenience)
+  if resolved_title == ''
+    assign after_pages = normalized | split: '/pages/' | last
+    if after_pages != normalized
+      assign page_handle = after_pages | split: '/' | first
+      assign page_obj = pages[page_handle]
+      if page_obj
+        assign resolved_title = page_obj.title
+      endif
+    endif
+  endif
+
+  # Fallback to provided fallback or empty
+  if resolved_title == '' and fallback
+    assign resolved_title = fallback
+  endif
+%}
+{{ resolved_title |  strip }}
+
+

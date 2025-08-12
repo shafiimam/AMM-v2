@@ -42,7 +42,7 @@
                   {%- if block.settings.title != blank or block.settings.content != blank or shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
                     <div class="v-stack gap-4 sm:gap-5">
                       {%- if block.settings.title != blank -%}
-                        <p class="h6 footer-link-menu-title">{{ block.settings.title }}</p>
+                        <h2 class="h6 footer-link-menu-title">{{ block.settings.title }}</h2>
                       {%- endif -%}
 
                       {%- if block.settings.content != blank -%}
@@ -65,7 +65,7 @@
                   {%- if menu != blank and menu.links.size > 0 -%}
                     <div class="v-stack gap-4 sm:gap-5">
                       {%- if block.settings.show_menu_title != blank -%}
-                        <p class="h6 footer-link-menu-title">{{ block.settings.menu_title | default: menu.title }}</p>
+                        <h2 class="h6 footer-link-menu-title">{{ block.settings.menu_title | default: menu.title }}</h2>
                       {%- endif -%}
 
                       <ul class="v-stack gap-2.5 unstyled-list" role="list">
@@ -98,7 +98,7 @@
                     {%- endif -%}
 
                     {%- if block.settings.content != blank -%}
-                      <div class="prose text-subdued">
+                      <div class="prose text-subdued h6 footer-newsltere-subtitle">
                         {{- block.settings.content -}}
                       </div>
                     {%- endif -%}

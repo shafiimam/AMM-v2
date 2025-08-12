@@ -26,6 +26,7 @@
   * external: if set to true and that a href is passed, it opens into a new window
   * aria_controls: the ID of the element controlled
   * block: an optional block to output theme editor attributes
+  * aria-label: optional aria label which will override the block level aria label
 {%- endcomment -%}
 
 {% liquid
@@ -52,6 +53,13 @@
       endif
     endif
   endcapture
+  capture aria_title 
+    if aria_label != blank
+      echo aria_label
+    else
+      render 'resolve-link-title', url: href, fallback: content 
+    endif
+  endcapture 
 
   capture style_attribute
     if style != 'link'
@@ -115,13 +123,19 @@
     {{- content -}}
   {%- endif -%}
 {%- endcapture -%}
-
+{% capture aria_title %}
+  {% render 'resolve-link-title', url: href, fallback: content %}
+{% endcapture %}
+{% assign aria_content_to_render = content | append: ' ' | append: aria_title | strip %}
+{% if aria_label != blank %}
+  {% assign aria_content_to_render = aria_label %}
+{% endif %} 
 {%- if href != blank -%}
-  <a {{ attributes }} {{ block.shopify_attributes }}>
+  <a {{ attributes }} {{ block.shopify_attributes }} aria-label="{{ aria_content_to_render }}">
     {{- button_content -}}
   </a>
 {%- else -%}
-  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
+  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }} aria-label="{{ aria_content_to_render }}">
     {{- button_content -}}
     {% if show_arrorw_icon == true %}
       <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">

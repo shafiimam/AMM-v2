@@ -2477,7 +2477,7 @@ model-media .shopify-model-viewer-ui {
   inset-block-start: 0;
   inset-inline-start: 0;
 }
-a.product-title.h6 {
+a.product-title h3 {
   color: #000;
   text-align: center;
   font-family: "DINPro";
@@ -2531,7 +2531,7 @@ a.product-title.h6 {
 .product-card__info :is(.price-list, .rating-badge) {
   justify-content: center;
 }
-.product-card__info .price-list .h6 {
+.product-card__info .price-list {
   color: #797979;
   text-align: center;
   font-family: var(--text-secondary-font-family);
