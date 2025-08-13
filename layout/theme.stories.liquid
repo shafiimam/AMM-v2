@@ -122,7 +122,7 @@
   <body class="{{ features_class }} color-scheme color-scheme--{{ settings.default_color_scheme.id }}">
     {%- render 'shadow-dom-templates' -%}
     <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
-    <a href="#main" allow-hash-change class="skip-to-content sr-only">
+    <a href="#main" allow-hash-change class="skip-to-content sr-only" role="navigation">
       {{- 'general.accessibility.skip_to_content' | t -}}
     </a>
 

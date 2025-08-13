@@ -77,13 +77,18 @@
                 {%- endif -%}
 
                 {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
+                  {% capture aria_title %}
+                    {% render 'resolve-link-title', url: block.settings.link_url, fallback: 'Know more about this image' %}
+                  {% endcapture %}
                   <div class="prose prose--tight {{ block.settings.text_position }}">
+                   {% if block.settings.title != blank %}
                     <{{ block.settings.heading_tag | default: 'h3' }} class="m-0">{{ block.settings.title }}</{{ block.settings.heading_tag | default: 'h3' }}>
+                   {% endif %}
 
                     {{- block.settings.content -}}
 
                     {%- if block.settings.link_text != blank -%}
-                      {%- render 'button', content: block.settings.link_text, style: block.settings.link_style -%}
+                      {%- render 'button', content: block.settings.link_text, style: block.settings.link_style , aria_label: aria_title -%}
                     {%- endif -%}
                   </div>
                 {%- endif -%}
@@ -99,7 +104,7 @@
                 class="media-grid__item"
                 style="--media-grid-item-column-span: {{ block.settings.column_count }}; --media-grid-item-row-span: {{ block.settings.row_count }}"
                 {{ block.shopify_attributes }}
-                aria-label="Know more about {{ aria_title | strip }}"
+                aria-label="{{ aria_title | strip }}"
               >
                 {{- block_content -}}
               </a>
