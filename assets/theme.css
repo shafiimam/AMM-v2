@@ -835,7 +835,7 @@ shopify-accelerated-checkout-cart {
 }
 
 .page-dots {
-  --dot-size: 0.375rem;
+  --dot-size: 0.8rem;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem 1rem;
