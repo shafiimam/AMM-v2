@@ -1,8 +1,8 @@
 <li class="header__primary-nav-item" data-title="Releases">
   {%- capture disclosure_content -%}
    <details class="header__menu-disclosure">
-      <summary class="header__menu-release-item-summary" data-follow-link="{{ release_menu_link.url }}" {% if section.settings.menu_text_font=='heading' %}class="h6" {% endif %}>
-         <a href="{{ release_menu_link.url }}" class="block {% if section.settings.menu_text_font == 'heading' %}h6{% endif %}" aria-label="Releases">{{ release_menu_link.title }}</a>
+      <summary class="header__menu-release-item-summary {% if section.settings.menu_text_font == 'heading' %}h6{% endif %}" data-follow-link="{{ release_menu_link.url }}" {% if section.settings.menu_text_font=='heading' %}class="h6" {% endif %}>
+         {{ release_menu_link.title }}
       </summary>
 
       
