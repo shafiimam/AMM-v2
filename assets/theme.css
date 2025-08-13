@@ -327,7 +327,7 @@ a.blog-post-card__title.h4 {
   text-transform: uppercase;
 }
 p.blog-post-card__excerpt {
-  color: #6d6d6d;
+  color: #4c4c4c;
   font-family: var(--text-font-family);
   font-size: 14px;
   font-style: normal;
