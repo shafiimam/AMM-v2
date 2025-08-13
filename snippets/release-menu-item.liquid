@@ -2,7 +2,7 @@
   {%- capture disclosure_content -%}
    <details class="header__menu-disclosure">
       <summary class="header__menu-release-item-summary" data-follow-link="{{ release_menu_link.url }}" {% if section.settings.menu_text_font=='heading' %}class="h6" {% endif %}>
-         <a href="{{ release_menu_link.url }}" class="block {% if section.settings.menu_text_font == 'heading' %}h6{% endif %}">{{ release_menu_link.title }}</a>
+         <a href="{{ release_menu_link.url }}" class="block {% if section.settings.menu_text_font == 'heading' %}h6{% endif %}" aria-label="Releases">{{ release_menu_link.title }}</a>
       </summary>
 
       
@@ -16,7 +16,7 @@
          {% endif %}
          {%- for block in release_blocks -%}
          <li>
-            <summary class="header__menu-release-item-summary" data-follow-link="{{ block.settings.release_link }}" href-"{{ block.settings.release_link }}">
+            <summary class="header__menu-release-item-summary" data-follow-link="{{ block.settings.release_link }}">
                <a href="{{ block.settings.release_link }}">
                  <p class="h4">{{ block.settings.release_title }}</p>
                <img src="{{ block.settings.release_image | image_url: width: 800 }}"
