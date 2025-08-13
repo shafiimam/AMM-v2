@@ -660,7 +660,7 @@
             "aria_label": "Learn more about this",
             "link_url": "shopify://pages/about-us-1",
             "link_style": "solid",
-            "mobile_text_color": "#8f8f8f"
+            "mobile_text_color": "#535353"
           }
         }
       },
@@ -689,7 +689,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p><strong>WORLD-CLASS CRAFTSMANSHIP</strong> - timeless seasonal pieces designed, developed and executed by the world's best and most celebrated contributors to style and fashion</p><p></p><p><strong>REFINED MATERIAL</strong>- sourced from across the globe, our pieces and collections are anchored by a commitment to adopting the finest and most desired materials of our time</p><p></p><p><strong>TIMELESS ELEGANCE - </strong>the styling and execution across collections stand as our commitment to sophistication, embodying the attention to detail of iconic pieces of history</p>",
-            "text_color": "#8f8f8f"
+            "text_color": "#535353"
           }
         },
         "button_aJ4tit": {
