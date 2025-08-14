@@ -16,8 +16,8 @@
           "type": "video",
           "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/4k Fixed top.mov",
-            "mobile_video": "shopify://files/videos/4k Fixed top.mov",
+            "video": "shopify://files/videos/BB AMM 1.mov",
+            "mobile_video": "shopify://files/videos/BB AMM 1.mov",
             "allow_sound": true,
             "subheading": "NEW PIECES",
             "subheading_size": 19,
