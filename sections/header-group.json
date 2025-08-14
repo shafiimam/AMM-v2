@@ -64,17 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_HgBrbN": {
-          "type": "release",
-          "settings": {
-            "release_title": "8.16",
-            "release_image": "shopify://shop_images/NIGELXAJ1LOWBLK-1.jpg",
-            "product_title": " NIGEL SYLVESTER AIR JORDAN 1 RETRO LOW OG \"BETTER WITH TIME\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$165",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nigel-sylvester-air-jordan-1-retro-low-og-nitro-black-muslinvarsity-red"
-          }
-        },
         "release_rJHyVH": {
           "type": "release",
           "settings": {
@@ -112,12 +101,12 @@
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "8.16",
-            "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\" GS",
+            "release_title": "8.23",
+            "release_image": "shopify://shop_images/AJ1SHATTEREDBACKBOARD-1_f987a3d5-c5fa-406a-9639-8472f7941c99.jpg",
+            "product_title": "JORDAN 1 RETRO HIGH OG \"SHATTERED BACKBOARD\"",
             "product_vendor": "JORDAN",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
+            "product_price": "$185",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-1-retro-high-og-shattered-backboard"
           }
         },
         "release_6QqqMN": {
@@ -136,7 +125,6 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_HgBrbN",
         "release_rJHyVH",
         "release_RU8N8q",
         "release_mUi7ki",
