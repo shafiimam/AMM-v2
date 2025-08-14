@@ -99,7 +99,6 @@
         },
         "release_j7Nfhn": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "8.23",
             "release_image": "shopify://shop_images/AJ1SHATTEREDBACKBOARD-1_f987a3d5-c5fa-406a-9639-8472f7941c99.jpg",
