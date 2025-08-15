@@ -112,11 +112,12 @@
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "",
-            "product_title": "",
-            "product_vendor": "",
-            "product_price": "",
-            "release_link": ""
+            "release_title": "8.29",
+            "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARLO_OFF-WHITE_GOLD_-1.jpg",
+            "product_title": "ADIDAS WILLY CHAVARRIA JABBAR LO \"OFF-WHITE/GOLD\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-jabbar-lo-off-whitegold"
           }
         },
         "release_6QqqMN": {
