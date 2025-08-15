@@ -108,16 +108,26 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-1-retro-high-og-shattered-backboard"
           }
         },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "",
+            "product_title": "",
+            "product_vendor": "",
+            "product_price": "",
+            "release_link": ""
+          }
+        },
         "release_6QqqMN": {
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "8.08",
-            "release_image": "shopify://shop_images/AM95BLUESPARK-1.jpg",
-            "product_title": "NIKE AIR MAX 95 OG \"WHITE/BLUE SPARK\"",
+            "release_title": "8.23",
+            "release_image": "shopify://shop_images/AJ1SHATTEREDBACKBOARD-1.jpg",
+            "product_title": "JORDAN 1 RETRO HIGH OG \"SHATTERED BACKBOARD\"",
             "product_vendor": "NIKE",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whiteblue-spark"
+            "product_price": "$185",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-1-retro-high-og-shattered-backboard"
           }
         }
       },
@@ -128,6 +138,7 @@
         "release_RU8N8q",
         "release_mUi7ki",
         "release_j7Nfhn",
+        "release_3t4phh",
         "release_6QqqMN"
       ],
       "settings": {
