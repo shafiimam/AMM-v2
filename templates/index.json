@@ -184,45 +184,45 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "jacquemus-la-chemise-boulanger-black"
-          }
-        },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-tshirt-gros-grain"
+            "product": "beach-brains-big-ls-shirt-red"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "settings": {
+            "product": "beach-brains-pleated-suit-pant-charcoal"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-hoodie-gros-grain-red"
+            "product": "beach-brains-boxy-ss-sheer-shirt-black"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-la-casquette-basebal"
+            "product": "beach-brains-baggy-short-black"
           }
         }
       },
       "block_order": [
-        "product_CqUpFr",
         "product_eekMqY",
+        "product_CqUpFr",
         "product_mzGxhY",
         "product_q8H3fy"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "JACQUEMUS",
+        "title": "BEACH BRAINS",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/jaq3_d6b79876-80c7-4ba3-a7d8-f25f4ffde90d.jpg",
-        "image_description": "<p>Autumn unfolds in textures and tones. Jacquemus’ latest collection balances warmth and restraint: soft quilted jackets, brushed wool knits and embroidered caps. A study in minimalism with a tactile edge—designed for the season of layering and subtle statements.</p>",
+        "image": "shopify://shop_images/beachbrains4.jpg",
+        "image_description": "<p>Embodying the allure of sun-drenched horizons and urban ease, <strong>BEACH BRAINS</strong> beach-to-city wardrobe fuses the tranquil spirit of the shore with metropolitan refinement. Explore classic comfort pieces and versatile bottoms perfect for vacation or weekend wandering.</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/jacquemus"
+        "image_cta_url": "shopify://collections/beach-brains"
       }
     },
     "featured_collections_bFrXKx": {
