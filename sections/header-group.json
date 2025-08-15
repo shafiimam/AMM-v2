@@ -66,6 +66,7 @@
         },
         "release_rJHyVH": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.16",
             "release_image": "shopify://shop_images/AJ12FRENCHBLUE-1.jpg",
@@ -77,6 +78,7 @@
         },
         "release_RU8N8q": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.16",
             "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1_5e18f35b-0394-421f-bb86-e707d0943981.jpg",
@@ -108,21 +110,8 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-1-retro-high-og-shattered-backboard"
           }
         },
-        "release_3t4phh": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "8.29",
-            "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARLO_OFF-WHITE_GOLD_-1.jpg",
-            "product_title": "ADIDAS WILLY CHAVARRIA JABBAR LO \"OFF-WHITE/GOLD\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-jabbar-lo-off-whitegold"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "8.23",
             "release_image": "shopify://shop_images/KOBEIIIPROTRO_HALO_-1.jpg",
@@ -130,6 +119,17 @@
             "product_vendor": "NIKE",
             "product_price": "210",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-iii-protro-halo"
+          }
+        },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "8.29",
+            "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARLO_OFF-WHITE_GOLD_-1.jpg",
+            "product_title": "ADIDAS WILLY CHAVARRIA JABBAR LO \"OFF-WHITE/GOLD\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-jabbar-lo-off-whitegold"
           }
         }
       },
@@ -140,8 +140,8 @@
         "release_RU8N8q",
         "release_mUi7ki",
         "release_j7Nfhn",
-        "release_3t4phh",
-        "release_6QqqMN"
+        "release_6QqqMN",
+        "release_3t4phh"
       ],
       "settings": {
         "color_scheme": "scheme-2",
