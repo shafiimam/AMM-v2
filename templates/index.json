@@ -184,10 +184,10 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_eekMqY": {
+        "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "beach-brains-big-ls-shirt-red"
+            "product": "beach-brains-distressed-zip-hoodie-washed-black"
           }
         },
         "product_CqUpFr": {
@@ -196,23 +196,23 @@
             "product": "beach-brains-pleated-suit-pant-charcoal"
           }
         },
-        "product_mzGxhY": {
+        "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "beach-brains-boxy-ss-sheer-shirt-black"
+            "product": "beach-brains-big-ls-shirt-red"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "beach-brains-baggy-short-black"
+            "product": "beach-brains-pleated-work-pant-black"
           }
         }
       },
       "block_order": [
-        "product_eekMqY",
-        "product_CqUpFr",
         "product_mzGxhY",
+        "product_CqUpFr",
+        "product_eekMqY",
         "product_q8H3fy"
       ],
       "settings": {
