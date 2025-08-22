@@ -39,6 +39,7 @@
       "block_order": [
         "play_N7bRTJ"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
