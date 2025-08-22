@@ -231,9 +231,9 @@
         "collection_ABw4Mi": {
           "type": "collection",
           "settings": {
-            "collection": "new-knits",
+            "collection": "new-arrivals-1",
             "products_count": 8,
-            "title": "shop KNITWEAR",
+            "title": "shop new pieces",
             "link_url": "shopify://collections/new-knits",
             "link_text": "View all"
           }
