@@ -193,13 +193,7 @@
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "beach-brains-pleated-suit-pant-charcoal"
-          }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "beach-brains-big-ls-shirt-red"
+            "product": "beach-brains-billy-tee-brown"
           }
         },
         "product_q8H3fy": {
@@ -207,13 +201,19 @@
           "settings": {
             "product": "beach-brains-pleated-work-pant-black"
           }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "settings": {
+            "product": "beach-brains-big-ls-shirt-red"
+          }
         }
       },
       "block_order": [
         "product_mzGxhY",
         "product_CqUpFr",
-        "product_eekMqY",
-        "product_q8H3fy"
+        "product_q8H3fy",
+        "product_eekMqY"
       ],
       "settings": {
         "section_alignment": "left",
