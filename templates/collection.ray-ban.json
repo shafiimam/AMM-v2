@@ -97,7 +97,7 @@
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
-        "products_per_page": 48,
+        "products_per_page": 31,
         "products_per_row_mobile": "1",
         "products_size_desktop": "medium",
         "show_grid_mode_selector": false,
@@ -161,26 +161,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/ray1.jpg",
             "column_count": "8",
             "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Fdedra": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ACDSC01277_DC_1.jpg",
-            "column_count": "4",
-            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -196,7 +179,25 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/396__SQUIDLIK.jpg",
+            "image": "shopify://shop_images/ray3.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Fdedra": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ray2.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -213,10 +214,9 @@
       },
       "block_order": [
         "image_3g6hHn",
-        "image_Fdedra",
-        "image_xKjBF6"
+        "image_xKjBF6",
+        "image_Fdedra"
       ],
-      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
