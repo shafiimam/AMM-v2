@@ -26,8 +26,40 @@
         "overlay_opacity": 0
       }
     },
+    "video_BMBRUt": {
+      "type": "video",
+      "blocks": {
+        "play_4YPpDb": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_EizRw3": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_4YPpDb",
+        "heading_EizRw3"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "image_with_text_block_TmCWVh": {
       "type": "image-with-text-block",
+      "disabled": true,
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "",
@@ -37,46 +69,6 @@
         "content_width": "sm",
         "enable_parallax": false,
         "remove_vertical_spacing": true
-      }
-    },
-    "image_with_text_jLdmmU": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_MAfpmm": {
-          "type": "heading",
-          "settings": {
-            "text": "Entire studios shrunken denim jacket",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nmR43n": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MAfpmm",
-        "richtext_nmR43n"
-      ],
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {display: flex; justify-content: end;}"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
-        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "main": {
@@ -120,6 +112,47 @@
         "open_filters_by_default": false
       }
     },
+    "image_with_text_jLdmmU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MAfpmm": {
+          "type": "heading",
+          "settings": {
+            "text": "Entire studios shrunken denim jacket",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nmR43n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAfpmm",
+        "richtext_nmR43n"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "media_grid_wGyTFz": {
       "type": "media-grid",
       "blocks": {
@@ -127,7 +160,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC07518_BB.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -183,6 +215,7 @@
         "image_Fdedra",
         "image_xKjBF6"
       ],
+      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
@@ -199,9 +232,10 @@
   },
   "order": [
     "collection-banner",
+    "video_BMBRUt",
     "image_with_text_block_TmCWVh",
-    "image_with_text_jLdmmU",
     "main",
+    "image_with_text_jLdmmU",
     "media_grid_wGyTFz"
   ]
 }
