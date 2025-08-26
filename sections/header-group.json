@@ -88,18 +88,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
           }
         },
-        "release_j7Nfhn": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "9.01",
-            "release_image": "shopify://shop_images/AF1WHTBLUTRANSLUCENT-1.jpg",
-            "product_title": "NIKE AIR FORCE 1 \"CLEAR\"",
-            "product_vendor": "NIKE",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-force-1-clear"
-          }
-        },
         "release_mUi7ki": {
           "type": "release",
           "settings": {
@@ -132,6 +120,17 @@
             "product_price": "$160",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-jabbar-lo-off-whitegold"
           }
+        },
+        "release_j7Nfhn": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.01",
+            "release_image": "shopify://shop_images/AF1WHTBLUTRANSLUCENT-1.jpg",
+            "product_title": "NIKE AIR FORCE 1 \"CLEAR\"",
+            "product_vendor": "NIKE",
+            "product_price": "$130",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-force-1-clear"
+          }
         }
       },
       "block_order": [
@@ -139,10 +138,10 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_RU8N8q",
-        "release_j7Nfhn",
         "release_mUi7ki",
         "release_6QqqMN",
-        "release_3t4phh"
+        "release_3t4phh",
+        "release_j7Nfhn"
       ],
       "settings": {
         "color_scheme": "scheme-2",
