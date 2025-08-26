@@ -100,18 +100,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-1-retro-high-og-shattered-backboard"
           }
         },
-        "release_6QqqMN": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "8.29",
-            "release_image": "shopify://shop_images/PEGASUSPREMIUMMUSHROOM-1.jpg",
-            "product_title": "NIKE PEGASUS PREMIUM SP \"MUSHROOM/ METALLIC/ SILVER\"",
-            "product_vendor": "NIKE",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-pegasus-premium-sp-mushroom-metallic-silver"
-          }
-        },
         "release_mUi7ki": {
           "type": "release",
           "settings": {
@@ -121,6 +109,17 @@
             "product_vendor": "NEW BALANCE",
             "product_price": "$200",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-usa-992-dark-camo"
+          }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "8.29",
+            "release_image": "shopify://shop_images/PEGASUSPREMIUMMUSHROOM-1.jpg",
+            "product_title": "NIKE PEGASUS PREMIUM SP \"MUSHROOM/ METALLIC/ SILVER\"",
+            "product_vendor": "NIKE",
+            "product_price": "$220",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-pegasus-premium-sp-mushroom-metallic-silver"
           }
         },
         "release_3t4phh": {
@@ -141,8 +140,8 @@
         "release_rJHyVH",
         "release_RU8N8q",
         "release_j7Nfhn",
-        "release_6QqqMN",
         "release_mUi7ki",
+        "release_6QqqMN",
         "release_3t4phh"
       ],
       "settings": {
