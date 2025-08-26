@@ -51,9 +51,10 @@
       "settings": {
         "autoplay": true,
         "show_controls": true,
-        "video_size": "md",
+        "video_size": "sm",
         "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "mobile_video": "shopify://files/videos/Rayban multi color.mov",
+        "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
