@@ -91,6 +91,7 @@
         "image_A9KgUB",
         "image_abAVge"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": true,
@@ -211,6 +212,37 @@
         "remove_vertical_spacing": false,
         "remove_top_padding": true
       }
+    },
+    "image_with_text_block_8iyjaj": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_7LWDet": {
+          "type": "subheading",
+          "settings": {
+            "text": "Image with text block"
+          }
+        },
+        "richtext_9t8azh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7LWDet",
+        "richtext_9t8azh"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/loewe2.jpg",
+        "mobile_image": "shopify://shop_images/loewe2.jpg",
+        "content_width": "sm",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
@@ -218,6 +250,7 @@
     "slideshow_Bj9tMY",
     "video_tCYxw6",
     "main",
-    "image_with_text_V8ABKh"
+    "image_with_text_V8ABKh",
+    "image_with_text_block_8iyjaj"
   ]
 }
