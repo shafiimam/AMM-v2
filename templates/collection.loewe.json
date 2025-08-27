@@ -90,11 +90,55 @@
         "show_filter_values_count": true,
         "open_filters_by_default": false
       }
+    },
+    "image_with_text_V8ABKh": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_anE7zB": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_Dq9PYy": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Pj7NmJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_anE7zB",
+        "heading_Dq9PYy",
+        "richtext_Pj7NmJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/loewe_afe9db87-a9bf-4fe0-9eb8-ffefb963593d.jpg",
+        "mobile_image": "shopify://shop_images/loewe_afe9db87-a9bf-4fe0-9eb8-ffefb963593d.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
+      }
     }
   },
   "order": [
     "collection-banner",
     "video_tCYxw6",
-    "main"
+    "main",
+    "image_with_text_V8ABKh"
   ]
 }
