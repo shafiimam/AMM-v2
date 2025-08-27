@@ -238,7 +238,7 @@
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "",
-        "image_size": "lg",
+        "image_size": "md",
         "image": "shopify://shop_images/loewe2.jpg",
         "mobile_image": "shopify://shop_images/loewe2.jpg",
         "content_width": "sm",
