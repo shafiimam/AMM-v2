@@ -90,6 +90,7 @@
         },
         "release_mUi7ki": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.28",
             "release_image": "shopify://shop_images/NB992MADEDARKCAMO-1.jpg",
