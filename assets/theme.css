@@ -327,7 +327,7 @@ a.blog-post-card__title.h4 {
   text-transform: uppercase;
 }
 p.blog-post-card__excerpt {
-  color: #6d6d6d;
+  color: #4c4c4c;
   font-family: var(--text-font-family);
   font-size: 14px;
   font-style: normal;
@@ -835,7 +835,7 @@ shopify-accelerated-checkout-cart {
 }
 
 .page-dots {
-  --dot-size: 0.375rem;
+  --dot-size: 0.8rem;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem 1rem;

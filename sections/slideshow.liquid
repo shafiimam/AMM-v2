@@ -25,6 +25,7 @@
     {% endif %}
     role="region"
     style="{% render 'surface', background: section.settings.background %}"
+    aria-label="Hero Slideshow"
   >
     {%- for block in section.blocks -%}
       {%- capture slide -%}
@@ -201,8 +202,8 @@
             {%- if section.settings.autoplay -%}
               <svg
                 class="circular-progress"
-                height="8"
-                width="8"
+                height="12"
+                width="12"
                 viewBox="0 0 8 8"
                 style="--stroke-dasharray: {{ 2 | times: 3.14159265359 | times: 3.25 }}"
               >

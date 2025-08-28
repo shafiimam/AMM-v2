@@ -74,7 +74,7 @@ Params:
       assign collection_handle = after_collections | split: '/' | first
       assign collection_obj = collections[collection_handle]
       if collection_obj
-        assign resolved_title = 'the ' | append:  collection_obj.title | append: ' collection'
+        assign resolved_title = 'Know more about the ' | append:  collection_obj.title | append: ' collection'
       endif
     endif
   endif

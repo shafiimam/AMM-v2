@@ -87,7 +87,7 @@
             "custom_icon": "shopify://shop_images/mdi_hand-clap.png",
             "icon_width": 16,
             "background": "#ffffff",
-            "text_color": "#8f8f8f",
+            "text_color": "#535353",
             "border_color": ""
           }
         },
@@ -101,7 +101,7 @@
             "custom_icon": "shopify://shop_images/ic_outline-discount.png",
             "icon_width": 16,
             "background": "#ffffff",
-            "text_color": "#8f8f8f",
+            "text_color": "#535353",
             "border_color": ""
           }
         },
@@ -115,7 +115,7 @@
             "custom_icon": "shopify://shop_images/material-symbols_star-outline.png",
             "icon_width": 16,
             "background": "#ffffff",
-            "text_color": "#8f8f8f",
+            "text_color": "#535353",
             "border_color": ""
           }
         },
@@ -252,7 +252,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "text_color": "#8f8f8f"
+            "text_color": "#535353"
           }
         }
       },

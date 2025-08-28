@@ -148,7 +148,7 @@ span.smartwishlist .fa {
 }
 
 .text-with-icons__item--content p {
-  color: #6d6d6d;
+  color: #4c4c4c;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
@@ -231,7 +231,7 @@ h1.product-title.h3 {
 
 /* image with text styles */
 .text-secondary {
-  color: #8f8f8f;
+  color: #535353;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -280,7 +280,7 @@ a.blog-post-card__read-more.link {
 }
 
 variant-sku {
-  color: #8f8f8f;
+  color: #535353;
   font-family: Roboto;
   line-height: normal;
   text-transform: uppercase;
@@ -291,7 +291,7 @@ variant-sku {
 }
 
 .product-description-container {
-  color: #8f8f8f;
+  color: #535353;
 }
 
 .complementary-products__header .h5 {
@@ -316,7 +316,7 @@ variant-sku {
 }
 .product-content-below-gallery .accordion__content,
 .product-info__block-item .accordion__content {
-  color: #8f8f8f;
+  color: #535353;
   font-size: 16px;
 }
 
@@ -439,7 +439,7 @@ button.glider-next {
   right: -30px;
 }
 .footer-copyright {
-  color: #8f8f8f;
+  color: #535353;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
