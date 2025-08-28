@@ -135,7 +135,7 @@
     {{- button_content -}}
   </a>
 {%- else -%}
-  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }} aria-label="{{ aria_content_to_render |  strip }}">
+  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }} aria-label="{{ aria_content_to_render |  strip_html }}">
     {{- button_content -}}
     {% if show_arrorw_icon == true %}
       <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
