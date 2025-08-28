@@ -74,20 +74,9 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue"
           }
         },
-        "release_RU8N8q": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "8.16",
-            "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1_5e18f35b-0394-421f-bb86-e707d0943981.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\" GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$205",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.29",
             "release_image": "shopify://shop_images/PEGASUSPREMIUMMUSHROOM-1.jpg",
@@ -119,6 +108,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-force-1-clear"
           }
         },
+        "release_RU8N8q": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.06",
+            "release_image": "shopify://shop_images/AJ4CAVESTONE-1.jpg",
+            "product_title": "AIR JORDAN 4 RETRO \"CAVESTONE\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$220",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-cavestone"
+          }
+        },
         "release_mUi7ki": {
           "type": "release",
           "settings": {
@@ -135,10 +135,10 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_RU8N8q",
         "release_6QqqMN",
         "release_3t4phh",
         "release_j7Nfhn",
+        "release_RU8N8q",
         "release_mUi7ki"
       ],
       "settings": {
