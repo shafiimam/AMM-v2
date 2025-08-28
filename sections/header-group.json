@@ -108,6 +108,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-force-1-clear"
           }
         },
+        "release_mUi7ki": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.06",
+            "release_image": "shopify://shop_images/AJ4CAVESTONEGS-1.jpg",
+            "product_title": "AIR JORDAN 4 RETRO \"CAVESTONE\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-cavestone-gs"
+          }
+        },
         "release_RU8N8q": {
           "type": "release",
           "settings": {
@@ -118,17 +129,6 @@
             "product_price": "$220",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-cavestone"
           }
-        },
-        "release_mUi7ki": {
-          "type": "release",
-          "settings": {
-            "release_title": "9.05",
-            "release_image": "shopify://shop_images/AJ4CAVESTONEGS-1.jpg",
-            "product_title": "AIR JORDAN 4 RETRO \"CAVESTONE\" GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-cavestone-gs"
-          }
         }
       },
       "block_order": [
@@ -138,8 +138,8 @@
         "release_6QqqMN",
         "release_3t4phh",
         "release_j7Nfhn",
-        "release_RU8N8q",
-        "release_mUi7ki"
+        "release_mUi7ki",
+        "release_RU8N8q"
       ],
       "settings": {
         "color_scheme": "scheme-2",
