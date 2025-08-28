@@ -12,6 +12,36 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_hEYHV3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ammdesk2_f310a4d5-9bc4-43e1-bc47-b9fd35909a8d.jpg",
+            "mobile_image": "shopify://shop_images/ammsalemob.jpg",
+            "subheading": "",
+            "subheading_size": 19,
+            "title": "",
+            "title_size": 25,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "https://www.a-ma-maniere.com/products/2010-brighton-grey?_pos=1&_psq=U2010TTO&_ss=e&_v=1.0",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_EUxE7d": {
           "type": "video",
           "settings": {
@@ -101,36 +131,6 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_TrrkwE": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
-            "mobile_video": "shopify://files/videos/Ray Ban 4k WEB.mov",
-            "allow_sound": true,
-            "subheading": "EXPLORE THE COLLECTION",
-            "subheading_size": 18,
-            "title": "A$AP ROCKY x RAY-BAN \"NEXT GENERATION\"",
-            "title_size": 24,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/ray-ban",
-            "button_1_style": "outline",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "video_EmU7Qk": {
           "type": "video",
           "settings": {
@@ -160,14 +160,46 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
+        },
+        "video_TrrkwE": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+            "mobile_video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+            "allow_sound": true,
+            "subheading": "EXPLORE THE COLLECTION",
+            "subheading_size": 18,
+            "title": "A$AP ROCKY x RAY-BAN \"NEXT GENERATION\"",
+            "title_size": 24,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 740,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/ray-ban",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
         }
       },
       "block_order": [
+        "image_hEYHV3",
         "video_EUxE7d",
         "image_RRfXhj",
         "video_9VQBMz",
-        "video_TrrkwE",
-        "video_EmU7Qk"
+        "video_EmU7Qk",
+        "video_TrrkwE"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -231,10 +263,10 @@
         "collection_ABw4Mi": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-1",
+            "collection": "markdowns",
             "products_count": 8,
-            "title": "shop new pieces",
-            "link_url": "shopify://collections/new-knits",
+            "title": "shop sale items",
+            "link_url": "shopify://collections/markdowns",
             "link_text": "View all"
           }
         }
