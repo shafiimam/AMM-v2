@@ -86,18 +86,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
           }
         },
-        "release_mUi7ki": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "8.28",
-            "release_image": "shopify://shop_images/NB992MADEDARKCAMO-1.jpg",
-            "product_title": "NEW BALANCE MADE IN USA 992 \"DARK CAMO\"",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-usa-992-dark-camo"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
           "settings": {
@@ -130,6 +118,17 @@
             "product_price": "$130",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-force-1-clear"
           }
+        },
+        "release_mUi7ki": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.05",
+            "release_image": "shopify://shop_images/AJ4CAVESTONEGS-1.jpg",
+            "product_title": "AIR JORDAN 4 RETRO \"CAVESTONE\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-cavestone-gs"
+          }
         }
       },
       "block_order": [
@@ -137,10 +136,10 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_RU8N8q",
-        "release_mUi7ki",
         "release_6QqqMN",
         "release_3t4phh",
-        "release_j7Nfhn"
+        "release_j7Nfhn",
+        "release_mUi7ki"
       ],
       "settings": {
         "color_scheme": "scheme-2",
