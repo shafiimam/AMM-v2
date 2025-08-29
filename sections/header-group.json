@@ -88,6 +88,7 @@
         },
         "release_3t4phh": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "8.29",
             "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARLO_OFF-WHITE_GOLD_-1.jpg",
