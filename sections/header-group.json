@@ -86,18 +86,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/us/adidas-x-bape-samba-blackwhite"
           }
         },
-        "release_3t4phh": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "9.06",
-            "release_image": "shopify://shop_images/BAPESAMBA_WHITE_BLACK_-1.jpg",
-            "product_title": "ADIDAS X BAPE SAMBA \"WHITE/BLACK\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/us/adidas-x-bape-samba-whiteblack"
-          }
-        },
         "release_j7Nfhn": {
           "type": "release",
           "settings": {
@@ -107,6 +95,17 @@
             "product_vendor": "TIMBERLAND",
             "product_price": "250",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/timberland-ice-studios-6-inch-boot-grey-suede"
+          }
+        },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.06",
+            "release_image": "shopify://shop_images/BAPESAMBA_WHITE_BLACK_-1.jpg",
+            "product_title": "ADIDAS X BAPE SAMBA \"WHITE/BLACK\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/us/adidas-x-bape-samba-whiteblack"
           }
         },
         "release_mUi7ki": {
@@ -137,8 +136,8 @@
         "mega_menu_px7EJK",
         "release_rJHyVH",
         "release_6QqqMN",
-        "release_3t4phh",
         "release_j7Nfhn",
+        "release_3t4phh",
         "release_mUi7ki",
         "release_RU8N8q"
       ],
