@@ -74,20 +74,9 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue"
           }
         },
-        "release_6QqqMN": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "9.06",
-            "release_image": "shopify://shop_images/BAPESAMBA_BLACK_WHITE_-1.jpg",
-            "product_title": "ADIDAS X BAPE SAMBA \"BLACK/WHITE\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/us/adidas-x-bape-samba-blackwhite"
-          }
-        },
         "release_j7Nfhn": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "9.04",
             "release_image": "shopify://shop_images/ICESTUDIOS6INCHBOOT_GREYSUEDE_-1.jpg",
@@ -106,6 +95,17 @@
             "product_vendor": "ADIDAS",
             "product_price": "$160",
             "release_link": "https://a-ma-maniere.runfair.com/us/adidas-x-bape-samba-whiteblack"
+          }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.06",
+            "release_image": "shopify://shop_images/BAPESAMBA_BLACK_WHITE_-1.jpg",
+            "product_title": "ADIDAS X BAPE SAMBA \"BLACK/WHITE\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/us/adidas-x-bape-samba-blackwhite"
           }
         },
         "release_mUi7ki": {
@@ -135,9 +135,9 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_rJHyVH",
-        "release_6QqqMN",
         "release_j7Nfhn",
         "release_3t4phh",
+        "release_6QqqMN",
         "release_mUi7ki",
         "release_RU8N8q"
       ],
