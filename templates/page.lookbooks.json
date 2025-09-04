@@ -11,6 +11,7 @@
   "sections": {
     "content_page_section_TWazeA": {
       "type": "content-page-section",
+      "disabled": true,
       "settings": {
         "title": "About Us",
         "description": "Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big.",
@@ -27,10 +28,65 @@
         "show_title": false,
         "page_width": "full"
       }
+    },
+    "shop_the_look_bD4LRj": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_yJznKb": {
+          "type": "look",
+          "settings": {
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 34,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 66,
+            "product_3_vertical_position": 42,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_GQRbCR": {
+          "type": "look",
+          "settings": {
+            "hot_spots_background": "#ffffff",
+            "product_1": "",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 35,
+            "product_2": "",
+            "product_2_horizontal_position": 70,
+            "product_2_vertical_position": 30,
+            "product_3": "",
+            "product_3_horizontal_position": 60,
+            "product_3_vertical_position": 65,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_yJznKb",
+        "look_GQRbCR"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
     }
   },
   "order": [
     "content_page_section_TWazeA",
-    "main"
+    "main",
+    "shop_the_look_bD4LRj"
   ]
 }
