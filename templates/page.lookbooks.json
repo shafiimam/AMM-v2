@@ -32,6 +32,25 @@
     "shop_the_look_bD4LRj": {
       "type": "shop-the-look",
       "blocks": {
+        "look_yJznKb": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/DSC06119_DC.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "acne-studios-cropped-hoodie-pink",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 57,
+            "product_2": "junya-watanabe-nylon-ma-1-jacket-khaki",
+            "product_2_horizontal_position": 34,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 66,
+            "product_3_vertical_position": 42,
+            "product_4": "satoshi-nakamoto-double-layer-sweatpant-black",
+            "product_4_horizontal_position": 79,
+            "product_4_vertical_position": 85
+          }
+        },
         "look_a4pUDf": {
           "type": "look",
           "settings": {
@@ -68,31 +87,12 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
-        },
-        "look_yJznKb": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/DSC06119_DC.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "acne-studios-cropped-hoodie-pink",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 57,
-            "product_2": "junya-watanabe-nylon-ma-1-jacket-khaki",
-            "product_2_horizontal_position": 34,
-            "product_2_vertical_position": 65,
-            "product_3": "mohair-beanie",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 42,
-            "product_4": "satoshi-nakamoto-double-layer-sweatpant-black",
-            "product_4_horizontal_position": 79,
-            "product_4_vertical_position": 85
-          }
         }
       },
       "block_order": [
+        "look_yJznKb",
         "look_a4pUDf",
-        "look_GQRbCR",
-        "look_yJznKb"
+        "look_GQRbCR"
       ],
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
