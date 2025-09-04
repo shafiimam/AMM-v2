@@ -28,7 +28,7 @@
     "button_letter_spacing": 18,
     "currency_code_enabled": false,
     "product_image_aspect_ratio": "square",
-    "show_vendor": false,
+    "show_vendor": true,
     "product_title_max_lines": 1,
     "product_card_text_font": "body",
     "product_color_display": "hide",
