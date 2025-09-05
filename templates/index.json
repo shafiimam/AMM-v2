@@ -14,7 +14,6 @@
       "blocks": {
         "video_TrrkwE": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Look book 4k.mov",
             "mobile_video": "shopify://files/videos/Look book 4k.mov",
@@ -73,6 +72,35 @@
             "gradient_overlay": ""
           }
         },
+        "image_RRfXhj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/abzorbamm2.jpg",
+            "mobile_image": "shopify://shop_images/ammmob4_f26f59e4-e551-4759-9965-70103b4389c2.jpg",
+            "subheading": "<p><strong>BUY NOW</strong></p>",
+            "subheading_size": 19,
+            "title": "<p><strong>new balance abzorb 2010 \"BRIGHTON GREY\"</strong></p>",
+            "title_size": 25,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "shop now",
+            "button_1_link": "https://www.a-ma-maniere.com/products/2010-brighton-grey?_pos=1&_psq=U2010TTO&_ss=e&_v=1.0",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_EUxE7d": {
           "type": "video",
           "settings": {
@@ -101,35 +129,6 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "image_RRfXhj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/abzorbamm2.jpg",
-            "mobile_image": "shopify://shop_images/ammmob4_f26f59e4-e551-4759-9965-70103b4389c2.jpg",
-            "subheading": "<p><strong>BUY NOW</strong></p>",
-            "subheading_size": 19,
-            "title": "<p><strong>new balance abzorb 2010 \"BRIGHTON GREY\"</strong></p>",
-            "title_size": 25,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "shop now",
-            "button_1_link": "https://www.a-ma-maniere.com/products/2010-brighton-grey?_pos=1&_psq=U2010TTO&_ss=e&_v=1.0",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
           }
         },
         "video_9VQBMz": {
@@ -166,8 +165,8 @@
       "block_order": [
         "video_TrrkwE",
         "image_r8n9Wt",
-        "video_EUxE7d",
         "image_RRfXhj",
+        "video_EUxE7d",
         "video_9VQBMz"
       ],
       "settings": {
@@ -188,23 +187,25 @@
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "beach-brains-distressed-zip-hoodie-washed-black"
-          }
-        },
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "beach-brains-billy-tee-brown"
+            "product": "junya-watanabe-jacket-brown"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "beach-brains-pleated-work-pant-black"
+            "product": "junya-watanabe-pants-multi"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "studded-hat-3"
           }
         },
         "product_eekMqY": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "beach-brains-big-ls-shirt-red"
           }
@@ -212,18 +213,18 @@
       },
       "block_order": [
         "product_mzGxhY",
-        "product_CqUpFr",
         "product_q8H3fy",
+        "product_CqUpFr",
         "product_eekMqY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "BEACH BRAINS",
+        "title": "Fall style guide",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/beachbrains4.jpg",
-        "image_description": "<p>Embodying the allure of sun-drenched horizons and urban ease, <strong>BEACH BRAINS</strong> beach-to-city wardrobe fuses the tranquil spirit of the shore with metropolitan refinement. Explore classic comfort pieces and versatile bottoms perfect for vacation or weekend wandering.</p>",
+        "image": "shopify://shop_images/khaki.jpg",
+        "image_description": "<p>Step into the season with sophistication. The <strong>Fall Style Guide</strong> features coveted pieces from <strong>Acne Studios, Satoshi Nakomoto, ERL, ERD, Junya Watanabe</strong>, and more—where timeless craftsmanship meets modern edge.</p><p></p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/beach-brains"
+        "image_cta_url": "shopify://pages/style-guide"
       }
     },
     "featured_collections_bFrXKx": {
