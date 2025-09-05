@@ -17,18 +17,10 @@
           "settings": {
             "icon_color": "#ffffff"
           }
-        },
-        "heading_eY6Yin": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h2"
-          }
         }
       },
       "block_order": [
-        "play_qTgtfK",
-        "heading_eY6Yin"
+        "play_qTgtfK"
       ],
       "name": "t:sections.video.presets.video.name",
       "settings": {
@@ -37,7 +29,7 @@
         "video_size": "md",
         "video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
         "mobile_video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
