@@ -16,6 +16,8 @@
           "type": "video",
           "disabled": true,
           "settings": {
+            "video": "shopify://files/videos/Look book 4k.mov",
+            "mobile_video": "shopify://files/videos/Look book 4k.mov",
             "allow_sound": true,
             "subheading": "discover curated looks",
             "subheading_size": 18,
@@ -25,7 +27,7 @@
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 740,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/ray-ban",
+            "button_1_link": "shopify://pages/lookbooks",
             "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
