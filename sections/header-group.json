@@ -64,84 +64,34 @@
             "image_2_link": ""
           }
         },
-        "release_rJHyVH": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "8.16",
-            "release_image": "shopify://shop_images/AJ12FRENCHBLUE-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$205",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue"
-          }
-        },
-        "release_j7Nfhn": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "9.04",
-            "release_image": "shopify://shop_images/ICESTUDIOS6INCHBOOT_GREYSUEDE_-1.jpg",
-            "product_title": "ICE STUDIOS 6 INCH BOOT \"GREY SUEDE\"",
-            "product_vendor": "TIMBERLAND",
-            "product_price": "$250",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/timberland-ice-studios-6-inch-boot-grey-suede"
-          }
-        },
         "release_3t4phh": {
           "type": "release",
           "settings": {
-            "release_title": "9.06",
-            "release_image": "shopify://shop_images/BAPESAMBA_WHITE_BLACK_-1.jpg",
-            "product_title": "ADIDAS X BAPE SAMBA \"WHITE/BLACK\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$160",
+            "release_title": "9.10",
+            "release_image": "shopify://shop_images/KOBE9MOONWALKER-1_92777787-677f-417b-b6e6-697f903a2da4.jpg",
+            "product_title": "NIKE KOBE IX ELITE LOW PROTRO \"HYPER GRAPE/WHITE/ CAVE PURPLE\"",
+            "product_vendor": "NIKE",
+            "product_price": "$220",
             "release_link": "https://a-ma-maniere.runfair.com/us/adidas-x-bape-samba-whiteblack"
           }
         },
         "release_6QqqMN": {
           "type": "release",
           "settings": {
-            "release_title": "9.06",
-            "release_image": "shopify://shop_images/BAPESAMBA_BLACK_WHITE_-1.jpg",
-            "product_title": "ADIDAS X BAPE SAMBA \"BLACK/WHITE\"",
-            "product_vendor": "ADIDAS",
+            "release_title": "9.10",
+            "release_image": "shopify://shop_images/NB1906ICEWINE-1_1d1f74f8-8042-4b98-9295-babbc602d532.jpg",
+            "product_title": "NEW BALANCE 1906L \"ICE WINE\"",
+            "product_vendor": "NEW BALANCE",
             "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/us/adidas-x-bape-samba-blackwhite"
-          }
-        },
-        "release_mUi7ki": {
-          "type": "release",
-          "settings": {
-            "release_title": "9.06",
-            "release_image": "shopify://shop_images/AJ4CAVESTONEGS-1.jpg",
-            "product_title": "AIR JORDAN 4 RETRO \"CAVESTONE\" GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-cavestone-gs"
-          }
-        },
-        "release_RU8N8q": {
-          "type": "release",
-          "settings": {
-            "release_title": "9.06",
-            "release_image": "shopify://shop_images/AJ4CAVESTONE-1.jpg",
-            "product_title": "AIR JORDAN 4 RETRO \"CAVESTONE\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-retro-cavestone"
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l-ice-wine"
           }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_rJHyVH",
-        "release_j7Nfhn",
         "release_3t4phh",
-        "release_6QqqMN",
-        "release_mUi7ki",
-        "release_RU8N8q"
+        "release_6QqqMN"
       ],
       "settings": {
         "color_scheme": "scheme-2",
