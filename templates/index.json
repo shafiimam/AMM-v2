@@ -43,6 +43,7 @@
         },
         "image_r8n9Wt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ammdesk2_f310a4d5-9bc4-43e1-bc47-b9fd35909a8d.jpg",
             "mobile_image": "shopify://shop_images/ammsalemob.jpg",
