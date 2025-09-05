@@ -9,30 +9,6 @@
  */
 {
   "sections": {
-    "video_a348kx": {
-      "type": "video",
-      "blocks": {
-        "play_qTgtfK": {
-          "type": "play",
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "play_qTgtfK"
-      ],
-      "name": "t:sections.video.presets.video.name",
-      "settings": {
-        "autoplay": true,
-        "show_controls": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
-        "mobile_video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
-        "external_video_url": "",
-        "text_color": "#ffffff"
-      }
-    },
     "content_page_section_TWazeA": {
       "type": "content-page-section",
       "disabled": true,
@@ -227,7 +203,6 @@
       "blocks": {
         "look_7QAcH8": {
           "type": "look",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/khaki2.jpg",
             "hot_spots_background": "#ffffff",
@@ -245,21 +220,20 @@
             "product_4_vertical_position": 85
           }
         },
-        "look_6RX6ER": {
+        "look_7NE64j": {
           "type": "look",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/khaki2.jpg",
+            "image": "shopify://shop_images/purple.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "junya-watanabe-jacket-brown",
-            "product_1_horizontal_position": 59,
-            "product_1_vertical_position": 44,
-            "product_2": "junya-watanabe-pants-multi",
-            "product_2_horizontal_position": 66,
-            "product_2_vertical_position": 71,
+            "product_1": "enfants-riches-deprimes-moleskin-work-jacket-purple",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "entire-studios-slem-jeans-black",
+            "product_2_horizontal_position": 71,
+            "product_2_vertical_position": 93,
             "product_3": "",
-            "product_3_horizontal_position": 60,
-            "product_3_vertical_position": 65,
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
             "product_4": "",
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
@@ -268,7 +242,7 @@
       },
       "block_order": [
         "look_7QAcH8",
-        "look_6RX6ER"
+        "look_7NE64j"
       ],
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
@@ -340,7 +314,6 @@
     }
   },
   "order": [
-    "video_a348kx",
     "content_page_section_TWazeA",
     "main",
     "shop_the_look_bD4LRj",
