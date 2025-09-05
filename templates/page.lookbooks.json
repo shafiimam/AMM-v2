@@ -9,6 +9,38 @@
  */
 {
   "sections": {
+    "video_a348kx": {
+      "type": "video",
+      "blocks": {
+        "play_qTgtfK": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_eY6Yin": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_qTgtfK",
+        "heading_eY6Yin"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
+        "mobile_video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "content_page_section_TWazeA": {
       "type": "content-page-section",
       "disabled": true,
@@ -316,6 +348,7 @@
     }
   },
   "order": [
+    "video_a348kx",
     "content_page_section_TWazeA",
     "main",
     "shop_the_look_bD4LRj",
