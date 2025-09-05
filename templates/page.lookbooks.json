@@ -23,8 +23,9 @@
     },
     "main": {
       "type": "main-page",
+      "name": "Style Guide ",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "show_title": false,
         "page_width": "full"
       }
