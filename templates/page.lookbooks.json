@@ -141,11 +141,68 @@
         "popover_title": ""
       }
     },
+    "shop_the_look_9984yC": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_GdkQmg": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/cardigan_f2203aea-eac8-4e69-a749-c0e72444dad8.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "entire-studios-jool-jacket-grey",
+            "product_1_horizontal_position": 59,
+            "product_1_vertical_position": 44,
+            "product_2": "entire-studios-miller-shirt-ivory",
+            "product_2_horizontal_position": 48,
+            "product_2_vertical_position": 28,
+            "product_3": "",
+            "product_3_horizontal_position": 36,
+            "product_3_vertical_position": 17,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_jgtyFR": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/denimfit.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "herculean-shirt",
+            "product_1_horizontal_position": 42,
+            "product_1_vertical_position": 44,
+            "product_2": "entire-studios-slem-jeans-indigo",
+            "product_2_horizontal_position": 48,
+            "product_2_vertical_position": 84,
+            "product_3": "",
+            "product_3_horizontal_position": 36,
+            "product_3_vertical_position": 17,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_GdkQmg",
+        "look_jgtyFR"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "popover_title": ""
+      }
+    },
     "shop_the_look_tCR9np": {
       "type": "shop-the-look",
       "blocks": {
         "look_7QAcH8": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/khaki2.jpg",
             "hot_spots_background": "#ffffff",
@@ -176,6 +233,64 @@
         "content": "",
         "popover_title": ""
       }
+    },
+    "shop_the_look_H6HxCd": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_96A8MV": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cover_4266b9ae-f254-453e-a61e-be7fae99fa82.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "jacquemus-le-polo-punto-mc-beige",
+            "product_1_horizontal_position": 42,
+            "product_1_vertical_position": 44,
+            "product_2": "jacquemus-la-surchemise-gio-navy",
+            "product_2_horizontal_position": 69,
+            "product_2_vertical_position": 56,
+            "product_3": "la-casquette-feltro",
+            "product_3_horizontal_position": 36,
+            "product_3_vertical_position": 17,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_MQTWjb": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cover_4266b9ae-f254-453e-a61e-be7fae99fa82.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "jacquemus-le-polo-punto-mc-beige",
+            "product_1_horizontal_position": 42,
+            "product_1_vertical_position": 44,
+            "product_2": "jacquemus-la-surchemise-gio-navy",
+            "product_2_horizontal_position": 69,
+            "product_2_vertical_position": 56,
+            "product_3": "la-casquette-feltro",
+            "product_3_horizontal_position": 36,
+            "product_3_vertical_position": 17,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_96A8MV",
+        "look_MQTWjb"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "popover_title": ""
+      }
     }
   },
   "order": [
@@ -183,6 +298,8 @@
     "main",
     "shop_the_look_bD4LRj",
     "shop_the_look_TVtEfc",
-    "shop_the_look_tCR9np"
+    "shop_the_look_9984yC",
+    "shop_the_look_tCR9np",
+    "shop_the_look_H6HxCd"
   ]
 }
