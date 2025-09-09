@@ -67,23 +67,12 @@
         "release_3t4phh": {
           "type": "release",
           "settings": {
-            "release_title": "9.10",
-            "release_image": "shopify://shop_images/KOBE9MOONWALKER-1_92777787-677f-417b-b6e6-697f903a2da4.jpg",
-            "product_title": "NIKE KOBE IX ELITE LOW PROTRO \"HYPER GRAPE/WHITE/ CAVE PURPLE\"",
-            "product_vendor": "NIKE",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-ix-elite-low-protro-hyper-grapewhite-cave-purple"
-          }
-        },
-        "release_6QqqMN": {
-          "type": "release",
-          "settings": {
-            "release_title": "9.10",
-            "release_image": "shopify://shop_images/NB1906ICEWINE-1_1d1f74f8-8042-4b98-9295-babbc602d532.jpg",
-            "product_title": "NEW BALANCE 1906L \"ICE WINE\"",
-            "product_vendor": "NEW BALANCE",
+            "release_title": "9.13",
+            "release_image": "shopify://shop_images/PHARRELLWILLIAMSEVOSL_WHITE_ORANGE_-1_57d605dd-20be-41de-87d7-767ea8334df2.jpg",
+            "product_title": "ADIDAS PHARRELL WILLIAMS EVO SL \"WHITE/ORANGE\"",
+            "product_vendor": "ADIDAS",
             "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l-ice-wine"
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-evo-sl-whiteorange"
           }
         },
         "release_Wwjm3G": {
@@ -107,15 +96,26 @@
             "product_price": "$215",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-5-retro-fire-red"
           }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.27",
+            "release_image": "shopify://shop_images/GEL-CUMULUS16SUMMITEXCLUSIVE_CREAM_MALACHITEGREEN_-1.jpg",
+            "product_title": "ASICS X TOMO GEL-CUMULUS 16 SUMMIT EXCLUSIVE \"CREAM/MALACHITE GREEN\"",
+            "product_vendor": "ASICS",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-tomo-gel-cumulus-16-summit-exclusive-creammalachite-green"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_3t4phh",
-        "release_6QqqMN",
         "release_Wwjm3G",
-        "release_eBTFij"
+        "release_eBTFij",
+        "release_6QqqMN"
       ],
       "settings": {
         "color_scheme": "scheme-2",
