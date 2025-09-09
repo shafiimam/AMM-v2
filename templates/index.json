@@ -14,10 +14,9 @@
       "blocks": {
         "image_tUfJaV": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/DESK2_4735dc22-810e-490d-b19e-872a03660b34.jpg",
-            "mobile_image": "shopify://shop_images/AMM740MOB1.jpg",
+            "image": "shopify://shop_images/AMM740DESK.jpg",
+            "mobile_image": "shopify://shop_images/AMM740MOB.jpg",
             "subheading": "<p><strong>RELEASE 9.19 @ 11AM EST</strong></p>",
             "subheading_size": 16,
             "title": "<p><strong>THE WHITAKER GRP AND new balance abzorb 740 \"WILLFUL BIAS\"</strong></p>",
@@ -26,7 +25,7 @@
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "ENTER RAFFLE NOW",
-            "button_1_link": "https://www.a-ma-maniere.com/products/2010-brighton-grey?_pos=1&_psq=U2010TTO&_ss=e&_v=1.0",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/the-whitaker-grp-and-new-balance-740-willful-bias-for-discovery",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
