@@ -66,6 +66,7 @@
         },
         "release_3t4phh": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "9.13",
             "release_image": "shopify://shop_images/PHARRELLWILLIAMSEVOSL_WHITE_ORANGE_-1_57d605dd-20be-41de-87d7-767ea8334df2.jpg",
@@ -77,6 +78,7 @@
         },
         "release_Wwjm3G": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "9.13",
             "release_image": "shopify://shop_images/AJ5FIREREDGS-1.jpg",
@@ -88,6 +90,7 @@
         },
         "release_eBTFij": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "9.13",
             "release_image": "shopify://shop_images/AJ5FIRERED-1.jpg",
