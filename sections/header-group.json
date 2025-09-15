@@ -78,6 +78,7 @@
         },
         "release_eBTFij": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "9.19",
             "release_image": "shopify://shop_images/WILLFULBIASXNB740-1.jpg",
