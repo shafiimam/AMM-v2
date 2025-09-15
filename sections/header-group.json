@@ -76,18 +76,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-evo-sl-whiteorange"
           }
         },
-        "release_Wwjm3G": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "9.23",
-            "release_image": "shopify://shop_images/VOMEROPLUSSPECKLE_ANTHRACITE_BLACK_DARKOBSIDIAN_-1.jpg",
-            "product_title": "NIKE VOMERO PLUS SPECKLE \"ANTHRACITE/ BLACK/ DARK OBSIDIAN\"",
-            "product_vendor": "NIKE",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-vomero-plus-speckle-anthracite-black-dark-obsidian"
-          }
-        },
         "release_eBTFij": {
           "type": "release",
           "settings": {
@@ -97,6 +85,17 @@
             "product_vendor": "NEW BALANCE",
             "product_price": "$120",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/the-whitaker-grp-and-new-balance-740-willful-bias-for-discovery"
+          }
+        },
+        "release_Wwjm3G": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.23",
+            "release_image": "shopify://shop_images/VOMEROPLUSSPECKLE_ANTHRACITE_BLACK_DARKOBSIDIAN_-1.jpg",
+            "product_title": "NIKE VOMERO PLUS SPECKLE \"ANTHRACITE/ BLACK/ DARK OBSIDIAN\"",
+            "product_vendor": "NIKE",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-vomero-plus-speckle-anthracite-black-dark-obsidian"
           }
         },
         "release_6QqqMN": {
@@ -115,8 +114,8 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_3t4phh",
-        "release_Wwjm3G",
         "release_eBTFij",
+        "release_Wwjm3G",
         "release_6QqqMN"
       ],
       "settings": {
