@@ -76,18 +76,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-evo-sl-whiteorange"
           }
         },
-        "release_eBTFij": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "9.19",
-            "release_image": "shopify://shop_images/WILLFULBIASXNB740-1.jpg",
-            "product_title": "THE WHITAKER GRP AND NEW BALANCE 740 WILLFUL BIAS FOR DISCOVERY",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/the-whitaker-grp-and-new-balance-740-willful-bias-for-discovery"
-          }
-        },
         "release_Wwjm3G": {
           "type": "release",
           "settings": {
@@ -109,15 +97,26 @@
             "product_price": "$170",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-tomo-gel-cumulus-16-summit-exclusive-creammalachite-green"
           }
+        },
+        "release_eBTFij": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.24",
+            "release_image": "shopify://shop_images/WILLFULBIASXNB740-1.jpg",
+            "product_title": "JORDAN TRUNNER O/S \"ARCHAEO BROWN/PERSIAN VIOLET\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$115",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-trunner-os-archaeo-brownpersian-violet"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_3t4phh",
-        "release_eBTFij",
         "release_Wwjm3G",
-        "release_6QqqMN"
+        "release_6QqqMN",
+        "release_eBTFij"
       ],
       "settings": {
         "color_scheme": "scheme-2",
