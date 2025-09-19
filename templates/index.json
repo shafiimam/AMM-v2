@@ -14,7 +14,6 @@
       "blocks": {
         "image_d33cGg": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/amm1_ddca6241-c7ed-45d3-8ec7-fa636afc30dd.jpg",
             "mobile_image": "shopify://shop_images/ammmob_2a5066f2-fdd3-4ed2-ae8f-c3a1eeb4ff89.jpg",
@@ -26,7 +25,7 @@
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 760,
             "button_1_text": "buy now",
-            "button_1_link": "shopify://collections/new-balance",
+            "button_1_link": "https://www.a-ma-maniere.com/products/new-balance-740-sea-salt?_pos=1&_psq=U740WK2&_ss=e&_v=1.0",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -105,6 +104,7 @@
         },
         "image_tUfJaV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/amm740newpic.jpg",
             "mobile_image": "shopify://shop_images/sand2.0.jpg",
