@@ -12,6 +12,36 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_d33cGg": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/amm1_ddca6241-c7ed-45d3-8ec7-fa636afc30dd.jpg",
+            "mobile_image": "shopify://shop_images/ammmob_2a5066f2-fdd3-4ed2-ae8f-c3a1eeb4ff89.jpg",
+            "subheading": "<p><strong>available now and 12 pm local time</strong></p>",
+            "subheading_size": 15,
+            "title": "<p><strong>THE WHITAKER GROUP AND new balance 740 \"WILLFUL BIAS\" for discovery</strong></p>",
+            "title_size": 22,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 760,
+            "button_1_text": "buy now",
+            "button_1_link": "shopify://collections/new-balance",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_9VQBMz": {
           "type": "video",
           "disabled": true,
@@ -102,36 +132,6 @@
             "gradient_overlay": ""
           }
         },
-        "image_RRfXhj": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/abzorbamm2.jpg",
-            "mobile_image": "shopify://shop_images/ammmob4_f26f59e4-e551-4759-9965-70103b4389c2.jpg",
-            "subheading": "<p><strong>BUY NOW</strong></p>",
-            "subheading_size": 19,
-            "title": "<p><strong>new balance abzorb 2010 \"BRIGHTON GREY\"</strong></p>",
-            "title_size": 25,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "shop now",
-            "button_1_link": "https://www.a-ma-maniere.com/products/2010-brighton-grey?_pos=1&_psq=U2010TTO&_ss=e&_v=1.0",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "video_EUxE7d": {
           "type": "video",
           "settings": {
@@ -164,10 +164,10 @@
         }
       },
       "block_order": [
+        "image_d33cGg",
         "video_9VQBMz",
         "video_TrrkwE",
         "image_tUfJaV",
-        "image_RRfXhj",
         "video_EUxE7d"
       ],
       "settings": {
