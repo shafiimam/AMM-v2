@@ -1,0 +1,258 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_size": "lg",
+        "allow_transparent_header": false,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_image": false,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_breadcrumb": true,
+        "content_width": "full",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "slideshow_Bj9tMY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_A9KgUB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/loewe2.jpg",
+            "mobile_image": "shopify://shop_images/loewe2.jpg",
+            "subheading": "",
+            "subheading_size": 12,
+            "title": "",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 400,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 10,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 0), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_abAVge": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "subheading": "<p>Tell your story</p>",
+            "subheading_size": 12,
+            "title": "<p>Slide 2</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2) 0%, rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_A9KgUB",
+        "image_abAVge"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "video_tCYxw6": {
+      "type": "video",
+      "blocks": {
+        "play_N7bRTJ": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_N7bRTJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "image_card_xbb6z4": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/MOB5.jpg",
+            "button_text": "Shop The Look",
+            "button_url": "shopify://collections/a-bathing-ape-2",
+            "product_index": 5,
+            "column_span": 2,
+            "row_span": 2,
+            "button_style": "solid",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_xbb6z4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "1",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "image_with_text_V8ABKh": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_anE7zB": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_Dq9PYy": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Pj7NmJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_anE7zB",
+        "heading_Dq9PYy",
+        "richtext_Pj7NmJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/loewe_afe9db87-a9bf-4fe0-9eb8-ffefb963593d.jpg",
+        "mobile_image": "shopify://shop_images/loewe_afe9db87-a9bf-4fe0-9eb8-ffefb963593d.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": true
+      }
+    },
+    "image_with_text_block_8iyjaj": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_7LWDet": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text block"
+          }
+        },
+        "richtext_9t8azh": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7LWDet",
+        "richtext_9t8azh"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify://shop_images/loewe2.jpg",
+        "mobile_image": "shopify://shop_images/loewe2.jpg",
+        "content_width": "sm",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "slideshow_Bj9tMY",
+    "video_tCYxw6",
+    "main",
+    "image_with_text_V8ABKh",
+    "image_with_text_block_8iyjaj"
+  ]
+}

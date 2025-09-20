@@ -1,0 +1,325 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "content_page_section_TWazeA": {
+      "type": "content-page-section",
+      "disabled": true,
+      "settings": {
+        "title": "About Us",
+        "description": "Office ipsum you must be muted. Product open idea supervisor people hear. Slipstream job got churning native wider clean request cc. Submit asserts don't community keep hours resources world. Paradigm decisions solutions flesh ask big.",
+        "circular_text": "Scroll Scroll Scroll Scroll Scroll Scroll",
+        "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png",
+        "section_banner_desktop": "shopify://shop_images/ammaboutus_7c436abc-bac4-48a0-bf4e-3193e6e38ca9.jpg",
+        "section_banner_mobile": "shopify://shop_images/ammaboutus_7c436abc-bac4-48a0-bf4e-3193e6e38ca9.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "name": "Style Guide ",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_title": false,
+        "page_width": "full"
+      }
+    },
+    "shop_the_look_bD4LRj": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_yJznKb": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Untitled-1_b40f99cc-b078-4eab-865c-90e16d0171a8.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "acne-studios-cropped-hoodie-pink",
+            "product_1_horizontal_position": 47,
+            "product_1_vertical_position": 46,
+            "product_2": "junya-watanabe-nylon-ma-1-jacket-khaki",
+            "product_2_horizontal_position": 70,
+            "product_2_vertical_position": 45,
+            "product_3": "satoshi-nakamoto-double-layer-sweatpant-black",
+            "product_3_horizontal_position": 50,
+            "product_3_vertical_position": 86,
+            "product_4": "mohair-beanie",
+            "product_4_horizontal_position": 59,
+            "product_4_vertical_position": 10
+          }
+        },
+        "look_a4pUDf": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/DSC07722_DC.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "satoshi-nakamoto-elliot-zip-up-hoodie-black",
+            "product_1_horizontal_position": 33,
+            "product_1_vertical_position": 35,
+            "product_2": "erl-zip-off-cargo-pants-brown",
+            "product_2_horizontal_position": 60,
+            "product_2_vertical_position": 61,
+            "product_3": "studded-hat-3",
+            "product_3_horizontal_position": 40,
+            "product_3_vertical_position": 10,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_yJznKb",
+        "look_a4pUDf"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "Fall style guide",
+        "content": "",
+        "popover_title": "fall style guide"
+      }
+    },
+    "shop_the_look_TVtEfc": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_ncM7bt": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/acnetee.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "acne-studios-layered-logo-t-shirt-vintage-green",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "acne-studios-printed-trousers-white-green",
+            "product_2_horizontal_position": 34,
+            "product_2_vertical_position": 90,
+            "product_3": "",
+            "product_3_horizontal_position": 66,
+            "product_3_vertical_position": 42,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_m6AmtE": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/photographertee.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "erl-photographer-t-shirt-black",
+            "product_1_horizontal_position": 44,
+            "product_1_vertical_position": 35,
+            "product_2": "balenciaga-tracksuit-pants-black",
+            "product_2_horizontal_position": 54,
+            "product_2_vertical_position": 79,
+            "product_3": "",
+            "product_3_horizontal_position": 56,
+            "product_3_vertical_position": 69,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_ncM7bt",
+        "look_m6AmtE"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "popover_title": ""
+      }
+    },
+    "shop_the_look_9984yC": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_GdkQmg": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/cardigan_f2203aea-eac8-4e69-a749-c0e72444dad8.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "entire-studios-jool-jacket-grey",
+            "product_1_horizontal_position": 59,
+            "product_1_vertical_position": 44,
+            "product_2": "entire-studios-miller-shirt-ivory",
+            "product_2_horizontal_position": 48,
+            "product_2_vertical_position": 28,
+            "product_3": "",
+            "product_3_horizontal_position": 36,
+            "product_3_vertical_position": 17,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_jgtyFR": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/denimfit.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "entire-studios-herculean-shirt-indigo",
+            "product_1_horizontal_position": 44,
+            "product_1_vertical_position": 44,
+            "product_2": "entire-studios-slem-jeans-indigo",
+            "product_2_horizontal_position": 49,
+            "product_2_vertical_position": 84,
+            "product_3": "",
+            "product_3_horizontal_position": 36,
+            "product_3_vertical_position": 17,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_GdkQmg",
+        "look_jgtyFR"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "popover_title": ""
+      }
+    },
+    "shop_the_look_tCR9np": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_7QAcH8": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/khaki2.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "junya-watanabe-jacket-brown",
+            "product_1_horizontal_position": 59,
+            "product_1_vertical_position": 44,
+            "product_2": "junya-watanabe-pants-multi",
+            "product_2_horizontal_position": 66,
+            "product_2_vertical_position": 71,
+            "product_3": "",
+            "product_3_horizontal_position": 60,
+            "product_3_vertical_position": 65,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_7NE64j": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/purple.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "enfants-riches-deprimes-moleskin-work-jacket-purple",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "entire-studios-slem-jeans-black",
+            "product_2_horizontal_position": 71,
+            "product_2_vertical_position": 93,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_7QAcH8",
+        "look_7NE64j"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "popover_title": ""
+      }
+    },
+    "shop_the_look_H6HxCd": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_96A8MV": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cover_4266b9ae-f254-453e-a61e-be7fae99fa82.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "jacquemus-le-polo-punto-mc-beige",
+            "product_1_horizontal_position": 42,
+            "product_1_vertical_position": 44,
+            "product_2": "jacquemus-la-surchemise-gio-navy",
+            "product_2_horizontal_position": 69,
+            "product_2_vertical_position": 56,
+            "product_3": "la-casquette-feltro",
+            "product_3_horizontal_position": 36,
+            "product_3_vertical_position": 17,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_MQTWjb": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cover_4266b9ae-f254-453e-a61e-be7fae99fa82.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "jacquemus-le-polo-punto-mc-beige",
+            "product_1_horizontal_position": 42,
+            "product_1_vertical_position": 44,
+            "product_2": "jacquemus-la-surchemise-gio-navy",
+            "product_2_horizontal_position": 69,
+            "product_2_vertical_position": 56,
+            "product_3": "la-casquette-feltro",
+            "product_3_horizontal_position": 36,
+            "product_3_vertical_position": 17,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_96A8MV",
+        "look_MQTWjb"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "popover_title": ""
+      }
+    }
+  },
+  "order": [
+    "content_page_section_TWazeA",
+    "main",
+    "shop_the_look_bD4LRj",
+    "shop_the_look_TVtEfc",
+    "shop_the_look_9984yC",
+    "shop_the_look_tCR9np",
+    "shop_the_look_H6HxCd"
+  ]
+}

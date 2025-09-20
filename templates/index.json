@@ -12,21 +12,20 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_GfQhAq": {
+        "image_d33cGg": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/ammdesk1_5d8d8fba-adac-4015-b4ad-b4842930e3a6.jpg",
-            "mobile_image": "shopify://shop_images/DSC05090_DC_copy.jpg",
-            "subheading": "<p>available now</p>",
+            "image": "shopify://shop_images/amm1_ddca6241-c7ed-45d3-8ec7-fa636afc30dd.jpg",
+            "mobile_image": "shopify://shop_images/ammmob_2a5066f2-fdd3-4ed2-ae8f-c3a1eeb4ff89.jpg",
+            "subheading": "<p><strong>available now and 12 pm local time</strong></p>",
             "subheading_size": 15,
-            "title": "<p>The Whitaker Group and New Balance \"Willful Bias\" For Education</p>",
-            "title_size": 26,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "shop",
-            "button_1_link": "shopify://collections/the-whitaker-group-for-new-balance-willful-bias-for-education",
+            "title": "<p><strong>THE WHITAKER GROUP AND new balance 740 \"WILLFUL BIAS\" for discovery</strong></p>",
+            "title_size": 22,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 760,
+            "button_1_text": "buy now",
+            "button_1_link": "https://www.a-ma-maniere.com/products/new-balance-740-sea-salt?_pos=1&_psq=U740WK2&_ss=e&_v=1.0",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -36,59 +35,29 @@
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
-            "background_opacity": 50,
+            "background_opacity": 0,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
           }
         },
-        "video_EUxE7d": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/4k Fixed top.mov",
-            "mobile_video": "shopify://files/videos/4k Fixed top.mov",
-            "allow_sound": true,
-            "subheading": "shop new fall pieces",
-            "subheading_size": 19,
-            "title": "Jacquemus",
-            "title_size": 29,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "Shop all",
-            "button_1_link": "shopify://collections/jacquemus",
-            "button_1_style": "outline",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "knit polo",
-            "button_2_link": "shopify://products/jacquemus-le-polo-punto-mc-beige",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "video_AE6bz8": {
+        "video_9VQBMz": {
           "type": "video",
           "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/PART 2 DIALOGUE .mov",
-            "mobile_video": "shopify://files/videos/PART 2 DIALOGUE .mov",
+            "video": "shopify://files/videos/AMM HATS AGAIN.mov",
+            "mobile_video": "shopify://files/videos/AMM HATS AGAIN.mov",
             "allow_sound": true,
-            "subheading": "exclusive release 8/8 at 11 am EST",
-            "subheading_size": 18,
-            "title": "The Whitaker Group and New Balance \"Willful Bias\" For Education",
-            "title_size": 28,
+            "subheading": "shop new colors and styles",
+            "subheading_size": 17,
+            "title": "A MA MANIÉRE X NEW ERA",
+            "title_size": 27,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 760,
-            "button_1_text": "enter raffles",
-            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
-            "button_1_style": "solid",
+            "content_max_width": 780,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/new-era",
+            "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
@@ -106,18 +75,18 @@
         "video_TrrkwE": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
-            "mobile_video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+            "video": "shopify://files/videos/Look book 4k.mov",
+            "mobile_video": "shopify://files/videos/Look book 4k.mov",
             "allow_sound": true,
-            "subheading": "EXPLORE THE COLLECTION",
+            "subheading": "discover curated looks",
             "subheading_size": 18,
-            "title": "A$AP ROCKY x RAY-BAN \"NEXT GENERATION\"",
+            "title": "fall style guide",
             "title_size": 24,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 740,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/asap-rocky-x-ray-ban",
+            "button_1_link": "shopify://pages/style-guide",
             "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -133,22 +102,52 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_EmU7Qk": {
+        "image_tUfJaV": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/amm740newpic.jpg",
+            "mobile_image": "shopify://shop_images/sand2.0.jpg",
+            "subheading": "<p><strong>RELEASE 9.19 at 11AM EST</strong></p>",
+            "subheading_size": 16,
+            "title": "<p><strong>THE WHITAKER GRouP AND new balance 740 \"WILLFUL BIAS\" for discovery</strong></p>",
+            "title_size": 23,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/new-balance",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "video_EUxE7d": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
-            "mobile_video": "shopify://files/videos/WILLY FULL VID WEB.mov",
+            "video": "shopify://files/videos/BB AMM 1.mov",
+            "mobile_video": "shopify://files/videos/BB AMM 1.mov",
             "allow_sound": true,
-            "subheading": "new pieces",
-            "subheading_size": 19,
-            "title": "willy chavarria",
-            "title_size": 29,
+            "subheading": "NEW styles",
+            "subheading_size": 22,
+            "title": "BEACH BRAINS",
+            "title_size": 33,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/willy-chavarria",
-            "button_1_style": "solid",
+            "button_1_text": "shop",
+            "button_1_link": "shopify://collections/beach-brains",
+            "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
@@ -165,11 +164,11 @@
         }
       },
       "block_order": [
-        "image_GfQhAq",
-        "video_EUxE7d",
-        "video_AE6bz8",
+        "image_d33cGg",
+        "video_9VQBMz",
         "video_TrrkwE",
-        "video_EmU7Qk"
+        "image_tUfJaV",
+        "video_EUxE7d"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -186,45 +185,47 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_CqUpFr": {
-          "type": "product",
-          "settings": {
-            "product": "jacquemus-la-chemise-boulanger-black"
-          }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "jacquemus-le-tshirt-gros-grain"
-          }
-        },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-hoodie-gros-grain-red"
+            "product": "entire-studios-herculean-shirt-indigo"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-la-casquette-basebal"
+            "product": "entire-studios-slem-jeans-indigo"
+          }
+        },
+        "product_CqUpFr": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "studded-hat-3"
+          }
+        },
+        "product_eekMqY": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "beach-brains-big-ls-shirt-red"
           }
         }
       },
       "block_order": [
-        "product_CqUpFr",
-        "product_eekMqY",
         "product_mzGxhY",
-        "product_q8H3fy"
+        "product_q8H3fy",
+        "product_CqUpFr",
+        "product_eekMqY"
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "JACQUEMUS",
+        "title": "Fall style guide",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/jaq3_d6b79876-80c7-4ba3-a7d8-f25f4ffde90d.jpg",
-        "image_description": "<p>Autumn unfolds in textures and tones. Jacquemus’ latest collection balances warmth and restraint: soft quilted jackets, brushed wool knits and embroidered caps. A study in minimalism with a tactile edge—designed for the season of layering and subtle statements.</p>",
+        "image": "shopify://shop_images/denimfit.jpg",
+        "image_description": "<p>Step into the season with sophistication. The <strong>Fall Style Guide</strong> features coveted pieces from <strong>Acne Studios, Satoshi Nakomoto, ERL, ERD, Junya Watanabe</strong>, and more—where timeless craftsmanship meets modern edge.</p><p></p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/jacquemus"
+        "image_cta_url": "shopify://pages/style-guide"
       }
     },
     "featured_collections_bFrXKx": {
@@ -233,10 +234,10 @@
         "collection_ABw4Mi": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-1",
+            "collection": "markdowns",
             "products_count": 8,
-            "title": "shop new arrivals",
-            "link_url": "shopify://collections/new-arrivals-1",
+            "title": "shop markdowns",
+            "link_url": "shopify://collections/markdowns",
             "link_text": "View all"
           }
         }
@@ -403,14 +404,14 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "summer-collection",
-            "image": "shopify://shop_images/sea_2631b3f5-756f-4bfc-9ecc-0426b8422c84.jpg",
+            "collection": "pre-fall",
+            "image": "shopify://shop_images/fallshot.jpg",
             "expand_collection": true,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "SHOP SUMMER ESSENTIALS",
-            "button_link": "shopify://collections/summer-collection",
+            "button_text": "Fall Transition",
+            "button_link": "shopify://collections/pre-fall",
             "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -536,14 +537,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/BODEFINAL.jpg",
+            "image": "shopify://shop_images/DSC00108_DC_d2e92c97-1bdb-4805-9cd4-bbd00191f582.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "BODE",
-            "link_url": "shopify://collections/bode",
+            "link_text": "jacquemus",
+            "link_url": "shopify://collections/jacquemus",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -554,14 +555,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/RICKYOWENS.jpg",
+            "image": "shopify://shop_images/loewe_188c1b78-31b4-4394-8e82-4f81775c36ab.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "RICK OWENS",
-            "link_url": "shopify://collections/rick-owens",
+            "link_text": "loewe",
+            "link_url": "shopify://collections/loewe",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -572,14 +573,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/kendra1.jpg",
+            "image": "shopify://shop_images/k3.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "RHUDE",
-            "link_url": "shopify://collections/rhude",
+            "link_text": "entire studios",
+            "link_url": "shopify://collections/entire-studios",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",

@@ -26,6 +26,30 @@
         "overlay_opacity": 0
       }
     },
+    "video_tCYxw6": {
+      "type": "video",
+      "blocks": {
+        "play_N7bRTJ": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_N7bRTJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -70,6 +94,7 @@
   },
   "order": [
     "collection-banner",
+    "video_tCYxw6",
     "main"
   ]
 }

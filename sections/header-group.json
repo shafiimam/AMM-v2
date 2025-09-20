@@ -18,7 +18,7 @@
           "type": "message",
           "disabled": true,
           "settings": {
-            "text": "<strong>Spring Sale: 4/12 – 4/18. 15% Off + Free U.S. Shipping on Orders $200+. Exclusions Apply | </strong><a href=\"https://www.a-ma-maniere.com/pages/terms-and-conditions-2024\"><strong>See Details</strong></a>"
+            "text": "<strong>Labor Day Sale Event: 8/28 – 9/4. 20% Off + Exclusions Apply | </strong><a href=\"https://www.a-ma-maniere.com/pages/terms-and-conditions-2024\"><strong>See Details</strong></a>"
           }
         }
       },
@@ -64,84 +64,59 @@
             "image_2_link": ""
           }
         },
-        "release_HgBrbN": {
-          "type": "release",
-          "settings": {
-            "release_title": "8.16",
-            "release_image": "shopify://shop_images/NIGELXAJ1LOWBLK-1.jpg",
-            "product_title": " NIGEL SYLVESTER AIR JORDAN 1 RETRO LOW OG \"BETTER WITH TIME\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$165",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nigel-sylvester-air-jordan-1-retro-low-og-nitro-black-muslinvarsity-red"
-          }
-        },
-        "release_rJHyVH": {
-          "type": "release",
-          "settings": {
-            "release_title": "8.16",
-            "release_image": "shopify://shop_images/AJ12FRENCHBLUE-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$205",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue"
-          }
-        },
-        "release_RU8N8q": {
-          "type": "release",
-          "settings": {
-            "release_title": "8.16",
-            "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1_5e18f35b-0394-421f-bb86-e707d0943981.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\" GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$205",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
-          }
-        },
-        "release_mUi7ki": {
-          "type": "release",
-          "settings": {
-            "release_title": "8.19",
-            "release_image": "shopify://shop_images/HANDBALLSPEZIALMADEINGERMANY_BLUE_WHITE_-1.jpg",
-            "product_title": "ADIDAS HANDBALL SPEZIAL MADE IN GERMANY \"BLUE/WHITE\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-handball-spezial-made-in-germany-bluewhite"
-          }
-        },
-        "release_j7Nfhn": {
+        "release_3t4phh": {
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "8.16",
-            "release_image": "shopify://shop_images/AJ12FRENCHBLUEGS-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"FRENCH BLUE\" GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-french-blue-gs"
+            "release_title": "9.13",
+            "release_image": "shopify://shop_images/PHARRELLWILLIAMSEVOSL_WHITE_ORANGE_-1_57d605dd-20be-41de-87d7-767ea8334df2.jpg",
+            "product_title": "ADIDAS PHARRELL WILLIAMS EVO SL \"WHITE/ORANGE\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-evo-sl-whiteorange"
+          }
+        },
+        "release_Wwjm3G": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.23",
+            "release_image": "shopify://shop_images/VOMEROPLUSSPECKLE_ANTHRACITE_BLACK_DARKOBSIDIAN_-1.jpg",
+            "product_title": "NIKE VOMERO PLUS SPECKLE \"ANTHRACITE/ BLACK/ DARK OBSIDIAN\"",
+            "product_vendor": "NIKE",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-vomero-plus-speckle-anthracite-black-dark-obsidian"
           }
         },
         "release_6QqqMN": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "8.08",
-            "release_image": "shopify://shop_images/AM95BLUESPARK-1.jpg",
-            "product_title": "NIKE AIR MAX 95 OG \"WHITE/BLUE SPARK\"",
-            "product_vendor": "NIKE",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whiteblue-spark"
+            "release_title": "9.27",
+            "release_image": "shopify://shop_images/GEL-CUMULUS16SUMMITEXCLUSIVE_CREAM_MALACHITEGREEN_-1.jpg",
+            "product_title": "ASICS X TOMO GEL-CUMULUS 16 SUMMIT EXCLUSIVE \"CREAM/MALACHITE GREEN\"",
+            "product_vendor": "ASICS",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-tomo-gel-cumulus-16-summit-exclusive-creammalachite-green"
+          }
+        },
+        "release_eBTFij": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.24",
+            "release_image": "shopify://shop_images/TRUNNERO_S_ARCHAEOBROWN_PERSIANVIOLET_-1.jpg",
+            "product_title": "JORDAN TRUNNER O/S \"ARCHAEO BROWN/PERSIAN VIOLET\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$115",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-trunner-os-archaeo-brownpersian-violet"
           }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_HgBrbN",
-        "release_rJHyVH",
-        "release_RU8N8q",
-        "release_mUi7ki",
-        "release_j7Nfhn",
-        "release_6QqqMN"
+        "release_3t4phh",
+        "release_Wwjm3G",
+        "release_6QqqMN",
+        "release_eBTFij"
       ],
       "settings": {
         "color_scheme": "scheme-2",
