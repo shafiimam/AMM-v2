@@ -87,17 +87,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-vomero-plus-speckle-anthracite-black-dark-obsidian"
           }
         },
-        "release_6QqqMN": {
-          "type": "release",
-          "settings": {
-            "release_title": "9.27",
-            "release_image": "shopify://shop_images/GEL-CUMULUS16SUMMITEXCLUSIVE_CREAM_MALACHITEGREEN_-1.jpg",
-            "product_title": "ASICS X TOMO GEL-CUMULUS 16 SUMMIT EXCLUSIVE \"CREAM/MALACHITE GREEN\"",
-            "product_vendor": "ASICS",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-tomo-gel-cumulus-16-summit-exclusive-creammalachite-green"
-          }
-        },
         "release_eBTFij": {
           "type": "release",
           "settings": {
@@ -108,6 +97,17 @@
             "product_price": "$115",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-trunner-os-archaeo-brownpersian-violet"
           }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.27",
+            "release_image": "shopify://shop_images/GEL-CUMULUS16SUMMITEXCLUSIVE_CREAM_MALACHITEGREEN_-1.jpg",
+            "product_title": "ASICS X TOMO GEL-CUMULUS 16 SUMMIT EXCLUSIVE \"CREAM/MALACHITE GREEN\"",
+            "product_vendor": "ASICS",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-tomo-gel-cumulus-16-summit-exclusive-creammalachite-green"
+          }
         }
       },
       "block_order": [
@@ -115,8 +115,8 @@
         "mega_menu_px7EJK",
         "release_3t4phh",
         "release_Wwjm3G",
-        "release_6QqqMN",
-        "release_eBTFij"
+        "release_eBTFij",
+        "release_6QqqMN"
       ],
       "settings": {
         "color_scheme": "scheme-2",
