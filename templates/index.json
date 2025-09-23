@@ -200,16 +200,14 @@
         },
         "product_CqUpFr": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "studded-hat-3"
+            "product": "424-marathon-boot-2"
           }
         },
         "product_eekMqY": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "product": "beach-brains-big-ls-shirt-red"
+            "product": "enfants-riches-deprimes-goodbye-franky-belt"
           }
         }
       },
