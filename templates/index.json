@@ -44,7 +44,6 @@
         },
         "video_9VQBMz": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMM HATS AGAIN.mov",
             "mobile_video": "shopify://files/videos/AMM HATS AGAIN.mov",
@@ -57,7 +56,7 @@
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/new-era",
+            "button_1_link": "shopify://collections/a-ma-maniere",
             "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -196,14 +195,14 @@
         "heading_xDW4wX": {
           "type": "heading",
           "settings": {
-            "text": "Split Media Hero",
+            "text": "NEW ERA A MA MANIÉRE 2014 CHAIN FITTED HAT",
             "heading_tag": "h1"
           }
         },
         "richtext_nkiVLT": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Create stunning split media sections with side-by-side images or videos and overlay content.</p>"
+            "content": "<p>The newest collection of our best fitted hats have arrived in elevated styles.</p>"
           }
         },
         "button_CqXrVb": {
@@ -226,6 +225,7 @@
       "disabled": true,
       "name": "Split Hero",
       "settings": {
+        "allow_transparent_header": true,
         "media_type_1": "video",
         "image_1": "shopify://shop_images/ammmob_2a5066f2-fdd3-4ed2-ae8f-c3a1eeb4ff89.jpg",
         "video_1": "shopify://files/videos/AMM HATS AGAIN.mov",
