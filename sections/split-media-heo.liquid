@@ -201,7 +201,7 @@
   }
 </style>
 
-<div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}{% if section.settings.separate_section_with_border %} bordered-section{% endif %}">
+<div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}{% if section.settings.separate_section_with_border %} bordered-section{% endif %}"{% if section.settings.allow_transparent_header %} allow-transparent-header{% endif %}>
   <div
     id="SplitHero-{{ section.id }}"
     class="split-hero{% if section.blocks.size == 0 and section.settings.section_height == 'auto' %} split-hero--no-blocks-auto-height{% endif %}"
@@ -564,6 +564,13 @@
     "groups": ["header"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "allow_transparent_header",
+      "label": "t:global.section.allow_transparent_header",
+      "info": "t:global.section.allow_transparent_header_info",
+      "default": true
+    },
     {
       "type": "header",
       "content": "Media"
