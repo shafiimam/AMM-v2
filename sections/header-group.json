@@ -64,27 +64,37 @@
             "image_2_link": ""
           }
         },
-        "release_3t4phh": {
+        "release_eBTFij": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "9.13",
-            "release_image": "shopify://shop_images/PHARRELLWILLIAMSEVOSL_WHITE_ORANGE_-1_57d605dd-20be-41de-87d7-767ea8334df2.jpg",
-            "product_title": "ADIDAS PHARRELL WILLIAMS EVO SL \"WHITE/ORANGE\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-evo-sl-whiteorange"
+            "release_title": "9.24",
+            "release_image": "shopify://shop_images/TRUNNERO_S_ARCHAEOBROWN_PERSIANVIOLET_-1.jpg",
+            "product_title": "JORDAN TRUNNER O/S \"ARCHAEO BROWN/PERSIAN VIOLET\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$115",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-trunner-os-archaeo-brownpersian-violet"
           }
         },
         "release_Wwjm3G": {
           "type": "release",
           "settings": {
-            "release_title": "9.23",
-            "release_image": "shopify://shop_images/VOMEROPLUSSPECKLE_ANTHRACITE_BLACK_DARKOBSIDIAN_-1.jpg",
-            "product_title": "NIKE VOMERO PLUS SPECKLE \"ANTHRACITE/ BLACK/ DARK OBSIDIAN\"",
-            "product_vendor": "NIKE",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-vomero-plus-speckle-anthracite-black-dark-obsidian"
+            "release_title": "9.25",
+            "release_image": "shopify://shop_images/MADEINUSA992_DUSKSHOWER_-1.jpg",
+            "product_title": "NEW BALANCE MADE IN USA 992 DUSK SHOWER",
+            "product_vendor": "NEW BALANCE",
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-usa-992-dusk-shower"
+          }
+        },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.27",
+            "release_image": "shopify://shop_images/BADBUNNYADIZEROSL72BROWNPINK-1.jpg",
+            "product_title": "ADIDAS BAD BUNNY ADIZERO \"BROWN/PINK\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-bad-bunny-adizero-brownpink"
           }
         },
         "release_6QqqMN": {
@@ -97,26 +107,15 @@
             "product_price": "$170",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-tomo-gel-cumulus-16-summit-exclusive-creammalachite-green"
           }
-        },
-        "release_eBTFij": {
-          "type": "release",
-          "settings": {
-            "release_title": "9.24",
-            "release_image": "shopify://shop_images/TRUNNERO_S_ARCHAEOBROWN_PERSIANVIOLET_-1.jpg",
-            "product_title": "JORDAN TRUNNER O/S \"ARCHAEO BROWN/PERSIAN VIOLET\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$115",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-trunner-os-archaeo-brownpersian-violet"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_3t4phh",
+        "release_eBTFij",
         "release_Wwjm3G",
-        "release_6QqqMN",
-        "release_eBTFij"
+        "release_3t4phh",
+        "release_6QqqMN"
       ],
       "settings": {
         "color_scheme": "scheme-2",
