@@ -64,17 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_eBTFij": {
-          "type": "release",
-          "settings": {
-            "release_title": "9.24",
-            "release_image": "shopify://shop_images/TRUNNERO_S_ARCHAEOBROWN_PERSIANVIOLET_-1.jpg",
-            "product_title": "JORDAN TRUNNER O/S \"ARCHAEO BROWN/PERSIAN VIOLET\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$115",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-trunner-os-archaeo-brownpersian-violet"
-          }
-        },
         "release_Wwjm3G": {
           "type": "release",
           "settings": {
@@ -97,6 +86,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-bad-bunny-adizero-brownpink"
           }
         },
+        "release_eBTFij": {
+          "type": "release",
+          "settings": {
+            "release_title": "9.27",
+            "release_image": "shopify://shop_images/AJ5TOKYO-1.jpg",
+            "product_title": "AIR JORDAN 5 RETRO BLACK BAG",
+            "product_vendor": "JORDAN",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-5-retro-black-bag"
+          }
+        },
         "release_6QqqMN": {
           "type": "release",
           "settings": {
@@ -112,9 +112,9 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_eBTFij",
         "release_Wwjm3G",
         "release_3t4phh",
+        "release_eBTFij",
         "release_6QqqMN"
       ],
       "settings": {
