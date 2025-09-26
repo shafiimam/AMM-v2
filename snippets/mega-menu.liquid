@@ -48,12 +48,18 @@
   {% elsif link.levels > 0 %}
     <ul class="mega-menu__linklist unstyled-list">
       {%- for sub_link in link.links -%}
+        {%- comment %}<locksmith:bb82>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:bb82>{% endcomment -%}
         <li class="v-stack justify-items-start gap-2">
           <a href="{{ sub_link.url }}" class="h6">{{ sub_link.title }}</a>
 
           {%- if sub_link.links.size > 0 -%}
             <ul class="v-stack gap-2.5 unstyled-list">
               {%- for sub_sub_link in sub_link.links -%}
+                {%- comment %}<locksmith:8e33>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:8e33>{% endcomment -%}
                 {% unless sub_sub_link.title == 'ALL OUTERWEAR'
                   or sub_sub_link.title == 'ALL FOOTWEAR'
                   or sub_sub_link.title == 'ALL ACCESSORIES'
