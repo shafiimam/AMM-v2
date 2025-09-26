@@ -18,6 +18,19 @@
       assign cross_sell_products_count = 0
 
       for product in section.settings.cross_sell_products
+        comment
+          <locksmith:a1ed> Code added automatically by the Locksmith app. Do not modify or remove.
+        endcomment
+        capture var
+          render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: section.settings, variable: 'transparent'
+        endcapture
+        if var == "true"
+        else
+          continue
+        endif
+        comment
+          </locksmith:a1ed> End Locksmith code block.
+        endcomment
         assign products_in_cart = cart.items | where: 'product_id', product.id
 
         if products_in_cart.size == 0 and product.available
@@ -49,6 +62,19 @@
         {%- liquid
           capture complementary_products
             for product in section.settings.cross_sell_products
+              comment
+                <locksmith:fe21> Code added automatically by the Locksmith app. Do not modify or remove.
+              endcomment
+              capture var
+                render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: section.settings, variable: 'transparent'
+              endcapture
+              if var == "true"
+              else
+                continue
+              endif
+              comment
+                </locksmith:fe21> End Locksmith code block.
+              endcomment
               assign products_in_cart = cart.items | where: 'product_id', product.id
 
               if products_in_cart.size == 0 and product.available

@@ -36,6 +36,9 @@ Supported variables
       {%- endif -%}
       {%- capture complementary_products -%}
         {%- for product in recommendations.products -%}
+          {%- comment %}<locksmith:c846>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:c846>{% endcomment -%}
           {%- render 'product-card-horizontal', product: product, show_quick_buy: block.settings.show_quick_buy -%}
         {%- endfor -%}
       {%- endcapture -%}
@@ -56,6 +59,9 @@ Supported variables
 
           <scroll-carousel id="{{ carousel_mobile_id }}" class="complementary-products__product-list complementary-products__product-list--carousel bleed scroll-area snap-x">
             {%- for product in recommendations.products -%}
+              {%- comment %}<locksmith:8bfc>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:8bfc>{% endcomment -%}
               {%- render 'product-card', product: product, show_quick_buy: block.settings.show_quick_buy, show_badges: false, show_vendor: false, show_rating: false, show_secondary_image: false, show_swatches: false -%}
             {%- endfor -%}
           </scroll-carousel>
