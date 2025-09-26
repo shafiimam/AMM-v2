@@ -78,6 +78,7 @@
         },
         "release_3t4phh": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "9.27",
             "release_image": "shopify://shop_images/BADBUNNYADIZEROSL72BROWNPINK-1.jpg",
@@ -89,6 +90,7 @@
         },
         "release_eBTFij": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "9.27",
             "release_image": "shopify://shop_images/AJ5TOKYO-1.jpg",
