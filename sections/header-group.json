@@ -66,14 +66,13 @@
         },
         "release_Wwjm3G": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "9.25",
-            "release_image": "shopify://shop_images/MADEINUSA992_DUSKSHOWER_-1.jpg",
-            "product_title": "NEW BALANCE MADE IN USA 992 DUSK SHOWER",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-usa-992-dusk-shower"
+            "release_title": "10.01",
+            "release_image": "shopify://shop_images/FOGATHLETICSII_WONDEROXIDE_-1.jpg",
+            "product_title": "ADIDAS FOG ATHLETICS II \"WONDER OXIDE\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-fog-athletics-ii-wonder-oxide"
           }
         },
         "release_3t4phh": {
@@ -102,6 +101,7 @@
         },
         "release_6QqqMN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "9.27",
             "release_image": "shopify://shop_images/GEL-CUMULUS16SUMMITEXCLUSIVE_CREAM_MALACHITEGREEN_-1.jpg",
