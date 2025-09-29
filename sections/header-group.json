@@ -77,14 +77,13 @@
         },
         "release_3t4phh": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "9.27",
-            "release_image": "shopify://shop_images/BADBUNNYADIZEROSL72BROWNPINK-1.jpg",
-            "product_title": "ADIDAS BAD BUNNY ADIZERO \"BROWN/PINK\"",
+            "release_title": "10.04",
+            "release_image": "shopify://shop_images/ANTHONYEDWARDS2_ACID_METALLIC_RED_-1.jpg",
+            "product_title": "ADIDAS ANTHONY EDWARDS 2 \"ACID/METALLIC/RED\"",
             "product_vendor": "ADIDAS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-bad-bunny-adizero-brownpink"
+            "product_price": "130",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-anthony-edwards-2-acidmetallicred"
           }
         },
         "release_eBTFij": {
