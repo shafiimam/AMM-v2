@@ -66,6 +66,7 @@
         },
         "release_Wwjm3G": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.01",
             "release_image": "shopify://shop_images/FOGATHLETICSII_WONDEROXIDE_-1.jpg",
