@@ -552,3 +552,10 @@ h1#cae-heading {
     justify-content: center;
     align-items: center;
 }
+input#locksmith_email {
+    border: 1px solid #000;
+}
+
+button#locksmith_email_submit {
+    margin-top: 10px;
+}
