@@ -546,7 +546,6 @@ h1#cae-heading {
   font-family: var(--text-font-family);
 }
 .locksmith-email-container.container.page-width {
-    padding: 60px;
     height: 40vh;
     display: flex;
     justify-content: center;
