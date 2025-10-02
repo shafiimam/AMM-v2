@@ -99,14 +99,13 @@
         },
         "release_6QqqMN": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "9.27",
-            "release_image": "shopify://shop_images/GEL-CUMULUS16SUMMITEXCLUSIVE_CREAM_MALACHITEGREEN_-1.jpg",
-            "product_title": "ASICS X TOMO GEL-CUMULUS 16 SUMMIT EXCLUSIVE \"CREAM/MALACHITE GREEN\"",
-            "product_vendor": "ASICS",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-tomo-gel-cumulus-16-summit-exclusive-creammalachite-green"
+            "release_title": "10.09",
+            "release_image": "shopify://shop_images/AIRMAXRK61XAIRAFRIQUE_COCONUTMILK_-1.jpg",
+            "product_title": "NIKE AIR MAX RK61 X AIR AFRIQUE \"COCONUT MILK\"",
+            "product_vendor": "NIKE",
+            "product_price": "$210",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-rk61-x-air-afrique-coconut-milk"
           }
         }
       },
