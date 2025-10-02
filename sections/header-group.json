@@ -64,18 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_Wwjm3G": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "10.06",
-            "release_image": "shopify://shop_images/MOONSHOESPXJACQUEMUS_OFFNOIR_-1.jpg",
-            "product_title": "NIKE MOON SHOE SP X JACQUEMUS \"OFF NOIR\"",
-            "product_vendor": "NIKE",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-moon-shoe-sp-x-jacquemus-off-noir"
-          }
-        },
         "release_3t4phh": {
           "type": "release",
           "settings": {
@@ -87,16 +75,27 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-anthony-edwards-2-acidmetallicred"
           }
         },
+        "release_Wwjm3G": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.06",
+            "release_image": "shopify://shop_images/MOONSHOESPXJACQUEMUS_OFFNOIR_-1.jpg",
+            "product_title": "NIKE MOON SHOE SP X JACQUEMUS \"OFF NOIR\"",
+            "product_vendor": "NIKE",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-moon-shoe-sp-x-jacquemus-off-noir"
+          }
+        },
         "release_eBTFij": {
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "9.27",
-            "release_image": "shopify://shop_images/AJ5TOKYO-1.jpg",
-            "product_title": "AIR JORDAN 5 RETRO BLACK BAG",
-            "product_vendor": "JORDAN",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-5-retro-black-bag"
+            "release_title": "10.06",
+            "release_image": "shopify://shop_images/MOONSHOESPXJACQUEMUS_UNIVERSITYRED_-1.jpg",
+            "product_title": "NIKE MOON SHOE SP X JACQUEMUS \"UNIVERSITY RED\"",
+            "product_vendor": "NIKE",
+            "product_price": "180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-moon-shoe-sp-x-jacquemus-university-red"
           }
         },
         "release_6QqqMN": {
@@ -115,8 +114,8 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_Wwjm3G",
         "release_3t4phh",
+        "release_Wwjm3G",
         "release_eBTFij",
         "release_6QqqMN"
       ],
