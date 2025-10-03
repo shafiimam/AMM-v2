@@ -14,7 +14,6 @@
       "blocks": {
         "video_EUxE7d": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMA STUSSY.mov",
             "mobile_video": "shopify://files/videos/AMA STUSSY.mov",
