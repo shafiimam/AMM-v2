@@ -64,17 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_3t4phh": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.04",
-            "release_image": "shopify://shop_images/ANTHONYEDWARDS2_ACID_METALLIC_RED_-1.jpg",
-            "product_title": "ADIDAS ANTHONY EDWARDS 2 \"ACID/METALLIC/RED\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-anthony-edwards-2-acidmetallicred"
-          }
-        },
         "release_Wwjm3G": {
           "type": "release",
           "settings": {
@@ -97,6 +86,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-moon-shoe-sp-x-jacquemus-university-red"
           }
         },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.08",
+            "release_image": "shopify://shop_images/TELFARPULLONBOOTHIGH_WHEAT_-1.jpg",
+            "product_title": "TIMBERLAND X TELFAR PULL ON BOOT HIGH \"WHEAT\"",
+            "product_vendor": "TIMBERLAND",
+            "product_price": "$600",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/telfar-pull-on-boot-high-wheat"
+          }
+        },
         "release_6QqqMN": {
           "type": "release",
           "settings": {
@@ -112,9 +112,9 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_3t4phh",
         "release_Wwjm3G",
         "release_eBTFij",
+        "release_3t4phh",
         "release_6QqqMN"
       ],
       "settings": {
