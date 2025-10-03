@@ -262,25 +262,25 @@
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "entire-studios-herculean-shirt-indigo"
+            "product": "stussy-june-plaid-shirt-multi"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "entire-studios-slem-jeans-indigo"
+            "product": "stussy-cargo-pant-olive-green"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "424-marathon-boot-2"
+            "product": "basic-skullcap"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "enfants-riches-deprimes-goodbye-franky-belt"
+            "product": "a-ma-maniere-x-nike-air-max-95-diffused-taupe-phantom"
           }
         }
       },
@@ -292,12 +292,12 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "Fall style guide",
+        "title": "Stüssy",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/denimfit.jpg",
-        "image_description": "<p>Step into the season with sophistication. The <strong>Fall Style Guide</strong> features coveted pieces from <strong>Acne Studios, Satoshi Nakomoto, ERL, ERD, Junya Watanabe</strong>, and more—where timeless craftsmanship meets modern edge.</p><p></p>",
+        "image": "shopify://shop_images/stussy1.jpg",
+        "image_description": "<p><strong>Stüssy’s</strong> Fall Collection shapes outerwear and flannels into refined cold-weather essentials, marked by rich textures and timeless design. Luxury streetwear made to move seamlessly from city to season.</p><p></p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://pages/style-guide"
+        "image_cta_url": "shopify://collections/stussy"
       }
     },
     "featured_collections_bFrXKx": {
