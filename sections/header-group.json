@@ -64,6 +64,18 @@
             "image_2_link": ""
           }
         },
+        "release_Wwjm3G": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "10.06",
+            "release_image": "shopify://shop_images/MOONSHOESPXJACQUEMUS_OFFNOIR_-1.jpg",
+            "product_title": "NIKE MOON SHOE SP X JACQUEMUS \"OFF NOIR\"",
+            "product_vendor": "NIKE",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-moon-shoe-sp-x-jacquemus-off-noir"
+          }
+        },
         "release_eBTFij": {
           "type": "release",
           "settings": {
@@ -96,26 +108,15 @@
             "product_price": "$210",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-rk61-x-air-afrique-coconut-milk"
           }
-        },
-        "release_Wwjm3G": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.09",
-            "release_image": "shopify://shop_images/AIRMAXRK61XAIRAFRIQUE_BLACK_BLACK_-1.jpg",
-            "product_title": "NIKE AIR MAX RK61 X AIR AFRIQUE \"BLACK/ BLACK\"",
-            "product_vendor": "NIKE",
-            "product_price": "$210",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-rk61-x-air-afrique-black-black"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
+        "release_Wwjm3G",
         "release_eBTFij",
         "release_3t4phh",
-        "release_6QqqMN",
-        "release_Wwjm3G"
+        "release_6QqqMN"
       ],
       "settings": {
         "color_scheme": "scheme-2",
