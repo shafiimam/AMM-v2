@@ -99,7 +99,6 @@
         },
         "release_Wwjm3G": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "10.11",
             "release_image": "shopify://shop_images/AIRMAX95YARDRUNNERS_MOREHOUSE_-1.jpg",
