@@ -66,6 +66,7 @@
         },
         "release_Wwjm3G": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.06",
             "release_image": "shopify://shop_images/MOONSHOESPXJACQUEMUS_OFFNOIR_-1.jpg",
@@ -77,6 +78,7 @@
         },
         "release_eBTFij": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.06",
             "release_image": "shopify://shop_images/MOONSHOESPXJACQUEMUS_UNIVERSITYRED_-1.jpg",
