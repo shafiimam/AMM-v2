@@ -64,28 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_eBTFij": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.08",
-            "release_image": "shopify://shop_images/TELFARPULLONBOOTMID_WHEAT_-1.jpg",
-            "product_title": "TIMBERLAND X TELFAR PULL ON BOOT MID \"WHEAT\"",
-            "product_vendor": "TIMBERLAND",
-            "product_price": "$350",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/timberland-x-telfar-pull-on-boot-mid-wheat"
-          }
-        },
-        "release_3t4phh": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.08",
-            "release_image": "shopify://shop_images/TELFARPULLONBOOTHIGH_WHEAT_-1.jpg",
-            "product_title": "TIMBERLAND X TELFAR PULL ON BOOT HIGH \"WHEAT\"",
-            "product_vendor": "TIMBERLAND",
-            "product_price": "$600",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/telfar-pull-on-boot-high-wheat"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
           "settings": {
@@ -95,6 +73,28 @@
             "product_vendor": "NIKE",
             "product_price": "$210",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-rk61-x-air-afrique-coconut-milk"
+          }
+        },
+        "release_eBTFij": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.11",
+            "release_image": "shopify://shop_images/STEFONDIGGSXGEL-DSTRAINER14_WHITE_BLACK_-1.jpg",
+            "product_title": "ASICS X STEFON DIGGS GEL-DS TRAINER 14 \"WHITE/BLACK\"",
+            "product_vendor": "ASICS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-stefon-diggs-gel-ds-trainer-14-whiteblack"
+          }
+        },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.11",
+            "release_image": "shopify://shop_images/AJ535THANNIVERSARY-1.jpg",
+            "product_title": "AIR JORDAN 5 RETRO \"35TH ANNIVERSARY\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-5-retro-35th-anniversary"
           }
         },
         "release_Wwjm3G": {
@@ -112,9 +112,9 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
+        "release_6QqqMN",
         "release_eBTFij",
         "release_3t4phh",
-        "release_6QqqMN",
         "release_Wwjm3G"
       ],
       "settings": {
