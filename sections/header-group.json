@@ -64,26 +64,37 @@
             "image_2_link": ""
           }
         },
-        "release_6QqqMN": {
+        "release_Wwjm3G": {
           "type": "release",
           "settings": {
-            "release_title": "10.09",
-            "release_image": "shopify://shop_images/AIRMAXRK61XAIRAFRIQUE_COCONUTMILK_-1.jpg",
-            "product_title": "NIKE AIR MAX RK61 X AIR AFRIQUE \"COCONUT MILK\"",
+            "release_title": "10.16",
+            "release_image": "shopify://shop_images/NIGOXLEVI_SXAIRFORCE3LOWSP_OLIVEGREY_-1.jpg",
+            "product_title": "NIKE NIGO X LEVI'S X AIR FORCE 3 LOW SP \"OLIVE GREY\"",
             "product_vendor": "NIKE",
-            "product_price": "$210",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-rk61-x-air-afrique-coconut-milk"
+            "product_price": "150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-nigo-x-levis-x-air-force-3-low-sp-olive-grey"
           }
         },
         "release_eBTFij": {
           "type": "release",
           "settings": {
-            "release_title": "10.11",
-            "release_image": "shopify://shop_images/STEFONDIGGSXGEL-DSTRAINER14_WHITE_BLACK_-1.jpg",
-            "product_title": "ASICS X STEFON DIGGS GEL-DS TRAINER 14 \"WHITE/BLACK\"",
-            "product_vendor": "ASICS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-stefon-diggs-gel-ds-trainer-14-whiteblack"
+            "release_title": "10.18",
+            "release_image": "shopify://shop_images/WOMEN_STAEKWONDOBYEDISONCHEN_COREBLACK_CARBON_-1.jpg",
+            "product_title": "ADIDAS WOMEN'S TAEKWONDO BY EDISON CHEN \"OFF WHITE/ SILVER METALLIC\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-off-white-silver-metallic"
+          }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.18",
+            "release_image": "shopify://shop_images/WOMEN_STAEKWONDOBYEDISONCHEN_OFFWHITE_SILVERMETALLIC_-1.jpg",
+            "product_title": "ADIDAS WOMEN'S TAEKWONDO BY EDISON CHEN \"OFF WHITE/ SILVER METALLIC\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-off-white-silver-metallic"
           }
         },
         "release_3t4phh": {
@@ -96,26 +107,15 @@
             "product_price": "$215",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-5-retro-35th-anniversary"
           }
-        },
-        "release_Wwjm3G": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.11",
-            "release_image": "shopify://shop_images/AIRMAX95YARDRUNNERS_MOREHOUSE_-1.jpg",
-            "product_title": "NIKE AIR MAX 95 YARDRUNNERS MOREHOUSE",
-            "product_vendor": "NIKE",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-yardrunners-morehouse"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_6QqqMN",
+        "release_Wwjm3G",
         "release_eBTFij",
-        "release_3t4phh",
-        "release_Wwjm3G"
+        "release_6QqqMN",
+        "release_3t4phh"
       ],
       "settings": {
         "color_scheme": "scheme-2",
