@@ -99,6 +99,7 @@
         },
         "release_3t4phh": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.11",
             "release_image": "shopify://shop_images/AJ535THANNIVERSARY-1.jpg",
