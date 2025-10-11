@@ -12,6 +12,35 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_tUfJaV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hbcudeskamm2.jpg",
+            "mobile_image": "shopify://shop_images/HBCUMOB1.jpg",
+            "subheading": "<p><strong>AVAILABLE IN-STORE 10.11 at 12 PM EST</strong></p>",
+            "subheading_size": 17,
+            "title": "<p><strong>NIKE AIR MAX \"YARDRUNNERS\"</strong></p>",
+            "title_size": 27,
+            "mobile_text_position": "place-self-start-end text-end",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 800,
+            "button_1_text": "EXPLORE",
+            "button_1_link": "shopify://blogs/news/where-legacy-lives",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_EUxE7d": {
           "type": "video",
           "settings": {
@@ -131,36 +160,6 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "image_tUfJaV": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/hbcudeskamm2.jpg",
-            "mobile_image": "shopify://shop_images/HBCUMOB1.jpg",
-            "subheading": "<p><strong>AVAILABLE IN-STORE & ONLINE 10.11 at 12 PM EST</strong></p>",
-            "subheading_size": 17,
-            "title": "<p><strong>NIKE AIR MAX \"YARDRUNNERS\"</strong></p>",
-            "title_size": 27,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 800,
-            "button_1_text": "BUY NOW",
-            "button_1_link": "shopify://collections/nike-lab",
-            "button_1_style": "solid",
-            "button_1_background": "#1c1c1c",
-            "button_1_text_color": "#ffffff",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#1c1c1c",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "image_bJcB48": {
           "type": "image",
           "disabled": true,
@@ -193,11 +192,11 @@
         }
       },
       "block_order": [
+        "image_tUfJaV",
         "video_EUxE7d",
         "image_d33cGg",
         "video_TrrkwE",
         "video_9VQBMz",
-        "image_tUfJaV",
         "image_bJcB48"
       ],
       "settings": {
