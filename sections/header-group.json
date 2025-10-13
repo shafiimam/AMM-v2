@@ -75,6 +75,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-nigo-x-levis-x-air-force-3-low-sp-olive-grey"
           }
         },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.17",
+            "release_image": "shopify://shop_images/POSTARCHIVEFACTIONXWALLABEE_BEIGE_-1.jpg",
+            "product_title": "CLARKS POST ARCHIVE FACTION X WALLABEE \"BEIGE\"",
+            "product_vendor": "CLARKS",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/clarks-post-archive-faction-x-wallabee-beige"
+          }
+        },
         "release_eBTFij": {
           "type": "release",
           "settings": {
@@ -96,26 +107,15 @@
             "product_price": "$150",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-off-white-silver-metallic"
           }
-        },
-        "release_3t4phh": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.17",
-            "release_image": "shopify://shop_images/POSTARCHIVEFACTIONXWALLABEE_BEIGE_-1.jpg",
-            "product_title": "CLARKS POST ARCHIVE FACTION X WALLABEE \"BEIGE\"",
-            "product_vendor": "CLARKS",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/clarks-post-archive-faction-x-wallabee-beige"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_Wwjm3G",
+        "release_3t4phh",
         "release_eBTFij",
-        "release_6QqqMN",
-        "release_3t4phh"
+        "release_6QqqMN"
       ],
       "settings": {
         "color_scheme": "scheme-2",
