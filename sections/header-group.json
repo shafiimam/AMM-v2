@@ -99,14 +99,13 @@
         },
         "release_3t4phh": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "10.11",
-            "release_image": "shopify://shop_images/AJ535THANNIVERSARY-1.jpg",
-            "product_title": "AIR JORDAN 5 RETRO \"35TH ANNIVERSARY\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-5-retro-35th-anniversary"
+            "release_title": "10.17",
+            "release_image": "shopify://shop_images/POSTARCHIVEFACTIONXWALLABEE_BEIGE_-1.jpg",
+            "product_title": "CLARKS POST ARCHIVE FACTION X WALLABEE \"BEIGE\"",
+            "product_vendor": "CLARKS",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/clarks-post-archive-faction-x-wallabee-beige"
           }
         }
       },
