@@ -77,14 +77,13 @@
         },
         "release_3t4phh": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "10.17",
-            "release_image": "shopify://shop_images/POSTARCHIVEFACTIONXWALLABEE_BEIGE_-1.jpg",
-            "product_title": "CLARKS POST ARCHIVE FACTION X WALLABEE \"BEIGE\"",
-            "product_vendor": "CLARKS",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/clarks-post-archive-faction-x-wallabee-beige"
+            "release_image": "shopify://shop_images/AJ17INFINITEARCHIVES-1.jpg",
+            "product_title": "AIR JORDAN 17 RETRO LOW SP \"INFINITE ARCHIVES\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$255",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-17-retro-low-sp-infinite-archives"
           }
         },
         "release_eBTFij": {
