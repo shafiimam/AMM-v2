@@ -203,6 +203,7 @@
       "blocks": {
         "look_yJznKb": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Untitled-1_b40f99cc-b078-4eab-865c-90e16d0171a8.jpg",
             "hot_spots_background": "#ffffff",
@@ -222,6 +223,7 @@
         },
         "look_a4pUDf": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DSC07722_DC.jpg",
             "hot_spots_background": "#ffffff",
