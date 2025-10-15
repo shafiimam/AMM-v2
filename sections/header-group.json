@@ -64,17 +64,6 @@
             "image_2_link": ""
           }
         },
-        "release_Wwjm3G": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.16",
-            "release_image": "shopify://shop_images/NIGOXLEVI_SXAIRFORCE3LOWSP_OLIVEGREY_-1.jpg",
-            "product_title": "NIKE NIGO X LEVI'S X AIR FORCE 3 LOW SP \"OLIVE GREY\"",
-            "product_vendor": "NIKE",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-nigo-x-levis-x-air-force-3-low-sp-olive-grey"
-          }
-        },
         "release_3t4phh": {
           "type": "release",
           "settings": {
@@ -107,15 +96,26 @@
             "product_price": "$150",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-off-white-silver-metallic"
           }
+        },
+        "release_Wwjm3G": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.20",
+            "release_image": "shopify://shop_images/THUGCLUBXGSG9BOOT_BLACK_CREAM_-1.jpg",
+            "product_title": "ADIDAS THUG CLUB X GSG9 BOOT \"BLACK/CREAM\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-x-gsg9-boot-blackcream"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_Wwjm3G",
         "release_3t4phh",
         "release_eBTFij",
-        "release_6QqqMN"
+        "release_6QqqMN",
+        "release_Wwjm3G"
       ],
       "settings": {
         "color_scheme": "scheme-2",
