@@ -336,9 +336,9 @@
         "collection_ABw4Mi": {
           "type": "collection",
           "settings": {
-            "collection": "markdowns",
+            "collection": "new-arrivals-1",
             "products_count": 8,
-            "title": "shop markdowns",
+            "title": "NEW ARRIVALS",
             "link_url": "shopify://collections/markdowns",
             "link_text": "View all"
           }
@@ -665,7 +665,7 @@
             "heading_tag": "h4",
             "content": "",
             "link_text": "FLANNELS",
-            "link_url": "shopify://collections/flannels",
+            "link_url": "shopify://collections/new-sweatshirts",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
