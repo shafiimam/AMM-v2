@@ -65,17 +65,6 @@
             "image_2_link": ""
           }
         },
-        "release_3t4phh": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.17",
-            "release_image": "shopify://shop_images/AJ17INFINITEARCHIVES-1.jpg",
-            "product_title": "AIR JORDAN 17 RETRO LOW SP \"INFINITE ARCHIVES\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$255",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-17-retro-low-sp-infinite-archives"
-          }
-        },
         "release_eBTFij": {
           "type": "release",
           "settings": {
@@ -98,6 +87,17 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-off-white-silver-metallic"
           }
         },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.20",
+            "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUXBLKWHT-1.jpg",
+            "product_title": "ADIDAS THUG CLUB SUPERSTAR BOOT LUX",
+            "product_vendor": "ADIDAS",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-superstar-boot-lux"
+          }
+        },
         "release_Wwjm3G": {
           "type": "release",
           "settings": {
@@ -113,9 +113,9 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_3t4phh",
         "release_eBTFij",
         "release_6QqqMN",
+        "release_3t4phh",
         "release_Wwjm3G"
       ],
       "settings": {
