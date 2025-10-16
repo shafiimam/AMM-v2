@@ -17,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "<strong> </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER MORE </strong></a>"
+            "text": "<strong> SHOP MARKDOWNS </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER MORE </strong></a>"
           }
         }
       },
