@@ -12,6 +12,36 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_bJcB48": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/wilydesk.jpg",
+            "mobile_image": "shopify://shop_images/willymob2.jpg",
+            "subheading": "<p><strong>new fall essentials</strong></p>",
+            "subheading_size": 18,
+            "title": "<p><strong>WILLY CHAVARRIA</strong></p>",
+            "title_size": 29,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "content_max_width": 780,
+            "button_1_text": "shop now",
+            "button_1_link": "shopify://collections/willy-chavarria",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "#00000080",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_tUfJaV": {
           "type": "image",
           "settings": {
@@ -159,45 +189,15 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
-        },
-        "image_bJcB48": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/amm740newpic.jpg",
-            "mobile_image": "shopify://shop_images/sand2.0.jpg",
-            "subheading": "<p><strong>RELEASE 9.19 at 11AM EST</strong></p>",
-            "subheading_size": 16,
-            "title": "<p><strong>THE WHITAKER GRouP AND new balance 740 \"WILLFUL BIAS\" for discovery</strong></p>",
-            "title_size": 23,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/new-balance",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
+        "image_bJcB48",
         "image_tUfJaV",
         "video_EUxE7d",
         "image_d33cGg",
         "video_TrrkwE",
-        "video_9VQBMz",
-        "image_bJcB48"
+        "video_9VQBMz"
       ],
       "settings": {
         "allow_transparent_header": true,
