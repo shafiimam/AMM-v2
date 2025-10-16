@@ -17,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "<strong>NEW MARKDOWN ARRIVALS  </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER MORE </strong></a>"
+            "text": "<strong>NEW MARKDOWN ARRIVALS  </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER NOW</strong></a>"
           }
         }
       },
@@ -32,7 +32,7 @@
         "enable_sticky": false,
         "autoplay": true,
         "cycle_speed": 5,
-        "desktop_font_size": 11,
+        "desktop_font_size": 12,
         "mobile_font_size": 10
       }
     },
