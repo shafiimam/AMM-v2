@@ -130,9 +130,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-sneakers",
+            "collection": "new-boots",
             "products_count": 8,
-            "title": "SNEAKERS",
+            "title": "BOOTS",
             "link_url": "",
             "link_text": ""
           }
@@ -155,6 +155,7 @@
     },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "Look Closer",
@@ -177,7 +178,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "rick-owens",
+            "collection": "new-balance",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",
