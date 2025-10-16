@@ -17,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "<strong>New Markdown Arrivals [Discover More] </strong><a href=\"https://www.a-ma-maniere.com/pages/terms-and-conditions-2024\"><strong>See Details</strong></a>"
+            "text": "<strong> </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER MORE </strong></a>"
           }
         }
       },
@@ -32,8 +32,8 @@
         "enable_sticky": false,
         "autoplay": true,
         "cycle_speed": 5,
-        "desktop_font_size": 12,
-        "mobile_font_size": 12
+        "desktop_font_size": 11,
+        "mobile_font_size": 10
       }
     },
     "header": {
