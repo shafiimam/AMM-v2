@@ -52,10 +52,50 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
-        "mobile_video": "shopify://files/videos/WILLY FULL VID WEB.mov",
+        "video": "shopify://files/videos/AMA STUSSY.mov",
+        "mobile_video": "shopify://files/videos/AMA STUSSY.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "image_card_xbb6z4": {
+          "type": "image_card",
+          "settings": {
+            "image": "shopify://shop_images/ammmob1_1979ab38-3719-43fe-881e-4bfa6858a4c9.jpg",
+            "button_text": "Shop Football Crew",
+            "button_url": "https://www.a-ma-maniere.com/collections/stussy/products/stussy-football-crew-off-white",
+            "product_index": 5,
+            "column_span": 2,
+            "row_span": 2,
+            "button_style": "solid",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_xbb6z4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 25,
+        "products_per_row_mobile": "1",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
       }
     },
     "image_with_text_jLdmmU": {
@@ -64,14 +104,14 @@
         "heading_MAfpmm": {
           "type": "heading",
           "settings": {
-            "text": "WILLY CHAVARRIA",
+            "text": "<a href=\"https://www.a-ma-maniere.com/collections/stussy\">STÜSSY</a>",
             "heading_tag": "h1"
           }
         },
         "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Willy Chavarria’s</strong> latest collection amplifies the codes of streetwear with a cinematic eye. From oversized tees to minimal hoodie's, each piece continues to carry Chicano heritage and West Coast nostalgia.</p>",
+            "content": "<p><strong>Stüssy</strong> returns with a Fall collection that effortlessly blurs the line between street culture and modern luxury. The collection features oversized outerwear, washed textures, classic logos, and understated essentials refined through a minimalist, contemporary lens. </p>",
             "text_color": "#535353"
           }
         }
@@ -89,53 +129,13 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/DSC01226_DC_1_copy.jpg",
-        "mobile_image": "shopify://shop_images/WILLYSTL2.jpg",
+        "image": "shopify://shop_images/Stussy21.jpg",
+        "mobile_image": "shopify://shop_images/STUSSY23.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
-      }
-    },
-    "main": {
-      "type": "main-collection",
-      "blocks": {
-        "image_card_xbb6z4": {
-          "type": "image_card",
-          "settings": {
-            "image": "shopify://shop_images/willymob.jpg",
-            "button_text": "Shop The Look",
-            "button_url": "https://www.a-ma-maniere.com/pages/style-guide",
-            "product_index": 5,
-            "column_span": 2,
-            "row_span": 2,
-            "button_style": "solid",
-            "button_background": "#ffffff",
-            "button_text_color": "#1c1c1c"
-          }
-        }
-      },
-      "block_order": [
-        "image_card_xbb6z4"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "hide_product_information": false,
-        "products_per_page": 31,
-        "products_per_row_mobile": "1",
-        "products_size_desktop": "medium",
-        "show_grid_mode_selector": false,
-        "horizontal_spacing_factor": 0.4,
-        "vertical_spacing_factor": 0.4,
-        "filter_layout": "drawer",
-        "quick_links_menu": "",
-        "show_sort_by": true,
-        "show_filters": true,
-        "show_results_count": false,
-        "show_filter_group_name": false,
-        "show_filter_values_count": true,
-        "open_filters_by_default": false
       }
     }
   },
