@@ -65,19 +65,9 @@
             "image_2_link": ""
           }
         },
-        "release_eBTFij": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.18",
-            "release_image": "shopify://shop_images/WOMEN_STAEKWONDOBYEDISONCHEN_COREBLACK_CARBON_-1.jpg",
-            "product_title": "ADIDAS WOMEN'S TAEKWONDO BY EDISON CHEN \"OFF WHITE/ SILVER METALLIC\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-core-black-carbon"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.18",
             "release_image": "shopify://shop_images/WOMEN_STAEKWONDOBYEDISONCHEN_OFFWHITE_SILVERMETALLIC_-1.jpg",
@@ -85,6 +75,17 @@
             "product_vendor": "ADIDAS",
             "product_price": "$150",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-off-white-silver-metallic"
+          }
+        },
+        "release_WVNPY6": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.20",
+            "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUX-1.jpg",
+            "product_title": "ADIDAS THUG CLUB X GSG9 BOOT RED",
+            "product_vendor": "ADIDAS",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-superstar-boot-luxred"
           }
         },
         "release_3t4phh": {
@@ -111,7 +112,6 @@
         },
         "release_gqRjaj": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "10.24",
             "release_image": "shopify://shop_images/GRATEFULDEADXAIRMAX90-1.jpg",
@@ -120,29 +120,16 @@
             "product_price": "$145",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-x-gsg9-boot-blackcream"
           }
-        },
-        "release_WVNPY6": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "10.20",
-            "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUX-1.jpg",
-            "product_title": "ADIDAS THUG CLUB X GSG9 BOOT RED",
-            "product_vendor": "ADIDAS",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-superstar-boot-luxred"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_eBTFij",
         "release_6QqqMN",
+        "release_WVNPY6",
         "release_3t4phh",
         "release_Wwjm3G",
-        "release_gqRjaj",
-        "release_WVNPY6"
+        "release_gqRjaj"
       ],
       "settings": {
         "color_scheme": "scheme-2",
