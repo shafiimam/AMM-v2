@@ -64,7 +64,7 @@
         "image_card_xbb6z4": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/NBABZORB2010.png",
+            "image": "shopify://shop_images/NBABZORB2010V2.png",
             "button_text": "",
             "button_url": "",
             "product_index": 5,
@@ -129,7 +129,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/NB990GreenDESK.jpg",
+        "image": "shopify://shop_images/NBGREEN.png",
         "mobile_image": "shopify://shop_images/NB990GREEN.png",
         "reveal_on_scroll": true,
         "image_position": "end",
