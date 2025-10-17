@@ -108,6 +108,30 @@
             "product_price": "$180",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-x-gsg9-boot-blackcream"
           }
+        },
+        "release_gqRjaj": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "10.24",
+            "release_image": "shopify://shop_images/GRATEFULDEADXAIRMAX90-1.jpg",
+            "product_title": "GRATEFUL DEAD x UNIVERSITY OF OREGON x NIKE AIR MAX 90",
+            "product_vendor": "NIKE",
+            "product_price": "$145",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-x-gsg9-boot-blackcream"
+          }
+        },
+        "release_WVNPY6": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "10.20",
+            "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUX-1.jpg",
+            "product_title": "ADIDAS THUG CLUB X GSG9 BOOT RED",
+            "product_vendor": "ADIDAS",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-superstar-boot-luxred"
+          }
         }
       },
       "block_order": [
@@ -116,7 +140,9 @@
         "release_eBTFij",
         "release_6QqqMN",
         "release_3t4phh",
-        "release_Wwjm3G"
+        "release_Wwjm3G",
+        "release_gqRjaj",
+        "release_WVNPY6"
       ],
       "settings": {
         "color_scheme": "scheme-2",
