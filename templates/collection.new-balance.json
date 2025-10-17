@@ -52,8 +52,8 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/AMA STUSSY.mov",
-        "mobile_video": "shopify://files/videos/AMA STUSSY.mov",
+        "video": "shopify://files/videos/4k NB NO LOG WEB.mov",
+        "mobile_video": "shopify://files/videos/4k NB NO LOG WEB.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -64,7 +64,7 @@
         "image_card_xbb6z4": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/ammmob1_1979ab38-3719-43fe-881e-4bfa6858a4c9.jpg",
+            "image": "shopify://shop_images/NBABZORB2010.png",
             "button_text": "",
             "button_url": "",
             "product_index": 5,
@@ -104,14 +104,14 @@
         "heading_MAfpmm": {
           "type": "heading",
           "settings": {
-            "text": "<a href=\"https://www.a-ma-maniere.com/collections/stussy\">STÜSSY</a>",
+            "text": "New balance MADE IN UK 991v2 GROUNDED PASTELS “GREEN”",
             "heading_tag": "h1"
           }
         },
         "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Stüssy</strong> returns with a Fall collection that effortlessly blurs the line between street culture and modern luxury. The collection features oversized outerwear, washed textures, classic logos, and understated essentials refined through a minimalist, contemporary lens. </p>",
+            "content": "<p><strong>NEW BALANCE </strong>The 991v2 becomes a symbol of local identity, creative rhythm, and purposeful style. </p>",
             "text_color": "#535353"
           }
         }
@@ -129,8 +129,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/Stussy21.jpg",
-        "mobile_image": "shopify://shop_images/STUSSY23.png",
+        "image": "shopify://shop_images/NB990GreenDESK.jpg",
+        "mobile_image": "shopify://shop_images/NB990GREEN.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
