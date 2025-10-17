@@ -65,7 +65,7 @@
           "type": "image_card",
           "settings": {
             "image": "shopify://shop_images/NBABZORB2010.png",
-            "button_text": "",
+            "button_text": "SHOP ABZORB 2010",
             "button_url": "",
             "product_index": 5,
             "column_span": 2,
@@ -111,7 +111,7 @@
         "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>NEW BALANCE </strong>The 991v2 becomes a symbol of local identity, creative rhythm, and purposeful style. </p>",
+            "content": "<p><strong>NEW BALANCE </strong>The 991v2 becomes a symbol of local identity, creative rhythm, and purposeful style. Crafted and unified in premium suede patterns all over the upper, with a sturdy cream midsole bringing together comfort and style.  </p>",
             "text_color": "#535353"
           }
         }
