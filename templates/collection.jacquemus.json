@@ -39,7 +39,7 @@
           "type": "heading",
           "settings": {
             "text": "",
-            "heading_tag": "h2"
+            "heading_tag": "h3"
           }
         }
       },
@@ -51,9 +51,9 @@
       "settings": {
         "autoplay": true,
         "show_controls": true,
-        "video_size": "sm",
-        "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
-        "mobile_video": "shopify://files/videos/Rayban multi color.mov",
+        "video_size": "md",
+        "video": "shopify://files/videos/JAC AMA HATS .mov",
+        "mobile_video": "shopify://files/videos/JAC AMA HATS .mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -77,12 +77,11 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/MOB5.jpg",
-            "button_text": "Shop The Look",
-            "button_url": "shopify://collections/a-bathing-ape-2",
-            "product_index": 5,
+            "image": "shopify://shop_images/jacquemus2.jpg",
+            "button_text": "LE T-SHIRT BASEBALL",
+            "button_url": "shopify://products/jaquemus-le-tshirt-baseball",
+            "product_index": 10,
             "column_span": 2,
             "row_span": 2,
             "button_style": "solid",
@@ -97,7 +96,7 @@
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
-        "products_per_page": 31,
+        "products_per_page": 25,
         "products_per_row_mobile": "1",
         "products_size_desktop": "medium",
         "show_grid_mode_selector": false,
@@ -111,47 +110,6 @@
         "show_filter_group_name": false,
         "show_filter_values_count": true,
         "open_filters_by_default": false
-      }
-    },
-    "image_with_text_jLdmmU": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_MAfpmm": {
-          "type": "heading",
-          "settings": {
-            "text": "Entire studios shrunken denim jacket",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nmR43n": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MAfpmm",
-        "richtext_nmR43n"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {display: flex; justify-content: end;}"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
-        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "media_grid_wGyTFz": {
@@ -217,6 +175,7 @@
         "image_xKjBF6",
         "image_Fdedra"
       ],
+      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
@@ -229,6 +188,142 @@
         "title": "A closer look",
         "content": ""
       }
+    },
+    "image_with_text_jLdmmU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MAfpmm": {
+          "type": "heading",
+          "settings": {
+            "text": "Entire studios shrunken denim jacket",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nmR43n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAfpmm",
+        "richtext_nmR43n"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "3d_gallery_wdhVmr": {
+      "type": "3d-gallery",
+      "disabled": true,
+      "name": "3D Gallery",
+      "settings": {
+        "title": "3D Gallery",
+        "start_index": "",
+        "end_index": "",
+        "dynamic_link_handle": "",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
+    "slideshow_CWL6ie": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XEwRiF": {
+          "type": "image",
+          "settings": {
+            "subheading": "<p>Tell your story</p>",
+            "subheading_size": 12,
+            "title": "<p>Slide 1</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2) 0%, rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_Cd8xbT": {
+          "type": "image",
+          "settings": {
+            "subheading": "<p>Tell your story</p>",
+            "subheading_size": 12,
+            "title": "<p>Slide 2</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2) 0%, rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_XEwRiF",
+        "image_Cd8xbT"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -236,7 +331,9 @@
     "video_BMBRUt",
     "image_with_text_block_TmCWVh",
     "main",
+    "media_grid_wGyTFz",
     "image_with_text_jLdmmU",
-    "media_grid_wGyTFz"
+    "3d_gallery_wdhVmr",
+    "slideshow_CWL6ie"
   ]
 }
