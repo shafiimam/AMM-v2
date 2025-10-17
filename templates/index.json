@@ -14,7 +14,6 @@
       "blocks": {
         "image_bJcB48": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/wilydesk.jpg",
             "mobile_image": "shopify://shop_images/willymob2.jpg",
@@ -103,6 +102,7 @@
         },
         "image_d33cGg": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/NB991V2MADEINUK.png",
             "mobile_image": "shopify://shop_images/AMA991v2Mob.png",
@@ -292,25 +292,25 @@
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "stussy-football-crew-off-white"
+            "product": "willy-chavarria-bad-boy-track-jacket-red"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "stussy-cargo-pant-camouflage"
+            "product": "casa-de-chavarria-cp"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "basic-skullcap"
+            "product": "willy-chavarria-bad-boy-track-pant-red"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "air-force-one-low-sp-perforated-black"
+            "product": "willy-chavarria-x-jabbar-lo-off-white-black"
           }
         }
       },
@@ -322,12 +322,12 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "Stüssy",
+        "title": "Willy Chavarria",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/ammmob1_1979ab38-3719-43fe-881e-4bfa6858a4c9.jpg",
-        "image_description": "<p><strong>Stüssy’s</strong> Fall Collection shapes outerwear and flannels into refined cold-weather essentials, marked by rich textures and timeless design. Luxury streetwear made to move seamlessly from city to season.</p><p></p>",
+        "image": "shopify://shop_images/WILLYSTL3.jpg",
+        "image_description": "<p><strong>Willy Chavarria’s</strong> latest collection amplifies the codes of streetwear with a cinematic eye. From oversized tees to minimal hoodie's, each piece continues to carry Chicano heritage and West Coast nostalgia.</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/stussy"
+        "image_cta_url": "shopify://collections/willy-chavarria"
       }
     },
     "featured_collections_bFrXKx": {
