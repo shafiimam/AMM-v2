@@ -52,8 +52,8 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "sm",
-        "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
-        "mobile_video": "shopify://files/videos/Rayban multi color.mov",
+        "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
+        "mobile_video": "shopify://files/videos/WILLY FULL VID WEB.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -119,14 +119,14 @@
         "heading_MAfpmm": {
           "type": "heading",
           "settings": {
-            "text": "Entire studios shrunken denim jacket",
+            "text": "WILLY CHAVARRIA",
             "heading_tag": "h1"
           }
         },
         "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
+            "content": "<p><strong>Willy Chavarria’s</strong> latest collection amplifies the codes of streetwear with a cinematic eye. From oversized tees to minimal hoodie's, each piece continues to carry Chicano heritage and West Coast nostalgia.</p>",
             "text_color": "#535353"
           }
         }
@@ -135,7 +135,6 @@
         "heading_MAfpmm",
         "richtext_nmR43n"
       ],
-      "disabled": true,
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
         "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
@@ -145,89 +144,13 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
-        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "image": "shopify://shop_images/WILLYSTL2.jpg",
+        "mobile_image": "shopify://shop_images/WILLYSTL2.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
-      }
-    },
-    "media_grid_wGyTFz": {
-      "type": "media-grid",
-      "blocks": {
-        "image_3g6hHn": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ray1.jpg",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_xKjBF6": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ray3.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Fdedra": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ray2.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_3g6hHn",
-        "image_xKjBF6",
-        "image_Fdedra"
-      ],
-      "name": "t:sections.media_grid.presets.media_grid.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "A closer look",
-        "content": ""
       }
     }
   },
@@ -236,7 +159,6 @@
     "video_BMBRUt",
     "image_with_text_block_TmCWVh",
     "main",
-    "image_with_text_jLdmmU",
-    "media_grid_wGyTFz"
+    "image_with_text_jLdmmU"
   ]
 }
