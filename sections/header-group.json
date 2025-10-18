@@ -19,10 +19,17 @@
           "settings": {
             "text": "<strong>NEW MARKDOWN ARRIVALS  </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER NOW</strong></a>"
           }
+        },
+        "message_LyBJxq": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>VISIT OUR </strong><a href=\"/pages/our-stores\" title=\"Our Stores\"><strong>LOCATIONS</strong></a>"
+          }
         }
       },
       "block_order": [
-        "message-1"
+        "message-1",
+        "message_LyBJxq"
       ],
       "custom_css": [
         ".heading {letter-spacing: 1.5px; font-family: var(--text-font-family);}"
