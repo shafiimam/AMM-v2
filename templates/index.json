@@ -649,7 +649,7 @@
             "content": "",
             "link_text": "BEANIES",
             "link_url": "shopify://collections/new-hats",
-            "link_style": "solid",
+            "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -667,7 +667,7 @@
             "content": "",
             "link_text": "FLANNELS",
             "link_url": "shopify://collections/flannels",
-            "link_style": "solid",
+            "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -685,7 +685,7 @@
             "content": "",
             "link_text": "FALL ESSENTIALS",
             "link_url": "shopify://collections/fall-essentials",
-            "link_style": "solid",
+            "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -703,7 +703,7 @@
             "content": "",
             "link_text": "JACKETS",
             "link_url": "shopify://collections/jackets",
-            "link_style": "solid",
+            "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -721,7 +721,7 @@
             "content": "",
             "link_text": "SWEATPANTS",
             "link_url": "shopify://collections/new-sweatpants",
-            "link_style": "solid",
+            "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
