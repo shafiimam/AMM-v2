@@ -1,6 +1,1737 @@
+{% doc %}
+  @prompt
+    Create an image card grid of four across (4-column layout) optimized for model photography.
+    Each card should display:
+    
+    Image at the top (full-width, responsive, model-scale ratio — e.g., 3:4 or 4:5).
+    
+    Product details below the image: product name, price, and a “Shop the Look” button.
+    
+    The “Shop the Look” button should open a quick-add or modal view allowing users to add multiple products from the look directly to cart (e.g., jacket, shirt, pants, shoes).
+    
+    Design specs:
+    
+    Maintain equal spacing and consistent padding between cards.
+    
+    Cards should stack to two across on tablet and one across on mobile.
+    
+    Clean typography with minimal overlays — the focus is on the model imagery.
+    
+    Include hover states for desktop (e.g., light image zoom or button reveal).
+    
+    Goal:
+    
+    A visually cohesive, shoppable grid that blends editorial presentation with e-commerce functionality — enabling the customer to experience the look and purchase it seamlessly., I would also like the ability to change the button to a link , Extend the existing Shop the Look Grid section so each Look Card supports:
+    
+    A linkable “Shop the Look” button (navigates to a collection, campaign, or editorial page).
+    
+    A bag icon that always opens the quick-add modal.
+    
+    Full accessibility and responsive behavior consistent with the section.
+    
+    Requirements (Per Look Card / Block)
+    
+    Inputs
+    
+    Image upload (model image)
+    
+    Recommended aspect ratio 4:5 (accept 3:4 as well)
+    
+    Up to 8 products assigned (e.g., jacket, knit, pant, shoe, accessory)
+    
+    Optional Controls
+    
+    Button Link URL – if present, the “Shop the Look” button navigates to this URL
+    
+    Bag Icon (👜) – appears to the right of the button text and always opens the quick-add modal
+    
+    Toggles (per block):
+    
+    enable_look (show/hide this Look Card)
+    
+    enable_shop_link (turn the button link on/off)
+    
+    enable_bag_icon (show/hide the bag icon)
+    
+    Front-End Behavior
+    
+    Shop the Look Button (Dual Functionality)
+    
+    If Link URL provided and enable_shop_link = true → clicking button navigates to that URL
+    
+    If no Link URL or enable_shop_link = false → button opens modal (default)
+    
+    Bag Icon
+    
+    Small, right-aligned bag/shopping cart icon next to button label
+    
+    Clicking icon (👜) always opens the modal, even if the button itself navigates elsewhere
+    
+    Modal shows assigned products with:
+    
+    Variant selectors
+    
+    Quantity fields
+    
+    “Include” toggles
+    
+    Add selected to cart (AJAX bundle add)
+    
+    User paths
+    
+    ➜ Click button text → Learn more / visit look page
+    
+    ➜ Click bag icon → Add items directly from the modal, The bag icon should be on the right side of the image, not next to the SHOP THE LOOK button. Also, I do not have the ability to disable the SHOP THE LOOK button nor change it to a link instead of a button. , The bag icon should be on the bottom right please and I need the ability to make the background of the bag image transparent so that it is not white on top of an image. , When hovering/clicking on the bag icon, the background should be transparent as well. , I would also like the ability to change the order of the looks to make it easier to re-order
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-model-grid-{{ ai_gen_id }} {
+    width: 100%;
+    padding: 0;
+  }
+
+  .ai-model-grid__container-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: {{ block.settings.card_spacing }}px;
+    width: 100%;
+  }
+
+  .ai-model-card-{{ ai_gen_id }} {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: {{ block.settings.card_background }};
+  }
+
+  .ai-model-card-{{ ai_gen_id }}.hidden {
+    display: none;
+  }
+
+  .ai-model-card__image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    aspect-ratio: {{ block.settings.image_aspect_ratio }};
+    overflow: hidden;
+    background-color: #f4f4f4;
+  }
+
+  .ai-model-card__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  {% if block.settings.enable_image_zoom %}
+    .ai-model-card-{{ ai_gen_id }}:hover .ai-model-card__image-{{ ai_gen_id }} {
+      transform: scale(1.05);
+    }
+  {% endif %}
+
+  .ai-model-card__image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+
+  .ai-model-card__image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-model-card__bag-icon-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: {{ block.settings.bag_icon_background }};
+    color: {{ block.settings.bag_icon_color }};
+    border: {{ block.settings.button_border_width }}px solid {{ block.settings.bag_icon_border_color }};
+    border-radius: {{ block.settings.button_border_radius }}px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 2;
+    {% if block.settings.bag_icon_transparent %}
+      background-color: transparent;
+      border-color: transparent;
+    {% endif %}
+  }
+
+  .ai-model-card__bag-icon-{{ ai_gen_id }}:hover {
+    color: {{ block.settings.bag_icon_hover_color }};
+    {% if block.settings.bag_icon_transparent %}
+      background-color: transparent;
+      border-color: transparent;
+    {% else %}
+      background-color: {{ block.settings.bag_icon_hover_background }};
+      border-color: {{ block.settings.bag_icon_hover_border_color }};
+    {% endif %}
+  }
+
+  .ai-model-card__bag-icon-{{ ai_gen_id }} svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ai-model-card__content-{{ ai_gen_id }} {
+    padding: {{ block.settings.content_padding }}px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+  }
+
+  .ai-model-card__title-{{ ai_gen_id }} {
+    font-family: {{ block.settings.title_font.family }}, {{ block.settings.title_font.fallback_families }};
+    font-weight: {{ block.settings.title_font.weight }};
+    font-size: {{ block.settings.title_size }}px;
+    line-height: 1.3;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    text-transform: {{ block.settings.title_transform }};
+    letter-spacing: 0.02em;
+  }
+
+  .ai-model-card__price-{{ ai_gen_id }} {
+    font-family: {{ block.settings.price_font.family }}, {{ block.settings.price_font.fallback_families }};
+    font-weight: {{ block.settings.price_font.weight }};
+    font-size: {{ block.settings.price_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-model-card__actions-{{ ai_gen_id }} {
+    margin-top: auto;
+  }
+
+  .ai-model-card__button-{{ ai_gen_id }},
+  .ai-model-card__link-{{ ai_gen_id }} {
+    width: 100%;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: {{ block.settings.button_background }};
+    color: {{ block.settings.button_text_color }};
+    border: {{ block.settings.button_border_width }}px solid {{ block.settings.button_border_color }};
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-family: {{ block.settings.button_font.family }}, {{ block.settings.button_font.fallback_families }};
+    font-weight: {{ block.settings.button_font.weight }};
+    font-size: {{ block.settings.button_size }}px;
+    text-transform: {{ block.settings.button_transform }};
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+
+  .ai-model-card__button-{{ ai_gen_id }}:hover,
+  .ai-model-card__link-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_background }};
+    color: {{ block.settings.button_hover_text_color }};
+    border-color: {{ block.settings.button_hover_border_color }};
+  }
+
+  .ai-model-modal-{{ ai_gen_id }} {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 20px;
+  }
+
+  .ai-model-modal-{{ ai_gen_id }}.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-model-modal__content-{{ ai_gen_id }} {
+    background-color: {{ block.settings.modal_background }};
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    border-radius: {{ block.settings.modal_border_radius }}px;
+    padding: 40px;
+  }
+
+  .ai-model-modal__close-{{ ai_gen_id }} {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: {{ block.settings.text_color }};
+    z-index: 1;
+  }
+
+  .ai-model-modal__close-{{ ai_gen_id }} svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ai-model-modal__header-{{ ai_gen_id }} {
+    margin-bottom: 30px;
+  }
+
+  .ai-model-modal__title-{{ ai_gen_id }} {
+    font-family: {{ block.settings.title_font.family }}, {{ block.settings.title_font.fallback_families }};
+    font-weight: {{ block.settings.title_font.weight }};
+    font-size: 24px;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 8px 0;
+    text-transform: {{ block.settings.title_transform }};
+  }
+
+  .ai-model-modal__subtitle-{{ ai_gen_id }} {
+    font-size: 16px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.7;
+  }
+
+  .ai-model-modal__products-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .ai-model-modal__product-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: auto 100px 1fr auto;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-model-modal__product-{{ ai_gen_id }}.disabled {
+    opacity: 0.5;
+  }
+
+  .ai-model-modal__product-checkbox-{{ ai_gen_id }} {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: {{ block.settings.button_background }};
+  }
+
+  .ai-model-modal__product-image-{{ ai_gen_id }} {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .ai-model-modal__product-image-placeholder-{{ ai_gen_id }} {
+    width: 100px;
+    height: 100px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+
+  .ai-model-modal__product-image-placeholder-{{ ai_gen_id }} svg {
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+  }
+
+  .ai-model-modal__product-info-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .ai-model-modal__product-title-{{ ai_gen_id }} {
+    font-family: {{ block.settings.title_font.family }}, {{ block.settings.title_font.fallback_families }};
+    font-weight: {{ block.settings.title_font.weight }};
+    font-size: 16px;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-model-modal__product-price-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-model-modal__product-controls-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 200px;
+  }
+
+  .ai-model-modal__product-select-{{ ai_gen_id }} {
+    padding: 8px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  .ai-model-modal__product-quantity-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .ai-model-modal__quantity-label-{{ ai_gen_id }} {
+    font-size: 13px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.7;
+  }
+
+  .ai-model-modal__quantity-input-{{ ai_gen_id }} {
+    width: 60px;
+    padding: 6px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .ai-model-modal__footer-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .ai-model-modal__total-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: {{ block.settings.title_font.family }}, {{ block.settings.title_font.fallback_families }};
+    font-weight: {{ block.settings.title_font.weight }};
+    font-size: 18px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-model-modal__add-button-{{ ai_gen_id }} {
+    padding: 16px 32px;
+    background-color: {{ block.settings.button_background }};
+    color: {{ block.settings.button_text_color }};
+    border: {{ block.settings.button_border_width }}px solid {{ block.settings.button_border_color }};
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-family: {{ block.settings.button_font.family }}, {{ block.settings.button_font.fallback_families }};
+    font-weight: {{ block.settings.button_font.weight }};
+    font-size: {{ block.settings.button_size }}px;
+    text-transform: {{ block.settings.button_transform }};
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+
+  .ai-model-modal__add-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_background }};
+    color: {{ block.settings.button_hover_text_color }};
+    border-color: {{ block.settings.button_hover_border_color }};
+  }
+
+  .ai-model-modal__add-button-{{ ai_gen_id }}:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .ai-model-modal__empty-{{ ai_gen_id }} {
+    text-align: center;
+    padding: 40px 20px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.6;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-model-grid__container-{{ ai_gen_id }} {
+      grid-template-columns: repeat(2, 1fr);
+      gap: {{ block.settings.card_spacing | times: 0.75 }}px;
+    }
+
+    .ai-model-card__title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.9 }}px;
+    }
+
+    .ai-model-card__price-{{ ai_gen_id }} {
+      font-size: {{ block.settings.price_size | times: 0.9 }}px;
+    }
+
+    .ai-model-modal__content-{{ ai_gen_id }} {
+      padding: 30px 20px;
+    }
+
+    .ai-model-modal__product-{{ ai_gen_id }} {
+      grid-template-columns: auto 80px 1fr;
+      gap: 15px;
+    }
+
+    .ai-model-modal__product-image-{{ ai_gen_id }},
+    .ai-model-modal__product-image-placeholder-{{ ai_gen_id }} {
+      width: 80px;
+      height: 80px;
+    }
+
+    .ai-model-modal__product-controls-{{ ai_gen_id }} {
+      grid-column: 1 / -1;
+      min-width: auto;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-model-grid__container-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.card_spacing | times: 0.5 }}px;
+    }
+
+    .ai-model-card__content-{{ ai_gen_id }} {
+      padding: {{ block.settings.content_padding | times: 0.75 }}px;
+    }
+
+    .ai-model-card__bag-icon-{{ ai_gen_id }} {
+      width: 40px;
+      height: 40px;
+    }
+  }
+{% endstyle %}
+
+<model-grid-{{ ai_gen_id }} class="ai-model-grid-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-model-grid__container-{{ ai_gen_id }}">
+    {% liquid
+      assign look_order = block.settings.look_order | split: ','
+      if look_order.size == 0
+        assign look_order = '1,2,3,4' | split: ','
+      endif
+    %}
+
+    {% for look_num_str in look_order %}
+      {% assign i = look_num_str | strip | plus: 0 %}
+      {% liquid
+        assign look_enabled_key = 'look_' | append: i | append: '_enabled'
+        assign look_image_key = 'look_' | append: i | append: '_image'
+        assign look_title_key = 'look_' | append: i | append: '_title'
+        assign look_price_key = 'look_' | append: i | append: '_price'
+        assign look_button_text_key = 'look_' | append: i | append: '_button_text'
+        assign look_button_link_key = 'look_' | append: i | append: '_button_link'
+        assign look_button_type_key = 'look_' | append: i | append: '_button_type'
+        assign look_enable_bag_icon_key = 'look_' | append: i | append: '_enable_bag_icon'
+
+        assign look_enabled = block.settings[look_enabled_key]
+        assign look_image = block.settings[look_image_key]
+        assign look_title = block.settings[look_title_key]
+        assign look_price = block.settings[look_price_key]
+        assign look_button_text = block.settings[look_button_text_key]
+        assign look_button_link = block.settings[look_button_link_key]
+        assign look_button_type = block.settings[look_button_type_key]
+        assign look_enable_bag_icon = block.settings[look_enable_bag_icon_key]
+      %}
+
+      <div class="ai-model-card-{{ ai_gen_id }} {% unless look_enabled %}hidden{% endunless %}" data-look-index="{{ i }}">
+        <div class="ai-model-card__image-wrapper-{{ ai_gen_id }}">
+          {% if look_image %}
+            <img
+              src="{{ look_image | image_url: width: 800 }}"
+              alt="{{ look_image.alt | escape }}"
+              loading="lazy"
+              width="{{ look_image.width }}"
+              height="{{ look_image.height }}"
+              class="ai-model-card__image-{{ ai_gen_id }}"
+            >
+          {% else %}
+            <div class="ai-model-card__image-placeholder-{{ ai_gen_id }}">
+              {{ 'image' | placeholder_svg_tag }}
+            </div>
+          {% endif %}
+
+          {% if look_enable_bag_icon %}
+            <button
+              class="ai-model-card__bag-icon-{{ ai_gen_id }}"
+              data-bag-trigger="{{ i }}"
+              aria-label="Add look {{ i }} to cart"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+            </button>
+          {% endif %}
+        </div>
+
+        <div class="ai-model-card__content-{{ ai_gen_id }}">
+          {% if look_title != blank %}
+            <h3 class="ai-model-card__title-{{ ai_gen_id }}">{{ look_title }}</h3>
+          {% endif %}
+
+          {% if look_price != blank %}
+            <p class="ai-model-card__price-{{ ai_gen_id }}">{{ look_price }}</p>
+          {% endif %}
+
+          <div class="ai-model-card__actions-{{ ai_gen_id }}">
+            {% if look_button_type == 'link' and look_button_link != blank %}
+              <a
+                href="{{ look_button_link }}"
+                class="ai-model-card__link-{{ ai_gen_id }}"
+              >
+                {% if look_button_text != blank %}
+                  {{ look_button_text }}
+                {% else %}
+                  {{ block.settings.default_button_text }}
+                {% endif %}
+              </a>
+            {% elsif look_button_type == 'modal' %}
+              <button
+                class="ai-model-card__button-{{ ai_gen_id }}"
+                data-modal-trigger="{{ i }}"
+                aria-label="Shop the look {{ i }}"
+              >
+                {% if look_button_text != blank %}
+                  {{ look_button_text }}
+                {% else %}
+                  {{ block.settings.default_button_text }}
+                {% endif %}
+              </button>
+            {% elsif look_button_type == 'disabled' %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="ai-model-modal-{{ ai_gen_id }}" data-modal="{{ i }}" role="dialog" aria-modal="true">
+        <div class="ai-model-modal__content-{{ ai_gen_id }}">
+          <button class="ai-model-modal__close-{{ ai_gen_id }}" data-modal-close="{{ i }}" aria-label="Close modal">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+
+          <div class="ai-model-modal__header-{{ ai_gen_id }}">
+            {% if look_title != blank %}
+              <h2 class="ai-model-modal__title-{{ ai_gen_id }}">{{ look_title }}</h2>
+            {% endif %}
+            <p class="ai-model-modal__subtitle-{{ ai_gen_id }}">{{ block.settings.modal_subtitle }}</p>
+          </div>
+
+          {% assign has_products = false %}
+          {% for j in (1..8) %}
+            {% liquid
+              assign product_key = 'look_' | append: i | append: '_product_' | append: j
+              assign product = block.settings[product_key]
+              if product != blank
+                assign has_products = true
+              endif
+            %}
+          {% endfor %}
+
+          {% if has_products %}
+            <div class="ai-model-modal__products-{{ ai_gen_id }}">
+              {% for j in (1..8) %}
+                {% liquid
+                  assign product_key = 'look_' | append: i | append: '_product_' | append: j
+                  assign product = block.settings[product_key]
+                %}
+
+                {% if product != blank %}
+                  <div class="ai-model-modal__product-{{ ai_gen_id }}" data-product-id="{{ product.id }}">
+                    <input
+                      type="checkbox"
+                      class="ai-model-modal__product-checkbox-{{ ai_gen_id }}"
+                      data-product-checkbox
+                      checked
+                      aria-label="Include {{ product.title }}"
+                    >
+
+                    {% if product.featured_image %}
+                      <img
+                        src="{{ product.featured_image | image_url: width: 200 }}"
+                        alt="{{ product.featured_image.alt | escape }}"
+                        class="ai-model-modal__product-image-{{ ai_gen_id }}"
+                        loading="lazy"
+                      >
+                    {% else %}
+                      <div class="ai-model-modal__product-image-placeholder-{{ ai_gen_id }}">
+                        {{ 'product-1' | placeholder_svg_tag }}
+                      </div>
+                    {% endif %}
+
+                    <div class="ai-model-modal__product-info-{{ ai_gen_id }}">
+                      <h4 class="ai-model-modal__product-title-{{ ai_gen_id }}">{{ product.title }}</h4>
+                      <p class="ai-model-modal__product-price-{{ ai_gen_id }}" data-product-price="{{ product.price }}">
+                        {{ product.price | money }}
+                      </p>
+                    </div>
+
+                    <div class="ai-model-modal__product-controls-{{ ai_gen_id }}">
+                      {% if product.variants.size > 1 %}
+                        <select class="ai-model-modal__product-select-{{ ai_gen_id }}" data-variant-select>
+                          {% for variant in product.variants %}
+                            <option
+                              value="{{ variant.id }}"
+                              data-price="{{ variant.price }}"
+                              {% unless variant.available %}disabled{% endunless %}
+                            >
+                              {{ variant.title }} - {{ variant.price | money }}
+                              {% unless variant.available %} (Sold out){% endunless %}
+                            </option>
+                          {% endfor %}
+                        </select>
+                      {% else %}
+                        <input
+                          type="hidden"
+                          data-variant-select
+                          value="{{ product.first_available_variant.id }}"
+                          data-price="{{ product.first_available_variant.price }}"
+                        >
+                      {% endif %}
+
+                      <div class="ai-model-modal__product-quantity-{{ ai_gen_id }}">
+                        <span class="ai-model-modal__quantity-label-{{ ai_gen_id }}">Qty:</span>
+                        <input
+                          type="number"
+                          class="ai-model-modal__quantity-input-{{ ai_gen_id }}"
+                          data-quantity-input
+                          value="1"
+                          min="1"
+                          max="10"
+                          aria-label="Quantity for {{ product.title }}"
+                        >
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+
+            <div class="ai-model-modal__footer-{{ ai_gen_id }}">
+              <div class="ai-model-modal__total-{{ ai_gen_id }}">
+                <span>Total:</span>
+                <span data-total-price>$0.00</span>
+              </div>
+
+              <button class="ai-model-modal__add-button-{{ ai_gen_id }}" data-add-to-cart="{{ i }}">
+                {{ block.settings.add_to_cart_text }}
+              </button>
+            </div>
+          {% else %}
+            <div class="ai-model-modal__empty-{{ ai_gen_id }}">
+              <p>No products added to this look yet. Configure products in the theme editor.</p>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</model-grid-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ModelGrid{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.modals = this.querySelectorAll('.ai-model-modal-{{ ai_gen_id }}');
+        this.modalTriggers = this.querySelectorAll('[data-modal-trigger]');
+        this.bagTriggers = this.querySelectorAll('[data-bag-trigger]');
+        this.closeButtons = this.querySelectorAll('[data-modal-close]');
+        this.addToCartButtons = this.querySelectorAll('[data-add-to-cart]');
+      }
+
+      connectedCallback() {
+        this.setupEventListeners();
+        this.modals.forEach((modal) => {
+          this.updateModalTotal(modal);
+        });
+      }
+
+      setupEventListeners() {
+        this.modalTriggers.forEach((trigger) => {
+          trigger.addEventListener('click', (e) => {
+            const modalId = e.currentTarget.getAttribute('data-modal-trigger');
+            this.openModal(modalId);
+          });
+        });
+
+        this.bagTriggers.forEach((trigger) => {
+          trigger.addEventListener('click', (e) => {
+            const modalId = e.currentTarget.getAttribute('data-bag-trigger');
+            this.openModal(modalId);
+          });
+        });
+
+        this.closeButtons.forEach((button) => {
+          button.addEventListener('click', (e) => {
+            const modalId = e.currentTarget.getAttribute('data-modal-close');
+            this.closeModal(modalId);
+          });
+        });
+
+        this.modals.forEach((modal) => {
+          modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+              const modalId = modal.getAttribute('data-modal');
+              this.closeModal(modalId);
+            }
+          });
+
+          const checkboxes = modal.querySelectorAll('[data-product-checkbox]');
+          checkboxes.forEach((checkbox) => {
+            checkbox.addEventListener('change', () => {
+              const productRow = checkbox.closest('.ai-model-modal__product-{{ ai_gen_id }}');
+              if (checkbox.checked) {
+                productRow.classList.remove('disabled');
+              } else {
+                productRow.classList.add('disabled');
+              }
+              this.updateModalTotal(modal);
+            });
+          });
+
+          const variantSelects = modal.querySelectorAll('[data-variant-select]');
+          variantSelects.forEach((select) => {
+            select.addEventListener('change', () => {
+              this.updateProductPrice(select);
+              this.updateModalTotal(modal);
+            });
+          });
+
+          const quantityInputs = modal.querySelectorAll('[data-quantity-input]');
+          quantityInputs.forEach((input) => {
+            input.addEventListener('change', () => {
+              this.updateModalTotal(modal);
+            });
+          });
+        });
+
+        this.addToCartButtons.forEach((button) => {
+          button.addEventListener('click', (e) => {
+            const modalId = e.currentTarget.getAttribute('data-add-to-cart');
+            this.addToCart(modalId, button);
+          });
+        });
+
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') {
+            this.modals.forEach((modal) => {
+              if (modal.classList.contains('active')) {
+                const modalId = modal.getAttribute('data-modal');
+                this.closeModal(modalId);
+              }
+            });
+          }
+        });
+      }
+
+      updateProductPrice(select) {
+        const productRow = select.closest('.ai-model-modal__product-{{ ai_gen_id }}');
+        const priceDisplay = productRow.querySelector('[data-product-price]');
+        const selectedOption = select.options ? select.options[select.selectedIndex] : select;
+        const price = selectedOption.getAttribute('data-price');
+        
+        if (priceDisplay && price) {
+          priceDisplay.textContent = this.formatMoney(price);
+          priceDisplay.setAttribute('data-product-price', price);
+        }
+      }
+
+      updateModalTotal(modal) {
+        const products = modal.querySelectorAll('.ai-model-modal__product-{{ ai_gen_id }}');
+        let total = 0;
+
+        products.forEach((product) => {
+          const checkbox = product.querySelector('[data-product-checkbox]');
+          if (checkbox && checkbox.checked) {
+            const variantSelect = product.querySelector('[data-variant-select]');
+            const quantityInput = product.querySelector('[data-quantity-input]');
+            const selectedOption = variantSelect.options ? variantSelect.options[variantSelect.selectedIndex] : variantSelect;
+            const price = parseInt(selectedOption.getAttribute('data-price'));
+            const quantity = parseInt(quantityInput.value) || 1;
+            
+            total += price * quantity;
+          }
+        });
+
+        const totalDisplay = modal.querySelector('[data-total-price]');
+        if (totalDisplay) {
+          totalDisplay.textContent = this.formatMoney(total);
+        }
+      }
+
+      formatMoney(cents) {
+        const amount = (cents / 100).toFixed(2);
+        return `$${amount}`;
+      }
+
+      openModal(modalId) {
+        const modal = this.querySelector(`[data-modal="${modalId}"]`);
+        if (modal) {
+          modal.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+      }
+
+      closeModal(modalId) {
+        const modal = this.querySelector(`[data-modal="${modalId}"]`);
+        if (modal) {
+          modal.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      }
+
+      async addToCart(modalId, button) {
+        const modal = this.querySelector(`[data-modal="${modalId}"]`);
+        const products = modal.querySelectorAll('.ai-model-modal__product-{{ ai_gen_id }}');
+        const items = [];
+
+        products.forEach((product) => {
+          const checkbox = product.querySelector('[data-product-checkbox]');
+          if (checkbox && checkbox.checked) {
+            const variantSelect = product.querySelector('[data-variant-select]');
+            const quantityInput = product.querySelector('[data-quantity-input]');
+            const quantity = parseInt(quantityInput.value) || 1;
+            
+            if (variantSelect && variantSelect.value) {
+              items.push({
+                id: variantSelect.value,
+                quantity: quantity
+              });
+            }
+          }
+        });
+
+        if (items.length === 0) {
+          return;
+        }
+
+        button.disabled = true;
+        button.textContent = 'Adding...';
+
+        try {
+          const response = await fetch('/cart/add.js', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ items })
+          });
+
+          if (response.ok) {
+            button.textContent = 'Added!';
+            setTimeout(() => {
+              button.textContent = '{{ block.settings.add_to_cart_text }}';
+              button.disabled = false;
+              this.closeModal(modalId);
+              
+              if (window.theme && window.theme.cart) {
+                window.theme.cart.refresh();
+              }
+              
+              document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+                bubbles: true
+              }));
+            }, 1000);
+          } else {
+            throw new Error('Failed to add to cart');
+          }
+        } catch (error) {
+          button.textContent = 'Error - Try again';
+          button.disabled = false;
+          console.error('Error adding to cart:', error);
+        }
+      }
+    }
+
+    customElements.define('model-grid-{{ ai_gen_id }}', ModelGrid{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Shop the look grid",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "text",
+      "id": "look_order",
+      "label": "Look display order",
+      "info": "Enter look numbers separated by commas (e.g., 1,3,2,4 or 4,1,3,2)",
+      "default": "1,2,3,4"
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "Image aspect ratio",
+      "options": [
+        {
+          "value": "3 / 4",
+          "label": "3:4 (Portrait)"
+        },
+        {
+          "value": "4 / 5",
+          "label": "4:5 (Model)"
+        },
+        {
+          "value": "2 / 3",
+          "label": "2:3 (Tall)"
+        },
+        {
+          "value": "1 / 1",
+          "label": "1:1 (Square)"
+        }
+      ],
+      "default": "4 / 5"
+    },
+    {
+      "type": "range",
+      "id": "card_spacing",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Card spacing",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "content_padding",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Content padding",
+      "default": 20
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_image_zoom",
+      "label": "Enable image zoom on hover",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Card background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "modal_background",
+      "label": "Modal background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "font_picker",
+      "id": "title_font",
+      "label": "Title font",
+      "default": "roboto_n4"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Title size",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "title_transform",
+      "label": "Title text transform",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        },
+        {
+          "value": "lowercase",
+          "label": "Lowercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "font_picker",
+      "id": "price_font",
+      "label": "Price font",
+      "default": "roboto_n4"
+    },
+    {
+      "type": "range",
+      "id": "price_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Price size",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "text",
+      "id": "default_button_text",
+      "label": "Default button text",
+      "default": "Shop the Look"
+    },
+    {
+      "type": "font_picker",
+      "id": "button_font",
+      "label": "Button font",
+      "default": "roboto_n4"
+    },
+    {
+      "type": "range",
+      "id": "button_size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Button text size",
+      "default": 12
+    },
+    {
+      "type": "select",
+      "id": "button_transform",
+      "label": "Button text transform",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        },
+        {
+          "value": "lowercase",
+          "label": "Lowercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "min": 8,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Vertical padding",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "min": 16,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Horizontal padding",
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Background",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Border color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "range",
+      "id": "button_border_width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "label": "Border width",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Hover background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Hover text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_border_color",
+      "label": "Hover border color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Bag icon style"
+    },
+    {
+      "type": "checkbox",
+      "id": "bag_icon_transparent",
+      "label": "Transparent background",
+      "info": "Makes the bag icon background transparent on default and hover states",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "bag_icon_background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "bag_icon_color",
+      "label": "Icon color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "bag_icon_border_color",
+      "label": "Border color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "bag_icon_hover_background",
+      "label": "Hover background",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "bag_icon_hover_color",
+      "label": "Hover icon color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "bag_icon_hover_border_color",
+      "label": "Hover border color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "header",
+      "content": "Modal"
+    },
+    {
+      "type": "text",
+      "id": "modal_subtitle",
+      "label": "Modal subtitle",
+      "default": "Select options and add items to cart"
+    },
+    {
+      "type": "text",
+      "id": "add_to_cart_text",
+      "label": "Add to cart button text",
+      "default": "Add Selected to Cart"
+    },
+    {
+      "type": "range",
+      "id": "modal_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Modal border radius",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Look 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "look_1_enabled",
+      "label": "Enable look 1",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "look_1_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "look_1_title",
+      "label": "Title",
+      "default": "Look 1"
+    },
+    {
+      "type": "text",
+      "id": "look_1_price",
+      "label": "Price display"
+    },
+    {
+      "type": "select",
+      "id": "look_1_button_type",
+      "label": "Button type",
+      "options": [
+        {
+          "value": "modal",
+          "label": "Open modal"
+        },
+        {
+          "value": "link",
+          "label": "Navigate to URL"
+        },
+        {
+          "value": "disabled",
+          "label": "Hide button"
+        }
+      ],
+      "default": "modal"
+    },
+    {
+      "type": "text",
+      "id": "look_1_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "look_1_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "look_1_enable_bag_icon",
+      "label": "Show bag icon",
+      "info": "Bag icon always opens the modal",
+      "default": true
+    },
+    {
+      "type": "product",
+      "id": "look_1_product_1",
+      "label": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "look_1_product_2",
+      "label": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "look_1_product_3",
+      "label": "Product 3"
+    },
+    {
+      "type": "product",
+      "id": "look_1_product_4",
+      "label": "Product 4"
+    },
+    {
+      "type": "product",
+      "id": "look_1_product_5",
+      "label": "Product 5"
+    },
+    {
+      "type": "product",
+      "id": "look_1_product_6",
+      "label": "Product 6"
+    },
+    {
+      "type": "product",
+      "id": "look_1_product_7",
+      "label": "Product 7"
+    },
+    {
+      "type": "product",
+      "id": "look_1_product_8",
+      "label": "Product 8"
+    },
+    {
+      "type": "header",
+      "content": "Look 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "look_2_enabled",
+      "label": "Enable look 2",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "look_2_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "look_2_title",
+      "label": "Title",
+      "default": "Look 2"
+    },
+    {
+      "type": "text",
+      "id": "look_2_price",
+      "label": "Price display"
+    },
+    {
+      "type": "select",
+      "id": "look_2_button_type",
+      "label": "Button type",
+      "options": [
+        {
+          "value": "modal",
+          "label": "Open modal"
+        },
+        {
+          "value": "link",
+          "label": "Navigate to URL"
+        },
+        {
+          "value": "disabled",
+          "label": "Hide button"
+        }
+      ],
+      "default": "modal"
+    },
+    {
+      "type": "text",
+      "id": "look_2_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "look_2_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "look_2_enable_bag_icon",
+      "label": "Show bag icon",
+      "info": "Bag icon always opens the modal",
+      "default": true
+    },
+    {
+      "type": "product",
+      "id": "look_2_product_1",
+      "label": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "look_2_product_2",
+      "label": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "look_2_product_3",
+      "label": "Product 3"
+    },
+    {
+      "type": "product",
+      "id": "look_2_product_4",
+      "label": "Product 4"
+    },
+    {
+      "type": "product",
+      "id": "look_2_product_5",
+      "label": "Product 5"
+    },
+    {
+      "type": "product",
+      "id": "look_2_product_6",
+      "label": "Product 6"
+    },
+    {
+      "type": "product",
+      "id": "look_2_product_7",
+      "label": "Product 7"
+    },
+    {
+      "type": "product",
+      "id": "look_2_product_8",
+      "label": "Product 8"
+    },
+    {
+      "type": "header",
+      "content": "Look 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "look_3_enabled",
+      "label": "Enable look 3",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "look_3_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "look_3_title",
+      "label": "Title",
+      "default": "Look 3"
+    },
+    {
+      "type": "text",
+      "id": "look_3_price",
+      "label": "Price display"
+    },
+    {
+      "type": "select",
+      "id": "look_3_button_type",
+      "label": "Button type",
+      "options": [
+        {
+          "value": "modal",
+          "label": "Open modal"
+        },
+        {
+          "value": "link",
+          "label": "Navigate to URL"
+        },
+        {
+          "value": "disabled",
+          "label": "Hide button"
+        }
+      ],
+      "default": "modal"
+    },
+    {
+      "type": "text",
+      "id": "look_3_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "look_3_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "look_3_enable_bag_icon",
+      "label": "Show bag icon",
+      "info": "Bag icon always opens the modal",
+      "default": true
+    },
+    {
+      "type": "product",
+      "id": "look_3_product_1",
+      "label": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "look_3_product_2",
+      "label": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "look_3_product_3",
+      "label": "Product 3"
+    },
+    {
+      "type": "product",
+      "id": "look_3_product_4",
+      "label": "Product 4"
+    },
+    {
+      "type": "product",
+      "id": "look_3_product_5",
+      "label": "Product 5"
+    },
+    {
+      "type": "product",
+      "id": "look_3_product_6",
+      "label": "Product 6"
+    },
+    {
+      "type": "product",
+      "id": "look_3_product_7",
+      "label": "Product 7"
+    },
+    {
+      "type": "product",
+      "id": "look_3_product_8",
+      "label": "Product 8"
+    },
+    {
+      "type": "header",
+      "content": "Look 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "look_4_enabled",
+      "label": "Enable look 4",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "look_4_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "look_4_title",
+      "label": "Title",
+      "default": "Look 4"
+    },
+    {
+      "type": "text",
+      "id": "look_4_price",
+      "label": "Price display"
+    },
+    {
+      "type": "select",
+      "id": "look_4_button_type",
+      "label": "Button type",
+      "options": [
+        {
+          "value": "modal",
+          "label": "Open modal"
+        },
+        {
+          "value": "link",
+          "label": "Navigate to URL"
+        },
+        {
+          "value": "disabled",
+          "label": "Hide button"
+        }
+      ],
+      "default": "modal"
+    },
+    {
+      "type": "text",
+      "id": "look_4_button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "look_4_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "look_4_enable_bag_icon",
+      "label": "Show bag icon",
+      "info": "Bag icon always opens the modal",
+      "default": true
+    },
+    {
+      "type": "product",
+      "id": "look_4_product_1",
+      "label": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "look_4_product_2",
+      "label": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "look_4_product_3",
+      "label": "Product 3"
+    },
+    {
+      "type": "product",
+      "id": "look_4_product_4",
+      "label": "Product 4"
+    },
+    {
+      "type": "product",
+      "id": "look_4_product_5",
+      "label": "Product 5"
+    },
+    {
+      "type": "product",
+      "id": "look_4_product_6",
+      "label": "Product 6"
+    },
+    {
+      "type": "product",
+      "id": "look_4_product_7",
+      "label": "Product 7"
+    },
+    {
+      "type": "product",
+      "id": "look_4_product_8",
+      "label": "Product 8"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shop the look grid"
+    }
+  ],
+  "tag": null
+}
 {% endschema %}
