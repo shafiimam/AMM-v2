@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "176075966993f87866": {
+      "type": "_blocks",
+      "settings": {}
+    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
@@ -132,6 +136,7 @@
         },
         "video_TrrkwE": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Look book 4k.mov",
             "mobile_video": "shopify://files/videos/Look book 4k.mov",
@@ -767,6 +772,178 @@
         "content": ""
       }
     },
+    "video_PWhD8P": {
+      "type": "video",
+      "blocks": {
+        "play_NjTYAR": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_q7cwAp": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_NjTYAR",
+        "heading_q7cwAp"
+      ],
+      "disabled": true,
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "fill",
+        "video": "shopify://files/videos/Look book 4k.mov",
+        "mobile_video": "shopify://files/videos/Look book 4k.mov",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "176076770152fa2223": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_T4xefR": {
+          "type": "ai_gen_block_5edc35c",
+          "disabled": true,
+          "settings": {
+            "height_mobile": 20,
+            "height_desktop": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_T4xefR"
+      ],
+      "settings": {}
+    },
+    "1760761019d74231a6": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_219fc88_bp9DQ9": {
+          "type": "ai_gen_block_219fc88",
+          "disabled": true,
+          "settings": {
+            "look_order": "1,2,3,4",
+            "image_aspect_ratio": "2 / 3",
+            "card_spacing": 20,
+            "content_padding": 20,
+            "enable_image_zoom": true,
+            "card_background": "#ffffff",
+            "text_color": "#1c1c1c",
+            "modal_background": "#ffffff",
+            "title_font": "roboto_n4",
+            "title_size": 16,
+            "title_transform": "uppercase",
+            "price_font": "roboto_n4",
+            "price_size": 14,
+            "default_button_text": "Shop the Look",
+            "button_font": "roboto_n4",
+            "button_size": 12,
+            "button_transform": "uppercase",
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 24,
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_border_color": "#ffffff",
+            "button_border_width": 1,
+            "button_border_radius": 0,
+            "button_hover_background": "#000000",
+            "button_hover_text_color": "#ffffff",
+            "button_hover_border_color": "#000000",
+            "bag_icon_transparent": true,
+            "bag_icon_background": "#ffffff",
+            "bag_icon_color": "#ffffff",
+            "bag_icon_border_color": "#1c1c1c",
+            "bag_icon_hover_background": "#1c1c1c",
+            "bag_icon_hover_color": "#ffffff",
+            "bag_icon_hover_border_color": "#1c1c1c",
+            "modal_subtitle": "Select Your Size and Add to Cart",
+            "add_to_cart_text": "Add Selected Items to Cart",
+            "modal_border_radius": 0,
+            "look_1_enabled": true,
+            "look_1_media_type": "image",
+            "look_1_image": "shopify://shop_images/Adobe_Express_-_file_25.jpg",
+            "look_1_title": "Look 1",
+            "look_1_price": "",
+            "look_1_button_type": "modal",
+            "look_1_button_text": "",
+            "look_1_button_link": "",
+            "look_1_enable_bag_icon": true,
+            "look_1_product_1": "acne-studios-layered-logo-t-shirt-vintage-green",
+            "look_1_product_2": "acne-studios-printed-trousers-white-green",
+            "look_1_product_3": "",
+            "look_1_product_4": "",
+            "look_1_product_5": "",
+            "look_1_product_6": "",
+            "look_1_product_7": "",
+            "look_1_product_8": "",
+            "look_2_enabled": true,
+            "look_2_media_type": "image",
+            "look_2_image": "shopify://shop_images/Adobe_Express_-_file_27.jpg",
+            "look_2_title": "Look 2",
+            "look_2_price": "",
+            "look_2_button_type": "modal",
+            "look_2_button_text": "",
+            "look_2_button_link": "",
+            "look_2_enable_bag_icon": true,
+            "look_2_product_1": "entire-studios-jool-jacket-grey",
+            "look_2_product_2": "entire-studios-miller-shirt-ivory",
+            "look_2_product_3": "",
+            "look_2_product_4": "",
+            "look_2_product_5": "",
+            "look_2_product_6": "",
+            "look_2_product_7": "",
+            "look_2_product_8": "",
+            "look_3_enabled": true,
+            "look_3_media_type": "image",
+            "look_3_image": "shopify://shop_images/Adobe_Express_-_file_30.jpg",
+            "look_3_title": "Look 3",
+            "look_3_price": "",
+            "look_3_button_type": "modal",
+            "look_3_button_text": "",
+            "look_3_button_link": "",
+            "look_3_enable_bag_icon": true,
+            "look_3_product_1": "entire-studios-herculean-shirt-indigo",
+            "look_3_product_2": "entire-studios-slem-jeans-indigo",
+            "look_3_product_3": "",
+            "look_3_product_4": "",
+            "look_3_product_5": "",
+            "look_3_product_6": "",
+            "look_3_product_7": "",
+            "look_3_product_8": "",
+            "look_4_enabled": true,
+            "look_4_media_type": "image",
+            "look_4_image": "shopify://shop_images/DSC06498_DC_1.jpg",
+            "look_4_title": "Look 4",
+            "look_4_price": "",
+            "look_4_button_type": "modal",
+            "look_4_button_text": "",
+            "look_4_button_link": "",
+            "look_4_enable_bag_icon": true,
+            "look_4_product_1": "enfants-riches-deprimes-moleskin-work-jacket-purple",
+            "look_4_product_2": "erl-photographer-t-shirt-black",
+            "look_4_product_3": "entire-studios-slem-jeans-black",
+            "look_4_product_4": "",
+            "look_4_product_5": "",
+            "look_4_product_6": "",
+            "look_4_product_7": "",
+            "look_4_product_8": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_219fc88_bp9DQ9"
+      ],
+      "settings": {}
+    },
     "blog_posts_XjJCVj": {
       "type": "blog-posts",
       "settings": {
@@ -931,6 +1108,7 @@
     }
   },
   "order": [
+    "176075966993f87866",
     "slideshow_QGYQ6e",
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
@@ -941,6 +1119,9 @@
     "featured-collections",
     "multiple_media_with_text_Lgp4CV",
     "media_grid_DzxzqH",
+    "video_PWhD8P",
+    "176076770152fa2223",
+    "1760761019d74231a6",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",
