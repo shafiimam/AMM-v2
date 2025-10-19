@@ -64,6 +64,36 @@
         "text_color": "#ffffff"
       }
     },
+    "featured_collections_QK7GxU": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_KdexeG": {
+          "type": "collection",
+          "settings": {
+            "collection": "willy-chavarria",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_KdexeG"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.3,
+        "vertical_spacing_factor": 0.3,
+        "subheading": "Featured collection"
+      }
+    },
     "shop_the_look_bD4LRj": {
       "type": "shop-the-look",
       "blocks": {
@@ -482,6 +512,7 @@
     "content_page_section_TWazeA",
     "main",
     "video_AcwF8i",
+    "featured_collections_QK7GxU",
     "shop_the_look_bD4LRj",
     "shop_the_look_MjNa8F",
     "shop_the_look_H6HxCd",
