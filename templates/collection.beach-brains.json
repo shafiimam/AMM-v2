@@ -51,9 +51,9 @@
       "settings": {
         "autoplay": true,
         "show_controls": true,
-        "video_size": "sm",
-        "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
-        "mobile_video": "shopify://files/videos/Rayban multi color.mov",
+        "video_size": "md",
+        "video": "shopify://files/videos/BB AMM 1_37111aea-247f-4701-bfdb-a3ab1f2cb0c3.mov",
+        "mobile_video": "shopify://files/videos/BB AMM 1_37111aea-247f-4701-bfdb-a3ab1f2cb0c3.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -79,12 +79,12 @@
           "type": "image_card",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/MOB5.jpg",
+            "image": "shopify://shop_images/ECDSC02391_DC_copy2.jpg",
             "button_text": "Shop The Look",
             "button_url": "shopify://collections/a-bathing-ape-2",
-            "product_index": 5,
+            "product_index": 7,
             "column_span": 2,
-            "row_span": 2,
+            "row_span": 3,
             "button_style": "solid",
             "button_background": "#ffffff",
             "button_text_color": "#1c1c1c"
@@ -161,7 +161,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ray1.jpg",
+            "image": "shopify://shop_images/ECDSC03027_DC.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -179,7 +179,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ray3.jpg",
+            "image": "shopify://shop_images/ECDSC03110_DC_2a628a3a-352a-4ad4-90ab-6aa84b886447.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -197,7 +197,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ray2.jpg",
+            "image": "shopify://shop_images/ECDSC02391_DC_copy2.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -217,6 +217,7 @@
         "image_xKjBF6",
         "image_Fdedra"
       ],
+      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
