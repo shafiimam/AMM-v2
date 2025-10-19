@@ -9,16 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "name": "Style Guide ",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "show_title": false,
-        "page_width": "full"
-      }
-    },
     "video_AcwF8i": {
       "type": "video",
       "blocks": {
@@ -59,7 +49,7 @@
           "type": "collection",
           "settings": {
             "collection": "willy-chavarria",
-            "products_count": 8,
+            "products_count": 15,
             "title": "",
             "link_url": "",
             "link_text": "View all"
@@ -494,6 +484,16 @@
         "title": "Shop the look",
         "content": "",
         "popover_title": "Shop the look"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "Style Guide ",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_title": false,
+        "page_width": "full"
       }
     }
   },
