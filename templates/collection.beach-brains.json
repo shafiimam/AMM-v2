@@ -51,7 +51,7 @@
       "settings": {
         "autoplay": true,
         "show_controls": true,
-        "video_size": "md",
+        "video_size": "fill",
         "video": "shopify://files/videos/BB AMM 1_37111aea-247f-4701-bfdb-a3ab1f2cb0c3.mov",
         "mobile_video": "shopify://files/videos/BB AMM 1_37111aea-247f-4701-bfdb-a3ab1f2cb0c3.mov",
         "external_video_url": "",
