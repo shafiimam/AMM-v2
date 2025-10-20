@@ -86,6 +86,7 @@
         },
         "release_WVNPY6": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.20",
             "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUX-1.jpg",
@@ -97,6 +98,7 @@
         },
         "release_3t4phh": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.20",
             "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUXBLKWHT-1.jpg",
@@ -108,6 +110,7 @@
         },
         "release_Wwjm3G": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.20",
             "release_image": "shopify://shop_images/THUGCLUBXGSG9BOOT_BLACK_CREAM_-1.jpg",
