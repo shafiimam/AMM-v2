@@ -30,14 +30,13 @@
         "play_3JARJa",
         "heading_VAHzcW"
       ],
-      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
         "show_controls": true,
-        "video_size": "fill",
-        "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
-        "mobile_video": "shopify://files/videos/WILLY FULL VID WEB.mov",
+        "video_size": "md",
+        "video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
+        "mobile_video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
