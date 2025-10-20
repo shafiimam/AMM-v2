@@ -34,7 +34,7 @@
       "settings": {
         "autoplay": true,
         "show_controls": true,
-        "video_size": "lg",
+        "video_size": "fill",
         "video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
         "mobile_video": "shopify://files/videos/Look book 4k_b49e2bd7-e78b-4e05-9263-ef8296a4eaa0.mov",
         "external_video_url": "",
