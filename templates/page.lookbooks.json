@@ -123,15 +123,15 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "subheading": "",
-        "title": "",
+        "title": "FALL STYLE GUIDE",
         "content": "",
-        "popover_title": "fall style guide"
+        "popover_title": "FALL STLYE GUIDE"
       }
     },
-    "shop_the_look_MjNa8F": {
+    "shop_the_look_g86WFx": {
       "type": "shop-the-look",
       "blocks": {
-        "look_H4Heed": {
+        "look_46XEXk": {
           "type": "look",
           "disabled": true,
           "settings": {
@@ -151,7 +151,7 @@
             "product_4_vertical_position": 85
           }
         },
-        "look_xjTmrp": {
+        "look_pBh4E6": {
           "type": "look",
           "settings": {
             "image": "shopify://shop_images/DIVINE3.jpg",
@@ -172,8 +172,8 @@
         }
       },
       "block_order": [
-        "look_H4Heed",
-        "look_xjTmrp"
+        "look_46XEXk",
+        "look_pBh4E6"
       ],
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
@@ -480,7 +480,7 @@
     "video_AcwF8i",
     "featured_collections_QK7GxU",
     "shop_the_look_bD4LRj",
-    "shop_the_look_MjNa8F",
+    "shop_the_look_g86WFx",
     "shop_the_look_H6HxCd",
     "shop_the_look_tCR9np",
     "shop_the_look_TVtEfc",
