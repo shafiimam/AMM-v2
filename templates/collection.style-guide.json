@@ -52,50 +52,10 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/WILLY FULL VID WEB.mov",
-        "mobile_video": "shopify://files/videos/WILLY FULL VID WEB.mov",
+        "video": "shopify://files/videos/AMM HATS AGAIN.mov",
+        "mobile_video": "shopify://files/videos/Never miss 4.3 [FV]_5c18c59d-fb9f-4633-a997-81d57a66d827.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
-      }
-    },
-    "image_with_text_jLdmmU": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_MAfpmm": {
-          "type": "heading",
-          "settings": {
-            "text": "WILLY CHAVARRIA",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nmR43n": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Willy Chavarria’s</strong> latest collection amplifies the codes of streetwear with a cinematic eye. From oversized tees to minimal hoodie's, each piece continues to carry Chicano heritage and West Coast nostalgia.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MAfpmm",
-        "richtext_nmR43n"
-      ],
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {display: flex; justify-content: end;}"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/DSC01226_DC_1_copy.jpg",
-        "mobile_image": "shopify://shop_images/WILLYSTL2.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "main": {
@@ -103,6 +63,7 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/willymob.jpg",
             "button_text": "Shop The Look",
@@ -136,6 +97,47 @@
         "show_filter_group_name": false,
         "show_filter_values_count": true,
         "open_filters_by_default": false
+      }
+    },
+    "image_with_text_jLdmmU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MAfpmm": {
+          "type": "heading",
+          "settings": {
+            "text": "WILLY CHAVARRIA",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nmR43n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Willy Chavarria’s</strong> latest collection amplifies the codes of streetwear with a cinematic eye. From oversized tees to minimal hoodie's, each piece continues to carry Chicano heritage and West Coast nostalgia.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAfpmm",
+        "richtext_nmR43n"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/DSC01226_DC_1_copy.jpg",
+        "mobile_image": "shopify://shop_images/WILLYSTL2.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     }
   },
