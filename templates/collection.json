@@ -75,7 +75,7 @@
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
-        "products_per_page": 48,
+        "products_per_page": 44,
         "products_per_row_mobile": "1",
         "products_size_desktop": "medium",
         "show_grid_mode_selector": false,
