@@ -96,18 +96,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-superstar-boot-luxred"
           }
         },
-        "release_3t4phh": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "10.20",
-            "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUXBLKWHT-1.jpg",
-            "product_title": "ADIDAS THUG CLUB SUPERSTAR BOOT LUX",
-            "product_vendor": "ADIDAS",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-superstar-boot-lux"
-          }
-        },
         "release_gqRjaj": {
           "type": "release",
           "settings": {
@@ -129,6 +117,17 @@
             "product_price": "215",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-retro-family-affair"
           }
+        },
+        "release_3t4phh": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.29",
+            "release_image": "shopify://shop_images/AJ1XZIONLOWVOODOOALT-1.jpg",
+            "product_title": "ZION WILLIAMSON X AIR JORDAN 1 LOW OG “VOODOO ALTERNATE”",
+            "product_vendor": "JORDAN",
+            "product_price": "$165",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/zion-williamson-x-air-jordan-1-low-og-voodoo-alternate"
+          }
         }
       },
       "block_order": [
@@ -136,9 +135,9 @@
         "mega_menu_px7EJK",
         "release_6QqqMN",
         "release_WVNPY6",
-        "release_3t4phh",
         "release_gqRjaj",
-        "release_Wwjm3G"
+        "release_Wwjm3G",
+        "release_3t4phh"
       ],
       "settings": {
         "color_scheme": "scheme-2",
