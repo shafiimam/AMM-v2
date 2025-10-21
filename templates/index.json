@@ -326,6 +326,9 @@
         "product_CqUpFr",
         "product_eekMqY"
       ],
+      "custom_css": [
+        "price-list.price-list {display: none;}"
+      ],
       "settings": {
         "section_alignment": "left",
         "title": "Willy Chavarria",
@@ -352,6 +355,9 @@
       },
       "block_order": [
         "collection_ABw4Mi"
+      ],
+      "custom_css": [
+        "price-list.price-list {display: none;}"
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
