@@ -977,7 +977,7 @@
             throw new Error('Failed to add to cart');
           }
         } catch (error) {
-          button.textContent = 'Error - Try again';
+          button.textContent = 'Error - An item is out of stock';
           button.disabled = false;
           console.error('Error adding to cart:', error);
         }
