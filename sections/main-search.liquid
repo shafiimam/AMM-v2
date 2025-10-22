@@ -168,8 +168,14 @@
                             {%- render 'active-facets', results: search -%}
 
                             <product-list id="product-list-{{ section.id }}" class="product-list">
+                              {%- comment %}<locksmith:97d7>{% endcomment -%}
+                                {%- assign locksmith_9ef3_forloop__size = 0 %}{%- for product in product_results -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_9ef3_forloop__size = locksmith_9ef3_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_9ef3_forloop__index = nil -%}
+                              {%- comment %}</locksmith:97d7>{% endcomment -%}
                               {%- for product in product_results -%}
-                                {%- render 'product-card', product: product, stacked: true, reveal: settings.stagger_products_apparition, position: forloop.index -%}
+                                {%- comment %}<locksmith:4e8e>{% endcomment -%}
+                                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_9ef3_forloop__index == nil %}{% assign locksmith_9ef3_forloop__index = 1 %}{% assign locksmith_9ef3_forloop__index0 = 0 %}{% else %}{% assign locksmith_9ef3_forloop__index = locksmith_9ef3_forloop__index | plus: 1 %}{% assign locksmith_9ef3_forloop__index0 = locksmith_9ef3_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_9ef3_forloop__index == 1 %}{% assign locksmith_9ef3_forloop__first = true %}{% else %}{% assign locksmith_9ef3_forloop__first = false %}{% endif %}{% if locksmith_9ef3_forloop__index == locksmith_9ef3_forloop__size %}{% assign locksmith_9ef3_forloop__last = true %}{% else %}{% assign locksmith_9ef3_forloop__last = false %}{% endif %}{% assign locksmith_9ef3_forloop__rindex = locksmith_9ef3_forloop__size | minus: locksmith_9ef3_forloop__index | minus: 1 %}{% assign locksmith_9ef3_forloop__rindex0 = locksmith_9ef3_forloop__size | minus: locksmith_9ef3_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                                {%- comment %}</locksmith:4e8e>{% endcomment -%}
+                                {%- render 'product-card', product: product, stacked: true, reveal: settings.stagger_products_apparition, position: locksmith_9ef3_forloop__index -%}
                               {%- endfor -%}
                             </product-list>
 
@@ -188,8 +194,14 @@
                     <blog-posts class="blog-post-list justify-center" {% if settings.stagger_blog_posts_apparition %}reveal-on-scroll="true"{% endif %}>
                       {%- capture sizes -%}(max-width: 699px) 95vw, (max-width: 1149px) calc(100vw / 2), calc((80rem - (5rem * (3 - 1) / 3){%- endcapture -%}
 
+                      {%- comment %}<locksmith:1a81>{% endcomment -%}
+                        {%- assign locksmith_d56e_forloop__size = 0 %}{%- for article in article_results -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: article, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_d56e_forloop__size = locksmith_d56e_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_d56e_forloop__index = nil -%}
+                      {%- comment %}</locksmith:1a81>{% endcomment -%}
                       {%- for article in article_results -%}
-                        {%- render 'blog-post-card', article: article, show_category: section.settings.show_category, show_excerpt: section.settings.show_excerpt, show_read_more: section.settings.show_read_more, sizes: sizes, position: forloop.index -%}
+                        {%- comment %}<locksmith:fcaf>{% endcomment -%}
+                          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: article, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_d56e_forloop__index == nil %}{% assign locksmith_d56e_forloop__index = 1 %}{% assign locksmith_d56e_forloop__index0 = 0 %}{% else %}{% assign locksmith_d56e_forloop__index = locksmith_d56e_forloop__index | plus: 1 %}{% assign locksmith_d56e_forloop__index0 = locksmith_d56e_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_d56e_forloop__index == 1 %}{% assign locksmith_d56e_forloop__first = true %}{% else %}{% assign locksmith_d56e_forloop__first = false %}{% endif %}{% if locksmith_d56e_forloop__index == locksmith_d56e_forloop__size %}{% assign locksmith_d56e_forloop__last = true %}{% else %}{% assign locksmith_d56e_forloop__last = false %}{% endif %}{% assign locksmith_d56e_forloop__rindex = locksmith_d56e_forloop__size | minus: locksmith_d56e_forloop__index | minus: 1 %}{% assign locksmith_d56e_forloop__rindex0 = locksmith_d56e_forloop__size | minus: locksmith_d56e_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                        {%- comment %}</locksmith:fcaf>{% endcomment -%}
+                        {%- render 'blog-post-card', article: article, show_category: section.settings.show_category, show_excerpt: section.settings.show_excerpt, show_read_more: section.settings.show_read_more, sizes: sizes, position: locksmith_d56e_forloop__index -%}
                       {%- endfor -%}
                     </blog-posts>
                   </div>
@@ -201,6 +213,9 @@
                   <div class="main-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
                     <ul class="main-search__linklist v-stack gap-3 unstyled-list" role="list">
                       {%- for page in page_results -%}
+                        {%- comment %}<locksmith:880a>{% endcomment -%}
+                          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: page, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                        {%- comment %}</locksmith:880a>{% endcomment -%}
                         <li>
                           <a href="{{ page.url }}" class="link-reverse" data-instant>{{ page.title }}</a>
                         </li>

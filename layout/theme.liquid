@@ -1,7 +1,12 @@
+{%- comment %}<locksmith:3f89>{% endcomment -%}
+  {%- include 'locksmith' -%}
+{%- comment %}</locksmith:3f89>{% endcomment -%}
+
 <!doctype html>
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+    {{ locksmith_initializations }}
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -34,7 +39,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </title>
 
     {%- if page_description -%}
-      <meta name="description" content="{{ page_description | escape }}">
+      {%- comment %}<locksmith:8146>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
+        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
+      {%- comment %}</locksmith:8146>{% endcomment -%}
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
@@ -152,7 +160,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {%- endif -%}
 
     <main id="main" class="anchor">
-      {{ content_for_layout }}
+      {{ content_for_layout }}{{ locksmith_content_for_layout_addenda }}
 
       {%- comment -%}
         IMPLEMENTATION NOTE: For best semantics, having the footer group outside the main would be slightly better, but

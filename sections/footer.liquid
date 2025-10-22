@@ -70,6 +70,9 @@
 
                       <ul class="v-stack gap-2.5 unstyled-list" role="list">
                         {%- for link in menu.links -%}
+                          {%- comment %}<locksmith:94b4>{% endcomment -%}
+                            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                          {%- comment %}</locksmith:94b4>{% endcomment -%}
                           <li>
                             <a href="{{ link.url }}" class="link-faded">{{ link.title }}</a>
                           </li>

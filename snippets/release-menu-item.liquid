@@ -10,6 +10,9 @@
          {% if release_menu_link.links.size > 0 %}
          <li>
             {% for link in release_menu_link.links %}
+               {%- comment %}<locksmith:fcb4>{% endcomment -%}
+                 {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: release_menu_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+               {%- comment %}</locksmith:fcb4>{% endcomment -%}
                <summary href="{{ link.url }}" class="block {% if section.settings.menu_text_font == 'heading' %}h6{% endif %}">{{ link.title }}</summary>
             {% endfor %}
          </li>

@@ -130,9 +130,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-sneakers",
+            "collection": "new-boots",
             "products_count": 8,
-            "title": "SNEAKERS",
+            "title": "BOOTS",
             "link_url": "",
             "link_text": ""
           }
@@ -158,11 +158,11 @@
       "custom_css": [],
       "settings": {
         "title": "Look Closer",
-        "start_index": "44",
-        "end_index": "96",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC068",
+        "start_index": "1",
+        "end_index": "50",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/1774_GOERLITZ_ORANGE_360-",
         "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/drkshdw/products/denim-vintage-sneaks-1",
+        "button_link": "shopify://products/goerlitz-1774-leve-1",
         "knob_position": 100,
         "gallery_width": 50,
         "show_button": true,
@@ -177,7 +177,7 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "rick-owens",
+            "collection": "new-balance",
             "products_count": 8,
             "title": "You May Also Like",
             "link_url": "",

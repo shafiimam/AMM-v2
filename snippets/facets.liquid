@@ -43,6 +43,9 @@ Supported variables
         {%- capture filter_content -%}
           <div class="v-stack gap-2.5">
             {%- for link in quick_links_menu.links -%}
+              {%- comment %}<locksmith:03e3>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: quick_links_menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:03e3>{% endcomment -%}
               <a href="{{ link.url }}" {% unless link.active %}class="link-faded"{% endunless %}>{{ link.title }}</a>
             {%- endfor -%}
           </div>

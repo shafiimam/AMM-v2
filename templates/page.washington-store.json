@@ -47,7 +47,7 @@
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n124 H St NE, Washington, D.C. 20002, USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n1214 H St NE, Washington, D.C. 20002, USA"
           }
         }
       },

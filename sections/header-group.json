@@ -16,22 +16,30 @@
       "blocks": {
         "message-1": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "<strong>Labor Day Sale Event: 8/28 – 9/4. 20% Off + Exclusions Apply | </strong><a href=\"https://www.a-ma-maniere.com/pages/terms-and-conditions-2024\"><strong>See Details</strong></a>"
+            "text": "<strong>NEW MARKDOWN ARRIVALS  </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER NOW</strong></a>"
+          }
+        },
+        "message_LyBJxq": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>VISIT OUR </strong><a href=\"/pages/our-stores\" title=\"Our Stores\"><strong>LOCATIONS</strong></a>"
           }
         }
       },
       "block_order": [
-        "message-1"
+        "message-1",
+        "message_LyBJxq"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".heading {letter-spacing: 1.5px; font-family: var(--text-font-family);}"
+      ],
       "settings": {
         "color_scheme": "",
         "enable_sticky": false,
         "autoplay": true,
         "cycle_speed": 5,
-        "desktop_font_size": 11,
+        "desktop_font_size": 12,
         "mobile_font_size": 10
       }
     },
@@ -64,58 +72,72 @@
             "image_2_link": ""
           }
         },
-        "release_eBTFij": {
+        "release_6QqqMN": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "10.18",
+            "release_image": "shopify://shop_images/WOMEN_STAEKWONDOBYEDISONCHEN_OFFWHITE_SILVERMETALLIC_-1.jpg",
+            "product_title": "ADIDAS WOMEN'S TAEKWONDO BY EDISON CHEN \"OFF WHITE/ SILVER METALLIC\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-off-white-silver-metallic"
+          }
+        },
+        "release_WVNPY6": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "10.20",
+            "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUX-1.jpg",
+            "product_title": "ADIDAS THUG CLUB X GSG9 BOOT RED",
+            "product_vendor": "ADIDAS",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-superstar-boot-luxred"
+          }
+        },
+        "release_gqRjaj": {
           "type": "release",
           "settings": {
-            "release_title": "9.24",
-            "release_image": "shopify://shop_images/TRUNNERO_S_ARCHAEOBROWN_PERSIANVIOLET_-1.jpg",
-            "product_title": "JORDAN TRUNNER O/S \"ARCHAEO BROWN/PERSIAN VIOLET\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$115",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/jordan-trunner-os-archaeo-brownpersian-violet"
+            "release_title": "10.24",
+            "release_image": "shopify://shop_images/GRATEFULDEADXAIRMAX90-1.jpg",
+            "product_title": "GRATEFUL DEAD x UNIVERSITY OF OREGON x NIKE AIR MAX 90",
+            "product_vendor": "NIKE",
+            "product_price": "$145",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/grateful-dead-x-university-of-oregon-x-nike-air-max-90"
           }
         },
         "release_Wwjm3G": {
           "type": "release",
           "settings": {
-            "release_title": "9.25",
-            "release_image": "shopify://shop_images/MADEINUSA992_DUSKSHOWER_-1.jpg",
-            "product_title": "NEW BALANCE MADE IN USA 992 DUSK SHOWER",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-made-in-usa-992-dusk-shower"
+            "release_title": "10.25",
+            "release_image": "shopify://shop_images/AJ3REALTREE-1.jpg",
+            "product_title": "AIR JORDAN 3 RETRO \"FAMILY AFFAIR\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-retro-family-affair"
           }
         },
         "release_3t4phh": {
           "type": "release",
           "settings": {
-            "release_title": "9.27",
-            "release_image": "shopify://shop_images/BADBUNNYADIZEROSL72BROWNPINK-1.jpg",
-            "product_title": "ADIDAS BAD BUNNY ADIZERO \"BROWN/PINK\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-bad-bunny-adizero-brownpink"
-          }
-        },
-        "release_6QqqMN": {
-          "type": "release",
-          "settings": {
-            "release_title": "9.27",
-            "release_image": "shopify://shop_images/GEL-CUMULUS16SUMMITEXCLUSIVE_CREAM_MALACHITEGREEN_-1.jpg",
-            "product_title": "ASICS X TOMO GEL-CUMULUS 16 SUMMIT EXCLUSIVE \"CREAM/MALACHITE GREEN\"",
-            "product_vendor": "ASICS",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-tomo-gel-cumulus-16-summit-exclusive-creammalachite-green"
+            "release_title": "10.29",
+            "release_image": "shopify://shop_images/AJ1XZIONLOWVOODOOALT-1.jpg",
+            "product_title": "ZION WILLIAMSON X AIR JORDAN 1 LOW OG “VOODOO ALTERNATE”",
+            "product_vendor": "JORDAN",
+            "product_price": "$165",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/zion-williamson-x-air-jordan-1-low-og-voodoo-alternate"
           }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_eBTFij",
+        "release_6QqqMN",
+        "release_WVNPY6",
+        "release_gqRjaj",
         "release_Wwjm3G",
-        "release_3t4phh",
-        "release_6QqqMN"
+        "release_3t4phh"
       ],
       "settings": {
         "color_scheme": "scheme-2",

@@ -41,7 +41,13 @@
       endif
     -%}
 
+    {%- comment %}<locksmith:993b>{% endcomment -%}
+      {%- assign locksmith_3792_forloop__size = 0 %}{%- for block in filtered_blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_3792_forloop__size = locksmith_3792_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_3792_forloop__index = nil -%}
+    {%- comment %}</locksmith:993b>{% endcomment -%}
     {%- for block in filtered_blocks -%}
+      {%- comment %}<locksmith:bde5>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_3792_forloop__index == nil %}{% assign locksmith_3792_forloop__index = 1 %}{% assign locksmith_3792_forloop__index0 = 0 %}{% else %}{% assign locksmith_3792_forloop__index = locksmith_3792_forloop__index | plus: 1 %}{% assign locksmith_3792_forloop__index0 = locksmith_3792_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_3792_forloop__index == 1 %}{% assign locksmith_3792_forloop__first = true %}{% else %}{% assign locksmith_3792_forloop__first = false %}{% endif %}{% if locksmith_3792_forloop__index == locksmith_3792_forloop__size %}{% assign locksmith_3792_forloop__last = true %}{% else %}{% assign locksmith_3792_forloop__last = false %}{% endif %}{% assign locksmith_3792_forloop__rindex = locksmith_3792_forloop__size | minus: locksmith_3792_forloop__index | minus: 1 %}{% assign locksmith_3792_forloop__rindex0 = locksmith_3792_forloop__size | minus: locksmith_3792_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:bde5>{% endcomment -%}
       {%- liquid
         # Filter the blocks (if allow_blocks is set)
         if allow_blocks
@@ -50,7 +56,7 @@
           endunless
         endif
 
-        assign next_block_index = forloop.index0 | plus: 1
+        assign next_block_index = locksmith_3792_forloop__index0 | plus: 1
         assign next_block = filtered_blocks[next_block_index]
 
         if block.settings.show_below_gallery
@@ -244,6 +250,19 @@
               assign contains_product = false
 
               for product_variation in block.settings.products
+                comment
+                  <locksmith:7957> Code added automatically by the Locksmith app. Do not modify or remove.
+                endcomment
+                capture var
+                  render 'locksmith-variables', scope: 'subject', subject: product_variation, subject_parent: block.settings, variable: 'transparent'
+                endcapture
+                if var == "true"
+                else
+                  continue
+                endif
+                comment
+                  </locksmith:7957> End Locksmith code block.
+                endcomment
                 if product_variation == product
                   assign contains_product = true
                 endif
@@ -272,6 +291,19 @@
                   <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                     {%- liquid
                       for product_variation in block.settings.products
+                        comment
+                          <locksmith:caab> Code added automatically by the Locksmith app. Do not modify or remove.
+                        endcomment
+                        capture var
+                          render 'locksmith-variables', scope: 'subject', subject: product_variation, subject_parent: block.settings, variable: 'transparent'
+                        endcapture
+                        if var == "true"
+                        else
+                          continue
+                        endif
+                        comment
+                          </locksmith:caab> End Locksmith code block.
+                        endcomment
                         assign label = product_variation.metafields[metafield_namespace][metafield_key].value
 
                         if product_variation == product

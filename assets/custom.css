@@ -545,3 +545,16 @@ h1#cae-heading {
   line-height: normal;
   font-family: var(--text-font-family);
 }
+.locksmith-email-container.container.page-width {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input#locksmith_email {
+    border: 1px solid #000;
+}
+
+button#locksmith_email_submit {
+    margin-top: 10px;
+}

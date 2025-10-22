@@ -109,6 +109,9 @@
         {%- if menu.links.size > 0 and section.settings.layout != 'drawer' -%}
           <ul class="contents unstyled-list md-max:hidden">
             {%- for link in menu.links -%}
+              {%- comment %}<locksmith:bf16>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:bf16>{% endcomment -%}
               {% liquid
                 assign link_title_downcase = link.title | strip | downcase
                 assign mega_menu_block = ''
@@ -150,6 +153,9 @@
                       {%- else -%}
                         <ul class="header__dropdown-menu {% if link.levels <= 1 %}header__dropdown-menu--restrictable{% endif %} unstyled-list" role="list">
                           {%- for sub_link in link.links -%}
+                            {%- comment %}<locksmith:ffc4>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:ffc4>{% endcomment -%}
                             <li>
                               {%- if sub_link.levels == 0 -%}
                                 <a href="{{ sub_link.url }}" class="link-faded-reverse h6" {% if sub_link.current %}aria-current="page"{% endif %}>{{ sub_link.title }}</a>
@@ -165,6 +171,9 @@
 
                                     <ul class="header__dropdown-menu unstyled-list" role="list">
                                       {%- for sub_sub_link in sub_link.links -%}
+                                        {%- comment %}<locksmith:c37b>{% endcomment -%}
+                                          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                        {%- comment %}</locksmith:c37b>{% endcomment -%}
                                         <li>
                                           <a href="{{ sub_sub_link.url }}" class="link-faded-reverse h6" {% if sub_sub_link.current %}aria-current="page"{% endif %}>{{ sub_sub_link.title }}</a>
                                         </li>
