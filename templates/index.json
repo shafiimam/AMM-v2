@@ -339,16 +339,46 @@
         "image_cta_url": "shopify://collections/willy-chavarria"
       }
     },
+    "featured_collections_4UQQmj": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_qtemLY": {
+          "type": "collection",
+          "settings": {
+            "collection": "thug-club",
+            "products_count": 8,
+            "title": "THUG CLUB",
+            "link_url": "shopify://collections/thug-club",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_qtemLY"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "featured_collections_bFrXKx": {
       "type": "featured-collections",
       "blocks": {
         "collection_ABw4Mi": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-1",
+            "collection": "sneakers",
             "products_count": 8,
-            "title": "NEW ARRIVALS",
-            "link_url": "shopify://collections/new-arrivals-1",
+            "title": "FOOTWEAR",
+            "link_url": "shopify://collections/sneakers",
             "link_text": "View all"
           }
         }
@@ -1119,13 +1149,14 @@
     "slideshow_QGYQ6e",
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
-    "featured_collections_bFrXKx",
+    "featured_collections_4UQQmj",
     "before-after",
     "media_grid_p7EKPQ",
     "collection_list_cLGdiA",
     "featured-collections",
     "multiple_media_with_text_Lgp4CV",
     "media_grid_DzxzqH",
+    "featured_collections_bFrXKx",
     "video_PWhD8P",
     "176076770152fa2223",
     "1760761019d74231a6",
