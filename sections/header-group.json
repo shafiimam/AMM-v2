@@ -98,6 +98,7 @@
         },
         "release_gqRjaj": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.24",
             "release_image": "shopify://shop_images/GRATEFULDEADXAIRMAX90-1.jpg",
