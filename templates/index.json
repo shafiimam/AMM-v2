@@ -799,7 +799,6 @@
         "play_NjTYAR",
         "heading_q7cwAp"
       ],
-      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
@@ -816,7 +815,6 @@
       "blocks": {
         "ai_gen_block_5edc35c_T4xefR": {
           "type": "ai_gen_block_5edc35c",
-          "disabled": true,
           "settings": {
             "height_mobile": 20,
             "height_desktop": 20
@@ -834,7 +832,6 @@
       "blocks": {
         "ai_gen_block_219fc88_bp9DQ9": {
           "type": "ai_gen_block_219fc88",
-          "disabled": true,
           "settings": {
             "look_order": "1,2,3,4",
             "image_aspect_ratio": "2 / 3",
@@ -1038,6 +1035,10 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/Group_1.webp",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
