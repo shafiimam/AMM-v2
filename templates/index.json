@@ -117,7 +117,7 @@
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 740,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://pages/style-guide",
+            "button_1_link": "shopify://collections/avirex",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
