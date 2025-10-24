@@ -18,7 +18,6 @@
       "blocks": {
         "video_TrrkwE": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/FINAL 1 NO LOGO.mov",
             "mobile_video": "shopify://files/videos/FINAL 1 NO LOGO.mov",
@@ -76,35 +75,6 @@
             "gradient_overlay": ""
           }
         },
-        "image_tUfJaV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/hbcudeskamm2.jpg",
-            "mobile_image": "shopify://shop_images/HBCUMOB1.jpg",
-            "subheading": "",
-            "subheading_size": 17,
-            "title": "<p><strong>NIKE AIR MAX \"YARDRUNNERS\"</strong></p>",
-            "title_size": 27,
-            "mobile_text_position": "place-self-start-end text-end",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 800,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/nike-lab",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#1c1c1c",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "video_EUxE7d": {
           "type": "video",
           "settings": {
@@ -133,6 +103,36 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_tUfJaV": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/hbcudeskamm2.jpg",
+            "mobile_image": "shopify://shop_images/HBCUMOB1.jpg",
+            "subheading": "",
+            "subheading_size": 17,
+            "title": "<p><strong>NIKE AIR MAX \"YARDRUNNERS\"</strong></p>",
+            "title_size": 27,
+            "mobile_text_position": "place-self-start-end text-end",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 800,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/nike-lab",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
           }
         },
         "image_d33cGg": {
@@ -200,8 +200,8 @@
       "block_order": [
         "video_TrrkwE",
         "image_bJcB48",
-        "image_tUfJaV",
         "video_EUxE7d",
+        "image_tUfJaV",
         "image_d33cGg",
         "video_9VQBMz"
       ],
@@ -298,25 +298,25 @@
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "willy-chavarria-bad-boy-track-jacket-red"
+            "product": "avirex-traputo-jacket-darkcherry"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "casa-de-chavarria-cp"
+            "product": "avirex-icon-jacket-red"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "willy-chavarria-bad-boy-track-pant-red"
+            "product": "avirex-icon-leather-jacket-black"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "willy-chavarria-x-jabbar-lo-off-white-black"
+            "product": "avirex-canadian-div-jacket-brown-green"
           }
         }
       },
@@ -331,12 +331,12 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "Willy Chavarria",
+        "title": "AVIREX",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/WILLYSTL3.jpg",
-        "image_description": "<p><strong>Willy Chavarria’s</strong> latest collection amplifies the codes of streetwear with a cinematic eye. From oversized tees to minimal hoodie's, each piece continues to carry Chicano heritage and West Coast nostalgia.</p>",
+        "image": "shopify://shop_images/avirexcover.jpg",
+        "image_description": "<p>Born in 1975 to serve U.S. Air Force pilots, <strong>Avirex </strong>rose to become a generational emblem in hip-hop and street culture. Bold leather bombers turned craftsmanship into a symbol of status. Explore the <strong>Avirex</strong> Fall/Winter 2025 Collection now.</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/willy-chavarria"
+        "image_cta_url": "shopify://collections/avirex"
       }
     },
     "featured_collections_4UQQmj": {
