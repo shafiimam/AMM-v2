@@ -52,8 +52,8 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/4k NB NO LOG WEB.mov",
-        "mobile_video": "shopify://files/videos/4k NB NO LOG WEB.mov",
+        "video": "shopify://files/videos/ERL Rollout AMA web .mov",
+        "mobile_video": "shopify://files/videos/ERL Rollout AMA web .mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -64,9 +64,9 @@
         "image_card_xbb6z4": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/NBABZORB2010V2.png",
-            "button_text": "",
-            "button_url": "",
+            "image": "shopify://shop_images/ERL1.jpg",
+            "button_text": "SHOP SKULL T-SHIRT",
+            "button_url": "https://www.a-ma-maniere.com/collections/erl/products/erl-skull-t-shirt",
             "product_index": 5,
             "column_span": 2,
             "row_span": 2,
@@ -104,14 +104,14 @@
         "heading_MAfpmm": {
           "type": "heading",
           "settings": {
-            "text": "New balance MADE IN UK 991v2 GROUNDED PASTELS “GREEN”",
+            "text": "ERL COLLECTION",
             "heading_tag": "h1"
           }
         },
         "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong> </strong>The 991v2 becomes a symbol of local identity, creative rhythm, and purposeful style. Crafted and unified in premium suede patterns all over the upper, with a sturdy cream midsole bringing together comfort and style.  </p>",
+            "content": "<p>ERL brings a cinematic lens to American fashion—merging sculptural forms, soft tones, and narrative depth. Rooted in Venice Beach, each piece reflects a laid-back yet intentional spirit shaped by storytelling and design. </p>",
             "text_color": "#535353"
           }
         }
@@ -129,8 +129,12 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/NBGREEN.png",
-        "mobile_image": "shopify://shop_images/NB990GREEN.png",
+        "image": "shopify://shop_images/erl3.jpg",
+        "mobile_image": "shopify://shop_images/erlnew.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
