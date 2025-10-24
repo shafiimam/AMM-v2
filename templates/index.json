@@ -345,10 +345,10 @@
         "collection_qtemLY": {
           "type": "collection",
           "settings": {
-            "collection": "thug-club",
+            "collection": "avirex",
             "products_count": 8,
-            "title": "THUG CLUB",
-            "link_url": "shopify://collections/thug-club",
+            "title": "AVIREX",
+            "link_url": "shopify://collections/avirex",
             "link_text": "View all"
           }
         }
