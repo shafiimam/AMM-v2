@@ -120,6 +120,7 @@
         "buy_buttons_fJEjVj",
         "pickup_availability_6aBAgH"
       ],
+      "disabled": true,
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
@@ -229,6 +230,7 @@
         "buy_buttons_itfBTL",
         "pickup_availability_7c7FNN"
       ],
+      "disabled": true,
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
