@@ -110,6 +110,7 @@
         },
         "release_Wwjm3G": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "10.25",
             "release_image": "shopify://shop_images/AJ3REALTREE-1.jpg",
