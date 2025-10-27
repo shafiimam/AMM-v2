@@ -72,17 +72,6 @@
             "image_2_link": ""
           }
         },
-        "release_6QqqMN": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.29",
-            "release_image": "shopify://shop_images/AJ1XZIONLOWVOODOOALT-1.jpg",
-            "product_title": "ZION WILLIAMSON x AIR JORDAN 1 RETRO LOW OG \"VOODOO ALTERNATE\" GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/zion-williamson-x-air-jordan-1-retro-low-og-voodoo-alternate-gs"
-          }
-        },
         "release_Xg6mnY": {
           "type": "release",
           "settings": {
@@ -90,8 +79,19 @@
             "release_image": "shopify://shop_images/AJ1XZIONLOWVOODOOALT-1.jpg",
             "product_title": "ZION WILLIAMSON X AIR JORDAN 1 LOW OG “VOODOO ALTERNATE”",
             "product_vendor": "JORDAN",
-            "product_price": "165",
+            "product_price": "$165",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/zion-williamson-x-air-jordan-1-low-og-voodoo-alternate"
+          }
+        },
+        "release_6QqqMN": {
+          "type": "release",
+          "settings": {
+            "release_title": "10.29",
+            "release_image": "shopify://shop_images/AJ1XZIONLOWVOODOOALTGS-1_7e6d2875-9f57-41b6-b791-e974f3328da1.jpg",
+            "product_title": "ZION WILLIAMSON x AIR JORDAN 1 RETRO LOW OG \"VOODOO ALTERNATE\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "$120",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/zion-williamson-x-air-jordan-1-retro-low-og-voodoo-alternate-gs"
           }
         },
         "release_WVNPY6": {
@@ -120,8 +120,8 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_6QqqMN",
         "release_Xg6mnY",
+        "release_6QqqMN",
         "release_WVNPY6",
         "release_gqRjaj"
       ],
