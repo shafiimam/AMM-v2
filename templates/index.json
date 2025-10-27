@@ -345,10 +345,10 @@
         "collection_qtemLY": {
           "type": "collection",
           "settings": {
-            "collection": "avirex",
+            "collection": "new-denim",
             "products_count": 8,
-            "title": "AVIREX",
-            "link_url": "shopify://collections/avirex",
+            "title": "Shop denim",
+            "link_url": "shopify://collections/new-denim",
             "link_text": "View all"
           }
         }
@@ -783,7 +783,7 @@
           "settings": {
             "collection": "sneakers",
             "products_count": 8,
-            "title": "FOOTWEAR",
+            "title": "SHOP FOOTWEAR",
             "link_url": "shopify://collections/sneakers",
             "link_text": "View all"
           }
