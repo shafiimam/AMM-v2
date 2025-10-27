@@ -339,32 +339,31 @@
         "image_cta_url": "shopify://collections/avirex"
       }
     },
-    "featured_collections_4UQQmj": {
+    "featured_collections_tPwjbc": {
       "type": "featured-collections",
       "blocks": {
-        "collection_qtemLY": {
+        "collection_rf3dw4": {
           "type": "collection",
           "settings": {
-            "collection": "new-denim",
-            "products_count": 8,
-            "title": "Shop denim",
-            "link_url": "shopify://collections/new-denim",
+            "collection": "new-home",
+            "products_count": 4,
+            "title": "SHOP HOME GOODS",
+            "link_url": "shopify://collections/new-home",
             "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_qtemLY"
+        "collection_rf3dw4"
       ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
+        "stack_products": true,
+        "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.7,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -775,6 +774,36 @@
         "content": ""
       }
     },
+    "featured_collections_4UQQmj": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_qtemLY": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-denim",
+            "products_count": 8,
+            "title": "Shop denim",
+            "link_url": "shopify://collections/new-denim",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_qtemLY"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "featured_collections_bFrXKx": {
       "type": "featured-collections",
       "blocks": {
@@ -792,6 +821,7 @@
       "block_order": [
         "collection_ABw4Mi"
       ],
+      "disabled": true,
       "custom_css": [
         "price-list.price-list {display: none;}"
       ],
@@ -1149,13 +1179,14 @@
     "slideshow_QGYQ6e",
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
-    "featured_collections_4UQQmj",
+    "featured_collections_tPwjbc",
     "before-after",
     "media_grid_p7EKPQ",
     "collection_list_cLGdiA",
     "featured-collections",
     "multiple_media_with_text_Lgp4CV",
     "media_grid_DzxzqH",
+    "featured_collections_4UQQmj",
     "featured_collections_bFrXKx",
     "video_PWhD8P",
     "176076770152fa2223",
