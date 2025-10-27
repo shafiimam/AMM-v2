@@ -74,61 +74,35 @@
         },
         "release_6QqqMN": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "10.18",
-            "release_image": "shopify://shop_images/WOMEN_STAEKWONDOBYEDISONCHEN_OFFWHITE_SILVERMETALLIC_-1.jpg",
-            "product_title": "ADIDAS WOMEN'S TAEKWONDO BY EDISON CHEN \"OFF WHITE/ SILVER METALLIC\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-womens-taekwondo-by-edison-chen-off-white-silver-metallic"
+            "release_title": "10.29",
+            "release_image": "shopify://shop_images/AJ1XZIONLOWVOODOOALT-1.jpg",
+            "product_title": "ZION WILLIAMSON x AIR JORDAN 1 RETRO LOW OG \"VOODOO ALTERNATE\" GS",
+            "product_vendor": "JORDAN",
+            "product_price": "$120",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/zion-williamson-x-air-jordan-1-retro-low-og-voodoo-alternate-gs"
           }
         },
         "release_WVNPY6": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "10.20",
-            "release_image": "shopify://shop_images/THUGCLUBSUPERSTARBOOTLUX-1.jpg",
-            "product_title": "ADIDAS THUG CLUB X GSG9 BOOT RED",
-            "product_vendor": "ADIDAS",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-thug-club-superstar-boot-luxred"
+            "release_title": "11.01",
+            "release_image": "shopify://shop_images/AF1XKOBEBLACK-1.jpg",
+            "product_title": "NIKE KOBE AIR FORCE 1 LOW",
+            "product_vendor": "NIKE",
+            "product_price": "$120",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-air-force-1-low"
           }
         },
         "release_gqRjaj": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "10.24",
-            "release_image": "shopify://shop_images/GRATEFULDEADXAIRMAX90-1.jpg",
-            "product_title": "GRATEFUL DEAD x UNIVERSITY OF OREGON x NIKE AIR MAX 90",
+            "release_title": "11.01",
+            "release_image": "shopify://shop_images/AIRBALTORO-1_5518844b-76db-4b21-b2c5-61b6c77ef3ba.jpg",
+            "product_title": "NIKE AIR BALTORO",
             "product_vendor": "NIKE",
             "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/grateful-dead-x-university-of-oregon-x-nike-air-max-90"
-          }
-        },
-        "release_Wwjm3G": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "10.25",
-            "release_image": "shopify://shop_images/AJ3REALTREE-1.jpg",
-            "product_title": "AIR JORDAN 3 RETRO \"FAMILY AFFAIR\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-retro-family-affair"
-          }
-        },
-        "release_3t4phh": {
-          "type": "release",
-          "settings": {
-            "release_title": "10.29",
-            "release_image": "shopify://shop_images/AJ1XZIONLOWVOODOOALT-1.jpg",
-            "product_title": "ZION WILLIAMSON X AIR JORDAN 1 LOW OG “VOODOO ALTERNATE”",
-            "product_vendor": "JORDAN",
-            "product_price": "$165",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/zion-williamson-x-air-jordan-1-low-og-voodoo-alternate"
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-baltoro"
           }
         }
       },
@@ -137,9 +111,7 @@
         "mega_menu_px7EJK",
         "release_6QqqMN",
         "release_WVNPY6",
-        "release_gqRjaj",
-        "release_Wwjm3G",
-        "release_3t4phh"
+        "release_gqRjaj"
       ],
       "settings": {
         "color_scheme": "scheme-2",
