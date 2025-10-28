@@ -202,6 +202,25 @@
         "max_image_zoom_level": 3
       }
     },
+    "3d_gallery_jRyAnc": {
+      "type": "3d-gallery",
+      "disabled": true,
+      "name": "3D Gallery",
+      "settings": {
+        "title": "LOOK CLOSER",
+        "start_index": "1",
+        "end_index": "50",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/1774_GOERLITZ_ORANGE_360-",
+        "button_label": "",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
     "scrolling_content_t7zNyY": {
       "type": "scrolling-content",
       "blocks": {
@@ -269,6 +288,10 @@
         "separate_section_with_border": false,
         "image": "shopify://shop_images/Group_1.png",
         "mobile_image": "shopify://shop_images/Group_1.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -427,6 +450,7 @@
   "order": [
     "breeadcrumbs_zf6QQE",
     "main",
+    "3d_gallery_jRyAnc",
     "scrolling_content_t7zNyY",
     "image_with_text_rLpTcJ",
     "related-products",
