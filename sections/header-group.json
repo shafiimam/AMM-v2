@@ -115,6 +115,30 @@
             "product_price": "$150",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-jjjjound-suede-2"
           }
+        },
+        "release_HVcayN": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "11.08",
+            "release_image": "shopify://shop_images/AJ12TAXI-1.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"TAXI\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l"
+          }
+        },
+        "release_nAhaJK": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "11.08",
+            "release_image": "shopify://shop_images/JJJJOUNDSUEDE2-1.jpg",
+            "product_title": "PUMA JJJJOUND SUEDE 2",
+            "product_vendor": "PUMA",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-jjjjound-suede-2"
+          }
         }
       },
       "block_order": [
@@ -123,7 +147,9 @@
         "release_WVNPY6",
         "release_gqRjaj",
         "release_6QqqMN",
-        "release_Xg6mnY"
+        "release_Xg6mnY",
+        "release_HVcayN",
+        "release_nAhaJK"
       ],
       "settings": {
         "color_scheme": "scheme-2",
