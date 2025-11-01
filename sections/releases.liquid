@@ -6,8 +6,8 @@
         <a class="release__item" {{ block.shopify_attributes }} data-release-id="{{ block.id }}" href="{{ block.settings.release_link }}"> 
           <h4 class="release__item-title h4 text-center">{{ block.settings.release_title }}</h4>
           <img src="{{ block.settings.release_image | img_url: 'master' }}" alt="{{ block.settings.release_title }}">
-          <h4 class="release__item-product-title h5 text-center" aria-label="{{ block.settings.product_title }}">{{ block.settings.product_title }}</h4>
-          <p class="text-center h6" aria-label="{{ block.settings.product_vendor }}">{{ block.settings.product_vendor }}</p>
+          <h3 class="release__item-product-title text-center" aria-label="{{ block.settings.product_title }}">{{ block.settings.product_title }}</h3>
+          <p class="text-center vendor smallcaps" aria-label="{{ block.settings.product_vendor }}">{{ block.settings.product_vendor }}</p>
           <p class="text-subdued text-center" aria-label="{{ block.settings.product_price }}">{{ block.settings.product_price }}</p>
         </a>
       {% endfor %}
@@ -27,6 +27,7 @@
   }
   .release__item-product-title {
     font-family: var(--text-font-family);
+    font-weight: 300;
   }
   .release__item-title {
     font-family: var(--text-font-family);
