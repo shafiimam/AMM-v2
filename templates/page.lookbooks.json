@@ -321,6 +321,7 @@
         },
         "look_m6AmtE": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/photographertee.jpg",
             "hot_spots_background": "#ffffff",

@@ -124,6 +124,24 @@
         "remove_top_padding": false
       }
     },
+    "3d_gallery_Y9qVkB": {
+      "type": "3d-gallery",
+      "custom_css": [],
+      "settings": {
+        "title": "Look Closer",
+        "start_index": "1",
+        "end_index": "50",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/1774_GOERLITZ_ORANGE_360-",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/goerlitz-1774-leve-1",
+        "knob_position": 100,
+        "gallery_width": 50,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
     "featured_collections_e4qJwn": {
       "type": "featured-collections",
       "blocks": {
@@ -151,24 +169,6 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 0.6,
         "subheading": ""
-      }
-    },
-    "3d_gallery_Y9qVkB": {
-      "type": "3d-gallery",
-      "custom_css": [],
-      "settings": {
-        "title": "Look Closer",
-        "start_index": "1",
-        "end_index": "50",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/1774_GOERLITZ_ORANGE_360-",
-        "button_label": "Shop Now",
-        "button_link": "shopify://products/goerlitz-1774-leve-1",
-        "knob_position": 100,
-        "gallery_width": 50,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
       }
     },
     "featured_collections_Dtrtbp": {
@@ -205,8 +205,8 @@
     "main",
     "image_with_text_custom_qxrkki",
     "section_rounded_text_column_3Ff7F4",
-    "featured_collections_e4qJwn",
     "3d_gallery_Y9qVkB",
+    "featured_collections_e4qJwn",
     "featured_collections_Dtrtbp"
   ]
 }
