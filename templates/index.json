@@ -703,12 +703,31 @@
     "media_grid_DzxzqH": {
       "type": "media-grid",
       "blocks": {
-        "image_U6Am3q": {
+        "image_qa3TnM": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC03312_DC.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "T-SHIRTS",
+            "link_url": "shopify://collections/new-t-shirts",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_U6Am3q": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
             "image": "shopify://shop_images/HATGRID.jpg",
-            "column_count": "4",
+            "column_count": "8",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -725,14 +744,32 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/FLANNELGRID.jpg",
+            "image": "shopify://shop_images/ERD.768x920.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "FLANNELS",
-            "link_url": "shopify://collections/flannels",
+            "link_text": "KNITS",
+            "link_url": "shopify://collections/new-knits",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MjnGXF": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMxADIDEM.59FIFTYCAPS.768x920.jpg",
+            "column_count": "8",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "HOODIES",
+            "link_url": "shopify://collections/hoodies",
             "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -743,7 +780,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/FALLTRANSITION.jpg",
+            "image": "shopify://shop_images/ECDSC01160_DC_1.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -757,36 +794,18 @@
             "overlay_opacity": 0
           }
         },
-        "image_MjnGXF": {
+        "image_a39rUW": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/JACKETGRID.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/AVIREX.768x920.jpg",
+            "column_count": "12",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "JACKETS",
             "link_url": "shopify://collections/jackets",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_a39rUW": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/SWEATS_a30bd32c-2b6f-46c9-88c2-3a8ba087c2f2.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SWEATPANTS",
-            "link_url": "shopify://collections/new-sweatpants",
             "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -814,10 +833,11 @@
         }
       },
       "block_order": [
+        "image_qa3TnM",
         "image_U6Am3q",
         "image_MHFH6K",
-        "image_HQP6pW",
         "image_MjnGXF",
+        "image_HQP6pW",
         "image_a39rUW",
         "image_EEcWhz"
       ],
@@ -827,7 +847,7 @@
         "desktop_row_height": 410,
         "mobile_row_height": 180,
         "section_width": "lg",
-        "spacing": "sm",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
