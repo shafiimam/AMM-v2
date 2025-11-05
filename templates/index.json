@@ -429,13 +429,13 @@
         "collection_rf3dw4"
       ],
       "settings": {
-        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+        "color_scheme": "scheme-1",
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.7,
+        "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -931,6 +931,24 @@
         "subheading": ""
       }
     },
+    "blocks_xhmELd": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_WLtjpU": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 40,
+            "height_desktop": 80
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_WLtjpU"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
     "video_PWhD8P": {
       "type": "video",
       "blocks": {
@@ -1282,6 +1300,7 @@
     "media_grid_DzxzqH",
     "featured_collections_4UQQmj",
     "featured_collections_bFrXKx",
+    "blocks_xhmELd",
     "video_PWhD8P",
     "176076770152fa2223",
     "1760761019d74231a6",
