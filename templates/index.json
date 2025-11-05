@@ -404,10 +404,10 @@
         "collection_rf3dw4": {
           "type": "collection",
           "settings": {
-            "collection": "new-home",
+            "collection": "a-ma-maniere",
             "products_count": 4,
-            "title": "SHOP HOME GOODS",
-            "link_url": "shopify://collections/new-home",
+            "title": "A MA MANIÉRE",
+            "link_url": "shopify://collections/a-ma-maniere",
             "link_text": "SHOP COLLECTION"
           }
         }
@@ -416,7 +416,7 @@
         "collection_rf3dw4"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
@@ -858,6 +858,7 @@
       "blocks": {
         "collection_qtemLY": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "new-denim",
             "products_count": 8,
