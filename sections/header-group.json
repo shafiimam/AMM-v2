@@ -72,32 +72,9 @@
             "image_2_link": ""
           }
         },
-        "release_WVNPY6": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.01",
-            "release_image": "shopify://shop_images/AF1XKOBEBLACK-1.jpg",
-            "product_title": "NIKE KOBE AIR FORCE 1 LOW",
-            "product_vendor": "NIKE",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-air-force-1-low"
-          }
-        },
-        "release_gqRjaj": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.01",
-            "release_image": "shopify://shop_images/AIRBALTORO-1_5518844b-76db-4b21-b2c5-61b6c77ef3ba.jpg",
-            "product_title": "NIKE AIR BALTORO \"BRIGHT SPRUCE/KUMQUAT\"",
-            "product_vendor": "NIKE",
-            "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-baltoro"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.06",
             "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
@@ -139,17 +116,27 @@
             "product_price": "$160.00",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l"
           }
+        },
+        "release_rgbJLP": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.13",
+            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAM-1_63cc9828-e246-4937-a583-8c8296cb3cd2.jpg",
+            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"FLORAL BLACK\"",
+            "product_vendor": "VANS",
+            "product_price": "$160.00",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_WVNPY6",
-        "release_gqRjaj",
         "release_6QqqMN",
         "release_Xg6mnY",
         "release_HVcayN",
-        "release_nAhaJK"
+        "release_nAhaJK",
+        "release_rgbJLP"
       ],
       "settings": {
         "color_scheme": "scheme-2",

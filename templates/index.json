@@ -344,6 +344,7 @@
       "blocks": {
         "release_xMtct7": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.06",
             "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
@@ -385,13 +386,25 @@
             "product_price": "$160",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l"
           }
+        },
+        "release_tYRKqB": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.13",
+            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAM-1_63cc9828-e246-4937-a583-8c8296cb3cd2.jpg",
+            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"FLORAL BLACK\"",
+            "product_vendor": "VANS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
+          }
         }
       },
       "block_order": [
         "release_xMtct7",
         "release_tTFrnC",
         "release_P6UxPQ",
-        "release_G9YFxB"
+        "release_G9YFxB",
+        "release_tYRKqB"
       ],
       "name": "Releases",
       "settings": {
