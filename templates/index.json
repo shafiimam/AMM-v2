@@ -18,6 +18,7 @@
       "blocks": {
         "image_d33cGg": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/RAREAMM2.jpg",
             "mobile_image": "shopify://shop_images/RARE_AIR_Jordan_11_design.png",
