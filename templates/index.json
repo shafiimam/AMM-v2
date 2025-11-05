@@ -339,6 +339,35 @@
         "image_cta_url": "shopify://collections/thug-club"
       }
     },
+    "featured_collections_tPwjbc": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_rf3dw4": {
+          "type": "collection",
+          "settings": {
+            "collection": "sneakers",
+            "products_count": 4,
+            "title": "FOOTWEAR",
+            "link_url": "shopify://collections/sneakers",
+            "link_text": "SHOP COLLECTION"
+          }
+        }
+      },
+      "block_order": [
+        "collection_rf3dw4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
@@ -411,10 +440,10 @@
         "title": "Releases"
       }
     },
-    "featured_collections_tPwjbc": {
+    "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
-        "collection_rf3dw4": {
+        "collection_Q7Rc3m": {
           "type": "collection",
           "settings": {
             "collection": "a-ma-maniere",
@@ -426,7 +455,7 @@
         }
       },
       "block_order": [
-        "collection_rf3dw4"
+        "collection_Q7Rc3m"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -1290,8 +1319,9 @@
     "slideshow_QGYQ6e",
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
-    "releases_LeDFdB",
     "featured_collections_tPwjbc",
+    "releases_LeDFdB",
+    "featured_collections_WMah7x",
     "before-after",
     "media_grid_p7EKPQ",
     "collection_list_cLGdiA",
