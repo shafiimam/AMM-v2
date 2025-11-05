@@ -406,8 +406,8 @@
           "settings": {
             "collection": "new-home",
             "products_count": 4,
-            "title": "A MA MANIÉRE",
-            "link_url": "shopify://collections/a-ma-maniere",
+            "title": "SHOP HOME GOODS",
+            "link_url": "shopify://collections/new-home",
             "link_text": "SHOP COLLECTION"
           }
         }
