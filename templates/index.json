@@ -16,27 +16,26 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_d33cGg": {
+        "image_tUfJaV": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/RAREAMM2.jpg",
-            "mobile_image": "shopify://shop_images/RARE_AIR_Jordan_11_design.png",
-            "subheading": "<p><strong>AVAILABLE IN-STORE ONLY 12 PM LOCAL TIME</strong></p>",
-            "subheading_size": 22,
-            "title": "<h3><strong>AIR JORDAN 11 RETRO \"RARE AIR\"</strong></h3>",
-            "title_size": 29,
-            "mobile_text_position": "place-self-start-center text-center",
+            "image": "shopify://shop_images/thugclub2.jpg",
+            "subheading": "",
+            "subheading_size": 17,
+            "title": "<p><strong>THUG CLUB</strong></p>",
+            "title_size": 27,
+            "mobile_text_position": "place-self-start-end text-end",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 760,
-            "button_1_text": "",
-            "button_1_link": "shopify://pages/our-stores",
-            "button_1_style": "solid",
+            "content_max_width": 800,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/nike-lab",
+            "button_1_style": "link",
             "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
+            "button_1_text_color": "#1c1c1c",
             "button_2_text": "",
             "button_2_link": "",
-            "button_2_style": "outline",
+            "button_2_style": "solid",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
@@ -165,45 +164,14 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
-        },
-        "image_tUfJaV": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/hbcudeskamm2.jpg",
-            "mobile_image": "shopify://shop_images/HBCUMOB1.jpg",
-            "subheading": "",
-            "subheading_size": 17,
-            "title": "<p><strong>NIKE AIR MAX \"YARDRUNNERS\"</strong></p>",
-            "title_size": 27,
-            "mobile_text_position": "place-self-start-end text-end",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 800,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/nike-lab",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#1c1c1c",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
-        "image_d33cGg",
+        "image_tUfJaV",
         "video_TrrkwE",
         "video_9VQBMz",
         "image_bJcB48",
-        "video_EUxE7d",
-        "image_tUfJaV"
+        "video_EUxE7d"
       ],
       "settings": {
         "allow_transparent_header": true,
