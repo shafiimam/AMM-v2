@@ -73,6 +73,35 @@
         "remove_vertical_spacing": true
       }
     },
+    "featured_collections_e4qJwn": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_pn7rp4": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-boots",
+            "products_count": 8,
+            "title": "BOOTS",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_pn7rp4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
+    },
     "section_rounded_text_column_3Ff7F4": {
       "type": "section-rounded-text-column",
       "blocks": {
@@ -142,45 +171,16 @@
         "bottom_text": "Now"
       }
     },
-    "featured_collections_e4qJwn": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_pn7rp4": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-boots",
-            "products_count": 8,
-            "title": "BOOTS",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_pn7rp4"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.6,
-        "subheading": ""
-      }
-    },
     "featured_collections_Dtrtbp": {
       "type": "featured-collections",
       "blocks": {
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "new-balance",
+            "collection": "adidas",
             "products_count": 8,
-            "title": "You May Also Like",
-            "link_url": "",
+            "title": "Adidas",
+            "link_url": "shopify://collections/adidas",
             "link_text": ""
           }
         }
@@ -204,9 +204,9 @@
   "order": [
     "main",
     "image_with_text_custom_qxrkki",
-    "section_rounded_text_column_3Ff7F4",
-    "3d_gallery_Y9qVkB",
     "featured_collections_e4qJwn",
-    "featured_collections_Dtrtbp"
+    "section_rounded_text_column_3Ff7F4",
+    "featured_collections_Dtrtbp",
+    "3d_gallery_Y9qVkB"
   ]
 }
