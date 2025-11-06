@@ -65,8 +65,8 @@
           "type": "image_card",
           "settings": {
             "image": "shopify://shop_images/RICKMOBILE3.jpg",
-            "button_text": "Shop The Look",
-            "button_url": "https://www.a-ma-maniere.com/collections/rick-owens/products/rick-owens-jumbo-ss-tee-olive",
+            "button_text": "",
+            "button_url": "",
             "product_index": 5,
             "column_span": 2,
             "row_span": 2,
