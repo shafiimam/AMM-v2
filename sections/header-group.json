@@ -48,6 +48,7 @@
       "blocks": {
         "mega_menu_wJYUCr": {
           "type": "mega_menu",
+          "name": "SHOP DROP DOWN",
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
@@ -61,6 +62,7 @@
         },
         "mega_menu_px7EJK": {
           "type": "mega_menu",
+          "name": "BRANDS DROP DOWN",
           "settings": {
             "menu_item": "Brands",
             "images_position": "right",
@@ -72,21 +74,20 @@
             "image_2_link": ""
           }
         },
-        "release_HVcayN": {
+        "release_6QqqMN": {
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "11.08",
-            "release_image": "shopify://shop_images/AJ12TAXI-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"TAXI\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$215.00",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-taxi"
+            "release_title": "11.06",
+            "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
+            "product_title": "NIKE AIR MAX 95 BIG BUBBLE ZIP \"BLACK\"",
+            "product_vendor": "NIKE",
+            "product_price": "$210.00",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-zip"
           }
         },
         "release_Xg6mnY": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "11.08",
             "release_image": "shopify://shop_images/JJJJOUNDSUEDE2-1.jpg",
@@ -94,6 +95,17 @@
             "product_vendor": "PUMA",
             "product_price": "$150.00",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-jjjjound-suede-2"
+          }
+        },
+        "release_HVcayN": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.08",
+            "release_image": "shopify://shop_images/AJ12TAXI-1.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"TAXI\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$215.00",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-taxi"
           }
         },
         "release_nAhaJK": {
@@ -117,27 +129,16 @@
             "product_price": "$160.00",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
           }
-        },
-        "release_6QqqMN": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.13",
-            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAMBLKWHT-1.jpg",
-            "product_title": "OTW OLD SKOOL 36 VIBRAM \"SILVER GREY\"",
-            "product_vendor": "VANS",
-            "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/otw-old-skool-36-vibram-silver-grey"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_HVcayN",
+        "release_6QqqMN",
         "release_Xg6mnY",
+        "release_HVcayN",
         "release_nAhaJK",
-        "release_rgbJLP",
-        "release_6QqqMN"
+        "release_rgbJLP"
       ],
       "settings": {
         "color_scheme": "scheme-2",
