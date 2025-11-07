@@ -98,18 +98,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-jjjjound-suede-2"
           }
         },
-        "release_HVcayN": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.13",
-            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAMBLKWHT-1.jpg",
-            "product_title": "OTW OLD SKOOL 36 VIBRAM \"SILVER GREY\"",
-            "product_vendor": "VANS",
-            "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/otw-old-skool-36-vibram-silver-grey"
-          }
-        },
         "release_nAhaJK": {
           "type": "release",
           "settings": {
@@ -131,6 +119,17 @@
             "product_price": "$160.00",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
           }
+        },
+        "release_HVcayN": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.13",
+            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAMBLKWHT-1.jpg",
+            "product_title": "OTW OLD SKOOL 36 VIBRAM \"SILVER GREY\"",
+            "product_vendor": "VANS",
+            "product_price": "$145",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/otw-old-skool-36-vibram-silver-grey"
+          }
         }
       },
       "block_order": [
@@ -138,9 +137,9 @@
         "mega_menu_px7EJK",
         "release_6QqqMN",
         "release_Xg6mnY",
-        "release_HVcayN",
         "release_nAhaJK",
-        "release_rgbJLP"
+        "release_rgbJLP",
+        "release_HVcayN"
       ],
       "settings": {
         "color_scheme": "scheme-2",
