@@ -158,22 +158,22 @@
         "remove_top_padding": false
       }
     },
-    "featured_collections_e4qJwn": {
+    "featured_collections_Dtrtbp": {
       "type": "featured-collections",
       "blocks": {
-        "collection_pn7rp4": {
+        "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "new-nylon-jackets",
+            "collection": "scarves",
             "products_count": 8,
-            "title": "NYLON JACKETS",
-            "link_url": "shopify://collections/new-nylon-jackets",
+            "title": "OUTERWEAR ACCESSORIES",
+            "link_url": "shopify://collections/scarves",
             "link_text": ""
           }
         }
       },
       "block_order": [
-        "collection_pn7rp4"
+        "collection_7VVCVQ"
       ],
       "settings": {
         "color_scheme": "",
@@ -262,6 +262,35 @@
         "content": ""
       }
     },
+    "featured_collections_e4qJwn": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_pn7rp4": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-knits",
+            "products_count": 8,
+            "title": "Luxury in Layers",
+            "link_url": "shopify://collections/new-knits",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_pn7rp4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
+    },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "disabled": true,
@@ -279,35 +308,6 @@
         "top_text": "Try",
         "bottom_text": "Now"
       }
-    },
-    "featured_collections_Dtrtbp": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_7VVCVQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "scarves",
-            "products_count": 8,
-            "title": "OUTERWEAR ACCESSORIES",
-            "link_url": "shopify://collections/scarves",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_7VVCVQ"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.6,
-        "subheading": ""
-      }
     }
   },
   "order": [
@@ -316,9 +316,9 @@
     "rich_text_wppe8r",
     "image_with_text_block_mTzP8F",
     "image_with_text_3RCJ8L",
-    "featured_collections_e4qJwn",
+    "featured_collections_Dtrtbp",
     "media_grid_NdQyMT",
-    "3d_gallery_Y9qVkB",
-    "featured_collections_Dtrtbp"
+    "featured_collections_e4qJwn",
+    "3d_gallery_Y9qVkB"
   ]
 }
