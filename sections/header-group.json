@@ -88,6 +88,7 @@
         },
         "release_Xg6mnY": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.08",
             "release_image": "shopify://shop_images/JJJJOUNDSUEDE2-1.jpg",
@@ -99,13 +100,14 @@
         },
         "release_HVcayN": {
           "type": "release",
+          "disabled": true,
           "settings": {
-            "release_title": "11.08",
-            "release_image": "shopify://shop_images/AJ12TAXI-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"TAXI\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$215.00",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-taxi"
+            "release_title": "11.13",
+            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAMBLKWHT-1.jpg",
+            "product_title": "OTW OLD SKOOL 36 VIBRAM \"SILVER GREY\"",
+            "product_vendor": "VANS",
+            "product_price": "$145",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/otw-old-skool-36-vibram-silver-grey"
           }
         },
         "release_nAhaJK": {
