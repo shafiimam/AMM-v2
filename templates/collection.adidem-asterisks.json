@@ -104,14 +104,14 @@
         "heading_MAfpmm": {
           "type": "heading",
           "settings": {
-            "text": "ADIDEM ASTERISKS",
+            "text": "ADIDEM ASTERISKS*",
             "heading_tag": "h1"
           }
         },
         "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>ADIDEM ASTERISKS</strong> is rooted in movement and meaning, the collection fuses classic athletic codes with cultural depth — from track silhouettes and knit polos to statement caps and premium detailing. Every piece carries the mark of authenticity and individuality that both brands stand for.</p>",
+            "content": "<p><strong>ADIDEM ASTERISKS*</strong> is rooted in movement and meaning, the collection fuses classic athletic codes with cultural depth — from track silhouettes and knit polos to statement caps and premium detailing. Every piece carries the mark of authenticity and individuality that both brands stand for.</p>",
             "text_color": "#535353"
           }
         }
