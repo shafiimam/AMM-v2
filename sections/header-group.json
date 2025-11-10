@@ -48,6 +48,7 @@
       "blocks": {
         "mega_menu_wJYUCr": {
           "type": "mega_menu",
+          "name": "SHOP DROP DOWN",
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
@@ -61,6 +62,7 @@
         },
         "mega_menu_px7EJK": {
           "type": "mega_menu",
+          "name": "BRANDS DROP DOWN",
           "settings": {
             "menu_item": "Brands",
             "images_position": "right",
@@ -72,32 +74,9 @@
             "image_2_link": ""
           }
         },
-        "release_WVNPY6": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.01",
-            "release_image": "shopify://shop_images/AF1XKOBEBLACK-1.jpg",
-            "product_title": "NIKE KOBE AIR FORCE 1 LOW",
-            "product_vendor": "NIKE",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-kobe-air-force-1-low"
-          }
-        },
-        "release_gqRjaj": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.01",
-            "release_image": "shopify://shop_images/AIRBALTORO-1_5518844b-76db-4b21-b2c5-61b6c77ef3ba.jpg",
-            "product_title": "NIKE AIR BALTORO \"BRIGHT SPRUCE/KUMQUAT\"",
-            "product_vendor": "NIKE",
-            "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-baltoro"
-          }
-        },
         "release_6QqqMN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.06",
             "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
@@ -109,6 +88,7 @@
         },
         "release_Xg6mnY": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.08",
             "release_image": "shopify://shop_images/JJJJOUNDSUEDE2-1.jpg",
@@ -118,17 +98,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-jjjjound-suede-2"
           }
         },
-        "release_HVcayN": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.08",
-            "release_image": "shopify://shop_images/AJ12TAXI-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"TAXI\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$215.00",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-taxi"
-          }
-        },
         "release_nAhaJK": {
           "type": "release",
           "settings": {
@@ -136,20 +105,41 @@
             "release_image": "shopify://shop_images/NB1906LBLK-1.jpg",
             "product_title": "NEW BALANCE 1906L",
             "product_vendor": "NEW BALANCE",
-            "product_price": "$160.00",
+            "product_price": "$160",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l"
+          }
+        },
+        "release_rgbJLP": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.13",
+            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAM-1_63cc9828-e246-4937-a583-8c8296cb3cd2.jpg",
+            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"FLORAL BLACK\"",
+            "product_vendor": "VANS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
+          }
+        },
+        "release_HVcayN": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.13",
+            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAMBLKWHT-1.jpg",
+            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"SILVER GREY\"",
+            "product_vendor": "VANS",
+            "product_price": "$145",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/otw-old-skool-36-vibram-silver-grey"
           }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_WVNPY6",
-        "release_gqRjaj",
         "release_6QqqMN",
         "release_Xg6mnY",
-        "release_HVcayN",
-        "release_nAhaJK"
+        "release_nAhaJK",
+        "release_rgbJLP",
+        "release_HVcayN"
       ],
       "settings": {
         "color_scheme": "scheme-2",

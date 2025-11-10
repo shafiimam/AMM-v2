@@ -93,6 +93,7 @@
     },
     "image_with_text_block_mTzP8F": {
       "type": "image-with-text-block",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "image_size": "md",
@@ -109,14 +110,14 @@
         "heading_6KUjqd": {
           "type": "heading",
           "settings": {
-            "text": "A Ma Maniére Petratex Nylon Reversible Bomber Jacket",
+            "text": "A MA MANIÉRE STADIUM JACKET",
             "heading_tag": "h1"
           }
         },
         "richtext_KgnhFQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Built for those who live at the intersection of purpose and poise, the A Ma Maniére Petratex Nylon Reversible Bomber is a modern essential—redefined. With a sleek silhouette and dual-wear design, this piece delivers effortless versatility, adapting to every setting without compromising intention.</p><p>Crafted from 100% premium Limonta Nylon with refined detailing—ribbed trims, logo-engraved snap closures, and subtle branding—it’s a quiet declaration of style that speaks volumes. From dusk to dawn, street to suite, this jacket transforms with you.This is not just reversible. It’s reliable. Remarkable. And unmistakably A Ma Maniére. </p>",
+            "content": "<p>Elevate your everyday with the A Ma Manière Stadium Jacket. A seamless blend of classic sportswear and refined luxury, this jacket wraps you in warmth and sophistication. Crafted with impeccable attention to detail, it’s more than just a piece of outerwear—it's a statement. With clean lines, premium fabric, and timeless design, this jacket is made for those who appreciate the art of fine fashion. Perfect for any occasion, it’s the piece that effortlessly transforms your look and leaves a lasting impression. Wear it, love it, make it yours.</p>",
             "text_color": "#535353"
           }
         },
@@ -125,7 +126,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop Now",
-            "url": "shopify://products/a-ma-maniere-petratex-nylon-reversible-bomber-jacket",
+            "url": "shopify://products/a-ma-maniere-cropped-stadium-jacket-1",
             "background": "",
             "text_color": ""
           }
@@ -144,8 +145,12 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/nylon_b84de42d-83ed-4604-8306-57711d82363e.jpg",
-        "mobile_image": "shopify://shop_images/nylon_a87a230a-fe58-4919-a890-506e0632f901.jpg",
+        "image": "shopify://shop_images/FLEECE1.jpg",
+        "mobile_image": "shopify://shop_images/FLEECE1.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -153,22 +158,22 @@
         "remove_top_padding": false
       }
     },
-    "featured_collections_e4qJwn": {
+    "featured_collections_Dtrtbp": {
       "type": "featured-collections",
       "blocks": {
-        "collection_pn7rp4": {
+        "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "jackets",
+            "collection": "scarves",
             "products_count": 8,
-            "title": "jackets",
-            "link_url": "",
+            "title": "OUTERWEAR ACCESSORIES",
+            "link_url": "shopify://collections/scarves",
             "link_text": ""
           }
         }
       },
       "block_order": [
-        "collection_pn7rp4"
+        "collection_7VVCVQ"
       ],
       "settings": {
         "color_scheme": "",
@@ -189,16 +194,16 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/vjackets_2104abd3-9564-438c-9765-00c271bfdbc1.jpg",
+            "image": "shopify://shop_images/hoodie2_f0723287-90b3-4054-9a40-91c9269726ae.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/junya-watanabe-coat",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
+            "link_text": "Hoodies",
+            "link_url": "shopify://collections/new-sweatshirts",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -207,16 +212,16 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/blue2_e2a300cf-03be-4df5-9e32-895ebfb24f5f.jpg",
+            "image": "shopify://shop_images/BOMBER_c2cd80a3-d291-43c1-8607-c79ea79f0c7a.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/junya-watanabe-coat",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
+            "link_text": "BOMBERS",
+            "link_url": "shopify://collections/new-bomber-jackets",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -225,16 +230,16 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/blackvarsity2_3b2b9d87-79b3-41f7-895b-5d04a497de64.jpg",
+            "image": "shopify://shop_images/DENIM2.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/junya-watanabe-coat",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
+            "link_text": "Denim Jackets",
+            "link_url": "shopify://collections/new-denim-jackets",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -248,43 +253,31 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "desktop_row_height": 290,
+        "desktop_row_height": 250,
         "mobile_row_height": 180,
         "section_width": "lg",
-        "spacing": "md",
+        "spacing": "sm",
         "subheading": "",
-        "title": "A CLOSER LOOK",
+        "title": "",
         "content": ""
       }
     },
-    "3d_gallery_Y9qVkB": {
-      "type": "3d-gallery",
-      "disabled": true,
-      "settings": {
-        "title": "Look Closer",
-        "start_index": "268",
-        "end_index": "318",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC04",
-        "button_label": "Shop Now",
-        "button_link": ""
-      }
-    },
-    "featured_collections_Dtrtbp": {
+    "featured_collections_e4qJwn": {
       "type": "featured-collections",
       "blocks": {
-        "collection_7VVCVQ": {
+        "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-denim-jackets",
+            "collection": "new-knits",
             "products_count": 8,
-            "title": "You May Also Like",
-            "link_url": "shopify://pages/outerwear",
+            "title": "Luxury in Layers",
+            "link_url": "shopify://collections/new-knits",
             "link_text": ""
           }
         }
       },
       "block_order": [
-        "collection_7VVCVQ"
+        "collection_pn7rp4"
       ],
       "settings": {
         "color_scheme": "",
@@ -297,6 +290,24 @@
         "vertical_spacing_factor": 0.6,
         "subheading": ""
       }
+    },
+    "3d_gallery_Y9qVkB": {
+      "type": "3d-gallery",
+      "disabled": true,
+      "settings": {
+        "title": "Look Closer",
+        "start_index": "268",
+        "end_index": "318",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC04",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
     }
   },
   "order": [
@@ -305,9 +316,9 @@
     "rich_text_wppe8r",
     "image_with_text_block_mTzP8F",
     "image_with_text_3RCJ8L",
-    "featured_collections_e4qJwn",
+    "featured_collections_Dtrtbp",
     "media_grid_NdQyMT",
-    "3d_gallery_Y9qVkB",
-    "featured_collections_Dtrtbp"
+    "featured_collections_e4qJwn",
+    "3d_gallery_Y9qVkB"
   ]
 }

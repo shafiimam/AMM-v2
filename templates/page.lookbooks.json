@@ -78,6 +78,62 @@
         "look_yJznKb": {
           "type": "look",
           "settings": {
+            "image": "shopify://shop_images/900x900furshorts.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "thug-club-dragon-chopper-hood-black",
+            "product_1_horizontal_position": 40,
+            "product_1_vertical_position": 36,
+            "product_2": "thug-club-dragon-chopper-tee-white",
+            "product_2_horizontal_position": 57,
+            "product_2_vertical_position": 50,
+            "product_3": "thug-club-bone-fur-shorts-ivory",
+            "product_3_horizontal_position": 46,
+            "product_3_vertical_position": 71,
+            "product_4": "",
+            "product_4_horizontal_position": 59,
+            "product_4_vertical_position": 10
+          }
+        },
+        "look_a4pUDf": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/900x900.furhat.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "thug-club-tc-skull-t-shirt-white",
+            "product_1_horizontal_position": 38,
+            "product_1_vertical_position": 57,
+            "product_2": "thug-club-bone-leather-denim-blue",
+            "product_2_horizontal_position": 38,
+            "product_2_vertical_position": 78,
+            "product_3": "thug-club-chimera-beanie-black",
+            "product_3_horizontal_position": 45,
+            "product_3_vertical_position": 10,
+            "product_4": "",
+            "product_4_horizontal_position": 44,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_yJznKb",
+        "look_a4pUDf"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "FALL STYLE GUIDE",
+        "content": "",
+        "popover_title": "FALL STLYE GUIDE"
+      }
+    },
+    "shop_the_look_nzdMTn": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_8CpcMt": {
+          "type": "look",
+          "settings": {
             "image": "shopify://shop_images/WILLYSTL2.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "willy-chavarria-casa-chavarria-tee-black",
@@ -94,7 +150,7 @@
             "product_4_vertical_position": 10
           }
         },
-        "look_a4pUDf": {
+        "look_eEFgFa": {
           "type": "look",
           "settings": {
             "image": "shopify://shop_images/SHOPTL2.png",
@@ -115,15 +171,15 @@
         }
       },
       "block_order": [
-        "look_yJznKb",
-        "look_a4pUDf"
+        "look_8CpcMt",
+        "look_eEFgFa"
       ],
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "subheading": "",
-        "title": "FALL STYLE GUIDE",
+        "title": "",
         "content": "",
         "popover_title": "FALL STLYE GUIDE"
       }
@@ -234,7 +290,7 @@
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "subheading": "",
         "title": "",
         "content": "",
@@ -290,7 +346,7 @@
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "subheading": "",
         "title": "",
         "content": "",
@@ -347,7 +403,7 @@
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "subheading": "",
         "title": "",
         "content": "",
@@ -403,7 +459,7 @@
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "subheading": "",
         "title": "",
         "content": "",
@@ -481,6 +537,7 @@
     "video_AcwF8i",
     "featured_collections_QK7GxU",
     "shop_the_look_bD4LRj",
+    "shop_the_look_nzdMTn",
     "shop_the_look_g86WFx",
     "shop_the_look_H6HxCd",
     "shop_the_look_tCR9np",

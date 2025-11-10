@@ -16,21 +16,50 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_tUfJaV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/thugclub2.jpg",
+            "subheading": "",
+            "subheading_size": 17,
+            "title": "<p><strong>THUG CLUB</strong></p>",
+            "title_size": 27,
+            "mobile_text_position": "place-self-start-end text-end",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 800,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/thug-club",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_TrrkwE": {
           "type": "video",
+          "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/FINAL 1 NO LOGO.mov",
-            "mobile_video": "shopify://files/videos/FINAL 1 NO LOGO.mov",
+            "video": "shopify://files/videos/THUG CLUB WEB.mov",
+            "mobile_video": "shopify://files/videos/THUG CLUB WEB.mov",
             "allow_sound": true,
             "subheading": "",
             "subheading_size": 18,
-            "title": "AVIREX",
+            "title": "THUG CLUB",
             "title_size": 36,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 740,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/avirex",
+            "button_1_link": "shopify://collections/thug-club",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -44,6 +73,36 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
+          }
+        },
+        "video_9VQBMz": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/FINAL 1 NO LOGO.mov",
+            "mobile_video": "shopify://files/videos/FINAL 1 NO LOGO.mov",
+            "allow_sound": true,
+            "subheading": "shop new colors and styles",
+            "subheading_size": 17,
+            "title": "AVIREX",
+            "title_size": 27,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify://collections/avirex",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
         "image_bJcB48": {
@@ -77,6 +136,7 @@
         },
         "video_EUxE7d": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMA STUSSY.mov",
             "mobile_video": "shopify://files/videos/AMA STUSSY.mov",
@@ -104,106 +164,14 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
-        },
-        "image_tUfJaV": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/hbcudeskamm2.jpg",
-            "mobile_image": "shopify://shop_images/HBCUMOB1.jpg",
-            "subheading": "",
-            "subheading_size": 17,
-            "title": "<p><strong>NIKE AIR MAX \"YARDRUNNERS\"</strong></p>",
-            "title_size": 27,
-            "mobile_text_position": "place-self-start-end text-end",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 800,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/nike-lab",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#1c1c1c",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_d33cGg": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/NB991V2MADEINUK.png",
-            "mobile_image": "shopify://shop_images/AMA991v2Mob.png",
-            "subheading": "<p><strong>IN-STORE AND ONLINE </strong></p>",
-            "subheading_size": 19,
-            "title": "<p>New Balance MADE in UK 991v2 Pack</p>",
-            "title_size": 22,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 760,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/new-balance",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "video_9VQBMz": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/AMM HATS AGAIN.mov",
-            "mobile_video": "shopify://files/videos/AMM HATS AGAIN.mov",
-            "allow_sound": true,
-            "subheading": "shop new colors and styles",
-            "subheading_size": 17,
-            "title": "A MA MANIÉRE X NEW ERA",
-            "title_size": 27,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify://collections/a-ma-maniere",
-            "button_1_style": "outline",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
         }
       },
       "block_order": [
-        "video_TrrkwE",
-        "image_bJcB48",
-        "video_EUxE7d",
         "image_tUfJaV",
-        "image_d33cGg",
-        "video_9VQBMz"
+        "video_TrrkwE",
+        "video_9VQBMz",
+        "image_bJcB48",
+        "video_EUxE7d"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -298,25 +266,25 @@
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "avirex-traputo-jacket-darkcherry"
+            "product": "thug-club-tc-skull-t-shirt-white"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "avirex-icon-jacket-red"
+            "product": "thug-club-leather-denim-pants-black"
           }
         },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "avirex-icon-leather-jacket-black"
+            "product": "thug-club-chimera-beanie-black"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "avirex-canadian-div-jacket-brown-green"
+            "product": "thug-club-superstar-boot-lux-1"
           }
         }
       },
@@ -331,12 +299,41 @@
       ],
       "settings": {
         "section_alignment": "left",
-        "title": "AVIREX",
+        "title": "THUG CLUB",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/avirexcover.jpg",
-        "image_description": "<p>Born in 1975 to serve U.S. Air Force pilots, <strong>Avirex </strong>rose to become a generational emblem in hip-hop and street culture. Bold leather bombers turned craftsmanship into a symbol of status. Explore the <strong>Avirex</strong> Fall/Winter 2025 Collection now.</p>",
+        "image": "shopify://shop_images/thuglub1.jpg",
+        "image_description": "<p>Discover the bold pedigree of <strong>Thug Club Apparel</strong>, founded in Seoul in 2018 by Min (Thug Min) and Kwon. With its rebellious fusion of hip-hop, motorcycle edge, and high-fashion craft, the brand delivers fearless silhouettes, distressed details, and armor-inspired aesthetics.</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/avirex"
+        "image_cta_url": "shopify://collections/thug-club"
+      }
+    },
+    "featured_collections_tPwjbc": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_rf3dw4": {
+          "type": "collection",
+          "settings": {
+            "collection": "sneakers",
+            "products_count": 4,
+            "title": "FOOTWEAR",
+            "link_url": "shopify://collections/sneakers",
+            "link_text": "SHOP COLLECTION"
+          }
+        }
+      },
+      "block_order": [
+        "collection_rf3dw4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "releases_LeDFdB": {
@@ -344,13 +341,14 @@
       "blocks": {
         "release_xMtct7": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.06",
             "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
             "product_title": "NIKE AIR MAX 95 BIG BUBBLE ZIP \"BLACK\"",
             "product_vendor": "NIKE",
-            "product_price": "$210.00",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-zip"
+            "product_price": "$210",
+            "release_link": ""
           }
         },
         "release_tTFrnC": {
@@ -360,7 +358,7 @@
             "release_image": "shopify://shop_images/JJJJOUNDSUEDE2-1.jpg",
             "product_title": "PUMA JJJJOUND SUEDE 2",
             "product_vendor": "PUMA",
-            "product_price": "$150.00",
+            "product_price": "$150",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-jjjjound-suede-2"
           }
         },
@@ -371,7 +369,7 @@
             "release_image": "shopify://shop_images/AJ12TAXI-1.jpg",
             "product_title": "AIR JORDAN 12 RETRO \"TAXI\"",
             "product_vendor": "JORDAN",
-            "product_price": "$215.00",
+            "product_price": "$215",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-taxi"
           }
         },
@@ -382,8 +380,19 @@
             "release_image": "shopify://shop_images/NB1906LBLK-1.jpg",
             "product_title": "NEW BALANCE 1906L",
             "product_vendor": "NEW BALANCE",
-            "product_price": "$160.00",
+            "product_price": "$160",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l"
+          }
+        },
+        "release_tYRKqB": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.13",
+            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAM-1_63cc9828-e246-4937-a583-8c8296cb3cd2.jpg",
+            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"FLORAL BLACK\"",
+            "product_vendor": "VANS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
           }
         }
       },
@@ -391,38 +400,40 @@
         "release_xMtct7",
         "release_tTFrnC",
         "release_P6UxPQ",
-        "release_G9YFxB"
+        "release_G9YFxB",
+        "release_tYRKqB"
       ],
+      "disabled": true,
       "name": "Releases",
       "settings": {
         "title": "Releases"
       }
     },
-    "featured_collections_tPwjbc": {
+    "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
-        "collection_rf3dw4": {
+        "collection_Q7Rc3m": {
           "type": "collection",
           "settings": {
-            "collection": "new-home",
+            "collection": "a-ma-maniere",
             "products_count": 4,
-            "title": "SHOP HOME GOODS",
-            "link_url": "shopify://collections/new-home",
-            "link_text": "View all"
+            "title": "A MA MANIÉRE",
+            "link_url": "shopify://collections/a-ma-maniere",
+            "link_text": "SHOP COLLECTION"
           }
         }
       },
       "block_order": [
-        "collection_rf3dw4"
+        "collection_Q7Rc3m"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.7,
+        "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -470,82 +481,6 @@
         "cursor_initial_position": 50,
         "cursor_background": "#efefef",
         "cursor_arrows_color": "#000000"
-      }
-    },
-    "media_grid_p7EKPQ": {
-      "type": "media-grid",
-      "blocks": {
-        "image_e83L6V": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/JAQ1_copy.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://products/jacquemus-le-sweatshirt-baseba",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#1c1c1c",
-            "overlay_opacity": 0
-          }
-        },
-        "image_jMp3XC": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/BAG.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/jacquemus-le-cuerda-horiz",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_4GKrKQ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/jaq1_69b01056-5bf5-4bd4-9487-dd6066068534.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/jacquemus-le-hoodie-torneo",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_e83L6V",
-        "image_jMp3XC",
-        "image_4GKrKQ"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "JACQUEMUS",
-        "content": ""
       }
     },
     "collection_list_cLGdiA": {
@@ -700,144 +635,12 @@
         "button_2_style": "solid"
       }
     },
-    "media_grid_DzxzqH": {
-      "type": "media-grid",
-      "blocks": {
-        "image_U6Am3q": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/HATGRID.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "BEANIES",
-            "link_url": "shopify://collections/new-hats",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_MHFH6K": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FLANNELGRID.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "FLANNELS",
-            "link_url": "shopify://collections/flannels",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_HQP6pW": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FALLTRANSITION.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "FALL ESSENTIALS",
-            "link_url": "shopify://collections/fall-essentials",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_MjnGXF": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/JACKETGRID.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "JACKETS",
-            "link_url": "shopify://collections/jackets",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_a39rUW": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/SWEATS_a30bd32c-2b6f-46c9-88c2-3a8ba087c2f2.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SWEATPANTS",
-            "link_url": "shopify://collections/new-sweatpants",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_EEcWhz": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/jacquemus2.jpg",
-            "column_count": "3",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "JACQUEMUS",
-            "link_url": "shopify://collections/jacquemus",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_U6Am3q",
-        "image_MHFH6K",
-        "image_HQP6pW",
-        "image_MjnGXF",
-        "image_a39rUW",
-        "image_EEcWhz"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 410,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "sm",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "featured_collections_4UQQmj": {
       "type": "featured-collections",
       "blocks": {
         "collection_qtemLY": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "new-denim",
             "products_count": 8,
@@ -897,6 +700,24 @@
         "subheading": ""
       }
     },
+    "blocks_xhmELd": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_WLtjpU": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 40,
+            "height_desktop": 80
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_WLtjpU"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
     "video_PWhD8P": {
       "type": "video",
       "blocks": {
@@ -923,27 +744,52 @@
         "autoplay": true,
         "show_controls": false,
         "video_size": "fill",
-        "video": "shopify://files/videos/Look book 4k.mov",
+        "video": "shopify://files/videos/Carhartt_Nicholas_Daley_Version0231025_16x9_4K_497d4af4-186d-42e0-8221-00d613e8a313.mp4",
         "mobile_video": "shopify://files/videos/Look book 4k.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
-    "176076770152fa2223": {
-      "type": "_blocks",
+    "rich_text_Ntqdch": {
+      "type": "rich-text",
       "blocks": {
-        "ai_gen_block_5edc35c_T4xefR": {
-          "type": "ai_gen_block_5edc35c",
+        "subheading_CqkDrJ": {
+          "type": "subheading",
+          "disabled": true,
           "settings": {
-            "height_mobile": 20,
-            "height_desktop": 20
-          },
-          "blocks": {}
+            "text": "Subheading"
+          }
+        },
+        "heading_BPRrAC": {
+          "type": "heading",
+          "settings": {
+            "text": "<a href=\"/collections/carhartt-wip\" title=\"CARHARTT WIP\">CARHARTT WIP X NICHOLAS DALEY </a>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_ad7gLb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>This capsule pays homage to Daley's Jamaican and Scottish ancestry, fusing reggae culture and musical ephemera. Each piece reflects Daley’s balance of function and flair, reinterpreting Carhartt WIP’s DNA.</h4>"
+          }
         }
       },
       "block_order": [
-        "ai_gen_block_5edc35c_T4xefR"
+        "subheading_CqkDrJ",
+        "heading_BPRrAC",
+        "richtext_ad7gLb"
       ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "176076770152fa2223": {
+      "type": "_blocks",
       "settings": {}
     },
     "1760761019d74231a6": {
@@ -953,14 +799,14 @@
           "type": "ai_gen_block_219fc88",
           "settings": {
             "look_order": "1,2,3,4",
-            "image_aspect_ratio": "2 / 3",
+            "image_aspect_ratio": "1 / 1",
             "card_spacing": 20,
             "content_padding": 20,
             "enable_image_zoom": true,
             "card_background": "#ffffff",
             "text_color": "#1c1c1c",
             "modal_background": "#ffffff",
-            "title_font": "roboto_n4",
+            "title_font": "serif",
             "title_size": 16,
             "title_transform": "uppercase",
             "price_font": "roboto_n4",
@@ -991,15 +837,15 @@
             "modal_border_radius": 0,
             "look_1_enabled": true,
             "look_1_media_type": "image",
-            "look_1_image": "shopify://shop_images/Adobe_Express_-_file_25.jpg",
-            "look_1_title": "Look 1",
+            "look_1_image": "shopify://shop_images/CW43_-_Nicholas_Daley-smo-9x16-men-10.jpg",
+            "look_1_title": "POSTER TEE",
             "look_1_price": "",
-            "look_1_button_type": "modal",
+            "look_1_button_type": "disabled",
             "look_1_button_text": "",
             "look_1_button_link": "",
             "look_1_enable_bag_icon": true,
-            "look_1_product_1": "acne-studios-layered-logo-t-shirt-vintage-green",
-            "look_1_product_2": "acne-studios-printed-trousers-white-green",
+            "look_1_product_1": "carhartt-nicholas-daley-poster-tee-black",
+            "look_1_product_2": "",
             "look_1_product_3": "",
             "look_1_product_4": "",
             "look_1_product_5": "",
@@ -1008,15 +854,15 @@
             "look_1_product_8": "",
             "look_2_enabled": true,
             "look_2_media_type": "image",
-            "look_2_image": "shopify://shop_images/Adobe_Express_-_file_27.jpg",
-            "look_2_title": "Look 2",
+            "look_2_image": "shopify://shop_images/CW43_-_Nicholas_Daley-smo-9x16-men-1.jpg",
+            "look_2_title": "CHORE COAT",
             "look_2_price": "",
-            "look_2_button_type": "modal",
+            "look_2_button_type": "disabled",
             "look_2_button_text": "",
             "look_2_button_link": "",
             "look_2_enable_bag_icon": true,
-            "look_2_product_1": "entire-studios-jool-jacket-grey",
-            "look_2_product_2": "entire-studios-miller-shirt-ivory",
+            "look_2_product_1": "carhartt-nicholas-daley-og-chore-ct-darknavy-mustard",
+            "look_2_product_2": "",
             "look_2_product_3": "",
             "look_2_product_4": "",
             "look_2_product_5": "",
@@ -1025,15 +871,15 @@
             "look_2_product_8": "",
             "look_3_enabled": true,
             "look_3_media_type": "image",
-            "look_3_image": "shopify://shop_images/Adobe_Express_-_file_30.jpg",
-            "look_3_title": "Look 3",
+            "look_3_image": "shopify://shop_images/CW43-Nicholas-Daley-smo-9x16-unisex-1.jpg",
+            "look_3_title": "STRIPES TEE",
             "look_3_price": "",
-            "look_3_button_type": "modal",
+            "look_3_button_type": "disabled",
             "look_3_button_text": "",
             "look_3_button_link": "",
             "look_3_enable_bag_icon": true,
-            "look_3_product_1": "entire-studios-herculean-shirt-indigo",
-            "look_3_product_2": "entire-studios-slem-jeans-indigo",
+            "look_3_product_1": "carhartt-nicholas-daley-stripes-tee-stripes-blue",
+            "look_3_product_2": "",
             "look_3_product_3": "",
             "look_3_product_4": "",
             "look_3_product_5": "",
@@ -1042,16 +888,16 @@
             "look_3_product_8": "",
             "look_4_enabled": true,
             "look_4_media_type": "image",
-            "look_4_image": "shopify://shop_images/DSC06498_DC_1.jpg",
-            "look_4_title": "Look 4",
+            "look_4_image": "shopify://shop_images/CW43_-_Nicholas_Daley-smo-9x16-men-8.jpg",
+            "look_4_title": "DOUBLE KNEE PANT",
             "look_4_price": "",
-            "look_4_button_type": "modal",
+            "look_4_button_type": "disabled",
             "look_4_button_text": "",
             "look_4_button_link": "",
             "look_4_enable_bag_icon": true,
-            "look_4_product_1": "enfants-riches-deprimes-moleskin-work-jacket-purple",
-            "look_4_product_2": "erl-photographer-t-shirt-black",
-            "look_4_product_3": "entire-studios-slem-jeans-black",
+            "look_4_product_1": "carhartt-nicholas-daley-dbl-knee-pnt-dark-navy-mustard",
+            "look_4_product_2": "",
+            "look_4_product_3": "",
             "look_4_product_4": "",
             "look_4_product_5": "",
             "look_4_product_6": "",
@@ -1064,7 +910,237 @@
       "block_order": [
         "ai_gen_block_219fc88_bp9DQ9"
       ],
+      "name": "Ai Shop the look",
       "settings": {}
+    },
+    "media_grid_DzxzqH": {
+      "type": "media-grid",
+      "blocks": {
+        "image_qa3TnM": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC03312_DC.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "T-SHIRTS",
+            "link_url": "shopify://collections/new-t-shirts",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_U6Am3q": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/HATGRID.jpg",
+            "column_count": "8",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "BEANIES",
+            "link_url": "shopify://collections/new-hats",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MHFH6K": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ERD.768x920.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "KNITS",
+            "link_url": "shopify://collections/new-knits",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MjnGXF": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMM1069X900.jpg",
+            "column_count": "8",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "HOODIES",
+            "link_url": "shopify://collections/hoodies",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HQP6pW": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ECDSC01160_DC_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "FALL ESSENTIALS",
+            "link_url": "shopify://collections/fall-essentials",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_a39rUW": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AVIREX.768x920.jpg",
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "JACKETS",
+            "link_url": "shopify://collections/jackets",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EEcWhz": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/jacquemus2.jpg",
+            "column_count": "3",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "JACQUEMUS",
+            "link_url": "shopify://collections/jacquemus",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_qa3TnM",
+        "image_U6Am3q",
+        "image_MHFH6K",
+        "image_MjnGXF",
+        "image_HQP6pW",
+        "image_a39rUW",
+        "image_EEcWhz"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 410,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "Premium COLLECTIONS",
+        "content": ""
+      }
+    },
+    "media_grid_p7EKPQ": {
+      "type": "media-grid",
+      "blocks": {
+        "image_e83L6V": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/JAQ1_copy.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://products/jacquemus-le-sweatshirt-baseba",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#1c1c1c",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jMp3XC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/BAG.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/jacquemus-le-cuerda-horiz",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_4GKrKQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/jaq1_69b01056-5bf5-4bd4-9487-dd6066068534.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/jacquemus-le-hoodie-torneo",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_e83L6V",
+        "image_jMp3XC",
+        "image_4GKrKQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "JACQUEMUS",
+        "content": ""
+      }
     },
     "blog_posts_XjJCVj": {
       "type": "blog-posts",
@@ -1238,19 +1314,22 @@
     "slideshow_QGYQ6e",
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
-    "releases_LeDFdB",
     "featured_collections_tPwjbc",
+    "releases_LeDFdB",
+    "featured_collections_WMah7x",
     "before-after",
-    "media_grid_p7EKPQ",
     "collection_list_cLGdiA",
     "featured-collections",
     "multiple_media_with_text_Lgp4CV",
-    "media_grid_DzxzqH",
     "featured_collections_4UQQmj",
     "featured_collections_bFrXKx",
+    "blocks_xhmELd",
     "video_PWhD8P",
+    "rich_text_Ntqdch",
     "176076770152fa2223",
     "1760761019d74231a6",
+    "media_grid_DzxzqH",
+    "media_grid_p7EKPQ",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",
