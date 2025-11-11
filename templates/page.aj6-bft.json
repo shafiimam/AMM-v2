@@ -22,9 +22,9 @@
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
       "settings": {
-        "image": "shopify://shop_images/NEW_HEADER_MICROSITE2.jpg",
+        "image": "shopify://shop_images/MICROHERO.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
-        "title": "A Ma Maniére x NIKE Air Force 1 \"W.Y.W.S.\"",
+        "title": "A Ma Maniére x Air Jordan 6 retro sp \"smoky mauve\"",
         "title_color": "#ffffff",
         "title_color_mobile": "#ffffff",
         "title_shadow": 17,
@@ -89,7 +89,11 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/COUNTDOWN_IMAGE_fde0414f-67e7-4c96-bcfb-c75a23d5f712.jpg",
+        "image": "shopify://shop_images/63.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
