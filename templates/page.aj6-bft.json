@@ -101,11 +101,22 @@
         "remove_top_padding": true
       }
     },
-    "amm_af1_3d_gallery_JTnxAx": {
-      "type": "amm-af1-3d-gallery",
+    "3d_gallery_iMKpxA": {
+      "type": "3d-gallery",
+      "name": "3D Gallery",
       "settings": {
-        "title": "Explore in 3d",
-        "color_scheme": "scheme-3"
+        "title": "3D Gallery",
+        "start_index": "7",
+        "end_index": "61",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC089",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "media_grid_HwBKby": {
@@ -528,7 +539,7 @@
     "main",
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
-    "amm_af1_3d_gallery_JTnxAx",
+    "3d_gallery_iMKpxA",
     "media_grid_HwBKby",
     "media_grid_4MXqFL"
   ]
