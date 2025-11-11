@@ -78,12 +78,12 @@
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "11.06",
-            "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
-            "product_title": "NIKE AIR MAX 95 BIG BUBBLE ZIP \"BLACK\"",
-            "product_vendor": "NIKE",
-            "product_price": "$210.00",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-zip"
+            "release_title": "11.15",
+            "release_image": "shopify://shop_images/AJ1LOWCHICAGO-1.jpg",
+            "product_title": "AIR JORDAN 1 RETRO LOW OG \"CHICAGO",
+            "product_vendor": "JORDAN",
+            "product_price": "$145.00",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-retro-low-og-chicago"
           }
         },
         "release_nAhaJK": {
