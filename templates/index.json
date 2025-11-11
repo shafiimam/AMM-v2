@@ -46,19 +46,18 @@
         },
         "video_TrrkwE": {
           "type": "video",
+          "name": "AJ6 EQL",
           "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/THUG CLUB WEB.mov",
-            "mobile_video": "shopify://files/videos/THUG CLUB WEB.mov",
             "allow_sound": true,
-            "subheading": "",
+            "subheading": "EXCLUSIVE RELEASE 11.21 AT 11 AM EST",
             "subheading_size": 18,
-            "title": "THUG CLUB",
+            "title": "A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKEY MAUVE\"",
             "title_size": 36,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 740,
-            "button_1_text": "SHOP NOW",
+            "button_1_text": "ENTER DRAW",
             "button_1_link": "shopify://collections/thug-club",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
@@ -745,7 +744,7 @@
         "show_controls": false,
         "video_size": "fill",
         "video": "shopify://files/videos/Carhartt_Nicholas_Daley_Version0231025_16x9_4K_497d4af4-186d-42e0-8221-00d613e8a313.mp4",
-        "mobile_video": "shopify://files/videos/Look book 4k.mov",
+        "mobile_video": "shopify://files/videos/Carhartt_Nicholas_Daley_Version0231025_16x9_4K_497d4af4-186d-42e0-8221-00d613e8a313.mp4",
         "external_video_url": "",
         "text_color": "#ffffff"
       }

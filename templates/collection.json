@@ -9,13 +9,6 @@
  */
 {
   "sections": {
-    "subcollection_nav_dEYCPq": {
-      "type": "subcollection-nav",
-      "name": "Subcollection Navigation",
-      "settings": {
-        "fallback_collection": ""
-      }
-    },
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
@@ -100,7 +93,6 @@
     }
   },
   "order": [
-    "subcollection_nav_dEYCPq",
     "collection-banner",
     "video_tCYxw6",
     "main"
