@@ -61,7 +61,7 @@
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The <strong>A Ma Maniére x NIKE Air Force 1 \"W.Y.W.S.\" </strong>officially launches on 11.22 at 11AM EST on <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong></a>, and all <strong>A Ma Maniére </strong>locations during regular business hours. Footwear is priced at $150 with sizing ranging from W5/M3.5 - W16.5/M15. The <strong>A Ma Maniére x NIKE Destroyer Varsity Jacket \"W.Y.W.S\" </strong>is priced at $600 with unisex sizing ranging from XS-3XL.</p><p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from <strong>11.18 until 11.20</strong>. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p>All available for purchase while supplies last.<br/></p><p>International shipping available.</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "content": "<p></p><p>All available for purchase while supplies last.<br/></p><p>International shipping available.</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
             "text_color": "#eaeaea"
           }
         },
@@ -101,11 +101,41 @@
         "remove_top_padding": true
       }
     },
+    "video_yGaVhn": {
+      "type": "video",
+      "blocks": {
+        "play_YaRjFR": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_zhzbkQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_YaRjFR",
+        "heading_zhzbkQ"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "3d_gallery_iMKpxA": {
       "type": "3d-gallery",
       "name": "3D Gallery",
       "settings": {
-        "title": "3D Gallery",
+        "title": "A Closer Look",
         "start_index": "7",
         "end_index": "61",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC089",
@@ -539,6 +569,7 @@
     "main",
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
+    "video_yGaVhn",
     "3d_gallery_iMKpxA",
     "media_grid_HwBKby",
     "media_grid_4MXqFL"
