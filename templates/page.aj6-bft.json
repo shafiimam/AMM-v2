@@ -300,7 +300,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/MOBILE-1.jpg",
+            "image": "shopify://shop_images/79.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -318,8 +318,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AF1_4.jpg",
-            "column_count": "3",
+            "image": "shopify://shop_images/aj6collage.jpg",
+            "column_count": "12",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
