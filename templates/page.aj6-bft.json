@@ -65,19 +65,29 @@
             "text_color": "#eaeaea"
           }
         },
+        "button_jJg4wY": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "ENTER RAFFLE",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
         "countdown_cDXnhg": {
           "type": "countdown",
-          "disabled": true,
           "settings": {
-            "final_date": "21-04-2022",
-            "final_time": "15:00",
-            "start_countdown": false
+            "final_date": "21-11-2025",
+            "final_time": "11:00",
+            "start_countdown": true
           }
         }
       },
       "block_order": [
         "heading_HiTgQk",
         "richtext_Pdk9a9",
+        "button_jJg4wY",
         "countdown_cDXnhg"
       ],
       "custom_css": [
