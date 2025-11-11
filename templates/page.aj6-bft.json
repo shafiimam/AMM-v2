@@ -61,14 +61,7 @@
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A Ma Maniére and Jordan Brand present <em>Built For This</em>, a story rooted in the resilience, earned celebration, and the perseverance it takes to rise. This narrative honors the unglamorous work, the unseen pressure, the discipline that shapes character, and the people who poured into us along the way. It’s the celebration of those who endured, who built through adversity, and who arrived with grace and purpose.</p><p>Inside, the chapter continues through original artwork by Jammie Holmes, featured on the interior of the shoe box. The piece, titled<em>Malcolm</em>, captures a young man attending one of Malcolm X’s speeches to the Black Muslims. His expression caught between exhaustion and hope. Through that gaze, Holmes explores the power of transformation: how a single voice can offer vision, courage, and the possibility of change</p><p>Releasing alongside the footwear, the Jordan x A Ma Maniére capsule presents essential forms. The knit polo ($120 USD; XS–2X) offers a refined take on sport heritage; the track jacket ($300 USD; XS–2X) introduces structure with a smooth monogram-lined interior, and the matching track pant ($200 USD; XS–2X) brings ease and polish into one silhouette. Each piece sits in conversation with the shoe.</p>",
-            "text_color": "#eaeaea"
-          }
-        },
-        "richtext_EkJ7B3": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "content": "<p><strong>A Ma Maniére and Jordan Brand present </strong><em><strong>Built For This</strong></em><strong>, a story rooted in the resilience, earned celebration, and the perseverance it takes to rise. This narrative honors the unglamorous work, the unseen pressure, the discipline that shapes character, and the people who poured into us along the way. It’s the celebration of those who endured, who built through adversity, and who arrived with grace and purpose.</strong></p><p><strong>Inside, the chapter continues through original artwork by Jammie Holmes, featured on the interior of the shoe box. The piece, titled </strong><em><strong>Malcolm</strong></em><strong>, captures a young man attending one of Malcolm X’s speeches to the Black Muslims. His expression caught between exhaustion and hope. Through that gaze, Holmes explores the power of transformation: how a single voice can offer vision, courage, and the possibility of change</strong></p><p><strong>Releasing alongside the footwear, the Jordan x A Ma Maniére capsule presents essential forms. The knit polo ($120 USD; XS–2X) offers a refined take on sport heritage; the track jacket ($300 USD; XS–2X) introduces structure with a smooth monogram-lined interior, and the matching track pant ($200 USD; XS–2X) brings ease and polish into one silhouette. Each piece sits in conversation with the shoe.</strong></p>",
             "text_color": "#eaeaea"
           }
         },
@@ -80,6 +73,13 @@
             "url": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-6-retro-sp-smoky-mauve",
             "background": "",
             "text_color": ""
+          }
+        },
+        "richtext_EkJ7B3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "text_color": "#eaeaea"
           }
         },
         "countdown_cDXnhg": {
@@ -94,8 +94,8 @@
       "block_order": [
         "heading_HiTgQk",
         "richtext_Pdk9a9",
-        "richtext_EkJ7B3",
         "button_jJg4wY",
+        "richtext_EkJ7B3",
         "countdown_cDXnhg"
       ],
       "custom_css": [
@@ -145,7 +145,7 @@
       "settings": {
         "autoplay": true,
         "show_controls": true,
-        "video_size": "md",
+        "video_size": "fill",
         "video": "shopify://files/videos/WEB.mov",
         "mobile_video": "shopify://files/videos/WEB.mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
