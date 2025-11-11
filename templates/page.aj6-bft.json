@@ -61,7 +61,7 @@
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The <strong>A Ma Maniére x AIR JORDAN 6 RETRO SP “SMOKY MAUVE” </strong>exclusively releases on 11.21 at 11 AM on <a href=\"http://amamaniere.com/\"><strong>amamaniere.com</strong></a>, and all <strong>A Ma Maniére </strong>locations at 12 PM local time. Footwear is priced at $225 with sizing ranging from 3.5M/5W-15M. The online raffle for both US & international access, is open on <a href=\"http://amamaniere.com/\"><strong>amamaniere.com</strong> </a>from <strong>11.11 until 11.17 at 3PM EST</strong>. Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear. All available for purchase while supplies last.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "content": "<p></p><p>All available for purchase while supplies last.<br/></p><p>International shipping available.</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
             "text_color": "#eaeaea"
           }
         },
@@ -228,7 +228,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AF1_3.jpg",
+            "image": "shopify://shop_images/67.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -246,6 +246,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/74.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -263,8 +264,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AF1_6.jpg",
-            "column_count": "3",
+            "image": "shopify://shop_images/78.jpg",
+            "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -281,7 +282,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/AF1_5.jpg",
+            "image": "shopify://shop_images/70.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
