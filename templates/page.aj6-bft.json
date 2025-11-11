@@ -109,14 +109,14 @@
         "start_index": "7",
         "end_index": "61",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC089",
-        "button_label": "Shop Now",
+        "button_label": "",
         "button_link": "",
         "knob_position": 10,
         "gallery_width": 60,
         "show_button": true,
         "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
+        "top_text": "",
+        "bottom_text": ""
       }
     },
     "media_grid_HwBKby": {
