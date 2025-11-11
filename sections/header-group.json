@@ -87,17 +87,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-low-og-chicago-gs"
           }
         },
-        "release_nAhaJK": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.12",
-            "release_image": "shopify://shop_images/NB1906LBLK-1.jpg",
-            "product_title": "NEW BALANCE 1906L",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l"
-          }
-        },
         "release_rgbJLP": {
           "type": "release",
           "settings": {
@@ -130,16 +119,27 @@
             "product_price": "$145",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-retro-low-og-chicago"
           }
+        },
+        "release_nAhaJK": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.21",
+            "release_image": "shopify://shop_images/AMMXAJ6-1_77803519-41ee-4c00-90ad-931d60c19921.jpg",
+            "product_title": "A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKY MAUVE\"",
+            "product_vendor": "A MA MANIÉRE X JORDAN BRAND",
+            "product_price": "$225",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-6-retro-sp-smoky-mauve"
+          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_6QqqMN",
-        "release_nAhaJK",
         "release_rgbJLP",
         "release_HVcayN",
-        "release_Xg6mnY"
+        "release_Xg6mnY",
+        "release_nAhaJK"
       ],
       "settings": {
         "color_scheme": "scheme-2",
