@@ -52,9 +52,10 @@
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
-            "image_1_heading": "",
+            "image_1": "shopify://shop_images/DSC00427_BM.jpg",
+            "image_1_heading": "A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKY MAUVE\"",
             "image_1_text": "",
-            "image_1_link": "shopify://collections",
+            "image_1_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-6-retro-sp-smoky-mauve",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": ""
