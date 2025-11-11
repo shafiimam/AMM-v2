@@ -267,7 +267,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/74.jpg",
+            "image": "shopify://shop_images/jacket2.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -321,7 +321,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/79.jpg",
+            "image": "shopify://shop_images/polo2.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
