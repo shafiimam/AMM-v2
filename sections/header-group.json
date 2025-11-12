@@ -87,26 +87,15 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-low-og-chicago-gs"
           }
         },
-        "release_rgbJLP": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.13",
-            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAM-1_63cc9828-e246-4937-a583-8c8296cb3cd2.jpg",
-            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"FLORAL BLACK\"",
-            "product_vendor": "VANS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
-          }
-        },
         "release_HVcayN": {
           "type": "release",
           "settings": {
-            "release_title": "11.13",
-            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAMBLKWHT-1.jpg",
-            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"SILVER GREY\"",
-            "product_vendor": "VANS",
-            "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/otw-old-skool-36-vibram-silver-grey"
+            "release_title": "11.15",
+            "release_image": "shopify://shop_images/OSMOSISSHALLOT-1.jpg",
+            "product_title": "SALEHE BEMBURY SPUNGE OSMOSIS \"SHALLOT\"",
+            "product_vendor": "SALEHE",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/salehe-bembury-spunge-osmosis-shallot"
           }
         },
         "release_Xg6mnY": {
@@ -118,6 +107,17 @@
             "product_vendor": "JORDAN",
             "product_price": "$145",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-retro-low-og-chicago"
+          }
+        },
+        "release_rgbJLP": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.21",
+            "release_image": "shopify://shop_images/HIDDENNYXGELDSTRAINER-14-1.jpg",
+            "product_title": "ASICS X HIDDEN NY GEL-DS TRAINER 14 \"DAWN\"",
+            "product_vendor": "ASICS",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-hidden-ny-gel-ds-trainer-14-dawn"
           }
         },
         "release_nAhaJK": {
@@ -136,9 +136,9 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_6QqqMN",
-        "release_rgbJLP",
         "release_HVcayN",
         "release_Xg6mnY",
+        "release_rgbJLP",
         "release_nAhaJK"
       ],
       "settings": {
