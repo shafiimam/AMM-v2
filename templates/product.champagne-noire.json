@@ -204,10 +204,28 @@
         "max_image_zoom_level": 3
       }
     },
-    "media_grid_6NzADa": {
+    "media_grid_TTh8AG": {
       "type": "media-grid",
       "blocks": {
-        "image_gri8VF": {
+        "image_KAKFxH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC09734_DC_2_copy.jpg",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AKCVTr": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -224,24 +242,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_MGTRVG": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 3,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_xgkwp8": {
+        "image_34PPUf": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -260,9 +261,9 @@
         }
       },
       "block_order": [
-        "image_gri8VF",
-        "image_MGTRVG",
-        "image_xgkwp8"
+        "image_KAKFxH",
+        "image_AKCVTr",
+        "image_34PPUf"
       ],
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
@@ -361,6 +362,80 @@
         "show_section_texts": true,
         "top_text": "Try",
         "bottom_text": "Now"
+      }
+    },
+    "media_grid_6NzADa": {
+      "type": "media-grid",
+      "blocks": {
+        "image_gri8VF": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC09734_DC_2_copy.jpg",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MGTRVG": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xgkwp8": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_gri8VF",
+        "image_MGTRVG",
+        "image_xgkwp8"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 150,
+        "mobile_row_height": 140,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "image_with_text_rLpTcJ": {
@@ -594,10 +669,11 @@
   "order": [
     "breeadcrumbs_zf6QQE",
     "main",
-    "media_grid_6NzADa",
+    "media_grid_TTh8AG",
     "image_with_text_EHjDBm",
     "video_WQhfeX",
     "3d_gallery_jRyAnc",
+    "media_grid_6NzADa",
     "image_with_text_rLpTcJ",
     "related-products",
     "media_grid_PbjVDy",
