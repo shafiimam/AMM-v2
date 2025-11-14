@@ -209,6 +209,43 @@
         "remove_top_padding": false
       }
     },
+    "rich_text_6FxHAF": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_WXmeG3": {
+          "type": "subheading",
+          "settings": {
+            "text": "Details"
+          }
+        },
+        "heading_mg6AqV": {
+          "type": "heading",
+          "settings": {
+            "text": "Tasting Notes",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_h9pFRM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Appearance<br/></strong>In the glass, it presents a captivating, brilliant salmon pink hue with shimmering copper reflections. A lively and persistent stream of fine bubbles creates a delicate, creamy mousse at the surface, indicating its quality and careful vinification.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_WXmeG3",
+        "heading_mg6AqV",
+        "richtext_h9pFRM"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "full-screen",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
     "media_grid_wT33ax": {
       "type": "media-grid",
       "blocks": {
@@ -362,6 +399,105 @@
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
+    },
+    "blocks_tyQn4Q": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_JRq8Xq": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 40,
+            "height_desktop": 80
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_JRq8Xq"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
+    "beach_location_banner_L3FJnP": {
+      "type": "beach-location-banner",
+      "blocks": {
+        "location_QyByL9": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_zyQjTq": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_ygNzJi": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_aj3Fjm": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_L7Qtwt": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        },
+        "location_wE7wCq": {
+          "type": "location",
+          "settings": {
+            "title": "San Francisco",
+            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+          }
+        }
+      },
+      "block_order": [
+        "location_QyByL9",
+        "location_zyQjTq",
+        "location_ygNzJi",
+        "location_aj3Fjm",
+        "location_L7Qtwt",
+        "location_wE7wCq"
+      ],
+      "settings": {
+        "desktop_image": "shopify://shop_images/beach-banner.png",
+        "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
+        "title": "Tasting Notes",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "button_url": "",
+        "button_text": "Learn More"
+      }
+    },
+    "blocks_yq9n6M": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_kPiqNe": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 40,
+            "height_desktop": 80
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_kPiqNe"
+      ],
+      "name": "Spacer",
+      "settings": {}
     },
     "media_grid_NCMT88": {
       "type": "media-grid",
@@ -566,70 +702,6 @@
         "content": ""
       }
     },
-    "beach_location_banner_L3FJnP": {
-      "type": "beach-location-banner",
-      "blocks": {
-        "location_QyByL9": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_zyQjTq": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_ygNzJi": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_aj3Fjm": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_L7Qtwt": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_wE7wCq": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        }
-      },
-      "block_order": [
-        "location_QyByL9",
-        "location_zyQjTq",
-        "location_ygNzJi",
-        "location_aj3Fjm",
-        "location_L7Qtwt",
-        "location_wE7wCq"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_image": "shopify://shop_images/beach-banner.png",
-        "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
-        "title": "Visit our Beach",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "button_url": "",
-        "button_text": "Learn More"
-      }
-    },
     "multiple_media_with_text_NGU7Fx": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -650,6 +722,7 @@
         "image_NHDAEJ",
         "image_7BHBnr"
       ],
+      "disabled": true,
       "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
       "settings": {
         "color_scheme": "",
@@ -679,13 +752,16 @@
     "beach_header_696FFB",
     "slideshow_CPmdyh",
     "image_with_text_DCdVWx",
+    "rich_text_6FxHAF",
     "media_grid_wT33ax",
     "image_with_text_mCYw4g",
     "video_hNTJWP",
+    "blocks_tyQn4Q",
+    "beach_location_banner_L3FJnP",
+    "blocks_yq9n6M",
     "media_grid_NCMT88",
     "perspective_slider_J4a3Uk",
     "multi_column_y7mnf6",
-    "beach_location_banner_L3FJnP",
     "multiple_media_with_text_NGU7Fx"
   ]
 }
