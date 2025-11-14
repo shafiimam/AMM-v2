@@ -424,59 +424,44 @@
         "location_QyByL9": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Appearance",
+            "description": "<p>In the glass, it presents a captivating, brilliant salmon pink hue with shimmering copper reflections. A lively and persistent stream of fine bubbles creates a delicate, creamy mousse at the surface, indicating its quality and careful vinification.</p>"
           }
         },
-        "location_zyQjTq": {
+        "location_P6PKMX": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Aroma",
+            "description": "<p>The nose is expressive and generous, bursting with an aromatic bouquet of ripe red fruits. Prominent notes of wild strawberry, raspberry, and redcurrant dominate, layered with subtle hints of cherry.</p>"
           }
         },
-        "location_ygNzJi": {
+        "location_knPVtE": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Palate",
+            "description": "<p>The first sip reveals a pleasingly soft and round texture on the palate. The sweetness is well-integrated and beautifully counterbalanced by a crisp, clean acidity. The vibrant fruit flavors from the nose translate directly to the taste, with lush strawberry compote and sweet cherry taking center stage.</p>"
           }
         },
-        "location_aj3Fjm": {
+        "location_eTyzBP": {
           "type": "location",
           "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_L7Qtwt": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
-          }
-        },
-        "location_wE7wCq": {
-          "type": "location",
-          "settings": {
-            "title": "San Francisco",
-            "description": "<p>100 Market Street<br/>San Francisco, CA 94105 USA</p>"
+            "title": "Finish",
+            "description": "<p>The finish is satisfyingly long and clean, leaving a lingering impression of sweet red berries and creamy. The sweetness gently fades, allowing the</p>"
           }
         }
       },
       "block_order": [
         "location_QyByL9",
-        "location_zyQjTq",
-        "location_ygNzJi",
-        "location_aj3Fjm",
-        "location_L7Qtwt",
-        "location_wE7wCq"
+        "location_P6PKMX",
+        "location_knPVtE",
+        "location_eTyzBP"
       ],
+      "name": "TASTING NOTES",
       "settings": {
         "desktop_image": "shopify://shop_images/rose1.jpg",
-        "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
+        "mobile_image": "shopify://shop_images/rose1.jpg",
         "title": "Tasting Notes",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description": "Maniére Rosé was made for the moments that mark us and for celebrating the journey, the gathering of those who helped us rise, and the memories that deserve more than a fleeting cheer. It’s Champagne seen through the A Ma Maniére lens: bold in flavor, rich in feeling, and created for shared experience.",
         "button_url": "",
         "button_text": "Learn More"
       }
