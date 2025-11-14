@@ -266,35 +266,35 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_mzGxhY": {
-          "type": "product",
-          "settings": {
-            "product": "thug-club-tc-skull-t-shirt-white"
-          }
-        },
-        "product_q8H3fy": {
-          "type": "product",
-          "settings": {
-            "product": "thug-club-leather-denim-pants-black"
-          }
-        },
         "product_CqUpFr": {
           "type": "product",
           "settings": {
             "product": "thug-club-leather-flame-hoodie-grey"
           }
         },
+        "product_mzGxhY": {
+          "type": "product",
+          "settings": {
+            "product": "thug-life-dragon-chopper-hoodie-white"
+          }
+        },
+        "product_q8H3fy": {
+          "type": "product",
+          "settings": {
+            "product": "thug-club-bone-fur-shorts-ivory"
+          }
+        },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "thug-club-superstar-boot-lux-1"
+            "product": "thug-club-tc-denim-pants-black"
           }
         }
       },
       "block_order": [
+        "product_CqUpFr",
         "product_mzGxhY",
         "product_q8H3fy",
-        "product_CqUpFr",
         "product_eekMqY"
       ],
       "custom_css": [
@@ -304,7 +304,7 @@
         "section_alignment": "left",
         "title": "THUG CLUB",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/thuglub1.jpg",
+        "image": "shopify://shop_images/furshorts.900x900.jpg",
         "image_description": "<p>Discover the bold pedigree of <strong>Thug Club Apparel</strong>, founded in Seoul in 2018 by Min (Thug Min) and Kwon. With its rebellious fusion of hip-hop, motorcycle edge, and high-fashion craft, the brand delivers fearless silhouettes, distressed details, and armor-inspired aesthetics.</p>",
         "image_cta": "Shop all",
         "image_cta_url": "shopify://collections/thug-club"
