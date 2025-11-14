@@ -87,26 +87,26 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-low-og-chicago-gs"
           }
         },
-        "release_HVcayN": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.15",
-            "release_image": "shopify://shop_images/OSMOSISSHALLOT-1.jpg",
-            "product_title": "SALEHE BEMBURY SPUNGE OSMOSIS \"SHALLOT\"",
-            "product_vendor": "SALEHE",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/salehe-bembury-spunge-osmosis-shallot"
-          }
-        },
         "release_Xg6mnY": {
           "type": "release",
           "settings": {
-            "release_title": "11.15",
-            "release_image": "shopify://shop_images/AJ1LOWCHICAGO-1.jpg",
-            "product_title": "AIR JORDAN 1 RETRO LOW OG \"CHICAGO\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-retro-low-og-chicago"
+            "release_title": "11.17",
+            "release_image": "shopify://shop_images/BADBUNNYADIRACERGT_BRANCH_SAND_CINDER_-1.jpg",
+            "product_title": "ADIDAS BAD BUNNY ADIRACER GT \"BRANCH/SAND/CINDER\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/bad-bunny-adiracer-gt-branchsandcinder"
+          }
+        },
+        "release_HVcayN": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.21",
+            "release_image": "shopify://shop_images/WILLYCHAVARRIAFORUM84HIBLKRED-1.jpg",
+            "product_title": "ADIDAS WILLY CHAVARRIA FORUM 84 HI \"BLACK/RED\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-forum-84-hi-blackred"
           }
         },
         "release_rgbJLP": {
@@ -136,8 +136,8 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_6QqqMN",
-        "release_HVcayN",
         "release_Xg6mnY",
+        "release_HVcayN",
         "release_rgbJLP",
         "release_nAhaJK"
       ],
