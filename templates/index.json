@@ -669,40 +669,6 @@
         "subheading": ""
       }
     },
-    "featured_collections_bFrXKx": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_ABw4Mi": {
-          "type": "collection",
-          "settings": {
-            "collection": "sneakers",
-            "products_count": 8,
-            "title": "SHOP FOOTWEAR",
-            "link_url": "shopify://collections/sneakers",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_ABw4Mi"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "price-list.price-list {display: none;}"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "blocks_xhmELd": {
       "type": "_blocks",
       "blocks": {
@@ -721,17 +687,85 @@
       "name": "Spacer",
       "settings": {}
     },
+    "image_with_text_4rzGhq": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_jmzUa4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_h3aKYA": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>The Exclusive Collector’s Gift</strong>",
+            "heading_tag": "h5"
+          }
+        },
+        "heading_rBV9ab": {
+          "type": "heading",
+          "settings": {
+            "text": "Assouline  Air Jordan  Ultimate  Edition",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_V3crbK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Air Jordan Ultimate Edition from Assouline is a masterpiece limited to just 1,000 hand-numbered copies. Authored by Adam Bradley with a foreword from Michael Jordan, it celebrates four decades of the Jumpman legacy with archival imagery and cultural insight—making it the perfect luxury gift</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_GCQJcU": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP COLLECTION",
+            "url": "shopify://collections/assouline",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jmzUa4",
+        "heading_h3aKYA",
+        "heading_rBV9ab",
+        "richtext_V3crbK",
+        "button_GCQJcU"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/2025_09_22_-_Assouline_Air_Jordan_16_square.jpg",
+        "mobile_image": "shopify://shop_images/2025_09_22_-_Assouline_Air_Jordan_16_square.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "video_PWhD8P": {
       "type": "video",
       "blocks": {
         "play_NjTYAR": {
           "type": "play",
+          "disabled": true,
           "settings": {
             "icon_color": "#ffffff"
           }
         },
         "heading_q7cwAp": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "",
             "heading_tag": "h2"
@@ -742,6 +776,7 @@
         "play_NjTYAR",
         "heading_q7cwAp"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
@@ -766,12 +801,13 @@
         "heading_BPRrAC": {
           "type": "heading",
           "settings": {
-            "text": "<a href=\"/collections/carhartt-wip\" title=\"CARHARTT WIP\">CARHARTT WIP X NICHOLAS DALEY </a>",
-            "heading_tag": "h1"
+            "text": "<strong>Timeless Gifts, Handpicked for the Collector</strong>",
+            "heading_tag": "h4"
           }
         },
         "richtext_ad7gLb": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<h4>This capsule pays homage to Daley's Jamaican and Scottish ancestry, fusing reggae culture and musical ephemera. Each piece reflects Daley’s balance of function and flair, reinterpreting Carhartt WIP’s DNA.</h4>"
           }
@@ -784,11 +820,44 @@
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_bFrXKx": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ABw4Mi": {
+          "type": "collection",
+          "settings": {
+            "collection": "books",
+            "products_count": 8,
+            "title": "BOOKS",
+            "link_url": "shopify://collections/books",
+            "link_text": "SHOP ALL"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ABw4Mi"
+      ],
+      "custom_css": [
+        "price-list.price-list {display: none;}"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "176076770152fa2223": {
@@ -913,6 +982,7 @@
       "block_order": [
         "ai_gen_block_219fc88_bp9DQ9"
       ],
+      "disabled": true,
       "name": "Ai Shop the look",
       "settings": {}
     },
@@ -1325,10 +1395,11 @@
     "featured-collections",
     "multiple_media_with_text_Lgp4CV",
     "featured_collections_4UQQmj",
-    "featured_collections_bFrXKx",
     "blocks_xhmELd",
+    "image_with_text_4rzGhq",
     "video_PWhD8P",
     "rich_text_Ntqdch",
+    "featured_collections_bFrXKx",
     "176076770152fa2223",
     "1760761019d74231a6",
     "media_grid_DzxzqH",
