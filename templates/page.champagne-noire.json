@@ -148,6 +148,7 @@
         "image_De3yUq",
         "image_wGGQUF"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -166,28 +167,14 @@
         "richtext_9dG8gD": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>A Hub for Creativity and Community</strong></p>",
-            "text_color": "#1c1c1c"
+            "content": "<h1>Maniere Noir Demi-Sec Rosé</h1>",
+            "text_color": "#e49d9d"
           }
         },
         "richtext_jfLmwr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>This space is open to all and will serve to expand our community programming, reflecting our commitment to redefining immersive consumer experiences. Through our social action platform, Hand Wash Cold, A Ma Maniére Beach will host programming, retreats, and events aimed at engaging young people locally and globally, fostering creativity, and nurturing a sense of community.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "richtext_V84jGB": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Expanding Horizons</strong></p>",
-            "text_color": "#1c1c1c"
-          }
-        },
-        "richtext_qHFgLb": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>A Ma Maniére Beach joins the A Ma Maniére fleet of experiential-consumer concept, now with four locations across the nation: DC, Atlanta, Houston, and now Folly Beach. This new chapter in luxury hospitality exemplifies our unwavering commitment to reimagining possibilities.</p><p>For more information, please email <a href=\"mailto:brand@thewhitakergrp.com\"><span style=\"text-decoration:underline\"><strong>brand@thewhitakergrp.com</strong></span></a>.</p>",
+            "content": "<p>Crafted in the heart of the Champagne region, Maniere Noir Demi-Sec Rosé is a delightful expression of indulgent elegance. As a \"Demi-Sec,\" it possesses a noticeable sweetness, perfectly balanced by a refreshing acidity that makes it both rich and lively. This Champagne is designed for pleasure, offering a more generous and fruit-forward profile making it an approachable yet sophisticated choice for celebrations and decadent pairings.</p>",
             "text_color": "#535353"
           }
         },
@@ -205,8 +192,6 @@
       "block_order": [
         "richtext_9dG8gD",
         "richtext_jfLmwr",
-        "richtext_V84jGB",
-        "richtext_qHFgLb",
         "button_drEBmM"
       ],
       "settings": {
