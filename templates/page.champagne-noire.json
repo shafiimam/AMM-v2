@@ -212,36 +212,44 @@
     "rich_text_6FxHAF": {
       "type": "rich-text",
       "blocks": {
-        "subheading_WXmeG3": {
-          "type": "subheading",
-          "settings": {
-            "text": "Details"
-          }
-        },
         "heading_mg6AqV": {
           "type": "heading",
           "settings": {
-            "text": "",
-            "heading_tag": "h1"
+            "text": "Details",
+            "heading_tag": "h2"
+          }
+        },
+        "subheading_WXmeG3": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Details"
           }
         },
         "richtext_h9pFRM": {
           "type": "richtext",
           "settings": {
-            "content": ""
+            "content": "<p>In the glass, Manière Noire Champagne ($125 USD) reveals a brilliant salmon-pink hue with copper reflections and a delicate stream of fine bubbles. The aroma opens with wild strawberry, raspberry, and redcurrant, layered with soft notes of cherry and cream. On the palate, it is vibrant and rounded — its sweetness lifted by clean acidity, its finish long and resonant. Every detail reflects craftsmanship, patience, and a dedication to excellence that defines A Ma Maniére’s world.</p>"
+          }
+        },
+        "richtext_8tpcmT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>This is not just Champagne.This is A Ma Maniére, bottled.</h4>"
           }
         }
       },
       "block_order": [
-        "subheading_WXmeG3",
         "heading_mg6AqV",
-        "richtext_h9pFRM"
+        "subheading_WXmeG3",
+        "richtext_h9pFRM",
+        "richtext_8tpcmT"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "content_width": "full-screen",
+        "content_width": "md",
         "text_position": "start",
         "remove_vertical_spacing": false
       }
