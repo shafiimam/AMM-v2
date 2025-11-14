@@ -388,7 +388,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/rose5.png",
+            "image": "shopify://shop_images/rose2_5877c500-a678-4420-ac95-0453ffac7f8b.png",
             "column_count": "4",
             "row_count": 3,
             "title": "",
@@ -406,6 +406,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/model2.png",
             "column_count": "4",
             "row_count": 3,
             "title": "",
@@ -434,7 +435,7 @@
         "section_width": "full",
         "spacing": "none",
         "subheading": "",
-        "title": "Media grid",
+        "title": "",
         "content": ""
       }
     },
