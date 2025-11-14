@@ -197,7 +197,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg",
+        "image": "shopify://shop_images/DSC09734_DC_2_copy.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -354,6 +354,7 @@
         },
         "heading_3fF987": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Video",
             "heading_tag": "h2"
@@ -366,9 +367,11 @@
       ],
       "name": "t:sections.video.presets.video.name",
       "settings": {
-        "autoplay": false,
+        "autoplay": true,
         "show_controls": true,
         "video_size": "md",
+        "video": "shopify://files/videos/champagne vingette.mov",
+        "mobile_video": "shopify://files/videos/champagne vingette.mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
