@@ -20,6 +20,7 @@
     },
     "beach_header_696FFB": {
       "type": "beach-header",
+      "disabled": true,
       "settings": {
         "title": "A Ma Maniére Beach",
         "image": "shopify://shop_images/image_54_fe64d72d-7de6-4778-ac8a-0873451ae676.png"
@@ -33,7 +34,9 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -59,7 +62,9 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH3_8411c267-4bde-473f-b60c-e6fd17952dc7.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -85,7 +90,9 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -111,7 +118,9 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -149,63 +158,6 @@
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
-      }
-    },
-    "image_with_text_mCYw4g": {
-      "type": "image-with-text",
-      "blocks": {
-        "richtext_LpBNPX": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>A Ma Maniére Beach adorns the shores of Folly Beach, SC, a luxurious seaside haven extending our A Ma Maniére Living experiential concept, first introduced in 2018 at A Ma Maniére DC.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "richtext_Yc4nft": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>A New Standard in Beachside Living</strong></p>",
-            "text_color": "#1c1c1c"
-          }
-        },
-        "richtext_dyicj8": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>A Ma Maniére Beach offers an innovative boutique residence experience in a stunning three-story seaside retreat. With three bedrooms and three bathrooms, each space is designed to provide breathtaking views of the Atlantic, a testament to our commitment to breaking barriers and rewriting narratives for Black and Brown communities through transformative, innovative experiences.<br/><br/>A Ma Maniére Beach is more than just a destination; it embodies empowerment and inclusivity. By choosing Folly Beach, we are not only rewriting the narrative but reclaiming it in a space once denied to Black and Brown residents.<br/><br/></p>",
-            "text_color": "#535353"
-          }
-        },
-        "richtext_Q3Fa7n": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Unmatched Luxury and Artistic Excellence</strong></p>",
-            "text_color": "#1c1c1c"
-          }
-        },
-        "richtext_wrmDBa": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>A Ma Maniére Beach epitomizes luxury with world-class accommodations and amenities, exuding exceptional hospitality. The entire building serves as an art gallery, showcasing works by renowned artists like Jean-Michel Basquiat, Kaws, Daniel Arsham, Anna Park, Pat Phillips, Julian Gaines, Enrico Riley, and David Shrigley. <br/><br/>A Ma Maniére Beach symbolizes a major shift in the evolution of our experiences. As our focus remains on immersive experiential concepts, this seaside resort is the epitome of our vision of classic, timeless luxury. We will continue to obsess over details and push the boundaries of what should be experienced.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_LpBNPX",
-        "richtext_Yc4nft",
-        "richtext_dyicj8",
-        "richtext_Q3Fa7n",
-        "richtext_wrmDBa"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "lg",
-        "remove_vertical_spacing": false,
-        "remove_top_padding": false
       }
     },
     "image_with_text_DCdVWx": {
@@ -261,11 +213,252 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
+      }
+    },
+    "media_grid_NCMT88": {
+      "type": "media-grid",
+      "blocks": {
+        "image_yjRL6z": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_z8Qzjk": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pN7M8h": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yjRL6z",
+        "image_z8Qzjk",
+        "image_pN7M8h"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Media grid",
+        "content": ""
+      }
+    },
+    "media_grid_wT33ax": {
+      "type": "media-grid",
+      "blocks": {
+        "image_WPKhtT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_z9GLVw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nKjLdk": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WPKhtT",
+        "image_z9GLVw",
+        "image_nKjLdk"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Media grid",
+        "content": ""
+      }
+    },
+    "image_with_text_mCYw4g": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_LpBNPX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Ma Maniére Beach adorns the shores of Folly Beach, SC, a luxurious seaside haven extending our A Ma Maniére Living experiential concept, first introduced in 2018 at A Ma Maniére DC.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "richtext_Yc4nft": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>A New Standard in Beachside Living</strong></p>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_dyicj8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Ma Maniére Beach offers an innovative boutique residence experience in a stunning three-story seaside retreat. With three bedrooms and three bathrooms, each space is designed to provide breathtaking views of the Atlantic, a testament to our commitment to breaking barriers and rewriting narratives for Black and Brown communities through transformative, innovative experiences.<br/><br/>A Ma Maniére Beach is more than just a destination; it embodies empowerment and inclusivity. By choosing Folly Beach, we are not only rewriting the narrative but reclaiming it in a space once denied to Black and Brown residents.<br/><br/></p>",
+            "text_color": "#535353"
+          }
+        },
+        "richtext_Q3Fa7n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Unmatched Luxury and Artistic Excellence</strong></p>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_wrmDBa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Ma Maniére Beach epitomizes luxury with world-class accommodations and amenities, exuding exceptional hospitality. The entire building serves as an art gallery, showcasing works by renowned artists like Jean-Michel Basquiat, Kaws, Daniel Arsham, Anna Park, Pat Phillips, Julian Gaines, Enrico Riley, and David Shrigley. <br/><br/>A Ma Maniére Beach symbolizes a major shift in the evolution of our experiences. As our focus remains on immersive experiential concepts, this seaside resort is the epitome of our vision of classic, timeless luxury. We will continue to obsess over details and push the boundaries of what should be experienced.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_LpBNPX",
+        "richtext_Yc4nft",
+        "richtext_dyicj8",
+        "richtext_Q3Fa7n",
+        "richtext_wrmDBa"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
+      }
+    },
+    "video_hNTJWP": {
+      "type": "video",
+      "blocks": {
+        "play_LRKijG": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_3fF987": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_LRKijG",
+        "heading_3fF987"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     },
     "perspective_slider_J4a3Uk": {
@@ -318,18 +511,6 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg"
           }
-        },
-        "slide_item_8MAYnQ": {
-          "type": "slide_item",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8448-Edit.jpg"
-          }
-        },
-        "slide_item_eUyziP": {
-          "type": "slide_item",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8921-HDR.jpg"
-          }
         }
       },
       "block_order": [
@@ -342,6 +523,7 @@
         "slide_item_bKWArq",
         "slide_item_qq46ec"
       ],
+      "disabled": true,
       "settings": {
         "title": "Gallery",
         "auto_play": true
@@ -469,16 +651,63 @@
         "button_url": "",
         "button_text": "Learn More"
       }
+    },
+    "multiple_media_with_text_NGU7Fx": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_NHDAEJ": {
+          "type": "image",
+          "settings": {
+            "rotation": 0
+          }
+        },
+        "image_7BHBnr": {
+          "type": "image",
+          "settings": {
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_NHDAEJ",
+        "image_7BHBnr"
+      ],
+      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "About",
+        "title": "Showcase your product",
+        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
     }
   },
   "order": [
     "main",
     "beach_header_696FFB",
     "slideshow_CPmdyh",
-    "image_with_text_mCYw4g",
     "image_with_text_DCdVWx",
+    "media_grid_wT33ax",
+    "image_with_text_mCYw4g",
+    "video_hNTJWP",
+    "media_grid_NCMT88",
     "perspective_slider_J4a3Uk",
     "multi_column_y7mnf6",
-    "beach_location_banner_L3FJnP"
+    "beach_location_banner_L3FJnP",
+    "multiple_media_with_text_NGU7Fx"
   ]
 }
