@@ -295,20 +295,6 @@
             "text_color": "#535353"
           }
         },
-        "richtext_Yc4nft": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>A New Standard in Beachside Living</strong></p>",
-            "text_color": "#1c1c1c"
-          }
-        },
-        "richtext_dyicj8": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>A Ma Maniére Beach offers an innovative boutique residence experience in a stunning three-story seaside retreat. With three bedrooms and three bathrooms, each space is designed to provide breathtaking views of the Atlantic, a testament to our commitment to breaking barriers and rewriting narratives for Black and Brown communities through transformative, innovative experiences.<br/><br/>A Ma Maniére Beach is more than just a destination; it embodies empowerment and inclusivity. By choosing Folly Beach, we are not only rewriting the narrative but reclaiming it in a space once denied to Black and Brown residents.<br/><br/></p>",
-            "text_color": "#535353"
-          }
-        },
         "richtext_Q3Fa7n": {
           "type": "richtext",
           "settings": {
@@ -326,15 +312,13 @@
       },
       "block_order": [
         "richtext_LpBNPX",
-        "richtext_Yc4nft",
-        "richtext_dyicj8",
         "richtext_Q3Fa7n",
         "richtext_wrmDBa"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
+        "image": "shopify://shop_images/rose1.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
