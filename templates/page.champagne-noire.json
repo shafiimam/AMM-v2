@@ -473,7 +473,7 @@
         "location_wE7wCq"
       ],
       "settings": {
-        "desktop_image": "shopify://shop_images/beach-banner.png",
+        "desktop_image": "shopify://shop_images/rose1.jpg",
         "mobile_image": "shopify://shop_images/beach-banner-mobile.png",
         "title": "Tasting Notes",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -502,11 +502,11 @@
     "media_grid_NCMT88": {
       "type": "media-grid",
       "blocks": {
-        "image_yjRL6z": {
+        "image_z8Qzjk": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/rose3.png",
+            "image": "shopify://shop_images/rose2_5877c500-a678-4420-ac95-0453ffac7f8b.png",
             "column_count": "4",
             "row_count": 3,
             "title": "",
@@ -520,11 +520,11 @@
             "overlay_opacity": 0
           }
         },
-        "image_z8Qzjk": {
+        "image_yjRL6z": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/rose2_5877c500-a678-4420-ac95-0453ffac7f8b.png",
+            "image": "shopify://shop_images/rose3.png",
             "column_count": "4",
             "row_count": 3,
             "title": "",
@@ -558,8 +558,8 @@
         }
       },
       "block_order": [
-        "image_yjRL6z",
         "image_z8Qzjk",
+        "image_yjRL6z",
         "image_pN7M8h"
       ],
       "name": "t:sections.media_grid.presets.media_grid.name",
