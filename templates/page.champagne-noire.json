@@ -221,14 +221,14 @@
         "heading_mg6AqV": {
           "type": "heading",
           "settings": {
-            "text": "Tasting Notes",
+            "text": "",
             "heading_tag": "h1"
           }
         },
         "richtext_h9pFRM": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Appearance<br/></strong>In the glass, it presents a captivating, brilliant salmon pink hue with shimmering copper reflections. A lively and persistent stream of fine bubbles creates a delicate, creamy mousse at the surface, indicating its quality and careful vinification.</p>"
+            "content": ""
           }
         }
       },
