@@ -195,7 +195,7 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Submit An Inquiry",
+            "text": "buy now",
             "url": "https://www.a-ma-maniere.com/pages/amm-beach-booking",
             "background": "",
             "text_color": ""
@@ -222,79 +222,6 @@
         "content_width": "lg",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
-      }
-    },
-    "media_grid_NCMT88": {
-      "type": "media-grid",
-      "blocks": {
-        "image_yjRL6z": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 3,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_z8Qzjk": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 3,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_pN7M8h": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 3,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_yjRL6z",
-        "image_z8Qzjk",
-        "image_pN7M8h"
-      ],
-      "name": "t:sections.media_grid.presets.media_grid.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "Media grid",
-        "content": ""
       }
     },
     "media_grid_wT33ax": {
@@ -459,6 +386,79 @@
         "video_size": "md",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
+      }
+    },
+    "media_grid_NCMT88": {
+      "type": "media-grid",
+      "blocks": {
+        "image_yjRL6z": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_z8Qzjk": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pN7M8h": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yjRL6z",
+        "image_z8Qzjk",
+        "image_pN7M8h"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Media grid",
+        "content": ""
       }
     },
     "perspective_slider_J4a3Uk": {
