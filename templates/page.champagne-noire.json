@@ -333,30 +333,22 @@
     "image_with_text_mCYw4g": {
       "type": "image-with-text",
       "blocks": {
-        "richtext_LpBNPX": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>A Ma Maniére Beach adorns the shores of Folly Beach, SC, a luxurious seaside haven extending our A Ma Maniére Living experiential concept, first introduced in 2018 at A Ma Maniére DC.</p>",
-            "text_color": "#535353"
-          }
-        },
         "richtext_Q3Fa7n": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Unmatched Luxury and Artistic Excellence</strong></p>",
+            "content": "<h4><strong>Lorem ipsum dolor sit ame</strong></h4>",
             "text_color": "#1c1c1c"
           }
         },
         "richtext_wrmDBa": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A Ma Maniére Beach epitomizes luxury with world-class accommodations and amenities, exuding exceptional hospitality. The entire building serves as an art gallery, showcasing works by renowned artists like Jean-Michel Basquiat, Kaws, Daniel Arsham, Anna Park, Pat Phillips, Julian Gaines, Enrico Riley, and David Shrigley. <br/><br/>A Ma Maniére Beach symbolizes a major shift in the evolution of our experiences. As our focus remains on immersive experiential concepts, this seaside resort is the epitome of our vision of classic, timeless luxury. We will continue to obsess over details and push the boundaries of what should be experienced.</p>",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
             "text_color": "#535353"
           }
         }
       },
       "block_order": [
-        "richtext_LpBNPX",
         "richtext_Q3Fa7n",
         "richtext_wrmDBa"
       ],
