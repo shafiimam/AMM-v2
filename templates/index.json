@@ -272,16 +272,16 @@
             "product": "thug-club-leather-flame-hoodie-grey"
           }
         },
-        "product_mzGxhY": {
-          "type": "product",
-          "settings": {
-            "product": "thug-life-dragon-chopper-hoodie-white"
-          }
-        },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
             "product": "thug-club-bone-fur-shorts-ivory"
+          }
+        },
+        "product_mzGxhY": {
+          "type": "product",
+          "settings": {
+            "product": "thug-life-dragon-chopper-hoodie-white"
           }
         },
         "product_eekMqY": {
@@ -293,8 +293,8 @@
       },
       "block_order": [
         "product_CqUpFr",
-        "product_mzGxhY",
         "product_q8H3fy",
+        "product_mzGxhY",
         "product_eekMqY"
       ],
       "custom_css": [
