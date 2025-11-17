@@ -174,7 +174,7 @@
         "richtext_a46Eea": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Coming Soon </strong></h3>",
+            "content": "<h3>Coming Soon </h3>",
             "text_color": "#535353"
           }
         },
