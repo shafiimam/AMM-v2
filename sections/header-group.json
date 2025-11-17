@@ -87,17 +87,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-low-og-chicago-gs"
           }
         },
-        "release_Xg6mnY": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.17",
-            "release_image": "shopify://shop_images/BADBUNNYADIRACERGT_BRANCH_SAND_CINDER_-1.jpg",
-            "product_title": "ADIDAS BAD BUNNY ADIRACER GT \"BRANCH/SAND/CINDER\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/bad-bunny-adiracer-gt-branchsandcinder"
-          }
-        },
         "release_HVcayN": {
           "type": "release",
           "settings": {
@@ -107,6 +96,17 @@
             "product_vendor": "ADIDAS",
             "product_price": "$170",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-forum-84-hi-blackred"
+          }
+        },
+        "release_Xg6mnY": {
+          "type": "release",
+          "settings": {
+            "release_title": "11.21",
+            "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARLOBLK-1.jpg",
+            "product_title": "ADIDAS WILLY CHAVARRIA JABBAR LO",
+            "product_vendor": "ADIDAS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-jabbar-lo"
           }
         },
         "release_rgbJLP": {
@@ -124,11 +124,11 @@
           "type": "release",
           "settings": {
             "release_title": "11.21",
-            "release_image": "shopify://shop_images/AMMXAJ6-1_77803519-41ee-4c00-90ad-931d60c19921.jpg",
-            "product_title": "A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKY MAUVE\"",
-            "product_vendor": "A MA MANIÉRE X JORDAN BRAND",
-            "product_price": "$225",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-6-retro-sp-smoky-mauve"
+            "release_image": "shopify://shop_images/WILLYCHAVARRIAFORUMBOOTMIDBLK-1.jpg",
+            "product_title": "ADIDAS WILLY CHAVARRIA FORUM BOOT MID \"BLACK\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$300",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-forum-boot-mid-black"
           }
         }
       },
@@ -136,8 +136,8 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_6QqqMN",
-        "release_Xg6mnY",
         "release_HVcayN",
+        "release_Xg6mnY",
         "release_rgbJLP",
         "release_nAhaJK"
       ],
