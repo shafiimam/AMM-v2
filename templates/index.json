@@ -316,10 +316,10 @@
         "collection_rf3dw4": {
           "type": "collection",
           "settings": {
-            "collection": "sneakers",
+            "collection": "new-arrivals-1",
             "products_count": 4,
-            "title": "FOOTWEAR",
-            "link_url": "shopify://collections/sneakers",
+            "title": "shop new arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
             "link_text": "SHOP COLLECTION"
           }
         }
@@ -410,35 +410,6 @@
       "name": "Releases",
       "settings": {
         "title": "Releases"
-      }
-    },
-    "featured_collections_WMah7x": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_Q7Rc3m": {
-          "type": "collection",
-          "settings": {
-            "collection": "a-ma-maniere",
-            "products_count": 4,
-            "title": "A MA MANIÉRE",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Q7Rc3m"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "before-after": {
@@ -563,36 +534,6 @@
         "content": ""
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "fathers-day",
-            "products_count": 8,
-            "title": "Father's Day Collection: Father’s Day Gift Guide",
-            "link_url": "shopify://collections/fathers-day",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.7,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "multiple_media_with_text_Lgp4CV": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -636,37 +577,6 @@
         "button_2_text": "",
         "button_2_link": "",
         "button_2_style": "solid"
-      }
-    },
-    "featured_collections_4UQQmj": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_qtemLY": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-denim",
-            "products_count": 8,
-            "title": "Shop denim",
-            "link_url": "shopify://collections/new-denim",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_qtemLY"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "blocks_xhmELd": {
@@ -876,6 +786,35 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_WMah7x": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Q7Rc3m": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere",
+            "products_count": 4,
+            "title": "A MA MANIÉRE",
+            "link_url": "shopify://collections/a-ma-maniere",
+            "link_text": "SHOP COLLECTION"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Q7Rc3m"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -1268,18 +1207,16 @@
     "featureed_image_and_products_zaMf8b",
     "featured_collections_tPwjbc",
     "releases_LeDFdB",
-    "featured_collections_WMah7x",
     "before-after",
     "collection_list_cLGdiA",
-    "featured-collections",
     "multiple_media_with_text_Lgp4CV",
-    "featured_collections_4UQQmj",
     "blocks_xhmELd",
     "image_with_text_4rzGhq",
     "blocks_JgXjKd",
     "video_PWhD8P",
     "rich_text_Ntqdch",
     "featured_collections_bFrXKx",
+    "featured_collections_WMah7x",
     "image_with_text_YHVQLL",
     "176076770152fa2223",
     "media_grid_DzxzqH",
