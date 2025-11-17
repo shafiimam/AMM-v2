@@ -67,19 +67,13 @@
         },
         "button_jJg4wY": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "ENTER RAFFLE",
             "url": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-6-retro-sp-smoky-mauve",
             "background": "",
             "text_color": ""
-          }
-        },
-        "richtext_EkJ7B3": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
-            "text_color": "#eaeaea"
           }
         },
         "countdown_cDXnhg": {
@@ -89,14 +83,21 @@
             "final_time": "11:00",
             "start_countdown": true
           }
+        },
+        "richtext_EkJ7B3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "text_color": "#eaeaea"
+          }
         }
       },
       "block_order": [
         "heading_HiTgQk",
         "richtext_Pdk9a9",
         "button_jJg4wY",
-        "richtext_EkJ7B3",
-        "countdown_cDXnhg"
+        "countdown_cDXnhg",
+        "richtext_EkJ7B3"
       ],
       "custom_css": [
         ".container * {text-align: center;}",
