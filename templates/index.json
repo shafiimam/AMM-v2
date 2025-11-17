@@ -878,104 +878,66 @@
         "subheading": ""
       }
     },
-    "176076770152fa2223": {
-      "type": "_blocks",
-      "settings": {}
-    },
-    "media_grid_p7EKPQ": {
-      "type": "media-grid",
+    "image_with_text_YHVQLL": {
+      "type": "image-with-text",
       "blocks": {
-        "image_e83L6V": {
-          "type": "image",
+        "subheading_rHqA3H": {
+          "type": "subheading",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/varsityjacketsquare.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/frgmtmini",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#1c1c1c",
-            "overlay_opacity": 0
+            "text": "<strong>FRMT</strong>"
           }
         },
-        "image_jMp3XC": {
-          "type": "image",
+        "heading_pYq3Xh": {
+          "type": "heading",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FR53LS01BK_front.jpg",
-            "column_count": "3",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "https://www.a-ma-maniere.com/collections/frgmtmini/products/kids-fragment-mini-raglan-black",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "text": "FRMTMINI",
+            "heading_tag": "h1"
           }
         },
-        "image_7RatKA": {
-          "type": "image",
+        "richtext_gD7DXx": {
+          "type": "richtext",
           "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/FRAGMENTBACKPACKRED-1.jpg",
-            "column_count": "3",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "https://www.a-ma-maniere.com/collections/frgmtmini/products/kids-fragment-mini-backpack-red",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "content": "<p>FRGMTMINI is here — igniting the spirit of moving, playing, & jumping. Hiroshi Fujiwara street heritage meets modern minimalism, built for the next generation.</p>",
+            "text_color": "#535353"
           }
         },
-        "image_4GKrKQ": {
-          "type": "image",
+        "button_EgqHPy": {
+          "type": "button",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/FR53CR01MG_front.jpg",
-            "column_count": "3",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "https://www.a-ma-maniere.com/collections/frgmtmini/products/fragment-mini-kids-crewneck-grey",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "style": "solid",
+            "text": "SHOP NOW",
+            "url": "shopify://collections/frgmtmini",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "image_e83L6V",
-        "image_jMp3XC",
-        "image_7RatKA",
-        "image_4GKrKQ"
+        "subheading_rHqA3H",
+        "heading_pYq3Xh",
+        "richtext_gD7DXx",
+        "button_EgqHPy"
       ],
-      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "FRGMT",
-        "content": "<p>FRGMTMINI is here — igniting the spirit of moving, playing, & jumping. Hiroshi Fujiwara  street heritage meets modern minimalism, built for the next generation.<br/> </p>"
+        "image": "shopify://shop_images/JUMO800X1000.jpg",
+        "mobile_image": "shopify://shop_images/croppedhatSQUARE.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
+    },
+    "176076770152fa2223": {
+      "type": "_blocks",
+      "settings": {}
     },
     "media_grid_DzxzqH": {
       "type": "media-grid",
@@ -1120,7 +1082,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "desktop_row_height": 410,
         "mobile_row_height": 180,
         "section_width": "full",
@@ -1316,8 +1278,8 @@
     "video_PWhD8P",
     "rich_text_Ntqdch",
     "featured_collections_bFrXKx",
+    "image_with_text_YHVQLL",
     "176076770152fa2223",
-    "media_grid_p7EKPQ",
     "media_grid_DzxzqH",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
