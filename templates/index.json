@@ -836,6 +836,7 @@
         "heading_BPRrAC",
         "richtext_ad7gLb"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-3",
@@ -862,6 +863,7 @@
       "block_order": [
         "collection_ABw4Mi"
       ],
+      "disabled": true,
       "custom_css": [
         "price-list.price-list {display: none;}"
       ],
@@ -929,7 +931,7 @@
         "video_muted": true,
         "video_controls": false,
         "reveal_on_scroll": true,
-        "image_position": "start",
+        "image_position": "end",
         "content_width": "lg",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
