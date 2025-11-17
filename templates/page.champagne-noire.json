@@ -171,6 +171,13 @@
             "text_color": "#e49d9d"
           }
         },
+        "richtext_a46Eea": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>Coming Soon </strong></h3>",
+            "text_color": "#535353"
+          }
+        },
         "richtext_jfLmwr": {
           "type": "richtext",
           "settings": {
@@ -182,7 +189,7 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "buy now",
+            "text": "be the first to know",
             "url": "https://www.a-ma-maniere.com/pages/amm-beach-booking",
             "background": "",
             "text_color": ""
@@ -191,6 +198,7 @@
       },
       "block_order": [
         "richtext_9dG8gD",
+        "richtext_a46Eea",
         "richtext_jfLmwr",
         "button_drEBmM"
       ],
