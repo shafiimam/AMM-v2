@@ -890,7 +890,7 @@
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/varsityjacketsquare.jpg",
-            "column_count": "8",
+            "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
@@ -908,7 +908,7 @@
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/FR53LS01BK_front.jpg",
-            "column_count": "4",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -921,12 +921,30 @@
             "overlay_opacity": 0
           }
         },
+        "image_7RatKA": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/FRAGMENTBACKPACKRED-1.jpg",
+            "column_count": "3",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/frgmtmini/products/kids-fragment-mini-backpack-red",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "image_4GKrKQ": {
           "type": "image",
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/FR53CR01MG_front.jpg",
-            "column_count": "4",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -943,9 +961,9 @@
       "block_order": [
         "image_e83L6V",
         "image_jMp3XC",
+        "image_7RatKA",
         "image_4GKrKQ"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
