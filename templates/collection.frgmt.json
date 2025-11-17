@@ -29,30 +29,12 @@
     "media_grid_ARWrgH": {
       "type": "media-grid",
       "blocks": {
-        "image_6zMU4N": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/HAT256x256.jpg",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "image_jKcn7b": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/croppedhatSQUARE.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/grilinhat845x475.jpg",
+            "column_count": "12",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -70,26 +52,8 @@
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/JUMP300x300.jpg",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_c3byRa": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/Image_1_06cf0cb1-357c-4d97-84b2-ef66197b85a9.png",
-            "column_count": "4",
-            "row_count": 2,
+            "column_count": "12",
+            "row_count": 3,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -105,9 +69,28 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Image_4_00e3f93e-005c-4190-a16a-8988b6feddf3.png",
-            "column_count": "4",
+            "image": "shopify://shop_images/greencoat1080x608.jpg",
+            "column_count": "12",
             "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_c3byRa": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Image_1_06cf0cb1-357c-4d97-84b2-ef66197b85a9.png",
+            "column_count": "6",
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -121,11 +104,10 @@
         }
       },
       "block_order": [
-        "image_6zMU4N",
         "image_jKcn7b",
         "image_rMgkQA",
-        "image_c3byRa",
-        "image_VCEkTT"
+        "image_VCEkTT",
+        "image_c3byRa"
       ],
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
