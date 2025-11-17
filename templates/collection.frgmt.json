@@ -31,6 +31,7 @@
       "blocks": {
         "image_jKcn7b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/grilinhat845x475.jpg",
@@ -161,6 +162,7 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/varsityjacketsquare.jpg",
             "button_text": "",
