@@ -882,6 +882,81 @@
       "type": "_blocks",
       "settings": {}
     },
+    "media_grid_p7EKPQ": {
+      "type": "media-grid",
+      "blocks": {
+        "image_e83L6V": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/varsityjacketsquare.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/frgmtmini",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#1c1c1c",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jMp3XC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/FR53LS01BK_front.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/frgmtmini/products/kids-fragment-mini-raglan-black",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_4GKrKQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/FR53CR01MG_front.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/frgmtmini/products/fragment-mini-kids-crewneck-grey",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_e83L6V",
+        "image_jMp3XC",
+        "image_4GKrKQ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "FRGMT",
+        "content": "<p>FRGMTMINI is here — igniting the spirit of moving, playing, & jumping. Hiroshi Fujiwara  street heritage meets modern minimalism, built for the next generation.<br/> </p>"
+      }
+    },
     "media_grid_DzxzqH": {
       "type": "media-grid",
       "blocks": {
@@ -1032,82 +1107,6 @@
         "spacing": "xs",
         "subheading": "",
         "title": "Premium COLLECTIONS",
-        "content": ""
-      }
-    },
-    "media_grid_p7EKPQ": {
-      "type": "media-grid",
-      "blocks": {
-        "image_e83L6V": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/JAQ1_copy.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://products/jacquemus-le-sweatshirt-baseba",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#1c1c1c",
-            "overlay_opacity": 0
-          }
-        },
-        "image_jMp3XC": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/BAG.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/jacquemus-le-cuerda-horiz",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_4GKrKQ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/jaq1_69b01056-5bf5-4bd4-9487-dd6066068534.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/jacquemus-le-hoodie-torneo",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_e83L6V",
-        "image_jMp3XC",
-        "image_4GKrKQ"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "JACQUEMUS",
         "content": ""
       }
     },
@@ -1298,8 +1297,8 @@
     "rich_text_Ntqdch",
     "featured_collections_bFrXKx",
     "176076770152fa2223",
-    "media_grid_DzxzqH",
     "media_grid_p7EKPQ",
+    "media_grid_DzxzqH",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",
