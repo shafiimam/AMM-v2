@@ -35,6 +35,25 @@
             "color_scheme": "",
             "image": "shopify://shop_images/grilinhat845x475.jpg",
             "column_count": "12",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_c3byRa": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Image_1_06cf0cb1-357c-4d97-84b2-ef66197b85a9.png",
+            "column_count": "4",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -43,6 +62,24 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VCEkTT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/greencoat1080x608.jpg",
+            "column_count": "12",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center-start text-start",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -65,50 +102,13 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "image_VCEkTT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/greencoat1080x608.jpg",
-            "column_count": "12",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_c3byRa": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/Image_1_06cf0cb1-357c-4d97-84b2-ef66197b85a9.png",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "image_jKcn7b",
-        "image_rMgkQA",
+        "image_c3byRa",
         "image_VCEkTT",
-        "image_c3byRa"
+        "image_rMgkQA"
       ],
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
