@@ -823,13 +823,13 @@
         "subheading_rHqA3H": {
           "type": "subheading",
           "settings": {
-            "text": "<strong>FRMT</strong>"
+            "text": "<strong>FRGMT</strong>"
           }
         },
         "heading_pYq3Xh": {
           "type": "heading",
           "settings": {
-            "text": "FRMTMINI",
+            "text": "FRGMTMINI",
             "heading_tag": "h1"
           }
         },
