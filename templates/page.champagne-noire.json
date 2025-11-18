@@ -181,7 +181,7 @@
         "richtext_jfLmwr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Crafted in the heart of the Champagne region, Maniere Noir Demi-Sec Rosé is a delightful expression of indulgent elegance. As a \"Demi-Sec,\" it possesses a noticeable sweetness, perfectly balanced by a refreshing acidity that makes it both rich and lively. This Champagne is designed for pleasure, offering a more generous and fruit-forward profile making it an approachable yet sophisticated choice for celebrations and decadent pairings.</p>",
+            "content": "<p>Crafted in the heart of the Champagne region, Maniére Noire Demi-Sec Rosé is a delightful expression of indulgent elegance. As a \"Demi-Sec,\" it possesses a noticeable sweetness, perfectly balanced by a refreshing acidity that makes it both rich and lively. This Champagne is designed for pleasure, offering a more generous and fruit-forward profile making it an approachable yet sophisticated choice for celebrations and decadent pairings.</p>",
             "text_color": "#535353"
           }
         },
@@ -359,7 +359,7 @@
         "richtext_kWy6Hq": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A testament to A Ma Maniére’s enduring vision — where luxury meets legacy, and every creation carries intention — Manière Noire embodies the essence of being <em>Built For This</em>: to rise, to create, and to celebrate with purpose.<br/><br/>The Maniére Noire Champagne will be available exclusively online at <a href=\"https://a-ma-maniere.com/\"><span style=\"text-decoration:underline\">a-ma-maniere.com</span></a></p>",
+            "content": "<p>A testament to A Ma Maniére’s enduring vision — where luxury meets legacy, and every creation carries intention — Manière Noire embodies the essence of being <em>Built For This</em>: to rise, to create, and to celebrate with purpose.<br/><br/>The Maniére Noire Champagne will be available exclusively online at <a href=\"https://a-ma-maniere.com/\"><span style=\"text-decoration:underline\">a-ma-maniere.com.</span></a></p>",
             "text_color": "#535353"
           }
         }
