@@ -438,24 +438,6 @@
         "text_color": "#ffffff"
       }
     },
-    "blocks_tyQn4Q": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5edc35c_JRq8Xq": {
-          "type": "ai_gen_block_5edc35c",
-          "settings": {
-            "height_mobile": 10,
-            "height_desktop": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5edc35c_JRq8Xq"
-      ],
-      "name": "Spacer",
-      "settings": {}
-    },
     "beach_location_banner_L3FJnP": {
       "type": "beach-location-banner",
       "blocks": {
@@ -504,24 +486,6 @@
         "button_url": "",
         "button_text": "Learn More"
       }
-    },
-    "blocks_yq9n6M": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5edc35c_kPiqNe": {
-          "type": "ai_gen_block_5edc35c",
-          "settings": {
-            "height_mobile": 10,
-            "height_desktop": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5edc35c_kPiqNe"
-      ],
-      "name": "Spacer",
-      "settings": {}
     },
     "media_grid_NCMT88": {
       "type": "media-grid",
@@ -781,9 +745,7 @@
     "media_grid_wT33ax",
     "image_with_text_mCYw4g",
     "video_hNTJWP",
-    "blocks_tyQn4Q",
     "beach_location_banner_L3FJnP",
-    "blocks_yq9n6M",
     "media_grid_NCMT88",
     "perspective_slider_J4a3Uk",
     "multi_column_y7mnf6",
