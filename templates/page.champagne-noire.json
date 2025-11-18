@@ -480,7 +480,7 @@
       "name": "TASTING NOTES",
       "settings": {
         "desktop_image": "shopify://shop_images/spray2.jpg",
-        "mobile_image": "shopify://shop_images/spray2.jpg",
+        "mobile_image": "shopify://shop_images/spraymob.png",
         "title": "Tasting Notes",
         "description": "Maniére Rosé was made for the moments that mark us and for celebrating the journey, the gathering of those who helped us rise, and the memories that deserve more than a fleeting cheer. It’s Champagne seen through the A Ma Maniére lens: bold in flavor, rich in feeling, and created for shared experience.",
         "button_url": "",
@@ -554,7 +554,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "desktop_row_height": 290,
+        "desktop_row_height": 230,
         "mobile_row_height": 180,
         "section_width": "full",
         "spacing": "none",
