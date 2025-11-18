@@ -218,6 +218,26 @@
         "remove_top_padding": false
       }
     },
+    "176341568773cc3af5": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_Y6brxg": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SvPw2E"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_Y6brxg"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "rich_text_6FxHAF": {
       "type": "rich-text",
       "blocks": {
@@ -464,7 +484,7 @@
           "type": "location",
           "settings": {
             "title": "Finish",
-            "description": "<p>The finish is satisfyingly long and clean, leaving a lingering impression of sweet red berries and creamy. The sweetness gently fades, allowing the</p>"
+            "description": "<p>The finish is satisfyingly long and clean, leaving a lingering impression of sweet red berries and creamy. </p>"
           }
         }
       },
@@ -748,26 +768,6 @@
         "button_2_text": "",
         "button_2_link": "",
         "button_2_style": "solid"
-      }
-    },
-    "176341568773cc3af5": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_Y6brxg": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "SvPw2E"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_Y6brxg"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
       }
     }
   },
