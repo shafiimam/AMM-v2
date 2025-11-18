@@ -78,6 +78,11 @@
         "type": "shopify://apps/sortd-merchandiser/blocks/app-embed/5176d6ef-993f-4869-ba24-87a0a6bedcf9",
         "disabled": false,
         "settings": {}
+      },
+      "15512464928232516002": {
+        "type": "shopify://apps/onlyage-age-verifier/blocks/app-embed/1c7f3065-3d8f-46dc-acaf-e43ee578b3ab",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
