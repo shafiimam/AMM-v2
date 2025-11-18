@@ -343,6 +343,7 @@
       "blocks": {
         "richtext_Q3Fa7n": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<h4><strong>Lorem ipsum dolor sit ame</strong></h4>",
             "text_color": "#1c1c1c"
@@ -351,14 +352,22 @@
         "richtext_wrmDBa": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "content": "<p>Maniére Rosé was made for the moments that mark us and for celebrating the journey, the gathering of those who helped us rise, and the memories that deserve more than a fleeting cheer. It’s Champagne seen through the A Ma Maniére lens: bold in flavor, rich in feeling, and created for shared experience.<br/></p>",
+            "text_color": "#535353"
+          }
+        },
+        "richtext_kWy6Hq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A testament to A Ma Maniére’s enduring vision — where luxury meets legacy, and every creation carries intention — Manière Noire embodies the essence of being <em>Built For This</em>: to rise, to create, and to celebrate with purpose.<br/><br/>The Maniére Noire Champagne will be available exclusively online at <a href=\"https://a-ma-maniere.com/\"><span style=\"text-decoration:underline\">a-ma-maniere.com</span></a></p>",
             "text_color": "#535353"
           }
         }
       },
       "block_order": [
         "richtext_Q3Fa7n",
-        "richtext_wrmDBa"
+        "richtext_wrmDBa",
+        "richtext_kWy6Hq"
       ],
       "settings": {
         "color_scheme": "",
@@ -518,7 +527,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/rose5.png",
+            "image": "shopify://shop_images/bottle.png",
             "column_count": "4",
             "row_count": 3,
             "title": "",
