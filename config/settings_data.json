@@ -74,14 +74,14 @@
         "disabled": false,
         "settings": {}
       },
-      "15512464928232516002": {
-        "type": "shopify://apps/onlyage-age-verifier/blocks/app-embed/1c7f3065-3d8f-46dc-acaf-e43ee578b3ab",
-        "disabled": false,
-        "settings": {}
-      },
       "2153490007123654574": {
         "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
+        "settings": {}
+      },
+      "15512464928232516002": {
+        "type": "shopify://apps/onlyage-age-verifier/blocks/app-embed/1c7f3065-3d8f-46dc-acaf-e43ee578b3ab",
+        "disabled": true,
         "settings": {}
       }
     },
