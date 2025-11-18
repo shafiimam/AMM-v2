@@ -168,14 +168,14 @@
           "type": "richtext",
           "settings": {
             "content": "<h1><strong>Maniére Noire Champagne</strong></h1>",
-            "text_color": "#000000"
+            "text_color": "#1c1c1c"
           }
         },
         "richtext_a46Eea": {
           "type": "richtext",
           "settings": {
             "content": "<h3>Coming Soon </h3>",
-            "text_color": "#000000"
+            "text_color": "#1c1c1c"
           }
         },
         "richtext_jfLmwr": {
