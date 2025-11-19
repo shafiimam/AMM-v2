@@ -264,7 +264,7 @@
         "richtext_8tpcmT": {
           "type": "richtext",
           "settings": {
-            "content": "<p>This is not just Champagne.This is A Ma Maniére, bottled.</p>"
+            "content": "<p>This is not just Champagne. This is A Ma Maniére, bottled.</p>"
           }
         }
       },
