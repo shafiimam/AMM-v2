@@ -615,14 +615,14 @@
         "heading_rBV9ab": {
           "type": "heading",
           "settings": {
-            "text": "Assouline  Air Jordan  Ultimate  Edition",
+            "text": "AIR JORDAN CLASSIC BOOK",
             "heading_tag": "h2"
           }
         },
         "richtext_V3crbK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Air Jordan Ultimate Edition from Assouline is a masterpiece limited to just 1,000 hand-numbered copies. Authored by Adam Bradley with a foreword from Michael Jordan, it celebrates four decades of the Jumpman legacy with archival imagery and cultural insight—making it the perfect luxury gift</p>",
+            "content": "<p>The Air Jordan Classic book is a stunning, authorized 360-page tribute to 40 years of the Jordan Brand legacy — not a basketball biography, but a celebration of design, culture, and innovation. Through powerful visuals and personal keepsakes, it captures how Jordan redefined style, sport, and global influence.</p>",
             "text_color": "#535353"
           }
         },
@@ -648,8 +648,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/2025_09_22_-_Assouline_Air_Jordan_16_square.jpg",
-        "mobile_image": "shopify://shop_images/2025_09_22_-_Assouline_Air_Jordan_16_square.jpg",
+        "image": "shopify://shop_images/9781649805263_3.jpg",
+        "mobile_image": "shopify://shop_images/9781649805263_1.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
