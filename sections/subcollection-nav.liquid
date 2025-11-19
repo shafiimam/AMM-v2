@@ -31,7 +31,7 @@
     scroll-snap-type: x mandatory;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    gap: 16px;
+    gap: {{section.settings.spacing_card}}px;
     padding-block: 40px;
     cursor: grab;
   }
@@ -129,6 +129,16 @@
       "id": "fallback_collection",
       "label": "Fallback Collection",
       "info": "If you use this section outside of collection page templates, this collection will be used to display the subcollection navigation"
+    },
+    {
+      "type": "range",
+      "id": "spacing_card",
+      "label": "Collection card spacing",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
     }
   ],
   "presets": [{ "name": "Subcollection Navigation" }]
