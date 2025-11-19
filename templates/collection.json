@@ -50,6 +50,13 @@
         "text_color": "#ffffff"
       }
     },
+    "subcollection_nav_rWzPbi": {
+      "type": "subcollection-nav",
+      "name": "Subcollection Navigation",
+      "settings": {
+        "fallback_collection": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -95,6 +102,7 @@
   "order": [
     "collection-banner",
     "video_tCYxw6",
+    "subcollection_nav_rWzPbi",
     "main"
   ]
 }
