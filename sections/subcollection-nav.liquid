@@ -3,6 +3,9 @@
 {% if sub_collections != blank %}
   <div class="subcollections-container container">
     {% for sub_collection in sub_collections %}
+      {%- comment %}<locksmith:3dc0>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:3dc0>{% endcomment -%}
       {% assign collection_image = sub_collection.featured_image | image_url: width: 400 %}
       {% if collection_image == blank %}
         {% assign collection_image = sub_collection.products.first.featured_media | image_url: width: 400 %}
