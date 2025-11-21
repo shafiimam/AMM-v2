@@ -62,7 +62,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 800,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "http://www.risetothe6.com/",
+            "button_1_link": "shopify://collections/built-for-this",
             "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#1c1c1c",
