@@ -298,25 +298,25 @@
         "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "thug-club-leather-flame-hoodie-grey"
+            "product": "paly-love-needs-care-crewneck-light-blue"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "thug-club-bone-fur-shorts-ivory"
+            "product": "mohair-beanie"
           }
         },
         "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "thug-life-dragon-chopper-hoodie-white"
+            "product": "rivington-r-sweatpant-yellow"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "thug-club-tc-denim-pants-black"
+            "product": "trpl-chain-bracelet"
           }
         }
       },
@@ -326,8 +326,53 @@
         "product_mzGxhY",
         "product_eekMqY"
       ],
+      "disabled": true,
       "custom_css": [
         "price-list.price-list {display: none;}"
+      ],
+      "settings": {
+        "section_alignment": "left",
+        "title": "GIFTS FOR HIM",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/ECDSC01368_DC_copy.jpg",
+        "image_description": "<p>Discover our Gifts for Him collection, a showcase of elevated designer style that effortlessly blends sophistication and ease. Picture a sleek necklace, relaxed sweatpants, a cozy beanie, and a refined shirt — each piece handpicked from premium fashion houses that embody timeless quality and subtle confidence. This selection brings together statement pieces that speak of discerning taste and understated elegance.</p>",
+        "image_cta": "SHOP GIFTS",
+        "image_cta_url": "shopify://collections/gifts-for-him"
+      }
+    },
+    "featureed_image_and_products_7MHNbK": {
+      "type": "featureed-image-and-products",
+      "blocks": {
+        "product_wBMWzJ": {
+          "type": "product",
+          "settings": {
+            "product": "thug-club-leather-flame-hoodie-grey"
+          }
+        },
+        "product_6yqwTq": {
+          "type": "product",
+          "settings": {
+            "product": "thug-club-bone-fur-shorts-ivory"
+          }
+        },
+        "product_cWVffK": {
+          "type": "product",
+          "settings": {
+            "product": "thug-life-dragon-chopper-hoodie-white"
+          }
+        },
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "thug-club-tc-denim-pants-black"
+          }
+        }
+      },
+      "block_order": [
+        "product_wBMWzJ",
+        "product_6yqwTq",
+        "product_cWVffK",
+        "product_8q4ahn"
       ],
       "settings": {
         "section_alignment": "left",
@@ -848,6 +893,51 @@
         "subheading": ""
       }
     },
+    "image_with_text_3j7QCf": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_fUKd7V": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_VNNGWU": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_ncMfJT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fUKd7V",
+        "heading_VNNGWU",
+        "richtext_ncMfJT"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "image_with_text_YHVQLL": {
       "type": "image-with-text",
       "blocks": {
@@ -1234,6 +1324,7 @@
     "slideshow_QGYQ6e",
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
+    "featureed_image_and_products_7MHNbK",
     "featured_collections_tPwjbc",
     "releases_LeDFdB",
     "before-after",
@@ -1246,6 +1337,7 @@
     "rich_text_Ntqdch",
     "featured_collections_bFrXKx",
     "featured_collections_WMah7x",
+    "image_with_text_3j7QCf",
     "image_with_text_YHVQLL",
     "176076770152fa2223",
     "media_grid_DzxzqH",
