@@ -52,8 +52,8 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/ERL Rollout AMA web .mov",
-        "mobile_video": "shopify://files/videos/ERL Rollout AMA web .mov",
+        "video": "shopify://files/videos/WEB_c3bdee5a-5ad1-438e-84e3-693dac69483a.mov",
+        "mobile_video": "shopify://files/videos/WEB_c3bdee5a-5ad1-438e-84e3-693dac69483a.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -61,8 +61,23 @@
     "main": {
       "type": "main-collection",
       "blocks": {
+        "image_card_bKwVRc": {
+          "type": "image_card",
+          "settings": {
+            "image": "shopify://shop_images/DSC00349_BM.jpg",
+            "button_text": "",
+            "button_url": "",
+            "product_index": 1,
+            "column_span": 1,
+            "row_span": 1,
+            "button_style": "solid",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "image_card_xbb6z4": {
           "type": "image_card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ERL1.jpg",
             "button_text": "SHOP SKULL T-SHIRT",
@@ -77,13 +92,14 @@
         }
       },
       "block_order": [
+        "image_card_bKwVRc",
         "image_card_xbb6z4"
       ],
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
         "products_per_page": 25,
-        "products_per_row_mobile": "1",
+        "products_per_row_mobile": "2",
         "products_size_desktop": "medium",
         "show_grid_mode_selector": false,
         "horizontal_spacing_factor": 0.4,
@@ -98,46 +114,48 @@
         "open_filters_by_default": false
       }
     },
-    "image_with_text_jLdmmU": {
+    "image_with_text_88VrXm": {
       "type": "image-with-text",
       "blocks": {
-        "heading_MAfpmm": {
-          "type": "heading",
+        "subheading_9ziEqz": {
+          "type": "subheading",
+          "disabled": true,
           "settings": {
-            "text": "ERL COLLECTION",
-            "heading_tag": "h1"
+            "text": "Subheading"
           }
         },
-        "richtext_nmR43n": {
+        "heading_HHQgH3": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére x Air Jordan 6 Retro SP “Smoky Mauve”",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_rAdAYm": {
           "type": "richtext",
           "settings": {
-            "content": "<p>ERL brings a cinematic lens to American fashion—merging sculptural forms, soft tones, and narrative depth. Rooted in Venice Beach, each piece reflects a laid-back yet intentional spirit shaped by storytelling and design. </p>",
+            "content": "<p>A Ma Maniére and Jordan Brand introduce<em> Built For This </em>— a narrative of resilience, perseverance, and triumph that’s earned, not given. It pays homage to the unseen work, discipline, and support that shape real strength.</p>",
             "text_color": "#535353"
           }
         }
       },
       "block_order": [
-        "heading_MAfpmm",
-        "richtext_nmR43n"
-      ],
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {display: flex; justify-content: end;}"
+        "subheading_9ziEqz",
+        "heading_HHQgH3",
+        "richtext_rAdAYm"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/erl3.jpg",
-        "mobile_image": "shopify://shop_images/erlnew.jpg",
+        "image": "shopify://shop_images/ammob2.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
         "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "md",
+        "content_width": "sm",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
@@ -147,6 +165,6 @@
     "collection-banner",
     "video_BMBRUt",
     "main",
-    "image_with_text_jLdmmU"
+    "image_with_text_88VrXm"
   ]
 }
