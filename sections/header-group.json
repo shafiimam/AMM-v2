@@ -88,6 +88,7 @@
         },
         "release_HVcayN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.21",
             "release_image": "shopify://shop_images/WILLYCHAVARRIAFORUM84HIBLKRED-1.jpg",
@@ -99,6 +100,7 @@
         },
         "release_Xg6mnY": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.21",
             "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARLOBLK-1.jpg",
@@ -110,6 +112,7 @@
         },
         "release_rgbJLP": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.21",
             "release_image": "shopify://shop_images/HIDDENNYXGELDSTRAINER-14-1.jpg",
@@ -122,12 +125,12 @@
         "release_nAhaJK": {
           "type": "release",
           "settings": {
-            "release_title": "11.21",
-            "release_image": "shopify://shop_images/WILLYCHAVARRIAFORUMBOOTMIDBLK-1.jpg",
-            "product_title": "ADIDAS WILLY CHAVARRIA FORUM BOOT MID \"BLACK\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$300",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-forum-boot-mid-black"
+            "release_title": "11.28",
+            "release_image": "shopify://shop_images/AJ4BLACKCAT-1_64047171-d641-4c14-b799-1ee5ab06d1f6.jpg",
+            "product_title": "AIR JORDAN 4 \"BLACK CAT\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$220",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-black-cat"
           }
         }
       },
