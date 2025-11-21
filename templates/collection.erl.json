@@ -52,8 +52,8 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/WEB_c3bdee5a-5ad1-438e-84e3-693dac69483a.mov",
-        "mobile_video": "shopify://files/videos/WEB_c3bdee5a-5ad1-438e-84e3-693dac69483a.mov",
+        "video": "shopify://files/videos/ERL Rollout AMA web .mov",
+        "mobile_video": "shopify://files/videos/ERL Rollout AMA web .mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -64,7 +64,7 @@
         "image_card_bKwVRc": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/DSC00349_BM.jpg",
+            "image": "shopify://shop_images/erlnewcover2.jpg",
             "button_text": "",
             "button_url": "",
             "product_index": 1,
@@ -144,11 +144,12 @@
         "heading_HHQgH3",
         "richtext_rAdAYm"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/ammob2.jpg",
+        "image": "shopify://shop_images/DSC07090_DC_1_copy.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
