@@ -19,14 +19,13 @@
         "video_NgbMdj": {
           "type": "video",
           "name": "Champagne ",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/champagne vingette (1).mov",
             "mobile_video": "shopify://files/videos/champagne vingette (1).mov",
             "allow_sound": true,
             "subheading": "Available Now",
             "subheading_size": 18,
-            "title": "Maniére Noire Rosé",
+            "title": "Maniére Noire Rosé Champagne",
             "title_size": 31,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
