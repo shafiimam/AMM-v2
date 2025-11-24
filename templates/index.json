@@ -19,14 +19,13 @@
         "video_NgbMdj": {
           "type": "video",
           "name": "Champagne ",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/champagne vingette (1).mov",
             "mobile_video": "shopify://files/videos/champagne vingette (1).mov",
             "allow_sound": true,
             "subheading": "Available Now",
             "subheading_size": 18,
-            "title": "<strong>Maniére Noire Rosé</strong>",
+            "title": "Maniére Noire Rosé",
             "title_size": 31,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -81,14 +80,13 @@
         "video_TrrkwE": {
           "type": "video",
           "name": "Holiday GG",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/MANIERE 1.mov",
             "mobile_video": "shopify://files/videos/MANIERE 1.mov",
             "allow_sound": true,
             "subheading": "Shop curated collections",
             "subheading_size": 18,
-            "title": "<strong>A Ma Maniére Holiday Gift Guide </strong>",
+            "title": "A Ma Maniére Holiday Gift Guide",
             "title_size": 31,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
