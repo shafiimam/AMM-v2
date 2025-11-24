@@ -173,6 +173,7 @@
         },
         "richtext_a46Eea": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<h3>Coming Soon </h3>",
             "text_color": "#1c1c1c"
