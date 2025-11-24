@@ -188,11 +188,10 @@
         },
         "button_drEBmM": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "style": "solid",
-            "text": "be the first to know",
-            "url": "https://www.a-ma-maniere.com/pages/be-the-first-to-know",
+            "text": "BUY NOW",
+            "url": "shopify://products/maniere-noire-rose-champagne",
             "background": "",
             "text_color": ""
           }
@@ -224,6 +223,7 @@
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_Y6brxg": {
           "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
           "settings": {
             "formId": "SvPw2E"
           }
