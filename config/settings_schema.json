@@ -647,6 +647,31 @@
           }
         ],
         "default": "saving"
+      },
+      {
+        "type": "header",
+        "content": "Custom Badge Settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_custom_badge",
+        "label": "Show Custom Badge",
+        "info": "Enable custom badge display on product cards",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "custom_badge_text",
+        "label": "Custom Badge Text",
+        "info": "Text to display on the custom badge (e.g., BLACKFRIDAY)",
+        "default": "SALE"
+      },
+      {
+        "type": "text",
+        "id": "custom_badge_exclude_tag",
+        "label": "Exclude Tag",
+        "info": "Products with this tag will NOT show the custom badge (e.g., nosale)",
+        "default": "nosale"
       }
     ]
   },
