@@ -428,6 +428,11 @@
                 </span>
                 {%endunless %}
               {% endif %}
+              {% if product.metafields.custom.international_shipping_unavailable.value == true %}
+                <span style="display: block; width: 100%; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 15px 0 5px 0; padding: 10px 5px; border: 1px dashed #CF0C28;">
+                  This product is not eligible for international shipping.
+                </span>
+              {% endif %}
             
           {%- when 'pickup_availability' -%}
             {%- if product != blank -%}

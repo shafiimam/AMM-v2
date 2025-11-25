@@ -1,0 +1,756 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "full"
+      }
+    },
+    "beach_header_696FFB": {
+      "type": "beach-header",
+      "disabled": true,
+      "settings": {
+        "title": "A Ma Maniére Beach",
+        "image": "shopify://shop_images/image_54_fe64d72d-7de6-4778-ac8a-0873451ae676.png"
+      }
+    },
+    "slideshow_CPmdyh": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XVfteF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg",
+            "subheading": "",
+            "subheading_size": 12,
+            "title": "",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_K4Ehzh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH3_8411c267-4bde-473f-b60c-e6fd17952dc7.jpg",
+            "subheading": "",
+            "subheading_size": 12,
+            "title": "",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_De3yUq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg",
+            "subheading": "",
+            "subheading_size": 12,
+            "title": "",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_wGGQUF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
+            "subheading": "",
+            "subheading_size": 12,
+            "title": "",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_XVfteF",
+        "image_K4Ehzh",
+        "image_De3yUq",
+        "image_wGGQUF"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "image_with_text_DCdVWx": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_9dG8gD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>Maniére Noire Champagne</strong></h1>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_a46Eea": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<h3>Coming Soon </h3>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_jfLmwr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Crafted in the heart of the Champagne region, Maniére Noire Demi-Sec Rosé is a delightful expression of indulgent elegance. As a \"Demi-Sec,\" it possesses a noticeable sweetness, perfectly balanced by a refreshing acidity that makes it both rich and lively. This Champagne is designed for pleasure, offering a more generous and fruit-forward profile, making it an approachable yet sophisticated choice for celebrations and decadent pairings.<br/><br/><strong>Disclaimer: For customers 21+ only. Adult signature required at delivery. All orders are fulfilled by a licensed, third-party retailer. State shipping restrictions may apply. U.S. domestic shipping only. </strong></p>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "button_drEBmM": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "BUY NOW",
+            "url": "shopify://products/maniere-noire-rose-champagne",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_9dG8gD",
+        "richtext_a46Eea",
+        "richtext_jfLmwr",
+        "button_drEBmM"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC09942_DC_2_copy22.jpg",
+        "mobile_image": "shopify://shop_images/DSC09942_DC_2_copy22.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "176341568773cc3af5": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_Y6brxg": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "disabled": true,
+          "settings": {
+            "formId": "SvPw2E"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_Y6brxg"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "rich_text_6FxHAF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mg6AqV": {
+          "type": "heading",
+          "settings": {
+            "text": "Details",
+            "heading_tag": "h2"
+          }
+        },
+        "subheading_WXmeG3": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Details"
+          }
+        },
+        "richtext_h9pFRM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>In the glass, Maniére Noire Champagne ($125 USD) reveals a brilliant salmon-pink hue with copper reflections and a delicate stream of fine bubbles. The aroma opens with wild strawberry, raspberry, and redcurrant, layered with soft notes of cherry and cream. On the palate, it is vibrant and rounded — its sweetness lifted by clean acidity, its finish long and resonant. Every detail reflects craftsmanship, patience, and a dedication to excellence that defines A Ma Maniére’s world.</p>"
+          }
+        },
+        "richtext_8tpcmT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>This is not just Champagne. This is A Ma Maniére, bottled.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mg6AqV",
+        "subheading_WXmeG3",
+        "richtext_h9pFRM",
+        "richtext_8tpcmT"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "md",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_wT33ax": {
+      "type": "media-grid",
+      "blocks": {
+        "image_z9GLVw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC09807_BM.jpg",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WPKhtT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC09734_DC_2_copy.jpg",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nKjLdk": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/rose6.png",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_z9GLVw",
+        "image_WPKhtT",
+        "image_nKjLdk"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 240,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_mCYw4g": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_Q3Fa7n": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<h4><strong>Lorem ipsum dolor sit ame</strong></h4>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_wrmDBa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Maniére Noire was made for the moments that mark us and for celebrating the journey, the gathering of those who helped us rise, and the memories that deserve more than a fleeting cheer. It’s Champagne seen through the A Ma Maniére lens: bold in flavor, rich in feeling, and created for shared experiences.<br/></p>",
+            "text_color": "#1c1c1c"
+          }
+        },
+        "richtext_kWy6Hq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A testament to A Ma Maniére’s enduring vision — where luxury meets legacy, and every creation carries intention — Maniére Noire embodies the essence of being <em>Built For This</em>: to rise, to create, and to celebrate with purpose.<br/><br/>The Maniére Noire Champagne will be available exclusively online at <a href=\"https://a-ma-maniere.com/\"><span style=\"text-decoration:underline\">a-ma-maniere.com.</span></a></p>",
+            "text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Q3Fa7n",
+        "richtext_wrmDBa",
+        "richtext_kWy6Hq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/rose1.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
+      }
+    },
+    "video_hNTJWP": {
+      "type": "video",
+      "blocks": {
+        "play_LRKijG": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_3fF987": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_LRKijG",
+        "heading_3fF987"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/champagne vingette.mov",
+        "mobile_video": "shopify://files/videos/champagne vingette.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "beach_location_banner_L3FJnP": {
+      "type": "beach-location-banner",
+      "blocks": {
+        "location_QyByL9": {
+          "type": "location",
+          "settings": {
+            "title": "Appearance",
+            "description": "<p>In the glass, it presents a captivating, brilliant salmon pink hue with shimmering copper reflections. A lively and persistent stream of fine bubbles creates a delicate, creamy mousse at the surface, indicating its quality and careful vinification.</p>"
+          }
+        },
+        "location_P6PKMX": {
+          "type": "location",
+          "settings": {
+            "title": "Aroma",
+            "description": "<p>The nose is expressive and generous, bursting with an aromatic bouquet of ripe red fruits. Prominent notes of wild strawberry, raspberry, and redcurrant dominate, layered with subtle hints of cherry.</p>"
+          }
+        },
+        "location_knPVtE": {
+          "type": "location",
+          "settings": {
+            "title": "Palate",
+            "description": "<p>The first sip reveals a pleasingly soft and round texture on the palate. The sweetness is well-integrated and beautifully counterbalanced by a crisp, clean acidity. The vibrant fruit flavors from the nose translate directly to the taste, with lush strawberry compote and sweet cherry taking center stage.</p>"
+          }
+        },
+        "location_eTyzBP": {
+          "type": "location",
+          "settings": {
+            "title": "Finish",
+            "description": "<p>The finish is satisfyingly long and clean, leaving a lingering impression of sweet red berries and cream. The sweetness gently fades, allowing the acidity to lift the final notes and close with elegance and balance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "location_QyByL9",
+        "location_P6PKMX",
+        "location_knPVtE",
+        "location_eTyzBP"
+      ],
+      "custom_css": [],
+      "name": "TASTING NOTES",
+      "settings": {
+        "desktop_image": "shopify://shop_images/spray2.jpg",
+        "mobile_image": "shopify://shop_images/spraymob.png",
+        "title": "Tasting Notes",
+        "description": "Maniére Rosé was made for the moments that mark us and for celebrating the journey, the gathering of those who helped us rise, and the memories that deserve more than a fleeting cheer. It’s Champagne seen through the A Ma Maniére lens: bold in flavor, rich in feeling, and created for shared experiences.",
+        "button_url": "",
+        "button_text": "Learn More"
+      }
+    },
+    "media_grid_NCMT88": {
+      "type": "media-grid",
+      "blocks": {
+        "image_z8Qzjk": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/rose2_5877c500-a678-4420-ac95-0453ffac7f8b.png",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yjRL6z": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/bottle_4fb4da21-1028-4ca9-86fd-896fee686fc0.png",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pN7M8h": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/model2.png",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_z8Qzjk",
+        "image_yjRL6z",
+        "image_pN7M8h"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 230,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "perspective_slider_J4a3Uk": {
+      "type": "perspective-slider",
+      "blocks": {
+        "slide_item_8zL67V": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg"
+          }
+        },
+        "slide_item_AmJUB4": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8619-Edit.jpg"
+          }
+        },
+        "slide_item_jTCaix": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg"
+          }
+        },
+        "slide_item_Jf4GVE": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH3_8411c267-4bde-473f-b60c-e6fd17952dc7.jpg"
+          }
+        },
+        "slide_item_KRtg86": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8619-Edit.jpg"
+          }
+        },
+        "slide_item_Ck4yBV": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8448-Edit.jpg"
+          }
+        },
+        "slide_item_bKWArq": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8921-HDR.jpg"
+          }
+        },
+        "slide_item_qq46ec": {
+          "type": "slide_item",
+          "settings": {
+            "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_item_8zL67V",
+        "slide_item_AmJUB4",
+        "slide_item_jTCaix",
+        "slide_item_Jf4GVE",
+        "slide_item_KRtg86",
+        "slide_item_Ck4yBV",
+        "slide_item_bKWArq",
+        "slide_item_qq46ec"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Gallery",
+        "auto_play": true
+      }
+    },
+    "multi_column_y7mnf6": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_FHXnwD": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Support",
+            "heading_tag": "text-base",
+            "content": "<p>Our friendly team is here to help.</p>",
+            "link_url": "mailto:support@untitledui.com",
+            "link_text": "support@untitledui.com"
+          }
+        },
+        "image_with_text_jDnExU": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "SALES",
+            "heading_tag": "text-base",
+            "content": "<p>Questions or queries? Get in touch!</p>",
+            "link_url": "mailto:support@untitledui.com",
+            "link_text": "support@untitledui.com"
+          }
+        },
+        "image_with_text_jTB86M": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Phone",
+            "heading_tag": "text-base",
+            "content": "<p>Mon-Fri from 8am to 5pm.</p>",
+            "link_url": "tel:+1 (555) 000-0000",
+            "link_text": "+1 (555) 000-0000"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_FHXnwD",
+        "image_with_text_jDnExU",
+        "image_with_text_jTB86M"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".text-base {font-weight: bold;}",
+        "a {margin-block-start: 1rem;}",
+        ".block_content {margin-block-start: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "multiple_media_with_text_NGU7Fx": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_NHDAEJ": {
+          "type": "image",
+          "settings": {
+            "rotation": 0
+          }
+        },
+        "image_7BHBnr": {
+          "type": "image",
+          "settings": {
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_NHDAEJ",
+        "image_7BHBnr"
+      ],
+      "disabled": true,
+      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "About",
+        "title": "Showcase your product",
+        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "beach_header_696FFB",
+    "slideshow_CPmdyh",
+    "image_with_text_DCdVWx",
+    "176341568773cc3af5",
+    "rich_text_6FxHAF",
+    "media_grid_wT33ax",
+    "image_with_text_mCYw4g",
+    "video_hNTJWP",
+    "beach_location_banner_L3FJnP",
+    "media_grid_NCMT88",
+    "perspective_slider_J4a3Uk",
+    "multi_column_y7mnf6",
+    "multiple_media_with_text_NGU7Fx"
+  ]
+}

@@ -3,6 +3,9 @@
 {% if sub_collections != blank %}
   <div class="subcollections-container container">
     {% for sub_collection in sub_collections %}
+      {%- comment %}<locksmith:3dc0>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:3dc0>{% endcomment -%}
       {% assign collection_image = sub_collection.featured_image | image_url: width: 400 %}
       {% if collection_image == blank %}
         {% assign collection_image = sub_collection.products.first.featured_media | image_url: width: 400 %}
@@ -31,7 +34,7 @@
     scroll-snap-type: x mandatory;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    gap: 16px;
+    gap: {{section.settings.spacing_card}}px;
     padding-block: 40px;
     cursor: grab;
   }
@@ -129,6 +132,16 @@
       "id": "fallback_collection",
       "label": "Fallback Collection",
       "info": "If you use this section outside of collection page templates, this collection will be used to display the subcollection navigation"
+    },
+    {
+      "type": "range",
+      "id": "spacing_card",
+      "label": "Collection card spacing",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
     }
   ],
   "presets": [{ "name": "Subcollection Navigation" }]

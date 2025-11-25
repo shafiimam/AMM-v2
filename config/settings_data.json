@@ -14,7 +14,7 @@
     "product_rating_color": "#1c1c1c",
     "product_on_sale_accent": "#1c1c1c",
     "product_sold_out_badge_background": "#efefef",
-    "product_custom_badge_background": "#1c1c1c",
+    "product_custom_badge_background": "#efefef",
     "success_color": "#1c1c1c",
     "warning_color": "#ed8a00",
     "error_color": "#cb2b2b",
@@ -34,6 +34,8 @@
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_discount": false,
+    "show_custom_badge": false,
+    "custom_badge_text": "BLACKFRIDAY",
     "social_facebook": "https://www.facebook.com/maniereusa",
     "social_twitter": "https://twitter.com/maniere_usa",
     "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
@@ -64,8 +66,23 @@
         "disabled": false,
         "settings": {}
       },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "13309252322759772734": {
+        "type": "shopify://apps/sortd-merchandiser/blocks/app-embed/5176d6ef-993f-4869-ba24-87a0a6bedcf9",
+        "disabled": false,
+        "settings": {}
+      },
       "2153490007123654574": {
         "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "disabled": false,
+        "settings": {}
+      },
+      "10560697916000961394": {
+        "type": "shopify://apps/blockify-age-verification/blocks/omg-app-age/92f920f4-d437-4eb4-9aab-e091741a3ce4",
         "disabled": false,
         "settings": {}
       }

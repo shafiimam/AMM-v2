@@ -16,8 +16,101 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_NgbMdj": {
+          "type": "video",
+          "name": "Champagne ",
+          "settings": {
+            "video": "shopify://files/videos/champagne vingette (1).mov",
+            "mobile_video": "shopify://files/videos/champagne vingette (1).mov",
+            "allow_sound": true,
+            "subheading": "Available Now",
+            "subheading_size": 18,
+            "title": "Maniére Noire Rosé Champagne",
+            "title_size": 31,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 740,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "DISCOVER",
+            "button_2_link": "https://www.a-ma-maniere.com/pages/maniere-noire-champagne",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 10,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_tUfJaV": {
           "type": "image",
+          "name": "AJ6 RELEASE",
+          "settings": {
+            "image": "shopify://shop_images/nosocks.jpg",
+            "mobile_image": "shopify://shop_images/nosocksmob.jpg",
+            "subheading": "<p>AVAILABLE NOW</p>",
+            "subheading_size": 17,
+            "title": "<p>A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKY MAUVE\"</p>",
+            "title_size": 22,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 800,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/built-for-this",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "video_TrrkwE": {
+          "type": "video",
+          "name": "Holiday GG",
+          "settings": {
+            "video": "shopify://files/videos/MANIERE 1.mov",
+            "mobile_video": "shopify://files/videos/MANIERE 1.mov",
+            "allow_sound": true,
+            "subheading": "Shop curated collections",
+            "subheading_size": 18,
+            "title": "A Ma Maniére Holiday Gift Guide",
+            "title_size": 31,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 740,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "shop now",
+            "button_2_link": "shopify://collections/gifts-for-him",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 10,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_9WgaN4": {
+          "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/thugclub2.jpg",
             "subheading": "",
@@ -43,134 +136,13 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "video_TrrkwE": {
-          "type": "video",
-          "name": "AJ6 EQL",
-          "disabled": true,
-          "settings": {
-            "allow_sound": true,
-            "subheading": "EXCLUSIVE RELEASE 11.21 AT 11 AM EST",
-            "subheading_size": 18,
-            "title": "A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKEY MAUVE\"",
-            "title_size": 36,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "ENTER DRAW",
-            "button_1_link": "shopify://collections/thug-club",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "video_9VQBMz": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/FINAL 1 NO LOGO.mov",
-            "mobile_video": "shopify://files/videos/FINAL 1 NO LOGO.mov",
-            "allow_sound": true,
-            "subheading": "shop new colors and styles",
-            "subheading_size": 17,
-            "title": "AVIREX",
-            "title_size": 27,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify://collections/avirex",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "image_bJcB48": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/wilydesk.jpg",
-            "mobile_image": "shopify://shop_images/willymob2.jpg",
-            "subheading": "",
-            "subheading_size": 18,
-            "title": "<p><strong>WILLY CHAVARRIA</strong></p>",
-            "title_size": 29,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/willy-chavarria",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "#00000080",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "video_EUxE7d": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/AMA STUSSY.mov",
-            "mobile_video": "shopify://files/videos/AMA STUSSY.mov",
-            "allow_sound": true,
-            "subheading": "",
-            "subheading_size": 19,
-            "title": "Stüssy",
-            "title_size": 32,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/stussy",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
         }
       },
       "block_order": [
+        "video_NgbMdj",
         "image_tUfJaV",
         "video_TrrkwE",
-        "video_9VQBMz",
-        "image_bJcB48",
-        "video_EUxE7d"
+        "image_9WgaN4"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -262,35 +234,35 @@
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_mzGxhY": {
+        "product_CqUpFr": {
           "type": "product",
           "settings": {
-            "product": "thug-club-tc-skull-t-shirt-white"
+            "product": "paly-love-needs-care-crewneck-light-blue"
           }
         },
         "product_q8H3fy": {
           "type": "product",
           "settings": {
-            "product": "thug-club-leather-denim-pants-black"
+            "product": "mohair-beanie"
           }
         },
-        "product_CqUpFr": {
+        "product_mzGxhY": {
           "type": "product",
           "settings": {
-            "product": "thug-club-chimera-beanie-black"
+            "product": "rivington-r-sweat-black"
           }
         },
         "product_eekMqY": {
           "type": "product",
           "settings": {
-            "product": "thug-club-superstar-boot-lux-1"
+            "product": "trpl-chain-bracelet"
           }
         }
       },
       "block_order": [
-        "product_mzGxhY",
-        "product_q8H3fy",
         "product_CqUpFr",
+        "product_q8H3fy",
+        "product_mzGxhY",
         "product_eekMqY"
       ],
       "custom_css": [
@@ -298,9 +270,54 @@
       ],
       "settings": {
         "section_alignment": "left",
+        "title": "GIFTS FOR HIM",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/ECDSC01368_DC_copy.jpg",
+        "image_description": "<p>Discover our Gifts for Him collection, a showcase of elevated designer style that effortlessly blends sophistication and ease. Picture a sleek necklace, relaxed sweatpants, a cozy beanie, and a refined shirt — each piece handpicked from premium fashion houses that embody timeless quality and subtle confidence. This selection brings together statement pieces that speak of discerning taste and understated elegance.</p>",
+        "image_cta": "SHOP GIFTS",
+        "image_cta_url": "shopify://collections/gifts-for-him"
+      }
+    },
+    "featureed_image_and_products_7MHNbK": {
+      "type": "featureed-image-and-products",
+      "blocks": {
+        "product_wBMWzJ": {
+          "type": "product",
+          "settings": {
+            "product": "thug-club-leather-flame-hoodie-grey"
+          }
+        },
+        "product_6yqwTq": {
+          "type": "product",
+          "settings": {
+            "product": "thug-club-bone-fur-shorts-ivory"
+          }
+        },
+        "product_cWVffK": {
+          "type": "product",
+          "settings": {
+            "product": "thug-life-dragon-chopper-hoodie-white"
+          }
+        },
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "thug-club-tc-denim-pants-black"
+          }
+        }
+      },
+      "block_order": [
+        "product_wBMWzJ",
+        "product_6yqwTq",
+        "product_cWVffK",
+        "product_8q4ahn"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_alignment": "left",
         "title": "THUG CLUB",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/thuglub1.jpg",
+        "image": "shopify://shop_images/furshorts.900x900.jpg",
         "image_description": "<p>Discover the bold pedigree of <strong>Thug Club Apparel</strong>, founded in Seoul in 2018 by Min (Thug Min) and Kwon. With its rebellious fusion of hip-hop, motorcycle edge, and high-fashion craft, the brand delivers fearless silhouettes, distressed details, and armor-inspired aesthetics.</p>",
         "image_cta": "Shop all",
         "image_cta_url": "shopify://collections/thug-club"
@@ -312,10 +329,10 @@
         "collection_rf3dw4": {
           "type": "collection",
           "settings": {
-            "collection": "sneakers",
+            "collection": "new-arrivals-1",
             "products_count": 4,
-            "title": "FOOTWEAR",
-            "link_url": "shopify://collections/sneakers",
+            "title": "shop new arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
             "link_text": "SHOP COLLECTION"
           }
         }
@@ -406,35 +423,6 @@
       "name": "Releases",
       "settings": {
         "title": "Releases"
-      }
-    },
-    "featured_collections_WMah7x": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_Q7Rc3m": {
-          "type": "collection",
-          "settings": {
-            "collection": "a-ma-maniere",
-            "products_count": 4,
-            "title": "A MA MANIÉRE",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Q7Rc3m"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "before-after": {
@@ -559,36 +547,6 @@
         "content": ""
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "fathers-day",
-            "products_count": 8,
-            "title": "Father's Day Collection: Father’s Day Gift Guide",
-            "link_url": "shopify://collections/fathers-day",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.7,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "multiple_media_with_text_Lgp4CV": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -634,71 +592,6 @@
         "button_2_style": "solid"
       }
     },
-    "featured_collections_4UQQmj": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_qtemLY": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-denim",
-            "products_count": 8,
-            "title": "Shop denim",
-            "link_url": "shopify://collections/new-denim",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_qtemLY"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "featured_collections_bFrXKx": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_ABw4Mi": {
-          "type": "collection",
-          "settings": {
-            "collection": "sneakers",
-            "products_count": 8,
-            "title": "SHOP FOOTWEAR",
-            "link_url": "shopify://collections/sneakers",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_ABw4Mi"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "price-list.price-list {display: none;}"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "blocks_xhmELd": {
       "type": "_blocks",
       "blocks": {
@@ -717,17 +610,103 @@
       "name": "Spacer",
       "settings": {}
     },
+    "image_with_text_4rzGhq": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_jmzUa4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_h3aKYA": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>The Exclusive Collector’s Gift</strong>",
+            "heading_tag": "h5"
+          }
+        },
+        "heading_rBV9ab": {
+          "type": "heading",
+          "settings": {
+            "text": "AIR JORDAN CLASSIC BOOK",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_V3crbK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Air Jordan Classic book is a stunning, authorized 360-page tribute to 40 years of the Jordan Brand legacy — not a basketball biography, but a celebration of design, culture, and innovation. Through powerful visuals and personal keepsakes, it captures how Jordan redefined style, sport, and global influence.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_GCQJcU": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP COLLECTION",
+            "url": "shopify://collections/assouline",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jmzUa4",
+        "heading_h3aKYA",
+        "heading_rBV9ab",
+        "richtext_V3crbK",
+        "button_GCQJcU"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/9781649805263_3.jpg",
+        "mobile_image": "shopify://shop_images/9781649805263_1.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "blocks_JgXjKd": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_DgnF9B": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 40,
+            "height_desktop": 80
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_DgnF9B"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
     "video_PWhD8P": {
       "type": "video",
       "blocks": {
         "play_NjTYAR": {
           "type": "play",
+          "disabled": true,
           "settings": {
             "icon_color": "#ffffff"
           }
         },
         "heading_q7cwAp": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "",
             "heading_tag": "h2"
@@ -738,6 +717,7 @@
         "play_NjTYAR",
         "heading_q7cwAp"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
@@ -762,12 +742,13 @@
         "heading_BPRrAC": {
           "type": "heading",
           "settings": {
-            "text": "<a href=\"/collections/carhartt-wip\" title=\"CARHARTT WIP\">CARHARTT WIP X NICHOLAS DALEY </a>",
-            "heading_tag": "h1"
+            "text": "<strong>Timeless Gifts, Handpicked for the Collector</strong>",
+            "heading_tag": "h4"
           }
         },
         "richtext_ad7gLb": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<h4>This capsule pays homage to Daley's Jamaican and Scottish ancestry, fusing reggae culture and musical ephemera. Each piece reflects Daley’s balance of function and flair, reinterpreting Carhartt WIP’s DNA.</h4>"
           }
@@ -778,138 +759,183 @@
         "heading_BPRrAC",
         "richtext_ad7gLb"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_bFrXKx": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ABw4Mi": {
+          "type": "collection",
+          "settings": {
+            "collection": "books",
+            "products_count": 8,
+            "title": "BOOKS",
+            "link_url": "shopify://collections/books",
+            "link_text": "SHOP ALL"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ABw4Mi"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "price-list.price-list {display: none;}"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_WMah7x": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Q7Rc3m": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere",
+            "products_count": 4,
+            "title": "A MA MANIÉRE",
+            "link_url": "shopify://collections/a-ma-maniere",
+            "link_text": "SHOP COLLECTION"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Q7Rc3m"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "image_with_text_3j7QCf": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_fUKd7V": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_VNNGWU": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_ncMfJT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fUKd7V",
+        "heading_VNNGWU",
+        "richtext_ncMfJT"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "image_with_text_YHVQLL": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_rHqA3H": {
+          "type": "subheading",
+          "settings": {
+            "text": "<strong>FRGMT</strong>"
+          }
+        },
+        "heading_pYq3Xh": {
+          "type": "heading",
+          "settings": {
+            "text": "FRGMTMINI",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_gD7DXx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>FRGMTMINI is here — igniting the spirit of moving, playing, & jumping. Hiroshi Fujiwara street heritage meets modern minimalism, built for the next generation.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_EgqHPy": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP NOW",
+            "url": "shopify://collections/frgmtmini",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rHqA3H",
+        "heading_pYq3Xh",
+        "richtext_gD7DXx",
+        "button_EgqHPy"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/top_0000s_0005__12.jpg",
+        "mobile_image": "shopify://shop_images/top2_0010s_0005__9.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     },
     "176076770152fa2223": {
       "type": "_blocks",
-      "settings": {}
-    },
-    "1760761019d74231a6": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_219fc88_bp9DQ9": {
-          "type": "ai_gen_block_219fc88",
-          "settings": {
-            "look_order": "1,2,3,4",
-            "image_aspect_ratio": "1 / 1",
-            "card_spacing": 20,
-            "content_padding": 20,
-            "enable_image_zoom": true,
-            "card_background": "#ffffff",
-            "text_color": "#1c1c1c",
-            "modal_background": "#ffffff",
-            "title_font": "serif",
-            "title_size": 16,
-            "title_transform": "uppercase",
-            "price_font": "roboto_n4",
-            "price_size": 14,
-            "default_button_text": "Shop the Look",
-            "button_font": "roboto_n4",
-            "button_size": 12,
-            "button_transform": "uppercase",
-            "button_padding_vertical": 12,
-            "button_padding_horizontal": 24,
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_border_color": "#ffffff",
-            "button_border_width": 1,
-            "button_border_radius": 0,
-            "button_hover_background": "#000000",
-            "button_hover_text_color": "#ffffff",
-            "button_hover_border_color": "#000000",
-            "bag_icon_transparent": true,
-            "bag_icon_background": "#ffffff",
-            "bag_icon_color": "#ffffff",
-            "bag_icon_border_color": "#1c1c1c",
-            "bag_icon_hover_background": "#1c1c1c",
-            "bag_icon_hover_color": "#ffffff",
-            "bag_icon_hover_border_color": "#1c1c1c",
-            "modal_subtitle": "Select Your Size and Add to Cart",
-            "add_to_cart_text": "Add Selected Items to Cart",
-            "modal_border_radius": 0,
-            "look_1_enabled": true,
-            "look_1_media_type": "image",
-            "look_1_image": "shopify://shop_images/CW43_-_Nicholas_Daley-smo-9x16-men-10.jpg",
-            "look_1_title": "POSTER TEE",
-            "look_1_price": "",
-            "look_1_button_type": "disabled",
-            "look_1_button_text": "",
-            "look_1_button_link": "",
-            "look_1_enable_bag_icon": true,
-            "look_1_product_1": "carhartt-nicholas-daley-poster-tee-black",
-            "look_1_product_2": "",
-            "look_1_product_3": "",
-            "look_1_product_4": "",
-            "look_1_product_5": "",
-            "look_1_product_6": "",
-            "look_1_product_7": "",
-            "look_1_product_8": "",
-            "look_2_enabled": true,
-            "look_2_media_type": "image",
-            "look_2_image": "shopify://shop_images/CW43_-_Nicholas_Daley-smo-9x16-men-1.jpg",
-            "look_2_title": "CHORE COAT",
-            "look_2_price": "",
-            "look_2_button_type": "disabled",
-            "look_2_button_text": "",
-            "look_2_button_link": "",
-            "look_2_enable_bag_icon": true,
-            "look_2_product_1": "carhartt-nicholas-daley-og-chore-ct-darknavy-mustard",
-            "look_2_product_2": "",
-            "look_2_product_3": "",
-            "look_2_product_4": "",
-            "look_2_product_5": "",
-            "look_2_product_6": "",
-            "look_2_product_7": "",
-            "look_2_product_8": "",
-            "look_3_enabled": true,
-            "look_3_media_type": "image",
-            "look_3_image": "shopify://shop_images/CW43-Nicholas-Daley-smo-9x16-unisex-1.jpg",
-            "look_3_title": "STRIPES TEE",
-            "look_3_price": "",
-            "look_3_button_type": "disabled",
-            "look_3_button_text": "",
-            "look_3_button_link": "",
-            "look_3_enable_bag_icon": true,
-            "look_3_product_1": "carhartt-nicholas-daley-stripes-tee-stripes-blue",
-            "look_3_product_2": "",
-            "look_3_product_3": "",
-            "look_3_product_4": "",
-            "look_3_product_5": "",
-            "look_3_product_6": "",
-            "look_3_product_7": "",
-            "look_3_product_8": "",
-            "look_4_enabled": true,
-            "look_4_media_type": "image",
-            "look_4_image": "shopify://shop_images/CW43_-_Nicholas_Daley-smo-9x16-men-8.jpg",
-            "look_4_title": "DOUBLE KNEE PANT",
-            "look_4_price": "",
-            "look_4_button_type": "disabled",
-            "look_4_button_text": "",
-            "look_4_button_link": "",
-            "look_4_enable_bag_icon": true,
-            "look_4_product_1": "carhartt-nicholas-daley-dbl-knee-pnt-dark-navy-mustard",
-            "look_4_product_2": "",
-            "look_4_product_3": "",
-            "look_4_product_4": "",
-            "look_4_product_5": "",
-            "look_4_product_6": "",
-            "look_4_product_7": "",
-            "look_4_product_8": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_219fc88_bp9DQ9"
-      ],
-      "name": "Ai Shop the look",
       "settings": {}
     },
     "media_grid_DzxzqH": {
@@ -1010,7 +1036,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AVIREX.768x920.jpg",
+            "image": "shopify://shop_images/12_Shotbycozyy.jpg",
             "column_count": "12",
             "row_count": 1,
             "title": "",
@@ -1055,89 +1081,13 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "desktop_row_height": 410,
         "mobile_row_height": 180,
         "section_width": "full",
         "spacing": "xs",
         "subheading": "",
         "title": "Premium COLLECTIONS",
-        "content": ""
-      }
-    },
-    "media_grid_p7EKPQ": {
-      "type": "media-grid",
-      "blocks": {
-        "image_e83L6V": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/JAQ1_copy.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://products/jacquemus-le-sweatshirt-baseba",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#1c1c1c",
-            "overlay_opacity": 0
-          }
-        },
-        "image_jMp3XC": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/BAG.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/jacquemus-le-cuerda-horiz",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_4GKrKQ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/jaq1_69b01056-5bf5-4bd4-9487-dd6066068534.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/jacquemus-le-hoodie-torneo",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_e83L6V",
-        "image_jMp3XC",
-        "image_4GKrKQ"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "JACQUEMUS",
         "content": ""
       }
     },
@@ -1313,22 +1263,23 @@
     "slideshow_QGYQ6e",
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
+    "featureed_image_and_products_7MHNbK",
     "featured_collections_tPwjbc",
     "releases_LeDFdB",
-    "featured_collections_WMah7x",
     "before-after",
     "collection_list_cLGdiA",
-    "featured-collections",
     "multiple_media_with_text_Lgp4CV",
-    "featured_collections_4UQQmj",
-    "featured_collections_bFrXKx",
     "blocks_xhmELd",
+    "image_with_text_4rzGhq",
+    "blocks_JgXjKd",
     "video_PWhD8P",
     "rich_text_Ntqdch",
+    "featured_collections_bFrXKx",
+    "featured_collections_WMah7x",
+    "image_with_text_3j7QCf",
+    "image_with_text_YHVQLL",
     "176076770152fa2223",
-    "1760761019d74231a6",
     "media_grid_DzxzqH",
-    "media_grid_p7EKPQ",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",

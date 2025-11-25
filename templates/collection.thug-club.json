@@ -52,8 +52,8 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/ERL Rollout AMA web .mov",
-        "mobile_video": "shopify://files/videos/ERL Rollout AMA web .mov",
+        "video": "shopify://files/videos/THUG CLUB WEB.mov",
+        "mobile_video": "shopify://files/videos/THUG CLUB WEB.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -61,27 +61,12 @@
     "main": {
       "type": "main-collection",
       "blocks": {
-        "image_card_bKwVRc": {
-          "type": "image_card",
-          "settings": {
-            "image": "shopify://shop_images/erlnewcover2.jpg",
-            "button_text": "",
-            "button_url": "",
-            "product_index": 1,
-            "column_span": 1,
-            "row_span": 1,
-            "button_style": "solid",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "image_card_xbb6z4": {
           "type": "image_card",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/ERL1.jpg",
-            "button_text": "SHOP SKULL T-SHIRT",
-            "button_url": "https://www.a-ma-maniere.com/collections/erl/products/erl-skull-t-shirt",
+            "image": "shopify://shop_images/thuglub1.jpg",
+            "button_text": "",
+            "button_url": "",
             "product_index": 5,
             "column_span": 2,
             "row_span": 2,
@@ -92,14 +77,13 @@
         }
       },
       "block_order": [
-        "image_card_bKwVRc",
         "image_card_xbb6z4"
       ],
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
-        "products_per_page": 25,
-        "products_per_row_mobile": "2",
+        "products_per_page": 31,
+        "products_per_row_mobile": "1",
         "products_size_desktop": "medium",
         "show_grid_mode_selector": false,
         "horizontal_spacing_factor": 0.4,
@@ -114,49 +98,46 @@
         "open_filters_by_default": false
       }
     },
-    "image_with_text_88VrXm": {
+    "image_with_text_jLdmmU": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_9ziEqz": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_HHQgH3": {
+        "heading_MAfpmm": {
           "type": "heading",
           "settings": {
-            "text": "A Ma Maniére x Air Jordan 6 Retro SP “Smoky Mauve”",
-            "heading_tag": "h3"
+            "text": "THUG CLUB",
+            "heading_tag": "h1"
           }
         },
-        "richtext_rAdAYm": {
+        "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A Ma Maniére and Jordan Brand introduce<em> Built For This </em>— a narrative of resilience, perseverance, and triumph that’s earned, not given. It pays homage to the unseen work, discipline, and support that shape real strength.</p>",
+            "content": "<p>Born in Seoul’s underground, Thug Club has quickly become one of fashion’s loudest voices in global street culture. Each piece is a statement: distorted yet refined, future-facing yet rooted in the raw spirit of youth. From graphic hoodies and studded denim to sculpted accessories, every piece captures the brand’s defiant energy.</p>",
             "text_color": "#535353"
           }
         }
       },
       "block_order": [
-        "subheading_9ziEqz",
-        "heading_HHQgH3",
-        "richtext_rAdAYm"
+        "heading_MAfpmm",
+        "richtext_nmR43n"
       ],
-      "disabled": true,
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/DSC07090_DC_1_copy.jpg",
+        "image": "shopify://shop_images/900x900furshorts.jpg",
+        "mobile_image": "shopify://shop_images/DSC03312_DC.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
         "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "sm",
+        "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
@@ -166,6 +147,6 @@
     "collection-banner",
     "video_BMBRUt",
     "main",
-    "image_with_text_88VrXm"
+    "image_with_text_jLdmmU"
   ]
 }

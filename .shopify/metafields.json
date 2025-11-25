@@ -259,6 +259,16 @@
         "name": "number_integer",
         "category": "NUMBER"
       }
+    },
+    {
+      "key": "international_shipping_unavailable",
+      "namespace": "custom",
+      "name": "international_shipping_unavailable",
+      "description": "Unavailable for international shipping",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
     }
   ],
   "variant": [

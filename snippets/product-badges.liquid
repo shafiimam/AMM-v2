@@ -17,7 +17,7 @@ Supported variables
 {%- endcomment -%}
 
 {%- liquid
-  assign badge_types = types | default: 'custom, sold_out, discount' | split: ','
+  assign badge_types = types | default: 'custom, sold_out, discount, custom_promo' | split: ','
   assign variant = variant | default: product.selected_or_first_available_variant
 -%}
 
@@ -78,6 +78,29 @@ Supported variables
                 -%}
               </on-sale-badge>
             {%- endif -%}
+          {%- endif -%}
+        {%- endif -%}
+
+      {%- when 'custom_promo' -%}
+        {%- if settings.show_custom_badge and settings.custom_badge_text != blank -%}
+          {%- liquid
+            assign show_custom_badge = true
+            assign exclude_tag = settings.custom_badge_exclude_tag | strip | downcase
+            
+            # Check if product has the exclude tag
+            if exclude_tag != blank
+              for tag in product.tags
+                assign tag_downcase = tag | strip | downcase
+                if tag_downcase == exclude_tag
+                  assign show_custom_badge = false
+                  break
+                endif
+              endfor
+            endif
+          -%}
+
+          {%- if show_custom_badge -%}
+            <span class="badge badge--custom">{{ settings.custom_badge_text }}</span>
           {%- endif -%}
         {%- endif -%}
     {%- endcase -%}
