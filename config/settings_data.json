@@ -34,7 +34,7 @@
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_discount": false,
-    "show_custom_badge": false,
+    "show_custom_badge": true,
     "custom_badge_text": "BLACKFRIDAY",
     "social_facebook": "https://www.facebook.com/maniereusa",
     "social_twitter": "https://twitter.com/maniere_usa",
