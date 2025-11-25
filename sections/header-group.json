@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_xMGWt4": {
+          "type": "message",
+          "settings": {
+            "text": "Black Friday: Enjoy 30% off full priced items + 10% off markdowns"
+          }
+        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -28,6 +34,7 @@
         }
       },
       "block_order": [
+        "message_xMGWt4",
         "message-1",
         "message_LyBJxq"
       ],
