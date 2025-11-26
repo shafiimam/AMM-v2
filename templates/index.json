@@ -315,46 +315,46 @@
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "adidem-asterisks-amm-59fifty-atlanta-cap-navy-red"
+          }
+        },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "thug-club-leather-flame-hoodie-grey"
+            "product": "fear-of-god-half-zip-hoodie"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "thug-club-bone-fur-shorts-ivory"
+            "product": "jacquemus-le-jogging-torneo"
           }
         },
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "thug-life-dragon-chopper-hoodie-white"
-          }
-        },
-        "product_8q4ahn": {
-          "type": "product",
-          "settings": {
-            "product": "thug-club-tc-denim-pants-black"
+            "product": "a-ma-maniere-air-ship-sp-black-white"
           }
         }
       },
       "block_order": [
+        "product_8q4ahn",
         "product_wBMWzJ",
         "product_6yqwTq",
-        "product_cWVffK",
-        "product_8q4ahn"
+        "product_cWVffK"
       ],
       "disabled": true,
       "settings": {
         "section_alignment": "left",
-        "title": "THUG CLUB",
+        "title": "A MA MANIÉRE X NEW ERA",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/furshorts.900x900.jpg",
-        "image_description": "<p>Discover the bold pedigree of <strong>Thug Club Apparel</strong>, founded in Seoul in 2018 by Min (Thug Min) and Kwon. With its rebellious fusion of hip-hop, motorcycle edge, and high-fashion craft, the brand delivers fearless silhouettes, distressed details, and armor-inspired aesthetics.</p>",
+        "image": "shopify://shop_images/HATSCOVER.jpg",
+        "image_description": "<p>Discover our new fitted caps _____________</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/thug-club"
+        "image_cta_url": "shopify://collections/new-era"
       }
     },
     "featured_collections_tPwjbc": {
