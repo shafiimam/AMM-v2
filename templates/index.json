@@ -16,6 +16,37 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_NgbMdj": {
+          "type": "video",
+          "name": "NEW ERA HATS",
+          "settings": {
+            "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
+            "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
+            "allow_sound": true,
+            "subheading": "SHOP NEW COLORS",
+            "subheading_size": 18,
+            "title": "A MA MANIÉRE X NEW ERA MLB ALL-STAR CAPS",
+            "title_size": 31,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 740,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/a-ma-maniere",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 10,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_9WgaN4": {
           "type": "image",
           "name": "BLACK FRIDAY SALE",
@@ -41,38 +72,6 @@
             "button_2_text_color": "#000000",
             "background": "",
             "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "video_NgbMdj": {
-          "type": "video",
-          "name": "NEW ERA HATS",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
-            "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
-            "allow_sound": true,
-            "subheading": "SHOP NEW COLORS",
-            "subheading_size": 18,
-            "title": "A MA MANIÉRE X NEW ERA CAPS",
-            "title_size": 31,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/new-era",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 10,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
@@ -172,8 +171,8 @@
         }
       },
       "block_order": [
-        "image_9WgaN4",
         "video_NgbMdj",
+        "image_9WgaN4",
         "video_3tmrzq",
         "image_tUfJaV",
         "video_TrrkwE"
@@ -299,6 +298,7 @@
         "product_mzGxhY",
         "product_eekMqY"
       ],
+      "disabled": true,
       "custom_css": [
         "price-list.price-list {display: none;}"
       ],
@@ -318,7 +318,7 @@
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "adidem-asterisks-amm-59fifty-atlanta-cap-navy-red"
+            "product": "amm-x-new-era-mlb-hat-red-2"
           }
         },
         "product_wBMWzJ": {
@@ -346,15 +346,14 @@
         "product_6yqwTq",
         "product_cWVffK"
       ],
-      "disabled": true,
       "settings": {
         "section_alignment": "left",
         "title": "A MA MANIÉRE X NEW ERA",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/HATSCOVER.jpg",
-        "image_description": "<p>Discover our new fitted caps _____________</p>",
+        "image_description": "<p>Inspired by the iconic Houston Astros and Washington Nationals MLB All-Star games, this latest fitted cap collection redefines classic headwear with intention. Each cap featuring our signature A Ma Maniére “A” logo — a symbol of excellence and elevated taste.</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/new-era"
+        "image_cta_url": "shopify://collections/a-ma-maniere"
       }
     },
     "featured_collections_tPwjbc": {
