@@ -131,6 +131,7 @@
         },
         "release_nAhaJK": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "11.28",
             "release_image": "shopify://shop_images/AJ4BLACKCAT-1_64047171-d641-4c14-b799-1ee5ab06d1f6.jpg",
