@@ -83,26 +83,13 @@
         },
         "release_6QqqMN": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "11.15",
-            "release_image": "shopify://shop_images/AJ1LOWCHICAGOGS-1.jpg",
-            "product_title": "AIR JORDAN 1 RETRO LOW OG \"CHICAGO GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-low-og-chicago-gs"
-          }
-        },
-        "release_HVcayN": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.21",
-            "release_image": "shopify://shop_images/WILLYCHAVARRIAFORUM84HIBLKRED-1.jpg",
-            "product_title": "ADIDAS WILLY CHAVARRIA FORUM 84 HI \"BLACK/RED\"",
+            "release_title": "12.6",
+            "release_image": "shopify://shop_images/AEALPHADOG-1.jpg",
+            "product_title": "ADIDAS ANTHONY EDWARDS 2 \"ALPHADAWG\"",
             "product_vendor": "ADIDAS",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-forum-84-hi-blackred"
+            "product_price": "$130",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-anthony-edwards-2-alphadawg"
           }
         },
         "release_Xg6mnY": {
@@ -115,18 +102,6 @@
             "product_vendor": "ADIDAS",
             "product_price": "$160",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-jabbar-lo"
-          }
-        },
-        "release_rgbJLP": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.21",
-            "release_image": "shopify://shop_images/HIDDENNYXGELDSTRAINER-14-1.jpg",
-            "product_title": "ASICS X HIDDEN NY GEL-DS TRAINER 14 \"DAWN\"",
-            "product_vendor": "ASICS",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-hidden-ny-gel-ds-trainer-14-dawn"
           }
         },
         "release_nAhaJK": {
@@ -146,9 +121,7 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_6QqqMN",
-        "release_HVcayN",
         "release_Xg6mnY",
-        "release_rgbJLP",
         "release_nAhaJK"
       ],
       "settings": {
