@@ -656,21 +656,22 @@
         "heading_h3aKYA": {
           "type": "heading",
           "settings": {
-            "text": "<strong>The Exclusive Collector’s Gift</strong>",
-            "heading_tag": "h5"
+            "text": "<strong>The NEW YORK TIMES 50 BEST CLOTHING STORES IN AMERICA </strong>",
+            "heading_tag": "h3"
           }
         },
         "heading_rBV9ab": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "text": "AIR JORDAN CLASSIC BOOK",
+            "text": "A MA MANIÉRE D.C",
             "heading_tag": "h2"
           }
         },
         "richtext_V3crbK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Air Jordan Classic book is a stunning, authorized 360-page tribute to 40 years of the Jordan Brand legacy — not a basketball biography, but a celebration of design, culture, and innovation. Through powerful visuals and personal keepsakes, it captures how Jordan redefined style, sport, and global influence.</p>",
+            "content": "<p>Highlighted as “a streetwear empire’s crown jewel,” A Ma Maniére D.C. is celebrated not only for its refined three-story layout and elevated hospitality, but for the lifestyle-driven environment it creates. Each floor is designed as an immersive space where global luxury designers, emerging independent voices, and thoughtful storytelling come together to form a complete experience—one that invites guests to feel, explore, and imagine beyond the product itself.</p>",
             "text_color": "#535353"
           }
         },
@@ -678,8 +679,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "SHOP COLLECTION",
-            "url": "shopify://collections/assouline",
+            "text": "READ ARTICLE",
+            "url": "shopify://blogs/editorials/the-new-york-times-50-best-clothing-stores-in-america",
             "background": "",
             "text_color": ""
           }
@@ -696,8 +697,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/9781649805263_3.jpg",
-        "mobile_image": "shopify://shop_images/9781649805263_1.jpg",
+        "image": "shopify://shop_images/AMM-NYT_Grid.2.png",
+        "mobile_image": "shopify://shop_images/AMM-NYT_Grid.2.png",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
