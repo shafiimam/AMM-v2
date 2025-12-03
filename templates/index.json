@@ -19,6 +19,7 @@
         "image_9WgaN4": {
           "type": "image",
           "name": "BLACK FRIDAY SALE",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ammdesksale.jpg",
             "mobile_image": "shopify://shop_images/ammmobsale_32773a0d-a661-47bf-94eb-d62e64028b91.jpg",
