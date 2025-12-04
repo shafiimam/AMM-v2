@@ -729,41 +729,6 @@
       "name": "Spacer",
       "settings": {}
     },
-    "video_PWhD8P": {
-      "type": "video",
-      "blocks": {
-        "play_NjTYAR": {
-          "type": "play",
-          "disabled": true,
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
-        "heading_q7cwAp": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "play_NjTYAR",
-        "heading_q7cwAp"
-      ],
-      "disabled": true,
-      "name": "t:sections.video.presets.video.name",
-      "settings": {
-        "autoplay": true,
-        "show_controls": false,
-        "video_size": "fill",
-        "video": "shopify://files/videos/Carhartt_Nicholas_Daley_Version0231025_16x9_4K_497d4af4-186d-42e0-8221-00d613e8a313.mp4",
-        "mobile_video": "shopify://files/videos/Carhartt_Nicholas_Daley_Version0231025_16x9_4K_497d4af4-186d-42e0-8221-00d613e8a313.mp4",
-        "external_video_url": "",
-        "text_color": "#ffffff"
-      }
-    },
     "rich_text_Ntqdch": {
       "type": "rich-text",
       "blocks": {
@@ -804,38 +769,61 @@
         "remove_vertical_spacing": true
       }
     },
-    "featured_collections_bFrXKx": {
-      "type": "featured-collections",
+    "media_grid_FAWzzb": {
+      "type": "media-grid",
       "blocks": {
-        "collection_ABw4Mi": {
-          "type": "collection",
+        "image_BmkWkR": {
+          "type": "image",
           "settings": {
-            "collection": "books",
-            "products_count": 8,
-            "title": "BOOKS",
-            "link_url": "shopify://collections/books",
-            "link_text": "SHOP ALL"
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC08253_DC_copy2.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "GIFTS FOR HIM",
+            "link_url": "shopify://collections/gifts-for-him",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WPRcay": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/WOMENHOODIE_beb413a5-c305-49c8-9cfc-a503e3f4c989.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "GIFTS FOR HER",
+            "link_url": "shopify://collections/gifts-for-her",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "collection_ABw4Mi"
+        "image_BmkWkR",
+        "image_WPRcay"
       ],
-      "disabled": true,
-      "custom_css": [
-        "price-list.price-list {display: none;}"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "GIFTING GRID",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
+        "desktop_row_height": 410,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "Season of Gifting",
+        "content": ""
       }
     },
     "featured_collections_WMah7x": {
@@ -1307,9 +1295,8 @@
     "blocks_xhmELd",
     "image_with_text_4rzGhq",
     "blocks_JgXjKd",
-    "video_PWhD8P",
     "rich_text_Ntqdch",
-    "featured_collections_bFrXKx",
+    "media_grid_FAWzzb",
     "featured_collections_WMah7x",
     "image_with_text_3j7QCf",
     "image_with_text_YHVQLL",
