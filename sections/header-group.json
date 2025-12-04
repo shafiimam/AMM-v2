@@ -55,14 +55,14 @@
       "blocks": {
         "mega_menu_wJYUCr": {
           "type": "mega_menu",
-          "name": "SHOP DROP DOWN",
+          "name": "OFFSEASON PROMO",
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
-            "image_1": "shopify://shop_images/SHIPPING_AMM-Feed.jpg",
+            "image_1": "shopify://shop_images/OFFSZN-Sale_FEED.jpg",
             "image_1_heading": "",
-            "image_1_text": "",
-            "image_1_link": "#",
+            "image_1_text": "<strong>DISCOVER THE NEW DIGITAL EXPERIENCE</strong>",
+            "image_1_link": "https://www.off--season.com/",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": ""
