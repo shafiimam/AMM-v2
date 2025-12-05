@@ -284,22 +284,22 @@
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_8q4ahn": {
-          "type": "product",
-          "settings": {
-            "product": "amm-x-new-era-mlb-hat-red-2"
-          }
-        },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "ten-c-hooded-sweatshirt-5"
+            "product": "fear-of-god-denim-overshirt-black"
+          }
+        },
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "amm-x-new-era-mlb-hat-black"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-jogging-torneo"
+            "product": "fear-of-god-straight-5-pocket-jean-black"
           }
         },
         "product_cWVffK": {
@@ -310,8 +310,8 @@
         }
       },
       "block_order": [
-        "product_8q4ahn",
         "product_wBMWzJ",
+        "product_8q4ahn",
         "product_6yqwTq",
         "product_cWVffK"
       ],
@@ -319,7 +319,7 @@
         "section_alignment": "left",
         "title": "A MA MANIÉRE X NEW ERA",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/HATSCOVER.jpg",
+        "image": "shopify://shop_images/newcover.jpg",
         "image_description": "<p>Inspired by the iconic Houston Astros and Washington Nationals MLB All-Star games, this latest fitted cap collection redefines classic headwear with intention. Each cap featuring our signature A Ma Maniére “A” logo — a symbol of excellence and elevated taste.</p>",
         "image_cta": "Shop all",
         "image_cta_url": "shopify://collections/a-ma-maniere"
