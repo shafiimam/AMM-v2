@@ -315,6 +315,9 @@
         "product_6yqwTq",
         "product_cWVffK"
       ],
+      "custom_css": [
+        "price-list.price-list {display: none;}"
+      ],
       "settings": {
         "section_alignment": "left",
         "title": "A MA MANIÉRE X NEW ERA",
