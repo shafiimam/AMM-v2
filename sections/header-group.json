@@ -82,17 +82,6 @@
             "image_2_link": ""
           }
         },
-        "release_6QqqMN": {
-          "type": "release",
-          "settings": {
-            "release_title": "12.6",
-            "release_image": "shopify://shop_images/AEALPHADOG-1.jpg",
-            "product_title": "ADIDAS ANTHONY EDWARDS 2 \"ALPHADAWG\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-anthony-edwards-2-alphadawg"
-          }
-        },
         "release_Xg6mnY": {
           "type": "release",
           "disabled": true,
@@ -121,7 +110,6 @@
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_6QqqMN",
         "release_Xg6mnY",
         "release_nAhaJK"
       ],
