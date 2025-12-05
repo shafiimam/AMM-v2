@@ -47,6 +47,7 @@
         "play_4YPpDb",
         "heading_EizRw3"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
@@ -56,6 +57,45 @@
         "mobile_video": "shopify://files/videos/BB AMM 1_37111aea-247f-4701-bfdb-a3ab1f2cb0c3.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
+      }
+    },
+    "rich_text_nYct7Y": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_6Mc89a": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_PxW4EQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_JVcVDe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Better With Age uses deadstock vintage garments and reworks them into 1-of-1 pieces. Please note due to the brand's unique and rare process, each design can vary in blank's color base, and material used. The item you receive will vary in uniqueness from what is pictured here.\"</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6Mc89a",
+        "heading_PxW4EQ",
+        "richtext_JVcVDe"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "image_with_text_block_TmCWVh": {
@@ -147,6 +187,10 @@
         "separate_section_with_border": true,
         "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
         "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -235,6 +279,7 @@
   "order": [
     "collection-banner",
     "video_BMBRUt",
+    "rich_text_nYct7Y",
     "image_with_text_block_TmCWVh",
     "main",
     "image_with_text_jLdmmU",
