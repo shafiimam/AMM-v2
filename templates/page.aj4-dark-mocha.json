@@ -108,7 +108,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/63.jpg",
+        "image": "shopify://shop_images/shoe1.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -358,7 +358,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/aj4cover1.jpg",
+            "image": "shopify://shop_images/sole2.jpg",
             "column_count": "12",
             "row_count": 1,
             "title": "",
