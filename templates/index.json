@@ -408,44 +408,44 @@
         "release_tTFrnC": {
           "type": "release",
           "settings": {
-            "release_title": "11.08",
-            "release_image": "shopify://shop_images/JJJJOUNDSUEDE2-1.jpg",
-            "product_title": "PUMA JJJJOUND SUEDE 2",
-            "product_vendor": "PUMA",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-jjjjound-suede-2"
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a_1.jpg",
+            "product_title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$225",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha"
           }
         },
         "release_P6UxPQ": {
           "type": "release",
           "settings": {
-            "release_title": "11.08",
-            "release_image": "shopify://shop_images/AJ12TAXI-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"TAXI\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-taxi"
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/BAGCOVER.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER TOTE BAG",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-tote-bag"
           }
         },
         "release_G9YFxB": {
           "type": "release",
           "settings": {
-            "release_title": "11.12",
-            "release_image": "shopify://shop_images/NB1906LBLK-1.jpg",
-            "product_title": "NEW BALANCE 1906L",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l"
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/POUCH.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER POUCH",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-pouch"
           }
         },
         "release_tYRKqB": {
           "type": "release",
           "settings": {
-            "release_title": "11.13",
-            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAM-1_63cc9828-e246-4937-a583-8c8296cb3cd2.jpg",
-            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"FLORAL BLACK\"",
-            "product_vendor": "VANS",
-            "product_price": "$160",
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/SCARF.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND SCARF",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$80",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
           }
         }
@@ -457,7 +457,6 @@
         "release_G9YFxB",
         "release_tYRKqB"
       ],
-      "disabled": true,
       "name": "Releases",
       "settings": {
         "title": "Releases"
