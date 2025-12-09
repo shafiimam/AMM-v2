@@ -294,6 +294,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/aj4cover1_0127ad09-e487-478b-b3f3-d382feafd0b5.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
