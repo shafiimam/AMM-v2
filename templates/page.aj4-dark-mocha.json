@@ -22,9 +22,9 @@
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
       "settings": {
-        "image": "shopify://shop_images/MICROHERO.jpg",
+        "image": "shopify://shop_images/aj4cover2.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
-        "title": "A Ma Maniére x Air Jordan 6 retro sp \"smoky mauve\"",
+        "title": "A Ma Maniére x Air Jordan 4 \"Dark Mocha\"",
         "title_color": "#ffffff",
         "title_color_mobile": "#ffffff",
         "title_shadow": 17,
@@ -147,8 +147,8 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/WEB.mov",
-        "mobile_video": "shopify://files/videos/WEB.mov",
+        "video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
+        "mobile_video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
@@ -197,9 +197,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/71.jpg",
-            "column_count": "3",
-            "row_count": 1,
+            "image": "shopify://shop_images/aj41.jpg",
+            "column_count": "6",
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -215,7 +215,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/68.jpg",
+            "image": "shopify://shop_images/netting.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -233,7 +233,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/64.jpg",
+            "image": "shopify://shop_images/totenpouch.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -269,7 +269,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/jacket2.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -323,7 +322,25 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/polo2.jpg",
+            "image": "shopify://shop_images/scarf.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3xwUtz": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/scarf.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -366,6 +383,7 @@
         "image_YPima3",
         "image_3Db9UK",
         "image_MHAJQT",
+        "image_3xwUtz",
         "image_iWhfJp"
       ],
       "settings": {
