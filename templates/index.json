@@ -142,6 +142,7 @@
         "video_TrrkwE": {
           "type": "video",
           "name": "Holiday GG",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/MANIERE 1.mov",
             "mobile_video": "shopify://files/videos/MANIERE 1.mov",
