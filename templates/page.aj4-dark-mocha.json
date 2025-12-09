@@ -58,16 +58,22 @@
             "heading_tag": "h2"
           }
         },
+        "heading_mgQ8rU": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére x Air Jordan 4 \"Dark Mocha\"",
+            "heading_tag": "h3"
+          }
+        },
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>A Ma Maniére and Jordan Brand present </strong><em><strong>Built For This</strong></em><strong>, a story rooted in the resilience, earned celebration, and the perseverance it takes to rise. This narrative honors the unglamorous work, the unseen pressure, the discipline that shapes character, and the people who poured into us along the way. It’s the celebration of those who endured, who built through adversity, and who arrived with grace and purpose.</strong></p><p><strong>Inside, the chapter continues through original artwork by Jammie Holmes, featured on the interior of the shoe box. The piece, titled </strong><em><strong>Malcolm</strong></em><strong>, captures a young man attending one of Malcolm X’s speeches to the Black Muslims. His expression caught between exhaustion and hope. Through that gaze, Holmes explores the power of transformation: how a single voice can offer vision, courage, and the possibility of change</strong></p><p><strong>Releasing alongside the footwear, the Jordan x A Ma Maniére capsule presents essential forms. The knit polo ($120 USD; XS–2X) offers a refined take on sport heritage; the track jacket ($300 USD; XS–2X) introduces structure with a smooth monogram-lined interior, and the matching track pant ($200 USD; XS–2X) brings ease and polish into one silhouette. Each piece sits in conversation with the shoe.</strong></p>",
+            "content": "<p><strong>A Ma Maniére and Jordan Brand present </strong><em><strong>Built For This: Homecoming</strong></em><strong> — a chapter rooted in reflection, gratitude, and earned acknowledgment. This moment honors the journey, the weight of the work, and the stories that shaped it. Homecoming reframes celebration not as an escape, but as a truth revealed: every step meant something, every sacrifice left its mark. The work mattered—and now, the feeling is the proof.<br/></strong><em><strong><br/></strong></em><strong>The A Ma Maniére x Air Jordan 4 “Dark Mocha” is a refined expression of craftsmanship and intention. Dark mocha nubuck brings richness and depth, while tonal hardware and reworked wings and netting create a clean, architectural feel. Visible Air cushioning keeps the silhouette grounded in comfort, and the signature quilted lining adds a final layer of sophistication true to A Ma Maniére’s design ethos.</strong><em><strong><br/><br/></strong></em><strong>Releasing alongside the footwear are A Ma Maniére’s accessories: the Leather Tote and Leather Pouch in soft full-grain leather, and the Signature Scarf featuring a bandana-inspired pattern. All accessories will also be offered through raffle. The nylon outerwear collection includes the Puffer Jacket, Coaches Jacket, Nylon Varsity, Nylon Jacket and Nylon Pants, each designed with smooth finishes, refined lines and silhouettes made for everyday movement.</strong></p>",
             "text_color": "#eaeaea"
           }
         },
         "button_jJg4wY": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "ENTER RAFFLE",
@@ -79,7 +85,7 @@
         "countdown_cDXnhg": {
           "type": "countdown",
           "settings": {
-            "final_date": "21-11-2025",
+            "final_date": "19-12-2025",
             "final_time": "11:00",
             "start_countdown": true
           }
@@ -94,6 +100,7 @@
       },
       "block_order": [
         "heading_HiTgQk",
+        "heading_mgQ8rU",
         "richtext_Pdk9a9",
         "button_jJg4wY",
         "countdown_cDXnhg",
