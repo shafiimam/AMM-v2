@@ -251,7 +251,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/manieretongue.jpg",
+            "image": "shopify://shop_images/soleaj4.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -269,6 +269,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/vjacket2.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -286,7 +287,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/78.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -304,7 +304,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/70.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -340,7 +339,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/scarf.jpg",
+            "image": "shopify://shop_images/shoe1.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -358,7 +357,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/aj6collage.jpg",
+            "image": "shopify://shop_images/aj4cover1.jpg",
             "column_count": "12",
             "row_count": 1,
             "title": "",
