@@ -304,6 +304,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/detail_d01cc77e-3aca-4ec6-bdf6-64e1ee16d5f9.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -339,7 +340,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/shoe1.jpg",
+            "image": "shopify://shop_images/limo2.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
