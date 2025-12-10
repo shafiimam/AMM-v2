@@ -84,18 +84,32 @@ Supported variables
       {%- when 'custom_promo' -%}
         {%- if settings.show_custom_badge and settings.custom_badge_text != blank -%}
           {%- liquid
-            assign show_custom_badge = true
+            assign show_custom_badge = false
+            assign include_tag = settings.custom_badge_include_tag | strip | downcase
             assign exclude_tag = settings.custom_badge_exclude_tag | strip | downcase
             
-            # Check if product has the exclude tag
-            if exclude_tag != blank
+            # Priority 1: Check for inclusion tag (if set, this overrides everything)
+            if include_tag != blank
               for tag in product.tags
                 assign tag_downcase = tag | strip | downcase
-                if tag_downcase == exclude_tag
-                  assign show_custom_badge = false
+                if tag_downcase == include_tag
+                  assign show_custom_badge = true
                   break
                 endif
               endfor
+            else
+              # Priority 2: Use exclusion logic (show badge unless excluded)
+              assign show_custom_badge = true
+              
+              if exclude_tag != blank
+                for tag in product.tags
+                  assign tag_downcase = tag | strip | downcase
+                  if tag_downcase == exclude_tag
+                    assign show_custom_badge = false
+                    break
+                  endif
+                endfor
+              endif
             endif
           -%}
 
