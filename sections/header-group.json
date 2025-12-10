@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_WckYPF": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>Enjoy complimentary shipping on all orders now until 12.10</strong>"
+          }
+        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -28,6 +34,7 @@
         }
       },
       "block_order": [
+        "message_WckYPF",
         "message-1",
         "message_LyBJxq"
       ],
@@ -48,13 +55,14 @@
       "blocks": {
         "mega_menu_wJYUCr": {
           "type": "mega_menu",
-          "name": "SHOP DROP DOWN",
+          "name": "OFFSEASON PROMO",
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
+            "image_1": "shopify://shop_images/OFFSZN-Sale_FEED.jpg",
             "image_1_heading": "",
-            "image_1_text": "",
-            "image_1_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-6-retro-sp-smoky-mauve",
+            "image_1_text": "<strong>DISCOVER THE NEW DIGITAL EXPERIENCE</strong>",
+            "image_1_link": "https://www.off--season.com/",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": ""
@@ -74,74 +82,58 @@
             "image_2_link": ""
           }
         },
-        "release_6QqqMN": {
+        "release_nAhaJK": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "11.15",
-            "release_image": "shopify://shop_images/AJ1LOWCHICAGOGS-1.jpg",
-            "product_title": "AIR JORDAN 1 RETRO LOW OG \"CHICAGO GS",
-            "product_vendor": "JORDAN",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-low-og-chicago-gs"
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a_1.jpg",
+            "product_title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$225",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha"
           }
         },
-        "release_HVcayN": {
+        "release_FiQiFJ": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "11.21",
-            "release_image": "shopify://shop_images/WILLYCHAVARRIAFORUM84HIBLKRED-1.jpg",
-            "product_title": "ADIDAS WILLY CHAVARRIA FORUM 84 HI \"BLACK/RED\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-forum-84-hi-blackred"
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/BAGCOVER.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER TOTE BAG",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-tote-bag"
+          }
+        },
+        "release_KPd8WR": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/POUCH.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER POUCH",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$250",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-pouch"
           }
         },
         "release_Xg6mnY": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "11.21",
-            "release_image": "shopify://shop_images/WILLYCHAVARRIAJABBARLOBLK-1.jpg",
-            "product_title": "ADIDAS WILLY CHAVARRIA JABBAR LO",
-            "product_vendor": "ADIDAS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-jabbar-lo"
-          }
-        },
-        "release_rgbJLP": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.21",
-            "release_image": "shopify://shop_images/HIDDENNYXGELDSTRAINER-14-1.jpg",
-            "product_title": "ASICS X HIDDEN NY GEL-DS TRAINER 14 \"DAWN\"",
-            "product_vendor": "ASICS",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/asics-x-hidden-ny-gel-ds-trainer-14-dawn"
-          }
-        },
-        "release_nAhaJK": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.28",
-            "release_image": "shopify://shop_images/AJ4BLACKCAT-1_64047171-d641-4c14-b799-1ee5ab06d1f6.jpg",
-            "product_title": "AIR JORDAN 4 \"BLACK CAT\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-4-black-cat"
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/SCARF.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND SCARF",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$80",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-scarf"
           }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_6QqqMN",
-        "release_HVcayN",
-        "release_Xg6mnY",
-        "release_rgbJLP",
-        "release_nAhaJK"
+        "release_nAhaJK",
+        "release_FiQiFJ",
+        "release_KPd8WR",
+        "release_Xg6mnY"
       ],
       "settings": {
         "color_scheme": "scheme-2",

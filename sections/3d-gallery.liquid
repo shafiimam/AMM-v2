@@ -14,7 +14,7 @@
         <ul>
           {% for i in (start_index..end_index) %}
             <li>
-              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600" class="angle-image">
+              <img src="{{ link_handle }}{{ i }}.{{ section.settings.file_ext | default: 'png' }}" alt="DSC04{{ i }}" height="650" width="600" class="angle-image">
             </li>
           {% endfor %}
         </ul>
@@ -72,6 +72,12 @@
       "type": "text",
       "id": "dynamic_link_handle",
       "label": "Link Handle"
+    },
+    {
+      "type": "text",
+      "id": "file_ext",
+      "label": "file_extension",
+      "default": "png"
     },
     {
       "type": "text",

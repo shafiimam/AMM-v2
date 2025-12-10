@@ -16,7 +16,69 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_wUxBJM": {
+          "type": "video",
+          "name": "AJ4",
+          "settings": {
+            "video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
+            "mobile_video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
+            "allow_sound": true,
+            "subheading": "Exclusive Release 12.19 at 11 am EST",
+            "subheading_size": 18,
+            "title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
+            "title_size": 31,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 740,
+            "button_1_text": "ENTER RAFFLE",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "CHAPTER 2 DETAILS",
+            "button_2_link": "shopify://pages/air-jordan-4-built-for-this-homecoming",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 10,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_NgbMdj": {
+          "type": "video",
+          "name": "NEW ERA HATS",
+          "settings": {
+            "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
+            "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
+            "allow_sound": true,
+            "subheading": "SHOP NEW COLORS",
+            "subheading_size": 18,
+            "title": "A MA MANIÉRE X NEW ERA MLB ALL-STAR CAPS",
+            "title_size": 31,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 740,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/a-ma-maniere",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 10,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "video_3tmrzq": {
           "type": "video",
           "name": "Champagne ",
           "settings": {
@@ -80,6 +142,7 @@
         "video_TrrkwE": {
           "type": "video",
           "name": "Holiday GG",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/MANIERE 1.mov",
             "mobile_video": "shopify://files/videos/MANIERE 1.mov",
@@ -107,42 +170,14 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "image_9WgaN4": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/thugclub2.jpg",
-            "subheading": "",
-            "subheading_size": 17,
-            "title": "<p><strong>THUG CLUB</strong></p>",
-            "title_size": 27,
-            "mobile_text_position": "place-self-start-end text-end",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 800,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/thug-club",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#1c1c1c",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
+        "video_wUxBJM",
         "video_NgbMdj",
+        "video_3tmrzq",
         "image_tUfJaV",
-        "video_TrrkwE",
-        "image_9WgaN4"
+        "video_TrrkwE"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -154,6 +189,79 @@
         "cycle_speed": 10,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "releases_LeDFdB": {
+      "type": "releases",
+      "blocks": {
+        "release_xMtct7": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "11.06",
+            "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
+            "product_title": "NIKE AIR MAX 95 BIG BUBBLE ZIP \"BLACK\"",
+            "product_vendor": "NIKE",
+            "product_price": "$210",
+            "release_link": ""
+          }
+        },
+        "release_tTFrnC": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a_1.jpg",
+            "product_title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$225",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha"
+          }
+        },
+        "release_P6UxPQ": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/BAGCOVER.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER TOTE BAG",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-tote-bag"
+          }
+        },
+        "release_G9YFxB": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/POUCH.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER POUCH",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-pouch"
+          }
+        },
+        "release_tYRKqB": {
+          "type": "release",
+          "settings": {
+            "release_title": "12.19",
+            "release_image": "shopify://shop_images/SCARF.avif",
+            "product_title": "A MA MANIÉRE X JORDAN BRAND SCARF",
+            "product_vendor": "MANIÉRE",
+            "product_price": "$80",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
+          }
+        }
+      },
+      "block_order": [
+        "release_xMtct7",
+        "release_tTFrnC",
+        "release_P6UxPQ",
+        "release_G9YFxB",
+        "release_tYRKqB"
+      ],
+      "disabled": true,
+      "name": "Releases",
+      "settings": {
+        "title": "Releases"
       }
     },
     "split_media_heo_GynGer": {
@@ -265,6 +373,7 @@
         "product_mzGxhY",
         "product_eekMqY"
       ],
+      "disabled": true,
       "custom_css": [
         "price-list.price-list {display: none;}"
       ],
@@ -284,43 +393,45 @@
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "thug-club-leather-flame-hoodie-grey"
-          }
-        },
-        "product_6yqwTq": {
-          "type": "product",
-          "settings": {
-            "product": "thug-club-bone-fur-shorts-ivory"
-          }
-        },
-        "product_cWVffK": {
-          "type": "product",
-          "settings": {
-            "product": "thug-life-dragon-chopper-hoodie-white"
+            "product": "fear-of-god-denim-overshirt-black"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "thug-club-tc-denim-pants-black"
+            "product": "amm-x-new-era-mlb-hat-black"
+          }
+        },
+        "product_6yqwTq": {
+          "type": "product",
+          "settings": {
+            "product": "fear-of-god-straight-5-pocket-jean-black"
+          }
+        },
+        "product_cWVffK": {
+          "type": "product",
+          "settings": {
+            "product": "a-ma-maniere-air-ship-sp-black-white"
           }
         }
       },
       "block_order": [
         "product_wBMWzJ",
+        "product_8q4ahn",
         "product_6yqwTq",
-        "product_cWVffK",
-        "product_8q4ahn"
+        "product_cWVffK"
       ],
-      "disabled": true,
+      "custom_css": [
+        "price-list.price-list {display: none;}"
+      ],
       "settings": {
         "section_alignment": "left",
-        "title": "THUG CLUB",
+        "title": "A MA MANIÉRE X NEW ERA",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/furshorts.900x900.jpg",
-        "image_description": "<p>Discover the bold pedigree of <strong>Thug Club Apparel</strong>, founded in Seoul in 2018 by Min (Thug Min) and Kwon. With its rebellious fusion of hip-hop, motorcycle edge, and high-fashion craft, the brand delivers fearless silhouettes, distressed details, and armor-inspired aesthetics.</p>",
+        "image": "shopify://shop_images/newcover.jpg",
+        "image_description": "<p>Inspired by the iconic Houston Astros and Washington Nationals MLB All-Star games, this latest fitted cap collection redefines classic headwear with intention. Each cap featuring our signature A Ma Maniére “A” logo — a symbol of excellence and elevated taste.</p>",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/thug-club"
+        "image_cta_url": "shopify://collections/a-ma-maniere"
       }
     },
     "featured_collections_tPwjbc": {
@@ -350,79 +461,6 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
-      }
-    },
-    "releases_LeDFdB": {
-      "type": "releases",
-      "blocks": {
-        "release_xMtct7": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.06",
-            "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
-            "product_title": "NIKE AIR MAX 95 BIG BUBBLE ZIP \"BLACK\"",
-            "product_vendor": "NIKE",
-            "product_price": "$210",
-            "release_link": ""
-          }
-        },
-        "release_tTFrnC": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.08",
-            "release_image": "shopify://shop_images/JJJJOUNDSUEDE2-1.jpg",
-            "product_title": "PUMA JJJJOUND SUEDE 2",
-            "product_vendor": "PUMA",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/puma-jjjjound-suede-2"
-          }
-        },
-        "release_P6UxPQ": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.08",
-            "release_image": "shopify://shop_images/AJ12TAXI-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"TAXI\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-taxi"
-          }
-        },
-        "release_G9YFxB": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.12",
-            "release_image": "shopify://shop_images/NB1906LBLK-1.jpg",
-            "product_title": "NEW BALANCE 1906L",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1906l"
-          }
-        },
-        "release_tYRKqB": {
-          "type": "release",
-          "settings": {
-            "release_title": "11.13",
-            "release_image": "shopify://shop_images/OTWOLDSKOOL36VIBRAM-1_63cc9828-e246-4937-a583-8c8296cb3cd2.jpg",
-            "product_title": "VANS OTW OLD SKOOL 36 VIBRAM \"FLORAL BLACK\"",
-            "product_vendor": "VANS",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
-          }
-        }
-      },
-      "block_order": [
-        "release_xMtct7",
-        "release_tTFrnC",
-        "release_P6UxPQ",
-        "release_G9YFxB",
-        "release_tYRKqB"
-      ],
-      "disabled": true,
-      "name": "Releases",
-      "settings": {
-        "title": "Releases"
       }
     },
     "before-after": {
@@ -623,21 +661,22 @@
         "heading_h3aKYA": {
           "type": "heading",
           "settings": {
-            "text": "<strong>The Exclusive Collector’s Gift</strong>",
-            "heading_tag": "h5"
+            "text": "<strong>The NEW YORK TIMES 50 BEST CLOTHING STORES IN AMERICA </strong>",
+            "heading_tag": "h3"
           }
         },
         "heading_rBV9ab": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "text": "AIR JORDAN CLASSIC BOOK",
+            "text": "A MA MANIÉRE D.C",
             "heading_tag": "h2"
           }
         },
         "richtext_V3crbK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Air Jordan Classic book is a stunning, authorized 360-page tribute to 40 years of the Jordan Brand legacy — not a basketball biography, but a celebration of design, culture, and innovation. Through powerful visuals and personal keepsakes, it captures how Jordan redefined style, sport, and global influence.</p>",
+            "content": "<p>Highlighted as “a streetwear empire’s crown jewel,” A Ma Maniére D.C. is celebrated not only for its refined three-story layout and elevated hospitality, but for the lifestyle-driven environment it creates. Each floor is designed as an immersive space where global luxury designers, emerging independent voices, and thoughtful storytelling come together to form a complete experience—one that invites guests to feel, explore, and imagine beyond the product itself.</p>",
             "text_color": "#535353"
           }
         },
@@ -645,8 +684,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "SHOP COLLECTION",
-            "url": "shopify://collections/assouline",
+            "text": "READ ARTICLE",
+            "url": "shopify://blogs/editorials/the-new-york-times-50-best-clothing-stores-in-america",
             "background": "",
             "text_color": ""
           }
@@ -663,8 +702,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/9781649805263_3.jpg",
-        "mobile_image": "shopify://shop_images/9781649805263_1.jpg",
+        "image": "shopify://shop_images/AMM-NYT_Grid.2.png",
+        "mobile_image": "shopify://shop_images/AMM-NYT_Grid.2.png",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -693,41 +732,6 @@
       ],
       "name": "Spacer",
       "settings": {}
-    },
-    "video_PWhD8P": {
-      "type": "video",
-      "blocks": {
-        "play_NjTYAR": {
-          "type": "play",
-          "disabled": true,
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
-        "heading_q7cwAp": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "play_NjTYAR",
-        "heading_q7cwAp"
-      ],
-      "disabled": true,
-      "name": "t:sections.video.presets.video.name",
-      "settings": {
-        "autoplay": true,
-        "show_controls": false,
-        "video_size": "fill",
-        "video": "shopify://files/videos/Carhartt_Nicholas_Daley_Version0231025_16x9_4K_497d4af4-186d-42e0-8221-00d613e8a313.mp4",
-        "mobile_video": "shopify://files/videos/Carhartt_Nicholas_Daley_Version0231025_16x9_4K_497d4af4-186d-42e0-8221-00d613e8a313.mp4",
-        "external_video_url": "",
-        "text_color": "#ffffff"
-      }
     },
     "rich_text_Ntqdch": {
       "type": "rich-text",
@@ -769,38 +773,61 @@
         "remove_vertical_spacing": true
       }
     },
-    "featured_collections_bFrXKx": {
-      "type": "featured-collections",
+    "media_grid_FAWzzb": {
+      "type": "media-grid",
       "blocks": {
-        "collection_ABw4Mi": {
-          "type": "collection",
+        "image_BmkWkR": {
+          "type": "image",
           "settings": {
-            "collection": "books",
-            "products_count": 8,
-            "title": "BOOKS",
-            "link_url": "shopify://collections/books",
-            "link_text": "SHOP ALL"
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC08253_DC_copy2.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "GIFTS FOR HIM",
+            "link_url": "shopify://collections/gifts-for-him",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WPRcay": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/WOMENHOODIE_beb413a5-c305-49c8-9cfc-a503e3f4c989.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "GIFTS FOR HER",
+            "link_url": "shopify://collections/gifts-for-her",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "collection_ABw4Mi"
+        "image_BmkWkR",
+        "image_WPRcay"
       ],
-      "disabled": true,
-      "custom_css": [
-        "price-list.price-list {display: none;}"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "GIFTING GRID",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
+        "desktop_row_height": 410,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "Season of Gifting",
+        "content": ""
       }
     },
     "featured_collections_WMah7x": {
@@ -896,7 +923,7 @@
         "richtext_gD7DXx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>FRGMTMINI is here — igniting the spirit of moving, playing, & jumping. Hiroshi Fujiwara street heritage meets modern minimalism, built for the next generation.</p>",
+            "content": "<p>Give the gift of cool, playful energy with FRGMTMINI — where Hiroshi Fujiwara’s street-wear heritage meets minimal, kid-ready style. It’s perfect for little ones who love to run, jump, and explore with comfort and attitude. Treat your child to bold, fun fashion this season.</p>",
             "text_color": "#535353"
           }
         },
@@ -921,8 +948,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/top_0000s_0005__12.jpg",
-        "mobile_image": "shopify://shop_images/top2_0010s_0005__9.jpg",
+        "image": "shopify://shop_images/img20251128_16341003_copy.jpg",
+        "mobile_image": "shopify://shop_images/img20251128_16523524_copy.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -1261,20 +1288,19 @@
   "order": [
     "176075966993f87866",
     "slideshow_QGYQ6e",
+    "releases_LeDFdB",
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
     "featureed_image_and_products_7MHNbK",
     "featured_collections_tPwjbc",
-    "releases_LeDFdB",
     "before-after",
     "collection_list_cLGdiA",
     "multiple_media_with_text_Lgp4CV",
     "blocks_xhmELd",
     "image_with_text_4rzGhq",
     "blocks_JgXjKd",
-    "video_PWhD8P",
     "rich_text_Ntqdch",
-    "featured_collections_bFrXKx",
+    "media_grid_FAWzzb",
     "featured_collections_WMah7x",
     "image_with_text_3j7QCf",
     "image_with_text_YHVQLL",
