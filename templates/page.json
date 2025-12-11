@@ -9,6 +9,53 @@
  */
 {
   "sections": {
+    "image_with_text_qmhKYE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FtydCp": {
+          "type": "heading",
+          "settings": {
+            "text": "A MA MANIÉRE LIVING",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_3R37fL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Luxury boutique residential concept blending hotel and consumer experiences, located at our Washington DC and Atlanta Flagship locations.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "richtext_fg6nN8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>Learn More About Maniére Membership SOon </strong></h1>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FtydCp",
+        "richtext_3R37fL",
+        "richtext_fg6nN8"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/amm_dc-1.jpg",
+        "mobile_image": "shopify://shop_images/amm_dc-1_15462d25-a8fd-47f1-b130-72110af3d447.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "media_grid_XbGawa": {
       "type": "media-grid",
       "blocks": {
@@ -81,55 +128,8 @@
         "section_width": "full",
         "spacing": "sm",
         "subheading": "",
-        "title": "A MA Maniere Living CHICAGO",
+        "title": "A MA Maniére Living CHICAGO",
         "content": ""
-      }
-    },
-    "image_with_text_qmhKYE": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_rHyFF7": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "A MA MANIÉRE"
-          }
-        },
-        "heading_FtydCp": {
-          "type": "heading",
-          "settings": {
-            "text": "A MA MANIÉRE LIVING",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_3R37fL": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Luxury boutique residential concept blending hotel and consumer experiences, located at our Washington DC and Atlanta Flagship locations.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_rHyFF7",
-        "heading_FtydCp",
-        "richtext_3R37fL"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/amm_dc-1.jpg",
-        "mobile_image": "shopify://shop_images/amm_dc-1_15462d25-a8fd-47f1-b130-72110af3d447.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "media_grid_PmdwRe": {
@@ -204,17 +204,8 @@
         "section_width": "full",
         "spacing": "sm",
         "subheading": "",
-        "title": "A MA Maniere Living DC",
+        "title": "A MA Maniére Living DC",
         "content": ""
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "show_title": true,
-        "page_width": "lg"
       }
     },
     "content_page_section_GifitE": {
@@ -230,19 +221,30 @@
       "block_order": [
         "paragraph_PfMi7K"
       ],
+      "disabled": true,
       "settings": {
         "title": "{{ page.title }}",
         "description": "",
         "circular_text": "Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll",
         "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png"
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "FORM",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "lg"
+      }
     }
   },
   "order": [
-    "media_grid_XbGawa",
     "image_with_text_qmhKYE",
+    "media_grid_XbGawa",
     "media_grid_PmdwRe",
-    "main",
-    "content_page_section_GifitE"
+    "content_page_section_GifitE",
+    "main"
   ]
 }
