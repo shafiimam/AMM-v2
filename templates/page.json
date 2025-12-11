@@ -9,6 +9,214 @@
  */
 {
   "sections": {
+    "media_grid_XbGawa": {
+      "type": "media-grid",
+      "blocks": {
+        "image_wUrm3M": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/amm_product-5_14a4b26a-74ae-4c24-84b6-ed77f17f315f.jpg",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YKgPXp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC05614.jpg",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Wfg7iY": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC01511.jpg",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_wUrm3M",
+        "image_YKgPXp",
+        "image_Wfg7iY"
+      ],
+      "name": "chi town",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "A MA Maniere Living CHICAGO",
+        "content": ""
+      }
+    },
+    "image_with_text_qmhKYE": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_rHyFF7": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "A MA MANIÉRE"
+          }
+        },
+        "heading_FtydCp": {
+          "type": "heading",
+          "settings": {
+            "text": "A MA MANIÉRE LIVING",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_3R37fL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Luxury boutique residential concept blending hotel and consumer experiences, located at our Washington DC and Atlanta Flagship locations.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rHyFF7",
+        "heading_FtydCp",
+        "richtext_3R37fL"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/amm_dc-1.jpg",
+        "mobile_image": "shopify://shop_images/amm_dc-1_15462d25-a8fd-47f1-b130-72110af3d447.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "media_grid_PmdwRe": {
+      "type": "media-grid",
+      "blocks": {
+        "image_MayL7Y": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/amm_dc-4_94881b01-673e-4b9f-b2ac-69407452fa97.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_y6Ye8y": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/amm_bathroom_1-4.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ncRPbB": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC04829.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MayL7Y",
+        "image_y6Ye8y",
+        "image_ncRPbB"
+      ],
+      "name": "DC",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "A MA Maniere Living DC",
+        "content": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "lg"
+      }
+    },
     "content_page_section_GifitE": {
       "type": "content-page-section",
       "blocks": {
@@ -28,19 +236,13 @@
         "circular_text": "Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll Scroll",
         "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png"
       }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "show_title": true,
-        "page_width": "lg"
-      }
     }
   },
   "order": [
-    "content_page_section_GifitE",
-    "main"
+    "media_grid_XbGawa",
+    "image_with_text_qmhKYE",
+    "media_grid_PmdwRe",
+    "main",
+    "content_page_section_GifitE"
   ]
 }
