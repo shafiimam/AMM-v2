@@ -451,6 +451,9 @@
       "block_order": [
         "collection_rf3dw4"
       ],
+      "custom_css": [
+        "price-list.price-list {display: none;}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -846,6 +849,9 @@
       },
       "block_order": [
         "collection_Q7Rc3m"
+      ],
+      "custom_css": [
+        "price-list.price-list {display: none;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
