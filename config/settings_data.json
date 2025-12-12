@@ -34,13 +34,13 @@
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_discount": false,
-    "show_custom_badge": true,
-    "custom_badge_text": "15%OFF",
-    "custom_badge_include_tag": "wk15",
+    "custom_badge_text": "20%OFF",
+    "custom_badge_include_tag": "outerwear20",
     "social_facebook": "https://www.facebook.com/maniereusa",
     "social_twitter": "https://twitter.com/maniere_usa",
     "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
     "social_discord": "https://bit.ly/thewhitakergrpdiscord",
+    "show_custom_badge": true,
     "content_for_index": [],
     "blocks": {
       "5061257265103808445": {
