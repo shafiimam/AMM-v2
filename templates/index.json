@@ -47,32 +47,61 @@
             "gradient_overlay": ""
           }
         },
-        "video_NgbMdj": {
-          "type": "video",
-          "name": "NEW ERA HATS",
+        "image_9VGPGa": {
+          "type": "image",
+          "name": "12 days ",
           "settings": {
-            "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
-            "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
-            "allow_sound": true,
-            "subheading": "SHOP NEW COLORS",
-            "subheading_size": 18,
-            "title": "A MA MANIÉRE X NEW ERA MLB ALL-STAR CAPS",
-            "title_size": 31,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/a-ma-maniere",
-            "button_1_style": "link",
+            "image": "shopify://shop_images/12amm.jpg",
+            "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
+            "subheading": "<h1><strong>day 1 : 15% off womens & kids apparel </strong></h1>",
+            "subheading_size": 21,
+            "title": "",
+            "title_size": 32,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-start-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_tUfJaV": {
+          "type": "image",
+          "name": "AJ6 RELEASE",
+          "settings": {
+            "image": "shopify://shop_images/nosocks.jpg",
+            "mobile_image": "shopify://shop_images/nosocksmob.jpg",
+            "subheading": "<p>AVAILABLE NOW</p>",
+            "subheading_size": 17,
+            "title": "<p>A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKY MAUVE\"</p>",
+            "title_size": 22,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 800,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/built-for-this",
+            "button_1_style": "outline",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "solid",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
-            "background_opacity": 10,
+            "background_opacity": 0,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
@@ -109,58 +138,27 @@
             "gradient_overlay": ""
           }
         },
-        "image_tUfJaV": {
-          "type": "image",
-          "name": "AJ6 RELEASE",
-          "settings": {
-            "image": "shopify://shop_images/nosocks.jpg",
-            "mobile_image": "shopify://shop_images/nosocksmob.jpg",
-            "subheading": "<p>AVAILABLE NOW</p>",
-            "subheading_size": 17,
-            "title": "<p>A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKY MAUVE\"</p>",
-            "title_size": 22,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 800,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/built-for-this",
-            "button_1_style": "outline",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#1c1c1c",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "video_TrrkwE": {
+        "video_NgbMdj": {
           "type": "video",
-          "name": "Holiday GG",
-          "disabled": true,
+          "name": "NEW ERA HATS",
           "settings": {
-            "video": "shopify://files/videos/MANIERE 1.mov",
-            "mobile_video": "shopify://files/videos/MANIERE 1.mov",
+            "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
+            "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
             "allow_sound": true,
-            "subheading": "Shop curated collections",
+            "subheading": "SHOP NEW COLORS",
             "subheading_size": 18,
-            "title": "A Ma Maniére Holiday Gift Guide",
+            "title": "A MA MANIÉRE X NEW ERA MLB ALL-STAR CAPS",
             "title_size": 31,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 740,
-            "button_1_text": "",
-            "button_1_link": "",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/a-ma-maniere",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
-            "button_2_text": "shop now",
-            "button_2_link": "shopify://collections/gifts-for-him",
+            "button_2_text": "",
+            "button_2_link": "",
             "button_2_style": "solid",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -174,10 +172,10 @@
       },
       "block_order": [
         "video_wUxBJM",
-        "video_NgbMdj",
-        "video_3tmrzq",
+        "image_9VGPGa",
         "image_tUfJaV",
-        "video_TrrkwE"
+        "video_3tmrzq",
+        "video_NgbMdj"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -450,6 +448,9 @@
       },
       "block_order": [
         "collection_rf3dw4"
+      ],
+      "custom_css": [
+        "price-list.price-list {display: none;}"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -847,6 +848,9 @@
       "block_order": [
         "collection_Q7Rc3m"
       ],
+      "custom_css": [
+        "price-list.price-list {display: none;}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -1114,7 +1118,7 @@
         "section_width": "full",
         "spacing": "xs",
         "subheading": "",
-        "title": "Premium COLLECTIONS",
+        "title": "FEATURED COLLECTIONS",
         "content": ""
       }
     },
