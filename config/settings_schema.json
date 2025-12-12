@@ -650,34 +650,32 @@
       },
       {
         "type": "header",
-        "content": "Custom Badge Settings"
+        "content": "Custom Badge System"
       },
       {
         "type": "checkbox",
-        "id": "show_custom_badge",
-        "label": "Show Custom Badge",
-        "info": "Enable custom badge display on product cards",
+        "id": "custom_badge_enable",
+        "label": "Enable Custom Badge System",
+        "info": "Enable advanced custom badge display with multiple tag support",
         "default": false
       },
       {
         "type": "text",
         "id": "custom_badge_text",
-        "label": "Custom Badge Text",
-        "info": "Text to display on the custom badge (e.g., BLACKFRIDAY)",
-        "default": "SALE"
+        "label": "Custom Badge Texts",
+        "info": "Enter comma-separated badge texts (e.g., 'Featured,New,Special'). Each badge text corresponds to a tag at the same index in the Include Tag field."
       },
       {
         "type": "text",
         "id": "custom_badge_include_tag",
-        "label": "Include Tag",
-        "info": "Products with this tag WILL show the custom badge. If set, this overrides the exclude tag logic."
+        "label": "Include Tags",
+        "info": "Products with these tags WILL show the custom badge. Enter comma-separated tags (e.g., 'featured,new,special'). If set, this overrides the exclude tag logic. Each tag corresponds to a badge text at the same index."
       },
       {
         "type": "text",
         "id": "custom_badge_exclude_tag",
-        "label": "Exclude Tag",
-        "info": "Products with this tag will NOT show the custom badge (e.g., nosale). Ignored if Include Tag is set.",
-        "default": "nosale"
+        "label": "Exclude Tags",
+        "info": "Products with these tags will NOT show the custom badge. Enter comma-separated tags. Ignored when Include Tags is set."
       }
     ]
   },
