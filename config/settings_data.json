@@ -34,6 +34,7 @@
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_discount": false,
+    "custom_badge_enable": true,
     "custom_badge_text": "20%OFF",
     "custom_badge_include_tag": "outerwear2",
     "social_facebook": "https://www.facebook.com/maniereusa",
