@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_rP8jF6": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "DAY 3: 20% DENIM & BOTTOM APPAREL"
+          }
+        },
         "message_7Qqd66": {
           "type": "message",
           "settings": {
@@ -28,6 +35,7 @@
         },
         "message-1": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>NEW MARKDOWN ARRIVALS  </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER NOW</strong></a>"
           }
@@ -40,6 +48,7 @@
         }
       },
       "block_order": [
+        "message_rP8jF6",
         "message_7Qqd66",
         "message_WckYPF",
         "message-1",
