@@ -16,13 +16,13 @@
       "blocks": {
         "message_rP8jF6": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "DAY 3: 20% DENIM & BOTTOM APPAREL"
+            "text": "<strong>DAY 3: 20% DENIM & BOTTOM APPAREL</strong>"
           }
         },
         "message_7Qqd66": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>day 2 : 20% OFF OUTERWEAR APPAREL</strong>"
           }
