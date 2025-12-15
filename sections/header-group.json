@@ -16,13 +16,13 @@
       "blocks": {
         "message_rP8jF6": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "DAY 4: 30% OFF ACCESSORIES"
           }
         },
         "message_7Qqd66": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "DAY 5: 20% OFF ALL NIKE/JORDAN FOOTWEAR"
           }
