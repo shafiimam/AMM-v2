@@ -19,6 +19,7 @@
         "video_wUxBJM": {
           "type": "video",
           "name": "AJ4",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
             "mobile_video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
