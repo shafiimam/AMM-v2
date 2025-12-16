@@ -33,9 +33,6 @@
         "heading_QcgKxR"
       ],
       "disabled": true,
-      "custom_css": [
-        "picture {display: flex; justify-content: space-around;}"
-      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -91,72 +88,126 @@
         "remove_vertical_spacing": false
       }
     },
-    "image_with_text_block_mTzP8F": {
-      "type": "image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "image_size": "md",
-        "image": "shopify://shop_images/MOB07590_copy_2_1_1292e67c-261a-4033-8d02-6e0d44978739.jpg",
-        "mobile_image": "shopify://shop_images/MOB07590_copy_2_1_5032dc4c-fa51-46f7-84b8-6db3dbb0c94a.jpg",
-        "content_width": "sm",
-        "enable_parallax": false,
-        "remove_vertical_spacing": true
-      }
-    },
-    "image_with_text_3RCJ8L": {
-      "type": "image-with-text",
+    "blocks_cWU4gm": {
+      "type": "_blocks",
       "blocks": {
-        "heading_6KUjqd": {
-          "type": "heading",
+        "ai_gen_block_219fc88_68gRh7": {
+          "type": "ai_gen_block_219fc88",
           "settings": {
-            "text": "A MA MANIÉRE STADIUM JACKET",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_KgnhFQ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Elevate your everyday with the A Ma Manière Stadium Jacket. A seamless blend of classic sportswear and refined luxury, this jacket wraps you in warmth and sophistication. Crafted with impeccable attention to detail, it’s more than just a piece of outerwear—it's a statement. With clean lines, premium fabric, and timeless design, this jacket is made for those who appreciate the art of fine fashion. Perfect for any occasion, it’s the piece that effortlessly transforms your look and leaves a lasting impression. Wear it, love it, make it yours.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_XhVQaG": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Shop Now",
-            "url": "shopify://products/a-ma-maniere-cropped-stadium-jacket-1",
-            "background": "",
-            "text_color": ""
-          }
+            "look_order": "1,2,3,4",
+            "image_aspect_ratio": "4 / 5",
+            "card_spacing": 20,
+            "content_padding": 20,
+            "enable_image_zoom": true,
+            "card_background": "#ffffff",
+            "text_color": "#1c1c1c",
+            "modal_background": "#ffffff",
+            "title_font": "roboto_n4",
+            "title_size": 16,
+            "title_transform": "uppercase",
+            "price_font": "roboto_n4",
+            "price_size": 14,
+            "default_button_text": "Shop the Look",
+            "button_font": "roboto_n4",
+            "button_size": 12,
+            "button_transform": "uppercase",
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 24,
+            "button_background": "#1c1c1c",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#1c1c1c",
+            "button_border_width": 1,
+            "button_border_radius": 0,
+            "button_hover_background": "#000000",
+            "button_hover_text_color": "#ffffff",
+            "button_hover_border_color": "#000000",
+            "bag_icon_transparent": false,
+            "bag_icon_background": "#ffffff",
+            "bag_icon_color": "#1c1c1c",
+            "bag_icon_border_color": "#1c1c1c",
+            "bag_icon_hover_background": "#1c1c1c",
+            "bag_icon_hover_color": "#ffffff",
+            "bag_icon_hover_border_color": "#1c1c1c",
+            "modal_subtitle": "Select options and add items to cart",
+            "add_to_cart_text": "Add Selected to Cart",
+            "modal_border_radius": 0,
+            "look_1_enabled": true,
+            "look_1_media_type": "image",
+            "look_1_image": "shopify://shop_images/LOOK1.jpg",
+            "look_1_title": "Look 1",
+            "look_1_price": "",
+            "look_1_button_type": "modal",
+            "look_1_button_text": "",
+            "look_1_button_link": "",
+            "look_1_enable_bag_icon": true,
+            "look_1_product_1": "maison-mihara-yasuhiro-bootcut-wide-jeans-indigo",
+            "look_1_product_2": "maison-mihara-yasuhiro-sun-faded-blouson-khaki",
+            "look_1_product_3": "human-made-canvas-boston-bag-lg-brown",
+            "look_1_product_4": "ca4la-x-k-wing-cap",
+            "look_1_product_5": "",
+            "look_1_product_6": "",
+            "look_1_product_7": "",
+            "look_1_product_8": "",
+            "look_2_enabled": true,
+            "look_2_media_type": "image",
+            "look_2_image": "shopify://shop_images/look3.jpg",
+            "look_2_title": "Look 2",
+            "look_2_price": "",
+            "look_2_button_type": "modal",
+            "look_2_button_text": "",
+            "look_2_button_link": "",
+            "look_2_enable_bag_icon": true,
+            "look_2_product_1": "enfants-riches-deprimes-iron-cross-wallet-green",
+            "look_2_product_2": "enfants-riches-deprimes-sosos-repaired-trouser-light-grey",
+            "look_2_product_3": "enfants-riches-deprimes-classic-rose-belt-black",
+            "look_2_product_4": "vintage-sneaks-8",
+            "look_2_product_5": "rivington-dot-pull-over-black-white",
+            "look_2_product_6": "",
+            "look_2_product_7": "",
+            "look_2_product_8": "",
+            "look_3_enabled": true,
+            "look_3_media_type": "image",
+            "look_3_image": "shopify://shop_images/look4.jpg",
+            "look_3_title": "Look 3",
+            "look_3_price": "",
+            "look_3_button_type": "modal",
+            "look_3_button_text": "",
+            "look_3_button_link": "",
+            "look_3_enable_bag_icon": true,
+            "look_3_product_1": "cdg-shirt-scarf-red-blue",
+            "look_3_product_2": "rick-owens-lido-worker-dnm",
+            "look_3_product_3": "maison-mihara-yasuhiro-repair-crazy-shirt-black",
+            "look_3_product_4": "rick-owens-drkshdw-jumbo-outershirt-light-indigo",
+            "look_3_product_5": "",
+            "look_3_product_6": "",
+            "look_3_product_7": "",
+            "look_3_product_8": "",
+            "look_4_enabled": true,
+            "look_4_media_type": "image",
+            "look_4_image": "shopify://shop_images/look5.jpg",
+            "look_4_title": "Look 4",
+            "look_4_price": "",
+            "look_4_button_type": "modal",
+            "look_4_button_text": "",
+            "look_4_button_link": "",
+            "look_4_enable_bag_icon": true,
+            "look_4_product_1": "avirex-distressed-croc-icon-jacket-grey",
+            "look_4_product_2": "enfants-riches-deprimes-belt-strap-weekender-black",
+            "look_4_product_3": "a-ma-maniere-amm-chain-amm-2014-chrome-hat-black",
+            "look_4_product_4": "a-ma-maniere-hat-1",
+            "look_4_product_5": "",
+            "look_4_product_6": "",
+            "look_4_product_7": "",
+            "look_4_product_8": ""
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "heading_6KUjqd",
-        "richtext_KgnhFQ",
-        "button_XhVQaG"
+        "ai_gen_block_219fc88_68gRh7"
       ],
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {display: flex; justify-content: end;}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/FLEECE1.jpg",
-        "mobile_image": "shopify://shop_images/FLEECE1.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
+      "name": "Shop the look grid",
+      "settings": {}
     },
     "featured_collections_Dtrtbp": {
       "type": "featured-collections",
@@ -270,7 +321,7 @@
           "settings": {
             "collection": "new-knits",
             "products_count": 8,
-            "title": "Luxury in Layers",
+            "title": "Sweaters",
             "link_url": "shopify://collections/new-knits",
             "link_text": ""
           }
@@ -291,6 +342,60 @@
         "subheading": ""
       }
     },
+    "image_with_text_3RCJ8L": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6KUjqd": {
+          "type": "heading",
+          "settings": {
+            "text": "A MA MANIÉRE STADIUM JACKET",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_KgnhFQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Elevate your everyday with the A Ma Manière Stadium Jacket. A seamless blend of classic sportswear and refined luxury, this jacket wraps you in warmth and sophistication. Crafted with impeccable attention to detail, it’s more than just a piece of outerwear—it's a statement. With clean lines, premium fabric, and timeless design, this jacket is made for those who appreciate the art of fine fashion. Perfect for any occasion, it’s the piece that effortlessly transforms your look and leaves a lasting impression. Wear it, love it, make it yours.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_XhVQaG": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop Now",
+            "url": "shopify://products/a-ma-maniere-cropped-stadium-jacket-1",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6KUjqd",
+        "richtext_KgnhFQ",
+        "button_XhVQaG"
+      ],
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/FLEECE1.jpg",
+        "mobile_image": "shopify://shop_images/FLEECE1.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "3d_gallery_Y9qVkB": {
       "type": "3d-gallery",
       "disabled": true,
@@ -299,6 +404,7 @@
         "start_index": "268",
         "end_index": "318",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC04",
+        "file_ext": "png",
         "button_label": "Shop Now",
         "button_link": "",
         "knob_position": 10,
@@ -314,11 +420,11 @@
     "main",
     "image_with_text_custom_qxrkki",
     "rich_text_wppe8r",
-    "image_with_text_block_mTzP8F",
-    "image_with_text_3RCJ8L",
+    "blocks_cWU4gm",
     "featured_collections_Dtrtbp",
     "media_grid_NdQyMT",
     "featured_collections_e4qJwn",
+    "image_with_text_3RCJ8L",
     "3d_gallery_Y9qVkB"
   ]
 }
