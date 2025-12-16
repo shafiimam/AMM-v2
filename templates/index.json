@@ -51,7 +51,6 @@
         "image_9VGPGa": {
           "type": "image",
           "name": "12 days ",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/12amm.jpg",
             "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
@@ -82,6 +81,7 @@
         "image_xPPMHF": {
           "type": "image",
           "name": "12 days ",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/12amm.jpg",
             "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
