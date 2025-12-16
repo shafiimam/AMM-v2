@@ -16,13 +16,13 @@
       "blocks": {
         "message_rP8jF6": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "DAY 6: 25% OFF TEES"
           }
         },
         "message_7Qqd66": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>DAY 5: 20% OFF ALL NIKE/JORDAN FOOTWEAR</strong>"
           }
