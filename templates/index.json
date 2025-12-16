@@ -452,9 +452,7 @@
         "product_6yqwTq",
         "product_cWVffK"
       ],
-      "custom_css": [
-        "price-list.price-list {display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "section_alignment": "left",
         "title": "A MA MANIÉRE X NEW ERA",
@@ -482,9 +480,7 @@
       "block_order": [
         "collection_rf3dw4"
       ],
-      "custom_css": [
-        "price-list.price-list {display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -881,9 +877,7 @@
       "block_order": [
         "collection_Q7Rc3m"
       ],
-      "custom_css": [
-        "price-list.price-list {display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
