@@ -508,6 +508,12 @@
         "default": true
       },
       {
+        "type": "checkbox",
+        "id": "hide_product_price",
+        "label": "Hide product price in home page",
+        "default": false
+      },
+      {
         "type": "header",
         "content": "t:theme_settings.product_card.product_info_category"
       },

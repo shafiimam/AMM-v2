@@ -239,4 +239,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         });
     }
   </script>
+  {% if settings.hide_product_price and template.name == 'index' %}
+    {% style %}
+      price-list.price-list {
+        display: none;
+      }
+    {% endstyle %}
+  {% endif %}
 </html>

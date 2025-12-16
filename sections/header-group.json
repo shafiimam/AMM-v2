@@ -14,6 +14,19 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_rP8jF6": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "DAY 6: 25% OFF TEES"
+          }
+        },
+        "message_7Qqd66": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>DAY 5: 20% OFF ALL NIKE/JORDAN FOOTWEAR</strong>"
+          }
+        },
         "message_WckYPF": {
           "type": "message",
           "settings": {
@@ -22,6 +35,7 @@
         },
         "message-1": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>NEW MARKDOWN ARRIVALS  </strong><a href=\"/collections/markdowns\" title=\"Markdowns\"><strong>DISCOVER NOW</strong></a>"
           }
@@ -34,6 +48,8 @@
         }
       },
       "block_order": [
+        "message_rP8jF6",
+        "message_7Qqd66",
         "message_WckYPF",
         "message-1",
         "message_LyBJxq"
@@ -84,6 +100,7 @@
         },
         "release_nAhaJK": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "12.19",
             "release_image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a_1.jpg",
@@ -93,19 +110,9 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha"
           }
         },
-        "release_FiQiFJ": {
-          "type": "release",
-          "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/BAGCOVER.avif",
-            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER TOTE BAG",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-tote-bag"
-          }
-        },
         "release_KPd8WR": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "12.19",
             "release_image": "shopify://shop_images/POUCH.avif",
@@ -114,26 +121,13 @@
             "product_price": "$250",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-pouch"
           }
-        },
-        "release_Xg6mnY": {
-          "type": "release",
-          "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/SCARF.avif",
-            "product_title": "A MA MANIÉRE X JORDAN BRAND SCARF",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$80",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-scarf"
-          }
         }
       },
       "block_order": [
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_nAhaJK",
-        "release_FiQiFJ",
-        "release_KPd8WR",
-        "release_Xg6mnY"
+        "release_KPd8WR"
       ],
       "settings": {
         "color_scheme": "scheme-2",
