@@ -16,53 +16,22 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "video_wUxBJM": {
-          "type": "video",
-          "name": "AJ4",
+        "image_xPPMHF": {
+          "type": "image",
+          "name": "AJ4FCFS",
           "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
-            "mobile_video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
-            "allow_sound": true,
-            "subheading": "Exclusive Release 12.19 at 11 am EST",
-            "subheading_size": 18,
-            "title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
-            "title_size": 31,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "ENTER RAFFLE",
-            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "CHAPTER 2 DETAILS",
-            "button_2_link": "shopify://pages/air-jordan-4-built-for-this-homecoming",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 10,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_9VGPGa": {
-          "type": "image",
-          "name": "12 days ",
-          "settings": {
-            "image": "shopify://shop_images/12amm.jpg",
-            "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
-            "subheading": "<p><strong>DAY 8: 25% OFF SWEATERS</strong></p>",
-            "subheading_size": 28,
-            "title": "",
+            "image": "shopify://shop_images/look3.jpg",
+            "mobile_image": "shopify://shop_images/1000017536.jpg",
+            "subheading": "<p>AVAILABLE NOW </p>",
+            "subheading_size": 21,
+            "title": "<p><strong>A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"</strong></p>",
             "title_size": 32,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-start-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/new-knits",
+            "button_1_link": "shopify://collections/new-balance",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -78,21 +47,21 @@
             "gradient_overlay": ""
           }
         },
-        "image_xPPMHF": {
+        "image_9VGPGa": {
           "type": "image",
-          "name": "12 days ",
+          "name": "12 DAYS",
           "settings": {
             "image": "shopify://shop_images/12amm.jpg",
             "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
-            "subheading": "",
-            "subheading_size": 21,
-            "title": "<p><strong>DAY 7: 15% OFF ALL NEW BALANCE FOOTWEAR</strong></p>",
+            "subheading": "<p><strong>DAY 8: 25% OFF SWEATERS</strong></p>",
+            "subheading_size": 28,
+            "title": "",
             "title_size": 32,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-start-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/new-balance",
+            "button_1_link": "shopify://collections/new-knits",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -202,9 +171,8 @@
         }
       },
       "block_order": [
-        "video_wUxBJM",
-        "image_9VGPGa",
         "image_xPPMHF",
+        "image_9VGPGa",
         "image_tUfJaV",
         "video_3tmrzq",
         "video_NgbMdj"
