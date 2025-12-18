@@ -468,10 +468,10 @@
         "collection_rf3dw4": {
           "type": "collection",
           "settings": {
-            "collection": "jackets-coats",
+            "collection": "new-knits",
             "products_count": 4,
-            "title": "shop OUTERWEAR",
-            "link_url": "shopify://collections/jackets-coats",
+            "title": "shop KNITS AND SWEATERS",
+            "link_url": "shopify://collections/new-knits",
             "link_text": "SHOP COLLECTION"
           }
         }
