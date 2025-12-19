@@ -19,7 +19,6 @@
         "image_xPPMHF": {
           "type": "image",
           "name": "AJ4FCFS",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/aj4expansion1_b218a9d5-0349-4fa4-9042-da17e3fd0037_1.jpg",
             "mobile_image": "shopify://shop_images/mobile2_00b205eb-7819-4889-9549-c9c947e61074.jpg",
@@ -31,7 +30,7 @@
             "desktop_text_position": "sm:place-self-start-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "#",
+            "button_1_link": "http://www.one4keeps.com/",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -50,6 +49,7 @@
         "image_9VGPGa": {
           "type": "image",
           "name": "12 DAYS",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/12amm.jpg",
             "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
@@ -80,6 +80,7 @@
         "image_tUfJaV": {
           "type": "image",
           "name": "AJ6 RELEASE",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/nosocks.jpg",
             "mobile_image": "shopify://shop_images/nosocksmob.jpg",
@@ -110,6 +111,7 @@
         "video_3tmrzq": {
           "type": "video",
           "name": "Champagne ",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/champagne vingette (1).mov",
             "mobile_video": "shopify://files/videos/champagne vingette (1).mov",
@@ -141,6 +143,7 @@
         "video_NgbMdj": {
           "type": "video",
           "name": "NEW ERA HATS",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
             "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
