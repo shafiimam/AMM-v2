@@ -16,13 +16,13 @@
       "blocks": {
         "message_rP8jF6": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "<strong>DAY 10: 15% OFF ALL ADIDAS FOOTWEAR</strong>"
           }
         },
         "message_7Qqd66": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>DAY 9: 25% OFF ALL ACCESSORIES </strong>"
           }
