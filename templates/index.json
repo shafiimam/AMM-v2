@@ -433,10 +433,43 @@
         "image_cta_url": "shopify://pages/outerwear"
       }
     },
-    "featured_collections_tPwjbc": {
+    "featured_collections_RwpkEJ": {
       "type": "featured-collections",
       "blocks": {
-        "collection_Xd3XCn": {
+        "collection_3gxaab": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "all",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_t3bATr": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "jackets-coats",
+            "products_count": 8,
+            "title": "OUTERWEAR",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_hDDwnm": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "adidas",
+            "products_count": 8,
+            "title": "ADIDAS",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_dnEeCe": {
           "type": "collection",
           "settings": {
             "collection": "new-accessories",
@@ -446,7 +479,7 @@
             "link_text": "View all"
           }
         },
-        "collection_rf3dw4": {
+        "collection_KPertQ": {
           "type": "collection",
           "disabled": true,
           "settings": {
@@ -459,8 +492,11 @@
         }
       },
       "block_order": [
-        "collection_Xd3XCn",
-        "collection_rf3dw4"
+        "collection_3gxaab",
+        "collection_t3bATr",
+        "collection_hDDwnm",
+        "collection_dnEeCe",
+        "collection_KPertQ"
       ],
       "custom_css": [],
       "settings": {
@@ -1305,7 +1341,7 @@
     "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
     "featureed_image_and_products_7MHNbK",
-    "featured_collections_tPwjbc",
+    "featured_collections_RwpkEJ",
     "before-after",
     "collection_list_cLGdiA",
     "multiple_media_with_text_Lgp4CV",

@@ -18,13 +18,20 @@
           "type": "message",
           "disabled": true,
           "settings": {
-            "text": "<strong>DAY 8: 25% OFF SWEATERS</strong>"
+            "text": "<strong>DAY 10: 15% OFF ALL ADIDAS FOOTWEAR</strong>"
           }
         },
         "message_7Qqd66": {
           "type": "message",
           "settings": {
             "text": "<strong>DAY 9: 25% OFF ALL ACCESSORIES </strong>"
+          }
+        },
+        "message_L8UdAp": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>DAY 11: 15% OFF ALL OUTERWEAR</strong>"
           }
         },
         "message-1": {
@@ -44,6 +51,7 @@
       "block_order": [
         "message_rP8jF6",
         "message_7Qqd66",
+        "message_L8UdAp",
         "message-1",
         "message_LyBJxq"
       ],
