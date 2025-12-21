@@ -449,7 +449,6 @@
         },
         "collection_t3bATr": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "jackets-coats",
             "products_count": 8,
@@ -460,6 +459,7 @@
         },
         "collection_hDDwnm": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "adidas",
             "products_count": 8,
