@@ -49,11 +49,10 @@
         "image_9VGPGa": {
           "type": "image",
           "name": "12 DAYS",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/12amm.jpg",
             "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
-            "subheading": "<p><strong>DAY 10: 15% OFF ALL ADIDAS FOOTWEAR</strong></p>",
+            "subheading": "<p><strong>DAY 12: 30% OFF ENTIRE SITE</strong></p>",
             "subheading_size": 28,
             "title": "",
             "title_size": 32,
@@ -61,7 +60,7 @@
             "desktop_text_position": "sm:place-self-start-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/new-accessories",
+            "button_1_link": "shopify://collections/all",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -80,7 +79,6 @@
         "image_tUfJaV": {
           "type": "image",
           "name": "AJ6 RELEASE",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/nosocks.jpg",
             "mobile_image": "shopify://shop_images/nosocksmob.jpg",
@@ -111,7 +109,6 @@
         "video_3tmrzq": {
           "type": "video",
           "name": "Champagne ",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/champagne vingette (1).mov",
             "mobile_video": "shopify://files/videos/champagne vingette (1).mov",
@@ -821,6 +818,36 @@
         "remove_vertical_spacing": true
       }
     },
+    "featured_collections_WMah7x": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Q7Rc3m": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere",
+            "products_count": 4,
+            "title": "A MA MANIÉRE",
+            "link_url": "shopify://collections/a-ma-maniere",
+            "link_text": "SHOP COLLECTION"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Q7Rc3m"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "media_grid_FAWzzb": {
       "type": "media-grid",
       "blocks": {
@@ -876,36 +903,6 @@
         "subheading": "",
         "title": "Season of Gifting",
         "content": ""
-      }
-    },
-    "featured_collections_WMah7x": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_Q7Rc3m": {
-          "type": "collection",
-          "settings": {
-            "collection": "a-ma-maniere",
-            "products_count": 4,
-            "title": "A MA MANIÉRE",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Q7Rc3m"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "image_with_text_3j7QCf": {
