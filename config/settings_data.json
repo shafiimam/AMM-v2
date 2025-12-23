@@ -35,7 +35,7 @@
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_discount": false,
-    "custom_badge_enable": true,
+    "custom_badge_enable": false,
     "custom_badge_text": "30%OFF",
     "custom_badge_include_tag": "entiresite30",
     "social_facebook": "https://www.facebook.com/maniereusa",

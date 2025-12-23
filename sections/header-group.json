@@ -30,6 +30,7 @@
         },
         "message_L8UdAp": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>DAY 12: 30% OFF ENTIRE SITE </strong>"
           }
