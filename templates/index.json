@@ -142,7 +142,6 @@
         "video_NgbMdj": {
           "type": "video",
           "name": "NEW ERA HATS",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
             "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
