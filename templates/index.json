@@ -435,9 +435,9 @@
         "collection_3gxaab": {
           "type": "collection",
           "settings": {
-            "collection": "all",
+            "collection": "new-arrivals-1",
             "products_count": 8,
-            "title": "ALL PRODUCTS",
+            "title": "NEW ARRIVALS",
             "link_url": "",
             "link_text": "View all"
           }
@@ -946,6 +946,7 @@
         "image_BmkWkR",
         "image_WPRcay"
       ],
+      "disabled": true,
       "name": "GIFTING GRID",
       "settings": {
         "color_scheme": "",
