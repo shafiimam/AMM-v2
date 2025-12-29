@@ -261,81 +261,6 @@
         "title": "Releases"
       }
     },
-    "split_media_heo_GynGer": {
-      "type": "split-media-heo",
-      "blocks": {
-        "subheading_Fh4MNy": {
-          "type": "subheading",
-          "settings": {
-            "text": "Introducing"
-          }
-        },
-        "heading_xDW4wX": {
-          "type": "heading",
-          "settings": {
-            "text": "NEW ERA A MA MANIÉRE 2014 CHAIN FITTED HAT",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nkiVLT": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The newest collection of our best fitted hats have arrived in elevated styles.</p>"
-          }
-        },
-        "button_CqXrVb": {
-          "type": "button",
-          "settings": {
-            "label": "Shop Now",
-            "url": "",
-            "button_style": "solid",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_Fh4MNy",
-        "heading_xDW4wX",
-        "richtext_nkiVLT",
-        "button_CqXrVb"
-      ],
-      "disabled": true,
-      "name": "Split Hero",
-      "settings": {
-        "allow_transparent_header": true,
-        "media_type_1": "video",
-        "image_1": "shopify://shop_images/ammmob_2a5066f2-fdd3-4ed2-ae8f-c3a1eeb4ff89.jpg",
-        "video_1": "shopify://files/videos/AMM HATS AGAIN.mov",
-        "media_type_2": "video",
-        "image_2": "shopify://shop_images/001ZPL801002M-BRN_DETAIL.jpg",
-        "video_2": "shopify://files/videos/Look book 4k.mov",
-        "link": "",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "full-width",
-        "section_height": "full-screen",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-        "remove_vertical_spacing": true,
-        "separate_section_with_border": false,
-        "toggle_overlay": true,
-        "overlay_color": "#00000080",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "blurred_reflection": true,
-        "reflection_opacity": 75,
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "featureed_image_and_products_zaMf8b": {
       "type": "featureed-image-and-products",
       "blocks": {
@@ -427,6 +352,78 @@
         "image_description": "<p>Travis Porter embodies the spirit of <em>Built For This: Homecoming</em> in the latest A Ma Maniére collection. From the sleek Nylon jacket and pant set to the coveted Air Jordan 4 “Dark Mocha” and finishing touch of the Maniére scarf, every piece delivers undeniable impact this season.</p>",
         "image_cta": "Shop all",
         "image_cta_url": "shopify://collections/built-for-this-homecoming"
+      }
+    },
+    "split_media_heo_GynGer": {
+      "type": "split-media-heo",
+      "blocks": {
+        "subheading_Fh4MNy": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_xDW4wX": {
+          "type": "heading",
+          "settings": {
+            "text": "The New Years Eve Edit",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_nkiVLT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The newest collection of our best fitted hats have arrived in elevated styles.</p>"
+          }
+        },
+        "button_CqXrVb": {
+          "type": "button",
+          "settings": {
+            "label": "Shop Now",
+            "url": "",
+            "button_style": "solid",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Fh4MNy",
+        "heading_xDW4wX",
+        "richtext_nkiVLT",
+        "button_CqXrVb"
+      ],
+      "disabled": true,
+      "name": "Split Hero",
+      "settings": {
+        "allow_transparent_header": true,
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/DSC08186_DC_copy.jpg",
+        "media_type_2": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "full-width",
+        "section_height": "full-screen",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+        "remove_vertical_spacing": true,
+        "separate_section_with_border": false,
+        "toggle_overlay": true,
+        "overlay_color": "#00000080",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "blurred_reflection": true,
+        "reflection_opacity": 75,
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "featured_collections_RwpkEJ": {
@@ -1393,9 +1390,9 @@
     "176075966993f87866",
     "slideshow_QGYQ6e",
     "releases_LeDFdB",
-    "split_media_heo_GynGer",
     "featureed_image_and_products_zaMf8b",
     "featureed_image_and_products_7MHNbK",
+    "split_media_heo_GynGer",
     "featured_collections_RwpkEJ",
     "before-after",
     "collection_list_cLGdiA",
