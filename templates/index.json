@@ -312,10 +312,16 @@
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "a-ma-maniere-jordan-tote-bag-black"
+          }
+        },
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-coaches-jacket-black"
+            "product": "a-ma-maniere-varsity-jacket-3"
           }
         },
         "product_wBMWzJ": {
@@ -329,19 +335,13 @@
           "settings": {
             "product": "a-ma-maniere-nylon-pants-black"
           }
-        },
-        "product_8q4ahn": {
-          "type": "product",
-          "settings": {
-            "product": "a-ma-maniere-jordan-scarf-black"
-          }
         }
       },
       "block_order": [
+        "product_8q4ahn",
         "product_cWVffK",
         "product_wBMWzJ",
-        "product_6yqwTq",
-        "product_8q4ahn"
+        "product_6yqwTq"
       ],
       "custom_css": [],
       "settings": {
@@ -366,7 +366,7 @@
         "heading_xDW4wX": {
           "type": "heading",
           "settings": {
-            "text": "The New Years Eve Edit",
+            "text": "The New Year Edit",
             "heading_tag": "h1"
           }
         },
@@ -398,7 +398,8 @@
         "allow_transparent_header": true,
         "media_type_1": "image",
         "image_1": "shopify://shop_images/vest.png",
-        "media_type_2": "video",
+        "media_type_2": "image",
+        "image_2": "shopify://shop_images/DSC07925_DC_1.jpg",
         "video_2": "shopify://files/videos/CHAMPAGNE TOWER VINGETTE 2.mov",
         "link": "",
         "open_in_new_tab": false,
@@ -875,10 +876,10 @@
         "collection_Q7Rc3m": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere",
+            "collection": "new-arrivals-1",
             "products_count": 4,
-            "title": "A MA MANIÉRE",
-            "link_url": "shopify://collections/a-ma-maniere",
+            "title": "New Arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
             "link_text": "SHOP COLLECTION"
           }
         }
