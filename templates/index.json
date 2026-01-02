@@ -45,36 +45,6 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "image_xPPMHF": {
-          "type": "image",
-          "name": "AJ4FCFS",
-          "settings": {
-            "image": "shopify://shop_images/aj4expansion1_b218a9d5-0349-4fa4-9042-da17e3fd0037_1.jpg",
-            "mobile_image": "shopify://shop_images/mobile2_00b205eb-7819-4889-9549-c9c947e61074.jpg",
-            "subheading": "<p><strong>AVAILABLE NOW </strong></p>",
-            "subheading_size": 21,
-            "title": "<p><strong>A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"</strong></p>",
-            "title_size": 32,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-start-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://products/a-ma-maniere-x-air-jordan-4-dark-mocha",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "Built For This Collection",
-            "button_2_link": "shopify://collections/built-for-this-homecoming",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "video_3tmrzq": {
           "type": "video",
           "name": "Champagne ",
@@ -101,36 +71,6 @@
             "button_2_text_color": "#000000",
             "background": "",
             "background_opacity": 10,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_tUfJaV": {
-          "type": "image",
-          "name": "AJ6 RELEASE",
-          "settings": {
-            "image": "shopify://shop_images/nosocks.jpg",
-            "mobile_image": "shopify://shop_images/nosocksmob.jpg",
-            "subheading": "<p>AVAILABLE NOW</p>",
-            "subheading_size": 19,
-            "title": "<p>A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKY MAUVE\"</p>",
-            "title_size": 25,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 800,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/built-for-this",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#1c1c1c",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
@@ -171,9 +111,7 @@
       },
       "block_order": [
         "image_H4DjaV",
-        "image_xPPMHF",
         "video_3tmrzq",
-        "image_tUfJaV",
         "video_NgbMdj"
       ],
       "settings": {
@@ -312,46 +250,46 @@
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_8q4ahn": {
-          "type": "product",
-          "settings": {
-            "product": "a-ma-maniere-jordan-tote-bag-black"
-          }
-        },
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-varsity-jacket-3"
-          }
-        },
-        "product_wBMWzJ": {
-          "type": "product",
-          "settings": {
-            "product": "a-ma-maniere-x-air-jordan-4-dark-mocha"
+            "product": "a-ma-maniere-varsity-jacket-5"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-nylon-pants-black"
+            "product": "jordan-brand-amm-pant-black"
+          }
+        },
+        "product_wBMWzJ": {
+          "type": "product",
+          "settings": {
+            "product": "jacquemus-la-chemise-boulanger"
+          }
+        },
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "oakley-meta-x-transitions-sunglasses-grey"
           }
         }
       },
       "block_order": [
-        "product_8q4ahn",
         "product_cWVffK",
+        "product_6yqwTq",
         "product_wBMWzJ",
-        "product_6yqwTq"
+        "product_8q4ahn"
       ],
       "custom_css": [],
       "settings": {
         "section_alignment": "left",
-        "title": "Built for this: Homecoming",
+        "title": "THE NEW YEAR EDIT",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/aj4newcover.jpg",
-        "image_description": "<p>Travis Porter embodies the spirit of <em>Built For This: Homecoming</em> in the latest A Ma Maniére collection. From the sleek Nylon jacket and pant set to the coveted Air Jordan 4 “Dark Mocha” and finishing touch of the Maniére scarf, every piece delivers undeniable impact this season.</p>",
+        "image": "shopify://shop_images/DSC08397_DC_copy.jpg",
+        "image_description": "",
         "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/built-for-this-homecoming"
+        "image_cta_url": "shopify://collections/new-years-edit"
       }
     },
     "split_media_heo_GynGer": {
