@@ -287,8 +287,8 @@
         "title": "THE NEW YEAR EDIT",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/DSC08397_DC_copy.jpg",
-        "image_description": "",
-        "image_cta": "Shop all",
+        "image_description": "<p>Welcome the New Year in elevated form. Thoughtful design, premium textures, and pieces made to move with confidence into what’s ahead. Shop our <strong>New Year Edit</strong>.</p>",
+        "image_cta": "explore",
         "image_cta_url": "shopify://collections/new-years-edit"
       }
     },
