@@ -289,7 +289,7 @@
         "image": "shopify://shop_images/DSC08397_DC_copy.jpg",
         "image_description": "<p>Welcome the New Year in elevated form. Thoughtful design, premium textures, and pieces made to move with confidence into what’s ahead. Shop our <strong>New Year Edit</strong>.</p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/new-years-edit"
+        "image_cta_url": "shopify://collections/the-new-years-edit"
       }
     },
     "split_media_heo_GynGer": {
@@ -318,7 +318,7 @@
           "type": "button",
           "settings": {
             "label": "Shop Now",
-            "url": "shopify://collections/new-years-edit",
+            "url": "shopify://collections/the-new-years-edit",
             "button_style": "solid",
             "button_background": "#ffffff",
             "button_text_color": "#000000"
