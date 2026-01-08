@@ -48,6 +48,7 @@
         "video_3tmrzq": {
           "type": "video",
           "name": "Champagne ",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/champagne vingette (1).mov",
             "mobile_video": "shopify://files/videos/champagne vingette (1).mov",
