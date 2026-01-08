@@ -127,6 +127,81 @@
         "controls_color": "#ffffff"
       }
     },
+    "split_media_heo_GynGer": {
+      "type": "split-media-heo",
+      "blocks": {
+        "subheading_Fh4MNy": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_xDW4wX": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "NEW PIECES, NEW",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nkiVLT": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Thoughtfully curated pieces to carry you confidently into the new year.</p>"
+          }
+        },
+        "button_CqXrVb": {
+          "type": "button",
+          "settings": {
+            "label": "SHOP NOW",
+            "url": "shopify://collections/the-new-years-edit",
+            "button_style": "solid",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Fh4MNy",
+        "heading_xDW4wX",
+        "richtext_nkiVLT",
+        "button_CqXrVb"
+      ],
+      "disabled": true,
+      "name": "NEW ARRIVALS",
+      "settings": {
+        "allow_transparent_header": true,
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/AMMNEW1.png",
+        "media_type_2": "image",
+        "image_2": "shopify://shop_images/Untitled-5.png",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "full-width",
+        "section_height": "large",
+        "section_height_custom": 100,
+        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+        "remove_vertical_spacing": true,
+        "separate_section_with_border": false,
+        "toggle_overlay": false,
+        "overlay_color": "#00000080",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
@@ -293,29 +368,29 @@
         "image_cta_url": "shopify://collections/the-new-years-edit"
       }
     },
-    "split_media_heo_GynGer": {
+    "split_media_heo_AefUWr": {
       "type": "split-media-heo",
       "blocks": {
-        "subheading_Fh4MNy": {
+        "subheading_gXAxgU": {
           "type": "subheading",
           "settings": {
             "text": ""
           }
         },
-        "heading_xDW4wX": {
+        "heading_KkxqLK": {
           "type": "heading",
           "settings": {
             "text": "A Little Extra Spark",
             "heading_tag": "h1"
           }
         },
-        "richtext_nkiVLT": {
+        "richtext_YWQYgt": {
           "type": "richtext",
           "settings": {
             "content": "<p>Thoughtfully curated pieces to carry you confidently into the new year.</p>"
           }
         },
-        "button_CqXrVb": {
+        "button_8BYibA": {
           "type": "button",
           "settings": {
             "label": "Shop Now",
@@ -327,10 +402,10 @@
         }
       },
       "block_order": [
-        "subheading_Fh4MNy",
-        "heading_xDW4wX",
-        "richtext_nkiVLT",
-        "button_CqXrVb"
+        "subheading_gXAxgU",
+        "heading_KkxqLK",
+        "richtext_YWQYgt",
+        "button_8BYibA"
       ],
       "name": "NYE",
       "settings": {
@@ -613,19 +688,6 @@
     },
     "blocks_xhmELd": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5edc35c_WLtjpU": {
-          "type": "ai_gen_block_5edc35c",
-          "settings": {
-            "height_mobile": 40,
-            "height_desktop": 80
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5edc35c_WLtjpU"
-      ],
       "name": "Spacer",
       "settings": {}
     },
@@ -696,119 +758,6 @@
         "remove_top_padding": false
       }
     },
-    "shop_the_look_LMCiUh": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_JQzFkt": {
-          "type": "look",
-          "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
-            "product_2": "",
-            "product_2_horizontal_position": 34,
-            "product_2_vertical_position": 65,
-            "product_3": "",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 42,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
-        "look_rWGD33": {
-          "type": "look",
-          "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 30,
-            "product_1_vertical_position": 35,
-            "product_2": "",
-            "product_2_horizontal_position": 70,
-            "product_2_vertical_position": 30,
-            "product_3": "",
-            "product_3_horizontal_position": 60,
-            "product_3_vertical_position": 65,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look_JQzFkt",
-        "look_rWGD33"
-      ],
-      "disabled": true,
-      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
-    "blocks_JgXjKd": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5edc35c_DgnF9B": {
-          "type": "ai_gen_block_5edc35c",
-          "settings": {
-            "height_mobile": 40,
-            "height_desktop": 80
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5edc35c_DgnF9B"
-      ],
-      "name": "Spacer",
-      "settings": {}
-    },
-    "rich_text_Ntqdch": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_CqkDrJ": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_BPRrAC": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>Timeless Gifts, Handpicked for the Collector</strong>",
-            "heading_tag": "h4"
-          }
-        },
-        "richtext_ad7gLb": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<h4>This capsule pays homage to Daley's Jamaican and Scottish ancestry, fusing reggae culture and musical ephemera. Each piece reflects Daley’s balance of function and flair, reinterpreting Carhartt WIP’s DNA.</h4>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_CqkDrJ",
-        "heading_BPRrAC",
-        "richtext_ad7gLb"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": true
-      }
-    },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
@@ -837,167 +786,6 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
-      }
-    },
-    "media_grid_FAWzzb": {
-      "type": "media-grid",
-      "blocks": {
-        "image_BmkWkR": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC08253_DC_copy2.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "GIFTS FOR HIM",
-            "link_url": "shopify://collections/gifts-for-him",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_WPRcay": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/WOMENHOODIE_beb413a5-c305-49c8-9cfc-a503e3f4c989.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "GIFTS FOR HER",
-            "link_url": "shopify://collections/gifts-for-her",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_BmkWkR",
-        "image_WPRcay"
-      ],
-      "disabled": true,
-      "name": "GIFTING GRID",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 410,
-        "mobile_row_height": 180,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "Season of Gifting",
-        "content": ""
-      }
-    },
-    "image_with_text_3j7QCf": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_fUKd7V": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_VNNGWU": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_ncMfJT": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_fUKd7V",
-        "heading_VNNGWU",
-        "richtext_ncMfJT"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
-    },
-    "image_with_text_YHVQLL": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_rHqA3H": {
-          "type": "subheading",
-          "settings": {
-            "text": "<strong>FRGMT</strong>"
-          }
-        },
-        "heading_pYq3Xh": {
-          "type": "heading",
-          "settings": {
-            "text": "FRGMTMINI",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_gD7DXx": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Give the gift of cool, playful energy with FRGMTMINI — where Hiroshi Fujiwara’s street-wear heritage meets minimal, kid-ready style. It’s perfect for little ones who love to run, jump, and explore with comfort and attitude. Treat your child to bold, fun fashion this season.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_EgqHPy": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "SHOP NOW",
-            "url": "shopify://collections/frgmtmini",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_rHqA3H",
-        "heading_pYq3Xh",
-        "richtext_gD7DXx",
-        "button_EgqHPy"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/img20251128_16341003_copy.jpg",
-        "mobile_image": "shopify://shop_images/img20251128_16523524_copy.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "lg",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "176076770152fa2223": {
@@ -1329,23 +1117,18 @@
   "order": [
     "176075966993f87866",
     "slideshow_QGYQ6e",
+    "split_media_heo_GynGer",
     "releases_LeDFdB",
     "featureed_image_and_products_zaMf8b",
     "featureed_image_and_products_7MHNbK",
-    "split_media_heo_GynGer",
+    "split_media_heo_AefUWr",
     "featured_collections_RwpkEJ",
     "before-after",
     "collection_list_cLGdiA",
     "multiple_media_with_text_Lgp4CV",
     "blocks_xhmELd",
     "image_with_text_4rzGhq",
-    "shop_the_look_LMCiUh",
-    "blocks_JgXjKd",
-    "rich_text_Ntqdch",
     "featured_collections_WMah7x",
-    "media_grid_FAWzzb",
-    "image_with_text_3j7QCf",
-    "image_with_text_YHVQLL",
     "176076770152fa2223",
     "media_grid_DzxzqH",
     "blog_posts_XjJCVj",
