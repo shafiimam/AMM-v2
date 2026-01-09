@@ -115,6 +115,7 @@
         "video_3tmrzq",
         "video_NgbMdj"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -139,7 +140,7 @@
         "heading_xDW4wX": {
           "type": "heading",
           "settings": {
-            "text": "Latest arrivals",
+            "text": "Explore Latest Arrivals",
             "heading_tag": "h1"
           }
         },
@@ -167,7 +168,6 @@
         "button_CqXrVb",
         "richtext_nkiVLT"
       ],
-      "disabled": true,
       "name": "NEW ARRIVALS",
       "settings": {
         "allow_transparent_header": true,
