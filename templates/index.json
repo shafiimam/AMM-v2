@@ -138,10 +138,19 @@
         },
         "heading_xDW4wX": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "NEW PIECES, NEW",
+            "text": "Latest arrivals",
             "heading_tag": "h1"
+          }
+        },
+        "button_CqXrVb": {
+          "type": "button",
+          "settings": {
+            "label": "SHOP NOW",
+            "url": "shopify://collections/new-arrivals-1",
+            "button_style": "solid",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
           }
         },
         "richtext_nkiVLT": {
@@ -150,23 +159,13 @@
           "settings": {
             "content": "<p>Thoughtfully curated pieces to carry you confidently into the new year.</p>"
           }
-        },
-        "button_CqXrVb": {
-          "type": "button",
-          "settings": {
-            "label": "SHOP NOW",
-            "url": "shopify://collections/the-new-years-edit",
-            "button_style": "solid",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
-          }
         }
       },
       "block_order": [
         "subheading_Fh4MNy",
         "heading_xDW4wX",
-        "richtext_nkiVLT",
-        "button_CqXrVb"
+        "button_CqXrVb",
+        "richtext_nkiVLT"
       ],
       "disabled": true,
       "name": "NEW ARRIVALS",
@@ -176,7 +175,7 @@
         "image_1": "shopify://shop_images/AMMNEW1.png",
         "media_type_2": "image",
         "image_2": "shopify://shop_images/Untitled-5.png",
-        "link": "",
+        "link": "shopify://collections/new-arrivals-1",
         "open_in_new_tab": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -184,7 +183,7 @@
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "space-between",
         "gap": 12,
         "section_width": "full-width",
         "section_height": "large",
@@ -764,10 +763,10 @@
         "collection_Q7Rc3m": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-1",
+            "collection": "sneakers",
             "products_count": 4,
-            "title": "New Arrivals",
-            "link_url": "shopify://collections/new-arrivals-1",
+            "title": "FOOTWEAR",
+            "link_url": "shopify://collections/sneakers",
             "link_text": "SHOP COLLECTION"
           }
         }
