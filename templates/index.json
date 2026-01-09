@@ -131,17 +131,25 @@
     "split_media_heo_GynGer": {
       "type": "split-media-heo",
       "blocks": {
+        "heading_xDW4wX": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Explore Latest Arrivals",
+            "heading_tag": "h2"
+          }
+        },
         "subheading_Fh4MNy": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": ""
           }
         },
-        "heading_xDW4wX": {
-          "type": "heading",
+        "richtext_nkiVLT": {
+          "type": "richtext",
           "settings": {
-            "text": "Explore Latest Arrivals",
-            "heading_tag": "h1"
+            "content": "<h2><strong>Explore Latest Arrivals</strong></h2>"
           }
         },
         "button_CqXrVb": {
@@ -149,24 +157,17 @@
           "settings": {
             "label": "SHOP NOW",
             "url": "shopify://collections/new-arrivals-1",
-            "button_style": "solid",
+            "button_style": "outline",
             "button_background": "#ffffff",
             "button_text_color": "#000000"
-          }
-        },
-        "richtext_nkiVLT": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Thoughtfully curated pieces to carry you confidently into the new year.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_Fh4MNy",
         "heading_xDW4wX",
-        "button_CqXrVb",
-        "richtext_nkiVLT"
+        "subheading_Fh4MNy",
+        "richtext_nkiVLT",
+        "button_CqXrVb"
       ],
       "name": "NEW ARRIVALS",
       "settings": {
