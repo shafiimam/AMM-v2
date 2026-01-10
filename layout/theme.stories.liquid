@@ -1,6 +1,6 @@
-{%- comment %}<locksmith:e7e1>{% endcomment -%}
+{%- comment %}<locksmith:df06>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:e7e1>{% endcomment -%}
+{%- comment %}</locksmith:df06>{% endcomment -%}
 
 <!doctype html>
 
@@ -31,10 +31,10 @@
     </title>
 
     {%- if page_description -%}
-      {%- comment %}<locksmith:3afa>{% endcomment -%}
+      {%- comment %}<locksmith:96f2>{% endcomment -%}
         {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
         {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-      {%- comment %}</locksmith:3afa>{% endcomment -%}
+      {%- comment %}</locksmith:96f2>{% endcomment -%}
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
@@ -148,7 +148,7 @@
     {%- endif -%}
 
     <main id="main" class="anchor">
-      {{ content_for_layout }}{{ locksmith_content_for_layout_addenda }}
+      {{ content_for_layout }}
 
       {%- comment -%}
         IMPLEMENTATION NOTE: For best semantics, having the footer group outside the main would be slightly better, but
