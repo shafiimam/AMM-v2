@@ -16,132 +16,39 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "video_wUxBJM": {
-          "type": "video",
-          "name": "AJ4",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
-            "mobile_video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
-            "allow_sound": true,
-            "subheading": "Exclusive Release 12.19 at 11 am EST",
-            "subheading_size": 18,
-            "title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
-            "title_size": 31,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "ENTER RAFFLE",
-            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "CHAPTER 2 DETAILS",
-            "button_2_link": "shopify://pages/air-jordan-4-built-for-this-homecoming",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 10,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_9VGPGa": {
+        "image_H4DjaV": {
           "type": "image",
-          "name": "12 days ",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/12amm.jpg",
-            "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
-            "subheading": "<p><strong>DAY 6: 25% OFF TEES</strong></p>",
-            "subheading_size": 21,
-            "title": "",
-            "title_size": 32,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-start-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_xPPMHF": {
-          "type": "image",
-          "name": "12 days ",
-          "settings": {
-            "image": "shopify://shop_images/12amm.jpg",
-            "mobile_image": "shopify://shop_images/AMM_12DAYS25_MOBILE_1d73019e-4347-4f69-a870-687e763f3cf5.jpg",
+            "image": "shopify://shop_images/AMM_E0Y25_-_WEB.jpg",
+            "mobile_image": "shopify://shop_images/AMM_E0Y25_-_IG_STORY_copy.jpg",
             "subheading": "",
-            "subheading_size": 21,
-            "title": "<p><strong>DAY 5: 20% OFF ALL NIKE/JORDAN FOOTWEAR</strong></p>",
-            "title_size": 32,
+            "subheading_size": 12,
+            "title": "<p><strong>In-Store & Online</strong></p>",
+            "title_size": 24,
             "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-start-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "https://www.a-ma-maniere.com/collections/markdowns",
             "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
+            "button_1_background": "#535353",
+            "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
+            "background_opacity": 50,
+            "text_color": "#535353",
             "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_tUfJaV": {
-          "type": "image",
-          "name": "AJ6 RELEASE",
-          "settings": {
-            "image": "shopify://shop_images/nosocks.jpg",
-            "mobile_image": "shopify://shop_images/nosocksmob.jpg",
-            "subheading": "<p>AVAILABLE NOW</p>",
-            "subheading_size": 17,
-            "title": "<p>A MA MANIÉRE X AIR JORDAN 6 RETRO SP \"SMOKY MAUVE\"</p>",
-            "title_size": 22,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 800,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/built-for-this",
-            "button_1_style": "outline",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#1c1c1c",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
         "video_3tmrzq": {
           "type": "video",
           "name": "Champagne ",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/champagne vingette (1).mov",
             "mobile_video": "shopify://files/videos/champagne vingette (1).mov",
@@ -173,6 +80,7 @@
         "video_NgbMdj": {
           "type": "video",
           "name": "NEW ERA HATS",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
             "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
@@ -203,13 +111,11 @@
         }
       },
       "block_order": [
-        "video_wUxBJM",
-        "image_9VGPGa",
-        "image_xPPMHF",
-        "image_tUfJaV",
+        "image_H4DjaV",
         "video_3tmrzq",
         "video_NgbMdj"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -220,6 +126,80 @@
         "cycle_speed": 10,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "split_media_heo_GynGer": {
+      "type": "split-media-heo",
+      "blocks": {
+        "heading_xDW4wX": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Explore Latest Arrivals",
+            "heading_tag": "h2"
+          }
+        },
+        "subheading_Fh4MNy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "richtext_nkiVLT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Explore Latest Arrivals</strong></h2>"
+          }
+        },
+        "button_CqXrVb": {
+          "type": "button",
+          "settings": {
+            "label": "SHOP NOW",
+            "url": "shopify://collections/new-arrivals-1",
+            "button_style": "outline",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xDW4wX",
+        "subheading_Fh4MNy",
+        "richtext_nkiVLT",
+        "button_CqXrVb"
+      ],
+      "name": "NEW ARRIVALS",
+      "settings": {
+        "allow_transparent_header": true,
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/AMMNEW1.png",
+        "media_type_2": "image",
+        "image_2": "shopify://shop_images/Untitled-5.png",
+        "link": "shopify://collections/new-arrivals-1",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "space-between",
+        "gap": 12,
+        "section_width": "full-width",
+        "section_height": "large",
+        "section_height_custom": 100,
+        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+        "remove_vertical_spacing": true,
+        "separate_section_with_border": false,
+        "toggle_overlay": false,
+        "overlay_color": "#00000080",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "releases_LeDFdB": {
@@ -295,33 +275,78 @@
         "title": "Releases"
       }
     },
-    "split_media_heo_GynGer": {
-      "type": "split-media-heo",
+    "featureed_image_and_products_7MHNbK": {
+      "type": "featureed-image-and-products",
       "blocks": {
-        "subheading_Fh4MNy": {
-          "type": "subheading",
+        "product_cWVffK": {
+          "type": "product",
           "settings": {
-            "text": "Introducing"
+            "product": "a-ma-maniere-varsity-jacket-5"
           }
         },
-        "heading_xDW4wX": {
+        "product_6yqwTq": {
+          "type": "product",
+          "settings": {
+            "product": "jordan-brand-amm-pant-black"
+          }
+        },
+        "product_wBMWzJ": {
+          "type": "product",
+          "settings": {
+            "product": "jacquemus-la-chemise-boulanger"
+          }
+        },
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "oakley-meta-x-transitions-sunglasses-grey"
+          }
+        }
+      },
+      "block_order": [
+        "product_cWVffK",
+        "product_6yqwTq",
+        "product_wBMWzJ",
+        "product_8q4ahn"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section_alignment": "left",
+        "title": "THE NEW YEAR EDIT",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/DSC08397_DC_copy.jpg",
+        "image_description": "<p>Welcome the New Year in elevated form. Thoughtful design, premium textures, and pieces made to move with confidence into what’s ahead. Shop our <strong>New Year Edit</strong>.</p>",
+        "image_cta": "explore",
+        "image_cta_url": "shopify://collections/the-new-years-edit"
+      }
+    },
+    "split_media_heo_AefUWr": {
+      "type": "split-media-heo",
+      "blocks": {
+        "subheading_gXAxgU": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KkxqLK": {
           "type": "heading",
           "settings": {
-            "text": "NEW ERA A MA MANIÉRE 2014 CHAIN FITTED HAT",
+            "text": "A Little Extra Spark",
             "heading_tag": "h1"
           }
         },
-        "richtext_nkiVLT": {
+        "richtext_YWQYgt": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The newest collection of our best fitted hats have arrived in elevated styles.</p>"
+            "content": "<p>Thoughtfully curated pieces to carry you confidently into the new year.</p>"
           }
         },
-        "button_CqXrVb": {
+        "button_8BYibA": {
           "type": "button",
           "settings": {
             "label": "Shop Now",
-            "url": "",
+            "url": "shopify://collections/the-new-years-edit",
             "button_style": "solid",
             "button_background": "#ffffff",
             "button_text_color": "#000000"
@@ -329,21 +354,20 @@
         }
       },
       "block_order": [
-        "subheading_Fh4MNy",
-        "heading_xDW4wX",
-        "richtext_nkiVLT",
-        "button_CqXrVb"
+        "subheading_gXAxgU",
+        "heading_KkxqLK",
+        "richtext_YWQYgt",
+        "button_8BYibA"
       ],
       "disabled": true,
-      "name": "Split Hero",
+      "name": "NYE",
       "settings": {
         "allow_transparent_header": true,
-        "media_type_1": "video",
-        "image_1": "shopify://shop_images/ammmob_2a5066f2-fdd3-4ed2-ae8f-c3a1eeb4ff89.jpg",
-        "video_1": "shopify://files/videos/AMM HATS AGAIN.mov",
-        "media_type_2": "video",
-        "image_2": "shopify://shop_images/001ZPL801002M-BRN_DETAIL.jpg",
-        "video_2": "shopify://files/videos/Look book 4k.mov",
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/DSC08146_DC_copy.jpg",
+        "media_type_2": "image",
+        "image_2": "shopify://shop_images/DSC07925_DC_1.jpg",
+        "video_2": "shopify://files/videos/CHAMPAGNE TOWER VINGETTE 2.mov",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
@@ -356,129 +380,120 @@
         "gap": 12,
         "section_width": "full-width",
         "section_height": "full-screen",
-        "section_height_custom": 50,
+        "section_height_custom": 100,
         "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
         "remove_vertical_spacing": true,
         "separate_section_with_border": false,
-        "toggle_overlay": true,
+        "toggle_overlay": false,
         "overlay_color": "#00000080",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "blurred_reflection": true,
-        "reflection_opacity": 75,
+        "blurred_reflection": false,
+        "reflection_opacity": 0,
         "padding-block-start": 0,
         "padding-block-end": 0
       }
     },
-    "featureed_image_and_products_zaMf8b": {
-      "type": "featureed-image-and-products",
+    "shop_the_look_yjtpt9": {
+      "type": "shop-the-look",
       "blocks": {
-        "product_CqUpFr": {
-          "type": "product",
+        "look_AQePmE": {
+          "type": "look",
           "settings": {
-            "product": "paly-love-needs-care-crewneck-light-blue"
-          }
-        },
-        "product_q8H3fy": {
-          "type": "product",
-          "settings": {
-            "product": "mohair-beanie"
-          }
-        },
-        "product_mzGxhY": {
-          "type": "product",
-          "settings": {
-            "product": "rivington-r-sweat-black"
-          }
-        },
-        "product_eekMqY": {
-          "type": "product",
-          "settings": {
-            "product": "trpl-chain-bracelet"
+            "image": "shopify://shop_images/DSC08100_DC_1_1.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "acne-studios-twill-bomber-jacket-sand-beige",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "loewe-vest-beige-multicolor",
+            "product_2_horizontal_position": 54,
+            "product_2_vertical_position": 57,
+            "product_3": "maison-mihara-yasuhiro-denim-wide-pants-grey",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 91,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
           }
         }
       },
       "block_order": [
-        "product_CqUpFr",
-        "product_q8H3fy",
-        "product_mzGxhY",
-        "product_eekMqY"
+        "look_AQePmE"
       ],
-      "disabled": true,
-      "custom_css": [
-        "price-list.price-list {display: none;}"
-      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
-        "section_alignment": "left",
-        "title": "GIFTS FOR HIM",
-        "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/ECDSC01368_DC_copy.jpg",
-        "image_description": "<p>Discover our Gifts for Him collection, a showcase of elevated designer style that effortlessly blends sophistication and ease. Picture a sleek necklace, relaxed sweatpants, a cozy beanie, and a refined shirt — each piece handpicked from premium fashion houses that embody timeless quality and subtle confidence. This selection brings together statement pieces that speak of discerning taste and understated elegance.</p>",
-        "image_cta": "SHOP GIFTS",
-        "image_cta_url": "shopify://collections/gifts-for-him"
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
       }
     },
-    "featureed_image_and_products_7MHNbK": {
-      "type": "featureed-image-and-products",
-      "blocks": {
-        "product_wBMWzJ": {
-          "type": "product",
-          "settings": {
-            "product": "fear-of-god-denim-overshirt-black"
-          }
-        },
-        "product_8q4ahn": {
-          "type": "product",
-          "settings": {
-            "product": "amm-x-new-era-mlb-hat-black"
-          }
-        },
-        "product_6yqwTq": {
-          "type": "product",
-          "settings": {
-            "product": "fear-of-god-straight-5-pocket-jean-black"
-          }
-        },
-        "product_cWVffK": {
-          "type": "product",
-          "settings": {
-            "product": "a-ma-maniere-air-ship-sp-black-white"
-          }
-        }
-      },
-      "block_order": [
-        "product_wBMWzJ",
-        "product_8q4ahn",
-        "product_6yqwTq",
-        "product_cWVffK"
-      ],
-      "custom_css": [],
-      "settings": {
-        "section_alignment": "left",
-        "title": "A MA MANIÉRE X NEW ERA",
-        "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/newcover.jpg",
-        "image_description": "<p>Inspired by the iconic Houston Astros and Washington Nationals MLB All-Star games, this latest fitted cap collection redefines classic headwear with intention. Each cap featuring our signature A Ma Maniére “A” logo — a symbol of excellence and elevated taste.</p>",
-        "image_cta": "Shop all",
-        "image_cta_url": "shopify://collections/a-ma-maniere"
-      }
-    },
-    "featured_collections_tPwjbc": {
+    "featured_collections_RwpkEJ": {
       "type": "featured-collections",
       "blocks": {
-        "collection_rf3dw4": {
+        "collection_3gxaab": {
           "type": "collection",
           "settings": {
+            "collection": "resort-wear",
+            "products_count": 8,
+            "title": "Resort Wear",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_t3bATr": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
             "collection": "jackets-coats",
+            "products_count": 8,
+            "title": "OUTERWEAR",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_hDDwnm": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "adidas",
+            "products_count": 8,
+            "title": "ADIDAS",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_dnEeCe": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 8,
+            "title": "ACCESSORIES",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_KPertQ": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "new-knits",
             "products_count": 4,
-            "title": "shop OUTERWEAR",
-            "link_url": "shopify://collections/jackets-coats",
+            "title": "KNITS AND SWEATERS",
+            "link_url": "shopify://collections/new-knits",
             "link_text": "SHOP COLLECTION"
           }
         }
       },
       "block_order": [
-        "collection_rf3dw4"
+        "collection_3gxaab",
+        "collection_t3bATr",
+        "collection_hDDwnm",
+        "collection_dnEeCe",
+        "collection_KPertQ"
       ],
       "custom_css": [],
       "settings": {
@@ -662,21 +677,38 @@
     },
     "blocks_xhmELd": {
       "type": "_blocks",
+      "name": "Spacer",
+      "settings": {}
+    },
+    "featured_collections_WMah7x": {
+      "type": "featured-collections",
       "blocks": {
-        "ai_gen_block_5edc35c_WLtjpU": {
-          "type": "ai_gen_block_5edc35c",
+        "collection_Q7Rc3m": {
+          "type": "collection",
           "settings": {
-            "height_mobile": 40,
-            "height_desktop": 80
-          },
-          "blocks": {}
+            "collection": "sneakers",
+            "products_count": 4,
+            "title": "FOOTWEAR",
+            "link_url": "shopify://collections/sneakers",
+            "link_text": "SHOP COLLECTION"
+          }
         }
       },
       "block_order": [
-        "ai_gen_block_5edc35c_WLtjpU"
+        "collection_Q7Rc3m"
       ],
-      "name": "Spacer",
-      "settings": {}
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
     },
     "image_with_text_4rzGhq": {
       "type": "image-with-text",
@@ -745,253 +777,6 @@
         "remove_top_padding": false
       }
     },
-    "blocks_JgXjKd": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5edc35c_DgnF9B": {
-          "type": "ai_gen_block_5edc35c",
-          "settings": {
-            "height_mobile": 40,
-            "height_desktop": 80
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5edc35c_DgnF9B"
-      ],
-      "name": "Spacer",
-      "settings": {}
-    },
-    "rich_text_Ntqdch": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_CqkDrJ": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_BPRrAC": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>Timeless Gifts, Handpicked for the Collector</strong>",
-            "heading_tag": "h4"
-          }
-        },
-        "richtext_ad7gLb": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<h4>This capsule pays homage to Daley's Jamaican and Scottish ancestry, fusing reggae culture and musical ephemera. Each piece reflects Daley’s balance of function and flair, reinterpreting Carhartt WIP’s DNA.</h4>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_CqkDrJ",
-        "heading_BPRrAC",
-        "richtext_ad7gLb"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": true
-      }
-    },
-    "media_grid_FAWzzb": {
-      "type": "media-grid",
-      "blocks": {
-        "image_BmkWkR": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC08253_DC_copy2.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "GIFTS FOR HIM",
-            "link_url": "shopify://collections/gifts-for-him",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_WPRcay": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/WOMENHOODIE_beb413a5-c305-49c8-9cfc-a503e3f4c989.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "GIFTS FOR HER",
-            "link_url": "shopify://collections/gifts-for-her",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_BmkWkR",
-        "image_WPRcay"
-      ],
-      "name": "GIFTING GRID",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 410,
-        "mobile_row_height": 180,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "Season of Gifting",
-        "content": ""
-      }
-    },
-    "featured_collections_WMah7x": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_Q7Rc3m": {
-          "type": "collection",
-          "settings": {
-            "collection": "a-ma-maniere",
-            "products_count": 4,
-            "title": "A MA MANIÉRE",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Q7Rc3m"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "image_with_text_3j7QCf": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_fUKd7V": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_VNNGWU": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_ncMfJT": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_fUKd7V",
-        "heading_VNNGWU",
-        "richtext_ncMfJT"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
-    },
-    "image_with_text_YHVQLL": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_rHqA3H": {
-          "type": "subheading",
-          "settings": {
-            "text": "<strong>FRGMT</strong>"
-          }
-        },
-        "heading_pYq3Xh": {
-          "type": "heading",
-          "settings": {
-            "text": "FRGMTMINI",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_gD7DXx": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Give the gift of cool, playful energy with FRGMTMINI — where Hiroshi Fujiwara’s street-wear heritage meets minimal, kid-ready style. It’s perfect for little ones who love to run, jump, and explore with comfort and attitude. Treat your child to bold, fun fashion this season.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_EgqHPy": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "SHOP NOW",
-            "url": "shopify://collections/frgmtmini",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_rHqA3H",
-        "heading_pYq3Xh",
-        "richtext_gD7DXx",
-        "button_EgqHPy"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/img20251128_16341003_copy.jpg",
-        "mobile_image": "shopify://shop_images/img20251128_16523524_copy.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "lg",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
-    },
     "176076770152fa2223": {
       "type": "_blocks",
       "settings": {}
@@ -1003,14 +788,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC03312_DC.jpg",
+            "image": "shopify://shop_images/DSC03703_DC_copy_24_1.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "T-SHIRTS",
-            "link_url": "shopify://collections/new-t-shirts",
+            "link_text": "OUTERWEAR",
+            "link_url": "https://www.a-ma-maniere.com/pages/outerwear",
             "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -1056,6 +841,7 @@
         },
         "image_MjnGXF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMM1069X900.jpg",
@@ -1076,14 +862,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ECDSC01160_DC_1.jpg",
+            "image": "shopify://shop_images/STRADAGBRUSHEDBOOT-4_3e53f4cf-ce8a-41aa-8338-3ed96f051b81_dark_background.png",
             "column_count": "4",
-            "row_count": 2,
+            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "FALL ESSENTIALS",
-            "link_url": "shopify://collections/fall-essentials",
+            "link_text": "BOOTS",
+            "link_url": "shopify://collections/new-boots",
             "link_style": "outline",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -1092,6 +878,7 @@
         },
         "image_a39rUW": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/12_Shotbycozyy.jpg",
@@ -1319,22 +1106,18 @@
   "order": [
     "176075966993f87866",
     "slideshow_QGYQ6e",
-    "releases_LeDFdB",
     "split_media_heo_GynGer",
-    "featureed_image_and_products_zaMf8b",
+    "releases_LeDFdB",
     "featureed_image_and_products_7MHNbK",
-    "featured_collections_tPwjbc",
+    "split_media_heo_AefUWr",
+    "featured_collections_RwpkEJ",
+    "shop_the_look_yjtpt9",
     "before-after",
     "collection_list_cLGdiA",
     "multiple_media_with_text_Lgp4CV",
     "blocks_xhmELd",
-    "image_with_text_4rzGhq",
-    "blocks_JgXjKd",
-    "rich_text_Ntqdch",
-    "media_grid_FAWzzb",
     "featured_collections_WMah7x",
-    "image_with_text_3j7QCf",
-    "image_with_text_YHVQLL",
+    "image_with_text_4rzGhq",
     "176076770152fa2223",
     "media_grid_DzxzqH",
     "blog_posts_XjJCVj",

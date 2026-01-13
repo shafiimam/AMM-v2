@@ -278,6 +278,7 @@
         "start_index": "5",
         "end_index": "62",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB034",
+        "file_ext": "png",
         "button_label": "Shop Now",
         "button_link": "https://www.a-ma-maniere.com/collections/rick-owens/products/rick-owens-mainline-kreister-sunglasses",
         "knob_position": 100,
@@ -295,36 +296,37 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "stocking-stuffers",
+            "collection": "new-home",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "STOCKING STUFFERS",
+            "button_text": "HOME GOODS",
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 11
           }
         },
         "collection_48ky8y": {
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "luxe-gifts",
+            "collection": "small-goods",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "LUXE GIFTS",
+            "button_text": "SMALL GOODS",
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 11
           }
         },
         "collection_fQR6QK": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "collection": "home-gifts",
@@ -351,12 +353,12 @@
         "separate_section_with_border": true,
         "image_size": "auto",
         "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
+        "space_items": false,
+        "stack_collections": false,
         "collections_per_row_mobile": "1",
-        "collections_per_row_desktop": 3,
+        "collections_per_row_desktop": 2,
         "subheading": "",
-        "title": "SHOP HOLIDAY GIFTS",
+        "title": "",
         "content": ""
       }
     }

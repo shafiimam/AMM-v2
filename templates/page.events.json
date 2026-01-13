@@ -134,14 +134,14 @@
       "blocks": {
         "event_z7T663": {
           "type": "event",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
-            "title": "Maison Maniére: La Matinée in Houston, TX",
-            "location": "Houston 3.30",
+            "image": "shopify://shop_images/selection2sound.jpg",
+            "mobile_image": "shopify://shop_images/selection2sound.jpg",
+            "title": "From Selection to Sound",
+            "location": "Houston 12.29",
             "is_online": false,
             "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-matinee-in-houston-tx-tickets-1279334597219?aff=oddtdtcreator"
+            "button_url": "https://www.eventbrite.com/e/from-selection-to-sound-dj-workshop-tickets-1978331808695?aff=oddtdtcreator"
           }
         },
         "event_CbK9CA": {

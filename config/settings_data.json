@@ -35,9 +35,9 @@
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_discount": false,
-    "custom_badge_enable": true,
-    "custom_badge_text": "20%OFF",
-    "custom_badge_include_tag": "nj20",
+    "custom_badge_enable": false,
+    "custom_badge_text": "",
+    "custom_badge_include_tag": "",
     "social_facebook": "https://www.facebook.com/maniereusa",
     "social_twitter": "https://twitter.com/maniere_usa",
     "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
@@ -88,6 +88,13 @@
         "type": "shopify://apps/blockify-age-verification/blocks/omg-app-age/92f920f4-d437-4eb4-9aab-e091741a3ce4",
         "disabled": false,
         "settings": {}
+      },
+      "18228966181090706294": {
+        "type": "shopify://apps/selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+        "disabled": true,
+        "settings": {
+          "storefrontAccessToken": ""
+        }
       }
     },
     "color_schemes": {
