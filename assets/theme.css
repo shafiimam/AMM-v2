@@ -5349,6 +5349,34 @@ product-rerender {
   padding-block: 1.125rem;
   position: absolute;
   inset-block-start: calc(100% - 2px);
+  max-height: 90vh;
+  overflow-y: scroll;
+  overscroll-behavior: contain;
+}
+
+/* Custom scrollbar styling for header dropdown menu */
+.header__dropdown-menu::-webkit-scrollbar {
+  width: 4px;
+}
+
+.header__dropdown-menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.header__dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+.header__dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background-color: #666666;
+}
+
+/* Firefox scrollbar styling */
+.header__dropdown-menu {
+  scrollbar-width: thin;
+  scrollbar-color: #4a4a4a transparent;
 }
 
 .header__dropdown-menu:not(:has(.header__dropdown-menu)) {
