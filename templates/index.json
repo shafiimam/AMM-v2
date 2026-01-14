@@ -281,25 +281,25 @@
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-varsity-jacket-5"
+            "product": "loewe-overshirt-black-orange"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "jordan-brand-amm-pant-black"
+            "product": "acne-studios-flannel-shirt-2"
           }
         },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-la-chemise-boulanger"
+            "product": "maison-mihara-yasuhiro-bootcut-wide-jeans-indigo"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "oakley-meta-x-transitions-sunglasses-grey"
+            "product": "trpl-chain-bracelet"
           }
         }
       },
@@ -314,7 +314,7 @@
         "section_alignment": "left",
         "title": "THE NEW YEAR EDIT",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/DSC08397_DC_copy.jpg",
+        "image": "shopify://shop_images/newyear2.jpg",
         "image_description": "<p>Welcome the New Year in elevated form. Thoughtful design, premium textures, and pieces made to move with confidence into what’s ahead. Shop our <strong>New Year Edit</strong>.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/the-new-years-edit"
@@ -394,42 +394,6 @@
         "padding-block-end": 0
       }
     },
-    "shop_the_look_yjtpt9": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_AQePmE": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/DSC08100_DC_1_1.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "acne-studios-twill-bomber-jacket-sand-beige",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
-            "product_2": "loewe-vest-beige-multicolor",
-            "product_2_horizontal_position": 54,
-            "product_2_vertical_position": 57,
-            "product_3": "maison-mihara-yasuhiro-denim-wide-pants-grey",
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 91,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look_AQePmE"
-      ],
-      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
     "featured_collections_RwpkEJ": {
       "type": "featured-collections",
       "blocks": {
@@ -506,6 +470,42 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
+      }
+    },
+    "shop_the_look_yjtpt9": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_AQePmE": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/DSC08100_DC_1_1.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "acne-studios-twill-bomber-jacket-sand-beige",
+            "product_1_horizontal_position": 35,
+            "product_1_vertical_position": 35,
+            "product_2": "loewe-vest-beige-multicolor",
+            "product_2_horizontal_position": 54,
+            "product_2_vertical_position": 57,
+            "product_3": "maison-mihara-yasuhiro-denim-wide-pants-grey",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 91,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_AQePmE"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
       }
     },
     "before-after": {
