@@ -135,13 +135,13 @@
         "event_z7T663": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/selection2sound.jpg",
-            "mobile_image": "shopify://shop_images/selection2sound.jpg",
-            "title": "From Selection to Sound",
-            "location": "Houston 12.29",
+            "image": "shopify://shop_images/HWC_1a5de061-aac9-499b-9337-79452d5a8481.jpg",
+            "mobile_image": "shopify://shop_images/HWC_37cfe32b-70d0-405a-808f-49d0ca6ddd7f.jpg",
+            "title": "A Ma Maniére Run Club | ATL",
+            "location": "969 Marietta Street NorthWest #200, Atlanta, GA 30318",
             "is_online": false,
             "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/from-selection-to-sound-dj-workshop-tickets-1978331808695?aff=oddtdtcreator"
+            "button_url": "https://www.eventbrite.com/e/amm-atl-run-club-tickets-1980475356103?aff=oddtdtcreator"
           }
         },
         "event_CbK9CA": {
@@ -155,37 +155,11 @@
             "button_label": "Participate",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
           }
-        },
-        "event_NWgm8L": {
-          "type": "event",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": false,
-            "button_label": "Participate",
-            "button_url": ""
-          }
-        },
-        "event_HiPxpm": {
-          "type": "event",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": false,
-            "button_label": "Participate",
-            "button_url": ""
-          }
         }
       },
       "block_order": [
         "event_z7T663",
-        "event_CbK9CA",
-        "event_NWgm8L",
-        "event_HiPxpm"
+        "event_CbK9CA"
       ],
       "settings": {}
     },
