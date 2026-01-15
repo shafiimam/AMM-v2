@@ -20,10 +20,7 @@
         "show_view_cart_button": false,
         "show_checkout_button": true,
         "show_price_in_checkout_button": true,
-        "cross_sell_products": [
-          "jason-markk-shoe-complete-clean-kit-white",
-          "jason-markk-hat-care-kit-purple"
-        ],
+        "cross_sell_products": [],
         "cross_sell_title": "Care Products",
         "cross_sell_stack_products": false
       }
