@@ -11,6 +11,16 @@
   "sections": {
     "main": {
       "type": "main-cart",
+      "blocks": {
+        "selleasy_lb_upsell_widget_icuc_MpFbUe": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-icuc/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "selleasy_lb_upsell_widget_icuc_MpFbUe"
+      ],
       "settings": {
         "color_scheme": "",
         "show_cart_note": false,
