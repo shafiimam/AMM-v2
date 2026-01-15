@@ -16,6 +16,7 @@
       "blocks": {
         "selleasy_lb_upsell_widget_icuc_FVBzVc": {
           "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-icuc/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "disabled": true,
           "settings": {}
         }
       },
