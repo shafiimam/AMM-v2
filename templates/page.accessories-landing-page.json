@@ -57,7 +57,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "content_width": "full-screen",
         "text_position": "center",
         "remove_vertical_spacing": true
@@ -102,7 +102,7 @@
       "name": "RAY-BAN CIRCLE",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image": "shopify://shop_images/rayban1_0da5e9f2-78fa-47d7-bc77-1fa519e0d5e3.jpg",
         "mobile_image": "shopify://shop_images/rayban1_0da5e9f2-78fa-47d7-bc77-1fa519e0d5e3.jpg",
         "circular_text": "RAY-BAN META RAY-BAN META RAY-BAN META RAY-BAN META",
@@ -129,7 +129,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 11
+            "overlay_opacity": 5
           }
         },
         "collection_48ky8y": {
@@ -145,7 +145,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 11
+            "overlay_opacity": 5
           }
         },
         "collection_fQR6QK": {
@@ -161,7 +161,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 5
           }
         }
       },
