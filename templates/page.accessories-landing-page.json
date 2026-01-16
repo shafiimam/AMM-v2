@@ -97,7 +97,7 @@
         "button_47dEVM"
       ],
       "custom_css": [
-        ".h1 {font-size: 50px !important;}"
+        ".h1 {font-size: 40px !important;}"
       ],
       "name": "RAY-BAN CIRCLE",
       "settings": {
@@ -107,8 +107,8 @@
         "mobile_image": "shopify://shop_images/rayban1_0da5e9f2-78fa-47d7-bc77-1fa519e0d5e3.jpg",
         "circular_text": "RAY-BAN META RAY-BAN META RAY-BAN META RAY-BAN META",
         "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "lg",
+        "image_position": "end",
+        "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
@@ -122,7 +122,7 @@
             "color_scheme": "",
             "collection": "new-belts",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-start-center text-center",
             "subheading": "",
             "title": "",
             "button_text": "BELTS",
@@ -138,7 +138,7 @@
             "color_scheme": "",
             "collection": "resort-accessoires",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-start-center text-center",
             "subheading": "",
             "title": "",
             "button_text": "RESORT ACCESSORIES",
@@ -154,7 +154,7 @@
             "color_scheme": "",
             "collection": "socks",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-start-center text-center",
             "subheading": "",
             "title": "",
             "button_text": "SOCKS",
@@ -177,9 +177,9 @@
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": false,
-        "stack_collections": false,
+        "stack_collections": true,
         "collections_per_row_mobile": "1",
-        "collections_per_row_desktop": 2,
+        "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
         "content": ""
