@@ -63,86 +63,6 @@
         "remove_vertical_spacing": true
       }
     },
-    "image_with_text_WNJqFW": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_inNaAT": {
-          "type": "heading",
-          "settings": {
-            "text": "Winter’s Softest Statement",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_UDf7cz": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Wrap the season in effortless sophistication with signature scarves from brands like Acne Studios and more. Crafted from ultra-soft wools and mohair blends, each piece drapes beautifully, offering warmth with a distinctly modern edge.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_pTk7rU": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "shop scarves",
-            "url": "shopify://collections/scarves",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_inNaAT",
-        "richtext_UDf7cz",
-        "button_pTk7rU"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/scarf1.jpg",
-        "mobile_image": "shopify://shop_images/scarf1.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
-    },
-    "featured_collections_e4qJwn": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_pn7rp4": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 12,
-            "title": "Accessories",
-            "link_url": "shopify://collections/new-accessories",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_pn7rp4"
-      ],
-      "name": "ACCESSORIES ",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 6,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.6,
-        "subheading": ""
-      }
-    },
     "accessories_image_with_text_eabtxK": {
       "type": "accessories-image-with-text",
       "blocks": {
@@ -191,6 +111,159 @@
         "content_width": "lg",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
+      }
+    },
+    "collection_list_xgcU7w": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_aLGzDC": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "new-belts",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "BELTS",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 11
+          }
+        },
+        "collection_48ky8y": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "resort-accessoires",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "RESORT ACCESSORIES",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 11
+          }
+        },
+        "collection_fQR6QK": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "socks",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "SOCKS",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_aLGzDC",
+        "collection_48ky8y",
+        "collection_fQR6QK"
+      ],
+      "name": "OTHER HOLIDAY",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": false,
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 2,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_WNJqFW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_inNaAT": {
+          "type": "heading",
+          "settings": {
+            "text": "Winter’s Softest Statement",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_UDf7cz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wrap the season in effortless sophistication with signature scarves from brands like Comme Des Garçons and more. Crafted from ultra-soft wools and mohair blends, each piece drapes beautifully, offering warmth with a distinctly modern edge.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_pTk7rU": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "shop scarves",
+            "url": "shopify://collections/scarves",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_inNaAT",
+        "richtext_UDf7cz",
+        "button_pTk7rU"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/scarf.png",
+        "mobile_image": "shopify://shop_images/scarf_d86fd6c4-1031-44b9-bf75-b0142ed32c30.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "featured_collections_e4qJwn": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_pn7rp4": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 12,
+            "title": "Accessories",
+            "link_url": "shopify://collections/new-accessories",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_pn7rp4"
+      ],
+      "disabled": true,
+      "name": "ACCESSORIES ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
       }
     },
     "before_after_zNnGJf": {
@@ -246,7 +319,7 @@
           "type": "collection",
           "settings": {
             "collection": "new-hats",
-            "products_count": 8,
+            "products_count": 14,
             "title": "HATS",
             "link_url": "",
             "link_text": ""
@@ -288,90 +361,17 @@
         "top_text": "Try",
         "bottom_text": "Now"
       }
-    },
-    "collection_list_xgcU7w": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_aLGzDC": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "new-home",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "HOME GOODS",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 11
-          }
-        },
-        "collection_48ky8y": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "small-goods",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "SMALL GOODS",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 11
-          }
-        },
-        "collection_fQR6QK": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "collection": "home-gifts",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "HOME GIFTS",
-            "button_link": "",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_aLGzDC",
-        "collection_48ky8y",
-        "collection_fQR6QK"
-      ],
-      "name": "OTHER HOLIDAY",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": false,
-        "stack_collections": false,
-        "collections_per_row_mobile": "1",
-        "collections_per_row_desktop": 2,
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
     }
   },
   "order": [
     "main",
     "rich_text_xwKKEF",
+    "accessories_image_with_text_eabtxK",
+    "collection_list_xgcU7w",
     "image_with_text_WNJqFW",
     "featured_collections_e4qJwn",
-    "accessories_image_with_text_eabtxK",
     "before_after_zNnGJf",
     "featured_collections_Dtrtbp",
-    "3d_gallery_fKkNmV",
-    "collection_list_xgcU7w"
+    "3d_gallery_fKkNmV"
   ]
 }
