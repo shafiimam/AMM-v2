@@ -26,39 +26,9 @@
         "show_date": true,
         "show_category": true,
         "show_author": false,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "show_sticky_bar": true,
         "toolbar_color_scheme": ""
-      }
-    },
-    "featured_collections_mK3nfG": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_EcRgFi": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-resort-edit",
-            "products_count": 14,
-            "title": "Resort Edit",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_EcRgFi"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
       }
     },
     "featured_product_3M9FWk": {
@@ -86,6 +56,7 @@
         },
         "rating_XLfPJN": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true,
             "rating_mode": "rating"
@@ -97,6 +68,7 @@
         },
         "separator_Hj3jwE": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "description_yBzWc6": {
@@ -150,11 +122,10 @@
         "buy_buttons_fJEjVj",
         "pickup_availability_6aBAgH"
       ],
-      "disabled": true,
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
-        "product": "air-max-95-yardrunners-famu",
+        "product": "amiri-twisted-palms-shirt",
         "separate_section_with_border": true,
         "container_size": "lg",
         "product_info_size": 43,
@@ -167,8 +138,38 @@
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
         "subheading": "",
-        "title": "NIKE AIR MAX YARDRUNNERS \"FAMU\"",
+        "title": "",
         "content": ""
+      }
+    },
+    "featured_collections_mK3nfG": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_EcRgFi": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-resort-edit",
+            "products_count": 14,
+            "title": "",
+            "link_url": "shopify://collections/the-resort-edit",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_EcRgFi"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "prev-next-blog-posts": {
@@ -187,8 +188,8 @@
   "order": [
     "breeadcrumbs_j9kFad",
     "main",
-    "featured_collections_mK3nfG",
     "featured_product_3M9FWk",
+    "featured_collections_mK3nfG",
     "prev-next-blog-posts"
   ]
 }
