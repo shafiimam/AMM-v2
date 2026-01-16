@@ -402,8 +402,8 @@
           "settings": {
             "collection": "the-resort-edit",
             "products_count": 8,
-            "title": "Resort Wear",
-            "link_url": "",
+            "title": "The Resort Edit",
+            "link_url": "shopify://collections/the-resort-edit",
             "link_text": "View all"
           }
         },
