@@ -717,8 +717,19 @@
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
+        "collection_NDmmGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-sneakers",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/new-sneakers",
+            "link_text": "View all"
+          }
+        },
         "collection_Q7Rc3m": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "sneakers",
             "products_count": 4,
@@ -729,6 +740,7 @@
         }
       },
       "block_order": [
+        "collection_NDmmGJ",
         "collection_Q7Rc3m"
       ],
       "custom_css": [],
