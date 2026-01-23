@@ -56,11 +56,10 @@
         "mega_menu_wJYUCr": {
           "type": "mega_menu",
           "name": "OFFSEASON PROMO",
-          "disabled": true,
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
-            "image_1": "shopify://shop_images/OS_15OFF_-_MOBILE.jpg",
+            "image_1": "shopify://shop_images/OS_15OFF_-_MOBILE_1.jpg",
             "image_1_heading": "",
             "image_1_text": "<strong>ENJOY 15% OFF YOUR ENTIRE ORDER ON OFF-SEASON ONLINE FOR A LIMITED TIME </strong>",
             "image_1_link": "https://www.off--season.com/",
