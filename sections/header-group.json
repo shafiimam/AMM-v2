@@ -16,14 +16,12 @@
       "blocks": {
         "message-1": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "<strong>ENJOY COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS UNTIL 1.30</strong>"
           }
         },
         "message_jg6cKp": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "<strong>15% OFF YOUR ENTIRE ORDER ON </strong><a href=\"https://www.off--season.com/\" title=\"OFF-SEASON DIGITAL EXPERIENCE\"><strong>OFF-SEASON</strong></a><strong> ONLINE UNTIL 1.30</strong>"
           }
