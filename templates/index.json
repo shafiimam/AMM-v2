@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "176075966993f87866": {
-      "type": "_blocks",
-      "settings": {}
-    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
@@ -80,7 +76,6 @@
         "video_NgbMdj",
         "image_H4DjaV"
       ],
-      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -92,6 +87,11 @@
         "background": "#000000",
         "controls_color": "#ffffff"
       }
+    },
+    "176075966993f87866": {
+      "type": "_blocks",
+      "disabled": true,
+      "settings": {}
     },
     "split_media_heo_GynGer": {
       "type": "split-media-heo",
@@ -134,6 +134,7 @@
         "richtext_nkiVLT",
         "button_CqXrVb"
       ],
+      "disabled": true,
       "name": "NEW ARRIVALS",
       "settings": {
         "allow_transparent_header": true,
@@ -277,7 +278,7 @@
       "custom_css": [],
       "settings": {
         "section_alignment": "left",
-        "title": "THE NEW YEAR EDIT",
+        "title": "THE Valentine's day edit",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/newyear2.jpg",
         "image_description": "<p>Welcome the New Year in elevated form. Thoughtful design, premium textures, and pieces made to move with confidence into what’s ahead. Shop our <strong>New Year Edit</strong>.</p>",
@@ -395,10 +396,10 @@
         "collection_3gxaab": {
           "type": "collection",
           "settings": {
-            "collection": "the-resort-edit",
+            "collection": "valentines-day-edit",
             "products_count": 8,
-            "title": "The Resort Edit",
-            "link_url": "shopify://collections/the-resort-edit",
+            "title": "The Valentine's Edit",
+            "link_url": "shopify://collections/valentines-day-edit",
             "link_text": "View all"
           }
         },
@@ -988,8 +989,8 @@
     }
   },
   "order": [
-    "176075966993f87866",
     "slideshow_QGYQ6e",
+    "176075966993f87866",
     "split_media_heo_GynGer",
     "releases_LeDFdB",
     "featureed_image_and_products_7MHNbK",
