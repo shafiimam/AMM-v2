@@ -15,6 +15,36 @@
         "gutter_below": true
       }
     },
+    "featured_collections_mK3nfG": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_EcRgFi": {
+          "type": "collection",
+          "settings": {
+            "collection": "valentines-day-edit",
+            "products_count": 14,
+            "title": "",
+            "link_url": "shopify://collections/valentines-day-edit",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_EcRgFi"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "main": {
       "type": "main-article",
       "settings": {
@@ -105,6 +135,7 @@
         },
         "pickup_availability_6aBAgH": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -125,7 +156,7 @@
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
-        "product": "amiri-twisted-palms-shirt",
+        "product": "enfants-riches-deprimes-artists-grave-antique-sweater-black",
         "separate_section_with_border": true,
         "container_size": "lg",
         "product_info_size": 43,
@@ -140,36 +171,6 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "featured_collections_mK3nfG": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_EcRgFi": {
-          "type": "collection",
-          "settings": {
-            "collection": "the-resort-edit",
-            "products_count": 14,
-            "title": "",
-            "link_url": "shopify://collections/the-resort-edit",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_EcRgFi"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "prev-next-blog-posts": {
@@ -187,9 +188,9 @@
   },
   "order": [
     "breeadcrumbs_j9kFad",
+    "featured_collections_mK3nfG",
     "main",
     "featured_product_3M9FWk",
-    "featured_collections_mK3nfG",
     "prev-next-blog-posts"
   ]
 }
