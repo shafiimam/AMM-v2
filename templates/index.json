@@ -46,6 +46,7 @@
         "image_H4DjaV": {
           "type": "image",
           "name": "FREE SHIPPING ",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_size": 12,
