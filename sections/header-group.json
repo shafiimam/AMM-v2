@@ -28,6 +28,7 @@
         },
         "message_jg6cKp": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>15% OFF YOUR ENTIRE ORDER ON </strong><a href=\"https://www.off--season.com/\" title=\"OFF-SEASON DIGITAL EXPERIENCE\"><strong>OFF-SEASON</strong></a><strong> ONLINE NOW UNTIL 1.27</strong>"
           }
