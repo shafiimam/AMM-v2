@@ -64,6 +64,7 @@
         "mega_menu_wJYUCr": {
           "type": "mega_menu",
           "name": "OFFSEASON PROMO",
+          "disabled": true,
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
