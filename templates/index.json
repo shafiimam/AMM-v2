@@ -687,10 +687,10 @@
         "collection_NDmmGJ": {
           "type": "collection",
           "settings": {
-            "collection": "new-sneakers",
+            "collection": "sneakers",
             "products_count": 8,
             "title": "",
-            "link_url": "shopify://collections/new-sneakers",
+            "link_url": "shopify://collections/sneakers",
             "link_text": "View all"
           }
         },
@@ -996,14 +996,14 @@
     "releases_LeDFdB",
     "featureed_image_and_products_7MHNbK",
     "shop_the_look_yjtpt9",
-    "image_with_text_4rzGhq",
     "featured_collections_RwpkEJ",
+    "image_with_text_4rzGhq",
     "before-after",
     "collection_list_cLGdiA",
     "multiple_media_with_text_Lgp4CV",
     "blocks_xhmELd",
-    "media_grid_DzxzqH",
     "featured_collections_WMah7x",
+    "media_grid_DzxzqH",
     "media_grid_ik3yVY",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
