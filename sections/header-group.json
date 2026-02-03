@@ -107,7 +107,6 @@
         },
         "release_nAhaJK": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "2.7",
             "release_image": "shopify://shop_images/CAMPUSXBAPEBLKWHT-1_fe340f80-6548-4d00-a588-ec732431b18e.jpg",
