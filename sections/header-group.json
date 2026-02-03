@@ -107,6 +107,7 @@
         },
         "release_nAhaJK": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.7",
             "release_image": "shopify://shop_images/CAMPUSXBAPEBLKWHT-1_fe340f80-6548-4d00-a588-ec732431b18e.jpg",
@@ -189,10 +190,46 @@
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
         "show_releases": false
       }
+    },
+    "releases_W7TkCG": {
+      "type": "releases",
+      "blocks": {
+        "release_FcjGG3": {
+          "type": "release",
+          "settings": {
+            "release_title": "2.7",
+            "release_image": "shopify://shop_images/SAMBAXBAPEWHTGRN-1_5369093f-b9ec-4627-9f79-a04f836eb059.jpg",
+            "product_title": "BAPE x Adidas Samba 'World Cup Pack'",
+            "product_vendor": "BAPE x Adidas",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/bape-x-adidas-samba-world-cup-pack"
+          }
+        },
+        "release_QRUUUx": {
+          "type": "release",
+          "settings": {
+            "release_title": "2.7",
+            "release_image": "shopify://shop_images/CAMPUSXBAPEBLKWHT-1_fe340f80-6548-4d00-a588-ec732431b18e.jpg",
+            "product_title": "BAPE x Adidas Campus 00s 'World Cup Pack'",
+            "product_vendor": "BAPE x Adidas",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-x-bape-campus-00s-world-cup"
+          }
+        }
+      },
+      "block_order": [
+        "release_FcjGG3",
+        "release_QRUUUx"
+      ],
+      "name": "Releases",
+      "settings": {
+        "title": "Upcoming Releases"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "releases_W7TkCG"
   ]
 }
