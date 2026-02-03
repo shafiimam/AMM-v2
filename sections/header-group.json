@@ -117,29 +117,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-x-bape-campus-00s-world-cup"
           }
         },
-        "release_9bJ7dD": {
-          "type": "release",
-          "settings": {
-            "release_title": "2.7",
-            "release_image": "shopify://shop_images/SAMBAXBAPEWHTGRN-1_5369093f-b9ec-4627-9f79-a04f836eb059.jpg",
-            "product_title": "BAPE x Adidas Samba 'World Cup Pack'",
-            "product_vendor": "BAPE x Adidas",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/bape-x-adidas-samba-world-cup-pack"
-          }
-        },
-        "release_qghhL8": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a_1.jpg",
-            "product_title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$225",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha"
-          }
-        },
         "release_KPd8WR": {
           "type": "release",
           "disabled": true,
@@ -158,8 +135,6 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_nAhaJK",
-        "release_9bJ7dD",
-        "release_qghhL8",
         "release_KPd8WR"
       ],
       "settings": {
@@ -221,6 +196,7 @@
         "release_FcjGG3",
         "release_QRUUUx"
       ],
+      "disabled": true,
       "name": "Releases",
       "settings": {
         "title": "Upcoming Releases"
