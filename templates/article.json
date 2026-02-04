@@ -22,7 +22,7 @@
         "show_image": true,
         "enable_parallax": true,
         "image_size": "large",
-        "content_width": "lg",
+        "content_width": "md",
         "show_date": true,
         "show_category": true,
         "show_author": false,
