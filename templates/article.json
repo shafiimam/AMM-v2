@@ -22,11 +22,11 @@
         "show_image": true,
         "enable_parallax": true,
         "image_size": "large",
-        "content_width": "md",
+        "content_width": "lg",
         "show_date": true,
         "show_category": true,
         "show_author": false,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "show_sticky_bar": true,
         "toolbar_color_scheme": ""
       }
