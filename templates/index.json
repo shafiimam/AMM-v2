@@ -248,25 +248,25 @@
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "loewe-overshirt-black-orange"
+            "product": "enfants-riches-deprimes-artists-grave-antique-sweater-black"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "acne-studios-flannel-shirt-2"
+            "product": "entire-studios-giant-shirt-white"
           }
         },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "maison-mihara-yasuhiro-bootcut-wide-jeans-indigo"
+            "product": "rick-owens-denim-banana-pant"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "trpl-chain-bracelet"
+            "product": "a-ma-maniere-jordan-tote-bag-black"
           }
         }
       },
@@ -281,10 +281,10 @@
         "section_alignment": "left",
         "title": "",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/newyear2.jpg",
-        "image_description": "<p>Welcome the New Year in elevated form. Thoughtful design, premium textures, and pieces made to move with confidence into what’s ahead. Shop our <strong>New Year Edit</strong>.</p>",
+        "image": "shopify://shop_images/sweater.jpg",
+        "image_description": "<p>This Valentine’s Day, make it about what feels good. Discover a curated edit of timeless styles designed for romance, independence, and everything in between.</p><p></p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/the-new-years-edit"
+        "image_cta_url": "shopify://collections/valentines-day-edit"
       }
     },
     "shop_the_look_yjtpt9": {
@@ -337,22 +337,14 @@
         "heading_h3aKYA": {
           "type": "heading",
           "settings": {
-            "text": "<strong>The Resort Edit – What to Pack for a Stylish Getaway</strong>",
+            "text": "<strong>The Original Issue </strong>",
             "heading_tag": "h3"
-          }
-        },
-        "heading_rBV9ab": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "A MA MANIÉRE D.C",
-            "heading_tag": "h2"
           }
         },
         "richtext_V3crbK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Planning for a resort escape is a moment worth savoring. It’s the anticipation of lighter days, unhurried evenings, and looks that feel considered yet effortless.The Resort Edit at A Ma Maniére is curated for those moments, bringing together modern silhouettes and soft layers designed for ease, movement, and versatility wherever you travel, so you can feel and look your best.</p><h3></h3>",
+            "content": "<p>The Original Issue is a Black History Month series from The Whitaker Group honoring Black fashion pioneers whose influence shaped global style long before it was named, credited, or claimed elsewhere.<br/><br/>Volume 1 features Willi Smith, a trailblazing designer whose vision transformed everyday style into something quietly radical. His work dissolved the boundary between fashion and real life, influencing how we dress long before the industry learned to name it.</p>",
             "text_color": "#535353"
           }
         },
@@ -361,7 +353,7 @@
           "settings": {
             "style": "solid",
             "text": "READ ARTICLE",
-            "url": "https://www.a-ma-maniere.com/blogs/editorials/the-resort-edit-what-to-pack-for-a-stylish-getaway",
+            "url": "shopify://blogs/editorials/the-original-issue",
             "background": "",
             "text_color": ""
           }
@@ -370,7 +362,6 @@
       "block_order": [
         "subheading_jmzUa4",
         "heading_h3aKYA",
-        "heading_rBV9ab",
         "richtext_V3crbK",
         "button_GCQJcU"
       ],
@@ -378,15 +369,15 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/Untitled_design_d2c63224-1bd1-4b3c-a5ee-9bcdf29618b1.gif",
-        "mobile_image": "shopify://shop_images/Untitled_design_d2c63224-1bd1-4b3c-a5ee-9bcdf29618b1.gif",
+        "image": "shopify://shop_images/OG_Issue_Cover_AMM_730828b7-541e-4837-b725-4e02c3ea319a.jpg",
+        "mobile_image": "shopify://shop_images/OG_Issue_Cover_AMM_730828b7-541e-4837-b725-4e02c3ea319a.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
         "video_controls": false,
         "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
+        "image_position": "end",
+        "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
@@ -641,46 +632,6 @@
       "name": "Spacer",
       "settings": {}
     },
-    "media_grid_DzxzqH": {
-      "type": "media-grid",
-      "blocks": {
-        "video_AfzNrQ": {
-          "type": "video",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/AMA STUSSY.mov",
-            "autoplay": true,
-            "show_controls": false,
-            "column_count": "12",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/stussy",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "video_AfzNrQ"
-      ],
-      "name": "VIDEO IN GRID",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 410,
-        "mobile_row_height": 450,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "NEW ARRIVALS FROM STÜSSY",
-        "content": ""
-      }
-    },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
@@ -721,6 +672,46 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
+      }
+    },
+    "media_grid_DzxzqH": {
+      "type": "media-grid",
+      "blocks": {
+        "video_AfzNrQ": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/AMA STUSSY.mov",
+            "autoplay": true,
+            "show_controls": false,
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/stussy",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_AfzNrQ"
+      ],
+      "name": "VIDEO IN GRID",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 410,
+        "mobile_row_height": 450,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "NEW ARRIVALS FROM STÜSSY",
+        "content": ""
       }
     },
     "media_grid_ik3yVY": {
@@ -996,8 +987,8 @@
     "releases_LeDFdB",
     "featureed_image_and_products_7MHNbK",
     "shop_the_look_yjtpt9",
-    "featured_collections_RwpkEJ",
     "image_with_text_4rzGhq",
+    "featured_collections_RwpkEJ",
     "before-after",
     "collection_list_cLGdiA",
     "multiple_media_with_text_Lgp4CV",
