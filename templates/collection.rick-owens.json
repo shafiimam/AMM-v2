@@ -26,6 +26,91 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_jLdmmU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MAfpmm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "RICK OWENS",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nmR43n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RICK OWENS </strong> latest collection amplifies the  season’s vision embraces wearability without losing its bite: architectural precision, oversized outer-shirts in heavy leather, and  lined in luxury. Muted grays, deep browns, and jet black tones speak to quiet power — where rebellion meets refinement.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAfpmm",
+        "richtext_nmR43n"
+      ],
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/DSC07846BB.jpg",
+        "mobile_image": "shopify://shop_images/DSC07846BB_ed652af7-c438-447f-9213-34fdac722851.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "image_card_xbb6z4": {
+          "type": "image_card",
+          "settings": {
+            "image": "shopify://shop_images/DSC07928BB_1.jpg",
+            "button_text": "",
+            "button_url": "",
+            "product_index": 6,
+            "column_span": 2,
+            "row_span": 2,
+            "button_style": "solid",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_xbb6z4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 18,
+        "products_per_row_mobile": "1",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
     "video_BMBRUt": {
       "type": "video",
       "blocks": {
@@ -57,96 +142,12 @@
         "external_video_url": "",
         "text_color": "#ffffff"
       }
-    },
-    "main": {
-      "type": "main-collection",
-      "blocks": {
-        "image_card_xbb6z4": {
-          "type": "image_card",
-          "settings": {
-            "image": "shopify://shop_images/RICKMOBILE3.jpg",
-            "button_text": "",
-            "button_url": "",
-            "product_index": 5,
-            "column_span": 2,
-            "row_span": 2,
-            "button_style": "solid",
-            "button_background": "#ffffff",
-            "button_text_color": "#1c1c1c"
-          }
-        }
-      },
-      "block_order": [
-        "image_card_xbb6z4"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "hide_product_information": false,
-        "products_per_page": 42,
-        "products_per_row_mobile": "1",
-        "products_size_desktop": "medium",
-        "show_grid_mode_selector": false,
-        "horizontal_spacing_factor": 0.4,
-        "vertical_spacing_factor": 0.4,
-        "filter_layout": "drawer",
-        "quick_links_menu": "",
-        "show_sort_by": true,
-        "show_filters": true,
-        "show_results_count": false,
-        "show_filter_group_name": false,
-        "show_filter_values_count": true,
-        "open_filters_by_default": false
-      }
-    },
-    "image_with_text_jLdmmU": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_MAfpmm": {
-          "type": "heading",
-          "settings": {
-            "text": "RICK OWENS",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nmR43n": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>RICK OWENS </strong> latest collection amplifies the  season’s vision embraces wearability without losing its bite: architectural precision, oversized outer-shirts in heavy leather, and  lined in luxury. Muted grays, deep browns, and jet black tones speak to quiet power — where rebellion meets refinement.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MAfpmm",
-        "richtext_nmR43n"
-      ],
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {display: flex; justify-content: end;}"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/RICKO1.jpg",
-        "mobile_image": "shopify://shop_images/RICKMOB3.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
     }
   },
   "order": [
     "collection-banner",
-    "video_BMBRUt",
+    "image_with_text_jLdmmU",
     "main",
-    "image_with_text_jLdmmU"
+    "video_BMBRUt"
   ]
 }
