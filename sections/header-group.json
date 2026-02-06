@@ -14,23 +14,16 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_ajqqyL": {
-          "type": "message",
-          "settings": {
-            "text": "<strong>Due to severe weather conditions, our warehouse operations may be impacted, and some orders or returns could experience slight delays.</strong>"
-          }
-        },
         "message-1": {
           "type": "message",
           "settings": {
             "text": "<strong>ENJOY COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS $350 and up</strong>"
           }
         },
-        "message_jg6cKp": {
+        "message_ajqqyL": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "<strong>15% OFF YOUR ENTIRE ORDER ON </strong><a href=\"https://www.off--season.com/\" title=\"OFF-SEASON DIGITAL EXPERIENCE\"><strong>OFF-SEASON</strong></a><strong> ONLINE NOW UNTIL 1.27</strong>"
+            "text": "<strong>Due to severe weather conditions, our warehouse operations may be impacted, and some orders or returns could experience slight delays.</strong>"
           }
         },
         "message_LyBJxq": {
@@ -41,9 +34,8 @@
         }
       },
       "block_order": [
-        "message_ajqqyL",
         "message-1",
-        "message_jg6cKp",
+        "message_ajqqyL",
         "message_LyBJxq"
       ],
       "custom_css": [
