@@ -20,12 +20,6 @@
             "text": "<strong>ENJOY COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS $350 and up</strong>"
           }
         },
-        "message_ajqqyL": {
-          "type": "message",
-          "settings": {
-            "text": "<strong>Due to severe weather conditions, our warehouse operations may be impacted, and some orders or returns could experience slight delays.</strong>"
-          }
-        },
         "message_LyBJxq": {
           "type": "message",
           "settings": {
@@ -35,7 +29,6 @@
       },
       "block_order": [
         "message-1",
-        "message_ajqqyL",
         "message_LyBJxq"
       ],
       "custom_css": [
