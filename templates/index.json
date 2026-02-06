@@ -94,81 +94,6 @@
       "disabled": true,
       "settings": {}
     },
-    "split_media_heo_GynGer": {
-      "type": "split-media-heo",
-      "blocks": {
-        "heading_xDW4wX": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Explore Latest Arrivals",
-            "heading_tag": "h2"
-          }
-        },
-        "subheading_Fh4MNy": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": ""
-          }
-        },
-        "richtext_nkiVLT": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2><strong>Explore Latest Arrivals</strong></h2>"
-          }
-        },
-        "button_CqXrVb": {
-          "type": "button",
-          "settings": {
-            "label": "SHOP NOW",
-            "url": "shopify://collections/new-arrivals-1",
-            "button_style": "outline",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xDW4wX",
-        "subheading_Fh4MNy",
-        "richtext_nkiVLT",
-        "button_CqXrVb"
-      ],
-      "disabled": true,
-      "name": "NEW ARRIVALS",
-      "settings": {
-        "allow_transparent_header": true,
-        "media_type_1": "image",
-        "image_1": "shopify://shop_images/AMMNEW1.png",
-        "media_type_2": "image",
-        "image_2": "shopify://shop_images/Untitled-5.png",
-        "link": "shopify://collections/new-arrivals-1",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "space-between",
-        "gap": 12,
-        "section_width": "full-width",
-        "section_height": "large",
-        "section_height_custom": 100,
-        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-        "remove_vertical_spacing": true,
-        "separate_section_with_border": false,
-        "toggle_overlay": false,
-        "overlay_color": "#00000080",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "blurred_reflection": false,
-        "reflection_opacity": 0,
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
@@ -276,16 +201,16 @@
         "product_wBMWzJ",
         "product_8q4ahn"
       ],
-      "disabled": true,
       "custom_css": [],
       "name": "RICK OWENS PRODUCT",
       "settings": {
         "section_alignment": "left",
-        "title": "",
+        "title": "Moncler x rick owens ss26",
         "background_image": "shopify://shop_images/image_4.png",
-        "image_description": "<p>This Valentine’s Day, make it about what feels good. Discover a curated edit of timeless styles designed for romance, independence, and everything in between.</p><p></p>",
+        "image": "shopify://shop_images/rickgridimage.jpg",
+        "image_description": "<p>Moncler function meets Rick Owens attitude in statement winter layers. This season balance function and fashion, engineered for cold weather but designed with Rick Owens’ unmistakable edge. Engineered for cold. Designed to stand apart.</p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/valentines-day-edit"
+        "image_cta_url": "shopify://collections/rick-owens"
       }
     },
     "featureed_image_and_products_i87YLU": {
@@ -322,6 +247,7 @@
         "product_rQaMhz",
         "product_Pbx8fr"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "section_alignment": "left",
@@ -434,10 +360,10 @@
         "collection_3gxaab": {
           "type": "collection",
           "settings": {
-            "collection": "valentines-day-edit",
+            "collection": "rick-owens",
             "products_count": 8,
-            "title": "The Valentine's Edit",
-            "link_url": "shopify://collections/valentines-day-edit",
+            "title": "Moncler x rick owens ss26",
+            "link_url": "shopify://collections/rick-owens",
             "link_text": "View all"
           }
         },
@@ -1029,7 +955,6 @@
   "order": [
     "slideshow_QGYQ6e",
     "176075966993f87866",
-    "split_media_heo_GynGer",
     "releases_LeDFdB",
     "featureed_image_and_products_7MHNbK",
     "featureed_image_and_products_i87YLU",
