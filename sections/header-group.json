@@ -22,9 +22,8 @@
         },
         "message-1": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "<strong>ENJOY COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS NOW UNTIL 1.30</strong>"
+            "text": "<strong>ENJOY COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS $350 and up</strong>"
           }
         },
         "message_jg6cKp": {
