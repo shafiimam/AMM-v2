@@ -46,7 +46,7 @@
           "settings": {
             "style": "solid",
             "text": "See All",
-            "url": "shopify://collections/new-sneakers",
+            "url": "shopify://collections/sneakers",
             "background": "",
             "text_color": ""
           }
@@ -206,8 +206,8 @@
     "main",
     "image_with_text_custom_qxrkki",
     "featured_collections_e4qJwn",
-    "section_rounded_text_column_3Ff7F4",
+    "3d_gallery_Y9qVkB",
     "featured_collections_Dtrtbp",
-    "3d_gallery_Y9qVkB"
+    "section_rounded_text_column_3Ff7F4"
   ]
 }
