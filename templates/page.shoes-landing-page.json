@@ -109,12 +109,12 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "new-sneakers",
+            "collection": "asics",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
+            "button_text": "ASICS",
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
@@ -125,12 +125,12 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "new-slippers",
+            "collection": "new-balance",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
+            "button_text": "NEW BALANCE",
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
@@ -141,12 +141,12 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "new-sandals",
+            "collection": "adidas",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
+            "button_text": "ADIDAS",
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
@@ -199,10 +199,10 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "adidas",
+            "collection": "air-jordan",
             "products_count": 8,
-            "title": "Adidas",
-            "link_url": "shopify://collections/adidas",
+            "title": "JORDAN",
+            "link_url": "shopify://collections/air-jordan",
             "link_text": ""
           }
         }
@@ -255,6 +255,7 @@
         "richtext_Wb7wth",
         "button_wLhFRN"
       ],
+      "disabled": true,
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
         "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
@@ -278,8 +279,8 @@
     "main",
     "image_with_text_custom_qxrkki",
     "featured_collections_e4qJwn",
-    "collection_list_4KcAek",
     "3d_gallery_Y9qVkB",
+    "collection_list_4KcAek",
     "featured_collections_Dtrtbp",
     "section_rounded_text_column_3Ff7F4"
   ]
