@@ -102,6 +102,126 @@
         "subheading": ""
       }
     },
+    "collection_list_4KcAek": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_mPV9zd": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "new-sneakers",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_khVWQm": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "new-slippers",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_eHFMck": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "new-sandals",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_mPV9zd",
+        "collection_khVWQm",
+        "collection_eHFMck"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "3d_gallery_Y9qVkB": {
+      "type": "3d-gallery",
+      "custom_css": [],
+      "settings": {
+        "title": "Look Closer",
+        "start_index": "756",
+        "end_index": "818",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
+        "file_ext": "png",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/laced-up-boot-1",
+        "knob_position": 50,
+        "gallery_width": 59,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
+    "featured_collections_Dtrtbp": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_7VVCVQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "adidas",
+            "products_count": 8,
+            "title": "Adidas",
+            "link_url": "shopify://collections/adidas",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_7VVCVQ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
+    },
     "section_rounded_text_column_3Ff7F4": {
       "type": "section-rounded-text-column",
       "blocks": {
@@ -152,60 +272,13 @@
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
-    },
-    "featured_collections_Dtrtbp": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_7VVCVQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "adidas",
-            "products_count": 8,
-            "title": "Adidas",
-            "link_url": "shopify://collections/adidas",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_7VVCVQ"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.6,
-        "subheading": ""
-      }
-    },
-    "3d_gallery_Y9qVkB": {
-      "type": "3d-gallery",
-      "custom_css": [],
-      "settings": {
-        "title": "Look Closer",
-        "start_index": "756",
-        "end_index": "818",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
-        "file_ext": "png",
-        "button_label": "Shop Now",
-        "button_link": "shopify://products/laced-up-boot-1",
-        "knob_position": 50,
-        "gallery_width": 59,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
-      }
     }
   },
   "order": [
     "main",
     "image_with_text_custom_qxrkki",
     "featured_collections_e4qJwn",
+    "collection_list_4KcAek",
     "3d_gallery_Y9qVkB",
     "featured_collections_Dtrtbp",
     "section_rounded_text_column_3Ff7F4"
