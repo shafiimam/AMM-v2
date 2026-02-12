@@ -18,6 +18,81 @@
         "page_width": "xs"
       }
     },
+    "media_grid_c3nTpj": {
+      "type": "media-grid",
+      "blocks": {
+        "image_LTit9w": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC07083BB.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WpDDYL": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LrHwaB": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_LTit9w",
+        "image_WpDDYL",
+        "image_LrHwaB"
+      ],
+      "disabled": true,
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "image_with_text_custom_qxrkki": {
       "type": "image-with-text-custom",
       "blocks": {
@@ -102,6 +177,25 @@
         "subheading": ""
       }
     },
+    "3d_gallery_Y9qVkB": {
+      "type": "3d-gallery",
+      "custom_css": [],
+      "settings": {
+        "title": "Look Closer",
+        "start_index": "756",
+        "end_index": "818",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
+        "file_ext": "png",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/laced-up-boot-1",
+        "knob_position": 50,
+        "gallery_width": 59,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
     "collection_list_4KcAek": {
       "type": "collection-list",
       "blocks": {
@@ -172,25 +266,6 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "3d_gallery_Y9qVkB": {
-      "type": "3d-gallery",
-      "custom_css": [],
-      "settings": {
-        "title": "Look Closer",
-        "start_index": "756",
-        "end_index": "818",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
-        "file_ext": "png",
-        "button_label": "Shop Now",
-        "button_link": "shopify://products/laced-up-boot-1",
-        "knob_position": 50,
-        "gallery_width": 59,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
       }
     },
     "featured_collections_Dtrtbp": {
@@ -277,6 +352,7 @@
   },
   "order": [
     "main",
+    "media_grid_c3nTpj",
     "image_with_text_custom_qxrkki",
     "featured_collections_e4qJwn",
     "3d_gallery_Y9qVkB",
