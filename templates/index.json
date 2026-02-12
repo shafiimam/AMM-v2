@@ -173,6 +173,17 @@
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
+        "release_8VFNBU": {
+          "type": "release",
+          "settings": {
+            "release_title": "2.19",
+            "release_image": "shopify://shop_images/NB992SALEHE-1.jpg",
+            "product_title": "NEW BALANCE X SALEHE BEMBURY MADE IN USA 992 \"GREEN\"",
+            "product_vendor": "NEW BALANCE",
+            "product_price": "$230",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-x-salehe-bembury-made-in-usa-992-green"
+          }
+        },
         "release_xMtct7": {
           "type": "release",
           "disabled": true,
@@ -182,29 +193,29 @@
             "product_title": "FRAGMENT X UNION AIR JORDAN 1 RETRO HIGH OG \"SPORT ROYAL\"",
             "product_vendor": "JORDAN BRAND",
             "product_price": "$205",
-            "release_link": ""
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/fragment-x-union-air-jordan-1-retro-high-og-sport-royal"
           }
         },
         "release_tTFrnC": {
           "type": "release",
           "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a_1.jpg",
-            "product_title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$225",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha"
+            "release_title": "2.14",
+            "release_image": "shopify://shop_images/AJ6INFRAREDSALESMAN-1.jpg",
+            "product_title": "AIR JORDAN 6 RETRO \"INFRARED SALESMAN\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-infrared-salesman"
           }
         },
         "release_P6UxPQ": {
           "type": "release",
           "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/BAGCOVER.avif",
-            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER TOTE BAG",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-tote-bag"
+            "release_title": "2.14",
+            "release_image": "shopify://shop_images/AJ6INFRAREDSALESMANGS.jpg",
+            "product_title": "AIR JORDAN 6 RETRO \"INFRARED SALESMAN\" GS",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$155",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-infrared-salesman-gs"
           }
         },
         "release_G9YFxB": {
@@ -231,6 +242,7 @@
         }
       },
       "block_order": [
+        "release_8VFNBU",
         "release_xMtct7",
         "release_tTFrnC",
         "release_P6UxPQ",
