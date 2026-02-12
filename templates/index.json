@@ -124,6 +124,52 @@
       "disabled": true,
       "settings": {}
     },
+    "featureed_image_and_products_7MHNbK": {
+      "type": "featureed-image-and-products",
+      "blocks": {
+        "product_cWVffK": {
+          "type": "product",
+          "settings": {
+            "product": "rick-owens-moncler-geocamo-flight-vest-black"
+          }
+        },
+        "product_6yqwTq": {
+          "type": "product",
+          "settings": {
+            "product": "rick-owens-moncler-drawstring-pants-black"
+          }
+        },
+        "product_wBMWzJ": {
+          "type": "product",
+          "settings": {
+            "product": "trailgrip-megalace"
+          }
+        },
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "rick-owens-moncler-sunglasses-black"
+          }
+        }
+      },
+      "block_order": [
+        "product_cWVffK",
+        "product_6yqwTq",
+        "product_wBMWzJ",
+        "product_8q4ahn"
+      ],
+      "custom_css": [],
+      "name": "RICK OWENS PRODUCT",
+      "settings": {
+        "section_alignment": "left",
+        "title": "Moncler x rick owens ss26",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/rickgridimage.jpg",
+        "image_description": "<p>Moncler function meets Rick Owens attitude in statement winter layers. This season balance function and fashion, engineered for cold weather but designed with Rick Owens’ unmistakable edge. Engineered for cold. Designed to stand apart.</p>",
+        "image_cta": "explore",
+        "image_cta_url": "shopify://collections/rick-owens"
+      }
+    },
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
@@ -131,11 +177,11 @@
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "11.06",
-            "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
-            "product_title": "NIKE AIR MAX 95 BIG BUBBLE ZIP \"BLACK\"",
-            "product_vendor": "NIKE",
-            "product_price": "$210",
+            "release_title": "2.16",
+            "release_image": "shopify://shop_images/UNIONXFRAGMENTAJ1SPORTROYAL-1_1.jpg",
+            "product_title": "FRAGMENT X UNION AIR JORDAN 1 RETRO HIGH OG \"SPORT ROYAL\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$205",
             "release_link": ""
           }
         },
@@ -195,52 +241,6 @@
       "name": "Releases",
       "settings": {
         "title": "Releases"
-      }
-    },
-    "featureed_image_and_products_7MHNbK": {
-      "type": "featureed-image-and-products",
-      "blocks": {
-        "product_cWVffK": {
-          "type": "product",
-          "settings": {
-            "product": "rick-owens-moncler-geocamo-flight-vest-black"
-          }
-        },
-        "product_6yqwTq": {
-          "type": "product",
-          "settings": {
-            "product": "rick-owens-moncler-drawstring-pants-black"
-          }
-        },
-        "product_wBMWzJ": {
-          "type": "product",
-          "settings": {
-            "product": "trailgrip-megalace"
-          }
-        },
-        "product_8q4ahn": {
-          "type": "product",
-          "settings": {
-            "product": "rick-owens-moncler-sunglasses-black"
-          }
-        }
-      },
-      "block_order": [
-        "product_cWVffK",
-        "product_6yqwTq",
-        "product_wBMWzJ",
-        "product_8q4ahn"
-      ],
-      "custom_css": [],
-      "name": "RICK OWENS PRODUCT",
-      "settings": {
-        "section_alignment": "left",
-        "title": "Moncler x rick owens ss26",
-        "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/rickgridimage.jpg",
-        "image_description": "<p>Moncler function meets Rick Owens attitude in statement winter layers. This season balance function and fashion, engineered for cold weather but designed with Rick Owens’ unmistakable edge. Engineered for cold. Designed to stand apart.</p>",
-        "image_cta": "explore",
-        "image_cta_url": "shopify://collections/rick-owens"
       }
     },
     "media_grid_JJfcQ6": {
@@ -997,8 +997,8 @@
   "order": [
     "slideshow_QGYQ6e",
     "176075966993f87866",
-    "releases_LeDFdB",
     "featureed_image_and_products_7MHNbK",
+    "releases_LeDFdB",
     "media_grid_JJfcQ6",
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
