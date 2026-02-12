@@ -12,6 +12,34 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_Cj4r6y": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "subheading": "<p>Tell your story</p>",
+            "subheading_size": 12,
+            "title": "<p>Image slide</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_H4DjaV": {
           "type": "image",
           "name": "RICK O X MONCLER ",
@@ -75,6 +103,7 @@
         }
       },
       "block_order": [
+        "image_Cj4r6y",
         "image_H4DjaV",
         "video_NgbMdj"
       ],
@@ -214,50 +243,107 @@
         "image_cta_url": "shopify://collections/rick-owens"
       }
     },
-    "featureed_image_and_products_i87YLU": {
-      "type": "featureed-image-and-products",
+    "media_grid_JJfcQ6": {
+      "type": "media-grid",
       "blocks": {
-        "product_qHW3FU": {
-          "type": "product",
+        "image_RJGdgU": {
+          "type": "image",
           "settings": {
-            "product": "enfants-riches-deprimes-artists-grave-antique-sweater-black"
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC07000BB.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/new-boots",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "product_yGUR7e": {
-          "type": "product",
+        "image_MarDnt": {
+          "type": "image",
           "settings": {
-            "product": "entire-studios-giant-shirt-white"
-          }
-        },
-        "product_rQaMhz": {
-          "type": "product",
-          "settings": {
-            "product": "rick-owens-denim-banana-pant"
-          }
-        },
-        "product_Pbx8fr": {
-          "type": "product",
-          "settings": {
-            "product": "a-ma-maniere-jordan-tote-bag-black"
+            "color_scheme": "",
+            "image": "shopify://shop_images/collage_715759b5-1e97-49d2-b469-1eee3b6f3668.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/new-boots",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "product_qHW3FU",
-        "product_yGUR7e",
-        "product_rQaMhz",
-        "product_Pbx8fr"
+        "image_RJGdgU",
+        "image_MarDnt"
       ],
       "disabled": true,
-      "custom_css": [],
+      "name": "BOOTS 2.13 ",
       "settings": {
-        "section_alignment": "left",
-        "title": "",
-        "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/sweater.jpg",
-        "image_description": "<p>This Valentine’s Day, make it about what feels good. Discover a curated edit of timeless styles designed for romance, independence, and everything in between.</p><p></p>",
-        "image_cta": "explore",
-        "image_cta_url": "shopify://collections/valentines-day-edit"
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 280,
+        "section_width": "lg",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "Shop Statement Boots",
+        "content": ""
+      }
+    },
+    "multiple_media_with_text_Lgp4CV": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_cHgxNx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07078BB.jpg",
+            "rotation": 0
+          }
+        },
+        "image_TpyxFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/H526Y1DW13-6395_2_847652d0-9de5-40ab-b112-b454ededafff.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_cHgxNx",
+        "image_TpyxFX"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Seasonal Layers",
+        "title": "Refined Essentials for Spring",
+        "content": "<p>Step into the season with intentional pieces built for movement, light layering, and transitional style. From crisp bombers to relaxed trousers, spring calls for refined silhouettes, breathable textures, and a palette that balances softness with structure.</p>",
+        "button_1_text": "DISCOVER MORE",
+        "button_1_link": "https://www.a-ma-maniere.com/collections/seasonal-layering",
+        "button_1_style": "link",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
       }
     },
     "shop_the_look_yjtpt9": {
@@ -553,51 +639,6 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "multiple_media_with_text_Lgp4CV": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_cHgxNx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/H526Y1DW13-6395_1.webp",
-            "rotation": 0
-          }
-        },
-        "image_TpyxFX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/H526Y1DW13-6395_2_847652d0-9de5-40ab-b112-b454ededafff.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_cHgxNx",
-        "image_TpyxFX"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "Seasonal Layers",
-        "title": "Refined Essentials for Spring",
-        "content": "<p>Step into the season with intentional pieces built for movement, light layering, and transitional style. From crisp bombers to relaxed trousers, spring calls for refined silhouettes, breathable textures, and a palette that balances softness with structure.</p>",
-        "button_1_text": "DISCOVER MORE",
-        "button_1_link": "https://www.a-ma-maniere.com/collections/seasonal-layering",
-        "button_1_style": "link",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
       }
     },
     "blocks_xhmELd": {
@@ -958,13 +999,13 @@
     "176075966993f87866",
     "releases_LeDFdB",
     "featureed_image_and_products_7MHNbK",
-    "featureed_image_and_products_i87YLU",
+    "media_grid_JJfcQ6",
+    "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
     "image_with_text_4rzGhq",
     "featured_collections_RwpkEJ",
     "before-after",
     "collection_list_cLGdiA",
-    "multiple_media_with_text_Lgp4CV",
     "blocks_xhmELd",
     "featured_collections_WMah7x",
     "media_grid_DzxzqH",
