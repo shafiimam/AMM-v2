@@ -186,7 +186,6 @@
         },
         "release_xMtct7": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "2.16",
             "release_image": "shopify://shop_images/UNIONXFRAGMENTAJ1SPORTROYAL-1_1.jpg",
@@ -220,6 +219,7 @@
         },
         "release_G9YFxB": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "12.19",
             "release_image": "shopify://shop_images/POUCH.avif",
@@ -231,6 +231,7 @@
         },
         "release_tYRKqB": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "12.19",
             "release_image": "shopify://shop_images/SCARF.avif",
@@ -249,7 +250,6 @@
         "release_G9YFxB",
         "release_tYRKqB"
       ],
-      "disabled": true,
       "name": "Releases",
       "settings": {
         "title": "Releases"
