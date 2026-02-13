@@ -222,11 +222,11 @@
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/POUCH.avif",
-            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER POUCH",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$215",
+            "release_title": "2.21",
+            "release_image": "shopify://shop_images/AJ3XLEVIINDIGOBLKGRY-1.jpg",
+            "product_title": "AIR JORDAN 3 X LEVI'S \"BLACK AND WHITE\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$230",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-pouch"
           }
         },
@@ -234,12 +234,12 @@
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/SCARF.avif",
-            "product_title": "A MA MANIÉRE X JORDAN BRAND SCARF",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$80",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
+            "release_title": "2.21",
+            "release_image": "shopify://shop_images/AJ3XLEVIINDIGOGYMRED-1.jpg",
+            "product_title": "AIR JORDAN 3 X LEVI'S \"INDIGO AND GYM RED\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$230",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-x-levis-indigo-and-gym-red"
           }
         }
       },
