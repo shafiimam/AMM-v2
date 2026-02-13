@@ -208,6 +208,7 @@
         },
         "release_8VFNBU": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.19",
             "release_image": "shopify://shop_images/NB992SALEHE-1.jpg",
