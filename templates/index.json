@@ -220,7 +220,6 @@
         },
         "release_G9YFxB": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "2.21",
             "release_image": "shopify://shop_images/AJ3XLEVIINDIGOBLKGRY-1.jpg",
@@ -232,7 +231,6 @@
         },
         "release_tYRKqB": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "2.21",
             "release_image": "shopify://shop_images/AJ3XLEVIINDIGOGYMRED-1.jpg",
