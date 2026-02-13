@@ -173,28 +173,6 @@
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
-        "release_8VFNBU": {
-          "type": "release",
-          "settings": {
-            "release_title": "2.19",
-            "release_image": "shopify://shop_images/NB992SALEHE-1.jpg",
-            "product_title": "NEW BALANCE X SALEHE BEMBURY MADE IN USA 992 \"GREEN\"",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$230",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-x-salehe-bembury-made-in-usa-992-green"
-          }
-        },
-        "release_xMtct7": {
-          "type": "release",
-          "settings": {
-            "release_title": "2.16",
-            "release_image": "shopify://shop_images/UNIONXFRAGMENTAJ1SPORTROYAL-1_1.jpg",
-            "product_title": "FRAGMENT X UNION AIR JORDAN 1 RETRO HIGH OG \"SPORT ROYAL\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$205",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/fragment-x-union-air-jordan-1-retro-high-og-sport-royal"
-          }
-        },
         "release_tTFrnC": {
           "type": "release",
           "settings": {
@@ -215,6 +193,28 @@
             "product_vendor": "JORDAN BRAND",
             "product_price": "$155",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-infrared-salesman-gs"
+          }
+        },
+        "release_xMtct7": {
+          "type": "release",
+          "settings": {
+            "release_title": "2.16",
+            "release_image": "shopify://shop_images/UNIONXFRAGMENTAJ1SPORTROYAL-1_1.jpg",
+            "product_title": "FRAGMENT X UNION AIR JORDAN 1 RETRO HIGH OG \"SPORT ROYAL\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$205",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/fragment-x-union-air-jordan-1-retro-high-og-sport-royal"
+          }
+        },
+        "release_8VFNBU": {
+          "type": "release",
+          "settings": {
+            "release_title": "2.19",
+            "release_image": "shopify://shop_images/NB992SALEHE-1.jpg",
+            "product_title": "NEW BALANCE X SALEHE BEMBURY MADE IN USA 992 \"GREEN\"",
+            "product_vendor": "NEW BALANCE",
+            "product_price": "$230",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-x-salehe-bembury-made-in-usa-992-green"
           }
         },
         "release_G9YFxB": {
@@ -243,10 +243,10 @@
         }
       },
       "block_order": [
-        "release_8VFNBU",
-        "release_xMtct7",
         "release_tTFrnC",
         "release_P6UxPQ",
+        "release_xMtct7",
+        "release_8VFNBU",
         "release_G9YFxB",
         "release_tYRKqB"
       ],
