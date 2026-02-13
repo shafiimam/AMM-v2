@@ -212,7 +212,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 3
           }
         },
         "collection_khVWQm": {
@@ -228,7 +228,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 3
           }
         },
         "collection_eHFMck": {
@@ -244,7 +244,7 @@
             "button_link": "",
             "button_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 3
           }
         }
       },
@@ -274,10 +274,10 @@
         "collection_7VVCVQ": {
           "type": "collection",
           "settings": {
-            "collection": "air-jordan",
+            "collection": "nike-lab",
             "products_count": 8,
-            "title": "JORDAN",
-            "link_url": "shopify://collections/air-jordan",
+            "title": "NIKE",
+            "link_url": "shopify://collections/nike-lab",
             "link_text": ""
           }
         }
