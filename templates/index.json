@@ -175,6 +175,7 @@
       "blocks": {
         "release_tTFrnC": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.14",
             "release_image": "shopify://shop_images/AJ6INFRAREDSALESMAN-1.jpg",
@@ -186,6 +187,7 @@
         },
         "release_P6UxPQ": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.14",
             "release_image": "shopify://shop_images/AJ6INFRAREDSALESMANGS.jpg",
