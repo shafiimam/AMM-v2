@@ -187,18 +187,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-infrared-salesman"
           }
         },
-        "release_P6UxPQ": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.14",
-            "release_image": "shopify://shop_images/AJ6INFRAREDSALESMANGS.jpg",
-            "product_title": "AIR JORDAN 6 RETRO \"INFRARED SALESMAN\" GS",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$155",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-infrared-salesman-gs"
-          }
-        },
         "release_xMtct7": {
           "type": "release",
           "settings": {
@@ -208,6 +196,28 @@
             "product_vendor": "JORDAN BRAND",
             "product_price": "$205",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/fragment-x-union-air-jordan-1-retro-high-og-sport-royal"
+          }
+        },
+        "release_P6UxPQ": {
+          "type": "release",
+          "settings": {
+            "release_title": "2.21",
+            "release_image": "shopify://shop_images/ADISTARJELLYFISHPHARELLTRPLBLK-1_d759fff1-c349-4225-9dbe-a9ba0cfb25c0.jpg",
+            "product_title": "PHARRELL WILLIAMS ADISTAR VIRGINIA JELLYFISH \"TRIPLE BLACK\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$300",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-infrared-salesman-gs"
+          }
+        },
+        "release_ePt3yL": {
+          "type": "release",
+          "settings": {
+            "release_title": "2.21",
+            "release_image": "shopify://shop_images/ADISTARJELLYFISHPHARELLBLUE-1_1510bfa3-13f1-4592-8227-59bc6dfc501f.jpg",
+            "product_title": "PHARRELL WILLIAMS ADISTAR VIRGINIA JELLYFISH \"ROYAL\"",
+            "product_vendor": "ADIDAS",
+            "product_price": "$300",
+            "release_link": ""
           }
         },
         "release_8VFNBU": {
@@ -269,8 +279,9 @@
       },
       "block_order": [
         "release_tTFrnC",
-        "release_P6UxPQ",
         "release_xMtct7",
+        "release_P6UxPQ",
+        "release_ePt3yL",
         "release_8VFNBU",
         "release_G9YFxB",
         "release_tYRKqB",
