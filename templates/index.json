@@ -73,6 +73,7 @@
         "video_NgbMdj": {
           "type": "video",
           "name": "VDAY EDIT",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMM V-Day.mov",
             "mobile_video": "shopify://files/videos/AMM V-Day.mov",
