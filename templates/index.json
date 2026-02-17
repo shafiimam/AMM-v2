@@ -156,6 +156,7 @@
         },
         "release_xMtct7": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.18",
             "release_image": "shopify://shop_images/UNIONXFRAGMENTAJ1SPORTROYAL-1_1.jpg",
