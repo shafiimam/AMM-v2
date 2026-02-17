@@ -65,39 +65,7 @@
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "video_NgbMdj": {
-          "type": "video",
-          "name": "VDAY EDIT",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/AMM V-Day.mov",
-            "mobile_video": "shopify://files/videos/AMM V-Day.mov",
-            "allow_sound": true,
-            "subheading": "",
-            "subheading_size": 18,
-            "title": "THE VALENTINE'S DAY EDIT",
-            "title_size": 31,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/valentines-day-edit",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 10,
+            "background_opacity": 19,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
@@ -106,8 +74,7 @@
       },
       "block_order": [
         "image_H4DjaV",
-        "image_Cj4r6y",
-        "video_NgbMdj"
+        "image_Cj4r6y"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -432,6 +399,60 @@
         "popover_title": "Shop the look"
       }
     },
+    "featured_collections_RwpkEJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_3gxaab": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "rick-owens",
+            "products_count": 8,
+            "title": "Moncler x rick owens ss26",
+            "link_url": "shopify://collections/rick-owens",
+            "link_text": "View all"
+          }
+        },
+        "collection_t3bATr": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals-1",
+            "products_count": 8,
+            "title": "new arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
+            "link_text": "View all"
+          }
+        },
+        "collection_dnEeCe": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 8,
+            "title": "ACCESSORIES",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3gxaab",
+        "collection_t3bATr",
+        "collection_dnEeCe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "image_with_text_4rzGhq": {
       "type": "image-with-text",
       "blocks": {
@@ -488,84 +509,6 @@
         "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
-      }
-    },
-    "featured_collections_RwpkEJ": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_3gxaab": {
-          "type": "collection",
-          "settings": {
-            "collection": "rick-owens",
-            "products_count": 8,
-            "title": "Moncler x rick owens ss26",
-            "link_url": "shopify://collections/rick-owens",
-            "link_text": "View all"
-          }
-        },
-        "collection_t3bATr": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "jackets-coats",
-            "products_count": 8,
-            "title": "OUTERWEAR",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_hDDwnm": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "adidas",
-            "products_count": 8,
-            "title": "ADIDAS",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_dnEeCe": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 8,
-            "title": "ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_KPertQ": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-knits",
-            "products_count": 4,
-            "title": "KNITS AND SWEATERS",
-            "link_url": "shopify://collections/new-knits",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_3gxaab",
-        "collection_t3bATr",
-        "collection_hDDwnm",
-        "collection_dnEeCe",
-        "collection_KPertQ"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "before-after": {
@@ -764,6 +707,7 @@
       "block_order": [
         "video_AfzNrQ"
       ],
+      "disabled": true,
       "name": "VIDEO IN GRID",
       "settings": {
         "color_scheme": "",
@@ -1051,8 +995,8 @@
     "media_grid_JJfcQ6",
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
-    "image_with_text_4rzGhq",
     "featured_collections_RwpkEJ",
+    "image_with_text_4rzGhq",
     "before-after",
     "collection_list_cLGdiA",
     "blocks_xhmELd",
