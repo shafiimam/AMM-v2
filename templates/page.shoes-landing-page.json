@@ -43,7 +43,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC06955BB.jpg",
+            "image": "shopify://shop_images/boot2.png",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -61,7 +61,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/collage_b759611a-3dd8-403b-a382-76dfb8900560.jpg",
+            "image": "shopify://shop_images/boot1.png",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -81,7 +81,6 @@
         "image_WpDDYL",
         "image_LrHwaB"
       ],
-      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
@@ -89,7 +88,7 @@
         "desktop_row_height": 290,
         "mobile_row_height": 180,
         "section_width": "lg",
-        "spacing": "md",
+        "spacing": "sm",
         "subheading": "",
         "title": "",
         "content": ""
