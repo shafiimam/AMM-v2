@@ -43,6 +43,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/DSC06955BB.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -60,6 +61,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/collage_b759611a-3dd8-403b-a382-76dfb8900560.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
