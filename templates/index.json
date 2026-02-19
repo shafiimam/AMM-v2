@@ -508,7 +508,7 @@
         "richtext_V3crbK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Original Issue is a Black History Month series from The Whitaker Group honoring Black fashion pioneers whose influence shaped global style long before it was named, credited, or claimed elsewhere.<br/><br/>Volume 1 features Willi Smith, a trailblazing designer whose vision transformed everyday style into something quietly radical. His work dissolved the boundary between fashion and real life, influencing how we dress long before the industry learned to name it.</p>",
+            "content": "<p>The Original Issue is a Black History Month series from The Whitaker Group honoring Black fashion pioneers whose influence shaped global style long before it was named, credited, or claimed elsewhere.<br/><br/>Volume 2 features Dapper Dan, a trailblazing designer whose vision transformed everyday style into something quietly radical. His work dissolved the boundary between fashion and real life, influencing how we dress long before the industry learned to name it.</p>",
             "text_color": "#535353"
           }
         },
@@ -517,7 +517,7 @@
           "settings": {
             "style": "solid",
             "text": "READ ARTICLE",
-            "url": "shopify://blogs/editorials/the-original-issue",
+            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
             "background": "",
             "text_color": ""
           }
@@ -533,8 +533,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/OG_Issue_Cover_AMM_730828b7-541e-4837-b725-4e02c3ea319a.jpg",
-        "mobile_image": "shopify://shop_images/OG_Issue_Cover_AMM_730828b7-541e-4837-b725-4e02c3ea319a.jpg",
+        "image": "shopify://shop_images/D1.png",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
