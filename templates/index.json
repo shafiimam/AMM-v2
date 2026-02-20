@@ -133,33 +133,33 @@
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-moncler-geocamo-flight-vest-black"
+            "product": "rick-owens-mainline-outershirt-milk-plaid"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-moncler-drawstring-pants-black"
-          }
-        },
-        "product_wBMWzJ": {
-          "type": "product",
-          "settings": {
-            "product": "trailgrip-megalace"
+            "product": "rick-owens-mainline-geth-cargo-pants-dust-grey"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-moncler-sunglasses-black"
+            "product": "rick-owens-mainline-brad-t-shirt-white"
+          }
+        },
+        "product_wBMWzJ": {
+          "type": "product",
+          "settings": {
+            "product": "6-premimum-boot-1"
           }
         }
       },
       "block_order": [
         "product_cWVffK",
         "product_6yqwTq",
-        "product_wBMWzJ",
-        "product_8q4ahn"
+        "product_8q4ahn",
+        "product_wBMWzJ"
       ],
       "custom_css": [],
       "name": "RICK OWENS PRODUCT",
@@ -167,7 +167,7 @@
         "section_alignment": "left",
         "title": "Moncler x rick owens ss26",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/rickgridimage.jpg",
+        "image": "shopify://shop_images/rick3_d6ad7058-6c36-485f-bf18-1f7bf21bac61.png",
         "image_description": "<p>Moncler function meets Rick Owens attitude in statement winter layers. This season balance function and fashion, engineered for cold weather but designed with Rick Owens’ unmistakable edge. Engineered for cold. Designed to stand apart.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/rick-owens"
