@@ -19,9 +19,9 @@
             "video": "shopify://files/videos/AMM 1.mov",
             "mobile_video": "shopify://files/videos/AMM 1.mov",
             "allow_sound": true,
-            "subheading": "Shop the exclusive adidas capsule",
+            "subheading": "",
             "subheading_size": 19,
-            "title": "developed FOR the whitaker grp",
+            "title": "Shop the exclusive adidas capsule",
             "title_size": 33,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -172,6 +172,60 @@
         "image_cta_url": "shopify://collections/rick-owens"
       }
     },
+    "featured_collections_RwpkEJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_3gxaab": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "rick-owens",
+            "products_count": 8,
+            "title": "Moncler x rick owens ss26",
+            "link_url": "shopify://collections/rick-owens",
+            "link_text": "View all"
+          }
+        },
+        "collection_t3bATr": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals-1",
+            "products_count": 8,
+            "title": "new arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
+            "link_text": "View all"
+          }
+        },
+        "collection_dnEeCe": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 8,
+            "title": "ACCESSORIES",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3gxaab",
+        "collection_t3bATr",
+        "collection_dnEeCe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
@@ -292,60 +346,6 @@
       "name": "Releases",
       "settings": {
         "title": "Releases"
-      }
-    },
-    "featured_collections_RwpkEJ": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_3gxaab": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "rick-owens",
-            "products_count": 8,
-            "title": "Moncler x rick owens ss26",
-            "link_url": "shopify://collections/rick-owens",
-            "link_text": "View all"
-          }
-        },
-        "collection_t3bATr": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrivals-1",
-            "products_count": 8,
-            "title": "new arrivals",
-            "link_url": "shopify://collections/new-arrivals-1",
-            "link_text": "View all"
-          }
-        },
-        "collection_dnEeCe": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 8,
-            "title": "ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_3gxaab",
-        "collection_t3bATr",
-        "collection_dnEeCe"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "media_grid_JJfcQ6": {
