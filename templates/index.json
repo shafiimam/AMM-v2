@@ -294,6 +294,60 @@
         "title": "Releases"
       }
     },
+    "featured_collections_RwpkEJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_3gxaab": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "rick-owens",
+            "products_count": 8,
+            "title": "Moncler x rick owens ss26",
+            "link_url": "shopify://collections/rick-owens",
+            "link_text": "View all"
+          }
+        },
+        "collection_t3bATr": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals-1",
+            "products_count": 8,
+            "title": "new arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
+            "link_text": "View all"
+          }
+        },
+        "collection_dnEeCe": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 8,
+            "title": "ACCESSORIES",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3gxaab",
+        "collection_t3bATr",
+        "collection_dnEeCe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "media_grid_JJfcQ6": {
       "type": "media-grid",
       "blocks": {
@@ -431,60 +485,6 @@
         "title": "Shop the look",
         "content": "",
         "popover_title": "Shop the look"
-      }
-    },
-    "featured_collections_RwpkEJ": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_3gxaab": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "rick-owens",
-            "products_count": 8,
-            "title": "Moncler x rick owens ss26",
-            "link_url": "shopify://collections/rick-owens",
-            "link_text": "View all"
-          }
-        },
-        "collection_t3bATr": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrivals-1",
-            "products_count": 8,
-            "title": "new arrivals",
-            "link_url": "shopify://collections/new-arrivals-1",
-            "link_text": "View all"
-          }
-        },
-        "collection_dnEeCe": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 8,
-            "title": "ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_3gxaab",
-        "collection_t3bATr",
-        "collection_dnEeCe"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "image_with_text_4rzGhq": {
@@ -1024,11 +1024,11 @@
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "featured_collections_RwpkEJ",
     "releases_LeDFdB",
     "media_grid_JJfcQ6",
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
-    "featured_collections_RwpkEJ",
     "image_with_text_4rzGhq",
     "before-after",
     "collection_list_cLGdiA",
