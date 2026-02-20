@@ -343,8 +343,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "desktop_row_height": 600,
-        "mobile_row_height": 280,
+        "desktop_row_height": 520,
+        "mobile_row_height": 380,
         "section_width": "lg",
         "spacing": "xs",
         "subheading": "",
