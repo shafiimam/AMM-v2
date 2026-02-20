@@ -255,6 +255,7 @@
         },
         "release_P6UxPQ": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.21",
             "release_image": "shopify://shop_images/ADISTARJELLYFISHPHARELLTRPLBLK-1_d759fff1-c349-4225-9dbe-a9ba0cfb25c0.jpg",
@@ -264,31 +265,9 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-adistar-virginia-jellyfish-triple-black"
           }
         },
-        "release_ePt3yL": {
-          "type": "release",
-          "settings": {
-            "release_title": "2.21",
-            "release_image": "shopify://shop_images/ADISTARJELLYFISHPHARELLBLUE-1_1510bfa3-13f1-4592-8227-59bc6dfc501f.jpg",
-            "product_title": "PHARRELL WILLIAMS ADISTAR VIRGINIA JELLYFISH \"ROYAL\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$300",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-adistar-virginia-jellyfish-royal"
-          }
-        },
-        "release_8VFNBU": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.19",
-            "release_image": "shopify://shop_images/NB992SALEHE-1.jpg",
-            "product_title": "NEW BALANCE X SALEHE BEMBURY MADE IN USA 992 \"GREEN\"",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$230",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-x-salehe-bembury-made-in-usa-992-green"
-          }
-        },
         "release_G9YFxB": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.21",
             "release_image": "shopify://shop_images/AJ3XLEVIINDIGOBLKGRY-1.jpg",
@@ -300,6 +279,7 @@
         },
         "release_tYRKqB": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.21",
             "release_image": "shopify://shop_images/AJ3XLEVIINDIGOGYMRED-1.jpg",
@@ -336,8 +316,6 @@
         "release_tTFrnC",
         "release_xMtct7",
         "release_P6UxPQ",
-        "release_ePt3yL",
-        "release_8VFNBU",
         "release_G9YFxB",
         "release_tYRKqB",
         "release_UUMXJ4",
