@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_qVBqJF": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -28,6 +35,7 @@
         }
       },
       "block_order": [
+        "message_qVBqJF",
         "message-1",
         "message_LyBJxq"
       ],
