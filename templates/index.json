@@ -265,30 +265,6 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-adistar-virginia-jellyfish-triple-black"
           }
         },
-        "release_G9YFxB": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.21",
-            "release_image": "shopify://shop_images/AJ3XLEVIINDIGOBLKGRY-1.jpg",
-            "product_title": "AIR JORDAN 3 X LEVI'S \"BLACK AND WHITE\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$230",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-x-levis-black-and-white"
-          }
-        },
-        "release_tYRKqB": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.21",
-            "release_image": "shopify://shop_images/AJ3XLEVIINDIGOGYMRED-1.jpg",
-            "product_title": "AIR JORDAN 3 X LEVI'S \"INDIGO AND GYM RED\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$230",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-x-levis-indigo-and-gym-red"
-          }
-        },
         "release_UUMXJ4": {
           "type": "release",
           "settings": {
@@ -310,16 +286,38 @@
             "product_price": "$220",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-5-retro-wolf-grey"
           }
+        },
+        "release_tYRKqB": {
+          "type": "release",
+          "settings": {
+            "release_title": "3.5",
+            "release_image": "shopify://shop_images/PEGASUSPREMIUMRUNNINGISMETAL-1.jpg",
+            "product_title": "NIKE PEGASUS PREMIUM \"RUNNING IS MENTAL\"",
+            "product_vendor": "NIKE",
+            "product_price": "$230",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-pegasus-premium-running-is-mental"
+          }
+        },
+        "release_G9YFxB": {
+          "type": "release",
+          "settings": {
+            "release_title": "3.5",
+            "release_image": "shopify://shop_images/AM95NEONBIGBUBBLE-1.jpg",
+            "product_title": "NIKE AIR MAX 95 OG \"BLACK/NEON GREEN/COOL GREY\"",
+            "product_vendor": "NIKE",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-blackneon-greencool-grey"
+          }
         }
       },
       "block_order": [
         "release_tTFrnC",
         "release_xMtct7",
         "release_P6UxPQ",
-        "release_G9YFxB",
-        "release_tYRKqB",
         "release_UUMXJ4",
-        "release_Yy3gGG"
+        "release_Yy3gGG",
+        "release_tYRKqB",
+        "release_G9YFxB"
       ],
       "name": "Releases",
       "settings": {
