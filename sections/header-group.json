@@ -16,9 +16,8 @@
       "blocks": {
         "message_qVBqJF": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "<strong>DISCOVER SPECIAL OFFERS ON ASICS FOOTWEAR</strong>"
+            "text": "<strong>DISCOVER </strong><a href=\"/collections/special-offers\" title=\"SPECIAL OFFERS\"><strong>SPECIAL OFFERS</strong></a><strong> ON select ASICS styles </strong>"
           }
         },
         "message-1": {
