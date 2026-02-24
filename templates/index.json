@@ -463,61 +463,97 @@
         "popover_title": "Shop the look"
       }
     },
-    "image_with_text_4rzGhq": {
-      "type": "image-with-text",
+    "media_grid_ik3yVY": {
+      "type": "media-grid",
       "blocks": {
-        "subheading_jmzUa4": {
-          "type": "subheading",
+        "image_eFfHUH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "OUTERWEAR",
+            "link_url": "https://www.a-ma-maniere.com/pages/outerwear",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MYRCL9": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "ACCESSORIES",
+            "link_url": "shopify://collections/new-accessories",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JTDYmT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/denim2.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "DENIM",
+            "link_url": "shopify://collections/new-denim",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_V6w8Kt": {
+          "type": "image",
           "disabled": true,
           "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_h3aKYA": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>The Original Issue </strong>",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_V3crbK": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The Original Issue is a Black History Month series from The Whitaker Group honoring Black fashion pioneers whose influence shaped global style long before it was named, credited, or claimed elsewhere.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_GCQJcU": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "READ ARTICLE",
-            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
-            "background": "",
-            "text_color": ""
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMM1069X900.jpg",
+            "column_count": "8",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "HOODIES",
+            "link_url": "shopify://collections/hoodies",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "subheading_jmzUa4",
-        "heading_h3aKYA",
-        "richtext_V3crbK",
-        "button_GCQJcU"
+        "image_eFfHUH",
+        "image_MYRCL9",
+        "image_JTDYmT",
+        "image_V6w8Kt"
       ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/D1.png",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
+        "separate_section_with_border": false,
+        "desktop_row_height": 460,
+        "mobile_row_height": 280,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "FEATURED COLLECTIONS",
+        "content": ""
       }
     },
     "before-after": {
@@ -689,6 +725,63 @@
         "subheading": ""
       }
     },
+    "image_with_text_4rzGhq": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_jmzUa4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_h3aKYA": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>The Original Issue </strong>",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_V3crbK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Original Issue is a Black History Month series from The Whitaker Group honoring Black fashion pioneers whose influence shaped global style long before it was named, credited, or claimed elsewhere.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_GCQJcU": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "READ ARTICLE",
+            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jmzUa4",
+        "heading_h3aKYA",
+        "richtext_V3crbK",
+        "button_GCQJcU"
+      ],
+      "name": "BLOG HIGHLIGHT",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/D1.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "media_grid_DzxzqH": {
       "type": "media-grid",
       "blocks": {
@@ -727,101 +820,6 @@
         "spacing": "xs",
         "subheading": "",
         "title": "NEW ARRIVALS FROM STÜSSY",
-        "content": ""
-      }
-    },
-    "media_grid_ik3yVY": {
-      "type": "media-grid",
-      "blocks": {
-        "image_eFfHUH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC08035_DC_copy.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "OUTERWEAR",
-            "link_url": "https://www.a-ma-maniere.com/pages/outerwear",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_MYRCL9": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC03856_DC_copy.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "ACCESSORIES",
-            "link_url": "shopify://collections/new-accessories",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_JTDYmT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/denim2.png",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "DENIM",
-            "link_url": "shopify://collections/new-denim",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_V6w8Kt": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMM1069X900.jpg",
-            "column_count": "8",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "HOODIES",
-            "link_url": "shopify://collections/hoodies",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_eFfHUH",
-        "image_MYRCL9",
-        "image_JTDYmT",
-        "image_V6w8Kt"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 460,
-        "mobile_row_height": 280,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "FEATURED COLLECTIONS",
         "content": ""
       }
     },
@@ -1005,13 +1003,13 @@
     "media_grid_JJfcQ6",
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
-    "image_with_text_4rzGhq",
+    "media_grid_ik3yVY",
     "before-after",
     "collection_list_cLGdiA",
     "blocks_xhmELd",
     "featured_collections_WMah7x",
+    "image_with_text_4rzGhq",
     "media_grid_DzxzqH",
-    "media_grid_ik3yVY",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",

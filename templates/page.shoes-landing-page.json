@@ -18,6 +18,90 @@
         "page_width": "xs"
       }
     },
+    "image_with_text_custom_qxrkki": {
+      "type": "image-with-text-custom",
+      "blocks": {
+        "heading_QcgKxR": {
+          "type": "heading",
+          "settings": {
+            "text": "Footwear",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_mhLp3D": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p><strong>A Ma Maniére x Nike Air Max 95 “Hand Wash Cold”</strong></p><p>The A Ma Maniére x Nike Air Max 95 “Hand Wash Cold” is a reflection of love in its purest form—measured not just in design, but in devotion. Built from rich black suede and smooth violet ore leather, every layer is stacked with purpose, precision, and poise. From the laser-etched branding that whispers legacy to the jacquard monogram satin lining that hugs your step, each detail is a love letter to those who move with grace against the grain.</p><p>Reflective 3M accents catch light like memory. A cushioned insole and mauve-hued air units ground you in comfort, reminding you that care begins beneath the surface. With three alternate lace options, this pair gives you the freedom to define your own expression of style.</p><p>This is more than a sneaker—it’s a symbol of what’s possible when we move <em>For The Love</em>.<br/></p><p>Because what we build with care, we honor with every step.</p><h4></h4><h4></h4>"
+          }
+        },
+        "richtext_g9CWFB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At A Ma Maniére, footwear is more than just an accessory—it’s a statement of style, culture, and craftsmanship. Our carefully curated selection of sneakers, designer boots, premium sandals, and stylish slippers brings together some of the most sought-after pieces in high-end streetwear and contemporary fashion. Whether you're searching for limited-edition sneaker drops, rare collaborations, or timeless footwear essentials, our collection embodies elevated style, exclusivity, and innovation.</p><h4></h4><h4></h4>"
+          }
+        },
+        "button_RLWyGn": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "See All",
+            "url": "shopify://collections/sneakers",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QcgKxR",
+        "richtext_mhLp3D",
+        "richtext_g9CWFB",
+        "button_RLWyGn"
+      ],
+      "custom_css": [
+        "img {margin: 20px;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/rick2.png",
+        "mobile_image": "shopify://shop_images/rick3.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "image_position_mobile": "bottom",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_RxRXRH": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_REyLtJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "adidas",
+            "products_count": 8,
+            "title": "ADIDAS",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_REyLtJ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
+    },
     "media_grid_c3nTpj": {
       "type": "media-grid",
       "blocks": {
@@ -94,58 +178,45 @@
         "content": ""
       }
     },
-    "image_with_text_custom_qxrkki": {
+    "image_with_text_custom_WCKyUi": {
       "type": "image-with-text-custom",
       "blocks": {
-        "heading_QcgKxR": {
+        "subheading_kFmVAL": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_bnVg74": {
           "type": "heading",
           "settings": {
-            "text": "Footwear",
+            "text": "",
             "heading_tag": "h1"
           }
         },
-        "richtext_mhLp3D": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p><strong>A Ma Maniére x Nike Air Max 95 “Hand Wash Cold”</strong></p><p>The A Ma Maniére x Nike Air Max 95 “Hand Wash Cold” is a reflection of love in its purest form—measured not just in design, but in devotion. Built from rich black suede and smooth violet ore leather, every layer is stacked with purpose, precision, and poise. From the laser-etched branding that whispers legacy to the jacquard monogram satin lining that hugs your step, each detail is a love letter to those who move with grace against the grain.</p><p>Reflective 3M accents catch light like memory. A cushioned insole and mauve-hued air units ground you in comfort, reminding you that care begins beneath the surface. With three alternate lace options, this pair gives you the freedom to define your own expression of style.</p><p>This is more than a sneaker—it’s a symbol of what’s possible when we move <em>For The Love</em>.<br/></p><p>Because what we build with care, we honor with every step.</p><h4></h4><h4></h4>"
-          }
-        },
-        "richtext_g9CWFB": {
+        "richtext_hFWGPR": {
           "type": "richtext",
           "settings": {
-            "content": "<p>At A Ma Maniére, footwear is more than just an accessory—it’s a statement of style, culture, and craftsmanship. Our carefully curated selection of sneakers, designer boots, premium sandals, and stylish slippers brings together some of the most sought-after pieces in high-end streetwear and contemporary fashion. Whether you're searching for limited-edition sneaker drops, rare collaborations, or timeless footwear essentials, our collection embodies elevated style, exclusivity, and innovation.</p><h4></h4><h4></h4>"
-          }
-        },
-        "button_RLWyGn": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "See All",
-            "url": "shopify://collections/sneakers",
-            "background": "",
-            "text_color": ""
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": [
-        "heading_QcgKxR",
-        "richtext_mhLp3D",
-        "richtext_g9CWFB",
-        "button_RLWyGn"
+        "subheading_kFmVAL",
+        "heading_bnVg74",
+        "richtext_hFWGPR"
       ],
-      "custom_css": [
-        "img {margin: 20px;}"
-      ],
+      "disabled": true,
+      "name": "image with text custom",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/rick2.png",
-        "mobile_image": "shopify://shop_images/rick3.png",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/ALL_ASICS_2_e21d6f96-fe45-461a-bb60-b4088e071c21.gif",
+        "mobile_image": "shopify://shop_images/ALL_ASICS_2_d87454a1-ed0c-4670-b216-6a9fcba03d4f.gif",
         "reveal_on_scroll": true,
-        "image_position": "end",
+        "image_position": "start",
         "image_position_mobile": "bottom",
-        "content_width": "lg",
+        "content_width": "sm",
         "remove_vertical_spacing": true
       }
     },
@@ -176,25 +247,6 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 0.6,
         "subheading": ""
-      }
-    },
-    "3d_gallery_Y9qVkB": {
-      "type": "3d-gallery",
-      "custom_css": [],
-      "settings": {
-        "title": "Look Closer",
-        "start_index": "756",
-        "end_index": "818",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
-        "file_ext": "png",
-        "button_label": "Shop Now",
-        "button_link": "shopify://products/laced-up-boot-1",
-        "knob_position": 50,
-        "gallery_width": 59,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
       }
     },
     "collection_list_4KcAek": {
@@ -254,6 +306,7 @@
         "collection_khVWQm",
         "collection_eHFMck"
       ],
+      "disabled": true,
       "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
         "color_scheme": "",
@@ -269,33 +322,23 @@
         "content": ""
       }
     },
-    "featured_collections_Dtrtbp": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_7VVCVQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "nike-lab",
-            "products_count": 8,
-            "title": "NIKE",
-            "link_url": "shopify://collections/nike-lab",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_7VVCVQ"
-      ],
+    "3d_gallery_Y9qVkB": {
+      "type": "3d-gallery",
+      "custom_css": [],
       "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.6,
-        "subheading": ""
+        "title": "Look Closer",
+        "start_index": "756",
+        "end_index": "818",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
+        "file_ext": "png",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/laced-up-boot-1",
+        "knob_position": 50,
+        "gallery_width": 59,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "section_rounded_text_column_3Ff7F4": {
@@ -353,12 +396,13 @@
   },
   "order": [
     "main",
-    "media_grid_c3nTpj",
     "image_with_text_custom_qxrkki",
+    "featured_collections_RxRXRH",
+    "media_grid_c3nTpj",
+    "image_with_text_custom_WCKyUi",
     "featured_collections_e4qJwn",
-    "3d_gallery_Y9qVkB",
     "collection_list_4KcAek",
-    "featured_collections_Dtrtbp",
+    "3d_gallery_Y9qVkB",
     "section_rounded_text_column_3Ff7F4"
   ]
 }
