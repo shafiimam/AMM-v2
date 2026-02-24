@@ -32,8 +32,8 @@
       "settings": {
         "color_scheme": "",
         "image_size": "md",
-        "image": "shopify://shop_images/DSC08655_BB_1.jpg",
-        "mobile_image": "shopify://shop_images/DSC08655_BB_1.jpg",
+        "image": "shopify://shop_images/DSC01735_DC.jpg",
+        "mobile_image": "shopify://shop_images/DSC01735_DC_110c4744-2f34-43b1-ac75-f9deaeea59e5.jpg",
         "content_width": "sm",
         "enable_parallax": false,
         "remove_vertical_spacing": true
@@ -61,6 +61,7 @@
         "heading_MAfpmm",
         "richtext_nmR43n"
       ],
+      "disabled": true,
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
         "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
@@ -72,6 +73,10 @@
         "separate_section_with_border": true,
         "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
         "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
@@ -123,13 +128,13 @@
     "media_grid_wGyTFz": {
       "type": "media-grid",
       "blocks": {
-        "image_3g6hHn": {
+        "image_Fdedra": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC07518_BB.jpg",
-            "column_count": "8",
-            "row_count": 2,
+            "image": "shopify://shop_images/DSC01903_DC.jpg",
+            "column_count": "4",
+            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -141,13 +146,13 @@
             "overlay_opacity": 0
           }
         },
-        "image_Fdedra": {
+        "image_3g6hHn": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ACDSC01277_DC_1.jpg",
-            "column_count": "4",
-            "row_count": 1,
+            "image": "shopify://shop_images/DSC01439_DC_copy.jpg",
+            "column_count": "8",
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -163,7 +168,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/396__SQUIDLIK.jpg",
+            "image": "shopify://shop_images/DSC01928_DC_51776913-ed85-4495-8099-84585240eb9c.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -179,8 +184,8 @@
         }
       },
       "block_order": [
-        "image_3g6hHn",
         "image_Fdedra",
+        "image_3g6hHn",
         "image_xKjBF6"
       ],
       "name": "t:sections.media_grid.presets.media_grid.name",
@@ -192,7 +197,7 @@
         "section_width": "lg",
         "spacing": "md",
         "subheading": "",
-        "title": "A Closer Look",
+        "title": "",
         "content": ""
       }
     }
