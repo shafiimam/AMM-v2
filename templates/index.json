@@ -267,6 +267,7 @@
         },
         "release_UUMXJ4": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.25",
             "release_image": "shopify://shop_images/VOMEROPLUSBLK-1.jpg",
