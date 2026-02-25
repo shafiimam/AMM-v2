@@ -76,6 +76,7 @@
         "image_Cj4r6y": {
           "type": "image",
           "name": "RICK/MONCLER",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DSC08289BB.jpg",
             "mobile_image": "shopify://shop_images/DSC08356BB.jpg",
@@ -121,6 +122,102 @@
         "controls_color": "#ffffff"
       }
     },
+    "media_grid_ik3yVY": {
+      "type": "media-grid",
+      "blocks": {
+        "image_eFfHUH": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC08008BB.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "BOTTOMS",
+            "link_url": "shopify://collections/new-bottoms",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MYRCL9": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/accessories_9e969a4e-13ad-40e1-b7ad-29eec6aba4c7.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "ACCESSORIES",
+            "link_url": "shopify://collections/new-accessories",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JTDYmT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC01547_DC.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "footwear",
+            "link_url": "shopify://collections/sneakers",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_V6w8Kt": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMM1069X900.jpg",
+            "column_count": "8",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "HOODIES",
+            "link_url": "shopify://collections/hoodies",
+            "link_style": "outline",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_eFfHUH",
+        "image_MYRCL9",
+        "image_JTDYmT",
+        "image_V6w8Kt"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "176075966993f87866": {
       "type": "_blocks",
       "disabled": true,
@@ -160,6 +257,7 @@
         "product_8q4ahn",
         "product_wBMWzJ"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "RICK OWENS PRODUCT",
       "settings": {
@@ -221,7 +319,7 @@
         "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
+        "horizontal_spacing_factor": 0.7,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -289,37 +387,37 @@
     "media_grid_JJfcQ6": {
       "type": "media-grid",
       "blocks": {
-        "image_RJGdgU": {
+        "image_MarDnt": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC07000BB.jpg",
+            "color_scheme": "",
+            "image": "shopify://shop_images/sweats2.png",
             "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/new-boots",
-            "link_style": "outline",
+            "link_text": "sweatpants",
+            "link_url": "shopify://collections/new-sweatpants",
+            "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_MarDnt": {
+        "image_3mUUea": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/collage_715759b5-1e97-49d2-b469-1eee3b6f3668.jpg",
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/blackboot1.png",
             "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "",
+            "link_text": "boots",
             "link_url": "shopify://collections/new-boots",
-            "link_style": "outline",
+            "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -327,19 +425,19 @@
         }
       },
       "block_order": [
-        "image_RJGdgU",
-        "image_MarDnt"
+        "image_MarDnt",
+        "image_3mUUea"
       ],
-      "name": "BOOTS 2.13 ",
+      "name": "sweats/boots collections",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "desktop_row_height": 520,
-        "mobile_row_height": 380,
-        "section_width": "lg",
+        "desktop_row_height": 600,
+        "mobile_row_height": 530,
+        "section_width": "full",
         "spacing": "xs",
         "subheading": "",
-        "title": "Shop Statement Boots",
+        "title": "",
         "content": ""
       }
     },
@@ -423,101 +521,6 @@
         "title": "Shop the look",
         "content": "",
         "popover_title": "Shop the look"
-      }
-    },
-    "media_grid_ik3yVY": {
-      "type": "media-grid",
-      "blocks": {
-        "image_eFfHUH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC08008BB.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "BOTTOMS",
-            "link_url": "shopify://collections/new-bottoms",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_MYRCL9": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "ACCESSORIES",
-            "link_url": "shopify://collections/new-accessories",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_JTDYmT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/denim2.png",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "DENIM",
-            "link_url": "shopify://collections/new-denim",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_V6w8Kt": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMM1069X900.jpg",
-            "column_count": "8",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "HOODIES",
-            "link_url": "shopify://collections/hoodies",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_eFfHUH",
-        "image_MYRCL9",
-        "image_JTDYmT",
-        "image_V6w8Kt"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 460,
-        "mobile_row_height": 280,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "FEATURED COLLECTIONS",
-        "content": ""
       }
     },
     "before-after": {
@@ -960,6 +963,7 @@
   },
   "order": [
     "slideshow_QGYQ6e",
+    "media_grid_ik3yVY",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
     "featured_collections_RwpkEJ",
@@ -967,7 +971,6 @@
     "media_grid_JJfcQ6",
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
-    "media_grid_ik3yVY",
     "before-after",
     "collection_list_cLGdiA",
     "blocks_xhmELd",
