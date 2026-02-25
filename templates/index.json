@@ -229,54 +229,6 @@
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
-        "release_tTFrnC": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.14",
-            "release_image": "shopify://shop_images/AJ6INFRAREDSALESMAN-1.jpg",
-            "product_title": "AIR JORDAN 6 RETRO \"INFRARED SALESMAN\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-infrared-salesman"
-          }
-        },
-        "release_xMtct7": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.18",
-            "release_image": "shopify://shop_images/UNIONXFRAGMENTAJ1SPORTROYAL-1_1.jpg",
-            "product_title": "FRAGMENT X UNION AIR JORDAN 1 RETRO HIGH OG \"SPORT ROYAL\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$205",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/fragment-x-union-air-jordan-1-retro-high-og-sport-royal"
-          }
-        },
-        "release_P6UxPQ": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.21",
-            "release_image": "shopify://shop_images/ADISTARJELLYFISHPHARELLTRPLBLK-1_d759fff1-c349-4225-9dbe-a9ba0cfb25c0.jpg",
-            "product_title": "PHARRELL WILLIAMS ADISTAR VIRGINIA JELLYFISH \"TRIPLE BLACK\"",
-            "product_vendor": "ADIDAS",
-            "product_price": "$300",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-adistar-virginia-jellyfish-triple-black"
-          }
-        },
-        "release_UUMXJ4": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.25",
-            "release_image": "shopify://shop_images/VOMEROPLUSBLK-1.jpg",
-            "product_title": "NIKE SPORTSWEAR VOMERO PLUS",
-            "product_vendor": "NIKE",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-sportswear-vomero-plus"
-          }
-        },
         "release_Yy3gGG": {
           "type": "release",
           "settings": {
@@ -309,16 +261,26 @@
             "product_price": "$190",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-blackneon-greencool-grey"
           }
+        },
+        "release_UUMXJ4": {
+          "type": "release",
+          "name": "willy maestro test ",
+          "disabled": true,
+          "settings": {
+            "release_title": "2.25",
+            "release_image": "shopify://shop_images/WILLYCHAVARRIAMEGARIDEAGXL-1.jpg",
+            "product_title": "ADIDAS X WILLY CHAVARRIA MEGARIDE AG XL",
+            "product_vendor": "ADIDAS",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-willy-chavarria-megaride-ag-xl"
+          }
         }
       },
       "block_order": [
-        "release_tTFrnC",
-        "release_xMtct7",
-        "release_P6UxPQ",
-        "release_UUMXJ4",
         "release_Yy3gGG",
         "release_tYRKqB",
-        "release_G9YFxB"
+        "release_G9YFxB",
+        "release_UUMXJ4"
       ],
       "name": "Releases",
       "settings": {
