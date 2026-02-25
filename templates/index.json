@@ -265,7 +265,6 @@
         "release_UUMXJ4": {
           "type": "release",
           "name": "willy maestro test ",
-          "disabled": true,
           "settings": {
             "release_title": "3.6",
             "release_image": "shopify://shop_images/WILLYCHAVARRIAMEGARIDEAGXL-1.jpg",
