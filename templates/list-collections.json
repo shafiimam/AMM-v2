@@ -13,7 +13,7 @@
       "type": "main-list-collections",
       "settings": {
         "color_scheme": "",
-        "show_title": true,
+        "show_title": false,
         "collections": [
           "424",
           "alyx",
