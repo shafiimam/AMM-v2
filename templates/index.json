@@ -319,7 +319,7 @@
         "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.7,
+        "horizontal_spacing_factor": 0.8,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
