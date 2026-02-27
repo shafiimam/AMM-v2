@@ -329,6 +329,7 @@
       "blocks": {
         "release_Yy3gGG": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "2.28",
             "release_image": "shopify://shop_images/AJ5WOLFGREY-1.jpg",
