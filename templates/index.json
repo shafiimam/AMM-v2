@@ -656,10 +656,10 @@
         "collection_NDmmGJ": {
           "type": "collection",
           "settings": {
-            "collection": "sneakers",
+            "collection": "hoodies",
             "products_count": 8,
             "title": "",
-            "link_url": "shopify://collections/sneakers",
+            "link_url": "shopify://collections/hoodies",
             "link_text": "View all"
           }
         },
