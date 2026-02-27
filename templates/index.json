@@ -16,8 +16,8 @@
           "type": "video",
           "name": "NON DND",
           "settings": {
-            "video": "shopify://files/videos/AMM 2.mov",
-            "mobile_video": "shopify://files/videos/AMM 2.mov",
+            "video": "shopify://files/videos/AMM 1.mov",
+            "mobile_video": "shopify://files/videos/AMM 1.mov",
             "allow_sound": true,
             "subheading": "",
             "subheading_size": 19,
