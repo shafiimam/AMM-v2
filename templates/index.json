@@ -327,18 +327,6 @@
     "releases_LeDFdB": {
       "type": "releases",
       "blocks": {
-        "release_Yy3gGG": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "2.28",
-            "release_image": "shopify://shop_images/AJ5WOLFGREY-1.jpg",
-            "product_title": "AIR JORDAN 5 RETRO \"WOLF GREY\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-5-retro-wolf-grey"
-          }
-        },
         "release_tYRKqB": {
           "type": "release",
           "settings": {
@@ -348,6 +336,17 @@
             "product_vendor": "NIKE",
             "product_price": "$230",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-pegasus-premium-running-is-mental"
+          }
+        },
+        "release_Yy3gGG": {
+          "type": "release",
+          "settings": {
+            "release_title": "3.5",
+            "release_image": "shopify://shop_images/RIPPLEBLUWHT-1.jpg",
+            "product_title": "CROCS RIPPLE SNEAKER",
+            "product_vendor": "CROCS",
+            "product_price": "$90",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/crocs-ripple-sneaker"
           }
         },
         "release_G9YFxB": {
@@ -375,8 +374,8 @@
         }
       },
       "block_order": [
-        "release_Yy3gGG",
         "release_tYRKqB",
+        "release_Yy3gGG",
         "release_G9YFxB",
         "release_UUMXJ4"
       ],
