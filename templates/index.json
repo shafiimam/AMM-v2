@@ -46,6 +46,7 @@
         "image_H4DjaV": {
           "type": "image",
           "name": "GOADOMES",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/28_CL.jpg",
             "mobile_image": "shopify://shop_images/21_CL.jpg",
@@ -329,6 +330,7 @@
       "blocks": {
         "release_tYRKqB": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.5",
             "release_image": "shopify://shop_images/PEGASUSPREMIUMRUNNINGISMETAL-1.jpg",
@@ -340,6 +342,7 @@
         },
         "release_Yy3gGG": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.5",
             "release_image": "shopify://shop_images/RIPPLEBLUWHT-1.jpg",
@@ -351,6 +354,7 @@
         },
         "release_G9YFxB": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.5",
             "release_image": "shopify://shop_images/AM95NEONBIGBUBBLE-1.jpg",
@@ -363,6 +367,7 @@
         "release_UUMXJ4": {
           "type": "release",
           "name": "willy maestro test ",
+          "disabled": true,
           "settings": {
             "release_title": "3.6",
             "release_image": "shopify://shop_images/WILLYCHAVARRIAMEGARIDEAGXL-1.jpg",
@@ -379,6 +384,7 @@
         "release_G9YFxB",
         "release_UUMXJ4"
       ],
+      "disabled": true,
       "name": "Releases",
       "settings": {
         "title": "Releases"
@@ -656,10 +662,10 @@
         "collection_NDmmGJ": {
           "type": "collection",
           "settings": {
-            "collection": "hoodies",
+            "collection": "new-t-shirts",
             "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/hoodies",
+            "title": "t-Shirts",
+            "link_url": "shopify://collections/new-t-shirts",
             "link_text": "View all"
           }
         },
