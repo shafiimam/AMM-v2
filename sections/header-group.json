@@ -98,7 +98,6 @@
         },
         "release_nAhaJK": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "2.7",
             "release_image": "shopify://shop_images/CAMPUSXBAPEBLKWHT-1_fe340f80-6548-4d00-a588-ec732431b18e.jpg",
@@ -110,7 +109,6 @@
         },
         "release_KPd8WR": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "12.19",
             "release_image": "shopify://shop_images/POUCH.avif",
@@ -154,7 +152,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": true
+        "show_releases": false
       }
     }
   },
