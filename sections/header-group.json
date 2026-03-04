@@ -131,6 +131,7 @@
         },
         "release_jyAVDP": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.6",
             "release_image": "shopify://shop_images/WILLYCHAVARRIAMEGARIDEAGXL-1.jpg",
