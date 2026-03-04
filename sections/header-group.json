@@ -98,6 +98,7 @@
         },
         "release_nAhaJK": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.5",
             "release_image": "shopify://shop_images/PEGASUSPREMIUMRUNNINGISMETAL-1.jpg",
@@ -109,6 +110,7 @@
         },
         "release_KPd8WR": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.5",
             "release_image": "shopify://shop_images/RIPPLEBLUWHT-1.jpg",
@@ -120,6 +122,7 @@
         },
         "release_xUJTXX": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.5",
             "release_image": "shopify://shop_images/AM95NEONBIGBUBBLE-1.jpg",
