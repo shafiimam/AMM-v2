@@ -98,26 +98,24 @@
         },
         "release_nAhaJK": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "3.5",
-            "release_image": "shopify://shop_images/PEGASUSPREMIUMRUNNINGISMETAL-1.jpg",
-            "product_title": "NIKE PEGASUS PREMIUM \"RUNNING IS MENTAL\"",
-            "product_vendor": "NIKE",
-            "product_price": "$230",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-pegasus-premium-running-is-mental"
+            "release_title": "3.12",
+            "release_image": "shopify://shop_images/NB1890YLWBLK-1.jpg",
+            "product_title": "NEW BALANCE ABZORB 1890",
+            "product_vendor": "NEW BALANCE",
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst"
           }
         },
         "release_KPd8WR": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "3.5",
-            "release_image": "shopify://shop_images/RIPPLEBLUWHT-1.jpg",
-            "product_title": "CROCS RIPPLE SNEAKER",
-            "product_vendor": "CROCS",
-            "product_price": "$90",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/crocs-ripple-sneaker"
+            "release_title": "3.13",
+            "release_image": "shopify://shop_images/AJ13TRUERED-1.jpg",
+            "product_title": "AIR JORDAN 13 \"TRUE RED CHICAGO\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-13-true-red-chicago"
           }
         },
         "release_xUJTXX": {
