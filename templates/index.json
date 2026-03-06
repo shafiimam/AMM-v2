@@ -15,17 +15,17 @@
         "image_GMiDPM": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-3",
             "image": "shopify://shop_images/AMM4.png",
             "column_count": "6",
             "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
+            "title": "<strong>New Balance ABZORB 1890 </strong>",
+            "heading_tag": "h1",
             "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/sneakers",
+            "link_text": "ENTER DRAW",
+            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-bursthttps://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
             "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -33,17 +33,17 @@
         "image_HJjrwi": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-3",
             "image": "shopify://shop_images/AMM2.png",
             "column_count": "6",
             "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
+            "title": "<strong>EXCLUSIVE RELEASE MARCH 12TH </strong>",
+            "heading_tag": "h1",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://collections/new-accessories",
+            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
             "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -53,7 +53,6 @@
         "image_GMiDPM",
         "image_HJjrwi"
       ],
-      "disabled": true,
       "name": "NB 1890",
       "settings": {
         "color_scheme": "",
@@ -181,62 +180,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "media_grid_ik3yVY": {
-      "type": "media-grid",
-      "blocks": {
-        "image_MYRCL9": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/accessories_9e969a4e-13ad-40e1-b7ad-29eec6aba4c7.png",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "ACCESSORIES",
-            "link_url": "shopify://collections/new-accessories",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_JTDYmT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ripamm.png",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "footwear",
-            "link_url": "shopify://collections/sneakers",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_MYRCL9",
-        "image_JTDYmT"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 600,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "176075966993f87866": {
       "type": "_blocks",
       "disabled": true,
@@ -342,56 +285,55 @@
         "subheading": ""
       }
     },
-    "media_grid_JJfcQ6": {
+    "media_grid_ik3yVY": {
       "type": "media-grid",
       "blocks": {
-        "image_MarDnt": {
+        "image_MYRCL9": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/sweats2.png",
+            "image": "shopify://shop_images/accessories_9e969a4e-13ad-40e1-b7ad-29eec6aba4c7.png",
             "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "sweatpants",
-            "link_url": "shopify://collections/new-sweatpants",
+            "link_text": "ACCESSORIES",
+            "link_url": "shopify://collections/new-accessories",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_3mUUea": {
+        "image_JTDYmT": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/blackboot1.png",
+            "color_scheme": "",
+            "image": "shopify://shop_images/ripamm.png",
             "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "boots",
-            "link_url": "shopify://collections/new-boots",
+            "link_text": "footwear",
+            "link_url": "shopify://collections/sneakers",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_MarDnt",
-        "image_3mUUea"
+        "image_MYRCL9",
+        "image_JTDYmT"
       ],
-      "name": "sweats/boots collections",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
         "desktop_row_height": 600,
-        "mobile_row_height": 530,
+        "mobile_row_height": 420,
         "section_width": "full",
         "spacing": "xs",
         "subheading": "",
@@ -603,11 +545,6 @@
         "content": ""
       }
     },
-    "blocks_xhmELd": {
-      "type": "_blocks",
-      "name": "Spacer",
-      "settings": {}
-    },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
@@ -649,6 +586,68 @@
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
+    },
+    "media_grid_JJfcQ6": {
+      "type": "media-grid",
+      "blocks": {
+        "image_MarDnt": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/sweats2.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "sweatpants",
+            "link_url": "shopify://collections/new-sweatpants",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3mUUea": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/blackboot1.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "boots",
+            "link_url": "shopify://collections/new-boots",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MarDnt",
+        "image_3mUUea"
+      ],
+      "name": "sweats/boots collections",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 530,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "blocks_xhmELd": {
+      "type": "_blocks",
+      "name": "Spacer",
+      "settings": {}
     },
     "image_with_text_4rzGhq": {
       "type": "image-with-text",
@@ -922,17 +921,17 @@
   "order": [
     "media_grid_dcKXGR",
     "slideshow_QGYQ6e",
-    "media_grid_ik3yVY",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
     "featured_collections_RwpkEJ",
-    "media_grid_JJfcQ6",
+    "media_grid_ik3yVY",
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
     "before-after",
     "collection_list_cLGdiA",
-    "blocks_xhmELd",
     "featured_collections_WMah7x",
+    "media_grid_JJfcQ6",
+    "blocks_xhmELd",
     "image_with_text_4rzGhq",
     "media_grid_DzxzqH",
     "176076770152fa2223",
