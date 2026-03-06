@@ -27,7 +27,7 @@
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 12
           }
         },
         "image_HJjrwi": {
@@ -37,7 +37,7 @@
             "image": "shopify://shop_images/AMM2.png",
             "column_count": "6",
             "row_count": 1,
-            "title": "<strong>EXCLUSIVE early RELEASE MARCH 12TH </strong>",
+            "title": "<strong>LAUNCHES FIRST MARCH 12</strong>",
             "heading_tag": "h1",
             "content": "",
             "link_text": "",
