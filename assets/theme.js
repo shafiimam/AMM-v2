@@ -2103,6 +2103,17 @@ var _onCartChangedListener,
   (_FreeShippingBar_instances = new WeakSet()),
   (updateMessage_fn = function () {
     const messageElement = this.querySelector("span");
+    const progressFill = this.querySelector(".free-shipping-progress__fill");
+    
+    // Calculate progress percentage
+    const progressPercentage = Math.min((this.totalPrice / __privateGet(this, _threshold)) * 100, 100);
+    
+    // Update progress bar
+    if (progressFill) {
+      progressFill.style.width = `${progressPercentage}%`;
+      progressFill.setAttribute("data-progress", progressPercentage);
+    }
+    
     if (this.totalPrice >= __privateGet(this, _threshold))
       messageElement.innerHTML = this.getAttribute("reached-message");
     else {
