@@ -38,8 +38,6 @@
     "custom_badge_enable": true,
     "custom_badge_text": "Exclusive",
     "custom_badge_include_tag": "exclusive",
-    "cart_show_free_shipping_bar": false,
-    "cart_free_shipping_threshold": "300",
     "social_facebook": "https://www.facebook.com/maniereusa",
     "social_twitter": "https://twitter.com/maniere_usa",
     "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
@@ -96,16 +94,6 @@
         "disabled": false,
         "settings": {
           "storefrontAccessToken": ""
-        }
-      },
-      "375084824957108895": {
-        "type": "shopify://apps/ryzo/blocks/float-image-search/d9b723f6-8afa-453c-b308-fc923609d126",
-        "disabled": true,
-        "settings": {
-          "icon_color": "#000000",
-          "button_size": 25,
-          "horizontal_position": "right",
-          "vertical_position": 25
         }
       }
     },
