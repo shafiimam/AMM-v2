@@ -31,5 +31,12 @@ being eligible for free shipping.
   <free-shipping-bar class="free-shipping-bar" threshold="{{ settings.cart_free_shipping_threshold }}" total-price="{{ calculated_total_price }}" reached-message="{{ 'cart.free_shipping_bar.limit_reached_html' | t | escape }}" unreached-message="{{ 'cart.free_shipping_bar.limit_unreached_html' | t | escape }}">
     {%- comment -%}The span below is the placeholder where the content will be inserted in JS{%- endcomment -%}
     <span class="text-subdued">&nbsp;</span>
+    
+    {%- comment -%}Progress bar for free shipping{%- endcomment -%}
+    <div class="free-shipping-progress" style="margin-top: 8px;">
+      <div class="free-shipping-progress__track">
+        <div class="free-shipping-progress__fill" data-progress="0"></div>
+      </div>
+    </div>
   </free-shipping-bar>
 {%- endif -%}
