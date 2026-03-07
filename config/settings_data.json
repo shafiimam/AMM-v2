@@ -97,6 +97,16 @@
         "settings": {
           "storefrontAccessToken": ""
         }
+      },
+      "375084824957108895": {
+        "type": "shopify://apps/ryzo/blocks/float-image-search/d9b723f6-8afa-453c-b308-fc923609d126",
+        "disabled": true,
+        "settings": {
+          "icon_color": "#000000",
+          "button_size": 25,
+          "horizontal_position": "right",
+          "vertical_position": 25
+        }
       }
     },
     "color_schemes": {
