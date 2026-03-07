@@ -9,101 +9,154 @@
  */
 {
   "sections": {
-    "176075966993f87866": {
-      "type": "_blocks",
-      "settings": {}
+    "media_grid_dcKXGR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_GMiDPM": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/AMM4.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "<strong>New Balance ABZORB 1890 </strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "ENTER DRAW",
+            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 12
+          }
+        },
+        "image_HJjrwi": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/AMM2.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "<strong>LAUNCHES FIRST MARCH 12</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        }
+      },
+      "block_order": [
+        "image_GMiDPM",
+        "image_HJjrwi"
+      ],
+      "name": "NB 1890",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
     },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_7KtAwk": {
+          "type": "video",
+          "name": "NON DND",
+          "settings": {
+            "video": "shopify://files/videos/AMM 1.mov",
+            "mobile_video": "shopify://files/videos/AMM 1.mov",
+            "allow_sound": true,
+            "subheading": "",
+            "subheading_size": 19,
+            "title": "Shop the exclusive adidas capsule",
+            "title_size": 33,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "shop now",
+            "button_1_link": "shopify://collections/adidas",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 38,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_H4DjaV": {
           "type": "image",
+          "name": "GOADOMES",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/AMM_E0Y25_-_WEB.jpg",
-            "mobile_image": "shopify://shop_images/AMM_E0Y25_-_IG_STORY_copy.jpg",
+            "image": "shopify://shop_images/28_CL.jpg",
+            "mobile_image": "shopify://shop_images/21_CL.jpg",
             "subheading": "",
             "subheading_size": 12,
-            "title": "<p><strong>In-Store & Online</strong></p>",
-            "title_size": 24,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "title": "<p><strong>NIKE AIR MAX GOADOME LOW SP</strong></p>",
+            "title_size": 31,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "https://www.a-ma-maniere.com/collections/markdowns",
+            "button_1_link": "shopify://collections/nike-lab",
             "button_1_style": "solid",
-            "button_1_background": "#535353",
-            "button_1_text_color": "#ffffff",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
-            "background_opacity": 50,
-            "text_color": "#535353",
+            "background_opacity": 24,
+            "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_3tmrzq": {
-          "type": "video",
-          "name": "Champagne ",
+        "image_Cj4r6y": {
+          "type": "image",
+          "name": "RICK/MONCLER",
           "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/champagne vingette (1).mov",
-            "mobile_video": "shopify://files/videos/champagne vingette (1).mov",
-            "allow_sound": true,
-            "subheading": "Available Now",
-            "subheading_size": 18,
-            "title": "Maniére Noire Rosé Champagne",
-            "title_size": 31,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "DISCOVER",
-            "button_2_link": "https://www.a-ma-maniere.com/pages/maniere-noire-champagne",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 10,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "video_NgbMdj": {
-          "type": "video",
-          "name": "NEW ERA HATS",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
-            "mobile_video": "shopify://files/videos/AMM NEW ERA NO LOGO.mov",
-            "allow_sound": true,
-            "subheading": "SHOP NEW COLORS",
-            "subheading_size": 18,
-            "title": "A MA MANIÉRE X NEW ERA MLB ALL-STAR CAPS",
-            "title_size": 31,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 740,
+            "image": "shopify://shop_images/DSC08289BB.jpg",
+            "mobile_image": "shopify://shop_images/DSC08356BB.jpg",
+            "subheading": "",
+            "subheading_size": 12,
+            "title": "<p>Moncler x rick owens SS26</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/a-ma-maniere",
-            "button_1_style": "link",
+            "button_1_link": "shopify://collections/rick-owens",
+            "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
             "button_2_link": "",
-            "button_2_style": "solid",
+            "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
-            "background_opacity": 10,
+            "background_opacity": 19,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
@@ -111,11 +164,10 @@
         }
       },
       "block_order": [
+        "video_7KtAwk",
         "image_H4DjaV",
-        "video_3tmrzq",
-        "video_NgbMdj"
+        "image_Cj4r6y"
       ],
-      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -128,152 +180,10 @@
         "controls_color": "#ffffff"
       }
     },
-    "split_media_heo_GynGer": {
-      "type": "split-media-heo",
-      "blocks": {
-        "heading_xDW4wX": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Explore Latest Arrivals",
-            "heading_tag": "h2"
-          }
-        },
-        "subheading_Fh4MNy": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": ""
-          }
-        },
-        "richtext_nkiVLT": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2><strong>Explore Latest Arrivals</strong></h2>"
-          }
-        },
-        "button_CqXrVb": {
-          "type": "button",
-          "settings": {
-            "label": "SHOP NOW",
-            "url": "shopify://collections/new-arrivals-1",
-            "button_style": "outline",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xDW4wX",
-        "subheading_Fh4MNy",
-        "richtext_nkiVLT",
-        "button_CqXrVb"
-      ],
-      "name": "NEW ARRIVALS",
-      "settings": {
-        "allow_transparent_header": true,
-        "media_type_1": "image",
-        "image_1": "shopify://shop_images/AMMNEW1.png",
-        "media_type_2": "image",
-        "image_2": "shopify://shop_images/Untitled-5.png",
-        "link": "shopify://collections/new-arrivals-1",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "space-between",
-        "gap": 12,
-        "section_width": "full-width",
-        "section_height": "large",
-        "section_height_custom": 100,
-        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-        "remove_vertical_spacing": true,
-        "separate_section_with_border": false,
-        "toggle_overlay": false,
-        "overlay_color": "#00000080",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "blurred_reflection": false,
-        "reflection_opacity": 0,
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
-    "releases_LeDFdB": {
-      "type": "releases",
-      "blocks": {
-        "release_xMtct7": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "11.06",
-            "release_image": "shopify://shop_images/AM95ZIPBLK-1.jpg",
-            "product_title": "NIKE AIR MAX 95 BIG BUBBLE ZIP \"BLACK\"",
-            "product_vendor": "NIKE",
-            "product_price": "$210",
-            "release_link": ""
-          }
-        },
-        "release_tTFrnC": {
-          "type": "release",
-          "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a_1.jpg",
-            "product_title": "A MA MANIÉRE X AIR JORDAN 4 \"DARK MOCHA\"",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$225",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha"
-          }
-        },
-        "release_P6UxPQ": {
-          "type": "release",
-          "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/BAGCOVER.avif",
-            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER TOTE BAG",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-tote-bag"
-          }
-        },
-        "release_G9YFxB": {
-          "type": "release",
-          "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/POUCH.avif",
-            "product_title": "A MA MANIÉRE X JORDAN BRAND LEATHER POUCH",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-jordan-brand-leather-pouch"
-          }
-        },
-        "release_tYRKqB": {
-          "type": "release",
-          "settings": {
-            "release_title": "12.19",
-            "release_image": "shopify://shop_images/SCARF.avif",
-            "product_title": "A MA MANIÉRE X JORDAN BRAND SCARF",
-            "product_vendor": "MANIÉRE",
-            "product_price": "$80",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-otw-old-skool-36-vibramfloralblack"
-          }
-        }
-      },
-      "block_order": [
-        "release_xMtct7",
-        "release_tTFrnC",
-        "release_P6UxPQ",
-        "release_G9YFxB",
-        "release_tYRKqB"
-      ],
+    "176075966993f87866": {
+      "type": "_blocks",
       "disabled": true,
-      "name": "Releases",
-      "settings": {
-        "title": "Releases"
-      }
+      "settings": {}
     },
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
@@ -281,117 +191,199 @@
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-varsity-jacket-5"
+            "product": "rick-owens-mainline-outershirt-milk-plaid"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "jordan-brand-amm-pant-black"
-          }
-        },
-        "product_wBMWzJ": {
-          "type": "product",
-          "settings": {
-            "product": "jacquemus-la-chemise-boulanger"
+            "product": "rick-owens-mainline-geth-cargo-pants-dust-grey"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "oakley-meta-x-transitions-sunglasses-grey"
+            "product": "rick-owens-mainline-brad-t-shirt-white"
+          }
+        },
+        "product_wBMWzJ": {
+          "type": "product",
+          "settings": {
+            "product": "6-premimum-boot-1"
           }
         }
       },
       "block_order": [
         "product_cWVffK",
         "product_6yqwTq",
-        "product_wBMWzJ",
-        "product_8q4ahn"
+        "product_8q4ahn",
+        "product_wBMWzJ"
       ],
-      "custom_css": [],
+      "disabled": true,
+      "name": "RICK OWENS PRODUCT",
       "settings": {
         "section_alignment": "left",
-        "title": "THE NEW YEAR EDIT",
+        "title": "",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/DSC08397_DC_copy.jpg",
-        "image_description": "<p>Welcome the New Year in elevated form. Thoughtful design, premium textures, and pieces made to move with confidence into what’s ahead. Shop our <strong>New Year Edit</strong>.</p>",
+        "image": "shopify://shop_images/rick3_d6ad7058-6c36-485f-bf18-1f7bf21bac61.png",
+        "image_description": "<p>Moncler function meets Rick Owens attitude in statement winter layers. This season balance function and fashion, engineered for cold weather but designed with Rick Owens’ unmistakable edge. Engineered for cold. Designed to stand apart.</p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/the-new-years-edit"
+        "image_cta_url": "shopify://collections/rick-owens"
       }
     },
-    "split_media_heo_AefUWr": {
-      "type": "split-media-heo",
+    "featured_collections_RwpkEJ": {
+      "type": "featured-collections",
       "blocks": {
-        "subheading_gXAxgU": {
-          "type": "subheading",
+        "collection_3gxaab": {
+          "type": "collection",
+          "disabled": true,
           "settings": {
-            "text": ""
+            "collection": "rick-owens",
+            "products_count": 8,
+            "title": "Moncler x rick owens ss26",
+            "link_url": "shopify://collections/rick-owens",
+            "link_text": "View all"
           }
         },
-        "heading_KkxqLK": {
-          "type": "heading",
+        "collection_t3bATr": {
+          "type": "collection",
           "settings": {
-            "text": "A Little Extra Spark",
-            "heading_tag": "h1"
+            "collection": "new-arrivals-1",
+            "products_count": 8,
+            "title": "new arrivals",
+            "link_url": "shopify://collections/new-arrivals-1",
+            "link_text": "View all"
           }
         },
-        "richtext_YWQYgt": {
-          "type": "richtext",
+        "collection_dnEeCe": {
+          "type": "collection",
+          "disabled": true,
           "settings": {
-            "content": "<p>Thoughtfully curated pieces to carry you confidently into the new year.</p>"
-          }
-        },
-        "button_8BYibA": {
-          "type": "button",
-          "settings": {
-            "label": "Shop Now",
-            "url": "shopify://collections/the-new-years-edit",
-            "button_style": "solid",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "collection": "new-accessories",
+            "products_count": 8,
+            "title": "ACCESSORIES",
+            "link_url": "",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "subheading_gXAxgU",
-        "heading_KkxqLK",
-        "richtext_YWQYgt",
-        "button_8BYibA"
+        "collection_3gxaab",
+        "collection_t3bATr",
+        "collection_dnEeCe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "media_grid_ik3yVY": {
+      "type": "media-grid",
+      "blocks": {
+        "image_MYRCL9": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/accessories_9e969a4e-13ad-40e1-b7ad-29eec6aba4c7.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "ACCESSORIES",
+            "link_url": "shopify://collections/new-accessories",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JTDYmT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ripamm.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "footwear",
+            "link_url": "shopify://collections/sneakers",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MYRCL9",
+        "image_JTDYmT"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "multiple_media_with_text_Lgp4CV": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_cHgxNx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07078BB.jpg",
+            "rotation": 0
+          }
+        },
+        "image_TpyxFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/H526Y1DW13-6395_2_847652d0-9de5-40ab-b112-b454ededafff.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_cHgxNx",
+        "image_TpyxFX"
       ],
       "disabled": true,
-      "name": "NYE",
       "settings": {
-        "allow_transparent_header": true,
-        "media_type_1": "image",
-        "image_1": "shopify://shop_images/DSC08146_DC_copy.jpg",
-        "media_type_2": "image",
-        "image_2": "shopify://shop_images/DSC07925_DC_1.jpg",
-        "video_2": "shopify://files/videos/CHAMPAGNE TOWER VINGETTE 2.mov",
-        "link": "",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "full-width",
-        "section_height": "full-screen",
-        "section_height_custom": 100,
-        "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-        "remove_vertical_spacing": true,
-        "separate_section_with_border": false,
-        "toggle_overlay": false,
-        "overlay_color": "#00000080",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "blurred_reflection": false,
-        "reflection_opacity": 0,
-        "padding-block-start": 0,
-        "padding-block-end": 0
+        "color_scheme": "",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Seasonal Layers",
+        "title": "Refined Essentials for Spring",
+        "content": "<p>Step into the season with intentional pieces built for movement, light layering, and transitional style. From crisp bombers to relaxed trousers, spring calls for refined silhouettes, breathable textures, and a palette that balances softness with structure.</p>",
+        "button_1_text": "DISCOVER MORE",
+        "button_1_link": "https://www.a-ma-maniere.com/collections/seasonal-layering",
+        "button_1_style": "link",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
       }
     },
     "shop_the_look_yjtpt9": {
@@ -420,6 +412,7 @@
       "block_order": [
         "look_AQePmE"
       ],
+      "disabled": true,
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
@@ -428,84 +421,6 @@
         "title": "Shop the look",
         "content": "",
         "popover_title": "Shop the look"
-      }
-    },
-    "featured_collections_RwpkEJ": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_3gxaab": {
-          "type": "collection",
-          "settings": {
-            "collection": "resort-wear",
-            "products_count": 8,
-            "title": "Resort Wear",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_t3bATr": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "jackets-coats",
-            "products_count": 8,
-            "title": "OUTERWEAR",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_hDDwnm": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "adidas",
-            "products_count": 8,
-            "title": "ADIDAS",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_dnEeCe": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 8,
-            "title": "ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
-        "collection_KPertQ": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-knits",
-            "products_count": 4,
-            "title": "KNITS AND SWEATERS",
-            "link_url": "shopify://collections/new-knits",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_3gxaab",
-        "collection_t3bATr",
-        "collection_hDDwnm",
-        "collection_dnEeCe",
-        "collection_KPertQ"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "before-after": {
@@ -630,71 +545,33 @@
         "content": ""
       }
     },
-    "multiple_media_with_text_Lgp4CV": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_cHgxNx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/H526Y1DW13-6395_1.webp",
-            "rotation": 0
-          }
-        },
-        "image_TpyxFX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/H526Y1DW13-6395_2_847652d0-9de5-40ab-b112-b454ededafff.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_cHgxNx",
-        "image_TpyxFX"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "Seasonal Layers",
-        "title": "Refined Essentials for Spring",
-        "content": "<p>Step into the season with intentional pieces built for movement, light layering, and transitional style. From crisp bombers to relaxed trousers, spring calls for refined silhouettes, breathable textures, and a palette that balances softness with structure.</p>",
-        "button_1_text": "DISCOVER MORE",
-        "button_1_link": "https://www.a-ma-maniere.com/collections/seasonal-layering",
-        "button_1_style": "link",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
-      }
-    },
-    "blocks_xhmELd": {
-      "type": "_blocks",
-      "name": "Spacer",
-      "settings": {}
-    },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
+        "collection_NDmmGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-t-shirts",
+            "products_count": 8,
+            "title": "t-Shirts",
+            "link_url": "shopify://collections/new-t-shirts",
+            "link_text": "View all"
+          }
+        },
         "collection_Q7Rc3m": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "sneakers",
             "products_count": 4,
-            "title": "FOOTWEAR",
+            "title": "Footwear",
             "link_url": "shopify://collections/sneakers",
             "link_text": "SHOP COLLECTION"
           }
         }
       },
       "block_order": [
+        "collection_NDmmGJ",
         "collection_Q7Rc3m"
       ],
       "custom_css": [],
@@ -710,6 +587,68 @@
         "subheading": ""
       }
     },
+    "media_grid_JJfcQ6": {
+      "type": "media-grid",
+      "blocks": {
+        "image_MarDnt": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/sweats2.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "sweatpants",
+            "link_url": "shopify://collections/new-sweatpants",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3mUUea": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/blackboot1.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "boots",
+            "link_url": "shopify://collections/new-boots",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MarDnt",
+        "image_3mUUea"
+      ],
+      "name": "sweats/boots collections",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 530,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "blocks_xhmELd": {
+      "type": "_blocks",
+      "name": "Spacer",
+      "settings": {}
+    },
     "image_with_text_4rzGhq": {
       "type": "image-with-text",
       "blocks": {
@@ -723,22 +662,14 @@
         "heading_h3aKYA": {
           "type": "heading",
           "settings": {
-            "text": "<strong>The NEW YORK TIMES 50 BEST CLOTHING STORES IN AMERICA </strong>",
+            "text": "<strong>The Original Issue </strong>",
             "heading_tag": "h3"
-          }
-        },
-        "heading_rBV9ab": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "A MA MANIÉRE D.C",
-            "heading_tag": "h2"
           }
         },
         "richtext_V3crbK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Highlighted as “a streetwear empire’s crown jewel,” A Ma Maniére D.C. is celebrated not only for its refined three-story layout and elevated hospitality, but for the lifestyle-driven environment it creates. Each floor is designed as an immersive space where global luxury designers, emerging independent voices, and thoughtful storytelling come together to form a complete experience—one that invites guests to feel, explore, and imagine beyond the product itself.</p>",
+            "content": "<p>The Original Issue is a Black History Month series from The Whitaker Group honoring Black fashion pioneers whose influence shaped global style long before it was named, credited, or claimed elsewhere.</p>",
             "text_color": "#535353"
           }
         },
@@ -747,7 +678,7 @@
           "settings": {
             "style": "solid",
             "text": "READ ARTICLE",
-            "url": "shopify://blogs/editorials/the-new-york-times-50-best-clothing-stores-in-america",
+            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
             "background": "",
             "text_color": ""
           }
@@ -756,159 +687,43 @@
       "block_order": [
         "subheading_jmzUa4",
         "heading_h3aKYA",
-        "heading_rBV9ab",
         "richtext_V3crbK",
         "button_GCQJcU"
       ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "name": "BLOG HIGHLIGHT",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/AMM-NYT_Grid.2.png",
-        "mobile_image": "shopify://shop_images/AMM-NYT_Grid.2.png",
+        "image": "shopify://shop_images/D1.png",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
         "video_controls": false,
         "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
+        "image_position": "end",
+        "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
     },
-    "176076770152fa2223": {
-      "type": "_blocks",
-      "settings": {}
-    },
     "media_grid_DzxzqH": {
       "type": "media-grid",
       "blocks": {
-        "image_qa3TnM": {
-          "type": "image",
+        "video_AfzNrQ": {
+          "type": "video",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC03703_DC_copy_24_1.jpg",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "OUTERWEAR",
-            "link_url": "https://www.a-ma-maniere.com/pages/outerwear",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_U6Am3q": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/HATGRID.jpg",
-            "column_count": "8",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "BEANIES",
-            "link_url": "shopify://collections/new-hats",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_MHFH6K": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ERD.768x920.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "KNITS",
-            "link_url": "shopify://collections/new-knits",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_MjnGXF": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMM1069X900.jpg",
-            "column_count": "8",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "HOODIES",
-            "link_url": "shopify://collections/hoodies",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_HQP6pW": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/STRADAGBRUSHEDBOOT-4_3e53f4cf-ce8a-41aa-8338-3ed96f051b81_dark_background.png",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "BOOTS",
-            "link_url": "shopify://collections/new-boots",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_a39rUW": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/12_Shotbycozyy.jpg",
+            "video": "shopify://files/videos/AMA STUSSY.mov",
+            "autoplay": true,
+            "show_controls": false,
             "column_count": "12",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "JACKETS",
-            "link_url": "shopify://collections/jackets",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/stussy",
             "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_EEcWhz": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/jacquemus2.jpg",
-            "column_count": "3",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "JACQUEMUS",
-            "link_url": "shopify://collections/jacquemus",
-            "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -916,25 +731,25 @@
         }
       },
       "block_order": [
-        "image_qa3TnM",
-        "image_U6Am3q",
-        "image_MHFH6K",
-        "image_MjnGXF",
-        "image_HQP6pW",
-        "image_a39rUW",
-        "image_EEcWhz"
+        "video_AfzNrQ"
       ],
+      "disabled": true,
+      "name": "VIDEO IN GRID",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "desktop_row_height": 410,
-        "mobile_row_height": 180,
+        "mobile_row_height": 450,
         "section_width": "full",
         "spacing": "xs",
         "subheading": "",
-        "title": "FEATURED COLLECTIONS",
+        "title": "NEW ARRIVALS FROM STÜSSY",
         "content": ""
       }
+    },
+    "176076770152fa2223": {
+      "type": "_blocks",
+      "settings": {}
     },
     "blog_posts_XjJCVj": {
       "type": "blog-posts",
@@ -1104,22 +919,22 @@
     }
   },
   "order": [
-    "176075966993f87866",
+    "media_grid_dcKXGR",
     "slideshow_QGYQ6e",
-    "split_media_heo_GynGer",
-    "releases_LeDFdB",
+    "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
-    "split_media_heo_AefUWr",
     "featured_collections_RwpkEJ",
+    "media_grid_ik3yVY",
+    "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
     "before-after",
     "collection_list_cLGdiA",
-    "multiple_media_with_text_Lgp4CV",
-    "blocks_xhmELd",
     "featured_collections_WMah7x",
+    "media_grid_JJfcQ6",
+    "blocks_xhmELd",
     "image_with_text_4rzGhq",
-    "176076770152fa2223",
     "media_grid_DzxzqH",
+    "176076770152fa2223",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",
