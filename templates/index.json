@@ -272,6 +272,7 @@
         "image_GMiDPM",
         "image_HJjrwi"
       ],
+      "disabled": true,
       "name": "NB 1890",
       "settings": {
         "color_scheme": "",
