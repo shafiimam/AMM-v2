@@ -45,6 +45,7 @@
         "video_7KtAwk": {
           "type": "video",
           "name": "NON DND",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMM 1.mov",
             "mobile_video": "shopify://files/videos/AMM 1.mov",
