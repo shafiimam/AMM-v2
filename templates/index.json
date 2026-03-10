@@ -20,7 +20,7 @@
             "mobile_image": "shopify://shop_images/dndamm.png",
             "subheading": "<p><strong>available march 20</strong></p>",
             "subheading_size": 17,
-            "title": "<p><strong>do not duplicate: <br/>houston rodeo pack </strong></p>",
+            "title": "<h1><strong>do not duplicate: <br/>houston rodeo pack </strong></h1>",
             "title_size": 26,
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
