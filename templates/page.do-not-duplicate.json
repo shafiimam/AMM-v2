@@ -22,9 +22,9 @@
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
       "settings": {
-        "image": "shopify://shop_images/aj4cover2.jpg",
+        "image": "shopify://shop_images/ammdnd3.png",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
-        "title": "A Ma Maniére x Air Jordan 4 \"Dark Mocha\"",
+        "title": "",
         "title_color": "#ffffff",
         "title_color_mobile": "#ffffff",
         "title_shadow": 17,
@@ -54,12 +54,13 @@
         "heading_HiTgQk": {
           "type": "heading",
           "settings": {
-            "text": "<em>Built for This: Homecoming</em>",
+            "text": "Do Not duplicate",
             "heading_tag": "h2"
           }
         },
         "heading_mgQ8rU": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "A Ma Maniére x Air Jordan 4 \"Dark Mocha\"",
             "heading_tag": "h3"
@@ -68,27 +69,18 @@
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>A Ma Maniére and Jordan Brand present </strong><em><strong>Built For This: Homecoming</strong></em><strong> — a chapter rooted in reflection, gratitude, and earned acknowledgment. This moment honors the journey, the weight of the work, and the stories that shaped it. Homecoming reframes celebration not as an escape, but as a truth revealed: every step meant something, every sacrifice left its mark. The work mattered—and now, the feeling is the proof.<br/></strong><em><strong><br/></strong></em><strong>The A Ma Maniére x Air Jordan 4 “Dark Mocha” is a refined expression of craftsmanship. Dark mocha nubuck brings richness and depth, while tonal hardware and reworked wings and netting create a clean, architectural feel. Visible Air cushioning keeps the silhouette grounded in comfort, and the signature quilted lining adds a final layer of sophistication true to A Ma Maniére’s design ethos.</strong><em><strong><br/><br/></strong></em><strong>Releasing alongside the footwear are A Ma Maniére’s accessories: the Leather Tote and Leather Pouch in soft full-grain leather, the Signature Scarf featuring a bandana-inspired pattern. All accessories will also be offered through raffle. The nylon outerwear collection includes the Puffer Jacket, Coaches Jacket, Nylon Varsity, Nylon Jacket and Nylon Pants, each designed with smooth finishes, refined lines and silhouettes made for everyday movement.<br/><br/></strong></p><p></p>",
+            "content": "<p>The Whitaker Group and adidas present Do Not Duplicate, a cultural platform grounded in individuality, creative authorship, and the lived experiences that shape how people move through sport and culture.<br/><br/>The first expression of Do Not Duplicate draws inspiration from the grit, craft, and enduring traditions of the Houston Rodeo, where instinct, timing, and discipline define every moment. For generations, rodeo culture has reflected qualities systems cannot reproduce. Feel. Precision. The ability to read a moment and move with conviction.<br/>Retail ranges from $150–$240 USD.<br/><br/>Enter the EQL draw now through March 16 at 3 PM EST for the opportunity to secure your pair ahead of the March 20 release across A Ma Maniére, Social Status, APB, and JAIDE.<br/><br/><strong>Individuality Cannot Be Reproduced</strong><br/>Within Do Not Duplicate, individuality is revealed through instinct and intention.<br/><br/>The individuals shaping culture are not repeating patterns. They are guided by lived experience and the discipline to recognize a moment before it becomes obvious. Expression emerges through perspective and conviction rather than imitation.<br/><br/><strong>A Reflection of Culture</strong><br/>Culture evolves through individuals who see differently.<br/><br/>The traditions that inspire Do Not Duplicate reflect a balance of craft, discipline, and instinct. Within the world of the Houston Rodeo, these qualities determine every outcome, shaping moments that cannot be predicted or replicated.<br/><br/><strong>A Commitment to Individuality</strong><br/>At its core, Do Not Duplicate reflects a commitment to personal authorship.<br/><br/>The Houston Rodeo Pack translates the visual language of Western riding culture into adidas Originals silhouettes through hair-on leather panels, croc-embossed textures, suede overlays, and metal stud detailing.<br/><br/>Each pair carries the Do Not Duplicate chain tag, marking the platform and its message of individuality.<br/><br/><strong>The Expression Continues</strong><br/>The Houston Rodeo Pack marks the beginning of the Do Not Duplicate platform.<br/><br/>Additional expressions will continue to explore how instinct, perseverance, and lived experience shape the way individuals move through sport and culture.</p><p></p>",
             "text_color": "#eaeaea"
           }
         },
         "button_jJg4wY": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "style": "solid",
-            "text": "ENTER RAFFLE",
-            "url": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-air-jordan-4-retro-og-sp-dark-mocha",
+            "text": "ENTER Draw",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
             "background": "",
             "text_color": ""
-          }
-        },
-        "countdown_cDXnhg": {
-          "type": "countdown",
-          "settings": {
-            "final_date": "19-12-2025",
-            "final_time": "11:00",
-            "start_countdown": true
           }
         },
         "richtext_EkJ7B3": {
@@ -104,7 +96,6 @@
         "heading_mgQ8rU",
         "richtext_Pdk9a9",
         "button_jJg4wY",
-        "countdown_cDXnhg",
         "richtext_EkJ7B3"
       ],
       "custom_css": [
@@ -116,16 +107,17 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/shoe1.jpg",
+        "image": "shopify://shop_images/f504_33b26d58-527f-4976-beed-ae11ec5aee74.png",
+        "mobile_image": "shopify://shop_images/f504_dbcaa5e4-25fa-45a4-94aa-d31a0aacd212.png",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
         "video_controls": false,
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "start",
-        "content_width": "lg",
+        "content_width": "md",
         "remove_vertical_spacing": false,
-        "remove_top_padding": true
+        "remove_top_padding": false
       }
     },
     "video_yGaVhn": {
@@ -155,14 +147,14 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
-        "mobile_video": "shopify://files/videos/Campaign Video 1 No Logo.mov",
+        "video": "shopify://files/videos/MBTS4k H.265.mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
     },
     "3d_gallery_iMKpxA": {
       "type": "3d-gallery",
+      "disabled": true,
       "name": "3D Gallery",
       "settings": {
         "title": "A Closer Look",
@@ -187,7 +179,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/27_CL_1.jpg",
+            "image": "shopify://shop_images/al_l_df645f39-9e73-4b98-b501-a85d52d159bf.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -205,7 +197,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/aj41.jpg",
+            "image": "shopify://shop_images/99.png",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -219,12 +211,12 @@
             "overlay_opacity": 0
           }
         },
-        "image_UfiUPV": {
+        "image_YPima3": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/netting.jpg",
-            "column_count": "3",
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/44.png",
+            "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -241,7 +233,25 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/totenpouch.jpg",
+            "image": "shopify://shop_images/98.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UfiUPV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/45.png",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -257,6 +267,7 @@
         },
         "image_azJwxY": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/soleaj4.jpg",
@@ -275,6 +286,7 @@
         },
         "image_Bb7rAP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/vjacket2.jpg",
@@ -291,26 +303,9 @@
             "overlay_opacity": 0
           }
         },
-        "image_YPima3": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/aj4cover1_0127ad09-e487-478b-b3f3-d382feafd0b5.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "image_3Db9UK": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/detail_d01cc77e-3aca-4ec6-bdf6-64e1ee16d5f9.jpg",
@@ -327,8 +322,28 @@
             "overlay_opacity": 0
           }
         },
+        "image_LXNzK9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/detail_d01cc77e-3aca-4ec6-bdf6-64e1ee16d5f9.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "image_MHAJQT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/scarf.jpg",
@@ -347,6 +362,7 @@
         },
         "image_3xwUtz": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/limo2.jpg",
@@ -367,7 +383,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/sole2.jpg",
+            "image": "shopify://shop_images/cow1.png",
             "column_count": "12",
             "row_count": 1,
             "title": "",
@@ -385,12 +401,13 @@
       "block_order": [
         "image_LfqrwC",
         "image_Fw9AEQ",
-        "image_UfiUPV",
+        "image_YPima3",
         "image_phtcL7",
+        "image_UfiUPV",
         "image_azJwxY",
         "image_Bb7rAP",
-        "image_YPima3",
         "image_3Db9UK",
+        "image_LXNzK9",
         "image_MHAJQT",
         "image_3xwUtz",
         "image_iWhfJp"
@@ -603,6 +620,7 @@
         "image_cVQmCb",
         "image_dLC688"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
