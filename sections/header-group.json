@@ -121,14 +121,13 @@
         },
         "release_KPd8WR": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "3.20",
             "release_image": "shopify://shop_images/HANDBALLSPEZIALCREAMSNAKESKIN-1.jpg",
             "product_title": "HANDBALL SPEZIAL HOUSTON RODEO \"SNAKESKIN BROWN/WHITE\"",
             "product_vendor": "adidas",
-            "product_price": "$240",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-handball-spezial-houston-rodeo-snakeskin-brownwhite"
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-do-not-duplicate-handball-spezial-houston-rodeo-snakeskin-brownwhite"
           }
         },
         "release_tw94g8": {
@@ -155,14 +154,13 @@
         },
         "release_RgpLM4": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "3.20",
             "release_image": "shopify://shop_images/KK5007HANDBALLSPEZIALBROWNSNAKESKIN-1.jpg",
-            "product_title": "HANDBALL SPEZIAL HOUSTON RODEO \"SNAKESKIN BROWN/BLACK\"",
+            "product_title": "WOMEN'S HANDBALL SPEZIAL HOUSTON RODEO \"SNAKESKIN BROWN/BLACK\"",
             "product_vendor": "adidas",
-            "product_price": "$240",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-handball-spezial-houston-rodeo-snakeskin-brownblack"
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-do-not-duplicate-handball-spezial-houston-rodeo-snakeskin-brownblack"
           }
         },
         "release_DqjLkP": {
