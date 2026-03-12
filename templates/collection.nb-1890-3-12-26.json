@@ -47,6 +47,7 @@
         "play_4YPpDb",
         "heading_EizRw3"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
@@ -64,7 +65,7 @@
         "image_card_xbb6z4": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/NBABZORB2010V2.png",
+            "image": "shopify://shop_images/DSC00285_DC_1.jpg",
             "button_text": "",
             "button_url": "",
             "product_index": 5,
@@ -104,14 +105,14 @@
         "heading_MAfpmm": {
           "type": "heading",
           "settings": {
-            "text": "New balance MADE IN UK 991v2 GROUNDED PASTELS “GREEN”",
+            "text": "NEW BALANCE ABZORB 1890 STARBURST",
             "heading_tag": "h1"
           }
         },
         "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong> </strong>The 991v2 becomes a symbol of local identity, creative rhythm, and purposeful style. Crafted and unified in premium suede patterns all over the upper, with a sturdy cream midsole bringing together comfort and style.  </p>",
+            "content": "<p>Balancing heritage with contemporary design, the silhouette pairs responsive ABZORB cushioning with purposeful structure for everyday wear, resulting in a forward expression of New Balance performance and form recognized early by those who move with intention.</p>",
             "text_color": "#535353"
           }
         }
@@ -129,8 +130,12 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/NBGREEN.png",
-        "mobile_image": "shopify://shop_images/NB990GREEN.png",
+        "image": "shopify://shop_images/1890nb.png",
+        "mobile_image": "shopify://shop_images/1890nb.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
