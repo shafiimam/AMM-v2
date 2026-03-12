@@ -128,6 +128,82 @@
       "disabled": true,
       "settings": {}
     },
+    "media_grid_dcKXGR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_HJjrwi": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/1890nb.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/twg-x-1890-star-burst",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GMiDPM": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/DSC09825_DC_1_copy.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "<strong>New Balance ABZORB 1890 </strong>",
+            "heading_tag": "h1",
+            "content": "<p><strong>Exclusively Available Now </strong></p>",
+            "link_text": "shop now",
+            "link_url": "shopify://products/twg-x-1890-star-burst",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ahg8KY": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC00880_DC.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/twg-x-1890-star-burst",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_HJjrwi",
+        "image_GMiDPM",
+        "image_ahg8KY"
+      ],
+      "name": "NB 1890",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 590,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
@@ -226,83 +302,6 @@
         "horizontal_spacing_factor": 0.8,
         "vertical_spacing_factor": 1,
         "subheading": ""
-      }
-    },
-    "media_grid_dcKXGR": {
-      "type": "media-grid",
-      "blocks": {
-        "image_HJjrwi": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/1890nb.png",
-            "column_count": "3",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 4
-          }
-        },
-        "image_GMiDPM": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/DSC09825_DC_1_copy.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "<strong>New Balance ABZORB 1890 </strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://collections/new-balance",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 12
-          }
-        },
-        "image_ahg8KY": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/1890.png",
-            "column_count": "3",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_HJjrwi",
-        "image_GMiDPM",
-        "image_ahg8KY"
-      ],
-      "disabled": true,
-      "name": "NB 1890",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 600,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "none",
-        "subheading": "",
-        "title": "",
-        "content": ""
       }
     },
     "featured_collections_WMah7x": {
@@ -960,9 +959,9 @@
   "order": [
     "slideshow_QGYQ6e",
     "176075966993f87866",
+    "media_grid_dcKXGR",
     "featureed_image_and_products_7MHNbK",
     "featured_collections_RwpkEJ",
-    "media_grid_dcKXGR",
     "featured_collections_WMah7x",
     "media_grid_ik3yVY",
     "multiple_media_with_text_Lgp4CV",
