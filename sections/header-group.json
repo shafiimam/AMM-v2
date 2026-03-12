@@ -121,6 +121,7 @@
         },
         "release_KPd8WR": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.20",
             "release_image": "shopify://shop_images/HANDBALLSPEZIALCREAMSNAKESKIN-1.jpg",
@@ -154,6 +155,7 @@
         },
         "release_RgpLM4": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.20",
             "release_image": "shopify://shop_images/KK5007HANDBALLSPEZIALBROWNSNAKESKIN-1.jpg",
