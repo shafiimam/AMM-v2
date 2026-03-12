@@ -231,6 +231,24 @@
     "media_grid_dcKXGR": {
       "type": "media-grid",
       "blocks": {
+        "image_HJjrwi": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/1890nb.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        },
         "image_GMiDPM": {
           "type": "image",
           "settings": {
@@ -244,33 +262,34 @@
             "link_text": "shop now",
             "link_url": "shopify://collections/new-balance",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 12
           }
         },
-        "image_HJjrwi": {
+        "image_ahg8KY": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/AMM2.png",
-            "column_count": "6",
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/1890.png",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
-            "heading_tag": "h1",
+            "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
-            "overlay_opacity": 4
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
+        "image_HJjrwi",
         "image_GMiDPM",
-        "image_HJjrwi"
+        "image_ahg8KY"
       ],
       "disabled": true,
       "name": "NB 1890",
@@ -280,7 +299,7 @@
         "desktop_row_height": 600,
         "mobile_row_height": 420,
         "section_width": "full",
-        "spacing": "xs",
+        "spacing": "none",
         "subheading": "",
         "title": "",
         "content": ""
