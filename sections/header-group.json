@@ -27,6 +27,12 @@
             "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $300</strong>"
           }
         },
+        "message_cKYzUL": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>DISCOVER </strong><a href=\"https://www.off--season.com/\" title=\"https://www.off--season.com/\"><strong>SPECIAL OFFERS</strong></a><strong> at OFF-SEASON</strong>"
+          }
+        },
         "message_LyBJxq": {
           "type": "message",
           "settings": {
@@ -37,6 +43,7 @@
       "block_order": [
         "message_qVBqJF",
         "message-1",
+        "message_cKYzUL",
         "message_LyBJxq"
       ],
       "custom_css": [
