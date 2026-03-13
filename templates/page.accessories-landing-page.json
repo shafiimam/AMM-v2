@@ -136,13 +136,13 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "resort-accessoires",
+            "collection": "sunglasses",
             "expand_collection": false,
             "content_position": "place-self-start-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "RESORT ACCESSORIES",
-            "button_link": "",
+            "button_text": "sunglasses",
+            "button_link": "shopify://collections/sunglasses",
             "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 5
@@ -152,13 +152,13 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "socks",
+            "collection": "new-hats",
             "expand_collection": false,
             "content_position": "place-self-start-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "SOCKS",
-            "button_link": "",
+            "button_text": "hats",
+            "button_link": "shopify://collections/new-hats",
             "button_style": "solid",
             "overlay_color": "#000000",
             "overlay_opacity": 5
@@ -170,7 +170,7 @@
         "collection_48ky8y",
         "collection_fQR6QK"
       ],
-      "name": "OTHER HOLIDAY",
+      "name": "spring grid ",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -183,6 +183,48 @@
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "featured_collections_Dtrtbp": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_7VVCVQ": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "new-hats",
+            "products_count": 14,
+            "title": "HATS",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "collection_KDQ3tA": {
+          "type": "collection",
+          "settings": {
+            "collection": "books",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/books",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_7VVCVQ",
+        "collection_KDQ3tA"
+      ],
+      "name": "books",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
       }
     },
     "image_with_text_WNJqFW": {
@@ -218,6 +260,7 @@
         "richtext_UDf7cz",
         "button_pTk7rU"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
@@ -298,7 +341,6 @@
         "before_JqNGTR",
         "after_3kLndA"
       ],
-      "disabled": true,
       "name": "t:sections.before_after.presets.before_after.name",
       "settings": {
         "color_scheme": "",
@@ -306,40 +348,10 @@
         "subheading": "",
         "title": "find your shade",
         "content": "",
-        "cursor_direction": "vertical",
+        "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
         "cursor_arrows_color": "#000000"
-      }
-    },
-    "featured_collections_Dtrtbp": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_7VVCVQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-hats",
-            "products_count": 14,
-            "title": "HATS",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_7VVCVQ"
-      ],
-      "name": "HATS",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.6,
-        "subheading": ""
       }
     },
     "3d_gallery_fKkNmV": {
@@ -368,10 +380,10 @@
     "rich_text_xwKKEF",
     "accessories_image_with_text_eabtxK",
     "collection_list_xgcU7w",
-    "image_with_text_WNJqFW",
-    "featured_collections_e4qJwn",
     "before_after_zNnGJf",
     "featured_collections_Dtrtbp",
+    "image_with_text_WNJqFW",
+    "featured_collections_e4qJwn",
     "3d_gallery_fKkNmV"
   ]
 }
