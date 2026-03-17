@@ -9,69 +9,43 @@
  */
 {
   "sections": {
-    "media_grid_dcKXGR": {
-      "type": "media-grid",
-      "blocks": {
-        "image_GMiDPM": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/AMM4.png",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "<strong>New Balance ABZORB 1890 </strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "ENTER DRAW",
-            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 12
-          }
-        },
-        "image_HJjrwi": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/AMM2.png",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "<strong>LAUNCHES FIRST MARCH 12</strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 4
-          }
-        }
-      },
-      "block_order": [
-        "image_GMiDPM",
-        "image_HJjrwi"
-      ],
-      "name": "NB 1890",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 600,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_H4DjaV": {
+          "type": "image",
+          "name": "dnd rodeo",
+          "settings": {
+            "image": "shopify://shop_images/ammdnd3.png",
+            "mobile_image": "shopify://shop_images/dndamm.png",
+            "subheading": "<p><strong>available march 20</strong></p>",
+            "subheading_size": 17,
+            "title": "<h1><strong>do not duplicate: <br/>houston rodeo pack </strong></h1>",
+            "title_size": 23,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 900,
+            "button_1_text": "",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#1c1c1c",
+            "button_2_text": "Continue the story",
+            "button_2_link": "shopify://pages/do-not-duplicate-houston-rodeo",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_7KtAwk": {
           "type": "video",
           "name": "NON DND",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/AMM 1.mov",
             "mobile_video": "shopify://files/videos/AMM 1.mov",
@@ -98,37 +72,6 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
-          }
-        },
-        "image_H4DjaV": {
-          "type": "image",
-          "name": "GOADOMES",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/28_CL.jpg",
-            "mobile_image": "shopify://shop_images/21_CL.jpg",
-            "subheading": "",
-            "subheading_size": 12,
-            "title": "<p><strong>NIKE AIR MAX GOADOME LOW SP</strong></p>",
-            "title_size": 31,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/nike-lab",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#1c1c1c",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 24,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
         "image_Cj4r6y": {
@@ -164,8 +107,8 @@
         }
       },
       "block_order": [
-        "video_7KtAwk",
         "image_H4DjaV",
+        "video_7KtAwk",
         "image_Cj4r6y"
       ],
       "settings": {
@@ -191,25 +134,25 @@
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-mainline-outershirt-milk-plaid"
+            "product": "loewe-loose-fit-tee"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-mainline-geth-cargo-pants-dust-grey"
+            "product": "loewe-cargo-trousers-black"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-mainline-brad-t-shirt-white"
+            "product": "loewe-zip-up-hoodie-dark-grey"
           }
         },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "6-premimum-boot-1"
+            "product": "dnd-gazelle-indoor"
           }
         }
       },
@@ -219,16 +162,91 @@
         "product_8q4ahn",
         "product_wBMWzJ"
       ],
-      "disabled": true,
       "name": "RICK OWENS PRODUCT",
       "settings": {
         "section_alignment": "left",
         "title": "",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/rick3_d6ad7058-6c36-485f-bf18-1f7bf21bac61.png",
-        "image_description": "<p>Moncler function meets Rick Owens attitude in statement winter layers. This season balance function and fashion, engineered for cold weather but designed with Rick Owens’ unmistakable edge. Engineered for cold. Designed to stand apart.</p>",
+        "image": "shopify://shop_images/loewe3.png",
+        "image_description": "<p>Discover premium tees, lightweight trousers, and seasonal accessories designed for warmer days. Explore new arrivals from Loewe, Gallery Dept., Y-3, and Casablanca.</p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/rick-owens"
+        "image_cta_url": "shopify://collections/new-arrivals"
+      }
+    },
+    "media_grid_ik3yVY": {
+      "type": "media-grid",
+      "blocks": {
+        "image_JTDYmT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/galleryd.png",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "gallery dept.",
+            "link_url": "shopify://collections/gallery-dept",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hLUDwn": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC09153_DC.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "rivington",
+            "link_url": "shopify://collections/rivington-4",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MYRCL9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/accessories_9e969a4e-13ad-40e1-b7ad-29eec6aba4c7.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "BALENCIAGA",
+            "link_url": "shopify://collections/balenciaga",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_JTDYmT",
+        "image_hLUDwn",
+        "image_MYRCL9"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 600,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "featured_collections_RwpkEJ": {
@@ -285,60 +303,103 @@
         "subheading": ""
       }
     },
-    "media_grid_ik3yVY": {
+    "media_grid_dcKXGR": {
       "type": "media-grid",
       "blocks": {
-        "image_MYRCL9": {
+        "image_GMiDPM": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/accessories_9e969a4e-13ad-40e1-b7ad-29eec6aba4c7.png",
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/DSC09825_DC_1_copy.jpg",
             "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "ACCESSORIES",
-            "link_url": "shopify://collections/new-accessories",
+            "row_count": 2,
+            "title": "<strong>New Balance ABZORB 1890 </strong>",
+            "heading_tag": "h1",
+            "content": "<p>Exclusively Available Now </p>",
+            "link_text": "shop now",
+            "link_url": "shopify://products/twg-x-1890-star-burst",
             "link_style": "solid",
             "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_JTDYmT": {
+        "image_ahg8KY": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ripamm.png",
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC00880_DC.jpg",
             "column_count": "6",
-            "row_count": 1,
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
-            "link_text": "footwear",
-            "link_url": "shopify://collections/sneakers",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
+            "link_text": "",
+            "link_url": "shopify://products/twg-x-1890-star-burst",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_MYRCL9",
-        "image_JTDYmT"
+        "image_GMiDPM",
+        "image_ahg8KY"
       ],
+      "name": "NB 1890",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "desktop_row_height": 600,
+        "desktop_row_height": 410,
         "mobile_row_height": 420,
         "section_width": "full",
-        "spacing": "xs",
+        "spacing": "none",
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "featured_collections_WMah7x": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_NDmmGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-t-shirts",
+            "products_count": 8,
+            "title": "t-Shirts",
+            "link_url": "shopify://collections/new-t-shirts",
+            "link_text": "View all"
+          }
+        },
+        "collection_Q7Rc3m": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "footwear",
+            "products_count": 4,
+            "title": "Footwear",
+            "link_url": "shopify://collections/footwear",
+            "link_text": "SHOP COLLECTION"
+          }
+        }
+      },
+      "block_order": [
+        "collection_NDmmGJ",
+        "collection_Q7Rc3m"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "multiple_media_with_text_Lgp4CV": {
@@ -545,48 +606,6 @@
         "content": ""
       }
     },
-    "featured_collections_WMah7x": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_NDmmGJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-t-shirts",
-            "products_count": 8,
-            "title": "t-Shirts",
-            "link_url": "shopify://collections/new-t-shirts",
-            "link_text": "View all"
-          }
-        },
-        "collection_Q7Rc3m": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "sneakers",
-            "products_count": 4,
-            "title": "Footwear",
-            "link_url": "shopify://collections/sneakers",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_NDmmGJ",
-        "collection_Q7Rc3m"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "media_grid_JJfcQ6": {
       "type": "media-grid",
       "blocks": {
@@ -612,7 +631,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/blackboot1.png",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -631,6 +649,7 @@
         "image_MarDnt",
         "image_3mUUea"
       ],
+      "disabled": true,
       "name": "sweats/boots collections",
       "settings": {
         "color_scheme": "",
@@ -919,17 +938,17 @@
     }
   },
   "order": [
-    "media_grid_dcKXGR",
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
-    "featured_collections_RwpkEJ",
     "media_grid_ik3yVY",
+    "featured_collections_RwpkEJ",
+    "media_grid_dcKXGR",
+    "featured_collections_WMah7x",
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
     "before-after",
     "collection_list_cLGdiA",
-    "featured_collections_WMah7x",
     "media_grid_JJfcQ6",
     "blocks_xhmELd",
     "image_with_text_4rzGhq",

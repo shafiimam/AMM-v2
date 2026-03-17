@@ -46,7 +46,7 @@
           "settings": {
             "style": "solid",
             "text": "See All",
-            "url": "shopify://collections/sneakers",
+            "url": "shopify://collections/footwear",
             "background": "",
             "text_color": ""
           }

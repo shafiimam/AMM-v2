@@ -1,0 +1,153 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_size": "lg",
+        "allow_transparent_header": false,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_image": false,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_breadcrumb": true,
+        "content_width": "full",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "video_BMBRUt": {
+      "type": "video",
+      "blocks": {
+        "play_4YPpDb": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_EizRw3": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_4YPpDb",
+        "heading_EizRw3"
+      ],
+      "disabled": true,
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "fill",
+        "video": "shopify://files/videos/4k NB NO LOG WEB.mov",
+        "mobile_video": "shopify://files/videos/4k NB NO LOG WEB.mov",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "image_card_xbb6z4": {
+          "type": "image_card",
+          "settings": {
+            "image": "shopify://shop_images/DSC00285_DC_1.jpg",
+            "button_text": "",
+            "button_url": "",
+            "product_index": 5,
+            "column_span": 2,
+            "row_span": 2,
+            "button_style": "solid",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_xbb6z4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 25,
+        "products_per_row_mobile": "1",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "image_with_text_jLdmmU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MAfpmm": {
+          "type": "heading",
+          "settings": {
+            "text": "NEW BALANCE ABZORB 1890 STARBURST",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nmR43n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Balancing heritage with contemporary design, the silhouette pairs responsive ABZORB cushioning with purposeful structure for everyday wear, resulting in a forward expression of New Balance performance and form recognized early by those who move with intention.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAfpmm",
+        "richtext_nmR43n"
+      ],
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/1890nb.png",
+        "mobile_image": "shopify://shop_images/1890nb.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "video_BMBRUt",
+    "main",
+    "image_with_text_jLdmmU"
+  ]
+}
