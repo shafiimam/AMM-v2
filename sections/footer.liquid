@@ -124,7 +124,7 @@
                         {%- render 'input', name: 'contact[email]', label: input_label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
 
                         <div class="align-self-start">
-                          {%- assign button_label = block.settings.button_label | default: 'general.newsletter.subscribe' | t -%}
+                          {%- assign button_label = block.settings.button_label | default: 'Subscribe' -%}
                           {%- render 'button', type: 'submit', content: button_label, background: block.settings.button_background, text_color: block.settings.button_text_color -%}
                         </div>
                       {%- endif -%}
@@ -391,7 +391,7 @@
           "id": "button_label",
           "label": "Button Label",
           "info": "Custom text for the subscribe button. Leave empty to use default 'Subscribe' text.",
-          "placeholder": "Subscribe"
+          "default": "Subscribe"
         },
         {
           "type": "color",
