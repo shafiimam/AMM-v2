@@ -202,6 +202,17 @@
             "product_price": "$220",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-liquid-max-blackchromegreen-apple"
           }
+        },
+        "release_DjJNYX": {
+          "type": "release",
+          "settings": {
+            "release_title": "3.27",
+            "release_image": "shopify://shop_images/AIRLIQUIDMAX_BLACK_CHROME_GREENAPPLE_-1.jpg",
+            "product_title": "NIKE AIR FOAMPOSITE PRO \"UNIVERSITY BLUE\"",
+            "product_vendor": "NIKE",
+            "product_price": "$240",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-foamposite-pro-university-blue"
+          }
         }
       },
       "block_order": [
@@ -216,7 +227,8 @@
         "release_RgpLM4",
         "release_DqjLkP",
         "release_C6KbQy",
-        "release_Jxbfyh"
+        "release_Jxbfyh",
+        "release_DjJNYX"
       ],
       "settings": {
         "color_scheme": "scheme-2",
