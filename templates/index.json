@@ -369,7 +369,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "sneakers",
+            "collection": "footwear",
             "products_count": 8,
             "title": "FOOTWEAR",
             "link_url": "",
