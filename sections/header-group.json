@@ -106,80 +106,101 @@
         },
         "release_nAhaJK": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "3.12",
-            "release_image": "shopify://shop_images/NB1890YLWBLK-1.jpg",
-            "product_title": "NEW BALANCE ABZORB 1890",
-            "product_vendor": "NEW BALANCE",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-1890-star-burst"
+            "release_title": "3.19",
+            "release_image": "shopify://shop_images/LXOLDSKOOL36PEARLIZED_BLACK_NAVY_-1.jpg",
+            "product_title": "VANS PREMIUM LX OLD SKOOL 36 PEARLIZED \"BLACK/NAVY\"",
+            "product_vendor": "VANS",
+            "product_price": "$130",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-premium-lx-old-skool-36-pearlized-blacknavy"
           }
         },
         "release_Ubn9R7": {
           "type": "release",
           "settings": {
-            "release_title": "3.20",
-            "release_image": "shopify://shop_images/F50SNAKESKINLIME-1.jpg",
-            "product_title": "WOMEN'S F50 ADIFRAME HOUSTON RODEO \"SNAKESKIN BROWN\"",
-            "product_vendor": "adidas",
-            "product_price": "$240",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-do-not-duplicate-f50-adiframe-houston-rodeo-snakeskin-brown"
+            "release_title": "3.19",
+            "release_image": "shopify://shop_images/LXCLASSICSLIP-ON98PEARLIZEDINDIGO-1.jpg",
+            "product_title": "VANS LX PREMIUM SLIP-ON 98 PEARLIZED INDIGO",
+            "product_vendor": "VANS",
+            "product_price": "$110",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-lx-premium-slip-on-98-pearlized-indigo"
           }
         },
         "release_KPd8WR": {
           "type": "release",
           "settings": {
-            "release_title": "3.20",
-            "release_image": "shopify://shop_images/HANDBALLSPEZIALCREAMSNAKESKIN-1.jpg",
-            "product_title": "WOMEN'S HANDBALL SPEZIAL HOUSTON RODEO \"SNAKESKIN BROWN/WHITE\"",
-            "product_vendor": "adidas",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-do-not-duplicate-handball-spezial-houston-rodeo-snakeskin-brownwhite"
+            "release_title": "3.19",
+            "release_image": "shopify://shop_images/LXCLASSICSLIPON98_PEARLIZEDCAMO_BLACK_-1.jpg",
+            "product_title": "VANS LX PREMIUM SLIP ON 98 \"PEARLIZED CAMO/BLACK\"",
+            "product_vendor": "VANS",
+            "product_price": "$110",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-lx-premium-slip-on-98-pearlized-camoblack"
           }
         },
         "release_tw94g8": {
           "type": "release",
           "settings": {
-            "release_title": "3.20",
-            "release_image": "shopify://shop_images/BWARMYBROWNCOW-1.jpg",
-            "product_title": "BW ARMY HOUSTON RODEO \"BROWN/WONDER WHITE/CREAM\"",
-            "product_vendor": "adidas",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-bw-army-houston-rodeo-brownwonder-whitecream"
+            "release_title": "3.21",
+            "release_image": "shopify://shop_images/AJ14UNIVERSITYBLU-1.jpg",
+            "product_title": "AIR JORDAN 14 RETRO \"BLACK/UNIVERSITY BLUE\"",
+            "product_vendor": "JORDAN BRAND",
+            "product_price": "$205",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-14-retro-blackuniversity-blue"
           }
         },
         "release_eVw43f": {
           "type": "release",
           "settings": {
-            "release_title": "3.20",
-            "release_image": "shopify://shop_images/BWARMYBLKBEIGE-1.jpg",
-            "product_title": "BW ARMY HOUSTON RODEO \"BLACK/WONDER WHITE\"",
+            "release_title": "3.21",
+            "release_image": "shopify://shop_images/PHARELLXADIZEROBROWNBLK-1.jpg",
+            "product_title": "ADIDAS PHARRELL WILLIAMS ADIZERO EVO SL",
             "product_vendor": "adidas",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-bw-army-houston-rodeo-blackwonder-white"
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-adizero-evo-sl"
           }
         },
         "release_RgpLM4": {
           "type": "release",
           "settings": {
-            "release_title": "3.20",
-            "release_image": "shopify://shop_images/KK5007HANDBALLSPEZIALBROWNSNAKESKIN-1.jpg",
-            "product_title": "WOMEN'S HANDBALL SPEZIAL HOUSTON RODEO \"SNAKESKIN BROWN/BLACK\"",
+            "release_title": "3.25",
+            "release_image": "shopify://shop_images/THUGCLUBXSUPERSTARVINTAGE_BLACK_-1.jpg",
+            "product_title": "ADIDAS SUPERSTAR VINTAGE X THUG CLUB \"BLACK\"",
             "product_vendor": "adidas",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-do-not-duplicate-handball-spezial-houston-rodeo-snakeskin-brownblack"
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-superstar-vintage-x-thug-club-black"
           }
         },
         "release_DqjLkP": {
           "type": "release",
           "settings": {
-            "release_title": "3.20",
-            "release_image": "shopify://shop_images/BWARMYWHTGUM-1.jpg",
-            "product_title": "DO NOT DUPLICATE BW ARMY HOUSTON RODEO \"WONDER WHITE/CREAM\"",
-            "product_vendor": "adidas",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-bw-army-houston-rodeo-wonder-whitecream"
+            "release_title": "3.26",
+            "release_image": "shopify://shop_images/AM95PAISLEYNEON-1.jpg",
+            "product_title": "NIKE AIR MAX 95 BIG BUBBLE \"PAISLEY NEON\"",
+            "product_vendor": "NIKE",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-paisley-neon"
+          }
+        },
+        "release_C6KbQy": {
+          "type": "release",
+          "settings": {
+            "release_title": "3.26",
+            "release_image": "shopify://shop_images/AM95GREEDYBB-1.jpg",
+            "product_title": "NIKE AIR MAX 95 BIG BUBBLE \"GREEDY\"",
+            "product_vendor": "NIKE",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-greedy"
+          }
+        },
+        "release_Jxbfyh": {
+          "type": "release",
+          "settings": {
+            "release_title": "3.26",
+            "release_image": "shopify://shop_images/AIRLIQUIDMAX_BLACK_CHROME_GREENAPPLE_-1.jpg",
+            "product_title": "NIKE AIR LIQUID MAX \"BLACK/CHROME/GREEN APPLE\"",
+            "product_vendor": "NIKE",
+            "product_price": "$220",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-liquid-max-blackchromegreen-apple"
           }
         }
       },
@@ -193,7 +214,9 @@
         "release_tw94g8",
         "release_eVw43f",
         "release_RgpLM4",
-        "release_DqjLkP"
+        "release_DqjLkP",
+        "release_C6KbQy",
+        "release_Jxbfyh"
       ],
       "settings": {
         "color_scheme": "scheme-2",
