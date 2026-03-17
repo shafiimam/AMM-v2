@@ -25,7 +25,7 @@
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 900,
-            "button_1_text": "enter draw",
+            "button_1_text": "",
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
