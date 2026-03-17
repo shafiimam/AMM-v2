@@ -377,10 +377,10 @@
           "type": "collection",
           "disabled": true,
           "settings": {
-            "collection": "sneakers",
+            "collection": "footwear",
             "products_count": 4,
             "title": "Footwear",
-            "link_url": "shopify://collections/sneakers",
+            "link_url": "shopify://collections/footwear",
             "link_text": "SHOP COLLECTION"
           }
         }
