@@ -106,6 +106,7 @@
         },
         "release_nAhaJK": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.19",
             "release_image": "shopify://shop_images/LXOLDSKOOL36PEARLIZED_BLACK_NAVY_-1.jpg",
@@ -117,6 +118,7 @@
         },
         "release_Ubn9R7": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.19",
             "release_image": "shopify://shop_images/LXCLASSICSLIP-ON98PEARLIZEDINDIGO-1.jpg",
@@ -128,6 +130,7 @@
         },
         "release_KPd8WR": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.19",
             "release_image": "shopify://shop_images/LXCLASSICSLIPON98_PEARLIZEDCAMO_BLACK_-1.jpg",
