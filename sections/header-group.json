@@ -195,13 +195,13 @@
         },
         "release_KPd8WR": {
           "type": "release",
-          "disabled": true,
           "settings": {
             "release_title": "3.28",
-            "product_title": "",
-            "product_vendor": "PUMA",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-lx-premium-slip-on-98-pearlized-camoblack"
+            "release_image": "shopify://shop_images/AJ3SPRING-1.jpg",
+            "product_title": "AIR JORDAN 3 OG \"SPRING IS IN THE AIR\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-og-spring-is-in-the-air"
           }
         },
         "release_Ubn9R7": {
