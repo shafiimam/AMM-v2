@@ -26,17 +26,35 @@
         "overlay_opacity": 0
       }
     },
-    "image_with_text_block_TmCWVh": {
-      "type": "image-with-text-block",
-      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+    "video_NAkGdf": {
+      "type": "video",
+      "blocks": {
+        "play_yqpKcH": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_QVEibd": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_yqpKcH",
+        "heading_QVEibd"
+      ],
+      "name": "t:sections.video.presets.video.name",
       "settings": {
-        "color_scheme": "",
-        "image_size": "md",
-        "image": "shopify://shop_images/DSC01561_BM_61ff0e7e-d321-4bec-b2c1-7974373b16fb.jpg",
-        "mobile_image": "shopify://shop_images/DSC08655_BB_1.jpg",
-        "content_width": "sm",
-        "enable_parallax": false,
-        "remove_vertical_spacing": true
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/DND Rodeo V2 4k H.265.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     },
     "main": {
@@ -92,7 +110,7 @@
         "richtext_nmR43n": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
+            "content": "<p>The Whitaker Group and adidas present Do Not Duplicate, a cultural platform grounded in individuality, creative authorship, and the lived experiences that shape how people move through sport and culture.<br/><br/>The individuals shaping culture are not repeating patterns. They are guided by lived experience and the discipline to recognize a moment before it becomes obvious. Expression emerges through perspective and conviction rather than imitation.<br/><br/>The Houston Rodeo Pack translates the visual language of Western riding culture into adidas Originals silhouettes through hair-on leather panels, croc-embossed textures, suede overlays, and metal stud detailing.</p>",
             "text_color": "#535353"
           }
         }
@@ -148,7 +166,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/BM_28.jpg",
+            "image": "shopify://shop_images/DSC06054_DC_copy.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -190,53 +208,35 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "desktop_row_height": 350,
-        "mobile_row_height": 180,
-        "section_width": "md",
-        "spacing": "md",
+        "desktop_row_height": 390,
+        "mobile_row_height": 270,
+        "section_width": "full",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
       }
     },
-    "video_NAkGdf": {
-      "type": "video",
-      "blocks": {
-        "play_yqpKcH": {
-          "type": "play",
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
-        "heading_QVEibd": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "play_yqpKcH",
-        "heading_QVEibd"
-      ],
-      "name": "t:sections.video.presets.video.name",
+    "image_with_text_block_TmCWVh": {
+      "type": "image-with-text-block",
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
-        "autoplay": true,
-        "show_controls": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/DND Rodeo V2 4k H.265.mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff"
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify://shop_images/DSC01561_BM_61ff0e7e-d321-4bec-b2c1-7974373b16fb.jpg",
+        "mobile_image": "shopify://shop_images/DSC08655_BB_1.jpg",
+        "content_width": "sm",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
       }
     }
   },
   "order": [
     "collection-banner",
-    "image_with_text_block_TmCWVh",
+    "video_NAkGdf",
     "main",
     "image_with_text_jLdmmU",
     "media_grid_wGyTFz",
-    "video_NAkGdf"
+    "image_with_text_block_TmCWVh"
   ]
 }
