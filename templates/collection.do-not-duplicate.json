@@ -32,51 +32,11 @@
       "settings": {
         "color_scheme": "",
         "image_size": "md",
-        "image": "shopify://shop_images/DSC08655_BB_1.jpg",
+        "image": "shopify://shop_images/DSC01561_BM_61ff0e7e-d321-4bec-b2c1-7974373b16fb.jpg",
         "mobile_image": "shopify://shop_images/DSC08655_BB_1.jpg",
         "content_width": "sm",
         "enable_parallax": false,
         "remove_vertical_spacing": true
-      }
-    },
-    "image_with_text_jLdmmU": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_MAfpmm": {
-          "type": "heading",
-          "settings": {
-            "text": "Entire studios shrunken denim jacket",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nmR43n": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MAfpmm",
-        "richtext_nmR43n"
-      ],
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {display: flex; justify-content: end;}"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
-        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "main": {
@@ -84,7 +44,6 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/MOB5.jpg",
             "button_text": "Shop The Look",
@@ -120,6 +79,50 @@
         "open_filters_by_default": false
       }
     },
+    "image_with_text_jLdmmU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MAfpmm": {
+          "type": "heading",
+          "settings": {
+            "text": "Do Not Duplicate: houston rodeo",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nmR43n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAfpmm",
+        "richtext_nmR43n"
+      ],
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/DSC01876_BM_16x9_LOGO_5f7f3f82-5686-4934-b3bc-72b81c5d39ff.jpg",
+        "mobile_image": "shopify://shop_images/DSC01876_BM_16x9_LOGO_5f7f3f82-5686-4934-b3bc-72b81c5d39ff.jpg",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_muted": false,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "media_grid_wGyTFz": {
       "type": "media-grid",
       "blocks": {
@@ -127,7 +130,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC07518_BB.jpg",
+            "image": "shopify://shop_images/DSC01649BB_copy.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -145,7 +148,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ACDSC01277_DC_1.jpg",
+            "image": "shopify://shop_images/BM_28.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -163,7 +166,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/396__SQUIDLIK.jpg",
+            "image": "shopify://shop_images/DSC01561BB.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -187,21 +190,53 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "desktop_row_height": 290,
+        "desktop_row_height": 350,
         "mobile_row_height": 180,
-        "section_width": "lg",
+        "section_width": "md",
         "spacing": "md",
         "subheading": "",
-        "title": "A Closer Look",
+        "title": "",
         "content": ""
+      }
+    },
+    "video_NAkGdf": {
+      "type": "video",
+      "blocks": {
+        "play_yqpKcH": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_QVEibd": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_yqpKcH",
+        "heading_QVEibd"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/DND Rodeo V2 4k H.265.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     }
   },
   "order": [
     "collection-banner",
     "image_with_text_block_TmCWVh",
-    "image_with_text_jLdmmU",
     "main",
-    "media_grid_wGyTFz"
+    "image_with_text_jLdmmU",
+    "media_grid_wGyTFz",
+    "video_NAkGdf"
   ]
 }
