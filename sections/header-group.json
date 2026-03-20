@@ -106,6 +106,7 @@
         },
         "release_nAhaJK": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.19",
             "release_image": "shopify://shop_images/LXOLDSKOOL36PEARLIZED_BLACK_NAVY_-1.jpg",
@@ -113,28 +114,6 @@
             "product_vendor": "VANS",
             "product_price": "$130",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-premium-lx-old-skool-36-pearlized-blacknavy"
-          }
-        },
-        "release_Ubn9R7": {
-          "type": "release",
-          "settings": {
-            "release_title": "3.19",
-            "release_image": "shopify://shop_images/LXCLASSICSLIP-ON98PEARLIZEDINDIGO-1.jpg",
-            "product_title": "VANS LX PREMIUM SLIP-ON 98 PEARLIZED INDIGO",
-            "product_vendor": "VANS",
-            "product_price": "$110",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-lx-premium-slip-on-98-pearlized-indigo"
-          }
-        },
-        "release_KPd8WR": {
-          "type": "release",
-          "settings": {
-            "release_title": "3.19",
-            "release_image": "shopify://shop_images/LXCLASSICSLIPON98_PEARLIZEDCAMO_BLACK_-1.jpg",
-            "product_title": "VANS LX PREMIUM SLIP ON 98 \"PEARLIZED CAMO/BLACK\"",
-            "product_vendor": "VANS",
-            "product_price": "$110",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-lx-premium-slip-on-98-pearlized-camoblack"
           }
         },
         "release_tw94g8": {
@@ -213,6 +192,29 @@
             "product_price": "$240",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-foamposite-pro-university-blue"
           }
+        },
+        "release_KPd8WR": {
+          "type": "release",
+          "settings": {
+            "release_title": "3.28",
+            "release_image": "shopify://shop_images/AJ3SPRING-1.jpg",
+            "product_title": "AIR JORDAN 3 OG \"SPRING IS IN THE AIR\"",
+            "product_vendor": "JORDAN",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-og-spring-is-in-the-air"
+          }
+        },
+        "release_Ubn9R7": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "3.19",
+            "release_image": "shopify://shop_images/LXCLASSICSLIP-ON98PEARLIZEDINDIGO-1.jpg",
+            "product_title": "VANS LX PREMIUM SLIP-ON 98 PEARLIZED INDIGO",
+            "product_vendor": "VANS",
+            "product_price": "$110",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-lx-premium-slip-on-98-pearlized-indigo"
+          }
         }
       },
       "block_order": [
@@ -220,15 +222,15 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_nAhaJK",
-        "release_Ubn9R7",
-        "release_KPd8WR",
         "release_tw94g8",
         "release_eVw43f",
         "release_RgpLM4",
         "release_DqjLkP",
         "release_C6KbQy",
         "release_Jxbfyh",
-        "release_DjJNYX"
+        "release_DjJNYX",
+        "release_KPd8WR",
+        "release_Ubn9R7"
       ],
       "settings": {
         "color_scheme": "scheme-2",

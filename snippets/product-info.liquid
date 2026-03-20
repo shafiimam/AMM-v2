@@ -411,8 +411,37 @@
 
             {% when 'product_availability' %}
               {% assign product_skus = block.settings.product_skus | replate: "," , " " %}
-              
-              {% if product.compare_at_price > product.price %}
+              {%- liquid
+                assign show_final_sale_message = false
+                assign final_sale_setting_enabled = false
+                
+                # Find the product_availability block and check its setting
+                for block in section.blocks
+                  if block.type == 'product_availability' and block.settings.show_final_sale_message
+                    assign final_sale_setting_enabled = true
+                    break
+                  endif
+                endfor
+                
+                # Only proceed if the setting is enabled
+                if final_sale_setting_enabled
+                  # Check if product is on sale (compare_at_price > price)
+                  if product.compare_at_price > product.price
+                    assign show_final_sale_message = true
+                  endif
+                  
+                  # Check if product has FinalSale tag (case-insensitive)
+                  for tag in product.tags
+                    assign tag_lowercase = tag | downcase
+                    if tag_lowercase contains 'finalsale'
+                      assign show_final_sale_message = true
+                      break
+                    endif
+                  endfor
+                endif
+              -%}
+             
+              {% if show_final_sale_message %}
                 <span style="display: block; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 25px 0 5px 0;">
                   This item is on final sale, it cannot be exchanged or returned.
                 </span>
