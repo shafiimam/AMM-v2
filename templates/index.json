@@ -15,7 +15,6 @@
         "video_dUQnbP": {
           "type": "video",
           "name": "rodeo 3.20",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/DND Rodeo V2 4k H.265.mov",
             "mobile_video": "shopify://files/videos/DND Rodeo V2 4k H.265.mov",
@@ -28,7 +27,7 @@
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "shop now",
-            "button_1_link": "shopify://collections/adidas",
+            "button_1_link": "shopify://collections/do-not-duplicate",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -47,6 +46,7 @@
         "image_H4DjaV": {
           "type": "image",
           "name": "dnd rodeo",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ammdnd3.png",
             "mobile_image": "shopify://shop_images/dndamm.png",
