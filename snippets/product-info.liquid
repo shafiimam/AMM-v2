@@ -411,10 +411,47 @@
 
             {% when 'product_availability' %}
               {% assign product_skus = block.settings.product_skus | replate: "," , " " %}
+              {%- liquid
+                assign show_final_sale_message = false
+                assign final_sale_setting_enabled = false
+                assign compare_price_rule_enabled = false
+                assign custom_final_sale_tag = ''
+                assign custom_final_sale_message = ''
+                
+                # Find the product_availability block and get its settings
+                for block in section.blocks
+                  if block.type == 'product_availability' and block.settings.show_final_sale_message
+                    assign final_sale_setting_enabled = true
+                    assign compare_price_rule_enabled = block.settings.enable_compare_price_rule
+                    assign custom_final_sale_tag = block.settings.final_sale_tag | default: 'FinalSale' | strip | downcase
+                    assign custom_final_sale_message = block.settings.final_sale_message | default: 'This item is on final sale, it cannot be exchanged or returned.'
+                    break
+                  endif
+                endfor
+                
+                # Only proceed if the setting is enabled
+                if final_sale_setting_enabled
+                  # Check if product is on sale (compare_at_price > price) - only if compare price rule is enabled
+                  if compare_price_rule_enabled and product.compare_at_price > product.price
+                    assign show_final_sale_message = true
+                  endif
+                  
+                  # Check if product has custom final sale tag (case-insensitive)
+                  if custom_final_sale_tag != blank
+                    for tag in product.tags
+                      assign tag_lowercase = tag | strip | downcase
+                      if tag_lowercase == custom_final_sale_tag
+                        assign show_final_sale_message = true
+                        break
+                      endif
+                    endfor
+                  endif
+                endif
+              -%}
               
-              {% if product.compare_at_price > product.price %}
+              {% if show_final_sale_message %}
                 <span style="display: block; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 25px 0 5px 0;">
-                  This item is on final sale, it cannot be exchanged or returned.
+                  {{ custom_final_sale_message }}
                 </span>
               {% endif %}
           

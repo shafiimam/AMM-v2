@@ -1828,6 +1828,40 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "id": "product_skus",
           "label": "SKUs in comma separated list",
           "default": "Product availability"
+        },
+        {
+          "type": "header",
+          "content": "Final Sale Message"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_final_sale_message",
+          "label": "Show Final Sale Message",
+          "info": "Display final sale message for products on sale or tagged with custom tag",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_compare_price_rule",
+          "label": "Enable Compare Price Rule",
+          "info": "Show final sale message when product has compare_at_price > price (product is on sale)",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "final_sale_tag",
+          "label": "Final Sale Tag",
+          "info": "Products with this tag will show the final sale message (case-insensitive)",
+          "default": "FinalSale",
+          "placeholder": "FinalSale"
+        },
+        {
+          "type": "textarea",
+          "id": "final_sale_message",
+          "label": "Final Sale Message",
+          "info": "Custom message to display for final sale items",
+          "default": "This item is on final sale, it cannot be exchanged or returned.",
+          "placeholder": "This item is on final sale, it cannot be exchanged or returned."
         }
       ]
     }
