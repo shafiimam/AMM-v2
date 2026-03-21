@@ -118,6 +118,7 @@
         },
         "release_tw94g8": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.21",
             "release_image": "shopify://shop_images/AJ14UNIVERSITYBLU-1.jpg",
@@ -129,6 +130,7 @@
         },
         "release_eVw43f": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.21",
             "release_image": "shopify://shop_images/PHARELLXADIZEROBROWNBLK-1.jpg",
