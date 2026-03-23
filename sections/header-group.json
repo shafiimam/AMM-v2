@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_qVBqJF": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>DISCOVER </strong><a href=\"/collections/special-offer\" title=\"SPECIAL OFFERS\"><strong>SPECIAL OFFERS</strong></a><strong> ON select ASICS styles </strong>"
-          }
-        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -30,7 +23,7 @@
         "message_cKYzUL": {
           "type": "message",
           "settings": {
-            "text": "<strong>DISCOVER </strong><a href=\"https://www.off--season.com/\" title=\"https://www.off--season.com/\"><strong>SPECIAL OFFERS</strong></a><strong> at OFF-SEASON</strong>"
+            "text": "<strong>DISCOVER </strong><a href=\"https://www.off--season.com/\" title=\"https://www.off--season.com/\"><strong>20% OFF SELECT STYLES</strong></a><strong> AT OFF-SEASON</strong>"
           }
         },
         "message_LyBJxq": {
@@ -41,7 +34,6 @@
         }
       },
       "block_order": [
-        "message_qVBqJF",
         "message-1",
         "message_cKYzUL",
         "message_LyBJxq"
