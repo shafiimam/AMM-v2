@@ -217,46 +217,44 @@
         "content": ""
       }
     },
-    "featured_collections_RwpkEJ": {
+    "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
-        "collection_3gxaab": {
+        "collection_Q7Rc3m": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "collection": "rick-owens",
+            "collection": "footwear",
             "products_count": 8,
-            "title": "Moncler x rick owens ss26",
-            "link_url": "shopify://collections/rick-owens",
+            "title": "Footwear",
+            "link_url": "shopify://collections/footwear",
+            "link_text": "SHOP COLLECTION"
+          }
+        },
+        "collection_NDmmGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-t-shirts",
+            "products_count": 8,
+            "title": "t-Shirts",
+            "link_url": "shopify://collections/new-t-shirts",
             "link_text": "View all"
           }
         },
-        "collection_t3bATr": {
+        "collection_fUfJmE": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-1",
+            "collection": "new-bottoms",
             "products_count": 8,
-            "title": "RECENT ARRIVALS",
-            "link_url": "shopify://collections/new-arrivals-1",
-            "link_text": "View all"
-          }
-        },
-        "collection_dnEeCe": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 8,
-            "title": "ACCESSORIES",
-            "link_url": "",
+            "title": "bottoms",
+            "link_url": "shopify://collections/new-bottoms",
             "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_3gxaab",
-        "collection_t3bATr",
-        "collection_dnEeCe"
+        "collection_Q7Rc3m",
+        "collection_NDmmGJ",
+        "collection_fUfJmE"
       ],
       "custom_css": [],
       "settings": {
@@ -266,7 +264,7 @@
         "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.8,
+        "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -328,34 +326,46 @@
         "content": ""
       }
     },
-    "featured_collections_WMah7x": {
+    "featured_collections_RwpkEJ": {
       "type": "featured-collections",
       "blocks": {
-        "collection_NDmmGJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-t-shirts",
-            "products_count": 8,
-            "title": "t-Shirts",
-            "link_url": "shopify://collections/new-t-shirts",
-            "link_text": "View all"
-          }
-        },
-        "collection_Q7Rc3m": {
+        "collection_3gxaab": {
           "type": "collection",
           "disabled": true,
           "settings": {
-            "collection": "footwear",
-            "products_count": 4,
-            "title": "Footwear",
-            "link_url": "shopify://collections/footwear",
-            "link_text": "SHOP COLLECTION"
+            "collection": "rick-owens",
+            "products_count": 8,
+            "title": "Moncler x rick owens ss26",
+            "link_url": "shopify://collections/rick-owens",
+            "link_text": "View all"
+          }
+        },
+        "collection_t3bATr": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals-1",
+            "products_count": 8,
+            "title": "RECENT ARRIVALS",
+            "link_url": "shopify://collections/new-arrivals-1",
+            "link_text": "View all"
+          }
+        },
+        "collection_dnEeCe": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 8,
+            "title": "ACCESSORIES",
+            "link_url": "",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_NDmmGJ",
-        "collection_Q7Rc3m"
+        "collection_3gxaab",
+        "collection_t3bATr",
+        "collection_dnEeCe"
       ],
       "custom_css": [],
       "settings": {
@@ -365,7 +375,7 @@
         "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
+        "horizontal_spacing_factor": 0.8,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -910,9 +920,9 @@
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
     "media_grid_ik3yVY",
-    "featured_collections_RwpkEJ",
-    "media_grid_dcKXGR",
     "featured_collections_WMah7x",
+    "media_grid_dcKXGR",
+    "featured_collections_RwpkEJ",
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
     "before-after",
