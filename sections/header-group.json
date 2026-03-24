@@ -135,6 +135,7 @@
         },
         "release_RgpLM4": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.25",
             "release_image": "shopify://shop_images/THUGCLUBXSUPERSTARVINTAGE_BLACK_-1.jpg",
