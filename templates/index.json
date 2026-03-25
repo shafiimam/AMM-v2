@@ -9,6 +9,64 @@
  */
 {
   "sections": {
+    "media_grid_ik3yVY": {
+      "type": "media-grid",
+      "blocks": {
+        "image_JTDYmT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/polo.png",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "Shop Spring Essentials",
+            "link_url": "shopify://collections/spring-authority",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_nRCpkG": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/JACQ_V5.mp4",
+            "autoplay": true,
+            "show_controls": false,
+            "column_count": "8",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_JTDYmT",
+        "video_nRCpkG"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 380,
+        "mobile_row_height": 450,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
@@ -79,6 +137,7 @@
         "video_dUQnbP",
         "image_H4DjaV"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -141,10 +200,10 @@
         "image_cta_url": "shopify://collections/new-arrivals"
       }
     },
-    "media_grid_ik3yVY": {
+    "media_grid_kDP8wG": {
       "type": "media-grid",
       "blocks": {
-        "image_JTDYmT": {
+        "image_HmywbF": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -162,7 +221,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_hLUDwn": {
+        "image_FG9bi6": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
@@ -180,7 +239,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_MYRCL9": {
+        "image_JKg3pE": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -201,9 +260,9 @@
         }
       },
       "block_order": [
-        "image_JTDYmT",
-        "image_hLUDwn",
-        "image_MYRCL9"
+        "image_HmywbF",
+        "image_FG9bi6",
+        "image_JKg3pE"
       ],
       "settings": {
         "color_scheme": "",
@@ -916,10 +975,11 @@
     }
   },
   "order": [
+    "media_grid_ik3yVY",
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
-    "media_grid_ik3yVY",
+    "media_grid_kDP8wG",
     "featured_collections_WMah7x",
     "media_grid_dcKXGR",
     "featured_collections_RwpkEJ",
