@@ -147,6 +147,7 @@
         },
         "release_DqjLkP": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.26",
             "release_image": "shopify://shop_images/AM95PAISLEYNEON-1.jpg",
@@ -158,6 +159,7 @@
         },
         "release_C6KbQy": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.26",
             "release_image": "shopify://shop_images/AM95GREEDYBB-1.jpg",
@@ -169,6 +171,7 @@
         },
         "release_Jxbfyh": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.26",
             "release_image": "shopify://shop_images/AIRLIQUIDMAX_BLACK_CHROME_GREENAPPLE_-1.jpg",
