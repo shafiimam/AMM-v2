@@ -288,6 +288,24 @@
         "content": ""
       }
     },
+    "blocks_C9GbEP": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_jBxbJd": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 20,
+            "height_desktop": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_jBxbJd"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
@@ -923,6 +941,7 @@
     "featureed_image_and_products_7MHNbK",
     "featured_collections_EFnetB",
     "media_grid_dcKXGR",
+    "blocks_C9GbEP",
     "featured_collections_WMah7x",
     "media_grid_kDP8wG",
     "featured_collections_RwpkEJ",
