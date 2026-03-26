@@ -133,56 +133,9 @@
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-adizero-evo-sl"
           }
         },
-        "release_RgpLM4": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "3.25",
-            "release_image": "shopify://shop_images/THUGCLUBXSUPERSTARVINTAGE_BLACK_-1.jpg",
-            "product_title": "ADIDAS SUPERSTAR VINTAGE X THUG CLUB \"BLACK\"",
-            "product_vendor": "adidas",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-superstar-vintage-x-thug-club-black"
-          }
-        },
-        "release_DqjLkP": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "3.26",
-            "release_image": "shopify://shop_images/AM95PAISLEYNEON-1.jpg",
-            "product_title": "NIKE AIR MAX 95 BIG BUBBLE \"PAISLEY NEON\"",
-            "product_vendor": "NIKE",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-paisley-neon"
-          }
-        },
-        "release_C6KbQy": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "3.26",
-            "release_image": "shopify://shop_images/AM95GREEDYBB-1.jpg",
-            "product_title": "NIKE AIR MAX 95 BIG BUBBLE \"GREEDY\"",
-            "product_vendor": "NIKE",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-greedy"
-          }
-        },
-        "release_Jxbfyh": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "3.26",
-            "release_image": "shopify://shop_images/AIRLIQUIDMAX_BLACK_CHROME_GREENAPPLE_-1.jpg",
-            "product_title": "NIKE AIR LIQUID MAX \"BLACK/CHROME/GREEN APPLE\"",
-            "product_vendor": "NIKE",
-            "product_price": "$220",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-liquid-max-blackchromegreen-apple"
-          }
-        },
         "release_DjJNYX": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.27",
             "release_image": "shopify://shop_images/FOAMPOSITEUNIVERSITYBLUE-1.jpg",
@@ -205,14 +158,13 @@
         },
         "release_Ubn9R7": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "3.19",
-            "release_image": "shopify://shop_images/LXCLASSICSLIP-ON98PEARLIZEDINDIGO-1.jpg",
-            "product_title": "VANS LX PREMIUM SLIP-ON 98 PEARLIZED INDIGO",
-            "product_vendor": "VANS",
-            "product_price": "$110",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-lx-premium-slip-on-98-pearlized-indigo"
+            "release_title": "3.28",
+            "release_image": "shopify://shop_images/PETERSONCRAYOLA-1.jpg",
+            "product_title": "MAISON MIHARA YASUHIRO EXCLUSIVE PETERSON 23 \"MULTICOLOR SERIES\"",
+            "product_vendor": "MAISON MIHARA",
+            "product_price": "$490",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/maison-mihara-yasuhiro-exclusive-peterson-23-multicolor-series"
           }
         }
       },
@@ -223,10 +175,6 @@
         "release_nAhaJK",
         "release_tw94g8",
         "release_eVw43f",
-        "release_RgpLM4",
-        "release_DqjLkP",
-        "release_C6KbQy",
-        "release_Jxbfyh",
         "release_DjJNYX",
         "release_KPd8WR",
         "release_Ubn9R7"
