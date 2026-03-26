@@ -28,10 +28,12 @@
     },
     "image_with_text_block_TmCWVh": {
       "type": "image-with-text-block",
+      "disabled": true,
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "",
         "image_size": "lg",
+        "image": "shopify://shop_images/APBDND2.png",
         "mobile_image": "shopify://shop_images/APBDND2_077d7b72-710b-423d-8e5c-2788b5a1803a.png",
         "content_width": "sm",
         "enable_parallax": false,
@@ -88,6 +90,7 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/adidas.png",
             "button_text": "",
