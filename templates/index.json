@@ -179,7 +179,7 @@
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "air-jordan-4-retro-imperial-purple"
+            "product": "air-liquid-max-black-chrome-green-apple"
           }
         }
       },
@@ -198,6 +198,37 @@
         "image_description": "<p>Discover premium tees, lightweight trousers, and seasonal accessories designed for warmer days. Explore new arrivals from Loewe, Gallery Dept., Y-3, and Casablanca.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/new-arrivals"
+      }
+    },
+    "featured_collections_EFnetB": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_JHfxwA": {
+          "type": "collection",
+          "settings": {
+            "collection": "nike-lab",
+            "products_count": 8,
+            "title": "NIKE air max",
+            "link_url": "shopify://collections/nike-lab",
+            "link_text": "SHOP COLLECTION"
+          }
+        }
+      },
+      "block_order": [
+        "collection_JHfxwA"
+      ],
+      "custom_css": [],
+      "name": "AIR MAX DAY ",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "media_grid_kDP8wG": {
@@ -388,17 +419,6 @@
     "featured_collections_RwpkEJ": {
       "type": "featured-collections",
       "blocks": {
-        "collection_3gxaab": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "rick-owens",
-            "products_count": 8,
-            "title": "Moncler x rick owens ss26",
-            "link_url": "shopify://collections/rick-owens",
-            "link_text": "View all"
-          }
-        },
         "collection_t3bATr": {
           "type": "collection",
           "settings": {
@@ -422,7 +442,6 @@
         }
       },
       "block_order": [
-        "collection_3gxaab",
         "collection_t3bATr",
         "collection_dnEeCe"
       ],
@@ -564,83 +583,6 @@
         "cursor_initial_position": 50,
         "cursor_background": "#efefef",
         "cursor_arrows_color": "#000000"
-      }
-    },
-    "collection_list_cLGdiA": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_TTQa9R": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "collection": "juney-1",
-            "image": "shopify://shop_images/JUNETEENTH2.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "SHOP BLACK BRANDS",
-            "button_link": "shopify://collections/juney-1",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_WzFiA6": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "fall-essentials",
-            "image": "shopify://shop_images/fallshot.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "Fall Transition",
-            "button_link": "shopify://collections/fall-essentials",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_xdtgbb": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "collection": "fathers-day",
-            "image": "shopify://shop_images/fatherday.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "GIFTS FOR dad",
-            "button_link": "shopify://collections/fathers-day",
-            "button_style": "solid",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "collection_TTQa9R",
-        "collection_WzFiA6",
-        "collection_xdtgbb"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image_size": "xs",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_mobile": "1",
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": ""
       }
     },
     "media_grid_JJfcQ6": {
@@ -979,6 +921,7 @@
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "featured_collections_EFnetB",
     "media_grid_kDP8wG",
     "featured_collections_WMah7x",
     "media_grid_dcKXGR",
@@ -986,7 +929,6 @@
     "multiple_media_with_text_Lgp4CV",
     "shop_the_look_yjtpt9",
     "before-after",
-    "collection_list_cLGdiA",
     "media_grid_JJfcQ6",
     "blocks_xhmELd",
     "image_with_text_4rzGhq",
