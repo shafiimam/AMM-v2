@@ -231,6 +231,115 @@
         "subheading": ""
       }
     },
+    "media_grid_dcKXGR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_ahg8KY": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/oakley2.png",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://products/twg-x-1890-star-burst",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GMiDPM": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/oakley.png",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "<strong>oakley x muzm scar </strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "shopify://products/oakley-muzm-scar-sunglasses-black",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ahg8KY",
+        "image_GMiDPM"
+      ],
+      "name": "oakley",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 410,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "featured_collections_WMah7x": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Q7Rc3m": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "products_count": 8,
+            "title": "Footwear",
+            "link_url": "shopify://collections/footwear",
+            "link_text": "SHOP COLLECTION"
+          }
+        },
+        "collection_NDmmGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-t-shirts",
+            "products_count": 8,
+            "title": "t-Shirts",
+            "link_url": "shopify://collections/new-t-shirts",
+            "link_text": "View all"
+          }
+        },
+        "collection_fUfJmE": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-bottoms",
+            "products_count": 8,
+            "title": "bottoms",
+            "link_url": "shopify://collections/new-bottoms",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Q7Rc3m",
+        "collection_NDmmGJ",
+        "collection_fUfJmE"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "media_grid_kDP8wG": {
       "type": "media-grid",
       "blocks": {
@@ -302,115 +411,6 @@
         "mobile_row_height": 420,
         "section_width": "full",
         "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
-    "featured_collections_WMah7x": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_Q7Rc3m": {
-          "type": "collection",
-          "settings": {
-            "collection": "footwear",
-            "products_count": 8,
-            "title": "Footwear",
-            "link_url": "shopify://collections/footwear",
-            "link_text": "SHOP COLLECTION"
-          }
-        },
-        "collection_NDmmGJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-t-shirts",
-            "products_count": 8,
-            "title": "t-Shirts",
-            "link_url": "shopify://collections/new-t-shirts",
-            "link_text": "View all"
-          }
-        },
-        "collection_fUfJmE": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-bottoms",
-            "products_count": 8,
-            "title": "bottoms",
-            "link_url": "shopify://collections/new-bottoms",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Q7Rc3m",
-        "collection_NDmmGJ",
-        "collection_fUfJmE"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "media_grid_dcKXGR": {
-      "type": "media-grid",
-      "blocks": {
-        "image_GMiDPM": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/oakley.png",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "<strong>oakley x muzm scar </strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://products/oakley-muzm-scar-sunglasses-black",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_ahg8KY": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/oakley2.png",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/twg-x-1890-star-burst",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_GMiDPM",
-        "image_ahg8KY"
-      ],
-      "name": "oakley",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 410,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "none",
         "subheading": "",
         "title": "",
         "content": ""
