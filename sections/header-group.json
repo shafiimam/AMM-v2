@@ -58,6 +58,7 @@
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
+            "image_1": "shopify://shop_images/OFFSZN-PromoSale_FEED.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
