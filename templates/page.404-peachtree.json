@@ -176,7 +176,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a.jpg",
+            "image": "shopify://shop_images/DSC02983_BM_6ef572c2-9626-4126-b6d8-a5c1f38f2a5b.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -194,7 +194,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-4_f99d6891-3885-4224-9fd6-09c50b11d860.jpg",
+            "image": "shopify://shop_images/DSC03930_BM_06847936-97ab-4ec6-9937-9a6f0eb7eb2f.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -300,6 +300,7 @@
         },
         "image_FA9Bnz": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-8_d02acbf1-bfde-4839-ba46-2d6e4c743314.jpg",
@@ -318,6 +319,7 @@
         },
         "image_cVQmCb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-9_7034673b-2534-4aed-8e35-e37bc36c104d.jpg",
@@ -336,6 +338,7 @@
         },
         "image_dLC688": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/boxaj4.jpg",
@@ -365,7 +368,6 @@
         "image_cVQmCb",
         "image_dLC688"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
