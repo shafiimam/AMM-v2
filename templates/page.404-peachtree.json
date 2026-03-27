@@ -85,6 +85,7 @@
         },
         "richtext_EkJ7B3": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
             "text_color": "#eaeaea"
@@ -107,8 +108,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/f504_33b26d58-527f-4976-beed-ae11ec5aee74.png",
-        "mobile_image": "shopify://shop_images/f504_dbcaa5e4-25fa-45a4-94aa-d31a0aacd212.png",
+        "image": "shopify://shop_images/DSC04386_BM_1.jpg",
+        "mobile_image": "shopify://shop_images/DSC04386_BM_1_cdedeef0-6a0d-4ba2-8f98-1231481ee354.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -118,6 +119,54 @@
         "content_width": "md",
         "remove_vertical_spacing": false,
         "remove_top_padding": false
+      }
+    },
+    "rich_text_Ycy4YL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Q7JLFe": {
+          "type": "heading",
+          "settings": {
+            "text": "404 Peachtree pack",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_8ppK6e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>peachtree copy</p>"
+          }
+        },
+        "button_KpxKbc": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "enter draws",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_MgRBB4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q7JLFe",
+        "richtext_8ppK6e",
+        "button_KpxKbc",
+        "richtext_MgRBB4"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "media_grid_4MXqFL": {
@@ -638,6 +687,7 @@
     "main",
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
+    "rich_text_Ycy4YL",
     "media_grid_4MXqFL",
     "video_yGaVhn",
     "3d_gallery_iMKpxA",
