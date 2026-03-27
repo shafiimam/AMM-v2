@@ -16,17 +16,17 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/polo.png",
-            "column_count": "4",
-            "row_count": 3,
+            "image": "shopify://shop_images/y3.png",
+            "column_count": "6",
+            "row_count": 2,
             "title": "",
-            "heading_tag": "h4",
+            "heading_tag": "h1",
             "content": "",
-            "link_text": "Shop Spring Essentials",
-            "link_url": "shopify://collections/spring-authority",
+            "link_text": "Shop now",
+            "link_url": "shopify://collections/y-3-adidas",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0
           }
         },
@@ -34,11 +34,11 @@
           "type": "video",
           "settings": {
             "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/JACQ_V5.mp4",
+            "video": "shopify://files/videos/Y-3 4k.mov",
             "autoplay": true,
             "show_controls": false,
-            "column_count": "8",
-            "row_count": 3,
+            "column_count": "6",
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -161,25 +161,25 @@
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "jordan-brand-amm-365-short-sleeve-tee"
+            "product": "adidas-y-3-elite-5-football-jersey-black"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "gallery-dept-platoon-painter-shorts-military-green"
+            "product": "adidas-y-3-mesh-shorts-black"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "willy-chavarria-fashion-services-hooligans-hoodie-black"
+            "product": "adidas-y-3-basketball-track-pants-black"
           }
         },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "air-liquid-max-black-chrome-green-apple"
+            "product": "y-3-adios-9"
           }
         }
       },
@@ -192,12 +192,12 @@
       "name": "RICK OWENS PRODUCT",
       "settings": {
         "section_alignment": "left",
-        "title": "",
+        "title": "Y-3 adidas",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/loewe3.png",
-        "image_description": "<p>Discover premium tees, lightweight trousers, and seasonal accessories designed for warmer days. Explore new arrivals from Loewe, Gallery Dept., Y-3, and Casablanca.</p>",
+        "image": "shopify://shop_images/y-3_4.png",
+        "image_description": "<p>Rooted in the discipline of sport and the language of runway, Y-3 defines a modern uniform through utility outerwear, structured jerseys, and tailored silhouettes. Each piece moves with intention, shaped through material, form, and precision.</p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/new-arrivals"
+        "image_cta_url": "shopify://collections/y-3-adidas"
       }
     },
     "featured_collections_EFnetB": {
@@ -208,8 +208,8 @@
           "settings": {
             "collection": "nike-lab",
             "products_count": 8,
-            "title": "NIKE air max",
-            "link_url": "shopify://collections/nike-lab",
+            "title": "new Arrivals",
+            "link_url": "shopify://collections/new-arrivals",
             "link_text": "SHOP COLLECTION"
           }
         }
@@ -358,6 +358,64 @@
         "subheading": ""
       }
     },
+    "media_grid_7fM37z": {
+      "type": "media-grid",
+      "blocks": {
+        "image_DeB9na": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/polo.png",
+            "column_count": "4",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "Shop Spring Essentials",
+            "link_url": "shopify://collections/spring-authority",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_YPpciV": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/JACQ_V5.mp4",
+            "autoplay": true,
+            "show_controls": false,
+            "column_count": "8",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_DeB9na",
+        "video_YPpciV"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 380,
+        "mobile_row_height": 450,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "media_grid_kDP8wG": {
       "type": "media-grid",
       "blocks": {
@@ -422,6 +480,7 @@
         "image_FG9bi6",
         "image_JKg3pE"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -440,10 +499,10 @@
         "collection_t3bATr": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-1",
+            "collection": "spring-authority",
             "products_count": 8,
-            "title": "RECENT ARRIVALS",
-            "link_url": "shopify://collections/new-arrivals-1",
+            "title": "Spring Authority",
+            "link_url": "shopify://collections/spring-authority",
             "link_text": "View all"
           }
         },
@@ -943,6 +1002,7 @@
     "media_grid_dcKXGR",
     "blocks_C9GbEP",
     "featured_collections_WMah7x",
+    "media_grid_7fM37z",
     "media_grid_kDP8wG",
     "featured_collections_RwpkEJ",
     "multiple_media_with_text_Lgp4CV",
