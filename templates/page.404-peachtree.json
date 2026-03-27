@@ -128,14 +128,14 @@
         "heading_Q7JLFe": {
           "type": "heading",
           "settings": {
-            "text": "404 Peachtree pack",
+            "text": "404 Peachtree",
             "heading_tag": "h1"
           }
         },
         "richtext_8ppK6e": {
           "type": "richtext",
           "settings": {
-            "content": "<p>peachtree copy</p>"
+            "content": "<p>Do Not Duplicate: 404 Peachtree is rooted in Atlanta, where culture is defined through discipline, independence, and lived experience. The city’s influence is shaped over time, carried through movement, form, and perspective rather than imitation. Featuring Ben Reilly and Cleotrvpv, this chapter reflects a way of creating grounded in presence and continuity. The silhouettes follow that same rhythm, expressed through considered design and a palette that carries across environments without adjustment.<br/><br/></p>"
           }
         },
         "button_KpxKbc": {
@@ -384,6 +384,7 @@
     },
     "3d_gallery_simple_KeU3rf": {
       "type": "3d-gallery-simple",
+      "disabled": true,
       "name": "3D Gallery Simple",
       "settings": {
         "title": "3D Gallery",
@@ -431,6 +432,36 @@
         "video": "shopify://files/videos/MBTS4k H.265.mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
+      }
+    },
+    "rich_text_VrqdQt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t4WMRY": {
+          "type": "heading",
+          "settings": {
+            "text": "Houston Rodeo",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_PhcVGb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do Not Duplicate: Houston Rodeo reflects a tradition built on discipline, timing, and control. Rooted in the culture surrounding the rodeo, this chapter explores a way of moving shaped through repetition and instinct. Materials and finishes carry that influence forward, grounded in heritage and expressed through a refined lens. Each silhouette reflects a balance of structure and restraint, defined through performance rather than declaration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t4WMRY",
+        "richtext_PhcVGb"
+      ],
+      "name": "rodeo copy",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "media_grid_HwBKby": {
@@ -643,6 +674,7 @@
         },
         "image_iWhfJp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/whitebw.png",
@@ -696,6 +728,7 @@
     "media_grid_4MXqFL",
     "3d_gallery_simple_KeU3rf",
     "video_yGaVhn",
+    "rich_text_VrqdQt",
     "media_grid_HwBKby"
   ]
 }
