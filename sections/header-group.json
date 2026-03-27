@@ -146,6 +146,7 @@
         },
         "release_KPd8WR": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.28",
             "release_image": "shopify://shop_images/AJ3SPRING-1.jpg",
@@ -157,6 +158,7 @@
         },
         "release_Ubn9R7": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "3.28",
             "release_image": "shopify://shop_images/PETERSONCRAYOLA-1.jpg",
@@ -204,7 +206,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": true
+        "show_releases": false
       }
     }
   },
