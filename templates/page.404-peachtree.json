@@ -21,8 +21,9 @@
     },
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
+      "name": "Hero Banner With Logo",
       "settings": {
-        "image": "shopify://shop_images/ammdnd3.png",
+        "image": "shopify://shop_images/microhero2.png",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "",
         "title_color": "#ffffff",
@@ -160,7 +161,7 @@
         "button_KpxKbc",
         "richtext_MgRBB4"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
+      "name": "404 copy",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -172,6 +173,42 @@
     "media_grid_4MXqFL": {
       "type": "media-grid",
       "blocks": {
+        "image_BEtRTU": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammpink.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HVfcXg": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC08605_2_DC_2_copygfp.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "image_aCqxkA": {
           "type": "image",
           "settings": {
@@ -194,43 +231,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC03930_BM_06847936-97ab-4ec6-9937-9a6f0eb7eb2f.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_BEtRTU": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-5_a5338993-84ff-4bc9-aff3-75b83c00fc86.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_HVfcXg": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-6_23745ce7-3bc9-40d2-b116-bd4f2c1d7f8b.jpg",
+            "image": "shopify://shop_images/DSC03179_BM.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -248,7 +249,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-7_e9198f95-3e16-47f8-a795-66a4bff4216a.jpg",
+            "image": "shopify://shop_images/ammred.png",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -266,7 +267,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-3_6317d9e6-450e-4d5c-b606-534c452c798b.jpg",
+            "image": "shopify://shop_images/DSC04409_BM.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -284,8 +285,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-2_3e7c5fd8-6f9f-478a-b46b-a00ffdad8e12.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/DSC07919_DC.jpg",
+            "column_count": "12",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -357,10 +358,10 @@
         }
       },
       "block_order": [
-        "image_aCqxkA",
-        "image_jckHzH",
         "image_BEtRTU",
         "image_HVfcXg",
+        "image_aCqxkA",
+        "image_jckHzH",
         "image_3tPX3b",
         "image_TB3Va4",
         "image_gkhdMq",
@@ -368,6 +369,7 @@
         "image_cVQmCb",
         "image_dLC688"
       ],
+      "name": "404 grid",
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
@@ -378,6 +380,24 @@
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "3d_gallery_simple_KeU3rf": {
+      "type": "3d-gallery-simple",
+      "name": "3D Gallery Simple",
+      "settings": {
+        "title": "3D Gallery",
+        "start_index": "",
+        "end_index": "",
+        "dynamic_link_handle": "",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "video_yGaVhn": {
@@ -402,7 +422,8 @@
         "play_YaRjFR",
         "heading_zhzbkQ"
       ],
-      "name": "t:sections.video.presets.video.name",
+      "disabled": true,
+      "name": "statement film",
       "settings": {
         "autoplay": true,
         "show_controls": true,
@@ -410,26 +431,6 @@
         "video": "shopify://files/videos/MBTS4k H.265.mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
-      }
-    },
-    "3d_gallery_iMKpxA": {
-      "type": "3d-gallery",
-      "disabled": true,
-      "name": "3D Gallery",
-      "settings": {
-        "title": "A Closer Look",
-        "start_index": "352",
-        "end_index": "407",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
-        "file_ext": "png",
-        "button_label": "",
-        "button_link": "",
-        "knob_position": 10,
-        "gallery_width": 60,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "",
-        "bottom_text": ""
       }
     },
     "media_grid_HwBKby": {
@@ -455,6 +456,7 @@
         },
         "image_Fw9AEQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/99.png",
@@ -672,6 +674,7 @@
         "image_3xwUtz",
         "image_iWhfJp"
       ],
+      "name": "rodeo grid",
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
@@ -691,8 +694,8 @@
     "image_with_text_7Xm8Cg",
     "rich_text_Ycy4YL",
     "media_grid_4MXqFL",
+    "3d_gallery_simple_KeU3rf",
     "video_yGaVhn",
-    "3d_gallery_iMKpxA",
     "media_grid_HwBKby"
   ]
 }
