@@ -54,7 +54,8 @@
       "type": "subcollection-nav",
       "name": "Subcollection Navigation",
       "settings": {
-        "fallback_collection": ""
+        "fallback_collection": "",
+        "spacing_card": 16
       }
     },
     "main": {
@@ -97,12 +98,43 @@
         "show_filter_values_count": true,
         "open_filters_by_default": false
       }
+    },
+    "rich_text_C4Q3RK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gErX9F": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_rBEdUp": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_gErX9F",
+        "richtext_rBEdUp"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
     "collection-banner",
     "video_tCYxw6",
     "subcollection_nav_rWzPbi",
-    "main"
+    "main",
+    "rich_text_C4Q3RK"
   ]
 }
