@@ -46,7 +46,6 @@
       "block_order": [
         "image_MP866p"
       ],
-      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
