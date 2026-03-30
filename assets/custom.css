@@ -558,8 +558,6 @@ input#locksmith_email {
 button#locksmith_email_submit {
     margin-top: 10px;
 }
-
-
 .ryzo-upload-options-modal,
 .ryzo-modal-container, 
 .ryzo-upload-area.has-image, 
@@ -590,8 +588,13 @@ img.ryzo-product-image  {
   transform: none !important;
 }
 .ryzo-col-3 {
-    width: calc(100%/ 3 - 10px);
-    height: 100%;
+  width: calc(100%/ 3 - 10px);
+  height: 100%;
+}
+@media screen and (max-width: 768px){
+  .ryzo-col-3{
+    width: calc(100%/ 2 - 10px);
+  }
 }
 .ryzo-row {
   display: flex !important;
