@@ -24,6 +24,7 @@
       "name": "Hero Banner With Logo",
       "settings": {
         "image": "shopify://shop_images/microhero2.png",
+        "image_mobile": "shopify://shop_images/lldg.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "",
         "title_color": "#ffffff",
