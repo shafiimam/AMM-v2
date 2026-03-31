@@ -100,26 +100,24 @@
         },
         "release_nAhaJK": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "3.19",
-            "release_image": "shopify://shop_images/LXOLDSKOOL36PEARLIZED_BLACK_NAVY_-1.jpg",
-            "product_title": "VANS PREMIUM LX OLD SKOOL 36 PEARLIZED \"BLACK/NAVY\"",
-            "product_vendor": "VANS",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/vans-premium-lx-old-skool-36-pearlized-blacknavy"
+            "release_title": "4.3",
+            "release_image": "shopify://shop_images/EVOSLRED-1.jpg",
+            "product_title": "DO NOT DUPLICATE EVO SL 404 PEACHTREE",
+            "product_vendor": "adidas",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/evo-sl-404-day-peachtree"
           }
         },
         "release_tw94g8": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "3.21",
-            "release_image": "shopify://shop_images/AJ14UNIVERSITYBLU-1.jpg",
-            "product_title": "AIR JORDAN 14 RETRO \"BLACK/UNIVERSITY BLUE\"",
-            "product_vendor": "JORDAN BRAND",
-            "product_price": "$205",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-14-retro-blackuniversity-blue"
+            "release_title": "4.3",
+            "release_image": "shopify://shop_images/96OGATLRED-1_efe032fb-8701-4b6b-9a1f-238ba32f4dfd.jpg",
+            "product_title": "DO NOT DUPLICATE ATLANTA 96 OG 404 DAY PEACHTREE",
+            "product_vendor": "adidas",
+            "product_price": "$120",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/dnd-atlanta-96-og-404-day-peachtree"
           }
         },
         "release_eVw43f": {
@@ -136,26 +134,24 @@
         },
         "release_DjJNYX": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "3.27",
-            "release_image": "shopify://shop_images/FOAMPOSITEUNIVERSITYBLUE-1.jpg",
-            "product_title": "NIKE AIR FOAMPOSITE PRO \"UNIVERSITY BLUE\"",
-            "product_vendor": "NIKE",
-            "product_price": "$240",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-foamposite-pro-university-blue"
+            "release_title": "4.3",
+            "release_image": "shopify://shop_images/EVOSLPEACH-1.jpg",
+            "product_title": "DO NOT DUPLICATE EVO SL 404 PEACHTREE",
+            "product_vendor": "adidas",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/dnd-evo-sl-404-day-peachtree"
           }
         },
         "release_KPd8WR": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "3.28",
-            "release_image": "shopify://shop_images/AJ3SPRING-1.jpg",
-            "product_title": "AIR JORDAN 3 OG \"SPRING IS IN THE AIR\"",
-            "product_vendor": "JORDAN",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-og-spring-is-in-the-air"
+            "release_title": "4.3",
+            "release_image": "shopify://shop_images/ATLTRAINERPINK-1.jpg",
+            "product_title": "DO NOT DUPLICATE ATLANTA TRAINER 404 DAY PEACHTREE",
+            "product_vendor": "adidas",
+            "product_price": "$120",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/dnd-atl-trainer-404-day"
           }
         },
         "release_Ubn9R7": {
