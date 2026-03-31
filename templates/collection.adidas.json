@@ -19,7 +19,7 @@
         "enable_parallax": false,
         "show_image": false,
         "show_collection_title": true,
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_breadcrumb": true,
         "content_width": "full",
         "overlay_color": "#ffffff",
@@ -28,6 +28,7 @@
     },
     "image_with_text_block_TmCWVh": {
       "type": "image-with-text-block",
+      "disabled": true,
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "",
@@ -89,6 +90,7 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/adidas.png",
             "button_text": "",

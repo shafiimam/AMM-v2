@@ -21,8 +21,10 @@
     },
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
+      "name": "Hero Banner With Logo",
       "settings": {
-        "image": "shopify://shop_images/ammdnd3.png",
+        "image": "shopify://shop_images/microhero2.png",
+        "image_mobile": "shopify://shop_images/lldg.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "",
         "title_color": "#ffffff",
@@ -69,7 +71,7 @@
         "richtext_Pdk9a9": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Whitaker Group and adidas present Do Not Duplicate, a cultural platform grounded in individuality, creative authorship, and the lived experiences that shape how people move through sport and culture.<br/><br/>The first expression of Do Not Duplicate draws inspiration from the grit, craft, and enduring traditions of the Houston Rodeo, where instinct, timing, and discipline define every moment. For generations, rodeo culture has reflected qualities systems cannot reproduce. Feel. Precision. The ability to read a moment and move with conviction.<br/>Retail ranges from $150–$240 USD.<br/><br/>Enter the EQL draw now through March 16 at 3 PM EST for the opportunity to secure your pair ahead of the March 20 release across A Ma Maniére, Social Status, APB, and JAIDE.<br/><br/><strong>Individuality Cannot Be Reproduced</strong><br/>Within Do Not Duplicate, individuality is revealed through instinct and intention.<br/><br/>The individuals shaping culture are not repeating patterns. They are guided by lived experience and the discipline to recognize a moment before it becomes obvious. Expression emerges through perspective and conviction rather than imitation.<br/><br/><strong>A Reflection of Culture</strong><br/>Culture evolves through individuals who see differently.<br/><br/>The traditions that inspire Do Not Duplicate reflect a balance of craft, discipline, and instinct. Within the world of the Houston Rodeo, these qualities determine every outcome, shaping moments that cannot be predicted or replicated.<br/><br/><strong>A Commitment to Individuality</strong><br/>At its core, Do Not Duplicate reflects a commitment to personal authorship.<br/><br/>The Houston Rodeo Pack translates the visual language of Western riding culture into adidas Originals silhouettes through hair-on leather panels, croc-embossed textures, suede overlays, and metal stud detailing.<br/><br/>Each pair carries the Do Not Duplicate chain tag, marking the platform and its message of individuality.<br/><br/><strong>The Expression Continues</strong><br/>The Houston Rodeo Pack marks the beginning of the Do Not Duplicate platform.<br/><br/>Additional expressions will continue to explore how instinct, perseverance, and lived experience shape the way individuals move through sport and culture.</p><p></p>",
+            "content": "<p>The Whitaker Group and adidas present Do Not Duplicate, a cultural platform grounded in individuality, creative authorship, and the lived experiences that shape how people move through sport and culture.<br/><br/><strong>Individuality Cannot Be Reproduced</strong></p><p>Within Do Not Duplicate, individuality is revealed through instinct and intention.</p><p>Those shaping culture are not repeating patterns. They move with awareness, guided by lived experience and the discipline to recognize a moment before it becomes visible to others. Expression is formed through perspective and conviction rather than imitation.</p><p><strong>A Reflection of Culture</strong></p><p>Culture evolves through individuals who see differently.</p><p>Every environment carries its own rhythm, shaped by tradition, energy, and lived experience. Do Not Duplicate draws from these moments, translating them into expressions that reflect both origin and evolution without replication.</p><p><strong>A Commitment to Individuality</strong></p><p>At its core, Do Not Duplicate is a commitment to personal authorship.</p><p>Each expression interprets cultural reference points through material, form, and construction. Texture, proportion, and detail are used with intention, creating pieces that reflect individuality rather than conformity.</p><p><strong>The Expression Continues</strong></p><p>Do Not Duplicate is an ongoing exploration of instinct and identity.</p><p>Each chapter builds on the last, examining how individuals move through culture with clarity and purpose. What emerges is not repetition, but a series of distinct expressions shaped by perspective, discipline, and time.<br/><br/>The platform reflects the individuals and communities shaping culture through instinct, creativity, and lived experience.<br/></p>",
             "text_color": "#eaeaea"
           }
         },
@@ -85,6 +87,7 @@
         },
         "richtext_EkJ7B3": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
             "text_color": "#eaeaea"
@@ -107,8 +110,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/f504_33b26d58-527f-4976-beed-ae11ec5aee74.png",
-        "mobile_image": "shopify://shop_images/f504_dbcaa5e4-25fa-45a4-94aa-d31a0aacd212.png",
+        "image": "shopify://shop_images/DSC04386_BM_1.jpg",
+        "mobile_image": "shopify://shop_images/DSC04386_BM_1_cdedeef0-6a0d-4ba2-8f98-1231481ee354.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -120,50 +123,62 @@
         "remove_top_padding": false
       }
     },
+    "rich_text_Ycy4YL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Q7JLFe": {
+          "type": "heading",
+          "settings": {
+            "text": "404 Peachtree",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_8ppK6e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do Not Duplicate: 404 Peachtree is rooted in Atlanta, where culture is defined through discipline, independence, and lived experience. The city’s influence is shaped over time, carried through movement, form, and perspective rather than imitation. Featuring Ben Reilly and Cleotrvpv, this chapter reflects a way of creating grounded in presence and continuity. The silhouettes follow that same rhythm, expressed through considered design and a palette that carries across environments without adjustment.</p>"
+          }
+        },
+        "button_KpxKbc": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "enter draws",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_MgRBB4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q7JLFe",
+        "richtext_8ppK6e",
+        "button_KpxKbc",
+        "richtext_MgRBB4"
+      ],
+      "name": "404 copy",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "media_grid_4MXqFL": {
       "type": "media-grid",
       "blocks": {
-        "image_aCqxkA": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-1_c7811a0a-1a51-49ac-856e-85458365bd1a.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_jckHzH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-4_f99d6891-3885-4224-9fd6-09c50b11d860.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "image_BEtRTU": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-5_a5338993-84ff-4bc9-aff3-75b83c00fc86.jpg",
+            "image": "shopify://shop_images/ammpink.png",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -181,7 +196,43 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-6_23745ce7-3bc9-40d2-b116-bd4f2c1d7f8b.jpg",
+            "image": "shopify://shop_images/DSC08605_2_DC_2_copygfp.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aCqxkA": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC02983_BM_6ef572c2-9626-4126-b6d8-a5c1f38f2a5b.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jckHzH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC03179_BM.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -199,7 +250,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-7_e9198f95-3e16-47f8-a795-66a4bff4216a.jpg",
+            "image": "shopify://shop_images/ammred.png",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -217,7 +268,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-3_6317d9e6-450e-4d5c-b606-534c452c798b.jpg",
+            "image": "shopify://shop_images/DSC04409_BM.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -235,8 +286,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-2_3e7c5fd8-6f9f-478a-b46b-a00ffdad8e12.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/DSC07919_DC.jpg",
+            "column_count": "12",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -251,6 +302,7 @@
         },
         "image_FA9Bnz": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-8_d02acbf1-bfde-4839-ba46-2d6e4c743314.jpg",
@@ -269,6 +321,7 @@
         },
         "image_cVQmCb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-9_7034673b-2534-4aed-8e35-e37bc36c104d.jpg",
@@ -287,6 +340,7 @@
         },
         "image_dLC688": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/boxaj4.jpg",
@@ -305,10 +359,10 @@
         }
       },
       "block_order": [
-        "image_aCqxkA",
-        "image_jckHzH",
         "image_BEtRTU",
         "image_HVfcXg",
+        "image_aCqxkA",
+        "image_jckHzH",
         "image_3tPX3b",
         "image_TB3Va4",
         "image_gkhdMq",
@@ -316,7 +370,7 @@
         "image_cVQmCb",
         "image_dLC688"
       ],
-      "disabled": true,
+      "name": "404 grid",
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
@@ -327,6 +381,25 @@
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "3d_gallery_simple_KeU3rf": {
+      "type": "3d-gallery-simple",
+      "disabled": true,
+      "name": "3D Gallery Simple",
+      "settings": {
+        "title": "3D Gallery",
+        "start_index": "",
+        "end_index": "",
+        "dynamic_link_handle": "",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "video_yGaVhn": {
@@ -351,7 +424,8 @@
         "play_YaRjFR",
         "heading_zhzbkQ"
       ],
-      "name": "t:sections.video.presets.video.name",
+      "disabled": true,
+      "name": "statement film",
       "settings": {
         "autoplay": true,
         "show_controls": true,
@@ -361,24 +435,34 @@
         "text_color": "#ffffff"
       }
     },
-    "3d_gallery_iMKpxA": {
-      "type": "3d-gallery",
-      "disabled": true,
-      "name": "3D Gallery",
+    "rich_text_VrqdQt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t4WMRY": {
+          "type": "heading",
+          "settings": {
+            "text": "Houston Rodeo",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_PhcVGb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do Not Duplicate: Houston Rodeo reflects a tradition built on discipline, timing, and control. Rooted in the culture surrounding the rodeo, this chapter explores a way of moving shaped through repetition and instinct. Materials and finishes carry that influence forward, grounded in heritage and expressed through a refined lens. Each silhouette reflects a balance of structure and restraint, defined through performance rather than declaration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t4WMRY",
+        "richtext_PhcVGb"
+      ],
+      "name": "rodeo copy",
       "settings": {
-        "title": "A Closer Look",
-        "start_index": "352",
-        "end_index": "407",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
-        "file_ext": "png",
-        "button_label": "",
-        "button_link": "",
-        "knob_position": 10,
-        "gallery_width": 60,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "",
-        "bottom_text": ""
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "media_grid_HwBKby": {
@@ -404,6 +488,7 @@
         },
         "image_Fw9AEQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/99.png",
@@ -590,6 +675,7 @@
         },
         "image_iWhfJp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/whitebw.png",
@@ -621,6 +707,7 @@
         "image_3xwUtz",
         "image_iWhfJp"
       ],
+      "name": "rodeo grid",
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
@@ -638,9 +725,11 @@
     "main",
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
+    "rich_text_Ycy4YL",
     "media_grid_4MXqFL",
+    "3d_gallery_simple_KeU3rf",
     "video_yGaVhn",
-    "3d_gallery_iMKpxA",
+    "rich_text_VrqdQt",
     "media_grid_HwBKby"
   ]
 }

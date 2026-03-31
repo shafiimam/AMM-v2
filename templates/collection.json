@@ -19,7 +19,7 @@
         "enable_parallax": false,
         "show_image": false,
         "show_collection_title": true,
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_breadcrumb": true,
         "content_width": "full",
         "overlay_color": "#ffffff",
@@ -54,7 +54,8 @@
       "type": "subcollection-nav",
       "name": "Subcollection Navigation",
       "settings": {
-        "fallback_collection": ""
+        "fallback_collection": "",
+        "spacing_card": 16
       }
     },
     "main": {
