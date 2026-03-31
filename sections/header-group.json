@@ -71,6 +71,7 @@
         "mega_menu_wJYUCr": {
           "type": "mega_menu",
           "name": "OFFSEASON PROMO",
+          "disabled": true,
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
@@ -207,7 +208,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": false
+        "show_releases": true
       }
     }
   },
