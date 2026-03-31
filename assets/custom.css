@@ -108,9 +108,9 @@ span.smartwishlist .fa {
   font-size: 14px;
   color: #545454;
 }
-.header__primary-nav-item:nth-child(2) .mega-menu__linklist li {
+/* .header__primary-nav-item:nth-child(2) .mega-menu__linklist li {
   width: 20%;
-}
+} */
 
 .shopify-section--featured-collections h2.h2 {
   color: rgb(var(--text-color));
