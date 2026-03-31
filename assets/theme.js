@@ -4257,21 +4257,26 @@ var _abortController7,
       );
     }
     openLightBox(index) {
-      const dataSource = this.carousel.cells
-          .flatMap((cell) => Array.from(cell.querySelectorAll(":scope > img")))
-          .map((image) => ({
-            thumbnailElement: image,
-            src: image.src,
-            srcset: image.srcset,
-            msrc: image.currentSrc || image.src,
-            width: parseInt(image.getAttribute("width")),
-            height: parseInt(image.getAttribute("height")),
-            alt: image.alt,
-            thumbCropped: !0,
-          })),
-        imageCells = this.carousel.cells.filter(
+      const imageCells = this.carousel.cells.filter(
           (cell) => cell.getAttribute("data-media-type") === "image"
-        );
+        ),
+        dataSource = imageCells
+          .map((cell) => {
+            const image = cell.querySelector("picture img, :scope > img");
+            return image
+              ? {
+                  thumbnailElement: image,
+                  src: image.src,
+                  srcset: image.srcset,
+                  msrc: image.currentSrc || image.src,
+                  width: parseInt(image.getAttribute("width"), 10) || 0,
+                  height: parseInt(image.getAttribute("height"), 10) || 0,
+                  alt: image.alt,
+                  thumbCropped: !0,
+                }
+              : null;
+          })
+          .filter(Boolean);
       this.lightBox.loadAndOpen(
         index ?? imageCells.indexOf(this.carousel.selectedCell),
         dataSource
