@@ -12,6 +12,66 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_jBcpCr": {
+          "type": "image",
+          "name": "4.7 dayglow",
+          "disabled": true,
+          "settings": {
+            "subheading": "<p>Tell your story</p>",
+            "subheading_size": 12,
+            "title": "<p>Image slide</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "video_kDTrdD": {
+          "type": "video",
+          "name": "4.3 peachtree",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/1996 reel new 3 new font.mov",
+            "allow_sound": true,
+            "subheading": "<strong>Available Now </strong>",
+            "subheading_size": 21,
+            "title": "<strong>DO not duplicate: 404 peachtree pack </strong>",
+            "title_size": 37,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_MP866p": {
           "type": "image",
           "name": "peachtree",
@@ -44,6 +104,8 @@
         }
       },
       "block_order": [
+        "image_jBcpCr",
+        "video_kDTrdD",
         "image_MP866p"
       ],
       "settings": {
@@ -155,7 +217,7 @@
         "product_8q4ahn",
         "product_wBMWzJ"
       ],
-      "name": "RICK OWENS PRODUCT",
+      "name": "Y-3 product ",
       "settings": {
         "section_alignment": "left",
         "title": "Y-3 adidas",
@@ -429,6 +491,7 @@
         "image_DeB9na",
         "video_YPpciV"
       ],
+      "name": "spring authority ",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
