@@ -166,6 +166,65 @@
         "image_cta_url": "shopify://collections/y-3-adidas"
       }
     },
+    "image_with_text_4rzGhq": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_jmzUa4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_h3aKYA": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>404 Day Cipher Run </strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_V3crbK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Join us at A Ma Maniére Atlanta for 404 Day on April 4th from 9:30 AM to 11:30 AM for a community-driven run experience rooted in Atlanta culture. </p><p>Starting at A Ma Maniére on Marietta Street, the path unfolds in real time, revealing its final destination along the way.</p><p>Location classified. Follow the clues. Something waits at the end.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_GCQJcU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "",
+            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jmzUa4",
+        "heading_h3aKYA",
+        "richtext_V3crbK",
+        "button_GCQJcU"
+      ],
+      "name": "404 day event ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+        "mobile_image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "featured_collections_EFnetB": {
       "type": "featured-collections",
       "blocks": {
@@ -184,7 +243,7 @@
         "collection_JHfxwA"
       ],
       "custom_css": [],
-      "name": "AIR MAX DAY ",
+      "name": "new arrivals",
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -690,63 +749,6 @@
       "name": "Spacer",
       "settings": {}
     },
-    "image_with_text_4rzGhq": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_jmzUa4": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_h3aKYA": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>The Original Issue </strong>",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_V3crbK": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The Original Issue is a Black History Month series from The Whitaker Group honoring Black fashion pioneers whose influence shaped global style long before it was named, credited, or claimed elsewhere.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_GCQJcU": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "READ ARTICLE",
-            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_jmzUa4",
-        "heading_h3aKYA",
-        "richtext_V3crbK",
-        "button_GCQJcU"
-      ],
-      "name": "BLOG HIGHLIGHT",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/D1.png",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
-    },
     "media_grid_DzxzqH": {
       "type": "media-grid",
       "blocks": {
@@ -964,6 +966,7 @@
     "media_grid_ik3yVY",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "image_with_text_4rzGhq",
     "featured_collections_EFnetB",
     "media_grid_dcKXGR",
     "blocks_C9GbEP",
@@ -976,7 +979,6 @@
     "before-after",
     "media_grid_JJfcQ6",
     "blocks_xhmELd",
-    "image_with_text_4rzGhq",
     "media_grid_DzxzqH",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
