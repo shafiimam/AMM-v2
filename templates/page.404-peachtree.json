@@ -141,6 +141,7 @@
         },
         "button_KpxKbc": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "enter draws",
