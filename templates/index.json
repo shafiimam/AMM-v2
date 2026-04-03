@@ -48,9 +48,9 @@
           "settings": {
             "video": "shopify://files/videos/1996 reel new 3 new font.mov",
             "allow_sound": true,
-            "subheading": "<strong>Available Now </strong>",
+            "subheading": "<strong>Available Now</strong>",
             "subheading_size": 21,
-            "title": "<strong>DO not duplicate: 404 peachtree pack </strong>",
+            "title": "<strong>DO not duplicate: 404 peachtree pack</strong>",
             "title_size": 37,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -78,7 +78,7 @@
           "settings": {
             "image": "shopify://shop_images/microhero2.png",
             "mobile_image": "shopify://shop_images/lldg.jpg",
-            "subheading": "<p><strong>Exclusively available April 3 </strong></p>",
+            "subheading": "<p><strong>Exclusively available April 3</strong></p>",
             "subheading_size": 16,
             "title": "<p><strong>Do Not Duplicate: 404 PEACHTREE PACK</strong></p>",
             "title_size": 27,
@@ -100,7 +100,8 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(4, 4, 4, 0.65) 100%)"
-          }
+          },
+          "disabled": true
         }
       },
       "block_order": [
