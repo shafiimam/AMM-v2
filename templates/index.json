@@ -44,7 +44,6 @@
         "video_kDTrdD": {
           "type": "video",
           "name": "4.3 peachtree",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/1996 reel new 3 new font.mov",
             "allow_sound": true,
@@ -75,6 +74,7 @@
         "image_MP866p": {
           "type": "image",
           "name": "peachtree",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/microhero2.png",
             "mobile_image": "shopify://shop_images/lldg.jpg",
@@ -100,8 +100,7 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(4, 4, 4, 0.65) 100%)"
-          },
-          "disabled": true
+          }
         }
       },
       "block_order": [
