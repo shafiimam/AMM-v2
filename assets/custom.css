@@ -613,3 +613,8 @@ img.ryzo-product-image  {
 .ryzo-sale-badge {
   display: none;
 }
+
+.price-content .current-price {
+  color: #1c1c1c !important;
+  font-weight: normal !important;
+}

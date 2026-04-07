@@ -12,21 +12,81 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_jBcpCr": {
+          "type": "image",
+          "name": "4.7 dayglow",
+          "disabled": true,
+          "settings": {
+            "subheading": "<p>Tell your story</p>",
+            "subheading_size": 12,
+            "title": "<p>Image slide</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "video_kDTrdD": {
+          "type": "video",
+          "name": "4.3 peachtree",
+          "settings": {
+            "video": "shopify://files/videos/1996 reel new 3 new font.mov",
+            "allow_sound": true,
+            "subheading": "<strong>Available Now</strong>",
+            "subheading_size": 21,
+            "title": "<strong>DO not duplicate: 404 peachtree </strong>",
+            "title_size": 37,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "SHOP THE COLLECTION",
+            "button_1_link": "shopify://collections/do-not-duplicate",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_MP866p": {
           "type": "image",
           "name": "peachtree",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/microhero2.png",
             "mobile_image": "shopify://shop_images/lldg.jpg",
-            "subheading": "<p><strong>Exclusively available April 3 </strong></p>",
+            "subheading": "<p><strong>Exclusively available April 3</strong></p>",
             "subheading_size": 16,
             "title": "<p><strong>Do Not Duplicate: 404 PEACHTREE PACK</strong></p>",
             "title_size": 27,
             "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "enter draws",
-            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
+            "button_1_text": "",
+            "button_1_link": "#",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -44,6 +104,8 @@
         }
       },
       "block_order": [
+        "image_jBcpCr",
+        "video_kDTrdD",
         "image_MP866p"
       ],
       "settings": {
@@ -155,7 +217,7 @@
         "product_8q4ahn",
         "product_wBMWzJ"
       ],
-      "name": "RICK OWENS PRODUCT",
+      "name": "Y-3 product ",
       "settings": {
         "section_alignment": "left",
         "title": "Y-3 adidas",
@@ -164,6 +226,65 @@
         "image_description": "<p>Rooted in the discipline of sport and the language of runway, Y-3 defines a modern uniform through utility outerwear, structured jerseys, and tailored silhouettes. Each piece moves with intention, shaped through material, form, and precision.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/y-3-adidas"
+      }
+    },
+    "image_with_text_4rzGhq": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_jmzUa4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_h3aKYA": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>404 Day Cipher Run </strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_V3crbK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Join us at A Ma Maniére Atlanta for 404 Day on April 4th from 9:30 AM to 11:30 AM for a community-driven run experience rooted in Atlanta culture. </p><p>Starting at A Ma Maniére on Marietta Street, the path unfolds in real time, revealing its final destination along the way.</p><p>Location classified. Follow the clues. Something waits at the end.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_GCQJcU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "",
+            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jmzUa4",
+        "heading_h3aKYA",
+        "richtext_V3crbK",
+        "button_GCQJcU"
+      ],
+      "name": "404 day event ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+        "mobile_image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     },
     "featured_collections_EFnetB": {
@@ -184,7 +305,7 @@
         "collection_JHfxwA"
       ],
       "custom_css": [],
-      "name": "AIR MAX DAY ",
+      "name": "new arrivals",
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -211,7 +332,7 @@
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://products/twg-x-1890-star-burst",
+            "link_url": "https://www.a-ma-maniere.com/products/oakley-muzm-scar-sunglasses-black",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -358,7 +479,7 @@
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://collections/jacquemus",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -370,6 +491,7 @@
         "image_DeB9na",
         "video_YPpciV"
       ],
+      "name": "spring authority ",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -690,63 +812,6 @@
       "name": "Spacer",
       "settings": {}
     },
-    "image_with_text_4rzGhq": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_jmzUa4": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_h3aKYA": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>The Original Issue </strong>",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_V3crbK": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The Original Issue is a Black History Month series from The Whitaker Group honoring Black fashion pioneers whose influence shaped global style long before it was named, credited, or claimed elsewhere.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_GCQJcU": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "READ ARTICLE",
-            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_jmzUa4",
-        "heading_h3aKYA",
-        "richtext_V3crbK",
-        "button_GCQJcU"
-      ],
-      "name": "BLOG HIGHLIGHT",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/D1.png",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
-    },
     "media_grid_DzxzqH": {
       "type": "media-grid",
       "blocks": {
@@ -964,6 +1029,7 @@
     "media_grid_ik3yVY",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "image_with_text_4rzGhq",
     "featured_collections_EFnetB",
     "media_grid_dcKXGR",
     "blocks_C9GbEP",
@@ -976,7 +1042,6 @@
     "before-after",
     "media_grid_JJfcQ6",
     "blocks_xhmELd",
-    "image_with_text_4rzGhq",
     "media_grid_DzxzqH",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
