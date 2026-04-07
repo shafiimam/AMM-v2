@@ -76,7 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {%- render 'microdata-schema' -%}
     {%- render 'css-variables' -%}
     {%- render 'js-variables' -%}
-    {% render 'splash-screens' %}
+    {% comment %} {% render 'splash-screens' %} {% endcomment %}
 
     {%- if request.page_type == 'gift_card' -%}
       <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script>
