@@ -169,7 +169,7 @@
             "color_scheme": "scheme-4",
             "video": "shopify://files/videos/1996 reel new 3 new font.mov",
             "autoplay": true,
-            "show_controls": false,
+            "show_controls": true,
             "column_count": "8",
             "row_count": 1,
             "title": "",
