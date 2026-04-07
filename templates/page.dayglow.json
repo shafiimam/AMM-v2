@@ -23,8 +23,8 @@
       "type": "hero-with-logo",
       "name": "Hero Banner With Logo",
       "settings": {
-        "image": "shopify://shop_images/microhero2.png",
-        "image_mobile": "shopify://shop_images/lldg.jpg",
+        "image": "shopify://shop_images/microsire.png",
+        "image_mobile": "shopify://shop_images/4CL_1.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "",
         "title_color": "#ffffff",
@@ -110,7 +110,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC04386_BM_1.jpg",
+        "image": "shopify://shop_images/DSC06076BB_1.jpg",
         "mobile_image": "shopify://shop_images/DSC04386_BM_1_cdedeef0-6a0d-4ba2-8f98-1231481ee354.jpg",
         "video_autoplay": false,
         "video_loop": true,
@@ -123,25 +123,24 @@
         "remove_top_padding": false
       }
     },
-    "rich_text_Ycy4YL": {
+    "rich_text_bgrjCr": {
       "type": "rich-text",
       "blocks": {
-        "heading_Q7JLFe": {
+        "heading_TQR4GH": {
           "type": "heading",
           "settings": {
-            "text": "404 Peachtree",
+            "text": "DAY GLOW PACK",
             "heading_tag": "h1"
           }
         },
-        "richtext_8ppK6e": {
+        "richtext_WVXb8y": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Do Not Duplicate: 404 Peachtree is rooted in Atlanta, where culture is defined through discipline, independence, and lived experience. The city’s influence is shaped over time, carried through movement, form, and perspective rather than imitation. Featuring Ben Reilly and Cleotrvpv, this chapter reflects a way of creating grounded in presence and continuity. The silhouettes follow that same rhythm, expressed through considered design and a palette that carries across environments without adjustment.</p>"
+            "content": "<p>Day Glow moves between two states, held in the moment just before sunrise and carried forward into visibility. Conditions shift without announcement. Movement begins early, guided by instinct and sustained as light arrives. One silhouette emerges through a gradient that moves from yellow into orange, capturing the first break of day. The other remains grounded in darker tones, rooted in the moment just before it. They are not separate. They move in continuity, carrying the same pace across both states.</p>"
           }
         },
-        "button_KpxKbc": {
+        "button_yd3i4M": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "enter draws",
@@ -150,7 +149,7 @@
             "text_color": ""
           }
         },
-        "richtext_MgRBB4": {
+        "richtext_dtYHDQ": {
           "type": "richtext",
           "settings": {
             "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>"
@@ -158,12 +157,12 @@
         }
       },
       "block_order": [
-        "heading_Q7JLFe",
-        "richtext_8ppK6e",
-        "button_KpxKbc",
-        "richtext_MgRBB4"
+        "heading_TQR4GH",
+        "richtext_WVXb8y",
+        "button_yd3i4M",
+        "richtext_dtYHDQ"
       ],
-      "name": "404 copy",
+      "name": "DAYGLOW COPY",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -175,11 +174,11 @@
     "media_grid_4MXqFL": {
       "type": "media-grid",
       "blocks": {
-        "image_BEtRTU": {
+        "image_3tPX3b": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ammpink.png",
+            "image": "shopify://shop_images/DSC05870BB.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -197,61 +196,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC08605_2_DC_2_copygfp.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_aCqxkA": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC02983_BM_6ef572c2-9626-4126-b6d8-a5c1f38f2a5b.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_jckHzH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC03179_BM.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_3tPX3b": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ammred.png",
+            "image": "shopify://shop_images/ammdg2.png",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -269,7 +214,61 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC04409_BM.jpg",
+            "image": "shopify://shop_images/4CL_1_6d8a0a98-31a5-4a27-8b08-71a930a39dd0.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jckHzH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC05601BB.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aCqxkA": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammdg.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BEtRTU": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammdg1.png",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -287,7 +286,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC07919_DC.jpg",
+            "image": "shopify://shop_images/DSC06047BB.jpg",
             "column_count": "12",
             "row_count": 1,
             "title": "",
@@ -360,18 +359,273 @@
         }
       },
       "block_order": [
-        "image_BEtRTU",
-        "image_HVfcXg",
-        "image_aCqxkA",
-        "image_jckHzH",
         "image_3tPX3b",
+        "image_HVfcXg",
         "image_TB3Va4",
+        "image_jckHzH",
+        "image_aCqxkA",
+        "image_BEtRTU",
         "image_gkhdMq",
         "image_FA9Bnz",
         "image_cVQmCb",
         "image_dLC688"
       ],
       "name": "404 grid",
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "desktop_row_height": 600,
+        "mobile_row_height": 400,
+        "section_width": "full",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_Ycy4YL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Q7JLFe": {
+          "type": "heading",
+          "settings": {
+            "text": "404 Peachtree",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_8ppK6e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do Not Duplicate: 404 Peachtree is rooted in Atlanta, where culture is defined through discipline, independence, and lived experience. The city’s influence is shaped over time, carried through movement, form, and perspective rather than imitation. Featuring Ben Reilly and Cleotrvpv, this chapter reflects a way of creating grounded in presence and continuity. The silhouettes follow that same rhythm, expressed through considered design and a palette that carries across environments without adjustment.</p>"
+          }
+        },
+        "button_KpxKbc": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "enter draws",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q7JLFe",
+        "richtext_8ppK6e",
+        "button_KpxKbc"
+      ],
+      "name": "404 copy",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_fzyMFm": {
+      "type": "media-grid",
+      "blocks": {
+        "image_nUz4wc": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammpink.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_g6Ah3B": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC08605_2_DC_2_copygfp.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TULXVG": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC02983_BM_6ef572c2-9626-4126-b6d8-a5c1f38f2a5b.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Ad7aAR": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC03179_BM.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hHJrbG": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammred.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Lk4VrQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC04409_BM.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PiRE8M": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC07919_DC.jpg",
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XXm6bM": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-8_d02acbf1-bfde-4839-ba46-2d6e4c743314.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cXxc7m": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-9_7034673b-2534-4aed-8e35-e37bc36c104d.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YEBhyM": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/boxaj4.jpg",
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_nUz4wc",
+        "image_g6Ah3B",
+        "image_TULXVG",
+        "image_Ad7aAR",
+        "image_hHJrbG",
+        "image_Lk4VrQ",
+        "image_PiRE8M",
+        "image_XXm6bM",
+        "image_cXxc7m",
+        "image_YEBhyM"
+      ],
+      "name": "DAYGLOW GRID",
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
@@ -726,8 +980,10 @@
     "main",
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
-    "rich_text_Ycy4YL",
+    "rich_text_bgrjCr",
     "media_grid_4MXqFL",
+    "rich_text_Ycy4YL",
+    "media_grid_fzyMFm",
     "3d_gallery_simple_KeU3rf",
     "video_yGaVhn",
     "rich_text_VrqdQt",
