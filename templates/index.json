@@ -177,7 +177,7 @@
             "content": "",
             "link_text": "404 Peachtree",
             "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "outline",
+            "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -188,7 +188,6 @@
         "image_jUbAfA",
         "video_AfzNrQ"
       ],
-      "disabled": true,
       "name": "VIDEO IN GRID",
       "settings": {
         "color_scheme": "",
@@ -199,45 +198,6 @@
         "spacing": "none",
         "subheading": "",
         "title": "",
-        "content": ""
-      }
-    },
-    "media_grid_ik3yVY": {
-      "type": "media-grid",
-      "blocks": {
-        "video_nRCpkG": {
-          "type": "video",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/1996 reel new 3 new font.mov",
-            "autoplay": true,
-            "show_controls": false,
-            "column_count": "12",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/y-3-adidas",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "video_nRCpkG"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 430,
-        "mobile_row_height": 450,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "404 Peachtree Pack",
         "content": ""
       }
     },
@@ -1002,7 +962,6 @@
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
     "media_grid_DzxzqH",
-    "media_grid_ik3yVY",
     "image_with_text_4rzGhq",
     "featured_collections_EFnetB",
     "media_grid_dcKXGR",
