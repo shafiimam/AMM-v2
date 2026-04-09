@@ -53,7 +53,7 @@
             "allow_sound": true,
             "subheading": "<strong>Available Now</strong>",
             "subheading_size": 21,
-            "title": "<strong>DO not duplicate: 404 peachtree </strong>",
+            "title": "<strong>DO not duplicate: 404 peachtree</strong>",
             "title_size": 37,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -73,7 +73,8 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
-          }
+          },
+          "disabled": true
         }
       },
       "block_order": [
