@@ -15,7 +15,6 @@
         "video_kDTrdD": {
           "type": "video",
           "name": "dayglow",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
             "mobile_video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
@@ -47,6 +46,7 @@
         "video_tgRbpF": {
           "type": "video",
           "name": "4.3 peachtree",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/1996 reel new 3 new font.mov",
             "mobile_video": "shopify://files/videos/1996 reel new 3 new font.mov",
@@ -73,8 +73,7 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
-          },
-          "disabled": true
+          }
         }
       },
       "block_order": [
