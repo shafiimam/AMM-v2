@@ -199,7 +199,8 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
+      },
+      "disabled": true
     },
     "image_with_text_4rzGhq": {
       "type": "image-with-text",
