@@ -142,6 +142,85 @@
         "image_cta_url": "shopify://collections/y-3-adidas"
       }
     },
+    "media_grid_dcKXGR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_TQMx8i": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-3_EPDP_Full-Bleed-Hero_Tab-Mob_1536x1536px.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/puma",
+            "link_style": "solid",
+            "text_position": "place-self-end-start text-start",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_LGcaaU": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/26SS_PNA_SP_Nahmias_HERO_FINE_12_16X9_31s.mp4",
+            "autoplay": true,
+            "show_controls": true,
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/puma",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XUaB3V": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-3_Email_Desk_Secondary-Banner_Image-Grid_416x552px_2.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_TQMx8i",
+        "video_LGcaaU",
+        "image_XUaB3V"
+      ],
+      "name": "pumaxnahmia",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 360,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "media_grid_DzxzqH": {
       "type": "media-grid",
       "blocks": {
@@ -188,6 +267,7 @@
         "image_jUbAfA",
         "video_AfzNrQ"
       ],
+      "disabled": true,
       "name": "VIDEO IN GRID",
       "settings": {
         "color_scheme": "",
@@ -199,8 +279,7 @@
         "subheading": "",
         "title": "",
         "content": ""
-      },
-      "disabled": true
+      }
     },
     "image_with_text_4rzGhq": {
       "type": "image-with-text",
@@ -268,10 +347,10 @@
         "collection_JHfxwA": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals",
-            "products_count": 8,
-            "title": "new Arrivals",
-            "link_url": "shopify://collections/new-arrivals",
+            "collection": "puma",
+            "products_count": 4,
+            "title": "Puma x nahmias",
+            "link_url": "shopify://collections/puma",
             "link_text": "SHOP COLLECTION"
           }
         }
@@ -291,63 +370,6 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
-      }
-    },
-    "media_grid_dcKXGR": {
-      "type": "media-grid",
-      "blocks": {
-        "image_ahg8KY": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/oakley2.png",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "https://www.a-ma-maniere.com/products/oakley-muzm-scar-sunglasses-black",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_GMiDPM": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/oakley.png",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "<strong>oakley x muzm scar </strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://products/oakley-muzm-scar-sunglasses-black",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_ahg8KY",
-        "image_GMiDPM"
-      ],
-      "name": "oakley",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 410,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "none",
-        "subheading": "",
-        "title": "",
-        "content": ""
       }
     },
     "blocks_C9GbEP": {
@@ -962,10 +984,10 @@
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "media_grid_dcKXGR",
     "media_grid_DzxzqH",
     "image_with_text_4rzGhq",
     "featured_collections_EFnetB",
-    "media_grid_dcKXGR",
     "blocks_C9GbEP",
     "featured_collections_WMah7x",
     "media_grid_7fM37z",
