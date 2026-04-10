@@ -103,25 +103,25 @@
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "adidas-y-3-elite-5-football-jersey-black"
+            "product": "puma-x-nahmias-knit-jersey-black"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "adidas-y-3-mesh-shorts-black"
+            "product": "puma-x-nahmias-track-pants-black"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "adidas-y-3-basketball-track-pants-black"
+            "product": "nahmias-speedcat-warm-white-sand-dark-grey"
           }
         },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "y-3-adios-9"
+            "product": "nahmias-speedcat-black-canvas-candy-apple"
           }
         }
       },
@@ -134,12 +134,12 @@
       "name": "Y-3 product ",
       "settings": {
         "section_alignment": "left",
-        "title": "Y-3 adidas",
+        "title": "PUMA X NAHMIAS",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/y-3_4.png",
-        "image_description": "<p>Rooted in the discipline of sport and the language of runway, Y-3 defines a modern uniform through utility outerwear, structured jerseys, and tailored silhouettes. Each piece moves with intention, shaped through material, form, and precision.</p>",
+        "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-2_App-Story_1080x1920px.jpg",
+        "image_description": "<p>Return to Summerland with the latest from PUMA x NAHMIAS. Paying homage to Doni Nahmias' Southern California hometown, this new drop blends the designers L.A aesthetic with the speed and style of motorsport.<br/><br/>Featuring the iconic Speedcat with all-new premium detailing, luxe track pieces, and edgy graphic tees that bring street style into the luxury space. Born on the west coast, inspired by the track. </p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/y-3-adidas"
+        "image_cta_url": "shopify://collections/puma"
       }
     },
     "media_grid_dcKXGR": {
@@ -344,19 +344,19 @@
     "featured_collections_EFnetB": {
       "type": "featured-collections",
       "blocks": {
-        "collection_JHfxwA": {
+        "collection_Nizrmj": {
           "type": "collection",
           "settings": {
-            "collection": "puma",
-            "products_count": 4,
-            "title": "Puma x nahmias",
-            "link_url": "shopify://collections/puma",
-            "link_text": "SHOP COLLECTION"
+            "collection": "new-arrivals",
+            "products_count": 8,
+            "title": "NEW ARRIVALS",
+            "link_url": "shopify://collections/new-arrivals",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_JHfxwA"
+        "collection_Nizrmj"
       ],
       "custom_css": [],
       "name": "new arrivals",
@@ -367,7 +367,7 @@
         "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
+        "horizontal_spacing_factor": 0.8,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -987,8 +987,8 @@
     "media_grid_dcKXGR",
     "media_grid_DzxzqH",
     "image_with_text_4rzGhq",
-    "featured_collections_EFnetB",
     "blocks_C9GbEP",
+    "featured_collections_EFnetB",
     "featured_collections_WMah7x",
     "media_grid_7fM37z",
     "media_grid_kDP8wG",
