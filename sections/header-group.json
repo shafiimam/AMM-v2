@@ -95,72 +95,48 @@
             "image_2_link": ""
           }
         },
+        "release_DjJNYX": {
+          "type": "release",
+          "settings": {
+            "release_title": "4.16",
+            "release_image": "shopify://shop_images/TWGEXCLUSIVEPETERSON23_STUDDED_-1.jpg",
+            "product_title": "MAISON MIHARA YASUHIRO PETERSON 23 \"STUDDED\"",
+            "product_vendor": "",
+            "product_price": "$588",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/maison-mihara-yasuhiro-peterson-23-studded"
+          }
+        },
         "release_nAhaJK": {
           "type": "release",
           "settings": {
-            "release_title": "4.3",
-            "release_image": "shopify://shop_images/EVOSLRED-1.jpg",
-            "product_title": "DO NOT DUPLICATE EVO SL 404 PEACHTREE",
-            "product_vendor": "adidas",
+            "release_title": "4.17",
+            "release_image": "shopify://shop_images/EVOSLKJ5092-1.jpg",
+            "product_title": "ADIDAS DO NOT DUPLICATE EVO SL DAYGLOW \"ORANGE/WHITE\"",
+            "product_vendor": "",
             "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/evo-sl-404-day-peachtree"
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-evo-sl-dayglow-orangewhite"
           }
         },
         "release_tw94g8": {
           "type": "release",
           "settings": {
-            "release_title": "4.3",
-            "release_image": "shopify://shop_images/96OGATLRED-1_efe032fb-8701-4b6b-9a1f-238ba32f4dfd.jpg",
-            "product_title": "DO NOT DUPLICATE ATLANTA 96 OG 404 DAY PEACHTREE",
-            "product_vendor": "adidas",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/dnd-atlanta-96-og-404-day-peachtree"
-          }
-        },
-        "release_eVw43f": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "3.21",
-            "release_image": "shopify://shop_images/PHARELLXADIZEROBROWNBLK-1.jpg",
-            "product_title": "ADIDAS PHARRELL WILLIAMS ADIZERO EVO SL",
-            "product_vendor": "adidas",
-            "product_price": "$160",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-pharrell-williams-adizero-evo-sl"
-          }
-        },
-        "release_DjJNYX": {
-          "type": "release",
-          "settings": {
-            "release_title": "4.3",
-            "release_image": "shopify://shop_images/EVOSLPEACH-1.jpg",
-            "product_title": "DO NOT DUPLICATE EVO SL 404 PEACHTREE",
-            "product_vendor": "adidas",
+            "release_title": "4.17",
+            "release_image": "shopify://shop_images/EVOSLKJ5093-1.jpg",
+            "product_title": "ADIDAS DO NOT DUPLICATE EVO SL DAYGLOW \"BLACK/BLUE/CLAY\"",
+            "product_vendor": "",
             "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/dnd-evo-sl-404-day-peachtree"
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-evo-sl-dayglow-blackblueclay"
           }
         },
         "release_KPd8WR": {
           "type": "release",
           "settings": {
-            "release_title": "4.3",
-            "release_image": "shopify://shop_images/ATLTRAINERPINK-1.jpg",
-            "product_title": "DO NOT DUPLICATE ATLANTA TRAINER 404 DAY PEACHTREE",
-            "product_vendor": "adidas",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/dnd-atl-trainer-404-day"
-          }
-        },
-        "release_Ubn9R7": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "3.28",
-            "release_image": "shopify://shop_images/PETERSONCRAYOLA-1.jpg",
-            "product_title": "MAISON MIHARA YASUHIRO EXCLUSIVE PETERSON 23 \"MULTICOLOR SERIES\"",
-            "product_vendor": "MAISON MIHARA",
-            "product_price": "$490",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/maison-mihara-yasuhiro-exclusive-peterson-23-multicolor-series"
+            "release_title": "4.17",
+            "release_image": "shopify://shop_images/WALESBONNERGAZELLEBROWNPONY-1.jpg",
+            "product_title": "ADIDAS X WALES BONNER GAZELLE PONY \"AURORA COFFEE/CORE BLACK/WONDER WHITE\"",
+            "product_vendor": "",
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-x-wales-bonner-gazelle-pony-aurora-coffeecore-blackwonder-white"
           }
         }
       },
@@ -168,12 +144,10 @@
         "mega_menu_kbBhKp",
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
+        "release_DjJNYX",
         "release_nAhaJK",
         "release_tw94g8",
-        "release_eVw43f",
-        "release_DjJNYX",
-        "release_KPd8WR",
-        "release_Ubn9R7"
+        "release_KPd8WR"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -201,7 +175,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": false
+        "show_releases": true
       }
     }
   },
