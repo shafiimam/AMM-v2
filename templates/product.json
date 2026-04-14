@@ -84,7 +84,7 @@
             "button_style": "full-width",
             "button_size": "medium",
             "icon_type": "sparkles",
-            "disable_on_out_of_stock": false,
+            "disable_on_out_of_stock": true,
             "show_remaining_try_ons": false,
             "icon_position": "left",
             "gender_context": "default",
