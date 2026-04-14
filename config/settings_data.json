@@ -104,6 +104,11 @@
           "icon_size": 20,
           "button_right_offset": 40
         }
+      },
+      "7019349584227683354": {
+        "type": "shopify://apps/spin-studio-360-product-spin/blocks/spinstudio_embed/caf4b6a9-7642-4e66-bcf7-11d11c83cff2",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
