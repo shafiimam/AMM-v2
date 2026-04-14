@@ -75,6 +75,29 @@
             "payment_button_text_color": ""
           }
         },
+        "genlook_virtual_try_on_genlook_widget_DhJxRe": {
+          "type": "shopify://apps/genlook-virtual-try-on/blocks/genlook-widget/01997bc6-1dc6-7c96-853a-98a7952a6ec3",
+          "settings": {
+            "widget_primary_color": "#0A1810",
+            "theme_primary": "#000000",
+            "button_text": "DEFAULT",
+            "button_style": "full-width",
+            "button_size": "medium",
+            "icon_type": "sparkles",
+            "disable_on_out_of_stock": false,
+            "show_remaining_try_ons": false,
+            "icon_position": "left",
+            "gender_context": "default",
+            "corner_radius": "none",
+            "shadow_intensity": "medium",
+            "font_weight": "semibold",
+            "custom_css": "{}",
+            "upload_info_text": "",
+            "header_title": "",
+            "header_subtitle": "",
+            "hide_button": false
+          }
+        },
         "product_availability_bm4JRe": {
           "type": "product_availability",
           "settings": {
@@ -185,6 +208,7 @@
         "true_fit_widget_tpCKyE",
         "selleasy_lb_upsell_widget_pal_FGTyfL",
         "buy_buttons",
+        "genlook_virtual_try_on_genlook_widget_DhJxRe",
         "product_availability_bm4JRe",
         "feature_with_icon_TyMeDX",
         "feature_with_icon_zCCbKy",
