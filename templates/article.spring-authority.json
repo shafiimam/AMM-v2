@@ -31,6 +31,62 @@
         "toolbar_color_scheme": ""
       }
     },
+    "shop_the_look_L4YPNf": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_JXGi9E": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/socks.png",
+            "hot_spots_background": "#ffffff",
+            "product_1": "jacquemus-multi-la-chemise-jean",
+            "product_1_horizontal_position": 38,
+            "product_1_vertical_position": 23,
+            "product_2": "nylon-short",
+            "product_2_horizontal_position": 57,
+            "product_2_vertical_position": 61,
+            "product_3": "scholl-mule-flat",
+            "product_3_horizontal_position": 51,
+            "product_3_vertical_position": 90,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_z3HWif": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/stripes.png",
+            "hot_spots_background": "#ffffff",
+            "product_1": "jacquemus-le-tshirt-gros-grain",
+            "product_1_horizontal_position": 45,
+            "product_1_vertical_position": 35,
+            "product_2": "jacquemus-le-cargo-bermuda",
+            "product_2_horizontal_position": 40,
+            "product_2_vertical_position": 58,
+            "product_3": "",
+            "product_3_horizontal_position": 60,
+            "product_3_vertical_position": 65,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_JXGi9E",
+        "look_z3HWif"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Shop the look",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
+    },
     "featured_product_3M9FWk": {
       "type": "featured-product",
       "blocks": {
@@ -122,6 +178,7 @@
         "buy_buttons_fJEjVj",
         "pickup_availability_6aBAgH"
       ],
+      "disabled": true,
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
@@ -148,7 +205,7 @@
         "collection_EcRgFi": {
           "type": "collection",
           "settings": {
-            "collection": "the-resort-edit",
+            "collection": "spring-authority",
             "products_count": 14,
             "title": "",
             "link_url": "shopify://collections/the-resort-edit",
@@ -188,6 +245,7 @@
   "order": [
     "breeadcrumbs_j9kFad",
     "main",
+    "shop_the_look_L4YPNf",
     "featured_product_3M9FWk",
     "featured_collections_mK3nfG",
     "prev-next-blog-posts"
