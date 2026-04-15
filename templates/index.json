@@ -579,8 +579,19 @@
     "featured_collections_RwpkEJ": {
       "type": "featured-collections",
       "blocks": {
+        "collection_dnEeCe": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere",
+            "products_count": 8,
+            "title": "A MA MANIÉRE",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
         "collection_t3bATr": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "spring-authority",
             "products_count": 8,
@@ -588,22 +599,11 @@
             "link_url": "shopify://collections/spring-authority",
             "link_text": "View all"
           }
-        },
-        "collection_dnEeCe": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 8,
-            "title": "ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
         }
       },
       "block_order": [
-        "collection_t3bATr",
-        "collection_dnEeCe"
+        "collection_dnEeCe",
+        "collection_t3bATr"
       ],
       "custom_css": [],
       "settings": {
