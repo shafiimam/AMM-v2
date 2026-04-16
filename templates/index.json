@@ -9,38 +9,86 @@
  */
 {
   "sections": {
+    "media_grid_38Mmew": {
+      "type": "media-grid",
+      "blocks": {
+        "image_iGi7rz": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC06051BB.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NWPt3Q": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC01275_DC_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "<strong>do not duplicate: day glow pack</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "shopify://pages/do-not-duplicate-drop3",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AMKzaf": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC06094BB.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://pages/do-not-duplicate-drop3",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_iGi7rz",
+        "image_NWPt3Q",
+        "image_AMKzaf"
+      ],
+      "disabled": true,
+      "name": "dayglow grid?",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 400,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_wwdhbG": {
-          "type": "image",
-          "name": "4.17 dayglow ",
-          "disabled": true,
-          "settings": {
-            "subheading": "<p>Tell your story</p>",
-            "subheading_size": 12,
-            "title": "<p>Image slide</p>",
-            "title_size": 32,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "image_CmmTp9": {
           "type": "image",
           "name": "SPRING SALE ",
@@ -104,7 +152,6 @@
         }
       },
       "block_order": [
-        "image_wwdhbG",
         "image_CmmTp9",
         "video_kDTrdD"
       ],
@@ -1029,6 +1076,7 @@
     }
   },
   "order": [
+    "media_grid_38Mmew",
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
