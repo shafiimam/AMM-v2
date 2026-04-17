@@ -43,7 +43,7 @@
             "link_text": "shop now",
             "link_url": "shopify://pages/do-not-duplicate-drop3",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -80,7 +80,7 @@
         "desktop_row_height": 400,
         "mobile_row_height": 420,
         "section_width": "full",
-        "spacing": "xs",
+        "spacing": "none",
         "subheading": "",
         "title": "",
         "content": ""
