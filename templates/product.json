@@ -104,7 +104,7 @@
             "product_skus": "HV8571-100, FZ8743-001, HF4084-001, FZ8743-201, HF4084-100, IB1528-100, IB5705-010, IB5701-010, IB5699-010,IF3103-200,IH2321-010,IH2325-010,IH2321-010,KJ5093,KJ5092",
             "show_final_sale_message": true,
             "enable_compare_price_rule": false,
-            "final_sale_tag": "rodeodnd",
+            "final_sale_tag": "finalsale",
             "final_sale_message": "This item is final sale and not eligible for return. Exchanges are available only if an incorrect size is received."
           }
         },
