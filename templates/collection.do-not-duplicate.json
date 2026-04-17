@@ -52,8 +52,9 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "md",
-        "video": "shopify://files/videos/1996 reel new 3 new font.mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
+        "mobile_video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
+        "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
@@ -62,7 +63,6 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/MOB5.jpg",
             "button_text": "Shop The Look",
@@ -146,13 +146,13 @@
     "media_grid_wGyTFz": {
       "type": "media-grid",
       "blocks": {
-        "image_3g6hHn": {
+        "image_Fdedra": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC01649BB_copy.jpg",
-            "column_count": "8",
-            "row_count": 2,
+            "image": "shopify://shop_images/orange.png",
+            "column_count": "4",
+            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -164,13 +164,13 @@
             "overlay_opacity": 0
           }
         },
-        "image_Fdedra": {
+        "image_3g6hHn": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC06054_DC_copy.jpg",
-            "column_count": "4",
-            "row_count": 1,
+            "image": "shopify://shop_images/pink2.png",
+            "column_count": "8",
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -186,7 +186,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC01561BB.jpg",
+            "image": "shopify://shop_images/pink.png",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -202,11 +202,10 @@
         }
       },
       "block_order": [
-        "image_3g6hHn",
         "image_Fdedra",
+        "image_3g6hHn",
         "image_xKjBF6"
       ],
-      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",

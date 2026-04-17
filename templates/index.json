@@ -23,7 +23,7 @@
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://collections/do-not-duplicate",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -41,7 +41,7 @@
             "heading_tag": "h1",
             "content": "",
             "link_text": "shop now",
-            "link_url": "shopify://pages/do-not-duplicate-drop3",
+            "link_url": "shopify://collections/do-not-duplicate",
             "link_style": "solid",
             "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
@@ -59,7 +59,7 @@
             "heading_tag": "h1",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://pages/do-not-duplicate-drop3",
+            "link_url": "shopify://collections/do-not-duplicate",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
@@ -72,7 +72,6 @@
         "image_NWPt3Q",
         "image_AMKzaf"
       ],
-      "disabled": true,
       "name": "dayglow grid?",
       "settings": {
         "color_scheme": "",
@@ -122,6 +121,7 @@
         "video_kDTrdD": {
           "type": "video",
           "name": "dayglow",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
             "mobile_video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
