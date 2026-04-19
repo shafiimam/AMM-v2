@@ -9,24 +9,101 @@
  */
 {
   "sections": {
+    "media_grid_38Mmew": {
+      "type": "media-grid",
+      "blocks": {
+        "image_iGi7rz": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC06051BB.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NWPt3Q": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC01275_DC_1.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "<strong>do not duplicate: day glow pack</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AMKzaf": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC06094BB.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_iGi7rz",
+        "image_NWPt3Q",
+        "image_AMKzaf"
+      ],
+      "name": "dayglow grid?",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 400,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_jBcpCr": {
+        "image_CmmTp9": {
           "type": "image",
-          "name": "4.7 dayglow",
-          "disabled": true,
+          "name": "SPRING SALE ",
           "settings": {
-            "subheading": "<p>Tell your story</p>",
+            "image": "shopify://shop_images/Untitled-26.png",
+            "mobile_image": "shopify://shop_images/Untitled-39.png",
+            "subheading": "",
             "subheading_size": 12,
-            "title": "<p>Image slide</p>",
+            "title": "",
             "title_size": 32,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
+            "button_1_link": "shopify://collections/new-arrivals",
+            "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
@@ -35,33 +112,34 @@
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
-            "background_opacity": 50,
+            "background_opacity": 24,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+            "gradient_overlay": ""
           }
         },
         "video_kDTrdD": {
           "type": "video",
-          "name": "4.3 peachtree",
+          "name": "dayglow",
           "settings": {
-            "video": "shopify://files/videos/1996 reel new 3 new font.mov",
+            "video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
+            "mobile_video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
             "allow_sound": true,
-            "subheading": "<strong>Available Now</strong>",
+            "subheading": "",
             "subheading_size": 21,
-            "title": "<strong>DO not duplicate: 404 peachtree </strong>",
+            "title": "",
             "title_size": 37,
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "SHOP THE COLLECTION",
-            "button_1_link": "shopify://collections/do-not-duplicate",
+            "button_1_text": "Explore the Story",
+            "button_1_link": "shopify://pages/do-not-duplicate-drop3",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
+            "button_2_link": "shopify://pages/do-not-duplicate-drop3",
+            "button_2_style": "solid",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
@@ -70,43 +148,11 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "image_MP866p": {
-          "type": "image",
-          "name": "peachtree",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/microhero2.png",
-            "mobile_image": "shopify://shop_images/lldg.jpg",
-            "subheading": "<p><strong>Exclusively available April 3</strong></p>",
-            "subheading_size": 16,
-            "title": "<p><strong>Do Not Duplicate: 404 PEACHTREE PACK</strong></p>",
-            "title_size": 27,
-            "mobile_text_position": "place-self-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "#",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "explore the story",
-            "button_2_link": "shopify://pages/do-not-duplicate-drop-2",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(4, 4, 4, 0.65) 100%)"
-          }
         }
       },
       "block_order": [
-        "image_jBcpCr",
-        "video_kDTrdD",
-        "image_MP866p"
+        "image_CmmTp9",
+        "video_kDTrdD"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -120,64 +166,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "media_grid_ik3yVY": {
-      "type": "media-grid",
-      "blocks": {
-        "image_JTDYmT": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/y3.png",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "Shop now",
-            "link_url": "shopify://collections/y-3-adidas",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 0
-          }
-        },
-        "video_nRCpkG": {
-          "type": "video",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/Y-3 4k.mov",
-            "autoplay": true,
-            "show_controls": false,
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/y-3-adidas",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_JTDYmT",
-        "video_nRCpkG"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 430,
-        "mobile_row_height": 450,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "176075966993f87866": {
       "type": "_blocks",
       "disabled": true,
@@ -189,25 +177,25 @@
         "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "adidas-y-3-elite-5-football-jersey-black"
+            "product": "puma-x-nahmias-knit-jersey-black"
           }
         },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "adidas-y-3-mesh-shorts-black"
+            "product": "puma-x-nahmias-track-pants-black"
           }
         },
         "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "adidas-y-3-basketball-track-pants-black"
+            "product": "nahmias-speedcat-warm-white-sand-dark-grey"
           }
         },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "y-3-adios-9"
+            "product": "nahmias-speedcat-black-canvas-candy-apple"
           }
         }
       },
@@ -220,12 +208,171 @@
       "name": "Y-3 product ",
       "settings": {
         "section_alignment": "left",
-        "title": "Y-3 adidas",
+        "title": "PUMA X NAHMIAS",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/y-3_4.png",
-        "image_description": "<p>Rooted in the discipline of sport and the language of runway, Y-3 defines a modern uniform through utility outerwear, structured jerseys, and tailored silhouettes. Each piece moves with intention, shaped through material, form, and precision.</p>",
+        "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-2_App-Story_1080x1920px.jpg",
+        "image_description": "<p>Return to Summerland with the latest from PUMA x NAHMIAS. Paying homage to Doni Nahmias' Southern California hometown, this new drop blends the designers L.A aesthetic with the speed and style of motorsport.<br/><br/>Featuring the iconic Speedcat with all-new premium detailing, luxe track pieces, and edgy graphic tees that bring street style into the luxury space. Born on the west coast, inspired by the track. </p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/y-3-adidas"
+        "image_cta_url": "shopify://collections/puma"
+      }
+    },
+    "media_grid_dcKXGR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_TLN6gz": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC07627.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "<strong>MAISON MIHARA YASUHIRO PETERSON 23 \"STUDDED\"</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "https://www.a-ma-maniere.com/products/maison-mihara-yasuhiro-ss26-twg-exclusive-peterson-23-studded?_pos=1&_psq=maisonn&_ss=e&_v=1.0",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TQMx8i": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC07664.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/maison-mihara-yasuhiro",
+            "link_style": "solid",
+            "text_position": "place-self-end-start text-start",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_LGcaaU": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/26SS_PNA_SP_Nahmias_HERO_FINE_12_16X9_31s.mp4",
+            "autoplay": true,
+            "show_controls": true,
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/puma",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XUaB3V": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-3_Email_Desk_Secondary-Banner_Image-Grid_416x552px_2.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_TLN6gz",
+        "image_TQMx8i",
+        "video_LGcaaU",
+        "image_XUaB3V"
+      ],
+      "name": "pumaxnahmia",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 360,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_DzxzqH": {
+      "type": "media-grid",
+      "blocks": {
+        "image_jUbAfA": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/lldg.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_AfzNrQ": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/1996 reel new 3 new font.mov",
+            "autoplay": true,
+            "show_controls": true,
+            "column_count": "8",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "404 Peachtree",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_jUbAfA",
+        "video_AfzNrQ"
+      ],
+      "disabled": true,
+      "name": "VIDEO IN GRID",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 580,
+        "mobile_row_height": 450,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "image_with_text_4rzGhq": {
@@ -270,6 +417,7 @@
         "richtext_V3crbK",
         "button_GCQJcU"
       ],
+      "disabled": true,
       "name": "404 day event ",
       "settings": {
         "color_scheme": "",
@@ -285,94 +433,6 @@
         "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
-      }
-    },
-    "featured_collections_EFnetB": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_JHfxwA": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrivals",
-            "products_count": 8,
-            "title": "new Arrivals",
-            "link_url": "shopify://collections/new-arrivals",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_JHfxwA"
-      ],
-      "custom_css": [],
-      "name": "new arrivals",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "media_grid_dcKXGR": {
-      "type": "media-grid",
-      "blocks": {
-        "image_ahg8KY": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/oakley2.png",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "https://www.a-ma-maniere.com/products/oakley-muzm-scar-sunglasses-black",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_GMiDPM": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/oakley.png",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "<strong>oakley x muzm scar </strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://products/oakley-muzm-scar-sunglasses-black",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_ahg8KY",
-        "image_GMiDPM"
-      ],
-      "name": "oakley",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 410,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "none",
-        "subheading": "",
-        "title": "",
-        "content": ""
       }
     },
     "blocks_C9GbEP": {
@@ -392,6 +452,37 @@
       ],
       "name": "Spacer",
       "settings": {}
+    },
+    "featured_collections_EFnetB": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Nizrmj": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "products_count": 8,
+            "title": "NEW ARRIVALS",
+            "link_url": "shopify://collections/new-arrivals",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Nizrmj"
+      ],
+      "custom_css": [],
+      "name": "new arrivals",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
     },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
@@ -584,8 +675,19 @@
     "featured_collections_RwpkEJ": {
       "type": "featured-collections",
       "blocks": {
+        "collection_dnEeCe": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere",
+            "products_count": 8,
+            "title": "A MA MANIÉRE",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
         "collection_t3bATr": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "spring-authority",
             "products_count": 8,
@@ -593,22 +695,11 @@
             "link_url": "shopify://collections/spring-authority",
             "link_text": "View all"
           }
-        },
-        "collection_dnEeCe": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 8,
-            "title": "ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
         }
       },
       "block_order": [
-        "collection_t3bATr",
-        "collection_dnEeCe"
+        "collection_dnEeCe",
+        "collection_t3bATr"
       ],
       "custom_css": [],
       "settings": {
@@ -812,47 +903,6 @@
       "name": "Spacer",
       "settings": {}
     },
-    "media_grid_DzxzqH": {
-      "type": "media-grid",
-      "blocks": {
-        "video_AfzNrQ": {
-          "type": "video",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/AMA STUSSY.mov",
-            "autoplay": true,
-            "show_controls": false,
-            "column_count": "12",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/stussy",
-            "link_style": "outline",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "video_AfzNrQ"
-      ],
-      "disabled": true,
-      "name": "VIDEO IN GRID",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 410,
-        "mobile_row_height": 450,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "NEW ARRIVALS FROM STÜSSY",
-        "content": ""
-      }
-    },
     "176076770152fa2223": {
       "type": "_blocks",
       "settings": {}
@@ -1025,14 +1075,15 @@
     }
   },
   "order": [
+    "media_grid_38Mmew",
     "slideshow_QGYQ6e",
-    "media_grid_ik3yVY",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
-    "image_with_text_4rzGhq",
-    "featured_collections_EFnetB",
     "media_grid_dcKXGR",
+    "media_grid_DzxzqH",
+    "image_with_text_4rzGhq",
     "blocks_C9GbEP",
+    "featured_collections_EFnetB",
     "featured_collections_WMah7x",
     "media_grid_7fM37z",
     "media_grid_kDP8wG",
@@ -1042,7 +1093,6 @@
     "before-after",
     "media_grid_JJfcQ6",
     "blocks_xhmELd",
-    "media_grid_DzxzqH",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
