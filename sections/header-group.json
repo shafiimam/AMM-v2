@@ -16,6 +16,7 @@
       "blocks": {
         "message_cKYzUL": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>DISCOVER </strong><a href=\"/collections/new-arrivals\" title=\"NEW ARRIVALS\"><strong>20% OFF SELECT STYLES</strong></a><strong> NOW UNTIL APRIL 19</strong>"
           }

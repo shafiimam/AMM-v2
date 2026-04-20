@@ -122,6 +122,7 @@
         "image_CmmTp9": {
           "type": "image",
           "name": "SPRING SALE ",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Untitled-26.png",
             "mobile_image": "shopify://shop_images/Untitled-39.png",
