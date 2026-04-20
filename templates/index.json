@@ -88,6 +88,37 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_WdyPWD": {
+          "type": "video",
+          "name": "COLLECTION VID",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/DND COLLECTION RESHOT4k H.265.mov",
+            "allow_sound": true,
+            "subheading": "<strong>EXCLUSIVELY AVAILABLE APRIL 24</strong>",
+            "subheading_size": 16,
+            "title": "<strong>DO NOT DUPLICATE: THE COLLECTION PACK</strong>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_CmmTp9": {
           "type": "image",
           "name": "SPRING SALE ",
@@ -120,7 +151,7 @@
         },
         "video_kDTrdD": {
           "type": "video",
-          "name": "dayglow",
+          "name": "dayglow VIDEO",
           "settings": {
             "video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
             "mobile_video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
@@ -151,6 +182,7 @@
         }
       },
       "block_order": [
+        "video_WdyPWD",
         "image_CmmTp9",
         "video_kDTrdD"
       ],
