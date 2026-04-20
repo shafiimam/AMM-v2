@@ -197,7 +197,8 @@
         "cycle_speed": 10,
         "background": "#000000",
         "controls_color": "#ffffff"
-      }
+      },
+      "disabled": true
     },
     "176075966993f87866": {
       "type": "_blocks",
