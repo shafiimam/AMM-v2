@@ -23,8 +23,8 @@
       "type": "hero-with-logo",
       "name": "Hero Banner With Logo",
       "settings": {
-        "image": "shopify://shop_images/microsire.png",
-        "image_mobile": "shopify://shop_images/4CL_1.jpg",
+        "image": "shopify://shop_images/ammcollection1.png",
+        "image_mobile": "shopify://shop_images/ammcollection_64e52915-59d4-4d47-b3c8-eaad4938f865.png",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "",
         "title_color": "#ffffff",
@@ -110,8 +110,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC06076BB_1.jpg",
-        "mobile_image": "shopify://shop_images/DSC06076BB_1.jpg",
+        "image": "shopify://shop_images/ammcover.png",
+        "mobile_image": "shopify://shop_images/ammcover.png",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -129,14 +129,14 @@
         "heading_TQR4GH": {
           "type": "heading",
           "settings": {
-            "text": "DAY GLOW PACK",
+            "text": "The collection pack",
             "heading_tag": "h1"
           }
         },
         "richtext_WVXb8y": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Day Glow moves between two states, held in the moment just before sunrise and carried forward into visibility. Conditions shift without announcement. Movement begins early, guided by instinct and sustained as light arrives. One silhouette emerges through a gradient that moves from yellow into orange, capturing the first break of day. The other remains grounded in darker tones, rooted in the moment just before it. They are not separate. They move in continuity, carrying the same pace across both states.</p>"
+            "content": "<p>collection pack copy </p>"
           }
         },
         "button_yd3i4M": {
@@ -162,7 +162,7 @@
         "button_yd3i4M",
         "richtext_dtYHDQ"
       ],
-      "name": "DAYGLOW COPY",
+      "name": "collection copy",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -174,12 +174,12 @@
     "media_grid_4MXqFL": {
       "type": "media-grid",
       "blocks": {
-        "image_3tPX3b": {
+        "image_HVfcXg": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC05870BB.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/BR50664_DC_copy.jpg",
+            "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -192,12 +192,12 @@
             "overlay_opacity": 0
           }
         },
-        "image_HVfcXg": {
+        "image_3tPX3b": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ammdg2.png",
-            "column_count": "4",
+            "image": "shopify://shop_images/DSC03964_DC_1.jpg",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -214,8 +214,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/4CL_1_6d8a0a98-31a5-4a27-8b08-71a930a39dd0.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/BR51943_DC.jpg",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -232,8 +232,26 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC05601BB.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/DSC03734_DC.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tHThM7": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC03361_DC_copy.jpg",
+            "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -248,6 +266,7 @@
         },
         "image_aCqxkA": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/ammdg.png",
@@ -266,6 +285,7 @@
         },
         "image_BEtRTU": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/ammdg1.png",
@@ -284,6 +304,7 @@
         },
         "image_gkhdMq": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/DSC06047BB.jpg",
@@ -359,16 +380,279 @@
         }
       },
       "block_order": [
-        "image_3tPX3b",
         "image_HVfcXg",
+        "image_3tPX3b",
         "image_TB3Va4",
         "image_jckHzH",
+        "image_tHThM7",
         "image_aCqxkA",
         "image_BEtRTU",
         "image_gkhdMq",
         "image_FA9Bnz",
         "image_cVQmCb",
         "image_dLC688"
+      ],
+      "name": "collection grid",
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "desktop_row_height": 600,
+        "mobile_row_height": 400,
+        "section_width": "full",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_zBUkXL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_94fqxx": {
+          "type": "heading",
+          "settings": {
+            "text": "DAY GLOW PACK",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_pyt8W8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Day Glow moves between two states, held in the moment just before sunrise and carried forward into visibility. Conditions shift without announcement. Movement begins early, guided by instinct and sustained as light arrives. One silhouette emerges through a gradient that moves from yellow into orange, capturing the first break of day. The other remains grounded in darker tones, rooted in the moment just before it. They are not separate. They move in continuity, carrying the same pace across both states.</p>"
+          }
+        },
+        "button_aEJRgD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "enter draws",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_HrYtcq": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_94fqxx",
+        "richtext_pyt8W8",
+        "button_aEJRgD",
+        "richtext_HrYtcq"
+      ],
+      "name": "DAYGLOW COPY",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_VWzJxx": {
+      "type": "media-grid",
+      "blocks": {
+        "image_rpjGVB": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC05870BB.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pcBekV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammdg2.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qV7erx": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/4CL_1_6d8a0a98-31a5-4a27-8b08-71a930a39dd0.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3aY9EL": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC05601BB.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_k4CMxm": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammdg.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qxFqPW": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammdg1.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NUyaWm": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC06047BB.jpg",
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JHck3a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-8_d02acbf1-bfde-4839-ba46-2d6e4c743314.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_R3yDM6": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-9_7034673b-2534-4aed-8e35-e37bc36c104d.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bqHYkK": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/boxaj4.jpg",
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_rpjGVB",
+        "image_pcBekV",
+        "image_qV7erx",
+        "image_3aY9EL",
+        "image_k4CMxm",
+        "image_qxFqPW",
+        "image_NUyaWm",
+        "image_JHck3a",
+        "image_R3yDM6",
+        "image_bqHYkK"
       ],
       "name": "404 grid",
       "settings": {
@@ -416,7 +700,7 @@
         "richtext_8ppK6e",
         "button_KpxKbc"
       ],
-      "name": "404 copy",
+      "name": "peachtree copy",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -625,7 +909,7 @@
         "image_cXxc7m",
         "image_YEBhyM"
       ],
-      "name": "DAYGLOW GRID",
+      "name": "peachtree grid",
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
@@ -982,6 +1266,8 @@
     "image_with_text_7Xm8Cg",
     "rich_text_bgrjCr",
     "media_grid_4MXqFL",
+    "rich_text_zBUkXL",
+    "media_grid_VWzJxx",
     "rich_text_Ycy4YL",
     "media_grid_fzyMFm",
     "3d_gallery_simple_KeU3rf",
