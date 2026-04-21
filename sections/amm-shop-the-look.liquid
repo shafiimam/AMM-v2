@@ -82,23 +82,109 @@
               {%- assign product = block.settings.product -%}
               {%- if product != blank -%}
                 <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <div class="amm-stl-product-item__image">
+                    <a href="{{ product.url }}">
+                      {%- if product.featured_image -%}
+                        <img
+                          src="{{ product.featured_image | image_url: width: 72 }}"
+                          alt="{{ product.title }}"
+                          class="amm-stl__product-img"
+                          loading="lazy"
+                          width="72"
+                          height="72"
+                        >
+                      {%- endif -%}
+                    </a>
+                    <button
+                      type="button"
+                      class="amm-stl-product-item__quick-add-btn"
+                      data-quick-add-btn
+                      aria-label="Open size and add to cart"
+                    >
+                      <svg class="icon-plus" viewBox="0 0 12 12" width="12" height="12">
+                        <path d="M6 0v12M0 6h12" stroke="currentColor" stroke-width="1.6" fill="none"/>
+                      </svg>
+                    </button>
+                  </div>
                   <a href="{{ product.url }}">
-                    {%- if product.featured_image -%}
-                      <img
-                        src="{{ product.featured_image | image_url: width: 72 }}"
-                        alt="{{ product.title }}"
-                        class="amm-stl__product-img"
-                        loading="lazy"
-                        width="72"
-                        height="72"
-                      >
-                    {%- endif -%}
                     <div class="amm-stl__product-info">
                       <p class="amm-stl__product-title">{{ product.title }}</p>
                       <p class="amm-stl__product-price">{{ product.price | money }}</p>
                       <span class="amm-stl__product-link">Shop →</span>
                     </div>
                   </a>
+
+                  {% comment %} Product quick-add drawer {% endcomment %}
+                  <div
+                    class="amm-stl-product-drawer"
+                    data-product-drawer
+                    data-block-id="{{ block.id }}"
+                    data-product-id="{{ product.id }}"
+                    data-product-handle="{{ product.handle }}"
+                  >
+                    <div class="amm-stl-product-drawer__content">
+                      <div class="amm-stl-product-drawer__header">
+                        <h3 class="amm-stl-product-drawer__title">{{ product.title }}</h3>
+                        <button
+                          type="button"
+                          class="amm-stl-product-drawer__close"
+                          data-drawer-close
+                          aria-label="Close"
+                        >
+                          <svg viewBox="0 0 16 16" width="16" height="16">
+                            <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                          </svg>
+                        </button>
+                      </div>
+
+                      {% comment %} Size selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Size:</label>
+                        <div class="amm-stl-product-drawer__size-options" data-size-options>
+                          {% for variant in product.variants %}
+                            {% if variant.available %}
+                              <button
+                                type="button"
+                                class="amm-stl-product-drawer__size-btn"
+                                data-size-btn
+                                data-variant-id="{{ variant.id }}"
+                                data-size="{{ variant.option1 }}"
+                              >
+                                {{ variant.option1 }}
+                              </button>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </div>
+
+                      {% comment %} Quantity selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Quantity:</label>
+                        <div class="amm-stl-product-drawer__quantity">
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-minus>−</button>
+                          <input
+                            type="number"
+                            class="amm-stl-product-drawer__qty-input"
+                            data-qty-input
+                            min="1"
+                            value="1"
+                            readonly
+                          >
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-plus>+</button>
+                        </div>
+                      </div>
+
+                      {% comment %} Add to cart button {% endcomment %}
+                      <button
+                        type="button"
+                        class="amm-stl-product-drawer__add-to-cart"
+                        data-add-to-cart
+                        data-product-id="{{ product.id }}"
+                      >
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
                 </li>
               {%- endif -%}
             {%- endfor -%}
@@ -112,23 +198,109 @@
               {%- assign product = block.settings.product -%}
               {%- if product != blank -%}
                 <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <div class="amm-stl-product-item__image">
+                    <a href="{{ product.url }}">
+                      {%- if product.featured_image -%}
+                        <img
+                          src="{{ product.featured_image | image_url: width: 140 }}"
+                          alt="{{ product.title }}"
+                          class="amm-stl__product-img"
+                          loading="lazy"
+                          width="140"
+                          height="140"
+                        >
+                      {%- endif -%}
+                    </a>
+                    <button
+                      type="button"
+                      class="amm-stl-product-item__quick-add-btn"
+                      data-quick-add-btn
+                      aria-label="Open size and add to cart"
+                    >
+                      <svg class="icon-plus" viewBox="0 0 12 12" width="12" height="12">
+                        <path d="M6 0v12M0 6h12" stroke="currentColor" stroke-width="1.6" fill="none"/>
+                      </svg>
+                    </button>
+                  </div>
                   <a href="{{ product.url }}">
-                    {%- if product.featured_image -%}
-                      <img
-                        src="{{ product.featured_image | image_url: width: 140 }}"
-                        alt="{{ product.title }}"
-                        class="amm-stl__product-img"
-                        loading="lazy"
-                        width="140"
-                        height="140"
-                      >
-                    {%- endif -%}
                     <div class="amm-stl__product-info">
                       <p class="amm-stl__product-title">{{ product.title }}</p>
                       <p class="amm-stl__product-price">{{ product.price | money }}</p>
                       <span class="amm-stl__product-link">Shop →</span>
                     </div>
                   </a>
+
+                  {% comment %} Product quick-add drawer {% endcomment %}
+                  <div
+                    class="amm-stl-product-drawer"
+                    data-product-drawer
+                    data-block-id="{{ block.id }}"
+                    data-product-id="{{ product.id }}"
+                    data-product-handle="{{ product.handle }}"
+                  >
+                    <div class="amm-stl-product-drawer__content">
+                      <div class="amm-stl-product-drawer__header">
+                        <h3 class="amm-stl-product-drawer__title">{{ product.title }}</h3>
+                        <button
+                          type="button"
+                          class="amm-stl-product-drawer__close"
+                          data-drawer-close
+                          aria-label="Close"
+                        >
+                          <svg viewBox="0 0 16 16" width="16" height="16">
+                            <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                          </svg>
+                        </button>
+                      </div>
+
+                      {% comment %} Size selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Size:</label>
+                        <div class="amm-stl-product-drawer__size-options" data-size-options>
+                          {% for variant in product.variants %}
+                            {% if variant.available %}
+                              <button
+                                type="button"
+                                class="amm-stl-product-drawer__size-btn"
+                                data-size-btn
+                                data-variant-id="{{ variant.id }}"
+                                data-size="{{ variant.option1 }}"
+                              >
+                                {{ variant.option1 }}
+                              </button>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </div>
+
+                      {% comment %} Quantity selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Quantity:</label>
+                        <div class="amm-stl-product-drawer__quantity">
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-minus>−</button>
+                          <input
+                            type="number"
+                            class="amm-stl-product-drawer__qty-input"
+                            data-qty-input
+                            min="1"
+                            value="1"
+                            readonly
+                          >
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-plus>+</button>
+                        </div>
+                      </div>
+
+                      {% comment %} Add to cart button {% endcomment %}
+                      <button
+                        type="button"
+                        class="amm-stl-product-drawer__add-to-cart"
+                        data-add-to-cart
+                        data-product-id="{{ product.id }}"
+                      >
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
                 </li>
               {%- endif -%}
             {%- endfor -%}
@@ -145,17 +317,31 @@
               {%- assign product = block.settings.product -%}
               {%- if product != blank -%}
                 <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <div class="amm-stl-product-item__image">
+                    <a href="{{ product.url }}">
+                      {%- if product.featured_image -%}
+                        <img
+                          src="{{ product.featured_image | image_url: width: 300 }}"
+                          alt="{{ product.title }}"
+                          class="amm-stl__product-img"
+                          loading="lazy"
+                          width="300"
+                          height="300"
+                        >
+                      {%- endif -%}
+                    </a>
+                    <button
+                      type="button"
+                      class="amm-stl-product-item__quick-add-btn"
+                      data-quick-add-btn
+                      aria-label="Open size and add to cart"
+                    >
+                      <svg class="icon-plus" viewBox="0 0 12 12" width="12" height="12">
+                        <path d="M6 0v12M0 6h12" stroke="currentColor" stroke-width="1.6" fill="none"/>
+                      </svg>
+                    </button>
+                  </div>
                   <a href="{{ product.url }}">
-                    {%- if product.featured_image -%}
-                      <img
-                        src="{{ product.featured_image | image_url: width: 300 }}"
-                        alt="{{ product.title }}"
-                        class="amm-stl__product-img"
-                        loading="lazy"
-                        width="300"
-                        height="300"
-                      >
-                    {%- endif -%}
                     <div class="amm-stl__product-info">
                       <p class="amm-stl__product-counter">{{ forloop.index }} / {{ section.blocks.size }}</p>
                       <p class="amm-stl__product-title">{{ product.title }}</p>
@@ -163,6 +349,78 @@
                       <span class="amm-stl__product-link">Shop →</span>
                     </div>
                   </a>
+
+                  {% comment %} Product quick-add drawer {% endcomment %}
+                  <div
+                    class="amm-stl-product-drawer"
+                    data-product-drawer
+                    data-block-id="{{ block.id }}"
+                    data-product-id="{{ product.id }}"
+                    data-product-handle="{{ product.handle }}"
+                  >
+                    <div class="amm-stl-product-drawer__content">
+                      <div class="amm-stl-product-drawer__header">
+                        <h3 class="amm-stl-product-drawer__title">{{ product.title }}</h3>
+                        <button
+                          type="button"
+                          class="amm-stl-product-drawer__close"
+                          data-drawer-close
+                          aria-label="Close"
+                        >
+                          <svg viewBox="0 0 16 16" width="16" height="16">
+                            <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                          </svg>
+                        </button>
+                      </div>
+
+                      {% comment %} Size selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Size:</label>
+                        <div class="amm-stl-product-drawer__size-options" data-size-options>
+                          {% for variant in product.variants %}
+                            {% if variant.available %}
+                              <button
+                                type="button"
+                                class="amm-stl-product-drawer__size-btn"
+                                data-size-btn
+                                data-variant-id="{{ variant.id }}"
+                                data-size="{{ variant.option1 }}"
+                              >
+                                {{ variant.option1 }}
+                              </button>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </div>
+
+                      {% comment %} Quantity selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Quantity:</label>
+                        <div class="amm-stl-product-drawer__quantity">
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-minus>−</button>
+                          <input
+                            type="number"
+                            class="amm-stl-product-drawer__qty-input"
+                            data-qty-input
+                            min="1"
+                            value="1"
+                            readonly
+                          >
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-plus>+</button>
+                        </div>
+                      </div>
+
+                      {% comment %} Add to cart button {% endcomment %}
+                      <button
+                        type="button"
+                        class="amm-stl-product-drawer__add-to-cart"
+                        data-add-to-cart
+                        data-product-id="{{ product.id }}"
+                      >
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
                 </li>
               {%- endif -%}
             {%- endfor -%}
@@ -176,23 +434,109 @@
               {%- assign product = block.settings.product -%}
               {%- if product != blank -%}
                 <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <div class="amm-stl-product-item__image">
+                    <a href="{{ product.url }}">
+                      {%- if product.featured_image -%}
+                        <img
+                          src="{{ product.featured_image | image_url: width: 200 }}"
+                          alt="{{ product.title }}"
+                          class="amm-stl__product-img"
+                          loading="lazy"
+                          width="200"
+                          height="200"
+                        >
+                      {%- endif -%}
+                    </a>
+                    <button
+                      type="button"
+                      class="amm-stl-product-item__quick-add-btn"
+                      data-quick-add-btn
+                      aria-label="Open size and add to cart"
+                    >
+                      <svg class="icon-plus" viewBox="0 0 12 12" width="12" height="12">
+                        <path d="M6 0v12M0 6h12" stroke="currentColor" stroke-width="1.6" fill="none"/>
+                      </svg>
+                    </button>
+                  </div>
                   <a href="{{ product.url }}">
-                    {%- if product.featured_image -%}
-                      <img
-                        src="{{ product.featured_image | image_url: width: 200 }}"
-                        alt="{{ product.title }}"
-                        class="amm-stl__product-img"
-                        loading="lazy"
-                        width="200"
-                        height="200"
-                      >
-                    {%- endif -%}
                     <div class="amm-stl__product-info">
                       <p class="amm-stl__product-title">{{ product.title }}</p>
                       <p class="amm-stl__product-price">{{ product.price | money }}</p>
                     </div>
                   </a>
                   <a href="{{ product.url }}" class="amm-stl__product-shop-btn">Shop</a>
+
+                  {% comment %} Product quick-add drawer {% endcomment %}
+                  <div
+                    class="amm-stl-product-drawer"
+                    data-product-drawer
+                    data-block-id="{{ block.id }}"
+                    data-product-id="{{ product.id }}"
+                    data-product-handle="{{ product.handle }}"
+                  >
+                    <div class="amm-stl-product-drawer__content">
+                      <div class="amm-stl-product-drawer__header">
+                        <h3 class="amm-stl-product-drawer__title">{{ product.title }}</h3>
+                        <button
+                          type="button"
+                          class="amm-stl-product-drawer__close"
+                          data-drawer-close
+                          aria-label="Close"
+                        >
+                          <svg viewBox="0 0 16 16" width="16" height="16">
+                            <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                          </svg>
+                        </button>
+                      </div>
+
+                      {% comment %} Size selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Size:</label>
+                        <div class="amm-stl-product-drawer__size-options" data-size-options>
+                          {% for variant in product.variants %}
+                            {% if variant.available %}
+                              <button
+                                type="button"
+                                class="amm-stl-product-drawer__size-btn"
+                                data-size-btn
+                                data-variant-id="{{ variant.id }}"
+                                data-size="{{ variant.option1 }}"
+                              >
+                                {{ variant.option1 }}
+                              </button>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </div>
+
+                      {% comment %} Quantity selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Quantity:</label>
+                        <div class="amm-stl-product-drawer__quantity">
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-minus>−</button>
+                          <input
+                            type="number"
+                            class="amm-stl-product-drawer__qty-input"
+                            data-qty-input
+                            min="1"
+                            value="1"
+                            readonly
+                          >
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-plus>+</button>
+                        </div>
+                      </div>
+
+                      {% comment %} Add to cart button {% endcomment %}
+                      <button
+                        type="button"
+                        class="amm-stl-product-drawer__add-to-cart"
+                        data-add-to-cart
+                        data-product-id="{{ product.id }}"
+                      >
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
                 </li>
               {%- endif -%}
             {%- endfor -%}
@@ -221,23 +565,109 @@
               {%- assign product = block.settings.product -%}
               {%- if product != blank -%}
                 <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <div class="amm-stl-product-item__image">
+                    <a href="{{ product.url }}">
+                      {%- if product.featured_image -%}
+                        <img
+                          src="{{ product.featured_image | image_url: width: 140 }}"
+                          alt="{{ product.title }}"
+                          class="amm-stl__product-img"
+                          loading="lazy"
+                          width="140"
+                          height="140"
+                        >
+                      {%- endif -%}
+                    </a>
+                    <button
+                      type="button"
+                      class="amm-stl-product-item__quick-add-btn"
+                      data-quick-add-btn
+                      aria-label="Open size and add to cart"
+                    >
+                      <svg class="icon-plus" viewBox="0 0 12 12" width="12" height="12">
+                        <path d="M6 0v12M0 6h12" stroke="currentColor" stroke-width="1.6" fill="none"/>
+                      </svg>
+                    </button>
+                  </div>
                   <a href="{{ product.url }}">
-                    {%- if product.featured_image -%}
-                      <img
-                        src="{{ product.featured_image | image_url: width: 140 }}"
-                        alt="{{ product.title }}"
-                        class="amm-stl__product-img"
-                        loading="lazy"
-                        width="140"
-                        height="140"
-                      >
-                    {%- endif -%}
                     <div class="amm-stl__product-info">
                       <p class="amm-stl__product-title">{{ product.title }}</p>
                       <p class="amm-stl__product-price">{{ product.price | money }}</p>
                       <span class="amm-stl__product-link">Shop →</span>
                     </div>
                   </a>
+
+                  {% comment %} Product quick-add drawer {% endcomment %}
+                  <div
+                    class="amm-stl-product-drawer"
+                    data-product-drawer
+                    data-block-id="{{ block.id }}"
+                    data-product-id="{{ product.id }}"
+                    data-product-handle="{{ product.handle }}"
+                  >
+                    <div class="amm-stl-product-drawer__content">
+                      <div class="amm-stl-product-drawer__header">
+                        <h3 class="amm-stl-product-drawer__title">{{ product.title }}</h3>
+                        <button
+                          type="button"
+                          class="amm-stl-product-drawer__close"
+                          data-drawer-close
+                          aria-label="Close"
+                        >
+                          <svg viewBox="0 0 16 16" width="16" height="16">
+                            <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                          </svg>
+                        </button>
+                      </div>
+
+                      {% comment %} Size selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Size:</label>
+                        <div class="amm-stl-product-drawer__size-options" data-size-options>
+                          {% for variant in product.variants %}
+                            {% if variant.available %}
+                              <button
+                                type="button"
+                                class="amm-stl-product-drawer__size-btn"
+                                data-size-btn
+                                data-variant-id="{{ variant.id }}"
+                                data-size="{{ variant.option1 }}"
+                              >
+                                {{ variant.option1 }}
+                              </button>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </div>
+
+                      {% comment %} Quantity selector {% endcomment %}
+                      <div class="amm-stl-product-drawer__section">
+                        <label class="amm-stl-product-drawer__label">Quantity:</label>
+                        <div class="amm-stl-product-drawer__quantity">
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-minus>−</button>
+                          <input
+                            type="number"
+                            class="amm-stl-product-drawer__qty-input"
+                            data-qty-input
+                            min="1"
+                            value="1"
+                            readonly
+                          >
+                          <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-plus>+</button>
+                        </div>
+                      </div>
+
+                      {% comment %} Add to cart button {% endcomment %}
+                      <button
+                        type="button"
+                        class="amm-stl-product-drawer__add-to-cart"
+                        data-add-to-cart
+                        data-product-id="{{ product.id }}"
+                      >
+                        ADD TO CART
+                      </button>
+                    </div>
+                  </div>
                 </li>
               {%- endif -%}
             {%- endfor -%}
