@@ -1,7 +1,6 @@
 {%- liquid
   assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5
   assign layout = section.settings.layout
-  assign show_hotspot_numbering = section.settings.show_hotspot_numbering
 -%}
 
 {%- if section.blocks.size > 0 -%}
