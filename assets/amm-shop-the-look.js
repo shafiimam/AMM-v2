@@ -13,6 +13,9 @@ class AmmShopTheLook {
     if (this.layout === 'hotspot') this.setupHotspot();
     if (this.layout === 'cinematic-drawer') this.setupCinematicDrawer();
     if (this.layout === 'film-strip') this.setupFilmStrip();
+
+    // Initialize product card drawers for all layouts
+    this.setupProductDrawers();
   }
 
   setupHotspot() {
@@ -127,6 +130,134 @@ class AmmShopTheLook {
     indicators.innerHTML = dotsHtml;
 
     imageWrap?.appendChild(indicators);
+  }
+
+  setupProductDrawers() {
+    const drawers = this.el.querySelectorAll('[data-product-drawer]');
+    drawers.forEach(drawer => {
+      // Find the plus button that precedes this drawer
+      const quickAddBtn = drawer.previousElementSibling?.querySelector('[data-quick-add-btn]');
+      const closeBtn = drawer.querySelector('[data-drawer-close]');
+      const sizeButtons = drawer.querySelectorAll('[data-size-btn]');
+      const addToCartBtn = drawer.querySelector('[data-add-to-cart]');
+      const qtyInput = drawer.querySelector('[data-qty-input]');
+      const qtyMinusBtn = drawer.querySelector('[data-qty-minus]');
+      const qtyPlusBtn = drawer.querySelector('[data-qty-plus]');
+
+      // Open drawer on plus button click
+      if (quickAddBtn) {
+        quickAddBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          this.toggleDrawer(drawer, true);
+        });
+      }
+
+      // Close drawer on close button click
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+          this.toggleDrawer(drawer, false);
+        });
+      }
+
+      // Size selection
+      sizeButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          sizeButtons.forEach(b => b.classList.remove('is-selected'));
+          btn.classList.add('is-selected');
+          drawer.dataset.selectedVariantId = btn.dataset.variantId;
+        });
+      });
+
+      // Quantity adjustment - minus button
+      if (qtyMinusBtn && qtyInput) {
+        qtyMinusBtn.addEventListener('click', () => {
+          let qty = parseInt(qtyInput.value, 10) || 1;
+          if (qty > 1) {
+            qtyInput.value = qty - 1;
+          }
+        });
+      }
+
+      // Quantity adjustment - plus button
+      if (qtyPlusBtn && qtyInput) {
+        qtyPlusBtn.addEventListener('click', () => {
+          let qty = parseInt(qtyInput.value, 10) || 1;
+          qtyInput.value = qty + 1;
+        });
+      }
+
+      // Add to cart
+      if (addToCartBtn) {
+        addToCartBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          this.addToCart(drawer);
+        });
+      }
+
+      // Select first size by default
+      if (sizeButtons.length > 0) {
+        sizeButtons[0].click();
+      }
+    });
+  }
+
+  toggleDrawer(drawer, open) {
+    if (open) {
+      drawer.classList.add('is-open');
+    } else {
+      drawer.classList.remove('is-open');
+    }
+  }
+
+  addToCart(drawer) {
+    const variantId = drawer.dataset.selectedVariantId;
+    const quantity = parseInt(drawer.querySelector('[data-qty-input]').value, 10) || 1;
+    const addBtn = drawer.querySelector('[data-add-to-cart]');
+
+    if (!variantId) {
+      alert('Please select a size');
+      return;
+    }
+
+    // Disable button during submission
+    addBtn.disabled = true;
+    addBtn.textContent = 'ADDING...';
+
+    // Fetch cart and add item
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        items: [
+          {
+            id: variantId,
+            quantity: quantity
+          }
+        ]
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      // Close drawer and show success feedback
+      this.toggleDrawer(drawer, false);
+      addBtn.disabled = false;
+      addBtn.textContent = 'ADD TO CART';
+
+      // Reset quantity to 1
+      drawer.querySelector('[data-qty-input]').value = 1;
+
+      // Dispatch custom event (theme may use this to update cart)
+      window.dispatchEvent(new CustomEvent('cart:updated', { detail: data }));
+    })
+    .catch(error => {
+      console.error('Error adding to cart:', error);
+      addBtn.disabled = false;
+      addBtn.textContent = 'ADD TO CART';
+      alert('Error adding to cart. Please try again.');
+    });
   }
 }
 
