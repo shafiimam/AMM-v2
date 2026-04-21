@@ -1,55 +1,27 @@
 {%- liquid
   assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5
-
-  assign main_product_id = ''
-  if section.settings.main_product != blank
-    assign main_product_id = section.settings.main_product.id
-  elsif request.page_type == 'product'
-    assign main_product_id = product.id
-  endif
-
-  assign look_image = nil
-  assign mobile_look_image = nil
-  if section.settings.look_image_source == 'custom_image'
-    assign look_image = section.settings.custom_image
-    assign mobile_look_image = section.settings.mobile_custom_image
-  elsif section.settings.look_image_source == 'product_image'
-    assign img_idx = section.settings.product_image_index | default: 0
-    if section.settings.main_product != blank
-      assign look_image = section.settings.main_product.images[img_idx]
-    elsif request.page_type == 'product'
-      assign look_image = product.images[img_idx]
-    endif
-  endif
+  assign layout = section.settings.layout
+  assign show_hotspot_numbering = section.settings.show_hotspot_numbering
 -%}
 
-{%- if main_product_id != blank -%}
+{%- if section.blocks.size > 0 -%}
 <section
-  class="amm-stl amm-stl--{{ section.settings.layout }} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}{% if section.settings.separate_section_with_border %} bordered-section{% endif %}"
+  class="amm-stl amm-stl--{{ layout }} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }}{% if section.settings.separate_section_with_border %} bordered-section{% endif %}"
   id="shopify-section-{{ section.id }}"
   data-section-id="{{ section.id }}"
-  data-main-product-id="{{ main_product_id }}"
-  data-api-token="{{ settings.stl_api_token | escape }}"
-  data-layout="{{ section.settings.layout }}"
-  data-hotspot-1-x="{{ section.settings.hotspot_1_x }}"
-  data-hotspot-1-y="{{ section.settings.hotspot_1_y }}"
-  data-hotspot-2-x="{{ section.settings.hotspot_2_x }}"
-  data-hotspot-2-y="{{ section.settings.hotspot_2_y }}"
-  data-hotspot-3-x="{{ section.settings.hotspot_3_x }}"
-  data-hotspot-3-y="{{ section.settings.hotspot_3_y }}"
-  data-hotspot-4-x="{{ section.settings.hotspot_4_x }}"
-  data-hotspot-4-y="{{ section.settings.hotspot_4_y }}"
+  data-layout="{{ layout }}"
+  data-block-count="{{ section.blocks.size }}"
 >
   <div class="amm-stl__inner">
 
     {%- if section.settings.title != blank or section.settings.subheading != blank -%}
-      {%- unless section.settings.layout == 'cinematic-drawer' or section.settings.layout == 'mosaic' -%}
+      {%- unless layout == 'cinematic-drawer' or layout == 'mosaic' -%}
         <div class="amm-stl__header">
           {%- if section.settings.subheading != blank -%}
             <p class="amm-stl__subheading">{{ section.settings.subheading }}</p>
           {%- endif -%}
           {%- if section.settings.title != blank -%}
-            <h2 class="h2">{{ section.settings.title }}</h2>
+            <h2 class="amm-stl__title">{{ section.settings.title }}</h2>
           {%- endif -%}
         </div>
       {%- endunless -%}
@@ -57,7 +29,7 @@
 
     <div class="amm-stl__stage">
 
-      {%- if section.settings.layout == 'cinematic-drawer' or section.settings.layout == 'mosaic' -%}
+      {%- if layout == 'cinematic-drawer' or layout == 'mosaic' -%}
         {%- if section.settings.title != blank or section.settings.subheading != blank -%}
           <div class="amm-stl__header">
             {%- if section.settings.subheading != blank -%}
@@ -71,23 +43,23 @@
       {%- endif -%}
 
       <div class="amm-stl__image-wrap">
-        {%- if look_image != blank -%}
+        {%- if section.settings.look_image != blank -%}
           <picture>
-            {%- if mobile_look_image != blank -%}
+            {%- if section.settings.mobile_look_image != blank -%}
               <source
                 media="(max-width: 699px)"
                 srcset="
-                  {{ mobile_look_image | image_url: width: 400 }} 400w,
-                  {{ mobile_look_image | image_url: width: 800 }} 800w,
-                  {{ mobile_look_image | image_url: width: 1000 }} 1000w
+                  {{ section.settings.mobile_look_image | image_url: width: 400 }} 400w,
+                  {{ section.settings.mobile_look_image | image_url: width: 800 }} 800w,
+                  {{ section.settings.mobile_look_image | image_url: width: 1000 }} 1000w
                 "
-                width="{{ mobile_look_image.width }}"
-                height="{{ mobile_look_image.height }}"
+                width="{{ section.settings.mobile_look_image.width }}"
+                height="{{ section.settings.mobile_look_image.height }}"
               >
             {%- endif -%}
             {{-
-              look_image
-              | image_url: width: look_image.width
+              section.settings.look_image
+              | image_url: width: section.settings.look_image.width
               | image_tag:
                 loading: 'lazy',
                 widths: '400,600,800,1000,1200,1400,1600',
@@ -102,29 +74,175 @@
         <div class="amm-stl__hotspots" aria-hidden="true"></div>
       </div>
 
-      <div class="amm-stl__products" aria-live="polite">
-        <div class="amm-stl__loading" aria-label="Loading">
-          <span class="amm-stl__loading-dot"></span>
-          <span class="amm-stl__loading-dot"></span>
-          <span class="amm-stl__loading-dot"></span>
+      {%- if layout == 'editorial-split' -%}
+        <div class="amm-stl__products" aria-live="polite">
+          <p class="amm-stl__products-label">Complete the look</p>
+          <ul class="amm-stl__product-list">
+            {%- for block in section.blocks -%}
+              {%- assign product = block.settings.product -%}
+              {%- if product != blank -%}
+                <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <a href="{{ product.url }}">
+                    {%- if product.featured_image -%}
+                      <img
+                        src="{{ product.featured_image | image_url: width: 72 }}"
+                        alt="{{ product.title }}"
+                        class="amm-stl__product-img"
+                        loading="lazy"
+                        width="72"
+                        height="72"
+                      >
+                    {%- endif -%}
+                    <div class="amm-stl__product-info">
+                      <p class="amm-stl__product-title">{{ product.title }}</p>
+                      <p class="amm-stl__product-price">{{ product.price | money }}</p>
+                      <span class="amm-stl__product-link">Shop →</span>
+                    </div>
+                  </a>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
         </div>
-      </div>
+
+      {%- elsif layout == 'hotspot' -%}
+        <div class="amm-stl__products" aria-live="polite">
+          <ul class="amm-stl__product-list">
+            {%- for block in section.blocks -%}
+              {%- assign product = block.settings.product -%}
+              {%- if product != blank -%}
+                <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <a href="{{ product.url }}">
+                    {%- if product.featured_image -%}
+                      <img
+                        src="{{ product.featured_image | image_url: width: 140 }}"
+                        alt="{{ product.title }}"
+                        class="amm-stl__product-img"
+                        loading="lazy"
+                        width="140"
+                        height="140"
+                      >
+                    {%- endif -%}
+                    <div class="amm-stl__product-info">
+                      <p class="amm-stl__product-title">{{ product.title }}</p>
+                      <p class="amm-stl__product-price">{{ product.price | money }}</p>
+                      <span class="amm-stl__product-link">Shop →</span>
+                    </div>
+                  </a>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
+
+      {%- elsif layout == 'cinematic-drawer' -%}
+        <div class="amm-stl__products" style="display: none;"></div>
+
+      {%- elsif layout == 'film-strip' -%}
+        <div class="amm-stl__products" aria-live="polite">
+          <ul class="amm-stl__product-list">
+            {%- for block in section.blocks -%}
+              {%- assign product = block.settings.product -%}
+              {%- if product != blank -%}
+                <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <a href="{{ product.url }}">
+                    {%- if product.featured_image -%}
+                      <img
+                        src="{{ product.featured_image | image_url: width: 300 }}"
+                        alt="{{ product.title }}"
+                        class="amm-stl__product-img"
+                        loading="lazy"
+                        width="300"
+                        height="300"
+                      >
+                    {%- endif -%}
+                    <div class="amm-stl__product-info">
+                      <p class="amm-stl__product-counter">{{ forloop.index }} / {{ section.blocks.size }}</p>
+                      <p class="amm-stl__product-title">{{ product.title }}</p>
+                      <p class="amm-stl__product-price">{{ product.price | money }}</p>
+                      <span class="amm-stl__product-link">Shop →</span>
+                    </div>
+                  </a>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
+
+      {%- elsif layout == 'mosaic' -%}
+        <div class="amm-stl__products" aria-live="polite">
+          <ul class="amm-stl__product-list">
+            {%- for block in section.blocks -%}
+              {%- assign product = block.settings.product -%}
+              {%- if product != blank -%}
+                <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <a href="{{ product.url }}">
+                    {%- if product.featured_image -%}
+                      <img
+                        src="{{ product.featured_image | image_url: width: 200 }}"
+                        alt="{{ product.title }}"
+                        class="amm-stl__product-img"
+                        loading="lazy"
+                        width="200"
+                        height="200"
+                      >
+                    {%- endif -%}
+                    <div class="amm-stl__product-info">
+                      <p class="amm-stl__product-title">{{ product.title }}</p>
+                      <p class="amm-stl__product-price">{{ product.price | money }}</p>
+                    </div>
+                  </a>
+                  <a href="{{ product.url }}" class="amm-stl__product-shop-btn">Shop</a>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
+
+      {%- endif -%}
 
     </div>
 
-    {%- if section.settings.layout == 'cinematic-drawer' -%}
+    {%- if layout == 'cinematic-drawer' -%}
       <button
         class="amm-stl__drawer-trigger"
         aria-expanded="false"
         aria-controls="amm-stl-drawer-{{ section.id }}"
       >
         <span class="amm-stl__drawer-trigger-text">{{ section.settings.cta_text }}</span>
-        <span class="amm-stl__drawer-count"></span>
+        <span class="amm-stl__drawer-count">· {{ section.blocks.size }} {% if section.blocks.size == 1 %}item{% else %}items{% endif %}</span>
         <span class="amm-stl__drawer-icon" aria-hidden="true">↑</span>
       </button>
       <div id="amm-stl-drawer-{{ section.id }}" class="amm-stl__drawer" hidden>
         <button class="amm-stl__drawer-close" aria-label="{{ 'general.accessibility.close' | t }}">✕</button>
-        <div class="amm-stl__drawer-products"></div>
+        <div class="amm-stl__drawer-products">
+          <ul class="amm-stl__product-list">
+            {%- for block in section.blocks -%}
+              {%- assign product = block.settings.product -%}
+              {%- if product != blank -%}
+                <li class="amm-stl__product-card" data-block-id="{{ block.id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ block.settings.show_as_hotspot }}" data-hotspot-x="{{ block.settings.hotspot_x }}" data-hotspot-y="{{ block.settings.hotspot_y }}">
+                  <a href="{{ product.url }}">
+                    {%- if product.featured_image -%}
+                      <img
+                        src="{{ product.featured_image | image_url: width: 140 }}"
+                        alt="{{ product.title }}"
+                        class="amm-stl__product-img"
+                        loading="lazy"
+                        width="140"
+                        height="140"
+                      >
+                    {%- endif -%}
+                    <div class="amm-stl__product-info">
+                      <p class="amm-stl__product-title">{{ product.title }}</p>
+                      <p class="amm-stl__product-price">{{ product.price | money }}</p>
+                      <span class="amm-stl__product-link">Shop →</span>
+                    </div>
+                  </a>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
       </div>
       <div class="amm-stl__backdrop" hidden aria-hidden="true"></div>
     {%- endif -%}
@@ -162,11 +280,11 @@
       "id": "layout",
       "label": "Layout",
       "options": [
-        { "value": "editorial-split",   "label": "Editorial Split" },
-        { "value": "hotspot",           "label": "Hotspot Interactive" },
-        { "value": "cinematic-drawer",  "label": "Cinematic Drawer" },
-        { "value": "film-strip",        "label": "Film Strip" },
-        { "value": "mosaic",            "label": "Mosaic Immersive" }
+        { "value": "editorial-split", "label": "Editorial Split" },
+        { "value": "hotspot",         "label": "Hotspot Interactive" },
+        { "value": "cinematic-drawer","label": "Cinematic Drawer" },
+        { "value": "film-strip",      "label": "Film Strip" },
+        { "value": "mosaic",          "label": "Mosaic Immersive" }
       ],
       "default": "editorial-split"
     },
@@ -193,104 +311,68 @@
     },
     {
       "type": "header",
-      "content": "Product data"
-    },
-    {
-      "type": "product",
-      "id": "main_product",
-      "label": "Main product",
-      "info": "The product configured as the look anchor in the Shop the Look app. Leave blank on product pages to use the current product automatically."
-    },
-    {
-      "type": "header",
       "content": "Look image"
     },
     {
-      "type": "select",
-      "id": "look_image_source",
-      "label": "Image source",
-      "options": [
-        { "value": "custom_image",  "label": "Custom upload" },
-        { "value": "product_image", "label": "Product image" }
-      ],
-      "default": "custom_image"
-    },
-    {
       "type": "image_picker",
-      "id": "custom_image",
+      "id": "look_image",
       "label": "Look image",
-      "info": "Recommended: portrait ratio (3:4), min 1200px tall for best quality",
-      "visible_if": "{{section.settings.look_image_source == 'custom_image' }}"
+      "info": "Recommended: portrait ratio (3:4), min 1200px tall for best quality"
     },
     {
       "type": "image_picker",
-      "id": "mobile_custom_image",
-      "label": "Mobile look image (optional override)",
-      "visible_if": "{{section.settings.look_image_source == 'custom_image' }}"
-    },
-    {
-      "type": "range",
-      "id": "product_image_index",
-      "label": "Product image index",
-      "min": 0,
-      "max": 9,
-      "step": 1,
-      "default": 0,
-      "info": "0 = first product image",
-      "visible_if": "{{section.settings.look_image_source == 'product_image' }}"
+      "id": "mobile_look_image",
+      "label": "Mobile look image (optional override)"
     },
     {
       "type": "header",
-      "content": "Hotspot positions",
-      "info": "Only used in Hotspot Interactive layout. Set the X (left) and Y (top) position of each product dot as a percentage of the image dimensions."
+      "content": "Hotspot options"
     },
     {
-      "type": "range",
-      "id": "hotspot_1_x",
-      "label": "Product 1 — left %",
-      "min": 5, "max": 95, "step": 1, "default": 30
-    },
+      "type": "checkbox",
+      "id": "show_hotspot_numbering",
+      "label": "Show product numbering on hotspots",
+      "default": true
+    }
+  ],
+  "blocks": [
     {
-      "type": "range",
-      "id": "hotspot_1_y",
-      "label": "Product 1 — top %",
-      "min": 5, "max": 95, "step": 1, "default": 30
-    },
-    {
-      "type": "range",
-      "id": "hotspot_2_x",
-      "label": "Product 2 — left %",
-      "min": 5, "max": 95, "step": 1, "default": 65
-    },
-    {
-      "type": "range",
-      "id": "hotspot_2_y",
-      "label": "Product 2 — top %",
-      "min": 5, "max": 95, "step": 1, "default": 45
-    },
-    {
-      "type": "range",
-      "id": "hotspot_3_x",
-      "label": "Product 3 — left %",
-      "min": 5, "max": 95, "step": 1, "default": 40
-    },
-    {
-      "type": "range",
-      "id": "hotspot_3_y",
-      "label": "Product 3 — top %",
-      "min": 5, "max": 95, "step": 1, "default": 70
-    },
-    {
-      "type": "range",
-      "id": "hotspot_4_x",
-      "label": "Product 4 — left %",
-      "min": 5, "max": 95, "step": 1, "default": 75
-    },
-    {
-      "type": "range",
-      "id": "hotspot_4_y",
-      "label": "Product 4 — top %",
-      "min": 5, "max": 95, "step": 1, "default": 75
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_as_hotspot",
+          "label": "Show as hotspot",
+          "default": false,
+          "info": "For Hotspot Interactive layout only"
+        },
+        {
+          "type": "range",
+          "id": "hotspot_x",
+          "label": "Hotspot position — left %",
+          "min": 5,
+          "max": 95,
+          "step": 1,
+          "default": 50,
+          "visible_if": "{{block.settings.show_as_hotspot}}"
+        },
+        {
+          "type": "range",
+          "id": "hotspot_y",
+          "label": "Hotspot position — top %",
+          "min": 5,
+          "max": 95,
+          "step": 1,
+          "default": 50,
+          "visible_if": "{{block.settings.show_as_hotspot}}"
+        }
+      ]
     }
   ],
   "presets": [
@@ -298,7 +380,12 @@
       "name": "AMM Shop the Look",
       "settings": {
         "layout": "editorial-split"
-      }
+      },
+      "blocks": [
+        { "type": "product" },
+        { "type": "product" },
+        { "type": "product" }
+      ]
     }
   ]
 }
