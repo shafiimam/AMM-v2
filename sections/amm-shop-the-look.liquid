@@ -549,6 +549,7 @@
 
     {%- if layout == 'cinematic-drawer' -%}
       <button
+        type="button"
         class="amm-stl__drawer-trigger"
         aria-expanded="false"
         aria-controls="amm-stl-drawer-{{ section.id }}"
@@ -558,7 +559,7 @@
         <span class="amm-stl__drawer-icon" aria-hidden="true">↑</span>
       </button>
       <div id="amm-stl-drawer-{{ section.id }}" class="amm-stl__drawer" hidden>
-        <button class="amm-stl__drawer-close" aria-label="{{ 'general.accessibility.close' | t }}">✕</button>
+        <button type="button" class="amm-stl__drawer-close" aria-label="{{ 'general.accessibility.close' | t }}">✕</button>
         <div class="amm-stl__drawer-products">
           <ul class="amm-stl__product-list">
             {%- for block in section.blocks -%}
