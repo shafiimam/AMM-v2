@@ -133,6 +133,8 @@ class AmmShopTheLook {
   }
 
   setupProductDrawers() {
+    // Note: Event listeners are added here. If drawers are dynamically re-rendered,
+    // consider adding a cleanup method to prevent memory leaks.
     const drawers = this.el.querySelectorAll('[data-product-drawer]');
     drawers.forEach(drawer => {
       // Find the plus button that precedes this drawer
@@ -187,10 +189,12 @@ class AmmShopTheLook {
         });
       }
 
-      // Add to cart
+      // Add to cart - prevent race condition by checking button state
       if (addToCartBtn) {
         addToCartBtn.addEventListener('click', (e) => {
           e.preventDefault();
+          // Don't process if button is already disabled (prevents duplicate submissions)
+          if (addToCartBtn.disabled) return;
           this.addToCart(drawer);
         });
       }
@@ -198,6 +202,8 @@ class AmmShopTheLook {
       // Select first size by default
       if (sizeButtons.length > 0) {
         sizeButtons[0].click();
+      } else {
+        console.warn('No available sizes for product:', drawer.dataset.productHandle);
       }
     });
   }
@@ -212,20 +218,26 @@ class AmmShopTheLook {
 
   addToCart(drawer) {
     const variantId = drawer.dataset.selectedVariantId;
-    const quantity = parseInt(drawer.querySelector('[data-qty-input]').value, 10) || 1;
+    const qtyInput = drawer.querySelector('[data-qty-input]');
+    const quantity = parseInt(qtyInput.value, 10) || 1;
     const addBtn = drawer.querySelector('[data-add-to-cart]');
 
+    // Validate variant and quantity
     if (!variantId) {
+      console.warn('No variant selected');
       alert('Please select a size');
       return;
     }
 
-    // Disable button during submission
+    // Disable button immediately BEFORE fetch to prevent race condition
     addBtn.disabled = true;
     addBtn.textContent = 'ADDING...';
 
+    // Use Shopify.routes to get proper cart endpoint (handles custom domains/subpaths)
+    const cartUrl = window.Shopify?.routes?.root ? `${window.Shopify.routes.root}cart/add.js` : '/cart/add.js';
+
     // Fetch cart and add item
-    fetch('/cart/add.js', {
+    fetch(cartUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -239,7 +251,13 @@ class AmmShopTheLook {
         ]
       })
     })
-    .then(response => response.json())
+    .then(response => {
+      // Validate HTTP response before parsing JSON
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
     .then(data => {
       // Close drawer and show success feedback
       this.toggleDrawer(drawer, false);
@@ -247,13 +265,14 @@ class AmmShopTheLook {
       addBtn.textContent = 'ADD TO CART';
 
       // Reset quantity to 1
-      drawer.querySelector('[data-qty-input]').value = 1;
+      qtyInput.value = 1;
 
       // Dispatch custom event (theme may use this to update cart)
       window.dispatchEvent(new CustomEvent('cart:updated', { detail: data }));
     })
     .catch(error => {
       console.error('Error adding to cart:', error);
+      // Re-enable button on error so user can retry
       addBtn.disabled = false;
       addBtn.textContent = 'ADD TO CART';
       alert('Error adding to cart. Please try again.');
