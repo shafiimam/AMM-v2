@@ -137,7 +137,7 @@ class AmmShopTheLook {
     // consider adding a cleanup method to prevent memory leaks.
     const drawers = this.el.querySelectorAll('[data-product-drawer]');
     drawers.forEach(drawer => {
-      // Find the plus button that precedes this drawer
+      const quickAddBtn = drawer.parentElement?.querySelector('[data-quick-add-btn]');
       const quickAddBtn = drawer.previousElementSibling?.querySelector('[data-quick-add-btn]');
       const closeBtn = drawer.querySelector('[data-drawer-close]');
       const sizeButtons = drawer.querySelectorAll('[data-size-btn]');
