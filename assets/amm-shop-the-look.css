@@ -593,3 +593,110 @@
     width: 50%;
   }
 }
+
+/* ============================================================
+   Layout 5: MOSAIC IMMERSIVE
+   ============================================================ */
+
+.amm-stl--mosaic {
+  position: relative;
+}
+
+.amm-stl--mosaic .amm-stl__stage {
+  position: relative;
+  min-height: 80vh;
+}
+
+.amm-stl--mosaic .amm-stl__image-wrap {
+  position: absolute;
+  inset: 0;
+}
+
+.amm-stl--mosaic .amm-stl__image-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 38%, rgba(0, 0, 0, 0.78) 100%);
+  pointer-events: none;
+}
+
+.amm-stl--mosaic .amm-stl__header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  width: 90%;
+  pointer-events: none;
+}
+
+.amm-stl--mosaic .amm-stl__products {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 1.5rem;
+}
+
+.amm-stl--mosaic .amm-stl__product-list {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0.5rem;
+  scrollbar-width: none;
+}
+
+.amm-stl--mosaic .amm-stl__product-list::-webkit-scrollbar { display: none; }
+
+.amm-stl--mosaic .amm-stl__product-card {
+  width: 148px;
+  flex-shrink: 0;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.amm-stl--mosaic .amm-stl__product-card:hover {
+  transform: translateY(-6px);
+}
+
+.amm-stl--mosaic .amm-stl__product-card:hover .amm-stl__product-shop-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.amm-stl--mosaic .amm-stl__product-title { color: #fff; }
+.amm-stl--mosaic .amm-stl__product-price { color: rgba(255, 255, 255, 0.6); }
+
+.amm-stl__product-shop-btn {
+  display: block;
+  width: 100%;
+  margin-top: 0.6rem;
+  padding: 0.5rem;
+  background: #fff;
+  color: #000;
+  font-family: var(--stl-font-heading);
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+@media screen and (min-width: 1000px) {
+  .amm-stl--mosaic .amm-stl__product-card {
+    width: 195px;
+  }
+
+  .amm-stl--mosaic .amm-stl__products {
+    padding: 2rem 3rem;
+  }
+}
