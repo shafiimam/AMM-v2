@@ -49,7 +49,7 @@
             <p class="amm-stl__subheading">{{ section.settings.subheading }}</p>
           {%- endif -%}
           {%- if section.settings.title != blank -%}
-            <h2 class="amm-stl__title">{{ section.settings.title }}</h2>
+            <h2 class="h2">{{ section.settings.title }}</h2>
           {%- endif -%}
         </div>
       {%- endunless -%}
@@ -220,13 +220,13 @@
       "id": "custom_image",
       "label": "Look image",
       "info": "Recommended: portrait ratio (3:4), min 1200px tall for best quality",
-      "visible_if": "{{section.settings.look_image_source}} == 'custom_image'"
+      "visible_if": "{{section.settings.look_image_source == 'custom_image' }}"
     },
     {
       "type": "image_picker",
       "id": "mobile_custom_image",
       "label": "Mobile look image (optional override)",
-      "visible_if": "{{section.settings.look_image_source}} == 'custom_image'"
+      "visible_if": "{{section.settings.look_image_source == 'custom_image' }}"
     },
     {
       "type": "range",
@@ -237,7 +237,7 @@
       "step": 1,
       "default": 0,
       "info": "0 = first product image",
-      "visible_if": "{{section.settings.look_image_source}} == 'product_image'"
+      "visible_if": "{{section.settings.look_image_source == 'product_image' }}"
     },
     {
       "type": "header",
