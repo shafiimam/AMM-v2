@@ -491,3 +491,105 @@
   background: transparent;
   cursor: default;
 }
+
+/* ============================================================
+   Layout 4: FILM STRIP
+   ============================================================ */
+
+.amm-stl--film-strip .amm-stl__stage {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.amm-stl--film-strip .amm-stl__image-wrap {
+  aspect-ratio: 3 / 4;
+  position: relative;
+}
+
+.amm-stl__film-indicators {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.amm-stl__film-dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--stl-font-heading);
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: #fff;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.amm-stl__film-dot.is-active {
+  background: #fff;
+  color: #000;
+  transform: scale(1.25);
+}
+
+.amm-stl--film-strip .amm-stl__products {
+  padding: 0;
+}
+
+.amm-stl--film-strip .amm-stl__product-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.amm-stl--film-strip .amm-stl__product-list::-webkit-scrollbar { display: none; }
+
+.amm-stl--film-strip .amm-stl__product-card {
+  width: 100%;
+  flex-shrink: 0;
+  padding: 2.5rem 1.75rem;
+  border-left: 1px solid currentColor;
+  scroll-snap-align: start;
+  opacity: 0.35;
+  transition: opacity 0.35s ease;
+}
+
+.amm-stl--film-strip .amm-stl__product-card.is-active {
+  opacity: 1;
+}
+
+.amm-stl--film-strip .amm-stl__product-counter {
+  font-family: var(--stl-font-body);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  opacity: 0.38;
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .amm-stl--film-strip .amm-stl__stage {
+    grid-template-columns: 2fr 3fr;
+    min-height: 72vh;
+  }
+
+  .amm-stl--film-strip .amm-stl__image-wrap {
+    aspect-ratio: auto;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+
+  .amm-stl--film-strip .amm-stl__product-card {
+    width: 50%;
+  }
+}
