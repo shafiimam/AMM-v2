@@ -868,20 +868,5 @@
         "info": "t:theme_settings.favicon.image_info"
       }
     ]
-  },
-  {
-    "name": "App integrations",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Shop the Look"
-      },
-      {
-        "type": "text",
-        "id": "stl_api_token",
-        "label": "API token",
-        "info": "Bearer token from the Shop the Look app Settings dashboard. Starts with stl_. This value is output in page HTML — do not enter a production token in public dev previews."
-      }
-    ]
   }
 ]
