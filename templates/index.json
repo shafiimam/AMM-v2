@@ -239,7 +239,7 @@
         "product_8q4ahn",
         "product_wBMWzJ"
       ],
-      "name": "Y-3 product ",
+      "name": "puma x nahmia",
       "settings": {
         "section_alignment": "left",
         "title": "PUMA X NAHMIAS",
@@ -336,7 +336,8 @@
         "video_LGcaaU",
         "image_XUaB3V"
       ],
-      "name": "pumaxnahmia",
+      "disabled": true,
+      "name": "maisonmihara",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -490,22 +491,22 @@
     "featured_collections_EFnetB": {
       "type": "featured-collections",
       "blocks": {
-        "collection_Nizrmj": {
+        "collection_b4hYCA": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals",
+            "collection": "a-ma-maniere",
             "products_count": 8,
-            "title": "NEW ARRIVALS",
-            "link_url": "shopify://collections/new-arrivals",
+            "title": "",
+            "link_url": "",
             "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_Nizrmj"
+        "collection_b4hYCA"
       ],
       "custom_css": [],
-      "name": "new arrivals",
+      "name": "a ma maniere",
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -518,9 +519,75 @@
         "subheading": ""
       }
     },
+    "shop_the_look_yjtpt9": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_AQePmE": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/global-wales_bonner-originals-ss26-launch-hp-banner_hero-m_2462534d-ad20-437c-80f1-eb97ad9048fd.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "wales-bonner-adizero-adios-mes5-coca-mocha",
+            "product_1_horizontal_position": 34,
+            "product_1_vertical_position": 38,
+            "product_2": "",
+            "product_2_horizontal_position": 54,
+            "product_2_vertical_position": 57,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 91,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_AQePmE"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "adidas x wales bonner",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
+    },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
+        "collection_QPJnbw": {
+          "type": "collection",
+          "settings": {
+            "collection": "polos",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_fUfJmE": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-cargo-pants",
+            "products_count": 8,
+            "title": "cargo pants",
+            "link_url": "shopify://collections/new-cargo-pants",
+            "link_text": "View all"
+          }
+        },
+        "collection_NDmmGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-sweatshirts",
+            "products_count": 8,
+            "title": "Hoodies",
+            "link_url": "shopify://collections/new-sweatshirts",
+            "link_text": "View all"
+          }
+        },
         "collection_Q7Rc3m": {
           "type": "collection",
           "settings": {
@@ -530,32 +597,13 @@
             "link_url": "shopify://collections/footwear",
             "link_text": "SHOP COLLECTION"
           }
-        },
-        "collection_NDmmGJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-t-shirts",
-            "products_count": 8,
-            "title": "t-Shirts",
-            "link_url": "shopify://collections/new-t-shirts",
-            "link_text": "View all"
-          }
-        },
-        "collection_fUfJmE": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-bottoms",
-            "products_count": 8,
-            "title": "bottoms",
-            "link_url": "shopify://collections/new-bottoms",
-            "link_text": "View all"
-          }
         }
       },
       "block_order": [
-        "collection_Q7Rc3m",
+        "collection_QPJnbw",
+        "collection_fUfJmE",
         "collection_NDmmGJ",
-        "collection_fUfJmE"
+        "collection_Q7Rc3m"
       ],
       "custom_css": [],
       "settings": {
@@ -573,50 +621,50 @@
     "media_grid_7fM37z": {
       "type": "media-grid",
       "blocks": {
-        "image_DeB9na": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/polo.png",
-            "column_count": "4",
-            "row_count": 3,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "Shop Spring Essentials",
-            "link_url": "shopify://collections/spring-authority",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "video_YPpciV": {
           "type": "video",
           "settings": {
             "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/JACQ_V5.mp4",
+            "video": "shopify://files/videos/Willy Brand page vid.mov",
             "autoplay": true,
             "show_controls": false,
             "column_count": "8",
-            "row_count": 3,
+            "row_count": 2,
             "title": "",
-            "heading_tag": "h4",
+            "heading_tag": "h1",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://collections/jacquemus",
+            "link_url": "shopify://collections/willy-chavarria",
             "link_style": "link",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DeB9na": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/DSC02305.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "<strong>new arrivals </strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "Shop Now",
+            "link_url": "shopify://collections/willy-chavarria",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_DeB9na",
-        "video_YPpciV"
+        "video_YPpciV",
+        "image_DeB9na"
       ],
-      "name": "spring authority ",
+      "name": "willy chav grid ",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -629,99 +677,11 @@
         "content": ""
       }
     },
-    "media_grid_kDP8wG": {
-      "type": "media-grid",
-      "blocks": {
-        "image_HmywbF": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/galleryd.png",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "gallery dept.",
-            "link_url": "shopify://collections/gallery-dept",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_FG9bi6": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC09153_DC.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "rivington",
-            "link_url": "shopify://collections/rivington-4",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_JKg3pE": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/accessories_9e969a4e-13ad-40e1-b7ad-29eec6aba4c7.png",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "BALENCIAGA",
-            "link_url": "shopify://collections/balenciaga",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_HmywbF",
-        "image_FG9bi6",
-        "image_JKg3pE"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 600,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "featured_collections_RwpkEJ": {
       "type": "featured-collections",
       "blocks": {
-        "collection_dnEeCe": {
-          "type": "collection",
-          "settings": {
-            "collection": "a-ma-maniere",
-            "products_count": 8,
-            "title": "A MA MANIÉRE",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
         "collection_t3bATr": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "spring-authority",
             "products_count": 8,
@@ -732,10 +692,10 @@
         }
       },
       "block_order": [
-        "collection_dnEeCe",
         "collection_t3bATr"
       ],
       "custom_css": [],
+      "name": "spring collection",
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -793,43 +753,6 @@
         "button_2_style": "solid"
       }
     },
-    "shop_the_look_yjtpt9": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_AQePmE": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/DSC08100_DC_1_1.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "acne-studios-twill-bomber-jacket-sand-beige",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
-            "product_2": "loewe-vest-beige-multicolor",
-            "product_2_horizontal_position": 54,
-            "product_2_vertical_position": 57,
-            "product_3": "maison-mihara-yasuhiro-denim-wide-pants-grey",
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 91,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look_AQePmE"
-      ],
-      "disabled": true,
-      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
     "before-after": {
       "type": "before-after",
       "blocks": {
@@ -873,63 +796,6 @@
         "cursor_initial_position": 50,
         "cursor_background": "#efefef",
         "cursor_arrows_color": "#000000"
-      }
-    },
-    "media_grid_JJfcQ6": {
-      "type": "media-grid",
-      "blocks": {
-        "image_MarDnt": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/sweats2.png",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "sweatpants",
-            "link_url": "shopify://collections/new-sweatpants",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_3mUUea": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "boots",
-            "link_url": "shopify://collections/new-boots",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_MarDnt",
-        "image_3mUUea"
-      ],
-      "disabled": true,
-      "name": "sweats/boots collections",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 600,
-        "mobile_row_height": 530,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
       }
     },
     "blocks_xhmELd": {
@@ -1118,14 +984,12 @@
     "image_with_text_4rzGhq",
     "blocks_C9GbEP",
     "featured_collections_EFnetB",
+    "shop_the_look_yjtpt9",
     "featured_collections_WMah7x",
     "media_grid_7fM37z",
-    "media_grid_kDP8wG",
     "featured_collections_RwpkEJ",
     "multiple_media_with_text_Lgp4CV",
-    "shop_the_look_yjtpt9",
     "before-after",
-    "media_grid_JJfcQ6",
     "blocks_xhmELd",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
