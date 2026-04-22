@@ -522,25 +522,6 @@
     "shop_the_look_yjtpt9": {
       "type": "shop-the-look",
       "blocks": {
-        "look_waN3iW": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/global-wales_bonner-originals-ss26-launch-confirmed-collp-carousel_1-asset_4.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "wales-bonner-gazelle-snake",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
         "look_AQePmE": {
           "type": "look",
           "settings": {
@@ -559,11 +540,30 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
+        },
+        "look_waN3iW": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/global-wales_bonner-originals-ss26-launch-confirmed-collp-carousel_1-asset_4.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "wales-bonner-gazelle-snake",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
         }
       },
       "block_order": [
-        "look_waN3iW",
-        "look_AQePmE"
+        "look_AQePmE",
+        "look_waN3iW"
       ],
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
