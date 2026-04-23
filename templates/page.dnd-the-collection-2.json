@@ -141,6 +141,7 @@
         },
         "button_yd3i4M": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "enter draws",
