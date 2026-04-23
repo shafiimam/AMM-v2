@@ -73,6 +73,7 @@
         "image_irEa6U": {
           "type": "image",
           "name": "4.24 the collection",
+          "disabled": true,
           "settings": {
             "subheading": "<p>Tell your story</p>",
             "subheading_size": 12,
