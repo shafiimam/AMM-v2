@@ -62,7 +62,7 @@
         "desktop_row_height": 450,
         "mobile_row_height": 420,
         "section_width": "full",
-        "spacing": "none",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
