@@ -52,8 +52,8 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "md",
-        "video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
-        "mobile_video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
+        "video": "shopify://files/videos/DND COLLECTION RESHOT4k H.265.mov",
+        "mobile_video": "shopify://files/videos/DND COLLECTION RESHOT4k H.265.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -146,13 +146,13 @@
     "media_grid_wGyTFz": {
       "type": "media-grid",
       "blocks": {
-        "image_Fdedra": {
+        "image_3g6hHn": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/orange.png",
-            "column_count": "4",
-            "row_count": 1,
+            "image": "shopify://shop_images/DSC03187_DC_1_copy6.jpg",
+            "column_count": "6",
+            "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -164,13 +164,13 @@
             "overlay_opacity": 0
           }
         },
-        "image_3g6hHn": {
+        "image_Fdedra": {
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/pink2.png",
-            "column_count": "8",
-            "row_count": 2,
+            "image": "shopify://shop_images/apbmicro_a6e44ca8-7530-49dc-b30a-bf3ee37ce27e.png",
+            "column_count": "6",
+            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -186,8 +186,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/pink.png",
-            "column_count": "4",
+            "image": "shopify://shop_images/ssmicro.webp",
+            "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -202,8 +202,8 @@
         }
       },
       "block_order": [
-        "image_Fdedra",
         "image_3g6hHn",
+        "image_Fdedra",
         "image_xKjBF6"
       ],
       "name": "t:sections.media_grid.presets.media_grid.name",
