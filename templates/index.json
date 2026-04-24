@@ -12,18 +12,20 @@
     "media_grid_38Mmew": {
       "type": "media-grid",
       "blocks": {
-        "image_iGi7rz": {
-          "type": "image",
+        "video_yG7g7d": {
+          "type": "video",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC06051BB.jpg",
+            "video": "shopify://files/videos/DND COLLECTION (FE)4k H.265.mov",
+            "autoplay": true,
+            "show_controls": false,
             "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://collections/do-not-duplicate",
+            "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -34,10 +36,10 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC01275_DC_1.jpg",
+            "image": "shopify://shop_images/amm4.30_477ad251-83d8-4ce5-b846-6ae36d382ac3.png",
             "column_count": "6",
             "row_count": 2,
-            "title": "<strong>do not duplicate: day glow pack</strong>",
+            "title": "<strong>do not duplicate: the collection </strong>",
             "heading_tag": "h1",
             "content": "",
             "link_text": "shop now",
@@ -50,11 +52,11 @@
         }
       },
       "block_order": [
-        "image_iGi7rz",
+        "video_yG7g7d",
         "image_NWPt3Q"
       ],
       "disabled": true,
-      "name": "dayglow grid?",
+      "name": "4.24 collection ",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -627,7 +629,7 @@
             "video": "shopify://files/videos/Willy Brand page vid.mov",
             "autoplay": true,
             "show_controls": false,
-            "column_count": "8",
+            "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h1",
@@ -645,7 +647,7 @@
           "settings": {
             "color_scheme": "scheme-3",
             "image": "shopify://shop_images/DSC02305.jpg",
-            "column_count": "4",
+            "column_count": "6",
             "row_count": 2,
             "title": "<strong>new arrivals </strong>",
             "heading_tag": "h1",
