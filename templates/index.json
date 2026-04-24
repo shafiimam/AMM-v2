@@ -18,7 +18,7 @@
             "color_scheme": "scheme-4",
             "video": "shopify://files/videos/DND COLLECTION (FE)4k H.265.mov",
             "autoplay": true,
-            "show_controls": false,
+            "show_controls": true,
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -59,7 +59,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "desktop_row_height": 400,
+        "desktop_row_height": 450,
         "mobile_row_height": 420,
         "section_width": "full",
         "spacing": "none",
