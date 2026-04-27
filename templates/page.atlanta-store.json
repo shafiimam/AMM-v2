@@ -23,6 +23,7 @@
       "blocks": {
         "button_Td7AKh": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "outline",
             "text": "Book Now",
@@ -123,6 +124,7 @@
         },
         "image_block_eWDJdQ": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "PERSONAL SHOPPING",
             "image": "shopify://shop_images/image_76838ecb-57bc-4849-bc67-64c09f203b9c.jpg",
@@ -262,6 +264,10 @@
         "separate_section_with_border": false,
         "image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
         "mobile_image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "md",
