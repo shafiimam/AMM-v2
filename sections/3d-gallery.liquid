@@ -1,4 +1,5 @@
-<script src="{{ 'angle.js' | asset_url }}" async></script>
+{{ 'section-3d-gallery.css' | asset_url | stylesheet_tag }}
+
 {% assign start_index = section.settings.start_index %}
 {% assign end_index = section.settings.end_index %}
 {%- assign link_handle = section.settings.dynamic_link_handle -%}
@@ -6,143 +7,46 @@
   <h2 class="h1 text-center">{{ section.settings.title | default: '3D Gallery' }}</h2>
   <div class="gallery-content-container">
     <div class="three-d-gallery">
-      <div class="top-text">Try</div>
+      {% if section.settings.show_section_texts %}
+        <div class="top-text">{{ section.settings.top_text }}</div>
+      {% endif %}
       <div class="angle-view" id="angle-view-{{ section.id }}">
         <ul>
           {% for i in (start_index..end_index) %}
             <li>
-              <img src="{{ link_handle }}{{ i }}.png" alt="DSC04{{ i }}" height="650" width="600" class="angle-image">
+              <img src="{{ link_handle }}{{ i }}.{{ section.settings.file_ext | default: 'png' }}" alt="DSC04{{ i }}" height="650" width="600" class="angle-image">
             </li>
           {% endfor %}
         </ul>
       </div>
-      <div class="bottom-text">Now</div>
-      <div class="gallery-controls">
-        {% render '360-knob' %}
+      {% if section.settings.show_section_texts %}
+        <div class="bottom-text">{{ section.settings.bottom_text }}</div>
+      {% endif %}
+      <div class="gallery-controls" style="bottom: {{ section.settings.knob_position }}px;">
+        {% render '360-knob', section: section %}
       </div>
-      {% if section.settings.button_label != blank %}
+      {% if section.settings.button_label != blank and section.settings.show_button %}
         <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_label }}</a>
       {% endif %}
     </div>
   </div>
 </div>
-<script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function () {
-    let loadInterval = setInterval(() => {
-      if (window.$) {
-        clearInterval(loadInterval);
-        console.log('loaded');
-        const angleInstance = $('#angle-view-{{ section.id }}').angle({
-          speed: 2,
-          previous: '.prev-image',
-          next: '.next-image',
-          drag: true,
-          current: 1,
-        })
-        $('#angle-view-{{ section.id }}').addClass('ready');
-        console.log(angleInstance);
-        // Store the instance for external access (e.g., from slider knob)
-        window.angleViewer = angleInstance;
-      }
-    }, 500);
-  });
-</script>
-<style>
-  .three-d-gallery-container {
-    margin: 40px 0;
-  }
-  .angle-view {
-    overflow: hidden;
-    width: 65vw;
-    margin: 10px auto;
-    border: 5px solid #cecece;
-  }
-  .angle-view ul {
-    margin: 0;
-    padding: 0;
-  }
-  .angle-view li {
-    list-style: none;
-    display: flex;
-    align-items: center;
-  }
-  .angle-view img {
-    width: 90%;
-    display: block;
-    margin: 18px auto;
-  }
-  div#angle-view-{{ section.id }} {
+{% style %}
+    div#angle-view-{{ section.id }} {
     border: none;
     background: #fff;
     position: relative;
     z-index: 1;
     transform: translateX(200%);
     transition: all 0.5s ease-in-out;
+    width: {{ section.settings.gallery_width }}dvw;
   }
-  .angle-view.ready{
-    transform: translateX(0) !important; 
-  }
-  #angle-view1 img {
-    object-fit: contain;
-    margin: 0 auto;
-  }
-  .gallery-controls {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    z-index: 2;
-    position: absolute;
-    bottom: 0;
-  }
-  .gallery-controls img {
-    max-width: 700px;
-    width: 100%;
-  }
-  .three-d-gallery-container {
-    margin: 0 auto;
-  }
-  .three-d-gallery-container .title {
-    color: #fff;
-    font-family: Saol Display, sans-serif;
-  }
-  .three-d-gallery {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    overflow: hidden;
-  }
-  .top-text,
-  .bottom-text {
-    color: rgba(36, 36, 36, 0.15);
-    font-family: 'Saol Display';
-    font-size: 15vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -5.4px;
-    text-transform: uppercase;
-    z-index: 2;
-    user-select: none;
-  }
-  .top-text {
-    position: absolute;
-    left: 20px;
-  }
-  .bottom-text {
-    position: absolute;
-    right: 20px;
-    top: 55%;
-  }
-  @media and (max-width: 768px) {
-    .angle-view {
-      max-width: 90dvw;
-      margin: 20px auto;
-      max-height: 500px;
-    }
-  }
-</style>
+{% endstyle %}
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+    const angleViewer = new AngleViewer('{{ section.id }}');
+  });
+</script>
 {% schema %}
 {
   "name": "3D Gallery",
@@ -171,6 +75,12 @@
     },
     {
       "type": "text",
+      "id": "file_ext",
+      "label": "file_extension",
+      "default": "png"
+    },
+    {
+      "type": "text",
       "id": "button_label",
       "label": "Button Label",
       "default": "Shop Now"
@@ -179,6 +89,50 @@
       "type": "url",
       "id": "button_link",
       "label": "Button Link"
+    },
+    {
+      "type": "range",
+      "id": "knob_position",
+      "label": "Knob Position",
+      "default": 10,
+      "min": 0,
+      "max": 200,
+      "unit": "px",
+      "step": 2
+    },
+    {
+      "type": "range",
+      "id": "gallery_width",
+      "label": "Gallery Width",
+      "default": 60,
+      "min": 0,
+      "max": 100,
+      "unit": "dvw",
+      "step": 1
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_section_texts",
+      "label": "Show Section Texts",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "top_text",
+      "label": "Top Text",
+      "default": "Try"
+    },
+    {
+      "type": "text",
+      "id": "bottom_text",
+      "label": "Bottom Text",
+      "default": "Now"
     }
   ],
   "presets": [

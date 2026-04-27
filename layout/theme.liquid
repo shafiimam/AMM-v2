@@ -1,11 +1,24 @@
+{%- comment %}<locksmith:ec68>{% endcomment -%}
+  {%- include 'locksmith' -%}
+{%- comment %}</locksmith:ec68>{% endcomment -%}
+
 <!doctype html>
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+    {{ locksmith_initializations }}
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M2X2R69X');</script>
+<!-- End Google Tag Manager -->
+    
     <meta charset="utf-8">
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover, height=device-height, minimum-scale=1.0, maximum-scale=1.0"
+      content="width=device-width, initial-scale=1"
     >
     <meta nam="theme-color" content="#ffffff">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,7 +39,10 @@
     </title>
 
     {%- if page_description -%}
-      <meta name="description" content="{{ page_description | escape }}">
+      {%- comment %}<locksmith:a969>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
+        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
+      {%- comment %}</locksmith:a969>{% endcomment -%}
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
@@ -60,7 +76,7 @@
     {%- render 'microdata-schema' -%}
     {%- render 'css-variables' -%}
     {%- render 'js-variables' -%}
-    {% render 'splash-screens' %}
+    {% comment %} {% render 'splash-screens' %} {% endcomment %}
 
     {%- if request.page_type == 'gift_card' -%}
       <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script>
@@ -89,9 +105,9 @@
 
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
-    <script src="{{ 'jquery.min.js'  | asset_url }}" async></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="{{ 'jquery.min.js'  | asset_url }}" defer></script>
+    <script src="{{ 'angle.js' | asset_url }}" defer></script>
+    <script src="{{ '360-knob.js' | asset_url }}" defer></script>
 
     {{ content_for_header }}
 
@@ -118,9 +134,13 @@
   %}
 
   <body class="{{ features_class }} color-scheme color-scheme--{{ settings.default_color_scheme.id }}">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2X2R69X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     {%- render 'shadow-dom-templates' -%}
     <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
-    <a href="#main" allow-hash-change class="skip-to-content sr-only">
+    <a href="#main" allow-hash-change class="skip-to-content sr-only" role="button">
       {{- 'general.accessibility.skip_to_content' | t -}}
     </a>
 
@@ -152,6 +172,7 @@
       {%- endif -%}
     </main>
   </body>
+  
   <script>
     // Open (or create) an IndexedDB database
     const dbRequest = indexedDB.open('amm-pwa-db', 1);
@@ -218,4 +239,11 @@
         });
     }
   </script>
+  {% if settings.hide_product_price and template.name == 'index' %}
+    {% style %}
+      price-list.price-list {
+        display: none;
+      }
+    {% endstyle %}
+  {% endif %}
 </html>

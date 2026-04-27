@@ -13,7 +13,7 @@
       <h1 class="h1 text-center">{{ section.settings.title }}</h1>
     </div>
   </div>
-  <div class="perspective-slider-container">
+  <div class="perspective-gallery-slider-knob-container">
     {% for block in section.blocks %}
       <div class="block-slide-item">
         <picture>
@@ -58,7 +58,7 @@
 {% render 'flickity-assets' %}
 <script>
   window.addEventListener('load', function () {
-    var elem = document.querySelector('.perspective-slider-container');
+    var elem = document.querySelector('.perspective-gallery-slider-knob-container');
     var flkty = new Flickity(elem, {
       prevNextButtons: false,
       autoPlay: perspectiveAutoPlay,

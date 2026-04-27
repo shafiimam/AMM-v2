@@ -53,6 +53,9 @@
         {{ shop.name -}}
       </span>
       {% for link in linklists[section.settings.footer_nav].links %}
+        {%- comment %}<locksmith:114c>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists[section.settings.footer_nav], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:114c>{% endcomment -%}
         <a href="{{ link.url }}" class="nav-link">{{ link.title }}</a>
       {% endfor %}
     </nav>

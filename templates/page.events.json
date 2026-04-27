@@ -91,6 +91,40 @@
         "content": ""
       }
     },
+    "events_section_ajk3kJ": {
+      "type": "events-section",
+      "blocks": {
+        "event_z7T663": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+            "mobile_image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+            "title": "404 Day Cipher Run",
+            "location": "969 Marietta Street NorthWest #200, Atlanta, GA 30318",
+            "is_online": false,
+            "button_label": "Store information",
+            "button_url": "shopify://pages/a-ma-maniere-atlanta-store"
+          }
+        },
+        "event_CbK9CA": {
+          "type": "event",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "location": "WASHINGTON DC <br> 3.28 - 3.29",
+            "is_online": false,
+            "button_label": "Participate",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        }
+      },
+      "block_order": [
+        "event_z7T663",
+        "event_CbK9CA"
+      ],
+      "settings": {}
+    },
     "rich_text_YwFccG": {
       "type": "rich-text",
       "blocks": {
@@ -128,66 +162,6 @@
         "text_position": "center",
         "remove_vertical_spacing": false
       }
-    },
-    "events_section_ajk3kJ": {
-      "type": "events-section",
-      "blocks": {
-        "event_z7T663": {
-          "type": "event",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/HWC_c56034ae-e0c1-4b6a-89a3-f2dc72ac572a.jpg",
-            "title": "Maison Maniére: La Matinée in Houston, TX",
-            "location": "Houston 3.30",
-            "is_online": false,
-            "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-matinee-in-houston-tx-tickets-1279334597219?aff=oddtdtcreator"
-          }
-        },
-        "event_CbK9CA": {
-          "type": "event",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC <br> 3.28 - 3.29",
-            "is_online": false,
-            "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
-          }
-        },
-        "event_NWgm8L": {
-          "type": "event",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": false,
-            "button_label": "Participate",
-            "button_url": ""
-          }
-        },
-        "event_HiPxpm": {
-          "type": "event",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/event-card-image.png",
-            "title": "Fashion Week 2024",
-            "location": "New York, NY",
-            "is_online": false,
-            "button_label": "Participate",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "event_z7T663",
-        "event_CbK9CA",
-        "event_NWgm8L",
-        "event_HiPxpm"
-      ],
-      "settings": {}
     },
     "rich_text_bRWAim": {
       "type": "rich-text",
@@ -233,8 +207,8 @@
     "main",
     "events_header_banner_AaNBMN",
     "multi_column_VJNMnL",
-    "rich_text_YwFccG",
     "events_section_ajk3kJ",
+    "rich_text_YwFccG",
     "rich_text_bRWAim"
   ]
 }

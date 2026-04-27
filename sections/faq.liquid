@@ -11,8 +11,14 @@
 
           {%- if section.settings.show_categories and categories_blocks.size > 0 -%}
             <faq-toc class="faq__toc hidden md:grid">
+              {%- comment %}<locksmith:9127>{% endcomment -%}
+                {%- assign locksmith_e021_forloop__size = 0 %}{%- for block in categories_blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_e021_forloop__size = locksmith_e021_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_e021_forloop__index = nil -%}
+              {%- comment %}</locksmith:9127>{% endcomment -%}
               {%- for block in categories_blocks -%}
-                <a class="faq__toc-item {% if forloop.first %}is-active{% endif %}" href="#block-{{ block.id }}">{{ block.settings.title }}</a>
+                {%- comment %}<locksmith:f503>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_e021_forloop__index == nil %}{% assign locksmith_e021_forloop__index = 1 %}{% assign locksmith_e021_forloop__index0 = 0 %}{% else %}{% assign locksmith_e021_forloop__index = locksmith_e021_forloop__index | plus: 1 %}{% assign locksmith_e021_forloop__index0 = locksmith_e021_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_e021_forloop__index == 1 %}{% assign locksmith_e021_forloop__first = true %}{% else %}{% assign locksmith_e021_forloop__first = false %}{% endif %}{% if locksmith_e021_forloop__index == locksmith_e021_forloop__size %}{% assign locksmith_e021_forloop__last = true %}{% else %}{% assign locksmith_e021_forloop__last = false %}{% endif %}{% assign locksmith_e021_forloop__rindex = locksmith_e021_forloop__size | minus: locksmith_e021_forloop__index | minus: 1 %}{% assign locksmith_e021_forloop__rindex0 = locksmith_e021_forloop__size | minus: locksmith_e021_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:f503>{% endcomment -%}
+                <a class="faq__toc-item {% if locksmith_e021_forloop__first %}is-active{% endif %}" href="#block-{{ block.id }}">{{ block.settings.title }}</a>
               {%- endfor -%}
             </faq-toc>
           {%- endif -%}
@@ -22,7 +28,7 @@
               {%- case block.type -%}
                 {%- when 'category' -%}
                   {%- if block.settings.title != blank -%}
-                    <p id="block-{{ block.id }}" class="faq__category h4" {{ block.shopify_attributes }}>
+                    <h2 id="block-{{ block.id }}" class="faq__category h4" {{ block.shopify_attributes }}>
                     {%- if block.settings.custom_icon != blank -%}
                       {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
                       {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
@@ -34,7 +40,7 @@
                     {%- endif -%}
 
                       {{- block.settings.title -}}
-                    </p>
+                    </h2>
                   {%- endif -%}
 
                 {%- when 'question' -%}
@@ -64,7 +70,13 @@
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
+        {%- comment %}<locksmith:34bc>{% endcomment -%}
+          {%- assign locksmith_67ea_forloop__size = 0 %}{%- for block in question_blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_67ea_forloop__size = locksmith_67ea_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_67ea_forloop__index = nil -%}
+        {%- comment %}</locksmith:34bc>{% endcomment -%}
         {%- for block in question_blocks -%}
+          {%- comment %}<locksmith:e829>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_67ea_forloop__index == nil %}{% assign locksmith_67ea_forloop__index = 1 %}{% assign locksmith_67ea_forloop__index0 = 0 %}{% else %}{% assign locksmith_67ea_forloop__index = locksmith_67ea_forloop__index | plus: 1 %}{% assign locksmith_67ea_forloop__index0 = locksmith_67ea_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_67ea_forloop__index == 1 %}{% assign locksmith_67ea_forloop__first = true %}{% else %}{% assign locksmith_67ea_forloop__first = false %}{% endif %}{% if locksmith_67ea_forloop__index == locksmith_67ea_forloop__size %}{% assign locksmith_67ea_forloop__last = true %}{% else %}{% assign locksmith_67ea_forloop__last = false %}{% endif %}{% assign locksmith_67ea_forloop__rindex = locksmith_67ea_forloop__size | minus: locksmith_67ea_forloop__index | minus: 1 %}{% assign locksmith_67ea_forloop__rindex0 = locksmith_67ea_forloop__size | minus: locksmith_67ea_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:e829>{% endcomment -%}
           {
             "@type": "Question",
             "name": {{ block.settings.question | json }},
@@ -72,7 +84,7 @@
               "@type": "Answer",
               "text": {{ block.settings.answer | json }}
             }
-          }{% unless forloop.last %},{% endunless %}
+          }{% unless locksmith_67ea_forloop__last %},{% endunless %}
         {%- endfor -%}
       ]
     }

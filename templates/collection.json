@@ -19,11 +19,43 @@
         "enable_parallax": false,
         "show_image": false,
         "show_collection_title": true,
-        "show_collection_description": false,
+        "show_collection_description": true,
         "show_breadcrumb": true,
         "content_width": "full",
         "overlay_color": "#ffffff",
         "overlay_opacity": 0
+      }
+    },
+    "video_tCYxw6": {
+      "type": "video",
+      "blocks": {
+        "play_N7bRTJ": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_N7bRTJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/Ray Ban 4k WEB.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "subcollection_nav_rWzPbi": {
+      "type": "subcollection-nav",
+      "name": "Subcollection Navigation",
+      "settings": {
+        "fallback_collection": "",
+        "spacing_card": 16
       }
     },
     "main": {
@@ -51,8 +83,8 @@
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
-        "products_per_page": 48,
-        "products_per_row_mobile": "1",
+        "products_per_page": 44,
+        "products_per_row_mobile": "2",
         "products_size_desktop": "medium",
         "show_grid_mode_selector": false,
         "horizontal_spacing_factor": 0.4,
@@ -70,6 +102,8 @@
   },
   "order": [
     "collection-banner",
+    "video_tCYxw6",
+    "subcollection_nav_rWzPbi",
     "main"
   ]
 }

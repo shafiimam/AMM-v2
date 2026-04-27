@@ -84,10 +84,10 @@
 
     {%- if request.page_type == 'index' -%}
       <h1 class="header__logo">
-        <a href="{{ routes.root_url }}">{{ logo_content }}</a>
+        <a href="{{ routes.root_url }}" aria-label="{{ shop.name }} – Returns to Home Page">{{ logo_content }}</a>
       </h1>
     {% else %}
-      <a href="{{ routes.root_url }}" class="header__logo">{{ logo_content }}</a>
+      <a href="{{ routes.root_url }}" class="header__logo" aria-label="{{ shop.name }} – Returns to Home Page">{{ logo_content }}</a>
     {% endif %}
 
     {%- comment -%}
@@ -98,7 +98,7 @@
 
     {%- assign menu = section.settings.menu -%}
     {%- assign sidebar_menu = section.settings.sidebar_menu -%}
-
+    {% assign release_menu_link = '' %}
     {%- if menu.links.size > 0 or sidebar_menu.links.size > 0 -%}
       <nav class="header__primary-nav {% if section.settings.layout == 'logo_center_navigation_below' or section.settings.layout == 'logo_left_navigation_center' %}header__primary-nav--center{% endif %}" aria-label="{{ 'header.general.primary_navigation' | t | escape }}">
         <button type="button" aria-controls="sidebar-menu" {% unless section.settings.layout == 'drawer' %}class="md:hidden"{% endunless %}>
@@ -109,6 +109,9 @@
         {%- if menu.links.size > 0 and section.settings.layout != 'drawer' -%}
           <ul class="contents unstyled-list md-max:hidden">
             {%- for link in menu.links -%}
+              {%- comment %}<locksmith:bf16>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:bf16>{% endcomment -%}
               {% liquid
                 assign link_title_downcase = link.title | strip | downcase
                 assign mega_menu_block = ''
@@ -121,8 +124,19 @@
                     break
                   endif
 
+                  if link_title_downcase == 'releases'
+                    assign release_menu_link = link
+                  endif
+
                 endfor
               %}
+
+              {% comment %} custom code for releases {% endcomment %}
+              {% if link_title_downcase == 'releases' and section.settings.show_releases %}
+                {% assign release_blocks = section.blocks | where: 'type', 'release' %}
+                  {% render 'release-menu-item', release_blocks: release_blocks, section: section, release_menu_link: release_menu_link %}
+                {% continue %}
+              {% endif %}
 
               <li class="header__primary-nav-item" data-title="{{ link.title | escape }}">
                 {%- if link.levels == 0 and mega_menu_block == '' -%}
@@ -139,6 +153,9 @@
                       {%- else -%}
                         <ul class="header__dropdown-menu {% if link.levels <= 1 %}header__dropdown-menu--restrictable{% endif %} unstyled-list" role="list">
                           {%- for sub_link in link.links -%}
+                            {%- comment %}<locksmith:ffc4>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:ffc4>{% endcomment -%}
                             <li>
                               {%- if sub_link.levels == 0 -%}
                                 <a href="{{ sub_link.url }}" class="link-faded-reverse h6" {% if sub_link.current %}aria-current="page"{% endif %}>{{ sub_link.title }}</a>
@@ -154,6 +171,9 @@
 
                                     <ul class="header__dropdown-menu unstyled-list" role="list">
                                       {%- for sub_sub_link in sub_link.links -%}
+                                        {%- comment %}<locksmith:c37b>{% endcomment -%}
+                                          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                        {%- comment %}</locksmith:c37b>{% endcomment -%}
                                         <li>
                                           <a href="{{ sub_sub_link.url }}" class="link-faded-reverse h6" {% if sub_sub_link.current %}aria-current="page"{% endif %}>{{ sub_sub_link.title }}</a>
                                         </li>
@@ -181,6 +201,7 @@
                 {%- endif -%}
               </li>
             {%- endfor -%}
+            
           </ul>
         {%- endif -%}
       </nav>
@@ -546,6 +567,17 @@
       "id": "transparent_logo",
       "label": "t:sections.header.transparent_header_logo_image",
       "info": "t:sections.header.transparent_header_logo_size_recommendation"
+    },
+    {
+      "type": "header",
+      "content": "Releases Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_releases",
+      "label": "Show Releases",
+      "default": false,
+      "info": "checking this box will show the releases inside the mega menu"
     }
   ],
   "blocks": [
@@ -624,6 +656,42 @@
           "type": "url",
           "id": "image_2_link",
           "label": "t:global.text.link"
+        }
+      ]
+    },
+    {
+      "type": "release",
+      "name": "Release",
+      "settings": [
+        {
+          "type": "text",
+          "id": "release_title",
+          "label": "Release Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "release_image",
+          "label": "Product Image"
+        },
+        {
+          "type": "text",
+          "id": "product_title",
+          "label": "Product Title"
+        },
+        {
+          "type": "text",
+          "id": "product_vendor",
+          "label": "Product Vendor"
+        },
+        {
+          "type": "text",
+          "id": "product_price",
+          "label": "Product Price"
+        },
+        {
+          "type": "url",
+          "id": "release_link",
+          "label": "Release Link"
         }
       ]
     }

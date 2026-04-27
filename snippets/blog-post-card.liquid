@@ -30,7 +30,7 @@
         endif
       -%}
 
-      <a href="{{ article.url }}" class="overflow-hidden">
+      <a href="{{ article.url }}" class="overflow-hidden" aria-label="{{ 'general.social.share' | t }}: {{ article.title }}">
         {{-
           article.image
           | image_url: width: article.image.width
@@ -69,15 +69,15 @@
     {%- endif -%}
 
     {%- if article -%}
-      <p>
-        <a href="{{ article.url }}" class="blog-post-card__title {{ title_class | default: 'h4' }}">
+      <h3>
+        <a href="{{ article.url }}" class="blog-post-card__title {{ title_class | default: 'h4' }}" aria-label="Read article about {{ article.title }}">
           {{- article.title -}}
         </a>
-      </p>
+      </h3>
     {%- else -%}
-      <p class="blog-post-card__title {{ title_class | default: 'h4' }}">
+      <h3 class="blog-post-card__title {{ title_class | default: 'h4' }}">
         {{- 'general.on_boarding.blog_post_title' | t -}}
-      </p>
+      </h3>
     {%- endif -%}
 
     {%- if show_excerpt -%}
@@ -91,7 +91,7 @@
     {%- endif -%}
 
     {%- if show_read_more -%}
-      <a href="{{ article.url | default: '#' }}" class="blog-post-card__read-more link">
+      <a href="{{ article.url | default: '#' }}" class="blog-post-card__read-more link" aria-label="Read article about {{ article.title | default: 'this post' }}">
         {{- 'blog.general.read_more' | t }}
         {% render 'icons', icon_type: 'arrow-up-right' %}
       </a>

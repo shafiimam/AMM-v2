@@ -23,6 +23,7 @@
       "blocks": {
         "button_Td7AKh": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "outline",
             "text": "Book Now",
@@ -123,6 +124,7 @@
         },
         "image_block_eWDJdQ": {
           "type": "image_block",
+          "disabled": true,
           "settings": {
             "title": "PERSONAL SHOPPING",
             "image": "shopify://shop_images/image_76838ecb-57bc-4849-bc67-64c09f203b9c.jpg",
@@ -245,7 +247,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "text_color": "#8f8f8f"
+            "text_color": "#535353"
           }
         }
       },
@@ -262,6 +264,10 @@
         "separate_section_with_border": false,
         "image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
         "mobile_image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "md",
@@ -276,7 +282,7 @@
           "type": "collection",
           "settings": {
             "collection": "new-arrivals-1",
-            "products_count": 10,
+            "products_count": 9,
             "title": "New Arrivals",
             "link_url": "",
             "link_text": ""
@@ -315,6 +321,7 @@
       "block_order": [
         "collection_PQUcic"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -329,6 +336,44 @@
         "employee_name": "Jason Romero",
         "employee_image": "shopify://shop_images/000076520030.jpg",
         "employee_position": "Store Manager",
+        "enable_employee_social_media": false,
+        "employee_twitter": "",
+        "employee_tiktok": "",
+        "employee_linkedin": "",
+        "employee_instagram": ""
+      }
+    },
+    "eployee_with_collection_QcH3WA": {
+      "type": "eployee-with-collection",
+      "blocks": {
+        "collection_jNVWrq": {
+          "type": "collection",
+          "settings": {
+            "collection": "trevor-lloyd-skus",
+            "products_count": 15,
+            "title": "My Choices:",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_jNVWrq"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "title": "",
+        "subheading": "Trevor started his journey at The Whitaker Group in 2023 after styling and buying for athletes at the collegiate and professional level. With a keen eye for luxury and a talent for conceptualizing refined aesthetics, he excels at curating elevated client experiences and cultivating an aspirational atmosphere. Based in Atlanta, Trevor blends global inspirations with warm hospitality to lead the team in delivering the brand’s signature blend of style, sophistication, and service.",
+        "employee_name": "Trevor Lloyd",
+        "employee_image": "shopify://shop_images/60F6547C-4646-49F0-97E4-F248576B1C48.jpg",
+        "employee_position": "Assistant Store Manager",
         "enable_employee_social_media": false,
         "employee_twitter": "",
         "employee_tiktok": "",
@@ -520,6 +565,7 @@
     "image_with_text_QNEjBt",
     "featured_collections_wzB8F7",
     "eployee_with_collection_mn8nDL",
+    "eployee_with_collection_QcH3WA",
     "eployee_with_collection_z3TxTy",
     "eployee_with_collection_FYHyHH",
     "beach_location_banner_nGbcUy",

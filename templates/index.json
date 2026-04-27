@@ -9,50 +9,82 @@
  */
 {
   "sections": {
+    "media_grid_38Mmew": {
+      "type": "media-grid",
+      "blocks": {
+        "video_yG7g7d": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/DND COLLECTION (FE)4k H.265.mov",
+            "autoplay": true,
+            "show_controls": true,
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NWPt3Q": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/amm4.30_477ad251-83d8-4ce5-b846-6ae36d382ac3.png",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "<strong>do not duplicate: the collection </strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_yG7g7d",
+        "image_NWPt3Q"
+      ],
+      "name": "4.24 collection ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 450,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_ipYKBe": {
+        "image_irEa6U": {
           "type": "image",
+          "name": "4.24 the collection",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/AMM_SPRING_SALE_-_WEB.jpg",
-            "mobile_image": "shopify://shop_images/AMM_SPRING_SALE_-_STORY.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "subheading": "<p>Tell your story</p>",
+            "subheading_size": 12,
+            "title": "<p>Image slide</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "/",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "/",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "video_cHFk9Y": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/ERL Rollout AMA web .mov",
-            "allow_sound": false,
-            "subheading": "New styles",
-            "title": "ERL",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/erl",
+            "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -68,105 +100,26 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_nccGAr": {
+        "video_WdyPWD": {
           "type": "video",
+          "name": "COLLECTION VID",
           "settings": {
-            "video": "shopify://files/videos/Rickster Reel 1 (1).mov",
-            "allow_sound": false,
-            "subheading": "new styles",
-            "title": "RICK OWENS",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "video": "shopify://files/videos/DND COLLECTION RESHOT4k H.265.mov",
+            "allow_sound": true,
+            "subheading": "<strong>EXCLUSIVELY AVAILABLE APRIL 24</strong>",
+            "subheading_size": 16,
+            "title": "<strong>DO NOT DUPLICATE: THE COLLECTION</strong>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/rick-owens",
-            "button_1_style": "outline",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "video_tcwXyh": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/ES 4k NO LOGO WEB.mov",
-            "allow_sound": false,
-            "subheading": "INTRODUCING",
-            "title": "ENTIRE STUDIOS",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop NOW",
-            "button_1_link": "shopify://collections/entire-studios",
+            "button_1_text": "",
+            "button_1_link": "#",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "video_zB7x7d": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Acne NO LOGO [WEB] 4k.mov",
-            "allow_sound": false,
-            "subheading": "ACNE STUDIOS",
-            "title": "SHOP THE COLLECTION",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "Shop",
-            "button_1_link": "shopify://collections/acne-studios",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "PRINTED DENIM TROUSER",
-            "button_2_link": "shopify://products/acne-studios-printed-denim-trousr",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "image_hFWrAE": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/apbdesk3.jpg",
-            "mobile_image": "shopify://shop_images/apbmob2.jpg",
-            "subheading": "<strong>AVAILABLE NOW </strong>",
-            "title": "A MA MANIÉRE x NIKE AIR MAX 95 \"HAND WASH COLD\"",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/amm-x-air-max-95-black-violet-ore",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
+            "button_2_text": "EXPLORE THE STORY",
+            "button_2_link": "shopify://pages/do-not-duplicate",
             "button_2_style": "solid",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -176,70 +129,629 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
+        },
+        "video_kDTrdD": {
+          "type": "video",
+          "name": "dayglow VIDEO",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
+            "mobile_video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
+            "allow_sound": true,
+            "subheading": "",
+            "subheading_size": 21,
+            "title": "",
+            "title_size": 37,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "Explore the Story",
+            "button_1_link": "shopify://pages/do-not-duplicate-drop3",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "shopify://pages/do-not-duplicate-drop3",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
         }
       },
       "block_order": [
-        "image_ipYKBe",
-        "video_cHFk9Y",
-        "video_nccGAr",
-        "video_tcwXyh",
-        "video_zB7x7d",
-        "image_hFWrAE"
+        "image_irEa6U",
+        "video_WdyPWD",
+        "video_kDTrdD"
       ],
+      "disabled": true,
       "settings": {
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "show_next_section_button": true,
         "media_size": "fill",
         "show_initial_transition": false,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 10,
         "background": "#000000",
         "controls_color": "#ffffff"
       }
     },
-    "featureed_image_and_products_zaMf8b": {
+    "176075966993f87866": {
+      "type": "_blocks",
+      "disabled": true,
+      "settings": {}
+    },
+    "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_mzGxhY": {
+        "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-mainline-tommy-t-1"
+            "product": "puma-x-nahmias-knit-jersey-black"
           }
         },
-        "product_eekMqY": {
+        "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-mainline-bolan-banana-pant"
+            "product": "puma-x-nahmias-track-pants-black"
           }
         },
-        "product_q8H3fy": {
+        "product_8q4ahn": {
           "type": "product",
           "settings": {
-            "product": "rick-owens-mainline-zipped-hoodie"
+            "product": "nahmias-speedcat-warm-white-sand-dark-grey"
           }
         },
-        "product_CqUpFr": {
+        "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "vintage-sneaks-2"
+            "product": "nahmias-speedcat-black-canvas-candy-apple"
           }
         }
       },
       "block_order": [
-        "product_mzGxhY",
-        "product_eekMqY",
-        "product_q8H3fy",
-        "product_CqUpFr"
+        "product_cWVffK",
+        "product_6yqwTq",
+        "product_8q4ahn",
+        "product_wBMWzJ"
       ],
+      "name": "puma x nahmia",
       "settings": {
         "section_alignment": "left",
-        "title": "rick owens",
+        "title": "PUMA X NAHMIAS",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/ro4_31556b15-2c0a-49d9-9ba6-efa6eaedd471.jpg",
-        "image_description": "<p>RICK OWEN redefines luxury with dark, architectural silhouettes and a fearless, avant-garde spirit. His designs merge brutalist beauty with subcultural edge, pushing fashion into bold new territory.</p>",
-        "image_cta": "Shop All",
-        "image_cta_url": "shopify://collections/rick-owens"
+        "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-2_App-Story_1080x1920px.jpg",
+        "image_description": "<p>Return to Summerland with the latest from PUMA x NAHMIAS. Paying homage to Doni Nahmias' Southern California hometown, this new drop blends the designers L.A aesthetic with the speed and style of motorsport.<br/><br/>Featuring the iconic Speedcat with all-new premium detailing, luxe track pieces, and edgy graphic tees that bring street style into the luxury space. Born on the west coast, inspired by the track. </p>",
+        "image_cta": "explore",
+        "image_cta_url": "shopify://collections/puma"
+      }
+    },
+    "media_grid_dcKXGR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_TLN6gz": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC07627.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "<strong>MAISON MIHARA YASUHIRO PETERSON 23 \"STUDDED\"</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "https://www.a-ma-maniere.com/products/maison-mihara-yasuhiro-ss26-twg-exclusive-peterson-23-studded?_pos=1&_psq=maisonn&_ss=e&_v=1.0",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TQMx8i": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/DSC07664.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/maison-mihara-yasuhiro",
+            "link_style": "solid",
+            "text_position": "place-self-end-start text-start",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_LGcaaU": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/26SS_PNA_SP_Nahmias_HERO_FINE_12_16X9_31s.mp4",
+            "autoplay": true,
+            "show_controls": true,
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/puma",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XUaB3V": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-3_Email_Desk_Secondary-Banner_Image-Grid_416x552px_2.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_TLN6gz",
+        "image_TQMx8i",
+        "video_LGcaaU",
+        "image_XUaB3V"
+      ],
+      "disabled": true,
+      "name": "maisonmihara",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 360,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_DzxzqH": {
+      "type": "media-grid",
+      "blocks": {
+        "image_jUbAfA": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/lldg.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_AfzNrQ": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/1996 reel new 3 new font.mov",
+            "autoplay": true,
+            "show_controls": true,
+            "column_count": "8",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "404 Peachtree",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_jUbAfA",
+        "video_AfzNrQ"
+      ],
+      "disabled": true,
+      "name": "VIDEO IN GRID",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 580,
+        "mobile_row_height": 450,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_4rzGhq": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_jmzUa4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_h3aKYA": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>404 Day Cipher Run </strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_V3crbK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Join us at A Ma Maniére Atlanta for 404 Day on April 4th from 9:30 AM to 11:30 AM for a community-driven run experience rooted in Atlanta culture. </p><p>Starting at A Ma Maniére on Marietta Street, the path unfolds in real time, revealing its final destination along the way.</p><p>Location classified. Follow the clues. Something waits at the end.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_GCQJcU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "",
+            "url": "shopify://blogs/editorials/the-original-issue-volume-2",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jmzUa4",
+        "heading_h3aKYA",
+        "richtext_V3crbK",
+        "button_GCQJcU"
+      ],
+      "disabled": true,
+      "name": "404 day event ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+        "mobile_image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "blocks_C9GbEP": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_jBxbJd": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 20,
+            "height_desktop": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_jBxbJd"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
+    "featured_collections_EFnetB": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_b4hYCA": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_b4hYCA"
+      ],
+      "custom_css": [],
+      "name": "a ma maniere",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "shop_the_look_yjtpt9": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_AQePmE": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/global-wales_bonner-originals-ss26-launch-hp-banner_hero-m_2462534d-ad20-437c-80f1-eb97ad9048fd.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "wales-bonner-adizero-adios-mes5-coca-mocha",
+            "product_1_horizontal_position": 34,
+            "product_1_vertical_position": 38,
+            "product_2": "",
+            "product_2_horizontal_position": 54,
+            "product_2_vertical_position": 57,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 91,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_waN3iW": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/global-wales_bonner-originals-ss26-launch-confirmed-collp-carousel_1-asset_4.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "wales-bonner-gazelle-snake",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 25,
+            "product_2_vertical_position": 40,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_AQePmE",
+        "look_waN3iW"
+      ],
+      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "adidas x wales bonner",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
+    },
+    "featured_collections_WMah7x": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_QPJnbw": {
+          "type": "collection",
+          "settings": {
+            "collection": "polos",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_fUfJmE": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-cargo-pants",
+            "products_count": 8,
+            "title": "cargo pants",
+            "link_url": "shopify://collections/new-cargo-pants",
+            "link_text": "View all"
+          }
+        },
+        "collection_NDmmGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-sweatshirts",
+            "products_count": 8,
+            "title": "Hoodies",
+            "link_url": "shopify://collections/new-sweatshirts",
+            "link_text": "View all"
+          }
+        },
+        "collection_Q7Rc3m": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "products_count": 8,
+            "title": "Footwear",
+            "link_url": "shopify://collections/footwear",
+            "link_text": "SHOP COLLECTION"
+          }
+        }
+      },
+      "block_order": [
+        "collection_QPJnbw",
+        "collection_fUfJmE",
+        "collection_NDmmGJ",
+        "collection_Q7Rc3m"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "media_grid_7fM37z": {
+      "type": "media-grid",
+      "blocks": {
+        "video_YPpciV": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/Willy Brand page vid.mov",
+            "autoplay": true,
+            "show_controls": false,
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/willy-chavarria",
+            "link_style": "link",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DeB9na": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/DSC02305.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "<strong>new arrivals </strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "Shop Now",
+            "link_url": "shopify://collections/willy-chavarria",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_YPpciV",
+        "image_DeB9na"
+      ],
+      "name": "willy chav grid ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 380,
+        "mobile_row_height": 450,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "featured_collections_RwpkEJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_t3bATr": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "products_count": 8,
+            "title": "Spring Authority",
+            "link_url": "shopify://collections/spring-authority",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_t3bATr"
+      ],
+      "custom_css": [],
+      "name": "spring collection",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "multiple_media_with_text_Lgp4CV": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_cHgxNx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07078BB.jpg",
+            "rotation": 0
+          }
+        },
+        "image_TpyxFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/H526Y1DW13-6395_2_847652d0-9de5-40ab-b112-b454ededafff.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_cHgxNx",
+        "image_TpyxFX"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Seasonal Layers",
+        "title": "Refined Essentials for Spring",
+        "content": "<p>Step into the season with intentional pieces built for movement, light layering, and transitional style. From crisp bombers to relaxed trousers, spring calls for refined silhouettes, breathable textures, and a palette that balances softness with structure.</p>",
+        "button_1_text": "DISCOVER MORE",
+        "button_1_link": "https://www.a-ma-maniere.com/collections/seasonal-layering",
+        "button_1_style": "link",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
       }
     },
     "before-after": {
@@ -287,211 +799,14 @@
         "cursor_arrows_color": "#000000"
       }
     },
-    "media_grid_p7EKPQ": {
-      "type": "media-grid",
-      "blocks": {
-        "image_e83L6V": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/JAQ1_copy.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://products/jacquemus-le-sweatshirt-baseba",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#1c1c1c",
-            "overlay_opacity": 0
-          }
-        },
-        "image_jMp3XC": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/BAG.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/jacquemus-le-cuerda-horiz",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_4GKrKQ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/jaq1_69b01056-5bf5-4bd4-9487-dd6066068534.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://products/jacquemus-le-hoodie-torneo",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_e83L6V",
-        "image_jMp3XC",
-        "image_4GKrKQ"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "JACQUEMUS",
-        "content": ""
-      }
+    "blocks_xhmELd": {
+      "type": "_blocks",
+      "name": "Spacer",
+      "settings": {}
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "footwear",
-            "products_count": 8,
-            "title": "FOOTWEAR",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.7,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "multiple_media_with_text_Lgp4CV": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_cHgxNx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/H526Y1DW13-6395_1.webp",
-            "rotation": 0
-          }
-        },
-        "image_TpyxFX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/H526Y1DW13-6395_2_847652d0-9de5-40ab-b112-b454ededafff.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_cHgxNx",
-        "image_TpyxFX"
-      ],
-      "name": "t:sections.multiple_media_with_text.presets.multiple_media_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "Seasonal Layers",
-        "title": "Refined Essentials for Spring",
-        "content": "<p>Step into the season with intentional pieces built for movement, light layering, and transitional style. From crisp bombers to relaxed trousers, spring calls for refined silhouettes, breathable textures, and a palette that balances softness with structure.</p>",
-        "button_1_text": "DISCOVER MORE",
-        "button_1_link": "https://www.a-ma-maniere.com/collections/seasonal-layering",
-        "button_1_style": "link",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
-      }
-    },
-    "media_grid_DzxzqH": {
-      "type": "media-grid",
-      "blocks": {
-        "image_U6Am3q": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/bode6_ddf3a8ab-3c2e-4e5c-89b5-9383d0b631e5.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "BODE",
-            "link_url": "shopify://collections/bode",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_MHFH6K": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/BAL2_b4c2752a-480a-42c3-bf39-13d064bb9607.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "BALENCIAGA",
-            "link_url": "shopify://collections/balenciaga",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_U6Am3q",
-        "image_MHFH6K"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 400,
-        "mobile_row_height": 180,
-        "section_width": "full",
-        "spacing": "none",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
+    "176076770152fa2223": {
+      "type": "_blocks",
+      "settings": {}
     },
     "blog_posts_XjJCVj": {
       "type": "blog-posts",
@@ -526,9 +841,10 @@
             "title": "From Concept to launch",
             "content": "<p>A Ma Maniére embodies the essence of classic, timeless luxury, merging refined exploration with a deep connection to global community and street culture. It embodies its founding vision of celebrating and uplifting the power of Black and street culture on the global lifestyle space. By offfering our very own in-house luxury label of elevated seasonal collections curated alongside an exclusive blend of the world’s most celebrated fashion houses, we remain focused on elevating each consumer’s journey by bridging their evolving taste to the immersive experiences we create. </p><p></p>",
             "link_text": "Learn More",
+            "aria_label": "Learn more about this",
             "link_url": "shopify://pages/about-us-1",
             "link_style": "solid",
-            "mobile_text_color": "#8f8f8f"
+            "mobile_text_color": "#535353"
           }
         }
       },
@@ -543,24 +859,24 @@
         "separate_section_with_border": false
       }
     },
-    "image_with_text_Fx7Aqn": {
+    "image_with_text_3MihKd": {
       "type": "image-with-text",
       "blocks": {
-        "heading_jdQf64": {
+        "heading_DXMakb": {
           "type": "heading",
           "settings": {
             "text": "The Essence Of Luxury",
             "heading_tag": "h2"
           }
         },
-        "richtext_cBEMWd": {
+        "richtext_HyJYfF": {
           "type": "richtext",
           "settings": {
             "content": "<p><strong>WORLD-CLASS CRAFTSMANSHIP</strong> - timeless seasonal pieces designed, developed and executed by the world's best and most celebrated contributors to style and fashion</p><p></p><p><strong>REFINED MATERIAL</strong>- sourced from across the globe, our pieces and collections are anchored by a commitment to adopting the finest and most desired materials of our time</p><p></p><p><strong>TIMELESS ELEGANCE - </strong>the styling and execution across collections stand as our commitment to sophistication, embodying the attention to detail of iconic pieces of history</p>",
-            "text_color": "#8f8f8f"
+            "text_color": "#535353"
           }
         },
-        "button_MkANMM": {
+        "button_aJ4tit": {
           "type": "button",
           "settings": {
             "style": "solid",
@@ -572,18 +888,18 @@
         }
       },
       "block_order": [
-        "heading_jdQf64",
-        "richtext_cBEMWd",
-        "button_MkANMM"
-      ],
-      "custom_css": [
-        "strong {color: #000;}",
-        "p {margin-block-start: 2.5rem;}"
+        "heading_DXMakb",
+        "richtext_HyJYfF",
+        "button_aJ4tit"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/Group_1.webp",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -660,16 +976,26 @@
     }
   },
   "order": [
+    "media_grid_38Mmew",
     "slideshow_QGYQ6e",
-    "featureed_image_and_products_zaMf8b",
-    "before-after",
-    "media_grid_p7EKPQ",
-    "featured-collections",
-    "multiple_media_with_text_Lgp4CV",
+    "176075966993f87866",
+    "featureed_image_and_products_7MHNbK",
+    "media_grid_dcKXGR",
     "media_grid_DzxzqH",
+    "image_with_text_4rzGhq",
+    "blocks_C9GbEP",
+    "featured_collections_EFnetB",
+    "shop_the_look_yjtpt9",
+    "featured_collections_WMah7x",
+    "media_grid_7fM37z",
+    "featured_collections_RwpkEJ",
+    "multiple_media_with_text_Lgp4CV",
+    "before-after",
+    "blocks_xhmELd",
+    "176076770152fa2223",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
-    "image_with_text_Fx7Aqn",
+    "image_with_text_3MihKd",
     "text_with_icons_nKDVet"
   ]
 }

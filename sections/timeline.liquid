@@ -102,7 +102,8 @@
                     {%- render 'button',
                       href: block.settings.link_url,
                       content: block.settings.link_text,
-                      style: block.settings.link_style
+                      style: block.settings.link_style,
+                      aria_label: block.settings.aria_label
                     -%}
                   {%- endif -%}
                 </div>
@@ -291,6 +292,12 @@
           "type": "text",
           "id": "link_text",
           "label": "t:global.text.button_text"
+        },
+        {
+          "type": "text",
+          "id": "aria_label",
+          "label": "Accessibility Label",
+          "default": "Learn more about this"
         },
         {
           "type": "url",

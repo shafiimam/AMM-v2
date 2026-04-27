@@ -41,8 +41,6 @@
         "image_HPtVF8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC05344207.jpg",
-            "image_mobile": "shopify://shop_images/DSC05344207_40c91893-9579-4a06-b461-3b24ae262055.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
@@ -59,7 +57,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "content_width": "full-screen",
         "text_position": "center",
         "remove_vertical_spacing": true
@@ -71,15 +69,15 @@
         "heading_9GCHUT": {
           "type": "heading",
           "settings": {
-            "text": "SPRING ESSENTIALS",
+            "text": "Timeless Style, Smart Gifting",
             "heading_tag": "h1"
           }
         },
         "richtext_aGXpJA": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Elevate your everyday style with luxury accessories from A Ma Maniére, featuring a curated selection of designer bags, belts, hats, jewelry, and more. Discover premium scarves, wallets, sunglasses, socks, and small goods, crafted with high-quality materials and designed for both function and fashion. Our collection also includes statement masks, home essentials, and exclusive collaborations, blending streetwear aesthetics with refined luxury. Shop the latest high-end accessories online and in-store at A Ma Maniére.</p><p>This season, accessories take center stage. From structured bags that define the silhouette to sculptural jewelry, elevated home accents, and thoughtfully designed small goods—each piece is made to transition with ease and intention. Lightweight yet impactful, our Spring Essentials collection brings a sense of quiet sophistication to every moment, designed to layer seamlessly into your life and wardrobe</p>",
-            "text_color": "#8f8f8f"
+            "content": "<p>Elevate your holiday gifting with the Ray-Ban Meta Smart Glasses—where iconic design meets intuitive innovation. Sleek, sculptural, and crafted with Ray-Ban’s signature attention to detail, these frames effortlessly blend timeless style with tomorrow’s technology. Whether capturing memories hands-free, listening to music on the go, or staying seamlessly connected, they bring a sense of ease and elegance to every moment. A thoughtful, modern gift that feels both indulgent and personal, perfect for anyone who deserves something truly exceptional this season.</p>",
+            "text_color": "#535353"
           }
         },
         "button_47dEVM": {
@@ -87,7 +85,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop Now",
-            "url": "shopify://collections/spring-essentials",
+            "url": "shopify://products/ray-ban-rb-meta-2-0-wayfarer-black-clear",
             "background": "",
             "text_color": ""
           }
@@ -99,129 +97,92 @@
         "button_47dEVM"
       ],
       "custom_css": [
-        ".h1 {font-size: 50px !important;}"
+        ".h1 {font-size: 40px !important;}"
       ],
+      "name": "RAY-BAN CIRCLE",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC07068_BB_3.png",
-        "mobile_image": "shopify://shop_images/DSC07068_BB_3.png",
-
-        "circular_text": "FLATLISTEYEWEAFRFLATLISTEYEWEAR FLATLISTEYEWEAR",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/rayban1_0da5e9f2-78fa-47d7-bc77-1fa519e0d5e3.jpg",
+        "mobile_image": "shopify://shop_images/rayban1_0da5e9f2-78fa-47d7-bc77-1fa519e0d5e3.jpg",
+        "circular_text": "RAY-BAN META RAY-BAN META RAY-BAN META RAY-BAN META",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "sm",
+        "content_width": "md",
         "remove_vertical_spacing": true,
         "remove_top_padding": false
       }
     },
-    "image_with_text_3RCJ8L": {
-      "type": "image-with-text",
+    "collection_list_xgcU7w": {
+      "type": "collection-list",
       "blocks": {
-        "heading_6KUjqd": {
-          "type": "heading",
-          "settings": {
-            "text": "Louis Vuitton Shoe",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_KgnhFQ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "text_color": "#8f8f8f"
-          }
-        },
-        "button_XhVQaG": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Buy Now",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_6KUjqd",
-        "richtext_KgnhFQ",
-        "button_XhVQaG"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/Group_2.png",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "lg",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
-    },
-    "featured_collections_e4qJwn": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_pn7rp4": {
+        "collection_aLGzDC": {
           "type": "collection",
           "settings": {
+            "color_scheme": "",
+            "collection": "new-belts",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "BELTS",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "collection_48ky8y": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
             "collection": "sunglasses",
-            "products_count": 4,
-            "title": "Sunglasses",
-            "link_url": "shopify://collections/sunglasses",
-            "link_text": ""
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "sunglasses",
+            "button_link": "shopify://collections/sunglasses",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "collection_fQR6QK": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "new-hats",
+            "expand_collection": false,
+            "content_position": "place-self-start-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "hats",
+            "button_link": "shopify://collections/new-hats",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
           }
         }
       },
       "block_order": [
-        "collection_pn7rp4"
+        "collection_aLGzDC",
+        "collection_48ky8y",
+        "collection_fQR6QK"
       ],
+      "name": "spring grid ",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.6,
-        "subheading": ""
-      }
-    },
-    "3d_gallery_Y9qVkB": {
-      "type": "3d-gallery",
-      "disabled": true,
-      "custom_css": [
-        ".gallery-controls {bottom: 60px;}",
-        ".angle-view {width: 50% !important; @media (max-width: 768px) {width: 60% !important; }}"
-      ],
-      "settings": {
-        "title": "Look Closer",
-        "start_index": "1",
-        "end_index": "50",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB031",
-        "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/jacquemus/products/jacquemus-le-cuerda-horiz"
-      }
-    },
-    "3d_gallery_fKkNmV": {
-      "type": "3d-gallery",
-      "custom_css": [
-        ".gallery-controls {position: relative;}",
-        ".angle-view {width: 40% !important; @media (max-width: 768px) {width: 60% !important; }}"
-      ],
-      "settings": {
-        "title": "Look Closer",
-        "start_index": "5",
-        "end_index": "62",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB034",
-        "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/rick-owens/products/rick-owens-mainline-kreister-sunglasses"
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": false,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "featured_collections_Dtrtbp": {
@@ -229,18 +190,31 @@
       "blocks": {
         "collection_7VVCVQ": {
           "type": "collection",
+          "disabled": true,
           "settings": {
-            "collection": "medicom",
-            "products_count": 8,
-            "title": "You May Also Like",
+            "collection": "new-hats",
+            "products_count": 14,
+            "title": "HATS",
             "link_url": "",
             "link_text": ""
+          }
+        },
+        "collection_KDQ3tA": {
+          "type": "collection",
+          "settings": {
+            "collection": "books",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/books",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_7VVCVQ"
+        "collection_7VVCVQ",
+        "collection_KDQ3tA"
       ],
+      "name": "books",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -252,16 +226,164 @@
         "vertical_spacing_factor": 0.6,
         "subheading": ""
       }
+    },
+    "image_with_text_WNJqFW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_inNaAT": {
+          "type": "heading",
+          "settings": {
+            "text": "Winter’s Softest Statement",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_UDf7cz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wrap the season in effortless sophistication with signature scarves from brands like Comme Des Garçons and more. Crafted from ultra-soft wools and mohair blends, each piece drapes beautifully, offering warmth with a distinctly modern edge.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_pTk7rU": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "shop scarves",
+            "url": "shopify://collections/scarves",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_inNaAT",
+        "richtext_UDf7cz",
+        "button_pTk7rU"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/scarf.png",
+        "mobile_image": "shopify://shop_images/scarf_d86fd6c4-1031-44b9-bf75-b0142ed32c30.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "featured_collections_e4qJwn": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_pn7rp4": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-accessories",
+            "products_count": 12,
+            "title": "Accessories",
+            "link_url": "shopify://collections/new-accessories",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_pn7rp4"
+      ],
+      "disabled": true,
+      "name": "ACCESSORIES ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
+    },
+    "before_after_zNnGJf": {
+      "type": "before-after",
+      "blocks": {
+        "before_JqNGTR": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/0RB4940-683387_1_81439f33-71f9-4e9e-8919-ede3a5644388.jpg",
+            "mobile_image": "shopify://shop_images/0RB4940-683387_1_81439f33-71f9-4e9e-8919-ede3a5644388.jpg",
+            "text": "blue",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/sunglasses/products/ray-ban-a-ap-rocky-puffy-wayfarer-sunglasses-blue",
+            "link_style": "link"
+          }
+        },
+        "after_3kLndA": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/0RB4940-683087_1_732e98c1-172f-436c-8f86-f7c4a12ed2bc.jpg",
+            "mobile_image": "shopify://shop_images/0RB4940-683087_1_732e98c1-172f-436c-8f86-f7c4a12ed2bc.jpg",
+            "text": "yellow",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/sunglasses/products/ray-ban-a-ap-rocky-puffy-wayfarer-sunglasses-yellow",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_JqNGTR",
+        "after_3kLndA"
+      ],
+      "name": "t:sections.before_after.presets.before_after.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "find your shade",
+        "content": "",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
+    "3d_gallery_fKkNmV": {
+      "type": "3d-gallery",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "Look Closer",
+        "start_index": "5",
+        "end_index": "62",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/MOB034",
+        "file_ext": "png",
+        "button_label": "Shop Now",
+        "button_link": "https://www.a-ma-maniere.com/collections/rick-owens/products/rick-owens-mainline-kreister-sunglasses",
+        "knob_position": 100,
+        "gallery_width": 40,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
     }
   },
   "order": [
     "main",
     "rich_text_xwKKEF",
     "accessories_image_with_text_eabtxK",
-    "image_with_text_3RCJ8L",
+    "collection_list_xgcU7w",
+    "before_after_zNnGJf",
+    "featured_collections_Dtrtbp",
+    "image_with_text_WNJqFW",
     "featured_collections_e4qJwn",
-    "3d_gallery_Y9qVkB",
-    "3d_gallery_fKkNmV",
-    "featured_collections_Dtrtbp"
+    "3d_gallery_fKkNmV"
   ]
 }

@@ -14,7 +14,7 @@
     "product_rating_color": "#1c1c1c",
     "product_on_sale_accent": "#1c1c1c",
     "product_sold_out_badge_background": "#efefef",
-    "product_custom_badge_background": "#1c1c1c",
+    "product_custom_badge_background": "#efefef",
     "success_color": "#1c1c1c",
     "warning_color": "#ed8a00",
     "error_color": "#cb2b2b",
@@ -28,15 +28,21 @@
     "button_letter_spacing": 18,
     "currency_code_enabled": false,
     "product_image_aspect_ratio": "square",
-    "product_title_max_lines": 2,
-    "product_card_text_font": "body",
+    "hide_product_price": true,
+    "show_vendor": true,
+    "product_title_max_lines": 1,
+    "product_card_text_font": "heading",
     "product_color_display": "hide",
     "show_product_rating": false,
     "show_discount": false,
+    "custom_badge_enable": true,
+    "custom_badge_text": "Exclusive",
+    "custom_badge_include_tag": "exclusive",
     "social_facebook": "https://www.facebook.com/maniereusa",
     "social_twitter": "https://twitter.com/maniere_usa",
     "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
     "social_discord": "https://bit.ly/thewhitakergrpdiscord",
+    "show_custom_badge": true,
     "content_for_index": [],
     "blocks": {
       "5061257265103808445": {
@@ -60,6 +66,47 @@
       },
       "6279071938380501511": {
         "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "13309252322759772734": {
+        "type": "shopify://apps/sortd-merchandiser/blocks/app-embed/5176d6ef-993f-4869-ba24-87a0a6bedcf9",
+        "disabled": false,
+        "settings": {}
+      },
+      "2153490007123654574": {
+        "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "disabled": false,
+        "settings": {}
+      },
+      "10560697916000961394": {
+        "type": "shopify://apps/blockify-age-verification/blocks/omg-app-age/92f920f4-d437-4eb4-9aab-e091741a3ce4",
+        "disabled": false,
+        "settings": {}
+      },
+      "18228966181090706294": {
+        "type": "shopify://apps/selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+        "disabled": false,
+        "settings": {
+          "storefrontAccessToken": ""
+        }
+      },
+      "14349870748161389483": {
+        "type": "shopify://apps/ryzo/blocks/image-search-in-searcchbar/d9b723f6-8afa-453c-b308-fc923609d126",
+        "disabled": false,
+        "settings": {
+          "icon_color": "#000000",
+          "icon_size": 20,
+          "button_right_offset": 40
+        }
+      },
+      "7019349584227683354": {
+        "type": "shopify://apps/spin-studio-360-product-spin/blocks/spinstudio_embed/caf4b6a9-7642-4e66-bcf7-11d11c83cff2",
         "disabled": false,
         "settings": {}
       }
@@ -122,9 +169,9 @@
       },
       "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a": {
         "settings": {
-          "background": "#faf4e9",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
+          "text_color": "#ffffff",
           "primary_button_background": "#1c1c1c",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",

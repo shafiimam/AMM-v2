@@ -46,7 +46,7 @@
           "settings": {
             "style": "solid",
             "text": "See All",
-            "url": "shopify://collections/new-sneakers",
+            "url": "shopify://collections/footwear",
             "background": "",
             "text_color": ""
           }
@@ -64,8 +64,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/AMM_AIR_SHIP_BLK_TRANSPARENT_NO_SHADOW_2_8cf198fa-f720-4f49-8c57-5eea3a94b86f.png",
-        "mobile_image": "shopify://shop_images/AMM_AIR_SHIP_BLK_TRANSPARENT_NO_SHADOW_2_8cf198fa-f720-4f49-8c57-5eea3a94b86f.png",
+        "image": "shopify://shop_images/rick2.png",
+        "mobile_image": "shopify://shop_images/rick3.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "image_position_mobile": "bottom",
@@ -73,55 +73,151 @@
         "remove_vertical_spacing": true
       }
     },
-    "section_rounded_text_column_3Ff7F4": {
-      "type": "section-rounded-text-column",
+    "featured_collections_RxRXRH": {
+      "type": "featured-collections",
       "blocks": {
-        "heading_nEnngp": {
-          "type": "heading",
+        "collection_REyLtJ": {
+          "type": "collection",
           "settings": {
-            "text": "A Ma Maniére x Nike Air Max 95 “Hand Wash Cold”",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_Wb7wth": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The A Ma Maniére x Nike Air Max 95 “Hand Wash Cold” is a reflection of love in its purest form—measured not just in design, but in devotion. Built from rich black suede and smooth violet ore leather, every layer is stacked with purpose, precision, and poise. From the laser-etched branding that whispers legacy to the jacquard monogram satin lining that hugs your step, each detail is a love letter to those who move with grace against the grain.</p><p>Reflective 3M accents catch light like memory. A cushioned insole and mauve-hued air units ground you in comfort, reminding you that care begins beneath the surface. With three alternate lace options, this pair gives you the freedom to define your own expression of style.</p><p>This is more than a sneaker—it’s a symbol of what’s possible when we move <em>For The Love</em>.<br/></p><p>Because what we build with care, we honor with every step.</p>",
-            "text_color": "#8f8f8f"
-          }
-        },
-        "button_wLhFRN": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Shop Now",
-            "url": "shopify://products/amm-x-air-max-95-black-violet-ore",
-            "background": "",
-            "text_color": ""
+            "collection": "adidas",
+            "products_count": 8,
+            "title": "ADIDAS",
+            "link_url": "",
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "heading_nEnngp",
-        "richtext_Wb7wth",
-        "button_wLhFRN"
-      ],
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {margin-inline: 0;}"
+        "collection_REyLtJ"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/am95.jpg",
-        "mobile_image": "shopify://shop_images/am95_eeb1db89-dc43-4c49-abcc-2d3ca697280a.jpg",
-        "circular_text": "A Ma Maniére x Nike Air Max 95 \"HAND WASH COLD\". NIKE X",
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
+    },
+    "media_grid_c3nTpj": {
+      "type": "media-grid",
+      "blocks": {
+        "image_LTit9w": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC07083BB.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/new-boots/products/strada-low-bandana",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WpDDYL": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/boot2.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/new-boots/products/marathon-boot-3",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LrHwaB": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/boot1.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/new-boots/products/strada-g-brushed",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_LTit9w",
+        "image_WpDDYL",
+        "image_LrHwaB"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_custom_WCKyUi": {
+      "type": "image-with-text-custom",
+      "blocks": {
+        "subheading_kFmVAL": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_bnVg74": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_hFWGPR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_kFmVAL",
+        "heading_bnVg74",
+        "richtext_hFWGPR"
+      ],
+      "disabled": true,
+      "name": "image with text custom",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/ALL_ASICS_2_e21d6f96-fe45-461a-bb60-b4088e071c21.gif",
+        "mobile_image": "shopify://shop_images/ALL_ASICS_2_d87454a1-ed0c-4670-b216-6a9fcba03d4f.gif",
         "reveal_on_scroll": true,
         "image_position": "start",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
+        "image_position_mobile": "bottom",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
       }
     },
     "featured_collections_e4qJwn": {
@@ -130,9 +226,9 @@
         "collection_pn7rp4": {
           "type": "collection",
           "settings": {
-            "collection": "new-sneakers",
+            "collection": "new-boots",
             "products_count": 8,
-            "title": "SNEAKERS",
+            "title": "BOOTS",
             "link_url": "",
             "link_text": ""
           }
@@ -153,57 +249,160 @@
         "subheading": ""
       }
     },
-    "3d_gallery_Y9qVkB": {
-      "type": "3d-gallery",
-      "custom_css": [
-        ".gallery-controls {position: relative;}",
-        "@media screen and (min-width: 1000px) {.angle-view {max-width: 50vw; }}"
-      ],
-      "settings": {
-        "title": "Look Closer",
-        "start_index": "44",
-        "end_index": "96",
-        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC068",
-        "button_label": "Shop Now",
-        "button_link": "https://www.a-ma-maniere.com/collections/drkshdw/products/denim-vintage-sneaks-1"
-      }
-    },
-    "featured_collections_Dtrtbp": {
-      "type": "featured-collections",
+    "collection_list_4KcAek": {
+      "type": "collection-list",
       "blocks": {
-        "collection_7VVCVQ": {
+        "collection_mPV9zd": {
           "type": "collection",
           "settings": {
-            "collection": "rick-owens",
-            "products_count": 8,
-            "title": "You May Also Like",
-            "link_url": "",
-            "link_text": ""
+            "color_scheme": "",
+            "collection": "asics",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "ASICS",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 3
+          }
+        },
+        "collection_khVWQm": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "new-balance",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "NEW BALANCE",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 3
+          }
+        },
+        "collection_eHFMck": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "adidas",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "ADIDAS",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 3
           }
         }
       },
       "block_order": [
-        "collection_7VVCVQ"
+        "collection_mPV9zd",
+        "collection_khVWQm",
+        "collection_eHFMck"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "3d_gallery_Y9qVkB": {
+      "type": "3d-gallery",
+      "custom_css": [],
+      "settings": {
+        "title": "Look Closer",
+        "start_index": "756",
+        "end_index": "818",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC08",
+        "file_ext": "png",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/laced-up-boot-1",
+        "knob_position": 50,
+        "gallery_width": 59,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
+    "section_rounded_text_column_3Ff7F4": {
+      "type": "section-rounded-text-column",
+      "blocks": {
+        "heading_nEnngp": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére x Nike Air Max 95 “Hand Wash Cold”",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Wb7wth": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The A Ma Maniére x Nike Air Max 95 “Hand Wash Cold” is a reflection of love in its purest form—measured not just in design, but in devotion. Built from rich black suede and smooth violet ore leather, every layer is stacked with purpose, precision, and poise. From the laser-etched branding that whispers legacy to the jacquard monogram satin lining that hugs your step, each detail is a love letter to those who move with grace against the grain.</p><p>Reflective 3M accents catch light like memory. A cushioned insole and mauve-hued air units ground you in comfort, reminding you that care begins beneath the surface. With three alternate lace options, this pair gives you the freedom to define your own expression of style.</p><p>This is more than a sneaker—it’s a symbol of what’s possible when we move <em>For The Love</em>.<br/></p><p>Because what we build with care, we honor with every step.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_wLhFRN": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop Now",
+            "url": "shopify://products/amm-x-air-max-95-black-violet-ore",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_nEnngp",
+        "richtext_Wb7wth",
+        "button_wLhFRN"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {margin-inline: 0;}"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.6,
-        "subheading": ""
+        "image": "shopify://shop_images/am95.jpg",
+        "mobile_image": "shopify://shop_images/am95_eeb1db89-dc43-4c49-abcc-2d3ca697280a.jpg",
+        "circular_text": "A Ma Maniére x Nike Air Max 95 \"HAND WASH COLD\". NIKE X",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     }
   },
   "order": [
     "main",
     "image_with_text_custom_qxrkki",
-    "section_rounded_text_column_3Ff7F4",
+    "featured_collections_RxRXRH",
+    "media_grid_c3nTpj",
+    "image_with_text_custom_WCKyUi",
     "featured_collections_e4qJwn",
+    "collection_list_4KcAek",
     "3d_gallery_Y9qVkB",
-    "featured_collections_Dtrtbp"
+    "section_rounded_text_column_3Ff7F4"
   ]
 }

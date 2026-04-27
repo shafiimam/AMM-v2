@@ -26,9 +26,229 @@
         "show_date": true,
         "show_category": true,
         "show_author": false,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "show_sticky_bar": true,
         "toolbar_color_scheme": ""
+      }
+    },
+    "featured_product_3M9FWk": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_FfiWrb": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_8KbAx8": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_REtryx": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_TdmUnX": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_XLfPJN": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_fJg4Uq": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_Hj3jwE": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_yBzWc6": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_bkqWeh": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_T6XxiA": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_fJEjVj": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_6aBAgH": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_FfiWrb",
+        "title_8KbAx8",
+        "badges_REtryx",
+        "price_TdmUnX",
+        "rating_XLfPJN",
+        "payment_terms_fJg4Uq",
+        "separator_Hj3jwE",
+        "description_yBzWc6",
+        "variant_picker_bkqWeh",
+        "quantity_selector_T6XxiA",
+        "buy_buttons_fJEjVj",
+        "pickup_availability_6aBAgH"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured_product.presets.featured_product.name",
+      "settings": {
+        "color_scheme": "",
+        "product": "air-max-95-yardrunners-famu",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 43,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "NIKE AIR MAX YARDRUNNERS \"FAMU\"",
+        "content": ""
+      }
+    },
+    "featured_product_WCtaTy": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_QmLGig": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_qjTyRT": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_8VyiTc": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_UhkRU7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_PXC6bg": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_zGpD34": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_Kz3MFA": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_haMEix": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_a3Kb6j": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_GYJgqy": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_itfBTL": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_7c7FNN": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_QmLGig",
+        "title_qjTyRT",
+        "badges_8VyiTc",
+        "price_UhkRU7",
+        "rating_PXC6bg",
+        "payment_terms_zGpD34",
+        "separator_Kz3MFA",
+        "description_haMEix",
+        "variant_picker_a3Kb6j",
+        "quantity_selector_GYJgqy",
+        "buy_buttons_itfBTL",
+        "pickup_availability_7c7FNN"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured_product.presets.featured_product.name",
+      "settings": {
+        "color_scheme": "",
+        "product": "air-max-95-yardrunners-norfolk",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 43,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "nike air max yardrunner \"norfolk state\"",
+        "content": ""
       }
     },
     "prev-next-blog-posts": {
@@ -47,6 +267,8 @@
   "order": [
     "breeadcrumbs_j9kFad",
     "main",
+    "featured_product_3M9FWk",
+    "featured_product_WCtaTy",
     "prev-next-blog-posts"
   ]
 }

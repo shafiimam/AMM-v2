@@ -508,6 +508,12 @@
         "default": true
       },
       {
+        "type": "checkbox",
+        "id": "hide_product_price",
+        "label": "Hide product price in home page",
+        "default": false
+      },
+      {
         "type": "header",
         "content": "t:theme_settings.product_card.product_info_category"
       },
@@ -647,6 +653,35 @@
           }
         ],
         "default": "saving"
+      },
+      {
+        "type": "header",
+        "content": "Custom Badge System"
+      },
+      {
+        "type": "checkbox",
+        "id": "custom_badge_enable",
+        "label": "Enable Custom Badge System",
+        "info": "Enable advanced custom badge display with multiple tag support",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "custom_badge_text",
+        "label": "Custom Badge Texts",
+        "info": "Enter comma-separated badge texts (e.g., 'Featured,New,Special'). Each badge text corresponds to a tag at the same index in the Include Tag field."
+      },
+      {
+        "type": "text",
+        "id": "custom_badge_include_tag",
+        "label": "Include Tags",
+        "info": "Products with these tags WILL show the custom badge. Enter comma-separated tags (e.g., 'featured,new,special'). If set, this overrides the exclude tag logic. Each tag corresponds to a badge text at the same index."
+      },
+      {
+        "type": "text",
+        "id": "custom_badge_exclude_tag",
+        "label": "Exclude Tags",
+        "info": "Products with these tags will NOT show the custom badge. Enter comma-separated tags. Ignored when Include Tags is set."
       }
     ]
   },

@@ -14,38 +14,69 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message-1": {
+        "message_cKYzUL": {
           "type": "message",
           "disabled": true,
           "settings": {
-            "text": "<strong>Spring Sale: 4/12 – 4/18. 15% Off + Free U.S. Shipping on Orders $200+. Exclusions Apply | </strong><a href=\"https://www.a-ma-maniere.com/pages/terms-and-conditions-2024\"><strong>See Details</strong></a>"
+            "text": "<strong>DISCOVER </strong><a href=\"/collections/new-arrivals\" title=\"NEW ARRIVALS\"><strong>20% OFF SELECT STYLES</strong></a><strong> NOW UNTIL APRIL 19</strong>"
+          }
+        },
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $250</strong>"
+          }
+        },
+        "message_LyBJxq": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>VISIT OUR </strong><a href=\"/pages/our-stores\" title=\"Our Stores\"><strong>LOCATIONS</strong></a>"
           }
         }
       },
       "block_order": [
-        "message-1"
+        "message_cKYzUL",
+        "message-1",
+        "message_LyBJxq"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".heading {letter-spacing: 1.5px; font-family: var(--text-font-family);}"
+      ],
       "settings": {
         "color_scheme": "",
         "enable_sticky": false,
         "autoplay": true,
         "cycle_speed": 5,
-        "desktop_font_size": 11,
+        "desktop_font_size": 12,
         "mobile_font_size": 10
       }
     },
     "header": {
       "type": "header",
       "blocks": {
+        "mega_menu_kbBhKp": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "SHOP",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "#",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
         "mega_menu_wJYUCr": {
           "type": "mega_menu",
+          "name": "OFFSEASON PROMO",
+          "disabled": true,
           "settings": {
             "menu_item": "Shop",
             "images_position": "right",
             "image_1_heading": "",
             "image_1_text": "",
-            "image_1_link": "shopify://collections",
+            "image_1_link": "https://www.off--season.com/",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": ""
@@ -53,6 +84,7 @@
         },
         "mega_menu_px7EJK": {
           "type": "mega_menu",
+          "name": "BRANDS DROP DOWN",
           "settings": {
             "menu_item": "Brands",
             "images_position": "right",
@@ -63,14 +95,66 @@
             "image_2_text": "",
             "image_2_link": ""
           }
+        },
+        "release_DjJNYX": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "4.16",
+            "release_image": "shopify://shop_images/TWGEXCLUSIVEPETERSON23_STUDDED_-1.jpg",
+            "product_title": "MAISON MIHARA YASUHIRO PETERSON 23 \"STUDDED\"",
+            "product_vendor": "",
+            "product_price": "$588",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/maison-mihara-yasuhiro-peterson-23-studded"
+          }
+        },
+        "release_nAhaJK": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "4.17",
+            "release_image": "shopify://shop_images/EVOSLKJ5092-1.jpg",
+            "product_title": "ADIDAS DO NOT DUPLICATE EVO SL DAYGLOW \"ORANGE/WHITE\"",
+            "product_vendor": "",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-evo-sl-dayglow-orangewhite"
+          }
+        },
+        "release_tw94g8": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "4.17",
+            "release_image": "shopify://shop_images/EVOSLKJ5093-1.jpg",
+            "product_title": "ADIDAS DO NOT DUPLICATE EVO SL DAYGLOW \"BLACK/BLUE/CLAY\"",
+            "product_vendor": "",
+            "product_price": "$170",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-evo-sl-dayglow-blackblueclay"
+          }
+        },
+        "release_KPd8WR": {
+          "type": "release",
+          "settings": {
+            "release_title": "4.17",
+            "release_image": "shopify://shop_images/WALESBONNERGAZELLEBROWNPONY-1.jpg",
+            "product_title": "ADIDAS X WALES BONNER GAZELLE PONY \"AURORA COFFEE/CORE BLACK/WONDER WHITE\"",
+            "product_vendor": "",
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-x-wales-bonner-gazelle-pony-aurora-coffeecore-blackwonder-white"
+          }
         }
       },
       "block_order": [
+        "mega_menu_kbBhKp",
         "mega_menu_wJYUCr",
-        "mega_menu_px7EJK"
+        "mega_menu_px7EJK",
+        "release_DjJNYX",
+        "release_nAhaJK",
+        "release_tw94g8",
+        "release_KPd8WR"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "enable_sticky": true,
         "hide_on_scroll": false,
         "show_separation_border": true,
@@ -93,7 +177,9 @@
         "show_country_name": false,
         "show_country_flag": true,
         "show_locale_selector": false,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
+        "show_releases": false
       }
     }
   },

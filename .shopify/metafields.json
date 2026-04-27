@@ -1,8 +1,18 @@
 {
   "article": [],
   "blog": [],
-  "brand": [],
-  "collection": [],
+  "collection": [
+    {
+      "key": "subcollections",
+      "namespace": "custom",
+      "name": "subcollections",
+      "description": "",
+      "type": {
+        "name": "list.collection_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
   "company": [],
   "company_location": [],
   "location": [],
@@ -209,6 +219,126 @@
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "taxcode",
+      "namespace": "avalara",
+      "name": "Avalara Tax Code",
+      "description": "Used only for Avalara integration.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "launchId",
+      "namespace": "eqlLaunchesApp",
+      "name": "EQL Launch ID",
+      "description": null,
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "launchType",
+      "namespace": "eqlLaunchesApp",
+      "name": "EQL Launch Type",
+      "description": null,
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "hidden",
+      "namespace": "seo",
+      "name": "Search Hidden",
+      "description": "Hide from onsite and offsite (Google) search",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "international_shipping_unavailable",
+      "namespace": "custom",
+      "name": "international_shipping_unavailable",
+      "description": "Unavailable for international shipping",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    },
+    {
+      "key": "percentage_off",
+      "namespace": "custom",
+      "name": "percentage off ",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "age",
+      "namespace": "custom",
+      "name": "Age",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "gender",
+      "namespace": "custom",
+      "name": "Gender",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "season",
+      "namespace": "custom",
+      "name": "season",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "color",
+      "namespace": "custom",
+      "name": "color",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "pants-length-type",
+      "namespace": "shopify",
+      "name": "Pants length type",
+      "description": "Used to defines the length of pants, such as cropped or long",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fabric",
+      "namespace": "shopify",
+      "name": "Fabric",
+      "description": "Identifies the type of fabric used in a product, for example, cotton or denim",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "variant": [
@@ -317,6 +447,16 @@
       "namespace": "mm-google-shopping",
       "name": "Google: Age Group",
       "description": "The demographic for which your product is intended.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "taxcode",
+      "namespace": "avalara",
+      "name": "Avalara Tax Code",
+      "description": "Used only for Avalara integration.",
       "type": {
         "name": "single_line_text_field",
         "category": "TEXT"

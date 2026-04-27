@@ -1,20 +1,38 @@
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-DEVELOPER NOTE: the slideshow is one of Prestige most complex sections due to the large number of settings it offers. We
-highly recommend you to not edit the code unless you have fully reviewed and understood all the code. A simple change
-may have important consequence on the section itself.
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+  DEVELOPER NOTE: the slideshow is one of Prestige most complex sections due to the large number of settings it offers. We
+  highly recommend you to not edit the code unless you have fully reviewed and understood all the code. A simple change
+  may have important consequence on the section itself.
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 {%- if section.blocks.size > 0 -%}
   {%- assign carousel_id = 'carousel-' | append: section.id -%}
 
-  <slideshow-carousel id="{{ carousel_id }}" class="slideshow" allow-swipe {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %} cell-selector=".slideshow__slide" {% if section.settings.autoplay %}autoplay="{{ section.settings.cycle_speed }}"{% endif %} {% if section.settings.autoplay and section.settings.autoplay_pause_on_video %}autoplay-pause-on-video{% endif %} role="region" style="{% render 'surface', background: section.settings.background %}">
+  <slideshow-carousel
+    id="{{ carousel_id }}"
+    class="slideshow"
+    allow-swipe
+    {% if section.settings.allow_transparent_header %}
+      allow-transparent-header
+    {% endif %}
+    cell-selector=".slideshow__slide"
+    {% if section.settings.autoplay %}
+      autoplay="{{ section.settings.cycle_speed }}"
+    {% endif %}
+    {% if section.settings.autoplay and section.settings.autoplay_pause_on_video %}
+      autoplay-pause-on-video
+    {% endif %}
+    role="region"
+    style="{% render 'surface', background: section.settings.background %}"
+    aria-label="Hero Slideshow"
+  >
     {%- for block in section.blocks -%}
       {%- capture slide -%}
         <div class="content-over-media content-over-media--{{ section.settings.media_size }}" style="--content-over-media-content-max-width: {{ block.settings.content_max_width }}px; --content-over-media-gradient-overlay: {{ block.settings.gradient_overlay }}">
           {%- comment -%}---------------- MEDIA ----------------{%- endcomment -%}
           {%- if block.type == 'image' -%}
+            {% assign computed_alt = block.settings.image.alt |  default : block.settings.mobile_image.alt |  default : "A Ma Maniere Image" %}
             {%- if block.settings.image != blank -%}
               {%- liquid
                 if forloop.first
@@ -36,7 +54,7 @@ may have important consequence on the section itself.
                   >
                 {%- endif -%}
 
-                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, sizes: '100vw', widths: '300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, sizes: '100vw', widths: '300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' , alt: computed_alt -}}
               </picture>
             {%- else -%}
               {%- capture placeholder_image -%}{% cycle 'placeholder': 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
@@ -94,11 +112,11 @@ may have important consequence on the section itself.
           <div class="slideshow__slide-content {% if is_boxed %}slideshow__slide-content--boxed{% endif %} {% if has_border %}slideshow__slide-content--with-border{% endif %} {% if has_inside_offset %}slideshow__slide-content--with-border-offset{% endif %} {{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}" style="{% render 'surface', background: block.settings.background, background_opacity: block.settings.background_opacity, text_color: block.settings.text_color, border_color: block.settings.border_color %}">
             <div class="prose">
               {%- if block.settings.subheading != blank -%}
-                <p class="h6">{{ block.settings.subheading }}</p>
+                <h2 class="h6" style="font-size: {{ block.settings.subheading_size }}px;">{{ block.settings.subheading }}</h2>
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="h1">{{ block.settings.title }}</p>
+                <h1 class="h1" style="font-size: {{ block.settings.title_size }}px;">{{ block.settings.title }}</h1>
               {%- endif -%}
 
               {%- if block.settings.button_1_text != blank or block.settings.button_2_text != blank -%}
@@ -113,11 +131,11 @@ may have important consequence on the section itself.
 
                 <div class="{{ button_wrapper_class }}">
                   {%- if block.settings.button_1_text != blank -%}
-                    {%- render 'button', href: block.settings.button_1_link, content: block.settings.button_1_text, style: block.settings.button_1_style, background: block.settings.button_1_background, text_color: block.settings.button_1_text_color -%}
+                    {%- render 'button', href: block.settings.button_1_link, content: block.settings.button_1_text, style: block.settings.button_1_style, background: block.settings.button_1_background, text_color: block.settings.button_1_text_color-%}
                   {%- endif -%}
 
                   {%- if block.settings.button_2_text != blank -%}
-                    {%- render 'button', href: block.settings.button_2_link, content: block.settings.button_2_text, style: block.settings.button_2_style, background: block.settings.button_2_background, text_color: block.settings.button_2_text_color -%}
+                      {%- render 'button', href: block.settings.button_2_link, content: block.settings.button_2_text, style: block.settings.button_2_style, background: block.settings.button_2_background, text_color: block.settings.button_2_text_color -%}
                   {%- endif -%}
                 </div>
               {%- endif -%}
@@ -140,25 +158,55 @@ may have important consequence on the section itself.
         {%- endif -%}
       {%- endcapture -%}
 
-      {%- if block.settings.button_1_link != blank and block.settings.button_1_text == blank and block.settings.button_2_text == blank -%}
-        <a href="{{ block.settings.button_1_link }}" class="slideshow__slide {% if forloop.first %}is-selected{% endif %}" media-type="{{ block.type }}" {% if forloop.first and section.settings.show_initial_transition %}reveal-on-scroll="true"{% endif %} role="group" {{ block.shopify_attributes }}>
+      {%- if block.settings.button_1_link != blank
+        and block.settings.button_1_text == blank
+        and block.settings.button_2_text == blank
+      -%}
+        <a
+          href="{{ block.settings.button_1_link }}"
+          class="slideshow__slide {% if forloop.first %}is-selected{% endif %}"
+          media-type="{{ block.type }}"
+          {% if forloop.first and section.settings.show_initial_transition %}
+            reveal-on-scroll="true"
+          {% endif %}
+          role="group"
+          {{ block.shopify_attributes }}
+        >
           {{- slide -}}
         </a>
       {%- else -%}
-        <div class="slideshow__slide {% if forloop.first %}is-selected{% endif %}" media-type="{{ block.type }}" {% if forloop.first and section.settings.show_initial_transition %}reveal-on-scroll="true"{% endif %} role="group" {{ block.shopify_attributes }}>
+        <div
+          class="slideshow__slide {% if forloop.first %}is-selected{% endif %}"
+          media-type="{{ block.type }}"
+          {% if forloop.first and section.settings.show_initial_transition %}
+            reveal-on-scroll="true"
+          {% endif %}
+          role="group"
+          {{ block.shopify_attributes }}
+        >
           {{- slide -}}
         </div>
       {%- endif -%}
     {%- endfor -%}
 
     {%- if section.blocks.size > 1 -%}
-      <carousel-navigation aria-controls="{{ carousel_id }}" class="page-dots {% if section.settings.autoplay %}page-dots--autoplay{% endif %}" style="{% render 'surface', text_color: section.settings.controls_color %}">
+      <carousel-navigation
+        aria-controls="{{ carousel_id }}"
+        class="page-dots {% if section.settings.autoplay %}page-dots--autoplay{% endif %}"
+        style="{% render 'surface', text_color: section.settings.controls_color %}"
+      >
         {%- for i in (1..section.blocks.size) -%}
           <button class="tap-area" aria-current="{% if forloop.first %}true{% else %}false{% endif %}">
             <span class="sr-only">{{ 'general.accessibility.go_to_item' | t: index: forloop.index }}</span>
 
             {%- if section.settings.autoplay -%}
-              <svg class="circular-progress" height="8" width="8" viewBox="0 0 8 8" style="--stroke-dasharray: {{ 2 | times: 3.14159265359 | times: 3.25 }}">
+              <svg
+                class="circular-progress"
+                height="12"
+                width="12"
+                viewBox="0 0 8 8"
+                style="--stroke-dasharray: {{ 2 | times: 3.14159265359 | times: 3.25 }}"
+              >
                 <circle cx="50%" cy="50%" fill="none" stroke-width="1.5" r="3.25" stroke="currentColor" stroke-opacity="0.2"></circle>
                 <circle cx="50%" cy="50%" fill="none" stroke-width="1.5" r="3.25" stroke="currentColor" stroke-linecap="round"></circle>
               </svg>
@@ -169,7 +217,10 @@ may have important consequence on the section itself.
     {%- endif -%}
 
     {%- if section.settings.show_next_section_button -%}
-      <button data-action="navigate-next" class="slideshow__next-section-button transparent-button hover:animate-icon-block">
+      <button
+        data-action="navigate-next"
+        class="slideshow__next-section-button transparent-button hover:animate-icon-block"
+      >
         <span class="sr-only">{{ 'general.accessibility.navigate_to_next_section' | t }}</span>
         {%- render 'icon' with 'arrow-down-2' -%}
       </button>
@@ -303,16 +354,36 @@ may have important consequence on the section itself.
           "content": "t:sections.slideshow.blocks.image.content_category"
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "subheading",
           "label": "t:global.text.subheading",
-          "default": "Tell your story"
+          "default": "<p>Tell your story</p>"
         },
         {
-          "type": "inline_richtext",
+          "type": "range",
+          "id": "subheading_size",
+          "label": "Subheading Size",
+          "min": 12,
+          "max": 48,
+          "unit": "px",
+          "step": 1,
+          "default": 12
+        },
+        {
+          "type": "richtext",
           "id": "title",
           "label": "t:global.text.heading",
-          "default": "Image slide"
+          "default": "<p>Image slide</p>"
+        },
+        {
+          "type": "range",
+          "id": "title_size",
+          "label": "Title Size",
+          "min": 16,
+          "max": 60,
+          "unit": "px",
+          "step": 1,
+          "default": 32
         },
         {
           "type": "select",
@@ -519,6 +590,7 @@ may have important consequence on the section itself.
           "id": "background_opacity",
           "min": 0,
           "max": 100,
+          "step": 1,
           "unit": "%",
           "label": "t:global.colors.background_opacity",
           "default": 50
@@ -574,10 +646,28 @@ may have important consequence on the section itself.
           "default": "Tell your story"
         },
         {
+          "type": "range",
+          "id": "subheading_size",
+          "label": "Subheading Size",
+          "min": 12,
+          "max": 48,
+          "step": 1,
+          "default": 12
+        },
+        {
           "type": "inline_richtext",
           "id": "title",
           "label": "t:global.text.heading",
           "default": "Video slide"
+        },
+        {
+          "type": "range",
+          "id": "title_size",
+          "label": "Title Size",
+          "min": 16,
+          "max": 60,
+          "step": 1,
+          "default": 32
         },
         {
           "type": "select",
@@ -816,13 +906,13 @@ may have important consequence on the section itself.
         {
           "type": "image",
           "settings": {
-            "title": "Slide 1"
+            "title": "<p>Slide 1</p>"
           }
         },
         {
           "type": "image",
           "settings": {
-            "title": "Slide 2"
+            "title": "<p>Slide 2</p>"
           }
         }
       ]

@@ -35,12 +35,34 @@ Supported variables
 
 {%- case media.media_type -%}
   {%- when 'image' -%}
-    {{- media | image_url: width: media.preview_image.width | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: class , alt: media.alt-}}
+    {%- liquid
+      assign computed_alt = media.alt | default: media.preview_image.alt | default: product.title | default: shop.name
+    -%}
+    <picture>
+      <source
+        srcset="{{ media | image_url: width: media.preview_image.width }}"
+        media="(min-width: 1px)"
+        width="{{ media.preview_image.width }}"
+        height="{{ media.preview_image.height }}"
+      >
+      <img
+        src="{{ media | image_url: width: media.preview_image.width }}"
+        alt="{{ computed_alt }}"
+        loading="{{ loading }}"
+        fetchpriority="{{ fetchpriority }}"
+        sizes="{{ sizes }}"
+        srcset="{{ media | image_url: width: media.preview_image.width }}"
+        class="{{ class }}"
+        width="{{ media.preview_image.width }}"
+        height="{{ media.preview_image.height }}"
+      >
+    </picture>
 
   {%- when 'video', 'external_video' -%}
     <video-media {% if class %}class="{{ class }}"{% endif %} type="{{ media.media_type }}" {% if media.host %}host="{{ media.host }}"{% endif %} {% if autoplay %}autoplay{% endif %} {% if autoplay != true and show_play_button != false %}show-play-button{% endif %} {% if group != blank %}group="{{ group | escape }}"{% endif %} style="--aspect-ratio: {{ media.aspect_ratio }}; --play-button-background: {{ play_button_background | default: settings.default_color_scheme.settings.background }}">
+      {% assign computed_alt = media.alt |  default : media.preview_image.alt |  default : "A Ma Maniere video poster" %}
       {%- unless autoplay -%}
-        {{- media | image_url: width: media.preview_image.width | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+        {{- media | image_url: width: media.preview_image.width | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' , alt: computed_alt -}}
       {%- endunless -%}
 
       {%- if media.media_type == 'video' -%}
@@ -54,7 +76,7 @@ Supported variables
           assign playsinline = playsinline | default: autoplay, allow_false: true
           assign muted = muted | default: autoplay, allow_false: true
 
-          echo media | video_tag: controls: controls, playsinline: playsinline, muted: muted, loop: loop, preload: preload_attribute, image_size: '400x'
+          echo media | video_tag: controls: controls, playsinline: playsinline, muted: muted, loop: loop, preload: preload_attribute, image_size: '400x', alt: computed_alt
         -%}
       {%- else -%}
         <template>

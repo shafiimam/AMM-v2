@@ -33,7 +33,9 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -59,7 +61,9 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH3_8411c267-4bde-473f-b60c-e6fd17952dc7.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -85,7 +89,9 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -111,7 +117,9 @@
           "settings": {
             "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
             "subheading": "",
+            "subheading_size": 12,
             "title": "",
+            "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -158,7 +166,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p>A Ma Maniére Beach adorns the shores of Folly Beach, SC, a luxurious seaside haven extending our A Ma Maniére Living experiential concept, first introduced in 2018 at A Ma Maniére DC.</p>",
-            "text_color": "#8f8f8f"
+            "text_color": "#535353"
           }
         },
         "richtext_Yc4nft": {
@@ -172,7 +180,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p>A Ma Maniére Beach offers an innovative boutique residence experience in a stunning three-story seaside retreat. With three bedrooms and three bathrooms, each space is designed to provide breathtaking views of the Atlantic, a testament to our commitment to breaking barriers and rewriting narratives for Black and Brown communities through transformative, innovative experiences.<br/><br/>A Ma Maniére Beach is more than just a destination; it embodies empowerment and inclusivity. By choosing Folly Beach, we are not only rewriting the narrative but reclaiming it in a space once denied to Black and Brown residents.<br/><br/></p>",
-            "text_color": "#8f8f8f"
+            "text_color": "#535353"
           }
         },
         "richtext_Q3Fa7n": {
@@ -186,7 +194,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p>A Ma Maniére Beach epitomizes luxury with world-class accommodations and amenities, exuding exceptional hospitality. The entire building serves as an art gallery, showcasing works by renowned artists like Jean-Michel Basquiat, Kaws, Daniel Arsham, Anna Park, Pat Phillips, Julian Gaines, Enrico Riley, and David Shrigley. <br/><br/>A Ma Maniére Beach symbolizes a major shift in the evolution of our experiences. As our focus remains on immersive experiential concepts, this seaside resort is the epitome of our vision of classic, timeless luxury. We will continue to obsess over details and push the boundaries of what should be experienced.</p>",
-            "text_color": "#8f8f8f"
+            "text_color": "#535353"
           }
         }
       },
@@ -201,6 +209,10 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/AMMBEACH2_1dcb403e-e0d0-4dff-964f-632203beb2aa.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "lg",
@@ -222,7 +234,7 @@
           "type": "richtext",
           "settings": {
             "content": "<p>This space is open to all and will serve to expand our community programming, reflecting our commitment to redefining immersive consumer experiences. Through our social action platform, Hand Wash Cold, A Ma Maniére Beach will host programming, retreats, and events aimed at engaging young people locally and globally, fostering creativity, and nurturing a sense of community.</p>",
-            "text_color": "#8f8f8f"
+            "text_color": "#535353"
           }
         },
         "richtext_V84jGB": {
@@ -235,12 +247,13 @@
         "richtext_qHFgLb": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A Ma Maniére Beach joins the A Ma Maniére fleet of experiential-consumer concept, now with four locations across the nation: DC, Atlanta, Houston, and now Folly Beach. This new chapter in luxury hospitality exemplifies our unwavering commitment to reimagining possibilities.</p><p>For more information, please email <a href=\"mailto:brand@thewhitakergrp.com\"><span style=\"text-decoration:underline\"><strong>brand@thewhitakergrp.com</strong></span></a>.</p>",
-            "text_color": "#8f8f8f"
+            "content": "<p>A Ma Maniére Beach joins the A Ma Maniére fleet of experiential-consumer concept, now with four locations across the nation: DC, Atlanta, Houston, and now Folly Beach. This new chapter in luxury hospitality exemplifies our unwavering commitment to reimagining possibilities.</p>",
+            "text_color": "#535353"
           }
         },
         "button_drEBmM": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "Submit An Inquiry",
@@ -261,6 +274,10 @@
         "color_scheme": "",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/AMMBEACH4_348270f4-3efa-4c13-8c95-d591f5bf302a.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
@@ -317,18 +334,6 @@
           "type": "slide_item",
           "settings": {
             "image": "shopify://shop_images/AMMBEACH1_15e3ec62-eac3-4d72-bb28-b55b04a0fde5.jpg"
-          }
-        },
-        "slide_item_8MAYnQ": {
-          "type": "slide_item",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8448-Edit.jpg"
-          }
-        },
-        "slide_item_eUyziP": {
-          "type": "slide_item",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8921-HDR.jpg"
           }
         }
       },

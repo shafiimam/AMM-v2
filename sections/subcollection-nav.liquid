@@ -1,0 +1,149 @@
+{% assign current_collection = collection | default: collections[section.settings.fallback_collection] %}
+{% assign sub_collections = current_collection.metafields.custom.subcollections.value %}
+{% if sub_collections != blank %}
+  <div class="subcollections-container container">
+    {% for sub_collection in sub_collections %}
+      {%- comment %}<locksmith:3dc0>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:3dc0>{% endcomment -%}
+      {% assign collection_image = sub_collection.featured_image | image_url: width: 400 %}
+      {% if collection_image == blank %}
+        {% assign collection_image = sub_collection.products.first.featured_media | image_url: width: 400 %}
+      {% endif %}
+      <div class="subcollection-item">
+        <a href="{{ sub_collection.url }}" class="">
+          <img
+            src="{{ collection_image }}"
+            alt="{{ sub_collection.title }}"
+            width="220"
+            height="250"
+          >
+          <span class="subcollection-title">{{ sub_collection.title }}</span>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<style>
+  .subcollections-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    gap: {{section.settings.spacing_card}}px;
+    padding-block: 40px;
+    cursor: grab;
+  }
+  .subcollection-item a {
+    height: 100%;
+    width: 220px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .subcollection-item img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 0.7;
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+    border-radius: var(--border-radius-grid);
+  }
+  .subcollection-title {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 750px) {
+    .subcollection-item a{
+      width: 160px;
+    }
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const container = document.querySelector('.subcollections-container');
+    if (!container) return;
+
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+    let isDragging = false;
+
+    // Prevent default drag behavior on images and links
+    container.querySelectorAll('img, a').forEach((element) => {
+      element.addEventListener('dragstart', (e) => {
+        e.preventDefault();
+      });
+      element.addEventListener('click', (e) => {
+        if (isDragging) {
+          e.preventDefault();
+        }
+      });
+    });
+
+    container.addEventListener('mousedown', (e) => {
+      isDown = true;
+      isDragging = false;
+      container.style.cursor = 'grabbing';
+      startX = e.pageX - container.offsetLeft;
+      scrollLeft = container.scrollLeft;
+      container.style.scrollSnapType = 'none';
+    });
+
+    container.addEventListener('mouseleave', () => {
+      isDown = false;
+      container.style.cursor = 'grab';
+      container.style.scrollSnapType = 'x mandatory';
+    });
+
+    container.addEventListener('mouseup', () => {
+      isDown = false;
+      container.style.cursor = 'grab';
+      container.style.scrollSnapType = 'x mandatory';
+      setTimeout(() => {
+        isDragging = false;
+      }, 10);
+    });
+
+    container.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      isDragging = true;
+      const x = e.pageX - container.offsetLeft;
+      const walk = (x - startX) * 1.5;
+      container.scrollLeft = scrollLeft - walk;
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "Subcollection Navigation",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "fallback_collection",
+      "label": "Fallback Collection",
+      "info": "If you use this section outside of collection page templates, this collection will be used to display the subcollection navigation"
+    },
+    {
+      "type": "range",
+      "id": "spacing_card",
+      "label": "Collection card spacing",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
+    }
+  ],
+  "presets": [{ "name": "Subcollection Navigation" }]
+}
+{% endschema %}

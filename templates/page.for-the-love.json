@@ -49,63 +49,6 @@
         "vertical_position": 0
       }
     },
-    "slideshow_rBdfjJ": {
-      "type": "slideshow",
-      "blocks": {
-        "image_jXdmtV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/AJ5_HEADER_31ae242f-9f9d-401d-b1db-9ba46d63c436.jpg",
-            "subheading": "Launches on A Ma Maniére on 11.24.23",
-            "title": "A Ma Maniére x Air Jordan V",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "#000000",
-            "background_opacity": 31,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        }
-      },
-      "block_order": [
-        "image_jXdmtV"
-      ],
-      "disabled": true,
-      "settings": {
-        "allow_transparent_header": true,
-        "show_next_section_button": true,
-        "media_size": "auto",
-        "show_initial_transition": false,
-        "autoplay": true,
-        "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
-    "video_tVEdzM": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "autoplay": true,
-        "show_controls": true,
-        "video_size": "fill",
-        "external_video_url": "",
-        "text_color": "#ffffff"
-      }
-    },
     "image_with_text_7Xm8Cg": {
       "type": "image-with-text",
       "blocks": {
@@ -210,7 +153,13 @@
         "end_index": "88",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC063",
         "button_label": "",
-        "button_link": ""
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "media_grid_HwBKby": {
@@ -410,7 +359,13 @@
         "end_index": "56",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC064",
         "button_label": "",
-        "button_link": ""
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "3d_gallery_simple_eRqy96": {
@@ -421,7 +376,13 @@
         "end_index": "73",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC065",
         "button_label": "",
-        "button_link": ""
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "media_grid_Ft6xEj": {
@@ -693,8 +654,6 @@
   "order": [
     "main",
     "hero_with_logo_nPMzTc",
-    "slideshow_rBdfjJ",
-    "video_tVEdzM",
     "image_with_text_7Xm8Cg",
     "3d_gallery_simple_bVBpC4",
     "media_grid_HwBKby",

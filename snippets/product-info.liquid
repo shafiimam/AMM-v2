@@ -41,7 +41,13 @@
       endif
     -%}
 
+    {%- comment %}<locksmith:993b>{% endcomment -%}
+      {%- assign locksmith_3792_forloop__size = 0 %}{%- for block in filtered_blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_3792_forloop__size = locksmith_3792_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_3792_forloop__index = nil -%}
+    {%- comment %}</locksmith:993b>{% endcomment -%}
     {%- for block in filtered_blocks -%}
+      {%- comment %}<locksmith:bde5>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_3792_forloop__index == nil %}{% assign locksmith_3792_forloop__index = 1 %}{% assign locksmith_3792_forloop__index0 = 0 %}{% else %}{% assign locksmith_3792_forloop__index = locksmith_3792_forloop__index | plus: 1 %}{% assign locksmith_3792_forloop__index0 = locksmith_3792_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_3792_forloop__index == 1 %}{% assign locksmith_3792_forloop__first = true %}{% else %}{% assign locksmith_3792_forloop__first = false %}{% endif %}{% if locksmith_3792_forloop__index == locksmith_3792_forloop__size %}{% assign locksmith_3792_forloop__last = true %}{% else %}{% assign locksmith_3792_forloop__last = false %}{% endif %}{% assign locksmith_3792_forloop__rindex = locksmith_3792_forloop__size | minus: locksmith_3792_forloop__index | minus: 1 %}{% assign locksmith_3792_forloop__rindex0 = locksmith_3792_forloop__size | minus: locksmith_3792_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:bde5>{% endcomment -%}
       {%- liquid
         # Filter the blocks (if allow_blocks is set)
         if allow_blocks
@@ -50,7 +56,7 @@
           endunless
         endif
 
-        assign next_block_index = forloop.index0 | plus: 1
+        assign next_block_index = locksmith_3792_forloop__index0 | plus: 1
         assign next_block = filtered_blocks[next_block_index]
 
         if block.settings.show_below_gallery
@@ -144,7 +150,10 @@
             {% if product.selected_or_first_available_variant.sku != blank %}
               <variant-sku class="variant-sku text-lg text-subdued">
                 {{ product.selected_or_first_available_variant.sku -}}
-                <p role="button" class="copy-to-clip" data-text="{{ product.first_available_variant.sku }}">{% render 'icons', icon_type : 'copy' %}</p>
+                <p aria-label="Copy product sku to clipboard" role="button" class="copy-to-clip" data-text="{{ product.first_available_variant.sku }}">
+                  <span class="tooltip">Copy SKU</span>  
+                {% render 'icons', icon_type : 'copy' %}
+                  </p>
               </variant-sku>
             {%- endif -%}
            {%- when 'color' -%}
@@ -241,6 +250,19 @@
               assign contains_product = false
 
               for product_variation in block.settings.products
+                comment
+                  <locksmith:7957> Code added automatically by the Locksmith app. Do not modify or remove.
+                endcomment
+                capture var
+                  render 'locksmith-variables', scope: 'subject', subject: product_variation, subject_parent: block.settings, variable: 'transparent'
+                endcapture
+                if var == "true"
+                else
+                  continue
+                endif
+                comment
+                  </locksmith:7957> End Locksmith code block.
+                endcomment
                 if product_variation == product
                   assign contains_product = true
                 endif
@@ -269,6 +291,19 @@
                   <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                     {%- liquid
                       for product_variation in block.settings.products
+                        comment
+                          <locksmith:caab> Code added automatically by the Locksmith app. Do not modify or remove.
+                        endcomment
+                        capture var
+                          render 'locksmith-variables', scope: 'subject', subject: product_variation, subject_parent: block.settings, variable: 'transparent'
+                        endcapture
+                        if var == "true"
+                        else
+                          continue
+                        endif
+                        comment
+                          </locksmith:caab> End Locksmith code block.
+                        endcomment
                         assign label = product_variation.metafields[metafield_namespace][metafield_key].value
 
                         if product_variation == product
@@ -376,10 +411,47 @@
 
             {% when 'product_availability' %}
               {% assign product_skus = block.settings.product_skus | replate: "," , " " %}
+              {%- liquid
+                assign show_final_sale_message = false
+                assign final_sale_setting_enabled = false
+                assign compare_price_rule_enabled = false
+                assign custom_final_sale_tag = ''
+                assign custom_final_sale_message = ''
+                
+                # Find the product_availability block and get its settings
+                for block in section.blocks
+                  if block.type == 'product_availability' and block.settings.show_final_sale_message
+                    assign final_sale_setting_enabled = true
+                    assign compare_price_rule_enabled = block.settings.enable_compare_price_rule
+                    assign custom_final_sale_tag = block.settings.final_sale_tag | default: 'FinalSale' | strip | downcase
+                    assign custom_final_sale_message = block.settings.final_sale_message | default: 'This item is on final sale, it cannot be exchanged or returned.'
+                    break
+                  endif
+                endfor
+                
+                # Only proceed if the setting is enabled
+                if final_sale_setting_enabled
+                  # Check if product is on sale (compare_at_price > price) - only if compare price rule is enabled
+                  if compare_price_rule_enabled and product.compare_at_price > product.price
+                    assign show_final_sale_message = true
+                  endif
+                  
+                  # Check if product has custom final sale tag (case-insensitive)
+                  if custom_final_sale_tag != blank
+                    for tag in product.tags
+                      assign tag_lowercase = tag | strip | downcase
+                      if tag_lowercase == custom_final_sale_tag
+                        assign show_final_sale_message = true
+                        break
+                      endif
+                    endfor
+                  endif
+                endif
+              -%}
               
-              {% if product.compare_at_price > product.price %}
+              {% if show_final_sale_message %}
                 <span style="display: block; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 25px 0 5px 0;">
-                  This item is on final sale, it cannot be exchanged or returned.
+                  {{ custom_final_sale_message }}
                 </span>
               {% endif %}
           
@@ -392,6 +464,11 @@
                   This product is not eligible for international shipping.
                 </span>
                 {%endunless %}
+              {% endif %}
+              {% if product.metafields.custom.international_shipping_unavailable.value == true %}
+                <span style="display: block; width: 100%; text-align: center; color: #CF0C28; font-size: 14px; line-height: 1.25; margin: 15px 0 5px 0; padding: 10px 5px; border: 1px dashed #CF0C28;">
+                  This product is not eligible for international shipping.
+                </span>
               {% endif %}
             
           {%- when 'pickup_availability' -%}
