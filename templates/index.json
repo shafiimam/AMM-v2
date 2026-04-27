@@ -186,6 +186,45 @@
       "disabled": true,
       "settings": {}
     },
+    "amm_shop_the_look_DxnG8F": {
+      "type": "amm-shop-the-look",
+      "blocks": {
+        "product_jXwcqq": {
+          "type": "product",
+          "settings": {
+            "product": "saint-michael-wht-2pac-tee",
+            "show_as_hotspot": false,
+            "hotspot_x": 50,
+            "hotspot_y": 50
+          }
+        },
+        "product_aX6wmY": {
+          "type": "product",
+          "settings": {
+            "product": "acne-studios-2021m-trafalgar-jeans-light-blue",
+            "show_as_hotspot": false,
+            "hotspot_x": 50,
+            "hotspot_y": 50
+          }
+        }
+      },
+      "block_order": [
+        "product_jXwcqq",
+        "product_aX6wmY"
+      ],
+      "name": "AMM Shop the Look",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_quick_buy": true,
+        "layout": "editorial-split",
+        "subheading": "",
+        "title": "Shop the look",
+        "cta_text": "Shop this look",
+        "look_image": "shopify://shop_images/willyc.png",
+        "show_hotspot_numbering": true
+      }
+    },
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
@@ -979,6 +1018,7 @@
     "media_grid_38Mmew",
     "slideshow_QGYQ6e",
     "176075966993f87866",
+    "amm_shop_the_look_DxnG8F",
     "featureed_image_and_products_7MHNbK",
     "media_grid_dcKXGR",
     "media_grid_DzxzqH",
