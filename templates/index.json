@@ -193,7 +193,7 @@
           "type": "product",
           "settings": {
             "product": "saint-michael-wht-2pac-tee",
-            "show_as_hotspot": false,
+            "show_as_hotspot": true,
             "hotspot_x": 50,
             "hotspot_y": 50
           }
@@ -202,9 +202,9 @@
           "type": "product",
           "settings": {
             "product": "acne-studios-2021m-trafalgar-jeans-light-blue",
-            "show_as_hotspot": false,
-            "hotspot_x": 50,
-            "hotspot_y": 50
+            "show_as_hotspot": true,
+            "hotspot_x": 46,
+            "hotspot_y": 64
           }
         }
       },
