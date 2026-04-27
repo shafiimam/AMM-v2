@@ -231,6 +231,37 @@
         "image_cta_url": "shopify://collections/puma"
       }
     },
+    "featured_collections_RwpkEJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_t3bATr": {
+          "type": "collection",
+          "settings": {
+            "collection": "spring-authority",
+            "products_count": 8,
+            "title": "Spring Authority",
+            "link_url": "shopify://collections/spring-authority",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_t3bATr"
+      ],
+      "custom_css": [],
+      "name": "spring collection",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "media_grid_dcKXGR": {
       "type": "media-grid",
       "blocks": {
@@ -486,6 +517,7 @@
       "block_order": [
         "collection_b4hYCA"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "a ma maniere",
       "settings": {
@@ -626,7 +658,7 @@
           "type": "video",
           "settings": {
             "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/Willy Brand page vid.mov",
+            "video": "shopify://files/videos/willy track suit .mov",
             "autoplay": true,
             "show_controls": false,
             "column_count": "6",
@@ -646,7 +678,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/DSC02305.jpg",
+            "image": "shopify://shop_images/21_CL_c9e07d05-6790-4f49-b890-701ebbf8d342.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "<strong>new arrivals </strong>",
@@ -676,37 +708,6 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "featured_collections_RwpkEJ": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_t3bATr": {
-          "type": "collection",
-          "settings": {
-            "collection": "spring-authority",
-            "products_count": 8,
-            "title": "Spring Authority",
-            "link_url": "shopify://collections/spring-authority",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_t3bATr"
-      ],
-      "custom_css": [],
-      "name": "spring collection",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.8,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "multiple_media_with_text_Lgp4CV": {
@@ -980,6 +981,7 @@
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "featured_collections_RwpkEJ",
     "media_grid_dcKXGR",
     "media_grid_DzxzqH",
     "image_with_text_4rzGhq",
@@ -988,7 +990,6 @@
     "shop_the_look_yjtpt9",
     "featured_collections_WMah7x",
     "media_grid_7fM37z",
-    "featured_collections_RwpkEJ",
     "multiple_media_with_text_Lgp4CV",
     "before-after",
     "blocks_xhmELd",
