@@ -51,6 +51,23 @@ class AmmShopTheLook {
       card.style.cssText = `left: ${anchorLeft}; right: ${anchorRight}; top: ${anchorTop}; bottom: ${anchorBot};`;
       card.innerHTML = block.innerHTML;
 
+      // Hotspot cards clone list markup: remove duplicate modals/forms so IDs stay unique; forward + to originals
+      card.querySelectorAll('quick-buy-modal').forEach((el) => el.remove());
+      card.querySelectorAll('product-form').forEach((el) => el.remove());
+      const cloneQuick = card.querySelector('.amm-stl-product-item__quick-add-btn');
+      if (cloneQuick) {
+        cloneQuick.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const controls = cloneQuick.getAttribute('aria-controls');
+          const origBtn =
+            block.querySelector('product-form button[type="submit"]') ||
+            (controls ? block.querySelector(`button[aria-controls="${controls}"]`) : null) ||
+            block.querySelector('[data-quick-add-btn]');
+          origBtn?.click();
+        });
+      }
+
       hotspotsEl?.appendChild(card);
     });
   }
@@ -105,40 +122,42 @@ class AmmShopTheLook {
 
     const indicators = this.el.querySelector('.amm-stl__film-indicators');
     if (!indicators) this.createFilmIndicators();
-
-    const filmIndicators = this.el.querySelector('.amm-stl__film-indicators');
-    const dots = filmIndicators ? Array.from(filmIndicators.querySelectorAll('.amm-stl__film-dot')) : [];
-
-    list.addEventListener('scroll', () => {
-      const cardW = cards[0]?.offsetWidth || 1;
-      const active = Math.round(list.scrollLeft / cardW);
-
-      cards.forEach((c, i) => c.classList.toggle('is-active', i === active));
-      dots.forEach((d, i) => d.classList.toggle('is-active', i === active));
-    }, { passive: true });
   }
 
   createFilmIndicators() {
     const imageWrap = this.el.querySelector('.amm-stl__image-wrap');
-    const cards = this.productsEl.querySelectorAll('.amm-stl__product-card');
-    const dotsHtml = Array.from(cards).map((_, i) =>
-      `<div class="amm-stl__film-dot${i === 0 ? ' is-active' : ''}">${i + 1}</div>`
-    ).join('');
+    const cards = Array.from(this.productsEl.querySelectorAll('.amm-stl__product-card'));
 
     const indicators = document.createElement('div');
     indicators.className = 'amm-stl__film-indicators';
-    indicators.innerHTML = dotsHtml;
+
+    cards.forEach((card, i) => {
+      const showAsHotspot = card.dataset.showAsHotspot === 'true';
+      if (!showAsHotspot) return;
+
+      const dot = document.createElement('div');
+      dot.className = `amm-stl__film-dot${i === 0 ? ' is-active' : ''}`;
+      dot.textContent = i + 1;
+
+      const x = parseFloat(card.dataset.hotspotX) || 50;
+      const y = parseFloat(card.dataset.hotspotY) || 50;
+      dot.style.left = `${x}%`;
+      dot.style.top = `${y}%`;
+
+      indicators.appendChild(dot);
+    });
 
     imageWrap?.appendChild(indicators);
   }
 
   setupProductDrawers() {
+    if (this.el.dataset.showQuickBuy === 'true') return;
+
     // Note: Event listeners are added here. If drawers are dynamically re-rendered,
     // consider adding a cleanup method to prevent memory leaks.
     const drawers = this.el.querySelectorAll('[data-product-drawer]');
     drawers.forEach(drawer => {
-      const quickAddBtn = drawer.parentElement?.querySelector('[data-quick-add-btn]');
-      const quickAddBtn = drawer.previousElementSibling?.querySelector('[data-quick-add-btn]');
+      const quickAddBtn = drawer.parentElement?.querySelector('.amm-stl-product-item__quick-add-btn');
       const closeBtn = drawer.querySelector('[data-drawer-close]');
       const sizeButtons = drawer.querySelectorAll('[data-size-btn]');
       const addToCartBtn = drawer.querySelector('[data-add-to-cart]');
@@ -151,6 +170,7 @@ class AmmShopTheLook {
         quickAddBtn.addEventListener('click', (e) => {
           e.preventDefault();
           this.toggleDrawer(drawer, true);
+          this.updateAddToCartButton(drawer);
         });
       }
 
@@ -170,24 +190,6 @@ class AmmShopTheLook {
           drawer.dataset.selectedVariantId = btn.dataset.variantId;
         });
       });
-
-      // Quantity adjustment - minus button
-      if (qtyMinusBtn && qtyInput) {
-        qtyMinusBtn.addEventListener('click', () => {
-          let qty = parseInt(qtyInput.value, 10) || 1;
-          if (qty > 1) {
-            qtyInput.value = qty - 1;
-          }
-        });
-      }
-
-      // Quantity adjustment - plus button
-      if (qtyPlusBtn && qtyInput) {
-        qtyPlusBtn.addEventListener('click', () => {
-          let qty = parseInt(qtyInput.value, 10) || 1;
-          qtyInput.value = qty + 1;
-        });
-      }
 
       // Add to cart - prevent race condition by checking button state
       if (addToCartBtn) {
@@ -219,13 +221,13 @@ class AmmShopTheLook {
   addToCart(drawer) {
     const variantId = drawer.dataset.selectedVariantId;
     const qtyInput = drawer.querySelector('[data-qty-input]');
-    const quantity = parseInt(qtyInput.value, 10) || 1;
+    const quantity = 1;
     const addBtn = drawer.querySelector('[data-add-to-cart]');
 
     // Validate variant and quantity
     if (!variantId) {
       console.warn('No variant selected');
-      alert('Please select a size');
+      this.showErrorMessage(drawer, 'Please select a size');
       return;
     }
 
@@ -252,20 +254,23 @@ class AmmShopTheLook {
       })
     })
     .then(response => {
-      // Validate HTTP response before parsing JSON
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
+      console.log('res obj', response);
       return response.json();
     })
     .then(data => {
+      console.log('cart add response', data);
+      // Check for error message in response
+      if (data.message) {
+        this.showErrorMessage(drawer, data.message);
+        addBtn.disabled = false;
+        addBtn.textContent = 'ADD TO CART';
+        return;
+      }
+
       // Close drawer and show success feedback
       this.toggleDrawer(drawer, false);
       addBtn.disabled = false;
       addBtn.textContent = 'ADD TO CART';
-
-      // Reset quantity to 1
-      qtyInput.value = 1;
 
       // Dispatch custom event (theme may use this to update cart)
       window.dispatchEvent(new CustomEvent('cart:updated', { detail: data }));
@@ -275,8 +280,47 @@ class AmmShopTheLook {
       // Re-enable button on error so user can retry
       addBtn.disabled = false;
       addBtn.textContent = 'ADD TO CART';
-      alert('Error adding to cart. Please try again.');
+      this.showErrorMessage(drawer, error.message);
     });
+  }
+
+  updateAddToCartButton(drawer) {
+    const addBtn = drawer.querySelector('[data-add-to-cart]');
+    const sizeButtons = drawer.querySelectorAll('[data-size-btn]');
+
+    const allSoldOut = Array.from(sizeButtons).every(btn => btn.disabled);
+
+    if (allSoldOut) {
+      addBtn.disabled = true;
+      addBtn.textContent = 'SOLD OUT';
+    } else {
+      addBtn.disabled = false;
+      addBtn.textContent = 'ADD TO CART';
+    }
+  }
+
+  showErrorMessage(drawer, message) {
+    const content = drawer.querySelector('.amm-stl-product-drawer__content');
+    if (!content) return;
+
+    // Remove any existing error message
+    const existing = content.querySelector('.amm-stl-product-drawer__error');
+    if (existing) existing.remove();
+
+    // Create error message element
+    const errorEl = document.createElement('div');
+    errorEl.className = 'amm-stl-product-drawer__error';
+    errorEl.textContent = message;
+    errorEl.style.cssText = `
+      color: #d32f2f;
+      font-size: 12px;
+      text-align: center;
+      padding: 8px 0;
+    `;
+
+    // Prepend to content and auto-remove after 3 seconds
+    content.prepend(errorEl);
+    setTimeout(() => errorEl.remove(), 4000);
   }
 }
 

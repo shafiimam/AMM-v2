@@ -1,0 +1,136 @@
+{%- comment -%}
+  AMM Shop the Look — quick add: theme quick-buy-modal, single-variant product-form, or legacy drawer.
+
+  @param product {Product}
+  @param section {Section}
+  @param block {Block}
+  @param placement {String} "image" | "footer"
+  @param drawer_show_quantity {Boolean} legacy drawer only
+{%- endcomment -%}
+
+{%- liquid
+  assign use_quick_buy = section.settings.show_quick_buy
+  assign place = placement | default: 'image'
+-%}
+
+{%- if place == 'image' -%}
+  {%- if use_quick_buy and product.available -%}
+    {%- if product.variants.size == 1 and product.selling_plan_groups.size == 0 -%}
+      <product-form>
+        {%- form 'product', product -%}
+          <input type="hidden" name="on_success" value="force_open_drawer">
+          <input type="hidden" name="quantity" value="1">
+          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+          <button
+            type="submit"
+            class="amm-stl-product-item__quick-add-btn product-card__quick-add-button"
+            aria-label="{{ 'product.general.add_to_cart_button' | t }}"
+          >
+            <span class="sr-only">{{ 'product.general.add_to_cart_button' | t }}</span>
+            <svg class="icon-plus" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">
+              <path d="M6 0v12M0 6h12" stroke="currentColor" stroke-width="1.6" fill="none"/>
+            </svg>
+          </button>
+        {%- endform -%}
+      </product-form>
+    {%- else -%}
+      {%- capture quick_buy_id -%}amm-stl-quick-buy-{{ section.id }}-{{ block.id }}-{{ product.id }}{%- endcapture -%}
+      <button
+        type="button"
+        class="amm-stl-product-item__quick-add-btn product-card__quick-add-button"
+        aria-controls="{{ quick_buy_id }}"
+        aria-label="{{ 'product.general.choose_options' | t }}"
+      >
+        <span class="sr-only">{{ 'product.general.choose_options' | t }}</span>
+        <svg class="icon-plus" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">
+          <path d="M6 0v12M0 6h12" stroke="currentColor" stroke-width="1.6" fill="none"/>
+        </svg>
+      </button>
+      <quick-buy-modal
+        handle="{{ product.handle }}?variant={{ product.selected_or_first_available_variant.id }}"
+        class="quick-buy-modal modal modal--lg color-scheme color-scheme--dialog"
+        id="{{ quick_buy_id }}"
+      ></quick-buy-modal>
+    {%- endif -%}
+  {%- elsif product.available -%}
+    <button
+      type="button"
+      class="amm-stl-product-item__quick-add-btn"
+      data-quick-add-btn
+      aria-label="Open size and add to cart"
+    >
+      <svg class="icon-plus" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">
+        <path d="M6 0v12M0 6h12" stroke="currentColor" stroke-width="1.6" fill="none"/>
+      </svg>
+    </button>
+  {%- endif -%}
+
+{%- elsif place == 'footer' -%}
+  {%- unless use_quick_buy -%}
+    {%- if product.available -%}
+      <div
+        class="amm-stl-product-drawer"
+        data-product-drawer
+        data-block-id="{{ block.id }}"
+        data-product-id="{{ product.id }}"
+        data-product-handle="{{ product.handle }}"
+      >
+        <div class="amm-stl-product-drawer__content">
+          <div class="amm-stl-product-drawer__header">
+            <h3 class="amm-stl-product-drawer__title">{{ product.title }}</h3>
+            <button type="button" class="amm-stl-product-drawer__close" data-drawer-close aria-label="Close">
+              <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                <path d="M1 1l14 14M15 1L1 15" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              </svg>
+            </button>
+          </div>
+
+          <div class="amm-stl-product-drawer__section">
+            <label class="amm-stl-product-drawer__label">{{ product.options[0] }}:</label>
+            <div class="amm-stl-product-drawer__size-options" data-size-options>
+              {%- for variant in product.variants -%}
+                <button
+                  type="button"
+                  class="amm-stl-product-drawer__size-btn{% unless variant.available %} is-unavailable{% endunless %}"
+                  data-size-btn
+                  data-variant-id="{{ variant.id }}"
+                  data-size="{{ variant.option1 }}"
+                  {% unless variant.available %}disabled{% endunless %}
+                >
+                  {{ variant.option1 }}
+                </button>
+              {%- endfor -%}
+            </div>
+          </div>
+
+          {%- if drawer_show_quantity -%}
+            <div class="amm-stl-product-drawer__section">
+              <label class="amm-stl-product-drawer__label">Quantity:</label>
+              <div class="amm-stl-product-drawer__quantity">
+                <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-minus>−</button>
+                <input
+                  type="number"
+                  class="amm-stl-product-drawer__qty-input"
+                  data-qty-input
+                  min="1"
+                  value="1"
+                  readonly
+                >
+                <button type="button" class="amm-stl-product-drawer__qty-btn" data-qty-plus>+</button>
+              </div>
+            </div>
+          {%- endif -%}
+
+          <button
+            type="button"
+            class="amm-stl-product-drawer__add-to-cart"
+            data-add-to-cart
+            data-product-id="{{ product.id }}"
+          >
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+    {%- endif -%}
+  {%- endunless -%}
+{%- endif -%}

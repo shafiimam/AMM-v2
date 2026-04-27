@@ -86,6 +86,67 @@
         "content": ""
       }
     },
+    "amm_shop_the_look_xrmP86": {
+      "type": "amm-shop-the-look",
+      "blocks": {
+        "product_tLhd6G": {
+          "type": "product",
+          "settings": {
+            "product": "entire-studios-heavy-hoodie-rhino",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 50
+          }
+        },
+        "product_pebPfm": {
+          "type": "product",
+          "settings": {
+            "product": "entire-studios-barren-cargo-1",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 25
+          }
+        }
+      },
+      "block_order": [
+        "product_tLhd6G",
+        "product_pebPfm"
+      ],
+      "name": "AMM Shop the Look",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "layout": "film-strip",
+        "subheading": "",
+        "title": "Shop the look",
+        "cta_text": "Shop this look",
+        "look_image": "shopify://shop_images/425__SQUIDLIK.jpg",
+        "show_hotspot_numbering": true
+      }
+    },
+    "177671958293f00c80": {
+      "type": "apps",
+      "blocks": {
+        "shop_the_look_shop_the_look_static_tBHEt9": {
+          "type": "shopify://apps/shop-the-look/blocks/shop-the-look-static/36dde5f1-9b4e-442e-b806-01ba76d9468d",
+          "settings": {
+            "product": "entire-studios-heavy-hoodie-rhino",
+            "template": "inpage_r",
+            "title": "Shop the look",
+            "customCss": ""
+          }
+        }
+      },
+      "block_order": [
+        "shop_the_look_shop_the_look_static_tBHEt9"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true
+      }
+    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
@@ -1110,6 +1171,8 @@
   },
   "order": [
     "media_grid_38Mmew",
+    "amm_shop_the_look_xrmP86",
+    "177671958293f00c80",
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
