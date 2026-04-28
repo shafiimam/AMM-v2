@@ -21,7 +21,7 @@
             <p class="amm-stl__subheading">{{ section.settings.subheading }}</p>
           {%- endif -%}
           {%- if section.settings.title != blank -%}
-            <h2 class="amm-stl__title">{{ section.settings.title }}</h2>
+            <h2 class="h2">{{ section.settings.title }}</h2>
           {%- endif -%}
         </div>
       {%- endunless -%}
@@ -36,7 +36,7 @@
               <p class="amm-stl__subheading">{{ section.settings.subheading }}</p>
             {%- endif -%}
             {%- if section.settings.title != blank -%}
-              <h2 class="amm-stl__title">{{ section.settings.title }}</h2>
+              <h2 class="h2">{{ section.settings.title }}</h2>
             {%- endif -%}
           </div>
         {%- endif -%}
@@ -105,7 +105,8 @@
                   </div>
                   <a href="{{ product.url }}">
                     <div class="amm-stl__product-info">
-                      <p class="amm-stl__product-title">{{ product.title }}</p>
+                      <h3 class="h6 line-clamp">{{ product.vendor }}</h3>
+                      <p class="amm-stl__product-title"> {{ product.title }}</p>
                       <p class="amm-stl__product-price">{{ product.price | money }}</p>
                       <span class="amm-stl__product-link">Shop →</span>
                     </div>
@@ -318,7 +319,9 @@
                   <a href="{{ product.url }}">
                     <div class="amm-stl__product-info">
                       <p class="amm-stl__product-title">{{ product.title }}</p>
-                      <p class="amm-stl__product-price">{{ product.price | money }}</p>
+                      {% if section.settings.show_product_price %}
+                        <p class="amm-stl__product-price">{{ product.price | money }}</p>
+                      {% endif %}
                       <span class="amm-stl__product-link">Shop →</span>
                     </div>
                   </a>
@@ -431,6 +434,12 @@
       "id": "show_hotspot_numbering",
       "label": "Show product numbering on hotspots",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_price",
+      "default": true,
+      "label": "Show product price"
     }
   ],
   "blocks": [
