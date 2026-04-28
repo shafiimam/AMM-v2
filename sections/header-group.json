@@ -98,49 +98,90 @@
         },
         "release_DjJNYX": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "4.16",
-            "release_image": "shopify://shop_images/TWGEXCLUSIVEPETERSON23_STUDDED_-1.jpg",
-            "product_title": "MAISON MIHARA YASUHIRO PETERSON 23 \"STUDDED\"",
+            "release_title": "4.30",
+            "release_image": "shopify://shop_images/NB1890XJFGNAVY-1_1.jpg",
+            "product_title": "JOE FRESHGOODS X NEW BALANCE 1890 \"NAUGHTY THINGS\"",
             "product_vendor": "",
-            "product_price": "$588",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/maison-mihara-yasuhiro-peterson-23-studded"
-          }
-        },
-        "release_nAhaJK": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "4.17",
-            "release_image": "shopify://shop_images/EVOSLKJ5092-1.jpg",
-            "product_title": "ADIDAS DO NOT DUPLICATE EVO SL DAYGLOW \"ORANGE/WHITE\"",
-            "product_vendor": "",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-evo-sl-dayglow-orangewhite"
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/joe-freshgoods-x-new-balance-1890-naughty-things"
           }
         },
         "release_tw94g8": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "4.17",
-            "release_image": "shopify://shop_images/EVOSLKJ5093-1.jpg",
-            "product_title": "ADIDAS DO NOT DUPLICATE EVO SL DAYGLOW \"BLACK/BLUE/CLAY\"",
+            "release_title": "4.30",
+            "release_image": "shopify://shop_images/AJ6CAPNGOWN-1.jpg",
+            "product_title": "AIR JORDAN 6 RETRO \"CAP AND GOWN\"",
             "product_vendor": "",
-            "product_price": "$170",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-evo-sl-dayglow-blackblueclay"
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-cap-and-gown"
+          }
+        },
+        "release_EJKfRW": {
+          "type": "release",
+          "settings": {
+            "release_title": "4.30",
+            "release_image": "shopify://shop_images/HUARACHE2K4OTBLK-1.jpg",
+            "product_title": "NIKE AIR ZOOM HUARACHE 2K4 OT",
+            "product_vendor": "",
+            "product_price": "$200",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-zoom-huarache-2k4-ot"
+          }
+        },
+        "release_QMRqcN": {
+          "type": "release",
+          "settings": {
+            "release_title": "5.1",
+            "release_image": "shopify://shop_images/CLIMACOOLBEIGEBLK-1.jpg",
+            "product_title": "ADIDAS CLIMACOOL \"TAN/BLACK\"",
+            "product_vendor": "",
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-climacool-tanblack"
+          }
+        },
+        "release_rfj96B": {
+          "type": "release",
+          "settings": {
+            "release_title": "5.1",
+            "release_image": "shopify://shop_images/CLIMACOOLGRYBLK-1.jpg",
+            "product_title": "ADIDAS CLIMACOOL \"GREY/BLACK\"",
+            "product_vendor": "",
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-climacool-greyblack"
+          }
+        },
+        "release_nAhaJK": {
+          "type": "release",
+          "settings": {
+            "release_title": "5.2",
+            "release_image": "shopify://shop_images/AJ1LOWBANNED-1.jpg",
+            "product_title": "AIR JORDAN 1 RETRO LOW OG \"BANNED\"",
+            "product_vendor": "",
+            "product_price": "$145",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-retro-low-og-banned"
           }
         },
         "release_KPd8WR": {
           "type": "release",
           "settings": {
-            "release_title": "4.17",
-            "release_image": "shopify://shop_images/WALESBONNERGAZELLEBROWNPONY-1.jpg",
-            "product_title": "ADIDAS X WALES BONNER GAZELLE PONY \"AURORA COFFEE/CORE BLACK/WONDER WHITE\"",
+            "release_title": "5.2",
+            "release_image": "shopify://shop_images/CLOTSAMBABYEDISONCHENWHTBLK-1.jpg",
+            "product_title": "ADIDAS CLOT SAMBA BY EDISON CHEN \"WHITE/BLACK\"",
             "product_vendor": "",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-x-wales-bonner-gazelle-pony-aurora-coffeecore-blackwonder-white"
+            "product_price": "$140",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-clot-samba-by-edison-chen-whiteblack"
+          }
+        },
+        "release_egU6UA": {
+          "type": "release",
+          "settings": {
+            "release_title": "5.2",
+            "release_image": "shopify://shop_images/CLOTMUNDIALBYEDISONCHENBLKBGE-1.jpg",
+            "product_title": "ADIDAS CLOT MUNDIAL BY EDISON CHEN",
+            "product_vendor": "",
+            "product_price": "$150",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-clot-mundial-by-edison-chen"
           }
         }
       },
@@ -149,9 +190,13 @@
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
         "release_DjJNYX",
-        "release_nAhaJK",
         "release_tw94g8",
-        "release_KPd8WR"
+        "release_EJKfRW",
+        "release_QMRqcN",
+        "release_rfj96B",
+        "release_nAhaJK",
+        "release_KPd8WR",
+        "release_egU6UA"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -179,7 +224,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": false
+        "show_releases": true
       }
     }
   },
