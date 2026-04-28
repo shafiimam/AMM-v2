@@ -24,15 +24,6 @@
   margin: 0 0 0.6rem;
 }
 
-.amm-stl__title {
-  font-family: var(--stl-font-heading);
-  font-size: clamp(1.6rem, 4vw, 3.2rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 1;
-}
 
 .amm-stl__image-wrap {
   position: relative;
@@ -91,14 +82,13 @@
 
 .amm-stl__product-title {
   font-family: var(--stl-font-heading);
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: var(--text-h6);
+  font-weight: 300;
+  text-transform: none;
   letter-spacing: 0.08em;
-  margin: 0 0 0.2rem;
-  white-space: nowrap;
+  margin: 0.5rem 0 15px;
   overflow: hidden;
-  text-overflow: ellipsis;
+  color: #000000;
 }
 
 .amm-stl__product-price {
@@ -199,7 +189,7 @@
 
 @media screen and (min-width: 1000px) {
   .amm-stl--editorial-split .amm-stl__stage {
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2.5fr 2fr;
   }
 
   .amm-stl--editorial-split .amm-stl__image-wrap {
@@ -282,7 +272,7 @@
 .amm-stl__hotspot-card {
   position: absolute;
   z-index: 10;
-  width: 175px;
+  width: 225px;
   background: #fff;
   color: #000;
   padding: 0.8rem;
@@ -758,7 +748,7 @@
 .amm-stl-product-item__quick-add-btn {
   position: absolute;
   bottom: 12px;
-  left: 12px;
+  right: 0;
   width: 40px;
   height: 40px;
   background: white;

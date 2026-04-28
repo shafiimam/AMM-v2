@@ -68,6 +68,224 @@
         "content": ""
       }
     },
+    "177737887140a2d7dc": {
+      "type": "apps",
+      "blocks": {
+        "shop_the_look_shop_the_look_static_WYJDba": {
+          "type": "shopify://apps/shop-the-look/blocks/shop-the-look-static/36dde5f1-9b4e-442e-b806-01ba76d9468d",
+          "settings": {
+            "product": "willy-chavarria-hardcore-muscle-tee-black",
+            "template": "inpage",
+            "title": "Shop the look",
+            "customCss": ""
+          }
+        }
+      },
+      "block_order": [
+        "shop_the_look_shop_the_look_static_WYJDba"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "amm_shop_the_look_Mrqn7y": {
+      "type": "amm-shop-the-look",
+      "blocks": {
+        "product_jgqGHA": {
+          "type": "product",
+          "settings": {
+            "product": "givenchy-4g-metal-swimshorts",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 27
+          }
+        },
+        "product_Xjw7TB": {
+          "type": "product",
+          "settings": {
+            "product": "jaide-x-made-in-usa-990-v4-gs",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 70
+          }
+        }
+      },
+      "block_order": [
+        "product_jgqGHA",
+        "product_Xjw7TB"
+      ],
+      "name": "AMM Shop the Look",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_quick_buy": true,
+        "layout": "editorial-split",
+        "subheading": "editotrial split",
+        "title": "Shop the look",
+        "cta_text": "Shop this look",
+        "look_image": "shopify://shop_images/KV2247_8_APPAREL_OnModel_StandardOutfitView_transparent.png",
+        "show_hotspot_numbering": true
+      }
+    },
+    "amm_shop_the_look_At3B4B": {
+      "type": "amm-shop-the-look",
+      "blocks": {
+        "product_qfirrq": {
+          "type": "product",
+          "settings": {
+            "product": "givenchy-4g-metal-swimshorts",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 27
+          }
+        },
+        "product_84wym7": {
+          "type": "product",
+          "settings": {
+            "product": "jaide-x-made-in-usa-990-v4-gs",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 70
+          }
+        }
+      },
+      "block_order": [
+        "product_qfirrq",
+        "product_84wym7"
+      ],
+      "name": "AMM Shop the Look",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_quick_buy": true,
+        "layout": "hotspot",
+        "subheading": "hotspot interactive",
+        "title": "Shop the look",
+        "cta_text": "Shop this look",
+        "look_image": "shopify://shop_images/KV2247_8_APPAREL_OnModel_StandardOutfitView_transparent.png",
+        "show_hotspot_numbering": true
+      }
+    },
+    "amm_shop_the_look_LrVYy7": {
+      "type": "amm-shop-the-look",
+      "blocks": {
+        "product_kmhDFX": {
+          "type": "product",
+          "settings": {
+            "product": "givenchy-4g-metal-swimshorts",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 27
+          }
+        },
+        "product_kVPfnx": {
+          "type": "product",
+          "settings": {
+            "product": "jaide-x-made-in-usa-990-v4-gs",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 70
+          }
+        }
+      },
+      "block_order": [
+        "product_kmhDFX",
+        "product_kVPfnx"
+      ],
+      "name": "AMM Shop the Look",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_quick_buy": true,
+        "layout": "cinematic-drawer",
+        "subheading": "Cinematic drawer",
+        "title": "Shop the look",
+        "cta_text": "Shop this look",
+        "look_image": "shopify://shop_images/apbmicro_73e7501e-be51-4a00-a49c-c873bd3f9f1b.png",
+        "show_hotspot_numbering": true
+      }
+    },
+    "amm_shop_the_look_PbVxHy": {
+      "type": "amm-shop-the-look",
+      "blocks": {
+        "product_x9E78r": {
+          "type": "product",
+          "settings": {
+            "product": "givenchy-4g-metal-swimshorts",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 27
+          }
+        },
+        "product_CzyccK": {
+          "type": "product",
+          "settings": {
+            "product": "jaide-x-made-in-usa-990-v4-gs",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 70
+          }
+        }
+      },
+      "block_order": [
+        "product_x9E78r",
+        "product_CzyccK"
+      ],
+      "name": "AMM Shop the Look",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_quick_buy": true,
+        "layout": "film-strip",
+        "subheading": "Film strip",
+        "title": "Shop the look",
+        "cta_text": "Shop this look",
+        "look_image": "shopify://shop_images/KV2247_8_APPAREL_OnModel_StandardOutfitView_transparent.png",
+        "show_hotspot_numbering": true
+      }
+    },
+    "amm_shop_the_look_G3zqbB": {
+      "type": "amm-shop-the-look",
+      "blocks": {
+        "product_Nkif4j": {
+          "type": "product",
+          "settings": {
+            "product": "givenchy-4g-metal-swimshorts",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 27
+          }
+        },
+        "product_PaF6kF": {
+          "type": "product",
+          "settings": {
+            "product": "jaide-x-made-in-usa-990-v4-gs",
+            "show_as_hotspot": true,
+            "hotspot_x": 50,
+            "hotspot_y": 70
+          }
+        }
+      },
+      "block_order": [
+        "product_Nkif4j",
+        "product_PaF6kF"
+      ],
+      "name": "AMM Shop the Look",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_quick_buy": true,
+        "layout": "mosaic",
+        "subheading": "Mosaic immersive",
+        "title": "Shop the look",
+        "cta_text": "Shop this look",
+        "look_image": "shopify://shop_images/ammemailproduct.png",
+        "show_hotspot_numbering": true
+      }
+    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
@@ -181,50 +399,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "176075966993f87866": {
-      "type": "_blocks",
-      "disabled": true,
-      "settings": {}
-    },
-    "amm_shop_the_look_DxnG8F": {
-      "type": "amm-shop-the-look",
-      "blocks": {
-        "product_jXwcqq": {
-          "type": "product",
-          "settings": {
-            "product": "saint-michael-wht-2pac-tee",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 70
-          }
-        },
-        "product_aX6wmY": {
-          "type": "product",
-          "settings": {
-            "product": "acne-studios-2021m-trafalgar-jeans-light-blue",
-            "show_as_hotspot": true,
-            "hotspot_x": 46,
-            "hotspot_y": 75
-          }
-        }
-      },
-      "block_order": [
-        "product_jXwcqq",
-        "product_aX6wmY"
-      ],
-      "name": "AMM Shop the Look",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "show_quick_buy": true,
-        "layout": "hotspot",
-        "subheading": "",
-        "title": "Shop the look",
-        "cta_text": "Shop this look",
-        "look_image": "shopify://shop_images/willyc.png",
-        "show_hotspot_numbering": true
-      }
-    },
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
@@ -268,6 +442,37 @@
         "image_description": "<p>Return to Summerland with the latest from PUMA x NAHMIAS. Paying homage to Doni Nahmias' Southern California hometown, this new drop blends the designers L.A aesthetic with the speed and style of motorsport.<br/><br/>Featuring the iconic Speedcat with all-new premium detailing, luxe track pieces, and edgy graphic tees that bring street style into the luxury space. Born on the west coast, inspired by the track. </p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/puma"
+      }
+    },
+    "featured_collections_RwpkEJ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_t3bATr": {
+          "type": "collection",
+          "settings": {
+            "collection": "spring-authority",
+            "products_count": 8,
+            "title": "Spring Authority",
+            "link_url": "shopify://collections/spring-authority",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_t3bATr"
+      ],
+      "custom_css": [],
+      "name": "spring collection",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "media_grid_dcKXGR": {
@@ -525,6 +730,7 @@
       "block_order": [
         "collection_b4hYCA"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "a ma maniere",
       "settings": {
@@ -665,7 +871,7 @@
           "type": "video",
           "settings": {
             "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/Willy Brand page vid.mov",
+            "video": "shopify://files/videos/willy track suit .mov",
             "autoplay": true,
             "show_controls": false,
             "column_count": "6",
@@ -685,7 +891,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/DSC02305.jpg",
+            "image": "shopify://shop_images/21_CL_c9e07d05-6790-4f49-b890-701ebbf8d342.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "<strong>new arrivals </strong>",
@@ -715,82 +921,6 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "featured_collections_RwpkEJ": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_t3bATr": {
-          "type": "collection",
-          "settings": {
-            "collection": "footwear",
-            "products_count": 8,
-            "title": "Spring Authority",
-            "link_url": "shopify://collections/spring-authority",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_t3bATr"
-      ],
-      "custom_css": [],
-      "name": "spring collection",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.8,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "multiple_media_with_text_Lgp4CV": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_cHgxNx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DSC07078BB.jpg",
-            "rotation": 0
-          }
-        },
-        "image_TpyxFX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/H526Y1DW13-6395_2_847652d0-9de5-40ab-b112-b454ededafff.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_cHgxNx",
-        "image_TpyxFX"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "Seasonal Layers",
-        "title": "Refined Essentials for Spring",
-        "content": "<p>Step into the season with intentional pieces built for movement, light layering, and transitional style. From crisp bombers to relaxed trousers, spring calls for refined silhouettes, breathable textures, and a palette that balances softness with structure.</p>",
-        "button_1_text": "DISCOVER MORE",
-        "button_1_link": "https://www.a-ma-maniere.com/collections/seasonal-layering",
-        "button_1_style": "link",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
       }
     },
     "before-after": {
@@ -1016,10 +1146,15 @@
   },
   "order": [
     "media_grid_38Mmew",
+    "177737887140a2d7dc",
+    "amm_shop_the_look_Mrqn7y",
+    "amm_shop_the_look_At3B4B",
+    "amm_shop_the_look_LrVYy7",
+    "amm_shop_the_look_PbVxHy",
+    "amm_shop_the_look_G3zqbB",
     "slideshow_QGYQ6e",
-    "176075966993f87866",
-    "amm_shop_the_look_DxnG8F",
     "featureed_image_and_products_7MHNbK",
+    "featured_collections_RwpkEJ",
     "media_grid_dcKXGR",
     "media_grid_DzxzqH",
     "image_with_text_4rzGhq",
@@ -1028,8 +1163,6 @@
     "shop_the_look_yjtpt9",
     "featured_collections_WMah7x",
     "media_grid_7fM37z",
-    "featured_collections_RwpkEJ",
-    "multiple_media_with_text_Lgp4CV",
     "before-after",
     "blocks_xhmELd",
     "176076770152fa2223",
