@@ -1,15 +1,15 @@
-{%- comment %}<locksmith:ec68>{% endcomment -%}
+{%- comment %}<locksmith:73fd>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:ec68>{% endcomment -%}
+{%- comment %}</locksmith:73fd>{% endcomment -%}
 
 <!doctype html>
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+	{{ locksmith_initializations }}
 	<!-- Added by AVADA SEO Suite -->
 	{% include 'avada-seo' %}
 	<!-- /Added by AVADA SEO Suite -->
-    {{ locksmith_initializations }}
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -42,10 +42,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </title>
 
     {%- if page_description -%}
-      {%- comment %}<locksmith:a969>{% endcomment -%}
+      {%- comment %}<locksmith:9750>{% endcomment -%}
         {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
         {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-      {%- comment %}</locksmith:a969>{% endcomment -%}
+      {%- comment %}</locksmith:9750>{% endcomment -%}
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
