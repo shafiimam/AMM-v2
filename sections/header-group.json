@@ -98,6 +98,7 @@
         },
         "release_DjJNYX": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "4.30",
             "release_image": "shopify://shop_images/NB1890XJFGNAVY-1_1.jpg",
@@ -109,6 +110,7 @@
         },
         "release_tw94g8": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "4.30",
             "release_image": "shopify://shop_images/AJ6CAPNGOWN-1.jpg",
@@ -120,6 +122,7 @@
         },
         "release_EJKfRW": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "4.30",
             "release_image": "shopify://shop_images/HUARACHE2K4OTBLK-1.jpg",
