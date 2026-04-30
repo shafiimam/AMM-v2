@@ -189,46 +189,46 @@
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_cWVffK": {
-          "type": "product",
-          "settings": {
-            "product": "puma-x-nahmias-knit-jersey-black"
-          }
-        },
         "product_6yqwTq": {
           "type": "product",
           "settings": {
-            "product": "puma-x-nahmias-track-pants-black"
+            "product": "adidas-x-willy-chavarria-logo-tee-off-white"
           }
         },
-        "product_8q4ahn": {
+        "product_cWVffK": {
           "type": "product",
           "settings": {
-            "product": "nahmias-speedcat-warm-white-sand-dark-grey"
+            "product": "adidas-x-willy-chavarria-pinstripe-long-short-black-white"
           }
         },
         "product_wBMWzJ": {
           "type": "product",
           "settings": {
-            "product": "nahmias-speedcat-black-canvas-candy-apple"
+            "product": "willy-chavarria-willy-ropita-shrunken-zip-through-hoodie-butter"
+          }
+        },
+        "product_8q4ahn": {
+          "type": "product",
+          "settings": {
+            "product": "wc-superstar-black-white-gold"
           }
         }
       },
       "block_order": [
-        "product_cWVffK",
         "product_6yqwTq",
-        "product_8q4ahn",
-        "product_wBMWzJ"
+        "product_cWVffK",
+        "product_wBMWzJ",
+        "product_8q4ahn"
       ],
       "name": "puma x nahmia",
       "settings": {
         "section_alignment": "left",
-        "title": "PUMA X NAHMIAS",
+        "title": "Willy Chavarria",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-2_App-Story_1080x1920px.jpg",
-        "image_description": "<p>Return to Summerland with the latest from PUMA x NAHMIAS. Paying homage to Doni Nahmias' Southern California hometown, this new drop blends the designers L.A aesthetic with the speed and style of motorsport.<br/><br/>Featuring the iconic Speedcat with all-new premium detailing, luxe track pieces, and edgy graphic tees that bring street style into the luxury space. Born on the west coast, inspired by the track. </p>",
+        "image": "shopify://shop_images/willyc3.png",
+        "image_description": "<p>Choose unity. Lead with purpose.<br/>Explore the new adidas originals x<br/>Willy Chavarria collection.</p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/puma"
+        "image_cta_url": "shopify://collections/willy-chavarria"
       }
     },
     "featured_collections_RwpkEJ": {
