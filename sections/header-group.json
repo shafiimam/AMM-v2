@@ -134,6 +134,7 @@
         },
         "release_QMRqcN": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "5.1",
             "release_image": "shopify://shop_images/CLIMACOOLBEIGEBLK-1.jpg",
@@ -145,6 +146,7 @@
         },
         "release_rfj96B": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "5.1",
             "release_image": "shopify://shop_images/CLIMACOOLGRYBLK-1.jpg",
