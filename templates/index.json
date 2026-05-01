@@ -160,7 +160,7 @@
             "button_hover_background": "#000000",
             "button_hover_text_color": "#ffffff",
             "button_hover_border_color": "#000000",
-            "bag_icon_transparent": false,
+            "bag_icon_transparent": true,
             "bag_icon_background": "#ffffff",
             "bag_icon_color": "#1c1c1c",
             "bag_icon_border_color": "#1c1c1c",
