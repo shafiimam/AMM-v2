@@ -149,19 +149,12 @@
             "background": "",
             "text_color": ""
           }
-        },
-        "richtext_dtYHDQ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>All final sale. No returns or exchanges. Please allow for 5-10 days for domestic and 10-15 days for international. Reminder to also verify your shipping address is correct.<br/></p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>"
-          }
         }
       },
       "block_order": [
         "heading_TQR4GH",
         "richtext_WVXb8y",
-        "button_yd3i4M",
-        "richtext_dtYHDQ"
+        "button_yd3i4M"
       ],
       "name": "collection copy",
       "settings": {
