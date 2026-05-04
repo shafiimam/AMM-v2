@@ -9,324 +9,19 @@
  */
 {
   "sections": {
-    "media_grid_38Mmew": {
-      "type": "media-grid",
-      "blocks": {
-        "video_yG7g7d": {
-          "type": "video",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/DND COLLECTION (FE)4k H.265.mov",
-            "autoplay": true,
-            "show_controls": true,
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_NWPt3Q": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/amm4.30_477ad251-83d8-4ce5-b846-6ae36d382ac3.png",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "<strong>do not duplicate: the collection </strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "video_yG7g7d",
-        "image_NWPt3Q"
-      ],
-      "name": "4.24 collection ",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 450,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
-    "177737887140a2d7dc": {
-      "type": "apps",
-      "blocks": {
-        "shop_the_look_shop_the_look_static_WYJDba": {
-          "type": "shopify://apps/shop-the-look/blocks/shop-the-look-static/36dde5f1-9b4e-442e-b806-01ba76d9468d",
-          "settings": {
-            "product": "willy-chavarria-hardcore-muscle-tee-black",
-            "template": "inpage",
-            "title": "Shop the look",
-            "customCss": ""
-          }
-        }
-      },
-      "block_order": [
-        "shop_the_look_shop_the_look_static_WYJDba"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
-      }
-    },
-    "amm_shop_the_look_Mrqn7y": {
-      "type": "amm-shop-the-look",
-      "blocks": {
-        "product_jgqGHA": {
-          "type": "product",
-          "settings": {
-            "product": "givenchy-4g-metal-swimshorts",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 27
-          }
-        },
-        "product_Xjw7TB": {
-          "type": "product",
-          "settings": {
-            "product": "jaide-x-made-in-usa-990-v4-gs",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 70
-          }
-        }
-      },
-      "block_order": [
-        "product_jgqGHA",
-        "product_Xjw7TB"
-      ],
-      "name": "AMM Shop the Look",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "show_quick_buy": true,
-        "layout": "editorial-split",
-        "subheading": "editotrial split",
-        "title": "Shop the look",
-        "cta_text": "Shop this look",
-        "look_image": "shopify://shop_images/KV2247_8_APPAREL_OnModel_StandardOutfitView_transparent.png",
-        "show_hotspot_numbering": true
-      }
-    },
-    "amm_shop_the_look_At3B4B": {
-      "type": "amm-shop-the-look",
-      "blocks": {
-        "product_qfirrq": {
-          "type": "product",
-          "settings": {
-            "product": "givenchy-4g-metal-swimshorts",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 27
-          }
-        },
-        "product_84wym7": {
-          "type": "product",
-          "settings": {
-            "product": "jaide-x-made-in-usa-990-v4-gs",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 70
-          }
-        }
-      },
-      "block_order": [
-        "product_qfirrq",
-        "product_84wym7"
-      ],
-      "name": "AMM Shop the Look",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "show_quick_buy": true,
-        "layout": "hotspot",
-        "subheading": "hotspot interactive",
-        "title": "Shop the look",
-        "cta_text": "Shop this look",
-        "look_image": "shopify://shop_images/KV2247_8_APPAREL_OnModel_StandardOutfitView_transparent.png",
-        "show_hotspot_numbering": true
-      }
-    },
-    "amm_shop_the_look_LrVYy7": {
-      "type": "amm-shop-the-look",
-      "blocks": {
-        "product_kmhDFX": {
-          "type": "product",
-          "settings": {
-            "product": "givenchy-4g-metal-swimshorts",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 27
-          }
-        },
-        "product_kVPfnx": {
-          "type": "product",
-          "settings": {
-            "product": "jaide-x-made-in-usa-990-v4-gs",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 70
-          }
-        }
-      },
-      "block_order": [
-        "product_kmhDFX",
-        "product_kVPfnx"
-      ],
-      "name": "AMM Shop the Look",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "show_quick_buy": true,
-        "layout": "cinematic-drawer",
-        "subheading": "Cinematic drawer",
-        "title": "Shop the look",
-        "cta_text": "Shop this look",
-        "look_image": "shopify://shop_images/apbmicro_73e7501e-be51-4a00-a49c-c873bd3f9f1b.png",
-        "show_hotspot_numbering": true
-      }
-    },
-    "amm_shop_the_look_PbVxHy": {
-      "type": "amm-shop-the-look",
-      "blocks": {
-        "product_x9E78r": {
-          "type": "product",
-          "settings": {
-            "product": "givenchy-4g-metal-swimshorts",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 27
-          }
-        },
-        "product_CzyccK": {
-          "type": "product",
-          "settings": {
-            "product": "jaide-x-made-in-usa-990-v4-gs",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 70
-          }
-        }
-      },
-      "block_order": [
-        "product_x9E78r",
-        "product_CzyccK"
-      ],
-      "name": "AMM Shop the Look",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "show_quick_buy": true,
-        "layout": "film-strip",
-        "subheading": "Film strip",
-        "title": "Shop the look",
-        "cta_text": "Shop this look",
-        "look_image": "shopify://shop_images/KV2247_8_APPAREL_OnModel_StandardOutfitView_transparent.png",
-        "show_hotspot_numbering": true
-      }
-    },
-    "amm_shop_the_look_G3zqbB": {
-      "type": "amm-shop-the-look",
-      "blocks": {
-        "product_Nkif4j": {
-          "type": "product",
-          "settings": {
-            "product": "givenchy-4g-metal-swimshorts",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 27
-          }
-        },
-        "product_PaF6kF": {
-          "type": "product",
-          "settings": {
-            "product": "jaide-x-made-in-usa-990-v4-gs",
-            "show_as_hotspot": true,
-            "hotspot_x": 50,
-            "hotspot_y": 70
-          }
-        }
-      },
-      "block_order": [
-        "product_Nkif4j",
-        "product_PaF6kF"
-      ],
-      "name": "AMM Shop the Look",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "show_quick_buy": true,
-        "layout": "mosaic",
-        "subheading": "Mosaic immersive",
-        "title": "Shop the look",
-        "cta_text": "Shop this look",
-        "look_image": "shopify://shop_images/ammemailproduct.png",
-        "show_hotspot_numbering": true
-      }
-    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_irEa6U": {
-          "type": "image",
-          "name": "4.24 the collection",
-          "disabled": true,
-          "settings": {
-            "subheading": "<p>Tell your story</p>",
-            "subheading_size": 12,
-            "title": "<p>Image slide</p>",
-            "title_size": 32,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "video_WdyPWD": {
           "type": "video",
           "name": "COLLECTION VID",
           "settings": {
-            "video": "shopify://files/videos/DND COLLECTION RESHOT4k H.265.mov",
+            "video": "shopify://files/videos/slitsound wide.mp4",
+            "mobile_video": "shopify://files/videos/slitsound vert.mp4",
             "allow_sound": true,
-            "subheading": "<strong>EXCLUSIVELY AVAILABLE APRIL 24</strong>",
+            "subheading": "",
             "subheading_size": 16,
-            "title": "<strong>DO NOT DUPLICATE: THE COLLECTION</strong>",
+            "title": "<strong>JOE FRESHGOODS X NEW BALANCE 1890 \"NAUGHTY THINGS\" </strong>",
             "title_size": 32,
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -336,8 +31,8 @@
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
-            "button_2_text": "EXPLORE THE STORY",
-            "button_2_link": "shopify://pages/do-not-duplicate",
+            "button_2_text": "SHOP NOW",
+            "button_2_link": "shopify://products/joe-fresh-goods-x-1890-navy",
             "button_2_style": "solid",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -347,46 +42,11 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
-        },
-        "video_kDTrdD": {
-          "type": "video",
-          "name": "dayglow VIDEO",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
-            "mobile_video": "shopify://files/videos/DND ADI0 v1 rough 4k H.265.mov",
-            "allow_sound": true,
-            "subheading": "",
-            "subheading_size": 21,
-            "title": "",
-            "title_size": 37,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "Explore the Story",
-            "button_1_link": "shopify://pages/do-not-duplicate-drop3",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "shopify://pages/do-not-duplicate-drop3",
-            "button_2_style": "solid",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
-        "image_irEa6U",
-        "video_WdyPWD",
-        "video_kDTrdD"
+        "video_WdyPWD"
       ],
-      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -399,50 +59,194 @@
         "controls_color": "#ffffff"
       }
     },
+    "176075966993f87866": {
+      "type": "_blocks",
+      "disabled": true,
+      "settings": {}
+    },
     "featureed_image_and_products_7MHNbK": {
       "type": "featureed-image-and-products",
       "blocks": {
-        "product_cWVffK": {
+        "product_rMWBLC": {
           "type": "product",
           "settings": {
-            "product": "puma-x-nahmias-knit-jersey-black"
+            "product": "alchemist-summer-olympus-jacket-army-green"
           }
         },
-        "product_6yqwTq": {
+        "product_k9tgcN": {
           "type": "product",
           "settings": {
-            "product": "puma-x-nahmias-track-pants-black"
+            "product": "casablanca-plafond-orne-de-musique-tee-white"
           }
         },
-        "product_8q4ahn": {
+        "product_bFHKHA": {
           "type": "product",
           "settings": {
-            "product": "nahmias-speedcat-warm-white-sand-dark-grey"
+            "product": "alchemist-studio-jeans-western-studs-black"
           }
         },
-        "product_wBMWzJ": {
+        "product_TknLx3": {
           "type": "product",
           "settings": {
-            "product": "nahmias-speedcat-black-canvas-candy-apple"
+            "product": "maison-mihara-yasuhiro-ss26-twg-exclusive-peterson-23-studded"
           }
         }
       },
       "block_order": [
-        "product_cWVffK",
-        "product_6yqwTq",
-        "product_8q4ahn",
-        "product_wBMWzJ"
+        "product_rMWBLC",
+        "product_k9tgcN",
+        "product_bFHKHA",
+        "product_TknLx3"
       ],
-      "name": "puma x nahmia",
+      "name": "WILLY CHAV",
       "settings": {
         "section_alignment": "left",
-        "title": "PUMA X NAHMIAS",
+        "title": "SPRING STYLE GUIDE",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/26SS_ECOM_PNA_SP_NAHMIAS_Look-2_App-Story_1080x1920px.jpg",
-        "image_description": "<p>Return to Summerland with the latest from PUMA x NAHMIAS. Paying homage to Doni Nahmias' Southern California hometown, this new drop blends the designers L.A aesthetic with the speed and style of motorsport.<br/><br/>Featuring the iconic Speedcat with all-new premium detailing, luxe track pieces, and edgy graphic tees that bring street style into the luxury space. Born on the west coast, inspired by the track. </p>",
+        "image": "shopify://shop_images/DSC06425BB_1.jpg",
+        "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/puma"
+        "image_cta_url": "shopify://collections/spring-style-guide"
       }
+    },
+    "blocks_hipbgz": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_WUnXJX": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 20,
+            "height_desktop": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_WUnXJX"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
+    "blocks_6H9VVp": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_219fc88_HjzhzP": {
+          "type": "ai_gen_block_219fc88",
+          "settings": {
+            "look_order": "1,2,3,4",
+            "image_aspect_ratio": "4 / 5",
+            "card_spacing": 20,
+            "content_padding": 20,
+            "enable_image_zoom": true,
+            "card_background": "#ffffff",
+            "text_color": "#1c1c1c",
+            "modal_background": "#ffffff",
+            "title_font": "roboto_n4",
+            "title_size": 16,
+            "title_transform": "uppercase",
+            "price_font": "roboto_n4",
+            "price_size": 14,
+            "default_button_text": "Shop the Look",
+            "button_font": "roboto_n4",
+            "button_size": 12,
+            "button_transform": "uppercase",
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 24,
+            "button_background": "#1c1c1c",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#1c1c1c",
+            "button_border_width": 1,
+            "button_border_radius": 0,
+            "button_hover_background": "#000000",
+            "button_hover_text_color": "#ffffff",
+            "button_hover_border_color": "#000000",
+            "bag_icon_transparent": true,
+            "bag_icon_background": "#ffffff",
+            "bag_icon_color": "#1c1c1c",
+            "bag_icon_border_color": "#1c1c1c",
+            "bag_icon_hover_background": "#1c1c1c",
+            "bag_icon_hover_color": "#ffffff",
+            "bag_icon_hover_border_color": "#1c1c1c",
+            "modal_subtitle": "Select options and add items to cart",
+            "add_to_cart_text": "Add Selected to Cart",
+            "modal_border_radius": 0,
+            "look_1_enabled": true,
+            "look_1_media_type": "image",
+            "look_1_image": "shopify://shop_images/DSC06326BB_copy_a498a60a-3b3d-41e6-b61f-41af3beba008.jpg",
+            "look_1_title": "Look 1",
+            "look_1_price": "",
+            "look_1_button_type": "modal",
+            "look_1_button_text": "",
+            "look_1_button_link": "",
+            "look_1_enable_bag_icon": true,
+            "look_1_product_1": "willy-chavarria-bad-boy-track-jacket-black",
+            "look_1_product_2": "adidas-x-willy-chavarria-logo-tee-off-white",
+            "look_1_product_3": "willy-chavarria-bad-boy-track-pant-black",
+            "look_1_product_4": "willy-chavarria-superstar-black-red-off-white",
+            "look_1_product_5": "",
+            "look_1_product_6": "",
+            "look_1_product_7": "",
+            "look_1_product_8": "",
+            "look_2_enabled": true,
+            "look_2_media_type": "image",
+            "look_2_image": "shopify://shop_images/DSC06239BB_copy_1.jpg",
+            "look_2_title": "Look 2",
+            "look_2_price": "",
+            "look_2_button_type": "modal",
+            "look_2_button_text": "",
+            "look_2_button_link": "",
+            "look_2_enable_bag_icon": true,
+            "look_2_product_1": "willy-chavarria-fashion-service-assoc-buffalo-tee-black",
+            "look_2_product_2": "willy-chavarria-borracho-short-black-2",
+            "look_2_product_3": "cdg-homme-socks-white",
+            "look_2_product_4": "dnd-bw-army",
+            "look_2_product_5": "",
+            "look_2_product_6": "",
+            "look_2_product_7": "",
+            "look_2_product_8": "",
+            "look_3_enabled": true,
+            "look_3_media_type": "image",
+            "look_3_image": "shopify://shop_images/h872kJFw.jpg",
+            "look_3_title": "Look 3",
+            "look_3_price": "",
+            "look_3_button_type": "modal",
+            "look_3_button_text": "",
+            "look_3_button_link": "",
+            "look_3_enable_bag_icon": true,
+            "look_3_product_1": "willy-chavarria-willy-ropita-shrunken-zip-through-hoodie-butter",
+            "look_3_product_2": "acne-studios-tee-shirt-ice-white",
+            "look_3_product_3": "stussy-big-ol-short-denim-indigo-stone-wash",
+            "look_3_product_4": "a-ma-maniere-w-y-w-s-air-force-1-white-white",
+            "look_3_product_5": "",
+            "look_3_product_6": "",
+            "look_3_product_7": "",
+            "look_3_product_8": "",
+            "look_4_enabled": true,
+            "look_4_media_type": "image",
+            "look_4_image": "shopify://shop_images/DSC06528BB2_1.jpg",
+            "look_4_title": "Look 4",
+            "look_4_price": "",
+            "look_4_button_type": "modal",
+            "look_4_button_text": "",
+            "look_4_button_link": "",
+            "look_4_enable_bag_icon": true,
+            "look_4_product_1": "logo-cap-4",
+            "look_4_product_2": "paly-anxiety-tee-cream",
+            "look_4_product_3": "alchemist-studio-jeans-western-studs-stripe-indigo",
+            "look_4_product_4": "acne-studios-camero-camera-shoulder-bag-brown",
+            "look_4_product_5": "",
+            "look_4_product_6": "",
+            "look_4_product_7": "",
+            "look_4_product_8": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_219fc88_HjzhzP"
+      ],
+      "name": "Shop the look grid",
+      "settings": {}
     },
     "featured_collections_RwpkEJ": {
       "type": "featured-collections",
@@ -461,6 +265,7 @@
       "block_order": [
         "collection_t3bATr"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "spring collection",
       "settings": {
@@ -575,66 +380,6 @@
         "content": ""
       }
     },
-    "media_grid_DzxzqH": {
-      "type": "media-grid",
-      "blocks": {
-        "image_jUbAfA": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/lldg.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "video_AfzNrQ": {
-          "type": "video",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/1996 reel new 3 new font.mov",
-            "autoplay": true,
-            "show_controls": true,
-            "column_count": "8",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "404 Peachtree",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_jUbAfA",
-        "video_AfzNrQ"
-      ],
-      "disabled": true,
-      "name": "VIDEO IN GRID",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 580,
-        "mobile_row_height": 450,
-        "section_width": "full",
-        "spacing": "none",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "image_with_text_4rzGhq": {
       "type": "image-with-text",
       "blocks": {
@@ -695,10 +440,10 @@
         "remove_top_padding": false
       }
     },
-    "blocks_C9GbEP": {
+    "blocks_zLJRwf": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_5edc35c_jBxbJd": {
+        "ai_gen_block_5edc35c_QbKHUb": {
           "type": "ai_gen_block_5edc35c",
           "settings": {
             "height_mobile": 20,
@@ -708,7 +453,7 @@
         }
       },
       "block_order": [
-        "ai_gen_block_5edc35c_jBxbJd"
+        "ai_gen_block_5edc35c_QbKHUb"
       ],
       "name": "Spacer",
       "settings": {}
@@ -791,6 +536,7 @@
         "look_AQePmE",
         "look_waN3iW"
       ],
+      "disabled": true,
       "name": "t:sections.shop_the_look.presets.shop_the_look.name",
       "settings": {
         "color_scheme": "",
@@ -801,36 +547,184 @@
         "popover_title": "Shop the look"
       }
     },
+    "blocks_zGemJB": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_VKwpNT": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 20,
+            "height_desktop": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_VKwpNT"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
+    "blocks_C9GbEP": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_jBxbJd": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 20,
+            "height_desktop": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_jBxbJd"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
+    "slideshow_k8LTrN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ypjcGp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/m5EOGXoA.jpg",
+            "subheading": "",
+            "subheading_size": 12,
+            "title": "",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/spring-style-guide",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 0), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_ypjcGp"
+      ],
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "media_grid_38Mmew": {
+      "type": "media-grid",
+      "blocks": {
+        "video_yG7g7d": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify://files/videos/DND COLLECTION (FE)4k H.265.mov",
+            "autoplay": true,
+            "show_controls": true,
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NWPt3Q": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/amm4.30_477ad251-83d8-4ce5-b846-6ae36d382ac3.png",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "<strong>do not duplicate: the collection </strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_yG7g7d",
+        "image_NWPt3Q"
+      ],
+      "name": "4.24 collection ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 450,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "blocks_twxA67": {
+      "type": "_blocks",
+      "name": "Spacer",
+      "settings": {}
+    },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
         "collection_QPJnbw": {
           "type": "collection",
           "settings": {
-            "collection": "polos",
+            "collection": "new-t-shirts",
             "products_count": 8,
             "title": "",
-            "link_url": "",
+            "link_url": "shopify://collections/new-t-shirts",
             "link_text": "View all"
           }
         },
         "collection_fUfJmE": {
           "type": "collection",
           "settings": {
-            "collection": "new-cargo-pants",
+            "collection": "new-denim",
             "products_count": 8,
-            "title": "cargo pants",
-            "link_url": "shopify://collections/new-cargo-pants",
+            "title": "Denim",
+            "link_url": "shopify://collections/new-denim",
             "link_text": "View all"
           }
         },
         "collection_NDmmGJ": {
           "type": "collection",
           "settings": {
-            "collection": "new-sweatshirts",
+            "collection": "jackets",
             "products_count": 8,
-            "title": "Hoodies",
-            "link_url": "shopify://collections/new-sweatshirts",
+            "title": "Jackets",
+            "link_url": "shopify://collections/jackets",
             "link_text": "View all"
           }
         },
@@ -862,110 +756,6 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 1,
         "subheading": ""
-      }
-    },
-    "media_grid_7fM37z": {
-      "type": "media-grid",
-      "blocks": {
-        "video_YPpciV": {
-          "type": "video",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/willy track suit .mov",
-            "autoplay": true,
-            "show_controls": false,
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/willy-chavarria",
-            "link_style": "link",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_DeB9na": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/21_CL_c9e07d05-6790-4f49-b890-701ebbf8d342.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "<strong>new arrivals </strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "Shop Now",
-            "link_url": "shopify://collections/willy-chavarria",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "video_YPpciV",
-        "image_DeB9na"
-      ],
-      "name": "willy chav grid ",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 380,
-        "mobile_row_height": 450,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
-    "before-after": {
-      "type": "before-after",
-      "blocks": {
-        "before": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "image": "shopify://shop_images/AMBUSHXUGGBLKFUR-1_64234f7e-9617-45c6-b81f-3a801baf67c7.jpg",
-            "mobile_image": "shopify://shop_images/AMBUSHXUGGBLKFUR-1_5a7e825b-2d4b-4016-ad3c-62e31f7646ab.jpg",
-            "text": "BLACK",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://products/ambush-loafer-black",
-            "link_style": "link"
-          }
-        },
-        "after": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "image": "shopify://shop_images/AMBUSHXUGGBROWNFUR-1_d986ac38-e7a9-4757-99ab-aca37e31f714.jpg",
-            "mobile_image": "shopify://shop_images/AMBUSHXUGGBROWNFUR-1_11eb17df-15ad-4c86-8087-de9f61178c16.jpg",
-            "text": "BURGUNDY",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://products/ambush-loafer-burgundy",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "before",
-        "after"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "subheading": "",
-        "title": "UGG X AMBUSH LOAFER",
-        "content": "<p>Choose your Color</p>",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#efefef",
-        "cursor_arrows_color": "#000000"
       }
     },
     "blocks_xhmELd": {
@@ -1145,25 +935,23 @@
     }
   },
   "order": [
-    "media_grid_38Mmew",
-    "177737887140a2d7dc",
-    "amm_shop_the_look_Mrqn7y",
-    "amm_shop_the_look_At3B4B",
-    "amm_shop_the_look_LrVYy7",
-    "amm_shop_the_look_PbVxHy",
-    "amm_shop_the_look_G3zqbB",
     "slideshow_QGYQ6e",
+    "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "blocks_hipbgz",
+    "blocks_6H9VVp",
     "featured_collections_RwpkEJ",
     "media_grid_dcKXGR",
-    "media_grid_DzxzqH",
     "image_with_text_4rzGhq",
-    "blocks_C9GbEP",
+    "blocks_zLJRwf",
     "featured_collections_EFnetB",
     "shop_the_look_yjtpt9",
+    "blocks_zGemJB",
+    "blocks_C9GbEP",
+    "slideshow_k8LTrN",
+    "media_grid_38Mmew",
+    "blocks_twxA67",
     "featured_collections_WMah7x",
-    "media_grid_7fM37z",
-    "before-after",
     "blocks_xhmELd",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
