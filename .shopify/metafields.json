@@ -339,6 +339,16 @@
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "shop_the_look_endpoint",
+      "namespace": "custom",
+      "name": "Shop the look endpoint",
+      "description": "",
+      "type": {
+        "name": "metaobject_reference",
+        "category": "REFERENCE"
+      }
     }
   ],
   "variant": [

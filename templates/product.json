@@ -235,6 +235,21 @@
         "max_image_zoom_level": 3
       }
     },
+    "amm_shop_the_look_CnJ7RE": {
+      "type": "amm-shop-the-look",
+      "name": "AMM Shop the Look",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_quick_buy": true,
+        "layout": "film-strip",
+        "subheading": "",
+        "title": "Shop the look",
+        "cta_text": "Shop this look",
+        "show_hotspot_numbering": true,
+        "show_product_price": true
+      }
+    },
     "3d_gallery_jRyAnc": {
       "type": "3d-gallery",
       "disabled": true,
@@ -545,6 +560,7 @@
   "order": [
     "breeadcrumbs_zf6QQE",
     "main",
+    "amm_shop_the_look_CnJ7RE",
     "3d_gallery_jRyAnc",
     "scrolling_content_t7zNyY",
     "image_with_text_rLpTcJ",

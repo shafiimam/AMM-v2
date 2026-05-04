@@ -3,7 +3,8 @@
 
   @param product {Product}
   @param section {Section}
-  @param block {Block}
+  @param block {Block} optional — null when section is metafield-driven
+  @param block_id {String} optional override for unique IDs when block is null
   @param placement {String} "image" | "footer"
   @param drawer_show_quantity {Boolean} legacy drawer only
 {%- endcomment -%}
@@ -11,6 +12,7 @@
 {%- liquid
   assign use_quick_buy = section.settings.show_quick_buy
   assign place = placement | default: 'image'
+  assign uid = block_id | default: block.id
 -%}
 
 {%- if place == 'image' -%}
@@ -34,7 +36,7 @@
         {%- endform -%}
       </product-form>
     {%- else -%}
-      {%- capture quick_buy_id -%}amm-stl-quick-buy-{{ section.id }}-{{ block.id }}-{{ product.id }}{%- endcapture -%}
+      {%- capture quick_buy_id -%}amm-stl-quick-buy-{{ section.id }}-{{ uid }}-{{ product.id }}{%- endcapture -%}
       <button
         type="button"
         class="amm-stl-product-item__quick-add-btn product-card__quick-add-button"
@@ -71,7 +73,7 @@
       <div
         class="amm-stl-product-drawer"
         data-product-drawer
-        data-block-id="{{ block.id }}"
+        data-block-id="{{ uid }}"
         data-product-id="{{ product.id }}"
         data-product-handle="{{ product.handle }}"
       >
