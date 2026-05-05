@@ -61,7 +61,7 @@
         "richtext_Ci6GYc"
       ],
       "custom_css": [
-        ".prose :is(ol, ul) {display: unset;}"
+        "img{max-width: 60px;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
