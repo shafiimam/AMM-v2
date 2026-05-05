@@ -71,16 +71,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "name": "FORM",
-      "settings": {
-        "color_scheme": "",
-        "show_title": true,
-        "page_width": "lg"
-      }
-    },
     "177800612565ad2a36": {
       "type": "apps",
       "blocks": {
@@ -100,12 +90,22 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true
       }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "FORM",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "lg"
+      }
     }
   },
   "order": [
     "beach_location_banner_yVFgwJ",
     "rich_text_EpBhqb",
-    "main",
-    "177800612565ad2a36"
+    "177800612565ad2a36",
+    "main"
   ]
 }
