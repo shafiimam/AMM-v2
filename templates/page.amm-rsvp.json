@@ -66,6 +66,9 @@
         "richtext_Ci6GYc",
         "liquid_7hfcyx"
       ],
+      "custom_css": [
+        ".prose :is(ol,ul){display: none;}"
+      ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
