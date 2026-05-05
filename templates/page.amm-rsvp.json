@@ -46,6 +46,12 @@
             "content": "<h3><strong>amamaniere.com/rsvp</strong></h3>"
           }
         },
+        "richtext_Ci6GYc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>Join us as we welcome the future of The Whitaker Group. An evening shaped by vision, intention, and community.<br/><br/>Kindly confirm your attendance below.</h3>"
+          }
+        },
         "liquid_7hfcyx": {
           "type": "liquid",
           "settings": {
@@ -57,6 +63,7 @@
         "image_dwJR7z",
         "richtext_YyR8de",
         "richtext_PyhXzr",
+        "richtext_Ci6GYc",
         "liquid_7hfcyx"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
