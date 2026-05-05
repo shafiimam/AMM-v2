@@ -41,27 +41,20 @@
             "content": "<h2>vision takes belief,</h2><h2>vision takes partnership</h2><h2>—</h2><h2>vision embraces risk,</h2><h2>vision fights against attack</h2><h2>—</h2><h2>vision takes patience</h2><h2>vision relies on accountability</h2><h2>—</h2><h2>thank you for believing</h2><h2>in our vision</h2><h2>—</h2><h2>welcome to the future of</h2><h2>the whitaker group</h2><h2>—</h2><h3>may 21</h3><h3>7pm est</h3><h2>—</h2><h3>479 edgewood ave se</h3><h3>atlanta, georgia</h3>"
           }
         },
-        "richtext_PyhXzr": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3><strong>amamaniere.com/rsvp</strong></h3>"
-          }
-        },
         "richtext_Ci6GYc": {
           "type": "richtext",
           "settings": {
-            "content": "<h3>Join us as we welcome the future of The Whitaker Group. <br/><br/>An evening shaped by vision, intention, and community.<br/><br/>Kindly confirm your attendance below.</h3><h3>May 21<br/>7pm est<br/>—<br/>479 Edgewood Ave SE<br/>Atlanta, Georgia</h3>"
+            "content": "<h3></h3><h3>Join us as we welcome the future of The Whitaker Group. <br/><br/>An evening shaped by vision, intention, and community.<br/><br/>Kindly confirm your attendance below.</h3><h3>May 21<br/>7pm est<br/>—<br/>479 Edgewood Ave SE<br/>Atlanta, Georgia</h3>"
           }
         }
       },
       "block_order": [
         "image_dwJR7z",
         "richtext_YyR8de",
-        "richtext_PyhXzr",
         "richtext_Ci6GYc"
       ],
       "custom_css": [
-        "img{max-width: 60px;}"
+        "img {max-width: 60px;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
