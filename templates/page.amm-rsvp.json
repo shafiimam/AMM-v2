@@ -67,7 +67,7 @@
         "liquid_7hfcyx"
       ],
       "custom_css": [
-        ".prose :is(ol,ul){display: none;}"
+        ".prose :is(ol, ul) {display: unset;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
