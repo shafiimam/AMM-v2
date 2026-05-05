@@ -51,20 +51,13 @@
           "settings": {
             "content": "<h3>Join us as we welcome the future of The Whitaker Group. An evening shaped by vision, intention, and community.<br/><br/>Kindly confirm your attendance below.</h3>"
           }
-        },
-        "liquid_7hfcyx": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"globo-formbuilder\" data-id=\"MTMwMjQx\"></div>"
-          }
         }
       },
       "block_order": [
         "image_dwJR7z",
         "richtext_YyR8de",
         "richtext_PyhXzr",
-        "richtext_Ci6GYc",
-        "liquid_7hfcyx"
+        "richtext_Ci6GYc"
       ],
       "custom_css": [
         ".prose :is(ol, ul) {display: unset;}"
@@ -87,11 +80,32 @@
         "show_title": true,
         "page_width": "lg"
       }
+    },
+    "177800612565ad2a36": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_bnrAPE": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMwMjQx\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_bnrAPE"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
     "beach_location_banner_yVFgwJ",
     "rich_text_EpBhqb",
-    "main"
+    "main",
+    "177800612565ad2a36"
   ]
 }
