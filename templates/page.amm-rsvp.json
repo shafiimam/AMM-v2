@@ -54,7 +54,8 @@
         "richtext_Ci6GYc"
       ],
       "custom_css": [
-        "img {max-width: 45px; padding-bottom: 40px;}"
+        "img {max-width: 45px; padding-bottom: 40px;}",
+        "h3{letter-spacing: 1px;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
