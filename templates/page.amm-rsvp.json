@@ -44,7 +44,7 @@
         "richtext_Ci6GYc": {
           "type": "richtext",
           "settings": {
-            "content": "<h3></h3><h3>Join us as we welcome the future of The Whitaker Group. <br/><br/>An evening shaped by vision, intention, and community.<br/><br/>Kindly confirm your attendance below.</h3><h3>May 21<br/>7pm est<br/>—<br/>479 Edgewood Ave SE<br/>Atlanta, Georgia</h3>"
+            "content": "<h3></h3><h3>Join us as we welcome the future of The Whitaker Group. <br/><br/>An evening shaped by vision, intention, and culture.<br/><br/>Kindly confirm your attendance below.</h3><h3>May 21<br/>7pm est<br/>—<br/>479 Edgewood Ave SE<br/>Atlanta, Georgia</h3>"
           }
         }
       },
@@ -55,7 +55,7 @@
       ],
       "custom_css": [
         "img {max-width: 45px; padding-bottom: 40px;}",
-        "h3{letter-spacing: 1px;}"
+        "h3 {letter-spacing: 1px;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {

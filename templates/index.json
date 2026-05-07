@@ -18,8 +18,8 @@
           "settings": {
             "image": "shopify://shop_images/Y-3desktop.png",
             "mobile_image": "shopify://shop_images/ATYPE_SS26_WHS_04_9x16_31a3f4e9-b430-425e-a70a-7f112b49a4c3.jpg",
-            "subheading": "",
-            "subheading_size": 12,
+            "subheading": "<p>EXCLUSIVELY AVAILABLE NOW </p>",
+            "subheading_size": 17,
             "title": "<p>adidas \"A-TYPE\"</p>",
             "title_size": 41,
             "mobile_text_position": "place-self-center text-center",
