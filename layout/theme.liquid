@@ -31,6 +31,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       href="https://cdn.shopify.com/s/files/1/0626/9065/files/AMM-A-icon.png?v=1740137806&width=192"
     >
     <meta name="apple-mobile-web-app-title" content="A MA MANIÉRE">
+    {%- if template.name == 'page' and page.metafields.custom.seo_noindex == true -%}
+     <meta name="robots" content="noindex,follow">
+    {%- endif -%}
     <link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
     <title>
       {% if page_title == blank -%}
