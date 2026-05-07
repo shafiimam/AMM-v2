@@ -14,20 +14,20 @@
       "blocks": {
         "image_RmiEQG": {
           "type": "image",
-          "name": "Y-3",
+          "name": "adidas ",
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Y-3desktop.png",
             "mobile_image": "shopify://shop_images/ATYPE_SS26_WHS_04_9x16_31a3f4e9-b430-425e-a70a-7f112b49a4c3.jpg",
             "subheading": "",
             "subheading_size": 12,
-            "title": "<p>adidas y-3 \"A-TYPE\"</p>",
+            "title": "<p>adidas originals \"A-TYPE\"</p>",
             "title_size": 36,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/y-3-adidas",
+            "button_1_link": "shopify://collections/adidas",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
