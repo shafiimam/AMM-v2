@@ -90,12 +90,11 @@
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/adidas.png",
+            "image": "shopify://shop_images/adisupersta.png",
             "button_text": "",
-            "button_url": "shopify://products/dnd-gazelle-indoor",
-            "product_index": 5,
+            "button_url": "shopify://products/y-3-a-type-superstar-core-black",
+            "product_index": 7,
             "column_span": 2,
             "row_span": 2,
             "button_style": "solid",
