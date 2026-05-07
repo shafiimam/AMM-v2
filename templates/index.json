@@ -15,13 +15,12 @@
         "image_RmiEQG": {
           "type": "image",
           "name": "adidas ",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Y-3desktop.png",
             "mobile_image": "shopify://shop_images/ATYPE_SS26_WHS_04_9x16_31a3f4e9-b430-425e-a70a-7f112b49a4c3.jpg",
             "subheading": "",
             "subheading_size": 12,
-            "title": "<p>adidas originals \"A-TYPE\"</p>",
+            "title": "<p>adidas \"A-TYPE\"</p>",
             "title_size": 36,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -37,7 +36,7 @@
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
-            "background_opacity": 28,
+            "background_opacity": 0,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
