@@ -129,12 +129,58 @@
         "product_bFHKHA",
         "product_TknLx3"
       ],
-      "name": "WILLY CHAV",
+      "name": "STYLE GUIDE WEEK 1",
       "settings": {
         "section_alignment": "left",
         "title": "SPRING STYLE GUIDE",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/DSC06425BB_1.jpg",
+        "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
+        "image_cta": "explore",
+        "image_cta_url": "shopify://collections/spring-style-guide"
+      }
+    },
+    "featureed_image_and_products_6MwW6y": {
+      "type": "featureed-image-and-products",
+      "blocks": {
+        "product_kbA3M4": {
+          "type": "product",
+          "settings": {
+            "product": "willy-chavarria-fashion-service-assoc-buffalo-tee-black"
+          }
+        },
+        "product_8mAeHV": {
+          "type": "product",
+          "settings": {
+            "product": "maison-mihara-yasuhiro-trompe-loeil-shorts-indigo"
+          }
+        },
+        "product_LW4wVY": {
+          "type": "product",
+          "settings": {
+            "product": "maison-mihara-yasuhiro-sun-faded-v-neck-tee-beige"
+          }
+        },
+        "product_fyQgAX": {
+          "type": "product",
+          "settings": {
+            "product": "wales-bonner-gazelle-pony-aurora-coffee-core-black-wonder-white"
+          }
+        }
+      },
+      "block_order": [
+        "product_kbA3M4",
+        "product_8mAeHV",
+        "product_LW4wVY",
+        "product_fyQgAX"
+      ],
+      "disabled": true,
+      "name": "STYLE GUIDE WEEK 2",
+      "settings": {
+        "section_alignment": "left",
+        "title": "SPRING STYLE GUIDE",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/DSC06397BB_copy_919a738f-9d68-41d9-9173-d86b7dfbfbae.jpg",
         "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/spring-style-guide"
@@ -969,6 +1015,7 @@
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "featureed_image_and_products_6MwW6y",
     "blocks_hipbgz",
     "blocks_6H9VVp",
     "featured_collections_RwpkEJ",
