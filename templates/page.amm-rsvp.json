@@ -1,0 +1,109 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "beach_location_banner_yVFgwJ": {
+      "type": "beach-location-banner",
+      "disabled": true,
+      "name": "Beach Location Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/AMM-BEACH-A10_black.jpg",
+        "mobile_image": "shopify://shop_images/AMM-BEACH-A10_black_73fb0685-d960-44b3-baa1-d5669f5b3b4d.png",
+        "title": "a ma Maniére experiences",
+        "description": "",
+        "button_url": "",
+        "button_text": "Learn More"
+      }
+    },
+    "rich_text_EpBhqb": {
+      "type": "rich-text",
+      "blocks": {
+        "image_dwJR7z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/amm-white-logo.png",
+            "width_mode": "custom",
+            "max_width": 130,
+            "mobile_max_width": 100
+          }
+        },
+        "richtext_YyR8de": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<h2>vision takes belief,</h2><h2>vision takes partnership</h2><h2>—</h2><h2>vision embraces risk,</h2><h2>vision fights against attack</h2><h2>—</h2><h2>vision takes patience</h2><h2>vision relies on accountability</h2><h2>—</h2><h2>thank you for believing</h2><h2>in our vision</h2><h2>—</h2><h2>welcome to the future of</h2><h2>the whitaker group</h2><h2>—</h2><h3>may 21</h3><h3>7pm est</h3><h2>—</h2><h3>479 edgewood ave se</h3><h3>atlanta, georgia</h3>"
+          }
+        },
+        "richtext_Ci6GYc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3></h3><h3>Join us as we welcome the future of The Whitaker Group. <br/><br/>An evening shaped by vision, intention, and culture.<br/><br/>Kindly confirm your attendance below.</h3><h3>May 21<br/>7pm est<br/>—<br/>479 Edgewood Ave SE<br/>Atlanta, Georgia</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "image_dwJR7z",
+        "richtext_YyR8de",
+        "richtext_Ci6GYc"
+      ],
+      "custom_css": [
+        "img {max-width: 45px; padding-bottom: 40px;}",
+        "h3 {letter-spacing: 1px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "177800612565ad2a36": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_bnrAPE": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMwMjQx\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_bnrAPE"
+      ],
+      "custom_css": [
+        ".shopify-app-block {margin-block: -30px; padding-bottom: 30px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "name": "FORM",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "lg"
+      }
+    }
+  },
+  "order": [
+    "beach_location_banner_yVFgwJ",
+    "rich_text_EpBhqb",
+    "177800612565ad2a36",
+    "main"
+  ]
+}

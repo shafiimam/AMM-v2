@@ -12,6 +12,36 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_RmiEQG": {
+          "type": "image",
+          "name": "adidas ",
+          "settings": {
+            "image": "shopify://shop_images/Y-3desktop.png",
+            "mobile_image": "shopify://shop_images/ATYPE_SS26_WHS_04_9x16_31a3f4e9-b430-425e-a70a-7f112b49a4c3.jpg",
+            "subheading": "<p>EXCLUSIVELY AVAILABLE NOW </p>",
+            "subheading_size": 17,
+            "title": "<p>adidas \"A-TYPE\"</p>",
+            "title_size": 41,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/adidas",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_WdyPWD": {
           "type": "video",
           "name": "COLLECTION VID",
@@ -45,6 +75,7 @@
         }
       },
       "block_order": [
+        "image_RmiEQG",
         "video_WdyPWD"
       ],
       "settings": {
@@ -98,12 +129,58 @@
         "product_bFHKHA",
         "product_TknLx3"
       ],
-      "name": "WILLY CHAV",
+      "disabled": true,
+      "name": "STYLE GUIDE WEEK 1",
       "settings": {
         "section_alignment": "left",
         "title": "SPRING STYLE GUIDE",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/DSC06425BB_1.jpg",
+        "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
+        "image_cta": "explore",
+        "image_cta_url": "shopify://collections/spring-style-guide"
+      }
+    },
+    "featureed_image_and_products_6MwW6y": {
+      "type": "featureed-image-and-products",
+      "blocks": {
+        "product_kbA3M4": {
+          "type": "product",
+          "settings": {
+            "product": "willy-chavarria-fashion-service-assoc-buffalo-tee-black"
+          }
+        },
+        "product_8mAeHV": {
+          "type": "product",
+          "settings": {
+            "product": "maison-mihara-yasuhiro-trompe-loeil-shorts-indigo"
+          }
+        },
+        "product_LW4wVY": {
+          "type": "product",
+          "settings": {
+            "product": "maison-mihara-yasuhiro-sun-faded-v-neck-tee-beige"
+          }
+        },
+        "product_fyQgAX": {
+          "type": "product",
+          "settings": {
+            "product": "y-3-a-type-superstar-core-black"
+          }
+        }
+      },
+      "block_order": [
+        "product_kbA3M4",
+        "product_8mAeHV",
+        "product_LW4wVY",
+        "product_fyQgAX"
+      ],
+      "name": "STYLE GUIDE WEEK 2",
+      "settings": {
+        "section_alignment": "left",
+        "title": "SPRING STYLE GUIDE",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/week2springguide.png",
         "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/spring-style-guide"
@@ -644,7 +721,7 @@
             "column_count": "6",
             "row_count": 2,
             "title": "",
-            "heading_tag": "h4",
+            "heading_tag": "h1",
             "content": "",
             "link_text": "",
             "link_url": "shopify://collections/do-not-duplicate",
@@ -658,13 +735,13 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/amm4.30_477ad251-83d8-4ce5-b846-6ae36d382ac3.png",
+            "image": "shopify://shop_images/DSC03361_DC_copy.jpg",
             "column_count": "6",
             "row_count": 2,
-            "title": "<strong>do not duplicate: the collection </strong>",
+            "title": "<strong>DO NOT DUPLICATE: THE COLLECTION  </strong>",
             "heading_tag": "h1",
             "content": "",
-            "link_text": "shop now",
+            "link_text": "SHOP NOW",
             "link_url": "shopify://collections/do-not-duplicate",
             "link_style": "solid",
             "text_position": "place-self-start-center text-center",
@@ -938,6 +1015,7 @@
     "slideshow_QGYQ6e",
     "176075966993f87866",
     "featureed_image_and_products_7MHNbK",
+    "featureed_image_and_products_6MwW6y",
     "blocks_hipbgz",
     "blocks_6H9VVp",
     "featured_collections_RwpkEJ",

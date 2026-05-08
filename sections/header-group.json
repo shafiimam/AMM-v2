@@ -96,97 +96,64 @@
             "image_2_link": ""
           }
         },
+        "release_egU6UA": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "5.7",
+            "release_image": "shopify://shop_images/RIPPLEGRAPHITEGRN-1.jpg",
+            "product_title": "CROC RIPPLE \"GRAPHITE/DUSTY OLIVE\"",
+            "product_vendor": "",
+            "product_price": "$90",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/croc-ripple-graphitedusty-olive"
+          }
+        },
         "release_DjJNYX": {
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "4.30",
-            "release_image": "shopify://shop_images/NB1890XJFGNAVY-1_1.jpg",
-            "product_title": "JOE FRESHGOODS X NEW BALANCE 1890 \"NAUGHTY THINGS\"",
+            "release_title": "5.8",
+            "release_image": "shopify://shop_images/REJUVEN8JELLYLIGHTCRIMSON-1.jpg",
+            "product_title": "WOMEN'S REJUVEN8 RUN OG \"JELLY PACK: LIGHT CRIMSON\"",
             "product_vendor": "",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/joe-freshgoods-x-new-balance-1890-naughty-things"
+            "product_price": "$135",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-rejuven8-run-og-jelly-pack-light-crimson"
           }
         },
         "release_tw94g8": {
           "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "4.30",
-            "release_image": "shopify://shop_images/AJ6CAPNGOWN-1.jpg",
-            "product_title": "AIR JORDAN 6 RETRO \"CAP AND GOWN\"",
+            "release_title": "5.8",
+            "release_image": "shopify://shop_images/REJUVEN8JELLYLIGHTLEMON-1.jpg",
+            "product_title": "WOMEN'S NIKE REJUVEN8 RUN OG \"JELLY PACK: LIGHT LEMON TWIST LIME\"",
             "product_vendor": "",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-6-retro-cap-and-gown"
-          }
-        },
-        "release_EJKfRW": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "4.30",
-            "release_image": "shopify://shop_images/HUARACHE2K4OTBLK-1.jpg",
-            "product_title": "NIKE AIR ZOOM HUARACHE 2K4 OT",
-            "product_vendor": "",
-            "product_price": "$200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-zoom-huarache-2k4-ot"
-          }
-        },
-        "release_QMRqcN": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "5.1",
-            "release_image": "shopify://shop_images/CLIMACOOLBEIGEBLK-1.jpg",
-            "product_title": "ADIDAS CLIMACOOL \"TAN/BLACK\"",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-climacool-tanblack"
-          }
-        },
-        "release_rfj96B": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "5.1",
-            "release_image": "shopify://shop_images/CLIMACOOLGRYBLK-1.jpg",
-            "product_title": "ADIDAS CLIMACOOL \"GREY/BLACK\"",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-climacool-greyblack"
-          }
-        },
-        "release_nAhaJK": {
-          "type": "release",
-          "settings": {
-            "release_title": "5.2",
-            "release_image": "shopify://shop_images/AJ1LOWBANNED-1.jpg",
-            "product_title": "AIR JORDAN 1 RETRO LOW OG \"BANNED\"",
-            "product_vendor": "",
-            "product_price": "$145",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-1-retro-low-og-banned"
+            "product_price": "$135",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-nike-rejuven8-run-og-jelly-pack-light-lemon-twist-lime"
           }
         },
         "release_KPd8WR": {
           "type": "release",
+          "disabled": true,
           "settings": {
-            "release_title": "5.2",
-            "release_image": "shopify://shop_images/CLOTSAMBABYEDISONCHENWHTBLK-1.jpg",
-            "product_title": "ADIDAS CLOT SAMBA BY EDISON CHEN \"WHITE/BLACK\"",
+            "release_title": "5.8",
+            "release_image": "shopify://shop_images/REJUVEN8JELLYMUSLIN-1.jpg",
+            "product_title": "WOMEN'S REJUVEN8 RUN OG \"JELLY PACK: MUSLIN & PALE IVORY\"",
             "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-clot-samba-by-edison-chen-whiteblack"
+            "product_price": "$135",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-rejuven8-run-og-jelly-pack-muslin-and-pale-ivory"
           }
         },
-        "release_egU6UA": {
+        "release_nAhaJK": {
           "type": "release",
+          "disabled": true,
           "settings": {
-            "release_title": "5.2",
-            "release_image": "shopify://shop_images/CLOTMUNDIALBYEDISONCHENBLKBGE-1.jpg",
-            "product_title": "ADIDAS CLOT MUNDIAL BY EDISON CHEN",
+            "release_title": "5.8",
+            "release_image": "shopify://shop_images/AM95BBCOMETRED-1.jpg",
+            "product_title": "NIKE AIR MAX 95 BIG BUBBLE \"COMET RED\"",
             "product_vendor": "",
-            "product_price": "$150",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-clot-mundial-by-edison-chen"
+            "product_price": "$180",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-comet-red"
           }
         }
       },
@@ -194,14 +161,11 @@
         "mega_menu_kbBhKp",
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
+        "release_egU6UA",
         "release_DjJNYX",
         "release_tw94g8",
-        "release_EJKfRW",
-        "release_QMRqcN",
-        "release_rfj96B",
-        "release_nAhaJK",
         "release_KPd8WR",
-        "release_egU6UA"
+        "release_nAhaJK"
       ],
       "settings": {
         "color_scheme": "scheme-2",
