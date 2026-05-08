@@ -129,6 +129,7 @@
         "product_bFHKHA",
         "product_TknLx3"
       ],
+      "disabled": true,
       "name": "STYLE GUIDE WEEK 1",
       "settings": {
         "section_alignment": "left",
@@ -138,8 +139,7 @@
         "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/spring-style-guide"
-      },
-      "disabled": true
+      }
     },
     "featureed_image_and_products_6MwW6y": {
       "type": "featureed-image-and-products",
@@ -175,7 +175,6 @@
         "product_LW4wVY",
         "product_fyQgAX"
       ],
-      "disabled": true,
       "name": "STYLE GUIDE WEEK 2",
       "settings": {
         "section_alignment": "left",
