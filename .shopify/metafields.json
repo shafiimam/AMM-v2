@@ -3,12 +3,12 @@
   "blog": [],
   "collection": [
     {
-      "key": "image",
-      "namespace": "menu",
-      "name": "Mobile menu image",
+      "key": "subcollections",
+      "namespace": "custom",
+      "name": "subcollections",
       "description": "",
       "type": {
-        "name": "file_reference",
+        "name": "list.collection_reference",
         "category": "REFERENCE"
       }
     }
@@ -17,125 +17,95 @@
   "company_location": [],
   "location": [],
   "market": [],
-  "order": [
+  "order": [],
+  "page": [
     {
-      "key": "shiptimize_pickup_point_id",
-      "namespace": "orders",
-      "name": "Point ID",
+      "key": "seo_noindex",
+      "namespace": "custom",
+      "name": "Seo No Index",
       "description": "",
       "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "shiptimize_pickup_point_label",
-      "namespace": "orders",
-      "name": "Point Label",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
+        "name": "boolean",
+        "category": "TRUE_FALSE"
       }
     }
   ],
-  "page": [],
   "product": [
     {
-      "key": "rating",
-      "namespace": "reviews",
-      "name": "Product rating",
-      "description": "Average rating from customers",
+      "key": "custom_product",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Custom Product",
+      "description": "Use to indicate whether or not the unique product identifiers (UPIs) GTIN, MPN, and brand are available for your product.",
       "type": {
-        "name": "rating",
-        "category": "RATING"
+        "name": "boolean",
+        "category": "TRUE_FALSE"
       }
     },
     {
-      "key": "rating_count",
-      "namespace": "reviews",
-      "name": "Product rating count",
-      "description": "Total number of ratings from customers",
+      "key": "shoe-size",
+      "namespace": "shopify",
+      "name": "Shoe size",
+      "description": "Used to define the size of footwear, e.g. Extra large (XL), 9.5",
       "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     },
     {
-      "key": "fit",
-      "namespace": "custom",
-      "name": "Fit (Show in product page tab)",
-      "description": "",
+      "key": "shoe-fit",
+      "namespace": "shopify",
+      "name": "Shoe fit",
+      "description": "Defines the width of footwear, such as narrow or wide",
       "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     },
     {
-      "key": "care",
-      "namespace": "custom",
-      "name": "Care (Show in product page tab)",
-      "description": "",
+      "key": "shoe-features",
+      "namespace": "shopify",
+      "name": "Shoe features",
+      "description": "Identifies special characteristics of shoes, such as waterproof or lightweight",
       "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     },
     {
-      "key": "material_in_product_page",
-      "namespace": "custom",
-      "name": "Material (Show in product page tab)",
-      "description": "",
+      "key": "size",
+      "namespace": "shopify",
+      "name": "Size",
+      "description": "Used to specify the size of a product, such as 0-3 months or Extra large (XL)",
       "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     },
     {
-      "key": "product_badge",
-      "namespace": "custom",
-      "name": "Product badge ",
-      "description": "",
+      "key": "footwear-material",
+      "namespace": "shopify",
+      "name": "Footwear material",
+      "description": "Specifies the type of material used in footwear, such as suede or rubber",
       "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     },
     {
-      "key": "delivery_date_for_preorder",
-      "namespace": "custom",
-      "name": "Delivery date for preorder",
-      "description": "",
+      "key": "accessory-size",
+      "namespace": "shopify",
+      "name": "Accessory size",
+      "description": "Defines the size of an accessory product, such as one size or compact",
       "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     },
     {
-      "key": "material",
-      "namespace": "product",
-      "name": "Material  (For filter)",
-      "description": "",
-      "type": {
-        "name": "list.single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "season",
-      "namespace": "product",
-      "name": "Season (For filter)",
-      "description": "",
-      "type": {
-        "name": "list.single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "foot_type",
-      "namespace": "product",
-      "name": "Foot type (For filter)",
-      "description": "",
+      "key": "queries",
+      "namespace": "shopify--discovery--product_search_boost",
+      "name": "Search product boosts",
+      "description": "List of search queries for which a product gets higher rank in search results",
       "type": {
         "name": "list.single_line_text_field",
         "category": "TEXT"
@@ -172,76 +142,6 @@
       }
     },
     {
-      "key": "queries",
-      "namespace": "shopify--discovery--product_search_boost",
-      "name": "Search product boosts",
-      "description": "List of search queries for which a product gets higher rank in search results",
-      "type": {
-        "name": "list.single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_product",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Product",
-      "description": "Use to indicate whether or not the unique product identifiers (UPIs) GTIN, MPN, and brand are available for your product.",
-      "type": {
-        "name": "boolean",
-        "category": "TRUE_FALSE"
-      }
-    },
-    {
-      "key": "shoe-size",
-      "namespace": "shopify",
-      "name": "Shoe size",
-      "description": "Used to define the size of footwear, e.g. Extra large (XL), 9.5",
-      "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "title_below_info",
-      "namespace": "custom",
-      "name": "Title Below Info",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "sibling_products",
-      "namespace": "custom",
-      "name": "Sibling Products",
-      "description": "",
-      "type": {
-        "name": "list.product_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "siblings_tooltip",
-      "namespace": "custom",
-      "name": "Siblings Tooltip",
-      "description": "",
-      "type": {
-        "name": "list.single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "small_description",
-      "namespace": "custom",
-      "name": "Small Description",
-      "description": "",
-      "type": {
-        "name": "rich_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
       "key": "color-pattern",
       "namespace": "shopify",
       "name": "Color",
@@ -252,23 +152,23 @@
       }
     },
     {
-      "key": "footwear-material",
+      "key": "activity",
       "namespace": "shopify",
-      "name": "Footwear material",
-      "description": "Specifies the type of material used in footwear, such as suede or rubber",
+      "name": "Activity",
+      "description": "Specifies the sport or activity the product is designed for, such as tennis or pilates",
       "type": {
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
       }
     },
     {
-      "key": "size_chart_sub_heading",
-      "namespace": "custom",
-      "name": "Size Chart Sub Heading",
-      "description": "",
+      "key": "age-group",
+      "namespace": "shopify",
+      "name": "Age group",
+      "description": "Defines the target age range for a product, such as adults or kids",
       "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     },
     {
@@ -282,27 +182,187 @@
       }
     },
     {
-      "key": "color_for_filter",
-      "namespace": "custom",
-      "name": "Color (for Filter)",
-      "description": "",
+      "key": "heel-height-type",
+      "namespace": "shopify",
+      "name": "Heel height type",
+      "description": "Defines the height of a shoe's heel, such as flat or high",
       "type": {
-        "name": "list.single_line_text_field",
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "target-gender",
+      "namespace": "shopify",
+      "name": "Target gender",
+      "description": "Identifies the intended gender for a product, such as female, male or unisex",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "toe-style",
+      "namespace": "shopify",
+      "name": "Toe style",
+      "description": "Defines the shape or design of a shoe's toe, such as open or pointed",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "occasion-style",
+      "namespace": "shopify",
+      "name": "Occasion style",
+      "description": "Helps categorize products based on occasion, e.g. casual, dress",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "sneaker-style",
+      "namespace": "shopify",
+      "name": "Sneaker style",
+      "description": "Identifies the design or type of sneakers, such as athletic or high-top",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "taxcode",
+      "namespace": "avalara",
+      "name": "Avalara Tax Code",
+      "description": "Used only for Avalara integration.",
+      "type": {
+        "name": "single_line_text_field",
         "category": "TEXT"
       }
-    }
-  ],
-  "variant": [
+    },
     {
-      "key": "pre",
+      "key": "launchId",
+      "namespace": "eqlLaunchesApp",
+      "name": "EQL Launch ID",
+      "description": null,
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "launchType",
+      "namespace": "eqlLaunchesApp",
+      "name": "EQL Launch Type",
+      "description": null,
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "hidden",
+      "namespace": "seo",
+      "name": "Search Hidden",
+      "description": "Hide from onsite and offsite (Google) search",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "international_shipping_unavailable",
       "namespace": "custom",
-      "name": "preorder",
-      "description": "",
+      "name": "international_shipping_unavailable",
+      "description": "Unavailable for international shipping",
       "type": {
         "name": "boolean",
         "category": "TRUE_FALSE"
       }
     },
+    {
+      "key": "percentage_off",
+      "namespace": "custom",
+      "name": "percentage off ",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "age",
+      "namespace": "custom",
+      "name": "Age",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "gender",
+      "namespace": "custom",
+      "name": "Gender",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "season",
+      "namespace": "custom",
+      "name": "season",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "color",
+      "namespace": "custom",
+      "name": "color",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "pants-length-type",
+      "namespace": "shopify",
+      "name": "Pants length type",
+      "description": "Used to defines the length of pants, such as cropped or long",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fabric",
+      "namespace": "shopify",
+      "name": "Fabric",
+      "description": "Identifies the type of fabric used in a product, for example, cotton or denim",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "shop_the_look_endpoint",
+      "namespace": "custom",
+      "name": "Shop the look endpoint",
+      "description": "",
+      "type": {
+        "name": "metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [
     {
       "key": "custom_label_4",
       "namespace": "mm-google-shopping",
@@ -414,56 +474,15 @@
       }
     },
     {
-      "key": "inner_shoe_width",
-      "namespace": "custom",
-      "name": "Inner shoe width",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "inner_shoe_length",
-      "namespace": "custom",
-      "name": "Inner shoe length",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "recommendation",
-      "namespace": "custom",
-      "name": "Recommendation",
-      "description": "",
+      "key": "taxcode",
+      "namespace": "avalara",
+      "name": "Avalara Tax Code",
+      "description": "Used only for Avalara integration.",
       "type": {
         "name": "single_line_text_field",
         "category": "TEXT"
       }
     }
   ],
-  "shop": [
-    {
-      "key": "show_store_widget_app_embed_block",
-      "namespace": "mm_google_shopping_extension",
-      "name": "Google: Show Store Widget App Embed Block",
-      "description": "Indicates if the store widget app embed block should be shown.",
-      "type": {
-        "name": "boolean",
-        "category": "TRUE_FALSE"
-      }
-    },
-    {
-      "key": "merchant_id",
-      "namespace": "mm_google_shopping_extension",
-      "name": "Google: Merchant ID",
-      "description": "Currently Linked Merchant Center ID",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    }
-  ]
+  "shop": []
 }
