@@ -138,7 +138,8 @@
         "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/spring-style-guide"
-      }
+      },
+      "disabled": true
     },
     "featureed_image_and_products_6MwW6y": {
       "type": "featureed-image-and-products",
