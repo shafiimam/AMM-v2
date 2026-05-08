@@ -618,3 +618,7 @@ img.ryzo-product-image  {
   color: #1c1c1c !important;
   font-weight: normal !important;
 }
+
+.globo-form-app .message.success{
+  background: #fff;
+}
