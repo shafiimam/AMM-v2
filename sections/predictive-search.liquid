@@ -15,6 +15,8 @@ Supported variables
 Nothing
 {%- endcomment -%}
 
+{%- capture blocked_search_list -%}{%- render 'search-blocked-list' -%}{%- endcapture -%}
+
 {%- if predictive_search.performed -%}
   {%- assign results_count = 0 -%}
 
@@ -61,11 +63,17 @@ Nothing
               {%- assign products_count = 5 -%}
             {%- endif -%}
 
-            {%- assign product_results = predictive_search.resources.products | slice: 0, products_count -%}
-
             <div class="v-stack gap-8 sm:gap-12">
               <div class="predictive-search__products" style="--product-list-items-per-row: {{ products_count }}">
-                {%- render 'predictive-search-result-item' for product_results as product, type: 'product' -%}
+                {%- assign predictive_products_shown = 0 -%}
+                {%- for product in predictive_search.resources.products -%}
+                  {%- if predictive_products_shown >= products_count -%}{%- break -%}{%- endif -%}
+                  {%- assign url_path = product.url | split: '?' | first | remove_first: '/' | downcase -%}
+                  {%- assign url_check = ',' | append: url_path | append: ',' -%}
+                  {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
+                  {%- render 'predictive-search-result-item', product: product, type: 'product' -%}
+                  {%- assign predictive_products_shown = predictive_products_shown | plus: 1 -%}
+                {%- endfor -%}
               </div>
 
               <div class="justify-self-start sm:justify-self-center">
@@ -86,10 +94,16 @@ Nothing
               {%- assign collections_count = 5 -%}
             {%- endif -%}
 
-            {%- assign collection_results = predictive_search.resources.collections | slice: 0, collections_count -%}
-
             <div class="predictive-search__collections" style="--collection-list-items-per-row: {{ collections_count }}">
-              {%- render 'predictive-search-result-item' for collection_results as collection, type: 'collection' -%}
+              {%- assign predictive_collections_shown = 0 -%}
+              {%- for collection in predictive_search.resources.collections -%}
+                {%- if predictive_collections_shown >= collections_count -%}{%- break -%}{%- endif -%}
+                {%- assign url_path = collection.url | split: '?' | first | remove_first: '/' | downcase -%}
+                {%- assign url_check = ',' | append: url_path | append: ',' -%}
+                {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
+                {%- render 'predictive-search-result-item', collection: collection, type: 'collection' -%}
+                {%- assign predictive_collections_shown = predictive_collections_shown | plus: 1 -%}
+              {%- endfor -%}
             </div>
           </div>
         {%- endif -%}
@@ -104,10 +118,16 @@ Nothing
               {%- assign articles_count = 4 -%}
             {%- endif -%}
 
-            {%- assign article_results = predictive_search.resources.articles | slice: 0, articles_count -%}
-
             <div class="predictive-search__blog-posts" style="--blog-post-list-items-per-row: {{ articles_count }}">
-              {%- render 'predictive-search-result-item' for article_results as article, type: 'article' -%}
+              {%- assign predictive_articles_shown = 0 -%}
+              {%- for article in predictive_search.resources.articles -%}
+                {%- if predictive_articles_shown >= articles_count -%}{%- break -%}{%- endif -%}
+                {%- assign url_path = article.url | split: '?' | first | remove_first: '/' | downcase -%}
+                {%- assign url_check = ',' | append: url_path | append: ',' -%}
+                {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
+                {%- render 'predictive-search-result-item', article: article, type: 'article' -%}
+                {%- assign predictive_articles_shown = predictive_articles_shown | plus: 1 -%}
+              {%- endfor -%}
             </div>
           </div>
         {%- endif -%}
@@ -117,7 +137,12 @@ Nothing
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
             <div class="predictive-search__pages v-stack justify-items-start gap-3">
-              {%- render 'predictive-search-result-item' for predictive_search.resources.pages as page, type: 'page' -%}
+              {%- for page in predictive_search.resources.pages -%}
+                {%- assign url_path = page.url | split: '?' | first | remove_first: '/' | downcase -%}
+                {%- assign url_check = ',' | append: url_path | append: ',' -%}
+                {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
+                {%- render 'predictive-search-result-item', page: page, type: 'page' -%}
+              {%- endfor -%}
             </div>
           </div>
         {%- endif -%}
@@ -153,11 +178,18 @@ Nothing
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
             {%- assign products_count = 5 -%}
-            {%- assign product_results = product_results | slice: 0, products_count -%}
 
             <div class="v-stack gap-8 sm:gap-12">
               <div class="predictive-search__products" style="--product-list-items-per-row: {{ products_count }}">
-                {%- render 'predictive-search-result-item' for product_results as product, type: 'product' -%}
+                {%- assign search_products_shown = 0 -%}
+                {%- for product in product_results -%}
+                  {%- if search_products_shown >= products_count -%}{%- break -%}{%- endif -%}
+                  {%- assign url_path = product.url | split: '?' | first | remove_first: '/' | downcase -%}
+                  {%- assign url_check = ',' | append: url_path | append: ',' -%}
+                  {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
+                  {%- render 'predictive-search-result-item', product: product, type: 'product' -%}
+                  {%- assign search_products_shown = search_products_shown | plus: 1 -%}
+                {%- endfor -%}
               </div>
 
               <div class="justify-self-start sm:justify-self-center">
@@ -173,10 +205,17 @@ Nothing
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
             {%- assign articles_count = 4 -%}
-            {%- assign article_results = article_results | slice: 0, articles_count -%}
 
             <div class="predictive-search__blog-posts" style="--blog-post-list-items-per-row: {{ articles_count }}">
-              {%- render 'predictive-search-result-item' for article_results as article, type: 'article' -%}
+              {%- assign search_articles_shown = 0 -%}
+              {%- for article in article_results -%}
+                {%- if search_articles_shown >= articles_count -%}{%- break -%}{%- endif -%}
+                {%- assign url_path = article.url | split: '?' | first | remove_first: '/' | downcase -%}
+                {%- assign url_check = ',' | append: url_path | append: ',' -%}
+                {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
+                {%- render 'predictive-search-result-item', article: article, type: 'article' -%}
+                {%- assign search_articles_shown = search_articles_shown | plus: 1 -%}
+              {%- endfor -%}
             </div>
           </div>
         {%- endif -%}
@@ -186,7 +225,12 @@ Nothing
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
             <div class="predictive-search__pages v-stack justify-items-start gap-3">
-              {%- render 'predictive-search-result-item' for predictive_search.resources.pages as page, type: 'page' -%}
+              {%- for page in predictive_search.resources.pages -%}
+                {%- assign url_path = page.url | split: '?' | first | remove_first: '/' | downcase -%}
+                {%- assign url_check = ',' | append: url_path | append: ',' -%}
+                {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
+                {%- render 'predictive-search-result-item', page: page, type: 'page' -%}
+              {%- endfor -%}
             </div>
           </div>
         {%- endif -%}

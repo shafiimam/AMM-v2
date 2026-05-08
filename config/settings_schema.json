@@ -868,5 +868,16 @@
         "info": "t:theme_settings.favicon.image_info"
       }
     ]
+  },
+  {
+    "name": "Search",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "search_blocked_handles",
+        "label": "Hide from search",
+        "info": "One handle per line or comma-separated. Use full path, e.g. pages/rsvp, collections/adidas, products/sample."
+      }
+    ]
   }
 ]

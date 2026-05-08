@@ -1,0 +1,22 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+SEARCH BLOCKED LIST
+----------------------------------------------------------------------------------------------------------------------
+
+Outputs a normalized, comma-wrapped string of blocked URL paths from the global theme setting
+`search_blocked_handles`. Designed to be captured by callers and used with `contains` checks.
+
+Usage:
+  {%- capture blocked_search_list -%}{%- render 'search-blocked-list' -%}{%- endcapture -%}
+  {%- assign url_path = resource.url | remove_first: '/' | downcase -%}
+  {%- assign url_check = ',' | append: url_path | append: ',' -%}
+  {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
+
+Output shape (no whitespace, no leading slashes, lowercased):
+  ,pages/rsvp,collections/adidas,products/sample,
+{%- endcomment -%}
+{%- assign raw = settings.search_blocked_handles | default: '' | strip -%}
+{%- if raw == '' -%},{%- else -%}
+  {%- assign cleaned = raw | newline_to_br | replace: '<br />', ',' | replace: '<br/>', ',' | replace: '<br>', ',' | replace: ' ', '' | replace: '	', '' | downcase -%}
+  {%- assign parts = cleaned | split: ',' -%},{%- for p in parts -%}{%- assign trimmed = p | strip | remove_first: '/' -%}{%- if trimmed != '' -%}{{ trimmed }},{%- endif -%}{%- endfor -%}
+{%- endif -%}
