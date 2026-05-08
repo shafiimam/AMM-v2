@@ -18,11 +18,45 @@ Nothing
 {%- capture blocked_search_list -%}{%- render 'search-blocked-list' -%}{%- endcapture -%}
 
 {%- if predictive_search.performed -%}
-  {%- assign results_count = 0 -%}
+  {%- liquid
+    assign unblocked_products = 0
+    for product in predictive_search.resources.products
+      assign url_path = product.url | split: '?' | first | remove_first: '/' | downcase
+      assign url_check = ',' | append: url_path | append: ','
+      unless blocked_search_list contains url_check
+        assign unblocked_products = unblocked_products | plus: 1
+      endunless
+    endfor
 
-  {%- for resource in predictive_search.resources -%}
-    {%- assign results_count = results_count | plus: resource.last.size -%}
-  {%- endfor -%}
+    assign unblocked_collections = 0
+    for collection in predictive_search.resources.collections
+      assign url_path = collection.url | split: '?' | first | remove_first: '/' | downcase
+      assign url_check = ',' | append: url_path | append: ','
+      unless blocked_search_list contains url_check
+        assign unblocked_collections = unblocked_collections | plus: 1
+      endunless
+    endfor
+
+    assign unblocked_articles = 0
+    for article in predictive_search.resources.articles
+      assign url_path = article.url | split: '?' | first | remove_first: '/' | downcase
+      assign url_check = ',' | append: url_path | append: ','
+      unless blocked_search_list contains url_check
+        assign unblocked_articles = unblocked_articles | plus: 1
+      endunless
+    endfor
+
+    assign unblocked_pages = 0
+    for page in predictive_search.resources.pages
+      assign url_path = page.url | split: '?' | first | remove_first: '/' | downcase
+      assign url_check = ',' | append: url_path | append: ','
+      unless blocked_search_list contains url_check
+        assign unblocked_pages = unblocked_pages | plus: 1
+      endunless
+    endfor
+
+    assign results_count = unblocked_products | plus: unblocked_collections | plus: unblocked_articles | plus: unblocked_pages | plus: predictive_search.resources.queries.size
+  -%}
 
   {%- if results_count > 0 -%}
     <div class="predictive-search__results {% if predictive_search.resources.queries.size > 0 %}predictive-search__results--with-suggestions{% endif %}">
@@ -53,7 +87,7 @@ Nothing
           <slot part="tab-panels" name="content"></slot>
         </template>
 
-        {%- if predictive_search.resources.products.size > 0 -%}
+        {%- if unblocked_products > 0 -%}
           <button type="button" class="h6" role="tab" slot="title">{{ 'search.general.products' | t }}</button>
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
@@ -84,7 +118,7 @@ Nothing
           </div>
         {%- endif -%}
 
-        {%- if predictive_search.resources.collections.size > 0 -%}
+        {%- if unblocked_collections > 0 -%}
           <button type="button" class="h6" role="tab" slot="title">{{ 'search.general.collections' | t }}</button>
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
@@ -108,7 +142,7 @@ Nothing
           </div>
         {%- endif -%}
 
-        {%- if predictive_search.resources.articles.size > 0 -%}
+        {%- if unblocked_articles > 0 -%}
           <button type="button" class="h6" role="tab" slot="title">{{ 'search.general.posts' | t }}</button>
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
@@ -132,7 +166,7 @@ Nothing
           </div>
         {%- endif -%}
 
-        {%- if predictive_search.resources.pages.size > 0 -%}
+        {%- if unblocked_pages > 0 -%}
           <button type="button" class="h6" role="tab" slot="title">{{ 'search.general.pages' | t }}</button>
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
@@ -152,7 +186,42 @@ Nothing
     <p class="predictive-search__no-results text-lg">{{ 'search.general.no_results' | t: terms: search.terms }}</p>
   {%- endif -%}
 {%- elsif search.performed -%}
-  {%- if search.results_count > 0 -%}
+  {%- liquid
+    assign product_results = search.results | where: 'object_type', 'product'
+    assign article_results = search.results | where: 'object_type', 'article'
+    assign page_results = search.results | where: 'object_type', 'page'
+
+    assign unblocked_products = 0
+    for product in product_results
+      assign url_path = product.url | split: '?' | first | remove_first: '/' | downcase
+      assign url_check = ',' | append: url_path | append: ','
+      unless blocked_search_list contains url_check
+        assign unblocked_products = unblocked_products | plus: 1
+      endunless
+    endfor
+
+    assign unblocked_articles = 0
+    for article in article_results
+      assign url_path = article.url | split: '?' | first | remove_first: '/' | downcase
+      assign url_check = ',' | append: url_path | append: ','
+      unless blocked_search_list contains url_check
+        assign unblocked_articles = unblocked_articles | plus: 1
+      endunless
+    endfor
+
+    assign unblocked_pages = 0
+    for page in page_results
+      assign url_path = page.url | split: '?' | first | remove_first: '/' | downcase
+      assign url_check = ',' | append: url_path | append: ','
+      unless blocked_search_list contains url_check
+        assign unblocked_pages = unblocked_pages | plus: 1
+      endunless
+    endfor
+
+    assign filtered_results_count = unblocked_products | plus: unblocked_articles | plus: unblocked_pages
+  -%}
+
+  {%- if filtered_results_count > 0 -%}
     <div class="predictive-search__results">
       <x-tabs class="predictive-search__tabs content-tabs">
         <template shadowrootmode="open">
@@ -169,11 +238,7 @@ Nothing
           <slot part="tab-panels" name="content"></slot>
         </template>
 
-        {%- assign product_results = search.results | where: 'object_type', 'product' -%}
-        {%- assign article_results = search.results | where: 'object_type', 'article' -%}
-        {%- assign page_results = search.results | where: 'object_type', 'page' -%}
-
-        {%- if product_results.size > 0 -%}
+        {%- if unblocked_products > 0 -%}
           <button type="button" class="h6" role="tab" slot="title">{{ 'search.general.products' | t }}</button>
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
@@ -200,7 +265,7 @@ Nothing
           </div>
         {%- endif -%}
 
-        {%- if article_results.size > 0 -%}
+        {%- if unblocked_articles > 0 -%}
           <button type="button" class="h6" role="tab" slot="title">{{ 'search.general.posts' | t }}</button>
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
@@ -220,12 +285,12 @@ Nothing
           </div>
         {%- endif -%}
 
-        {%- if page_results.size > 0 -%}
+        {%- if unblocked_pages > 0 -%}
           <button type="button" class="h6" role="tab" slot="title">{{ 'search.general.pages' | t }}</button>
 
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
             <div class="predictive-search__pages v-stack justify-items-start gap-3">
-              {%- for page in predictive_search.resources.pages -%}
+              {%- for page in page_results -%}
                 {%- assign url_path = page.url | split: '?' | first | remove_first: '/' | downcase -%}
                 {%- assign url_check = ',' | append: url_path | append: ',' -%}
                 {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
