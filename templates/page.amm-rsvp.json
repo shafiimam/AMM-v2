@@ -80,7 +80,7 @@
         "powerful_form_builder_app_block_bnrAPE"
       ],
       "custom_css": [
-        ".shopify-app-block {margin-top: -30px;}"
+        ".shopify-app-block {margin-block: -30px; padding-bottom: 30px;}"
       ],
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
