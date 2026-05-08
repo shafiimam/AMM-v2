@@ -620,5 +620,5 @@ img.ryzo-product-image  {
 }
 
 .globo-form-app .message.success{
-  background: #fff;
+  background: #fff !important;
 }
