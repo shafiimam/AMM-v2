@@ -35,13 +35,13 @@
         "richtext_KWCWDr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>MON - SAT: 12:00 PM - 7:00 PM EST<br/>SUN: 12:00 PM - 5:00 PM EST</p>"
+            "content": ""
           }
         },
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "A Ma Maniére Atlanta",
+            "text": "A Ma Maniére Atlanta Flagship",
             "heading_tag": "h1"
           }
         },
@@ -65,8 +65,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/AMM-Store-4.jpg",
-        "mobile_image": "shopify://shop_images/AMM-Store-4.jpg",
+        "image": "shopify://shop_images/DSC09240_BM.jpg",
+        "mobile_image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -77,20 +77,70 @@
         "overlay_opacity": 55
       }
     },
+    "blocks_Ah6yzd": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_N4wJRD": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 5,
+            "height_desktop": 5
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_N4wJRD"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
+    "video_hPeq4A": {
+      "type": "video",
+      "blocks": {
+        "play_6itPC8": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_LxmmBf": {
+          "type": "heading",
+          "settings": {
+            "text": "a Ma maniére atlanta flagship",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_6itPC8",
+        "heading_LxmmBf"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
+        "mobile_video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "rich_text_VcMXhH": {
       "type": "rich-text",
       "blocks": {
         "heading_zmhLEp": {
           "type": "heading",
           "settings": {
-            "text": "About A Ma Maniére Atlanta",
+            "text": "About our Atlanta Flagship",
             "heading_tag": "h1"
           }
         },
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A Ma Maniére, established in 2014 on Marietta Street, represents the cornerstone of a journey that has reshaped the luxury retail and cultural landscape. A Ma Maniére Atlanta has carved out a unique niche reflecting the spirit of its city: rich in heritage and bold in storytelling. With a name meaning “My Way,” the boutique champions the evolving narrative of modern luxury in the South.</p>"
+            "content": "<p>A Ma Maniére, established in 2014 on Marietta Street, ______________________</p>"
           }
         }
       },
@@ -124,13 +174,12 @@
         },
         "image_block_eWDJdQ": {
           "type": "image_block",
-          "disabled": true,
           "settings": {
-            "title": "PERSONAL SHOPPING",
+            "title": "DINING EXPERIENCES",
             "image": "shopify://shop_images/image_76838ecb-57bc-4849-bc67-64c09f203b9c.jpg",
             "link_target": "_self",
             "button_style": "outline",
-            "text": "Book now",
+            "text": "",
             "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
             "background": "rgba(0,0,0,0)",
             "text_color": "rgba(0,0,0,0)"
@@ -138,9 +187,8 @@
         },
         "image_block_fgDmzU": {
           "type": "image_block",
-          "disabled": true,
           "settings": {
-            "title": "OFFERS CURBSIDE PICKUP",
+            "title": "LUXURY HOSPITALITY",
             "image": "shopify://shop_images/Frame_1000002061.png",
             "link_target": "_self",
             "button_style": "outline",
@@ -153,7 +201,7 @@
         "image_block_q6mYbV": {
           "type": "image_block",
           "settings": {
-            "title": "OFFERS PARKING",
+            "title": "RETAIL SHOPPING",
             "image": "shopify://shop_images/Frame_1000002060.png",
             "link_target": "_self",
             "button_style": "outline",
@@ -180,6 +228,79 @@
         "image_position": "end",
         "content_width": "md",
         "remove_vertical_spacing": true
+      }
+    },
+    "media_grid_UzC6Vn": {
+      "type": "media-grid",
+      "blocks": {
+        "image_qPnKXC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_fUyNNp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ajDniE": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_qPnKXC",
+        "image_fUyNNp",
+        "image_ajDniE"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "a look inside the space",
+        "content": ""
       }
     },
     "reviews_slider_NJY6C3": {
@@ -292,6 +413,7 @@
       "block_order": [
         "collection_7ckJHb"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -302,162 +424,6 @@
         "horizontal_spacing_factor": 0.4,
         "vertical_spacing_factor": 0.4,
         "subheading": ""
-      }
-    },
-    "eployee_with_collection_mn8nDL": {
-      "type": "eployee-with-collection",
-      "blocks": {
-        "collection_PQUcic": {
-          "type": "collection",
-          "settings": {
-            "collection": "jason-romero-atl-skus",
-            "products_count": 15,
-            "title": "My Choices:",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_PQUcic"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.4,
-        "vertical_spacing_factor": 0.4,
-        "title": "Meet Our Staff",
-        "subheading": "Jason started his journey with A Ma Maniére in July 2023. He has a background in brand consulting, creative directing, and personal styling. Details paint the bigger picture - \"I like garments that focus less on heavy branding and more on the fabric and silhouette (blank canvas) and pair them with accessories like rings, bracelets, and wallet chains (paint). I’d describe my personal style as “if you know you know.” ",
-        "employee_name": "Jason Romero",
-        "employee_image": "shopify://shop_images/000076520030.jpg",
-        "employee_position": "Store Manager",
-        "enable_employee_social_media": false,
-        "employee_twitter": "",
-        "employee_tiktok": "",
-        "employee_linkedin": "",
-        "employee_instagram": ""
-      }
-    },
-    "eployee_with_collection_QcH3WA": {
-      "type": "eployee-with-collection",
-      "blocks": {
-        "collection_jNVWrq": {
-          "type": "collection",
-          "settings": {
-            "collection": "trevor-lloyd-skus",
-            "products_count": 15,
-            "title": "My Choices:",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_jNVWrq"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.4,
-        "vertical_spacing_factor": 0.4,
-        "title": "",
-        "subheading": "Trevor started his journey at The Whitaker Group in 2023 after styling and buying for athletes at the collegiate and professional level. With a keen eye for luxury and a talent for conceptualizing refined aesthetics, he excels at curating elevated client experiences and cultivating an aspirational atmosphere. Based in Atlanta, Trevor blends global inspirations with warm hospitality to lead the team in delivering the brand’s signature blend of style, sophistication, and service.",
-        "employee_name": "Trevor Lloyd",
-        "employee_image": "shopify://shop_images/60F6547C-4646-49F0-97E4-F248576B1C48.jpg",
-        "employee_position": "Assistant Store Manager",
-        "enable_employee_social_media": false,
-        "employee_twitter": "",
-        "employee_tiktok": "",
-        "employee_linkedin": "",
-        "employee_instagram": ""
-      }
-    },
-    "eployee_with_collection_z3TxTy": {
-      "type": "eployee-with-collection",
-      "blocks": {
-        "collection_8nw6hE": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-accessories",
-            "products_count": 15,
-            "title": "My Choice:",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_8nw6hE"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.4,
-        "vertical_spacing_factor": 0.4,
-        "title": "",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "Alisa Hester",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
-        "enable_employee_social_media": true,
-        "employee_twitter": "",
-        "employee_tiktok": "",
-        "employee_linkedin": "",
-        "employee_instagram": ""
-      }
-    },
-    "eployee_with_collection_FYHyHH": {
-      "type": "eployee-with-collection",
-      "blocks": {
-        "collection_3ieYHm": {
-          "type": "collection",
-          "settings": {
-            "collection": "balenciaga",
-            "products_count": 15,
-            "title": "My Choice:",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_3ieYHm"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.4,
-        "vertical_spacing_factor": 0.4,
-        "title": "",
-        "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.",
-        "employee_name": "Alisa Hester",
-        "employee_image": "shopify://shop_images/employee-sample-image.png",
-        "employee_position": "Administrator",
-        "enable_employee_social_media": true,
-        "employee_twitter": "",
-        "employee_tiktok": "",
-        "employee_linkedin": "",
-        "employee_instagram": ""
       }
     },
     "beach_location_banner_nGbcUy": {
@@ -560,15 +526,14 @@
   "order": [
     "main",
     "image_with_text_overlay_UhmPUC",
+    "blocks_Ah6yzd",
+    "video_hPeq4A",
     "rich_text_VcMXhH",
     "map_with_text_zfmMKi",
+    "media_grid_UzC6Vn",
     "reviews_slider_NJY6C3",
     "image_with_text_QNEjBt",
     "featured_collections_wzB8F7",
-    "eployee_with_collection_mn8nDL",
-    "eployee_with_collection_QcH3WA",
-    "eployee_with_collection_z3TxTy",
-    "eployee_with_collection_FYHyHH",
     "beach_location_banner_nGbcUy",
     "multi_column_AG6HP7"
   ]
