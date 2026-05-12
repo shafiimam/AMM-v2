@@ -148,6 +148,93 @@
         "text_color": "#ffffff"
       }
     },
+    "image_with_text_QNEjBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "button_rN7aVg": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_NUakpn": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_UCzABb": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_mtXAAG": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "heading_McaCUH": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Marketing Content Block",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_EUAmG9": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "button_rN7aVg",
+        "button_NUakpn",
+        "button_UCzABb",
+        "button_mtXAAG",
+        "heading_McaCUH",
+        "richtext_EUAmG9"
+      ],
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
+        "mobile_image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": true
+      }
+    },
     "map_with_text_zfmMKi": {
       "type": "map-with-text",
       "blocks": {
@@ -161,6 +248,7 @@
         },
         "richtext_baYYWk": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p><strong>“Too often, Black culture is celebrated without Black people being centered in the experience. Edgewood is about changing that. It’s about building spaces that reflect our taste, our ambition, our creativity, and our standard at the highest level.”</strong></p><p></p><p><strong>-Founder, James Whitner </strong></p>"
           }
@@ -226,7 +314,6 @@
         "image_block_eWDJdQ",
         "image_block_HNyTYK"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
@@ -438,48 +525,6 @@
         "content": ""
       }
     },
-    "image_with_text_QNEjBt": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_McaCUH": {
-          "type": "heading",
-          "settings": {
-            "text": "Marketing Content Block",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_EUAmG9": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "heading_McaCUH",
-        "richtext_EUAmG9"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "img {width: 100%;}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
-        "mobile_image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": true
-      }
-    },
     "beach_location_banner_nGbcUy": {
       "type": "beach-location-banner",
       "blocks": {
@@ -584,10 +629,10 @@
     "blocks_Ah6yzd",
     "rich_text_VcMXhH",
     "video_hPeq4A",
+    "image_with_text_QNEjBt",
     "map_with_text_zfmMKi",
     "media_grid_9nU4R3",
     "media_grid_UzC6Vn",
-    "image_with_text_QNEjBt",
     "beach_location_banner_nGbcUy",
     "multi_column_AG6HP7"
   ]
