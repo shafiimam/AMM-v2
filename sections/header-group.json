@@ -96,40 +96,37 @@
             "image_2_link": ""
           }
         },
-        "release_egU6UA": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "5.7",
-            "release_image": "shopify://shop_images/RIPPLEGRAPHITEGRN-1.jpg",
-            "product_title": "CROC RIPPLE \"GRAPHITE/DUSTY OLIVE\"",
-            "product_vendor": "",
-            "product_price": "$90",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/croc-ripple-graphitedusty-olive"
-          }
-        },
         "release_DjJNYX": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "5.8",
-            "release_image": "shopify://shop_images/REJUVEN8JELLYLIGHTCRIMSON-1.jpg",
-            "product_title": "WOMEN'S REJUVEN8 RUN OG \"JELLY PACK: LIGHT CRIMSON\"",
+            "release_title": "5.16",
+            "release_image": "shopify://shop_images/AJ3WORLDSBESTDAD-1.jpg",
+            "product_title": "AIR JORDAN 3 RETRO OG \"WORLD'S BEST DAD\"",
             "product_vendor": "",
-            "product_price": "$135",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-rejuven8-run-og-jelly-pack-light-crimson"
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-retro-og-worlds-best-dad"
+          }
+        },
+        "release_egU6UA": {
+          "type": "release",
+          "settings": {
+            "release_title": "5.17",
+            "release_image": "shopify://shop_images/AM95BBSLATE-1_e0361f28-f1aa-42b6-994e-695d67409893.jpg",
+            "product_title": "NIKE AIR MAX 95 OG \"WHITE/EMERALD GREEN\"",
+            "product_vendor": "",
+            "product_price": "$190",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whiteemerald-green"
           }
         },
         "release_tw94g8": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "5.8",
-            "release_image": "shopify://shop_images/REJUVEN8JELLYLIGHTLEMON-1.jpg",
-            "product_title": "WOMEN'S NIKE REJUVEN8 RUN OG \"JELLY PACK: LIGHT LEMON TWIST LIME\"",
+            "release_title": "5.20",
+            "release_image": "shopify://shop_images/WOMEN_SSHOXZCALISTRA_PALEIVORY_-1.jpg",
+            "product_title": "WOMEN'S SHOX Z CALISTRA \"PALE IVORY & OATMEAL\"",
             "product_vendor": "",
-            "product_price": "$135",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-nike-rejuven8-run-og-jelly-pack-light-lemon-twist-lime"
+            "product_price": "$130",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-shox-z-calistra-pale-ivory-and-oatmeal"
           }
         },
         "release_KPd8WR": {
@@ -161,8 +158,8 @@
         "mega_menu_kbBhKp",
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_egU6UA",
         "release_DjJNYX",
+        "release_egU6UA",
         "release_tw94g8",
         "release_KPd8WR",
         "release_nAhaJK"
@@ -193,7 +190,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": false
+        "show_releases": true
       }
     }
   },
