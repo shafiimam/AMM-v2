@@ -108,7 +108,7 @@
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We are proud to introduce the new A Ma Maniére Edgewood flagship in Atlanta — a multi-level destination designed to blur the lines between luxury retail, hospitality, dining, and culture. Rooted in intentional design and elevated experiences, the space reflects our ongoing vision of creating environments that feel as curated and considered as the communities that inspire them. Located in the historic Edgewood neighborhood, the flagship will unveil a new expression of A Ma Maniére through exclusive offerings, immersive spaces, and culturally driven experiences designed to be discovered over time.</p><p>More than a flagship, Edgewood is a statement on ownership, legacy, and the future of luxury through a Black cultural lens. Every detail has been developed with purpose, from the atmosphere and programming to the art and hospitality experience woven throughout the space. As we prepare to open our doors, we look forward to welcoming the community into a destination built not only to be visited, but to be felt.</p>"
+            "content": "<p>We are proud to introduce the new A Ma Maniére Edgewood flagship in Atlanta — a multi-level destination designed to blur the lines between luxury shopping, hospitality, dining, and culture. Rooted in intentional design and elevated experiences, the space reflects our ongoing vision of creating environments that feel as curated and considered as the communities that inspire them. Located in the historic Edgewood neighborhood, the flagship will unveil a new expression of A Ma Maniére through exclusive offerings, immersive spaces, and culturally driven experiences designed to be discovered over time.</p><p>More than a flagship, Edgewood is a statement on ownership, legacy, and the future of luxury through a Black cultural lens. Every detail has been developed with purpose, from the atmosphere and programming to the art and hospitality experience woven throughout the space. As we prepare to open our doors, we look forward to welcoming the community into a destination built not only to be visited, but to be felt.</p>"
           }
         }
       },
@@ -146,93 +146,6 @@
         "mobile_video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
-      }
-    },
-    "image_with_text_QNEjBt": {
-      "type": "image-with-text",
-      "blocks": {
-        "button_rN7aVg": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_NUakpn": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_UCzABb": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_mtXAAG": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "heading_McaCUH": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Marketing Content Block",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_EUAmG9": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "button_rN7aVg",
-        "button_NUakpn",
-        "button_UCzABb",
-        "button_mtXAAG",
-        "heading_McaCUH",
-        "richtext_EUAmG9"
-      ],
-      "custom_css": [
-        "img {width: 100%;}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
-        "mobile_image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "map_with_text_zfmMKi": {
@@ -314,6 +227,7 @@
         "image_block_eWDJdQ",
         "image_block_HNyTYK"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
@@ -437,6 +351,102 @@
         "subheading": "",
         "title": "",
         "content": ""
+      }
+    },
+    "image_with_text_QNEjBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "countdown_BFxhK7": {
+          "type": "countdown",
+          "settings": {
+            "final_date": "21-05-2026",
+            "final_time": "15:00",
+            "start_countdown": true
+          }
+        },
+        "button_rN7aVg": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "DINING EXPERIENCES",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_NUakpn": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOPPING",
+            "url": "#",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_UCzABb": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "LUXURY HOSPITALITY",
+            "url": "#",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_mtXAAG": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "IMPACTFUL ART",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "heading_McaCUH": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Marketing Content Block",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_EUAmG9": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "countdown_BFxhK7",
+        "button_rN7aVg",
+        "button_NUakpn",
+        "button_UCzABb",
+        "button_mtXAAG",
+        "heading_McaCUH",
+        "richtext_EUAmG9"
+      ],
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
+        "mobile_image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
       }
     },
     "media_grid_UzC6Vn": {
@@ -637,9 +647,9 @@
     "blocks_Ah6yzd",
     "rich_text_VcMXhH",
     "video_hPeq4A",
-    "image_with_text_QNEjBt",
     "map_with_text_zfmMKi",
     "media_grid_9nU4R3",
+    "image_with_text_QNEjBt",
     "media_grid_UzC6Vn",
     "beach_location_banner_nGbcUy",
     "multi_column_AG6HP7"
