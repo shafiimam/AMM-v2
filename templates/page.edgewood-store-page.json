@@ -41,7 +41,7 @@
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "A Ma Maniére Atlanta Flagship",
+            "text": "A Ma Maniére Edgewood Flagship",
             "heading_tag": "h1"
           }
         },
@@ -140,7 +140,7 @@
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A Ma Maniére, established in 2014 on Marietta Street, ______________________</p>"
+            "content": ""
           }
         }
       },
