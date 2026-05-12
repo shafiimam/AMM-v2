@@ -41,14 +41,14 @@
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "A Ma Maniére Edgewood Flagship",
+            "text": "A Ma Maniére Atlanta Flagship",
             "heading_tag": "h1"
           }
         },
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n969 Marietta St NW #200 Atlanta, GA 30318, USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n479 Edgewood Ave SE in Atlanta, Georgia"
           }
         }
       },
@@ -95,38 +95,6 @@
       "name": "Spacer",
       "settings": {}
     },
-    "video_hPeq4A": {
-      "type": "video",
-      "blocks": {
-        "play_6itPC8": {
-          "type": "play",
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
-        "heading_LxmmBf": {
-          "type": "heading",
-          "settings": {
-            "text": "a Ma maniére atlanta flagship",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "play_6itPC8",
-        "heading_LxmmBf"
-      ],
-      "name": "t:sections.video.presets.video.name",
-      "settings": {
-        "autoplay": true,
-        "show_controls": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
-        "mobile_video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff"
-      }
-    },
     "rich_text_VcMXhH": {
       "type": "rich-text",
       "blocks": {
@@ -140,7 +108,7 @@
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": ""
+            "content": "<p>We are proud to introduce the new A Ma Maniére Edgewood flagship in Atlanta — a multi-level destination designed to blur the lines between luxury retail, hospitality, dining, and culture. Rooted in intentional design and elevated experiences, the space reflects our ongoing vision of creating environments that feel as curated and considered as the communities that inspire them. Located in the historic Edgewood neighborhood, the flagship will unveil a new expression of A Ma Maniére through exclusive offerings, immersive spaces, and culturally driven experiences designed to be discovered over time.</p><p>More than a flagship, Edgewood is a statement on ownership, legacy, and the future of luxury through a Black cultural lens. Every detail has been developed with purpose, from the atmosphere and programming to the art and hospitality experience woven throughout the space. As we prepare to open our doors, we look forward to welcoming the community into a destination built not only to be visited, but to be felt.</p>"
           }
         }
       },
@@ -156,11 +124,36 @@
         "remove_vertical_spacing": false
       }
     },
+    "video_hPeq4A": {
+      "type": "video",
+      "blocks": {
+        "play_6itPC8": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_6itPC8"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
+        "mobile_video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "map_with_text_zfmMKi": {
       "type": "map-with-text",
       "blocks": {
         "heading_7TAyH4": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "The Flagship Experience",
             "heading_tag": "h1"
@@ -169,20 +162,20 @@
         "richtext_baYYWk": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The Atlanta flagship stands as a beacon of elevated fashion and community engagement, embodying the city’s dynamic energy through carefully curated collections and immersive retail experiences. The store seamlessly merges high-end streetwear with luxury, featuring exclusive collaborations and limited-edition releases that speak to both sneaker culture and refined style. Beyond retail, A Ma Maniére Atlanta serves as a cultural hub, hosting thought-provoking events, art exhibitions, and philanthropic initiatives that uplift the local community. Its influence extends far beyond commerce, redefining what it means to shop with purpose in a city known for innovation and resilience.</p><h6></h6>"
+            "content": "<p><strong>“Too often, Black culture is celebrated without Black people being centered in the experience. Edgewood is about changing that. It’s about building spaces that reflect our taste, our ambition, our creativity, and our standard at the highest level.”</strong></p><p></p><p><strong>-Founder, James Whitner </strong></p>"
           }
         },
-        "image_block_eWDJdQ": {
+        "image_block_q6mYbV": {
           "type": "image_block",
           "settings": {
-            "title": "DINING EXPERIENCES",
-            "image": "shopify://shop_images/image_76838ecb-57bc-4849-bc67-64c09f203b9c.jpg",
+            "title": "RETAIL SHOPPING",
+            "image": "shopify://shop_images/Frame_1000002060.png",
             "link_target": "_self",
             "button_style": "outline",
             "text": "",
-            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
+            "url": "",
             "background": "rgba(0,0,0,0)",
-            "text_color": "rgba(0,0,0,0)"
+            "text_color": ""
           }
         },
         "image_block_fgDmzU": {
@@ -198,11 +191,24 @@
             "text_color": ""
           }
         },
-        "image_block_q6mYbV": {
+        "image_block_eWDJdQ": {
           "type": "image_block",
           "settings": {
-            "title": "RETAIL SHOPPING",
-            "image": "shopify://shop_images/Frame_1000002060.png",
+            "title": "DINING EXPERIENCES",
+            "image": "shopify://shop_images/image_76838ecb-57bc-4849-bc67-64c09f203b9c.jpg",
+            "link_target": "_self",
+            "button_style": "outline",
+            "text": "",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_block_HNyTYK": {
+          "type": "image_block",
+          "settings": {
+            "title": "IMPACTFUL ART",
+            "image": "shopify://shop_images/Frame_1000002061.png",
             "link_target": "_self",
             "button_style": "outline",
             "text": "",
@@ -215,10 +221,12 @@
       "block_order": [
         "heading_7TAyH4",
         "richtext_baYYWk",
-        "image_block_eWDJdQ",
+        "image_block_q6mYbV",
         "image_block_fgDmzU",
-        "image_block_q6mYbV"
+        "image_block_eWDJdQ",
+        "image_block_HNyTYK"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
@@ -230,10 +238,10 @@
         "remove_vertical_spacing": true
       }
     },
-    "media_grid_UzC6Vn": {
+    "media_grid_9nU4R3": {
       "type": "media-grid",
       "blocks": {
-        "image_qPnKXC": {
+        "image_wcrbW8": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -250,7 +258,41 @@
             "overlay_opacity": 0
           }
         },
-        "image_fUyNNp": {
+        "image_YphaVd": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_fUBdNT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3iaKDm": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -267,7 +309,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_ajDniE": {
+        "image_hRxqhK": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -286,9 +328,11 @@
         }
       },
       "block_order": [
-        "image_qPnKXC",
-        "image_fUyNNp",
-        "image_ajDniE"
+        "image_wcrbW8",
+        "image_YphaVd",
+        "image_fUBdNT",
+        "image_3iaKDm",
+        "image_hRxqhK"
       ],
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
@@ -299,59 +343,99 @@
         "section_width": "lg",
         "spacing": "md",
         "subheading": "",
-        "title": "a look inside the space",
+        "title": "",
         "content": ""
       }
     },
-    "reviews_slider_NJY6C3": {
-      "type": "reviews-slider",
+    "media_grid_UzC6Vn": {
+      "type": "media-grid",
       "blocks": {
-        "review_card_kMiYRH": {
-          "type": "review_card",
+        "image_ajDniE": {
+          "type": "image",
           "settings": {
-            "reviewer_image": "shopify://shop_images/reviewer-image.png",
-            "reviewer_name": "Rebecca Hills",
-            "star_rating": "4",
-            "review_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "color_scheme": "",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "review_card_7nUnKt": {
-          "type": "review_card",
+        "image_HJLHj7": {
+          "type": "image",
           "settings": {
-            "reviewer_image": "shopify://shop_images/reviewer-image.png",
-            "reviewer_name": "Rebecca Hills",
-            "star_rating": "3",
-            "review_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "color_scheme": "scheme-4",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "review_card_yKAHrU": {
-          "type": "review_card",
+        "image_fUyNNp": {
+          "type": "image",
           "settings": {
-            "reviewer_image": "shopify://shop_images/reviewer-image.png",
-            "reviewer_name": "Rebecca Hills",
-            "star_rating": "5",
-            "review_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "review_card_KbcrbH": {
-          "type": "review_card",
+        "image_qPnKXC": {
+          "type": "image",
           "settings": {
-            "reviewer_image": "shopify://shop_images/reviewer-image.png",
-            "reviewer_name": "Rebecca Hills",
-            "star_rating": "5",
-            "review_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>"
+            "color_scheme": "",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "review_card_kMiYRH",
-        "review_card_7nUnKt",
-        "review_card_yKAHrU",
-        "review_card_KbcrbH"
+        "image_ajDniE",
+        "image_HJLHj7",
+        "image_fUyNNp",
+        "image_qPnKXC"
       ],
-      "disabled": true,
+      "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
-        "title": "Our Customers’ Reviews"
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "image_with_text_QNEjBt": {
@@ -396,41 +480,12 @@
         "remove_top_padding": true
       }
     },
-    "featured_collections_wzB8F7": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_7ckJHb": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrivals-1",
-            "products_count": 9,
-            "title": "New Arrivals",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_7ckJHb"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.4,
-        "vertical_spacing_factor": 0.4,
-        "subheading": ""
-      }
-    },
     "beach_location_banner_nGbcUy": {
       "type": "beach-location-banner",
       "blocks": {
         "location_piNTD3": {
           "type": "location",
+          "disabled": true,
           "settings": {
             "title": "Atlanta",
             "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA<br/>Ph: 678-973-2116</p>"
@@ -527,13 +582,12 @@
     "main",
     "image_with_text_overlay_UhmPUC",
     "blocks_Ah6yzd",
-    "video_hPeq4A",
     "rich_text_VcMXhH",
+    "video_hPeq4A",
     "map_with_text_zfmMKi",
+    "media_grid_9nU4R3",
     "media_grid_UzC6Vn",
-    "reviews_slider_NJY6C3",
     "image_with_text_QNEjBt",
-    "featured_collections_wzB8F7",
     "beach_location_banner_nGbcUy",
     "multi_column_AG6HP7"
   ]
