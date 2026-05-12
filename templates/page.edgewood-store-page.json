@@ -32,17 +32,17 @@
             "text_color": ""
           }
         },
-        "richtext_KWCWDr": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        },
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
             "text": "A Ma Maniére Atlanta Flagship",
             "heading_tag": "h1"
+          }
+        },
+        "richtext_madqef": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>GRAND OPENING MAY 21st, 2026 </h2>"
           }
         },
         "liquid_CiMgth": {
@@ -54,8 +54,8 @@
       },
       "block_order": [
         "button_Td7AKh",
-        "richtext_KWCWDr",
         "heading_WbHVK6",
+        "richtext_madqef",
         "liquid_CiMgth"
       ],
       "custom_css": [
@@ -242,6 +242,21 @@
     "image_with_text_QNEjBt": {
       "type": "image-with-text",
       "blocks": {
+        "subheading_LUNKi7": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_HczR6P": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Grand Opening May 21st",
+            "heading_tag": "h1"
+          }
+        },
         "heading_MK7jAW": {
           "type": "heading",
           "settings": {
@@ -281,6 +296,8 @@
         }
       },
       "block_order": [
+        "subheading_LUNKi7",
+        "heading_HczR6P",
         "heading_MK7jAW",
         "heading_BEnARr",
         "heading_GfmMUd",
@@ -296,13 +313,13 @@
         "image": "shopify://shop_images/GREENAMM.jpg",
         "mobile_image": "shopify://shop_images/GREENAMM_3e7f55cd-ab0f-4eed-a5d8-2d4c3b792a09.jpg",
         "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
+        "video_loop": false,
+        "video_muted": false,
         "video_controls": false,
         "reveal_on_scroll": true,
         "image_position": "start",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
         "remove_top_padding": false
       }
     },
@@ -419,6 +436,25 @@
         "title": "",
         "content": ""
       }
+    },
+    "blocks_tX8aJ4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_Kfz46e": {
+          "type": "ai_gen_block_5edc35c",
+          "disabled": true,
+          "settings": {
+            "height_mobile": 5,
+            "height_desktop": 10
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_Kfz46e"
+      ],
+      "name": "Spacer",
+      "settings": {}
     },
     "media_grid_UzC6Vn": {
       "type": "media-grid",
@@ -622,6 +658,7 @@
     "map_with_text_zfmMKi",
     "image_with_text_QNEjBt",
     "media_grid_9nU4R3",
+    "blocks_tX8aJ4",
     "media_grid_UzC6Vn",
     "beach_location_banner_nGbcUy",
     "multi_column_AG6HP7"
