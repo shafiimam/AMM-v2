@@ -15,6 +15,7 @@
         "video_Uhn43N": {
           "type": "video",
           "name": "edgewood video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
             "allow_sound": true,
