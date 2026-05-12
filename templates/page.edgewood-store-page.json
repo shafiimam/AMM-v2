@@ -108,7 +108,7 @@
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We are proud to introduce the new A Ma Maniére Edgewood flagship in Atlanta — a multi-level destination designed to blur the lines between luxury shopping, hospitality, dining, and culture. Rooted in intentional design and elevated experiences, the space reflects our ongoing vision of creating environments that feel as curated and considered as the communities that inspire them. Located in the historic Edgewood neighborhood, the flagship will unveil a new expression of A Ma Maniére through exclusive offerings, immersive spaces, and culturally driven experiences designed to be discovered over time.</p><p>More than a flagship, Edgewood is a statement on ownership, legacy, and the future of luxury through a Black cultural lens. Every detail has been developed with purpose, from the atmosphere and programming to the art and hospitality experience woven throughout the space. As we prepare to open our doors, we look forward to welcoming the community into a destination built not only to be visited, but to be felt.</p>"
+            "content": "<p>We are proud to introduce the new A Ma Maniére Edgewood Flagship in Atlanta — a multi-level destination designed to blur the lines between luxury shopping, hospitality, dining, and culture. Rooted in intentional design and elevated experiences, the space reflects our ongoing vision of creating environments that feel as curated and considered as the culture that inspires them. Located in the historic Edgewood neighborhood, the flagship will unveil a new expression of A Ma Maniére through exclusive offerings, immersive spaces, and culturally driven experiences designed to be discovered over time.</p><p>More than a flagship, Edgewood is a statement on ownership, legacy, and the future of luxury through a Black cultural lens. Every detail has been developed with purpose, from the atmosphere and programming to the art and hospitality experience woven throughout the space. As we prepare to open our doors, we look forward to welcoming the community into a destination built not only to be visited, but to be felt.</p>"
           }
         }
       },
@@ -239,6 +239,73 @@
         "remove_vertical_spacing": true
       }
     },
+    "image_with_text_QNEjBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MK7jAW": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Shopping</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_BEnARr": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>DINING  EXPERIENCES</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_GfmMUd": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>LUXURY HOSPITALITY</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_dcgCDh": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>IMPACTFUL ART</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "countdown_BFxhK7": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "final_date": "21-05-2026",
+            "final_time": "15:00",
+            "start_countdown": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_MK7jAW",
+        "heading_BEnARr",
+        "heading_GfmMUd",
+        "heading_dcgCDh",
+        "countdown_BFxhK7"
+      ],
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/GREENAMM.jpg",
+        "mobile_image": "shopify://shop_images/GREENAMM_3e7f55cd-ab0f-4eed-a5d8-2d4c3b792a09.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "media_grid_9nU4R3": {
       "type": "media-grid",
       "blocks": {
@@ -343,81 +410,14 @@
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "desktop_row_height": 290,
         "mobile_row_height": 180,
-        "section_width": "lg",
+        "section_width": "full",
         "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "image_with_text_QNEjBt": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_BEnARr": {
-          "type": "heading",
-          "settings": {
-            "text": "DINING  EXPERIENCES",
-            "heading_tag": "h1"
-          }
-        },
-        "heading_GfmMUd": {
-          "type": "heading",
-          "settings": {
-            "text": "LUXURY HOSPITALITY",
-            "heading_tag": "h1"
-          }
-        },
-        "heading_dcgCDh": {
-          "type": "heading",
-          "settings": {
-            "text": "IMPACTFUL ART",
-            "heading_tag": "h1"
-          }
-        },
-        "heading_MK7jAW": {
-          "type": "heading",
-          "settings": {
-            "text": "SHOPPING",
-            "heading_tag": "h1"
-          }
-        },
-        "countdown_BFxhK7": {
-          "type": "countdown",
-          "disabled": true,
-          "settings": {
-            "final_date": "21-05-2026",
-            "final_time": "15:00",
-            "start_countdown": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_BEnARr",
-        "heading_GfmMUd",
-        "heading_dcgCDh",
-        "heading_MK7jAW",
-        "countdown_BFxhK7"
-      ],
-      "custom_css": [
-        "img {width: 100%;}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
-        "mobile_image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "media_grid_UzC6Vn": {
@@ -481,6 +481,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/DSC09004_BM.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -504,10 +505,10 @@
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "desktop_row_height": 290,
         "mobile_row_height": 180,
-        "section_width": "lg",
+        "section_width": "full",
         "spacing": "xs",
         "subheading": "",
         "title": "",
@@ -619,8 +620,8 @@
     "rich_text_VcMXhH",
     "video_hPeq4A",
     "map_with_text_zfmMKi",
-    "media_grid_9nU4R3",
     "image_with_text_QNEjBt",
+    "media_grid_9nU4R3",
     "media_grid_UzC6Vn",
     "beach_location_banner_nGbcUy",
     "multi_column_AG6HP7"
