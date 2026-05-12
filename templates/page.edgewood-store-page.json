@@ -356,79 +356,50 @@
     "image_with_text_QNEjBt": {
       "type": "image-with-text",
       "blocks": {
+        "heading_BEnARr": {
+          "type": "heading",
+          "settings": {
+            "text": "DINING  EXPERIENCES",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_GfmMUd": {
+          "type": "heading",
+          "settings": {
+            "text": "LUXURY HOSPITALITY",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_dcgCDh": {
+          "type": "heading",
+          "settings": {
+            "text": "IMPACTFUL ART",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_MK7jAW": {
+          "type": "heading",
+          "settings": {
+            "text": "SHOPPING",
+            "heading_tag": "h1"
+          }
+        },
         "countdown_BFxhK7": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "final_date": "21-05-2026",
             "final_time": "15:00",
             "start_countdown": true
           }
-        },
-        "button_rN7aVg": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "DINING EXPERIENCES",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_NUakpn": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "SHOPPING",
-            "url": "#",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_UCzABb": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "LUXURY HOSPITALITY",
-            "url": "#",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_mtXAAG": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "IMPACTFUL ART",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "heading_McaCUH": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Marketing Content Block",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_EUAmG9": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend urna erat, nec maximus arcu lobortis sed. Duis in lorem gravida, aliquam nisi a, molestie ex. Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.Quisque congue quam sit amet vehicula dapibus. Morbi in tempor nisl, vel blandit nulla. Nulla tristique sodales elit, in mollis leo posuere et.</p>",
-            "text_color": "#535353"
-          }
         }
       },
       "block_order": [
-        "countdown_BFxhK7",
-        "button_rN7aVg",
-        "button_NUakpn",
-        "button_UCzABb",
-        "button_mtXAAG",
-        "heading_McaCUH",
-        "richtext_EUAmG9"
+        "heading_BEnARr",
+        "heading_GfmMUd",
+        "heading_dcgCDh",
+        "heading_MK7jAW",
+        "countdown_BFxhK7"
       ],
       "custom_css": [
         "img {width: 100%;}"
