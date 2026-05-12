@@ -222,8 +222,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
-        "mobile_image": "shopify://shop_images/unsplash_bCnM5P0gcpY_8036e332-cd1b-4d66-90ed-99c0b6ee603e.png",
+        "image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
+        "mobile_image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -232,7 +232,7 @@
         "image_position": "start",
         "content_width": "md",
         "remove_vertical_spacing": true,
-        "remove_top_padding": true
+        "remove_top_padding": false
       }
     },
     "map_with_text_zfmMKi": {
@@ -256,7 +256,7 @@
         "image_block_q6mYbV": {
           "type": "image_block",
           "settings": {
-            "title": "RETAIL SHOPPING",
+            "title": "SHOPPING",
             "image": "shopify://shop_images/Frame_1000002060.png",
             "link_target": "_self",
             "button_style": "outline",
@@ -332,6 +332,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/skylinehebru.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -349,6 +350,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/livingroom2.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -366,6 +368,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/bar.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -383,6 +386,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/artonwall.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -400,6 +404,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/livingroom.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -428,7 +433,7 @@
         "desktop_row_height": 290,
         "mobile_row_height": 180,
         "section_width": "lg",
-        "spacing": "md",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
@@ -441,6 +446,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/retail.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -458,6 +464,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/patio.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -475,6 +482,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/retail2.jpg",
             "column_count": "4",
             "row_count": 2,
             "title": "",
@@ -519,7 +527,7 @@
         "desktop_row_height": 290,
         "mobile_row_height": 180,
         "section_width": "lg",
-        "spacing": "md",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
