@@ -101,19 +101,19 @@
         "event_z7T663": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
+            "mobile_image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
             "title": "404 Day Cipher Run",
             "location": "969 Marietta Street NorthWest #200, Atlanta, GA 30318",
             "is_online": false,
-            "button_label": "",
-            "button_url": "#"
+            "button_label": "Store information",
+            "button_url": "shopify://pages/a-ma-maniere-atlanta-store"
           }
         },
         "event_CbK9CA": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -124,7 +124,7 @@
         "event_3CDdJK": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -135,7 +135,7 @@
         "event_AeGYCJ": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -146,7 +146,7 @@
         "event_PAj7Tm": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -157,7 +157,7 @@
         "event_iYc33x": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -168,7 +168,7 @@
         "event_N7ye7z": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -179,7 +179,7 @@
         "event_faX78z": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -190,7 +190,7 @@
         "event_gYWajw": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
