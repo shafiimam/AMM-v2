@@ -1,4 +1,4 @@
-<section class="section_event_header" id="shopify_section-{{ section.id }}" aria-labelledby="event-header-title" data-section-id="{{ section.id }}" style="--section-margin-top: {{ section.settings.section_margin_top }}px">
+<section class="section_event_header" id="shopify_section-{{ section.id }}" aria-labelledby="event-header-title" data-section-id="{{ section.id }}">
   <div class="section_event_header--title-container">
     <h1 id="event-header-title" class="section_event_header--title" data-banner-title>{{ section.settings.title }}</h1>
   </div>
@@ -62,7 +62,7 @@
 <style>
   .section_event_header {
     position: relative;
-    margin-top: var(--section-margin-top, 60px);
+    margin-top: var(--section-margin-top, 0px);
     margin-bottom: 60px;
   }
   @media only screen and (max-width: 768px) {
@@ -84,7 +84,7 @@
     margin: 0;
     color: #fff;
     -webkit-text-stroke: 1px #e1e1e1;
-    text-stroke: 1px #e1e1e1;
+    paint-order: stroke fill;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -94,6 +94,8 @@
     white-space: nowrap;
     transform: translateY(-50%);
     font-size: 270px;
+    text-align: center;
+    text-decoration: none;
   }
   .section_event_header--image-container img {
     width: 100%;
@@ -192,6 +194,12 @@
       if (measuredWidth <= 0) return;
       const fontSize = Math.min((availableWidth / measuredWidth) * 100, MAX_FONT_SIZE);
       title.style.fontSize = fontSize + 'px';
+      updateSectionMargin(fontSize);
+    }
+
+    function updateSectionMargin(fontSize) {
+      const overflowAbove = fontSize / 2;
+      section.style.setProperty('--section-margin-top', overflowAbove + 'px');
     }
 
     if (title && mediaContainer) {
@@ -242,16 +250,6 @@
       "id": "title",
       "label": "Title",
       "default": "Events"
-    },
-    {
-      "type": "range",
-      "id": "section_margin_top",
-      "label": "Section top margin",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "default": 60
     },
     {
       "type": "header",

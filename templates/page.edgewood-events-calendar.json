@@ -13,7 +13,6 @@
       "type": "events-header-banner",
       "settings": {
         "title": "Cultural Experiences",
-        "section_margin_top": 32,
         "media_type": "image",
         "desktop_image": "shopify://shop_images/skylinehebru.jpg",
         "mobile_image": "shopify://shop_images/retail2.jpg",
