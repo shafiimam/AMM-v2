@@ -13,9 +13,10 @@
       "type": "events-header-banner",
       "settings": {
         "title": "Cultural Experiences",
-        "media_type": "image",
+        "media_type": "video",
         "desktop_image": "shopify://shop_images/skylinehebru.jpg",
         "mobile_image": "shopify://shop_images/retail2.jpg",
+        "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
         "video_autoplay": true,
         "video_loop": true,
         "video_show_controls": false
