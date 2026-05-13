@@ -1,13 +1,6 @@
 <section class="section_event_header" id="shopify_section-{{ section.id }}" aria-labelledby="event-header-title" data-section-id="{{ section.id }}">
   <div class="section_event_header--title-container">
-    <div class="w-full">
-      <h1 id="event-header-title">
-        {% assign string_array = section.settings.title | split: '' %}
-        {% for string in string_array %}
-          <span class="h1">{{ string }}</span>
-        {% endfor %}
-      </h1>
-    </div>
+    <h1 id="event-header-title" class="section_event_header--title" data-banner-title>{{ section.settings.title }}</h1>
   </div>
   <div class="section_event_header--image-container">
     {%- if section.settings.media_type == 'video' and section.settings.video != blank -%}
@@ -78,25 +71,28 @@
   }
   .section_event_header--title-container {
     position: absolute;
-    top: -12%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    @media only screen and (max-width: 768px) {
-      top: -4%;
-    }
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 10px;
+    pointer-events: none;
+    z-index: 1;
+    box-sizing: border-box;
   }
-  .section_event_header--title-container .h1 {
+  .section_event_header--title {
+    margin: 0;
     color: #fff;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: #e1e1e1;
-    font-family: Roboto;
-    font-size: {{ section.settings.heading_font_size }}vw;
+    -webkit-text-stroke: 1px #e1e1e1;
+    text-stroke: 1px #e1e1e1;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    line-height: 1;
+    letter-spacing: 0.34em;
     text-transform: uppercase;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    font-size: 270px;
   }
   .section_event_header--image-container img {
     width: 100%;
@@ -152,12 +148,6 @@
       height: 18px;
     }
   }
-  #event-header-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
   .desktop-only {
     display: none;
   }
@@ -186,6 +176,35 @@
   (function () {
     const section = document.querySelector('#shopify_section-{{ section.id }}');
     if (!section) return;
+
+    const MAX_FONT_SIZE = 270;
+    const HORIZONTAL_PADDING = 10;
+    const title = section.querySelector('[data-banner-title]');
+    const mediaContainer = section.querySelector('.section_event_header--image-container');
+
+    function fitTitle() {
+      if (!title || !mediaContainer) return;
+      const availableWidth = mediaContainer.clientWidth - HORIZONTAL_PADDING * 2;
+      if (availableWidth <= 0) return;
+      title.style.fontSize = '100px';
+      const measuredWidth = title.scrollWidth;
+      if (measuredWidth <= 0) return;
+      const fontSize = Math.min((availableWidth / measuredWidth) * 100, MAX_FONT_SIZE);
+      title.style.fontSize = fontSize + 'px';
+    }
+
+    if (title && mediaContainer) {
+      fitTitle();
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(fitTitle);
+      }
+      if (typeof ResizeObserver !== 'undefined') {
+        new ResizeObserver(fitTitle).observe(mediaContainer);
+      } else {
+        window.addEventListener('resize', fitTitle);
+      }
+    }
+
     const video = section.querySelector('.section_event_header--video');
     const toggle = section.querySelector('[data-sound-toggle]');
     if (!video || !toggle) return;
@@ -222,16 +241,6 @@
       "id": "title",
       "label": "Title",
       "default": "Events"
-    },
-    {
-      "type": "range",
-      "id": "heading_font_size",
-      "min": 5,
-      "max": 15,
-      "step": 1,
-      "unit": "vw",
-      "label": "Heading Font Size",
-      "default": 10
     },
     {
       "type": "header",
