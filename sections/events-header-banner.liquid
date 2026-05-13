@@ -1,4 +1,4 @@
-<section class="section_event_header" id="shopify_section-{{ section.id }}" aria-labelledby="event-header-title">
+<section class="section_event_header" id="shopify_section-{{ section.id }}" aria-labelledby="event-header-title" data-section-id="{{ section.id }}">
   <div class="section_event_header--title-container">
     <div class="w-full">
       <h1 id="event-header-title">
@@ -10,14 +10,60 @@
     </div>
   </div>
   <div class="section_event_header--image-container">
-    <picture class="desktop-only">
-      <source srcset="{{ section.settings.desktop_image | image_url: width: section.settings.desktop_image.width }}" media="(min-width: 769px)">
-      <img src="{{ section.settings.desktop_image | image_url: width: section.settings.desktop_image.width }}" alt="{{ section.settings.title }}">
-    </picture>
-    <picture class="mobile-only">
-      <source srcset="{{ section.settings.mobile_image | image_url: width: section.settings.mobile_image.width }}" media="(max-width: 768px)">
-      <img src="{{ section.settings.mobile_image | image_url: width: section.settings.mobile_image.width }}" alt="{{ section.settings.title }}">
-    </picture>
+    {%- if section.settings.media_type == 'video' and section.settings.video != blank -%}
+      {%- assign video = section.settings.video -%}
+      {%- assign autoplay = section.settings.video_autoplay -%}
+      {%- assign loop = section.settings.video_loop -%}
+      {%- assign show_controls = section.settings.video_show_controls -%}
+
+      {%- if section.settings.video_poster != blank -%}
+        {%- assign poster_url = section.settings.video_poster | image_url: width: 2000 -%}
+      {%- elsif video.preview_image != blank -%}
+        {%- assign poster_url = video.preview_image | image_url: width: 2000 -%}
+      {%- endif -%}
+
+      <div class="section_event_header--video-wrap">
+        <video
+          class="section_event_header--video"
+          {% if autoplay %}autoplay muted{% endif %}
+          {% if loop %}loop{% endif %}
+          {% if show_controls %}controls{% endif %}
+          playsinline
+          preload="metadata"
+          {% if poster_url %}poster="{{ poster_url }}"{% endif %}
+        >
+          {%- for source in video.sources -%}
+            <source src="{{ source.url }}" type="{{ source.mime_type }}">
+          {%- endfor -%}
+        </video>
+
+        {%- unless show_controls -%}
+          <button
+            type="button"
+            class="section_event_header--sound-toggle"
+            data-sound-toggle
+            aria-label="Unmute video"
+            aria-pressed="false"
+          >
+            <span class="section_event_header--icon section_event_header--icon-muted">
+              {% render 'icon', icon: 'unmute', width: 22 %}
+            </span>
+            <span class="section_event_header--icon section_event_header--icon-unmuted" hidden>
+              {% render 'icon', icon: 'mute', width: 22 %}
+            </span>
+          </button>
+        {%- endunless -%}
+      </div>
+    {%- else -%}
+      <picture class="desktop-only">
+        <source srcset="{{ section.settings.desktop_image | image_url: width: section.settings.desktop_image.width }}" media="(min-width: 769px)">
+        <img src="{{ section.settings.desktop_image | image_url: width: section.settings.desktop_image.width }}" alt="{{ section.settings.title }}">
+      </picture>
+      <picture class="mobile-only">
+        <source srcset="{{ section.settings.mobile_image | image_url: width: section.settings.mobile_image.width }}" media="(max-width: 768px)">
+        <img src="{{ section.settings.mobile_image | image_url: width: section.settings.mobile_image.width }}" alt="{{ section.settings.title }}">
+      </picture>
+    {%- endif -%}
   </div>
 </section>
 <style>
@@ -55,6 +101,57 @@
   .section_event_header--image-container img {
     width: 100%;
   }
+  .section_event_header--video-wrap {
+    position: relative;
+    width: 100%;
+    line-height: 0;
+  }
+  .section_event_header--video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .section_event_header--sound-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+    transition: background 0.2s ease;
+  }
+  .section_event_header--sound-toggle:hover,
+  .section_event_header--sound-toggle:focus-visible {
+    background: rgba(0, 0, 0, 0.7);
+    outline: none;
+  }
+  .section_event_header--sound-toggle svg {
+    width: 22px;
+    height: 22px;
+  }
+  .section_event_header--icon[hidden] {
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    .section_event_header--sound-toggle {
+      top: 10px;
+      right: 10px;
+      width: 38px;
+      height: 38px;
+    }
+    .section_event_header--sound-toggle svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
   #event-header-title {
     display: flex;
     justify-content: space-between;
@@ -85,6 +182,37 @@
   }
 </style>
 
+<script>
+  (function () {
+    const section = document.querySelector('#shopify_section-{{ section.id }}');
+    if (!section) return;
+    const video = section.querySelector('.section_event_header--video');
+    const toggle = section.querySelector('[data-sound-toggle]');
+    if (!video || !toggle) return;
+
+    const iconMuted = toggle.querySelector('.section_event_header--icon-muted');
+    const iconUnmuted = toggle.querySelector('.section_event_header--icon-unmuted');
+
+    function render() {
+      const isMuted = video.muted;
+      iconMuted.hidden = !isMuted;
+      iconUnmuted.hidden = isMuted;
+      toggle.setAttribute('aria-label', isMuted ? 'Unmute video' : 'Mute video');
+      toggle.setAttribute('aria-pressed', String(!isMuted));
+    }
+
+    toggle.addEventListener('click', function () {
+      video.muted = !video.muted;
+      if (!video.muted && video.paused) {
+        video.play().catch(function () {});
+      }
+      render();
+    });
+
+    render();
+  })();
+</script>
+
 {% schema %}
 {
   "name": "Events Header Banner",
@@ -96,16 +224,6 @@
       "default": "Events"
     },
     {
-      "type": "image_picker",
-      "id": "desktop_image",
-      "label": "Desktop Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "mobile_image",
-      "label": "Mobile Image"
-    },
-    {
       "type": "range",
       "id": "heading_font_size",
       "min": 5,
@@ -115,6 +233,78 @@
       "label": "Heading Font Size",
       "default": 10
     },
+    {
+      "type": "header",
+      "content": "Media"
+    },
+    {
+      "type": "select",
+      "id": "media_type",
+      "label": "Media type",
+      "options": [
+        { "value": "image", "label": "Image" },
+        { "value": "video", "label": "Video" }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "header",
+      "content": "Image settings",
+      "visible_if": "{{ section.settings.media_type == 'image' }}"
+    },
+    {
+      "type": "image_picker",
+      "id": "desktop_image",
+      "label": "Desktop Image",
+      "visible_if": "{{ section.settings.media_type == 'image' }}"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image",
+      "visible_if": "{{ section.settings.media_type == 'image' }}"
+    },
+    {
+      "type": "header",
+      "content": "Video settings",
+      "visible_if": "{{ section.settings.media_type == 'video' }}"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video",
+      "visible_if": "{{ section.settings.media_type == 'video' }}"
+    },
+    {
+      "type": "image_picker",
+      "id": "video_poster",
+      "label": "Video poster",
+      "info": "Optional. Falls back to the video's preview image.",
+      "visible_if": "{{ section.settings.media_type == 'video' }}"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay",
+      "label": "Autoplay",
+      "info": "Autoplay forces the video to start muted.",
+      "default": true,
+      "visible_if": "{{ section.settings.media_type == 'video' }}"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_loop",
+      "label": "Loop video",
+      "default": true,
+      "visible_if": "{{ section.settings.media_type == 'video' }}"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_show_controls",
+      "label": "Show video controls",
+      "info": "When enabled, the custom sound toggle is hidden in favor of native controls.",
+      "default": false,
+      "visible_if": "{{ section.settings.media_type == 'video' }}"
+    }
   ],
   "presets": [
     {
