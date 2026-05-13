@@ -21,6 +21,7 @@
     },
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
+      "disabled": true,
       "name": "Hero Banner With Logo",
       "settings": {
         "image": "shopify://shop_images/ammcollection1.png",
@@ -48,6 +49,38 @@
         "content_alignment": "center",
         "horizontal_position": 90,
         "vertical_position": 0
+      }
+    },
+    "video_yGaVhn": {
+      "type": "video",
+      "blocks": {
+        "play_YaRjFR": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_zhzbkQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_YaRjFR",
+        "heading_zhzbkQ"
+      ],
+      "name": "statement film",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "fill",
+        "video": "shopify://files/videos/MBTS4k H.265.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     },
     "image_with_text_7Xm8Cg": {
@@ -110,8 +143,6 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/ammcover.png",
-        "mobile_image": "shopify://shop_images/ammcover.png",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -129,14 +160,14 @@
         "heading_TQR4GH": {
           "type": "heading",
           "settings": {
-            "text": "The collection",
+            "text": "BW ARMY RUNNER",
             "heading_tag": "h1"
           }
         },
         "richtext_WVXb8y": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Nothing here was made to be approved.<br/>The BW 2000’s arrives as a new silhouette exclusive to The Whitaker Group, defined through structure and material. The Handball Spezial extends the same language through restraint</p>"
+            "content": "<p>BW ARMY RUNNER COPY </p>"
           }
         },
         "button_yd3i4M": {
@@ -156,7 +187,7 @@
         "richtext_WVXb8y",
         "button_yd3i4M"
       ],
-      "name": "collection copy",
+      "name": "RUNNER COPY ",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -172,7 +203,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/BR50664_DC_copy.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -190,7 +220,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC03964_DC_1.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -208,7 +237,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/BR51943_DC.jpg",
             "column_count": "3",
             "row_count": 1,
             "title": "",
@@ -226,7 +254,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC03734_DC.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -244,27 +271,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC03361_DC_copy.jpg",
             "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_aCqxkA": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ammdg.png",
-            "column_count": "4",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -283,63 +290,6 @@
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/ammdg1.png",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_gkhdMq": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC06047BB.jpg",
-            "column_count": "12",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_FA9Bnz": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-8_d02acbf1-bfde-4839-ba46-2d6e4c743314.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_cVQmCb": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-9_7034673b-2534-4aed-8e35-e37bc36c104d.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -379,12 +329,284 @@
         "image_TB3Va4",
         "image_jckHzH",
         "image_tHThM7",
-        "image_aCqxkA",
         "image_BEtRTU",
-        "image_gkhdMq",
-        "image_FA9Bnz",
-        "image_cVQmCb",
         "image_dLC688"
+      ],
+      "name": "RUNNER GRID",
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": true,
+        "desktop_row_height": 600,
+        "mobile_row_height": 400,
+        "section_width": "full",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_nYTrQD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mjNnHq": {
+          "type": "heading",
+          "settings": {
+            "text": "The collection",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_R7nMxq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nothing here was made to be approved.<br/>The BW 2000’s arrives as a new silhouette exclusive to The Whitaker Group, defined through structure and material. The Handball Spezial extends the same language through restraint</p>"
+          }
+        },
+        "button_AdHNpC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "enter draws",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_mjNnHq",
+        "richtext_R7nMxq",
+        "button_AdHNpC"
+      ],
+      "name": "collection copy",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_NqpC6Q": {
+      "type": "media-grid",
+      "blocks": {
+        "image_3CaJmV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/BR50664_DC_copy.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Q9UQHk": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC03964_DC_1.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DWPVhc": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/BR51943_DC.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3iLBkY": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC03734_DC.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gL8QAJ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC03361_DC_copy.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bjBKMp": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammdg.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HVCk9g": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammdg1.png",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_AkHNqc": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC06047BB.jpg",
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yMDtCX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-8_d02acbf1-bfde-4839-ba46-2d6e4c743314.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iPAyQk": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/AMMXAJ4DARKMOCHA-9_7034673b-2534-4aed-8e35-e37bc36c104d.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kRRdk9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/boxaj4.jpg",
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3CaJmV",
+        "image_Q9UQHk",
+        "image_DWPVhc",
+        "image_3iLBkY",
+        "image_gL8QAJ",
+        "image_bjBKMp",
+        "image_HVCk9g",
+        "image_AkHNqc",
+        "image_yMDtCX",
+        "image_iPAyQk",
+        "image_kRRdk9"
       ],
       "name": "collection grid",
       "settings": {
@@ -648,7 +870,7 @@
         "image_R3yDM6",
         "image_bqHYkK"
       ],
-      "name": "404 grid",
+      "name": "DAYGLOW GRID",
       "settings": {
         "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
@@ -933,39 +1155,6 @@
         "show_section_texts": true,
         "top_text": "Try",
         "bottom_text": "Now"
-      }
-    },
-    "video_yGaVhn": {
-      "type": "video",
-      "blocks": {
-        "play_YaRjFR": {
-          "type": "play",
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
-        "heading_zhzbkQ": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "play_YaRjFR",
-        "heading_zhzbkQ"
-      ],
-      "disabled": true,
-      "name": "statement film",
-      "settings": {
-        "autoplay": true,
-        "show_controls": true,
-        "video_size": "fill",
-        "video": "shopify://files/videos/MBTS4k H.265.mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff"
       }
     },
     "rich_text_VrqdQt": {
@@ -1257,15 +1446,17 @@
   "order": [
     "main",
     "hero_with_logo_nPMzTc",
+    "video_yGaVhn",
     "image_with_text_7Xm8Cg",
     "rich_text_bgrjCr",
     "media_grid_4MXqFL",
+    "rich_text_nYTrQD",
+    "media_grid_NqpC6Q",
     "rich_text_zBUkXL",
     "media_grid_VWzJxx",
     "rich_text_Ycy4YL",
     "media_grid_fzyMFm",
     "3d_gallery_simple_KeU3rf",
-    "video_yGaVhn",
     "rich_text_VrqdQt",
     "media_grid_HwBKby"
   ]
