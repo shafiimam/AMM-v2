@@ -809,47 +809,47 @@
         "collection_QPJnbw": {
           "type": "collection",
           "settings": {
-            "collection": "new-t-shirts",
+            "collection": "saint-michael",
             "products_count": 8,
             "title": "",
-            "link_url": "shopify://collections/new-t-shirts",
+            "link_url": "shopify://collections/saint-michael",
             "link_text": "View all"
           }
         },
-        "collection_fUfJmE": {
+        "collection_YYX6wA": {
           "type": "collection",
           "settings": {
-            "collection": "new-denim",
+            "collection": "better-with-age",
             "products_count": 8,
-            "title": "Denim",
-            "link_url": "shopify://collections/new-denim",
+            "title": "",
+            "link_url": "shopify://collections/better-with-age",
             "link_text": "View all"
           }
         },
         "collection_NDmmGJ": {
           "type": "collection",
           "settings": {
-            "collection": "jackets",
+            "collection": "paly",
             "products_count": 8,
-            "title": "Jackets",
-            "link_url": "shopify://collections/jackets",
+            "title": "PALY",
+            "link_url": "shopify://collections/paly",
             "link_text": "View all"
           }
         },
         "collection_Q7Rc3m": {
           "type": "collection",
           "settings": {
-            "collection": "footwear",
+            "collection": "rivington-4",
             "products_count": 8,
-            "title": "Footwear",
-            "link_url": "shopify://collections/footwear",
+            "title": "RIVINGTON",
+            "link_url": "shopify://collections/rivington-4",
             "link_text": "SHOP COLLECTION"
           }
         }
       },
       "block_order": [
         "collection_QPJnbw",
-        "collection_fUfJmE",
+        "collection_YYX6wA",
         "collection_NDmmGJ",
         "collection_Q7Rc3m"
       ],
