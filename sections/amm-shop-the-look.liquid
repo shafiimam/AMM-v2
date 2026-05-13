@@ -110,7 +110,13 @@
         <div class="amm-stl__products" aria-live="polite">
           <p class="amm-stl__products-label">Complete the look</p>
           <ul class="amm-stl__product-list">
+            {%- comment %}<locksmith:8368>{% endcomment -%}
+              {%- assign locksmith_37d1_forloop__size = 0 %}{%- for item in loop_source -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_37d1_forloop__size = locksmith_37d1_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_37d1_forloop__index = nil -%}
+            {%- comment %}</locksmith:8368>{% endcomment -%}
             {%- for item in loop_source -%}
+              {%- comment %}<locksmith:7494>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_37d1_forloop__index == nil %}{% assign locksmith_37d1_forloop__index = 1 %}{% assign locksmith_37d1_forloop__index0 = 0 %}{% else %}{% assign locksmith_37d1_forloop__index = locksmith_37d1_forloop__index | plus: 1 %}{% assign locksmith_37d1_forloop__index0 = locksmith_37d1_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_37d1_forloop__index == 1 %}{% assign locksmith_37d1_forloop__first = true %}{% else %}{% assign locksmith_37d1_forloop__first = false %}{% endif %}{% if locksmith_37d1_forloop__index == locksmith_37d1_forloop__size %}{% assign locksmith_37d1_forloop__last = true %}{% else %}{% assign locksmith_37d1_forloop__last = false %}{% endif %}{% assign locksmith_37d1_forloop__rindex = locksmith_37d1_forloop__size | minus: locksmith_37d1_forloop__index | minus: 1 %}{% assign locksmith_37d1_forloop__rindex0 = locksmith_37d1_forloop__size | minus: locksmith_37d1_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:7494>{% endcomment -%}
               {%- if is_product_driven -%}
                 {%- assign product_obj = item -%}
                 {%- assign current_block = nil -%}
@@ -127,7 +133,7 @@
                 {%- assign hotspot_y = current_block.settings.hotspot_y -%}
               {%- endif -%}
               {%- if product_obj != blank -%}
-                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}">
+                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ locksmith_37d1_forloop__index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}">
                   <div class="amm-stl-product-item__image">
                     <a href="{{ product_obj.url }}">
                       {%- if product_obj.featured_image -%}
@@ -175,7 +181,13 @@
       {%- elsif layout == 'hotspot' -%}
         <div class="amm-stl__products" aria-live="polite">
           <ul class="amm-stl__product-list">
+            {%- comment %}<locksmith:0203>{% endcomment -%}
+              {%- assign locksmith_da29_forloop__size = 0 %}{%- for item in loop_source -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_da29_forloop__size = locksmith_da29_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_da29_forloop__index = nil -%}
+            {%- comment %}</locksmith:0203>{% endcomment -%}
             {%- for item in loop_source -%}
+              {%- comment %}<locksmith:dc52>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_da29_forloop__index == nil %}{% assign locksmith_da29_forloop__index = 1 %}{% assign locksmith_da29_forloop__index0 = 0 %}{% else %}{% assign locksmith_da29_forloop__index = locksmith_da29_forloop__index | plus: 1 %}{% assign locksmith_da29_forloop__index0 = locksmith_da29_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_da29_forloop__index == 1 %}{% assign locksmith_da29_forloop__first = true %}{% else %}{% assign locksmith_da29_forloop__first = false %}{% endif %}{% if locksmith_da29_forloop__index == locksmith_da29_forloop__size %}{% assign locksmith_da29_forloop__last = true %}{% else %}{% assign locksmith_da29_forloop__last = false %}{% endif %}{% assign locksmith_da29_forloop__rindex = locksmith_da29_forloop__size | minus: locksmith_da29_forloop__index | minus: 1 %}{% assign locksmith_da29_forloop__rindex0 = locksmith_da29_forloop__size | minus: locksmith_da29_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:dc52>{% endcomment -%}
               {%- if is_product_driven -%}
                 {%- assign product_obj = item -%}
                 {%- assign current_block = nil -%}
@@ -192,7 +204,7 @@
                 {%- assign hotspot_y = current_block.settings.hotspot_y -%}
               {%- endif -%}
               {%- if product_obj != blank -%}
-                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}">
+                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ locksmith_da29_forloop__index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}">
                   <div class="amm-stl-product-item__image">
                     <a href="{{ product_obj.url }}">
                       {%- if product_obj.featured_image -%}
@@ -242,7 +254,13 @@
       {%- elsif layout == 'film-strip' -%}
         <div class="amm-stl__products" aria-live="polite">
           <ul class="amm-stl__product-list">
+            {%- comment %}<locksmith:8a97>{% endcomment -%}
+              {%- assign locksmith_c769_forloop__size = 0 %}{%- for item in loop_source -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_c769_forloop__size = locksmith_c769_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_c769_forloop__index = nil -%}
+            {%- comment %}</locksmith:8a97>{% endcomment -%}
             {%- for item in loop_source -%}
+              {%- comment %}<locksmith:95ed>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_c769_forloop__index == nil %}{% assign locksmith_c769_forloop__index = 1 %}{% assign locksmith_c769_forloop__index0 = 0 %}{% else %}{% assign locksmith_c769_forloop__index = locksmith_c769_forloop__index | plus: 1 %}{% assign locksmith_c769_forloop__index0 = locksmith_c769_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_c769_forloop__index == 1 %}{% assign locksmith_c769_forloop__first = true %}{% else %}{% assign locksmith_c769_forloop__first = false %}{% endif %}{% if locksmith_c769_forloop__index == locksmith_c769_forloop__size %}{% assign locksmith_c769_forloop__last = true %}{% else %}{% assign locksmith_c769_forloop__last = false %}{% endif %}{% assign locksmith_c769_forloop__rindex = locksmith_c769_forloop__size | minus: locksmith_c769_forloop__index | minus: 1 %}{% assign locksmith_c769_forloop__rindex0 = locksmith_c769_forloop__size | minus: locksmith_c769_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:95ed>{% endcomment -%}
               {%- if is_product_driven -%}
                 {%- assign product_obj = item -%}
                 {%- assign current_block = nil -%}
@@ -263,7 +281,7 @@
                 {%- assign film_indicator_y = current_block.settings.film_indicator_y -%}
               {%- endif -%}
               {%- if product_obj != blank -%}
-                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}" data-film-indicator-x="{{ film_indicator_x }}" data-film-indicator-y="{{ film_indicator_y }}">
+                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ locksmith_c769_forloop__index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}" data-film-indicator-x="{{ film_indicator_x }}" data-film-indicator-y="{{ film_indicator_y }}">
                   <div class="amm-stl-product-item__image">
                     <a href="{{ product_obj.url }}">
                       {%- if product_obj.featured_image -%}
@@ -288,7 +306,7 @@
                   </div>
                   <a href="{{ product_obj.url }}">
                     <div class="amm-stl__product-info">
-                      <p class="amm-stl__product-counter">{{ forloop.index }} / {{ item_count }}</p>
+                      <p class="amm-stl__product-counter">{{ locksmith_c769_forloop__index }} / {{ item_count }}</p>
                       <p class="amm-stl__product-title">{{ product_obj.title }}</p>
                       <p class="amm-stl__product-price">{{ product_obj.price | money }}</p>
                       <span class="amm-stl__product-link">Shop →</span>
@@ -311,7 +329,13 @@
       {%- elsif layout == 'mosaic' -%}
         <div class="amm-stl__products" aria-live="polite">
           <ul class="amm-stl__product-list">
+            {%- comment %}<locksmith:85c5>{% endcomment -%}
+              {%- assign locksmith_d64b_forloop__size = 0 %}{%- for item in loop_source -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_d64b_forloop__size = locksmith_d64b_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_d64b_forloop__index = nil -%}
+            {%- comment %}</locksmith:85c5>{% endcomment -%}
             {%- for item in loop_source -%}
+              {%- comment %}<locksmith:8bb0>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_d64b_forloop__index == nil %}{% assign locksmith_d64b_forloop__index = 1 %}{% assign locksmith_d64b_forloop__index0 = 0 %}{% else %}{% assign locksmith_d64b_forloop__index = locksmith_d64b_forloop__index | plus: 1 %}{% assign locksmith_d64b_forloop__index0 = locksmith_d64b_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_d64b_forloop__index == 1 %}{% assign locksmith_d64b_forloop__first = true %}{% else %}{% assign locksmith_d64b_forloop__first = false %}{% endif %}{% if locksmith_d64b_forloop__index == locksmith_d64b_forloop__size %}{% assign locksmith_d64b_forloop__last = true %}{% else %}{% assign locksmith_d64b_forloop__last = false %}{% endif %}{% assign locksmith_d64b_forloop__rindex = locksmith_d64b_forloop__size | minus: locksmith_d64b_forloop__index | minus: 1 %}{% assign locksmith_d64b_forloop__rindex0 = locksmith_d64b_forloop__size | minus: locksmith_d64b_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:8bb0>{% endcomment -%}
               {%- if is_product_driven -%}
                 {%- assign product_obj = item -%}
                 {%- assign current_block = nil -%}
@@ -332,7 +356,7 @@
                 {%- assign film_indicator_y = current_block.settings.film_indicator_y -%}
               {%- endif -%}
               {%- if product_obj != blank -%}
-                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}" data-film-indicator-x="{{ film_indicator_x }}" data-film-indicator-y="{{ film_indicator_y }}">
+                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ locksmith_d64b_forloop__index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}" data-film-indicator-x="{{ film_indicator_x }}" data-film-indicator-y="{{ film_indicator_y }}">
                   <div class="amm-stl-product-item__image">
                     <a href="{{ product_obj.url }}">
                       {%- if product_obj.featured_image -%}
@@ -395,7 +419,13 @@
         <button type="button" class="amm-stl__drawer-close" aria-label="{{ 'general.accessibility.close' | t }}">✕</button>
         <div class="amm-stl__drawer-products">
           <ul class="amm-stl__product-list">
+            {%- comment %}<locksmith:cbae>{% endcomment -%}
+              {%- assign locksmith_6c81_forloop__size = 0 %}{%- for item in loop_source -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_6c81_forloop__size = locksmith_6c81_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_6c81_forloop__index = nil -%}
+            {%- comment %}</locksmith:cbae>{% endcomment -%}
             {%- for item in loop_source -%}
+              {%- comment %}<locksmith:95a2>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_6c81_forloop__index == nil %}{% assign locksmith_6c81_forloop__index = 1 %}{% assign locksmith_6c81_forloop__index0 = 0 %}{% else %}{% assign locksmith_6c81_forloop__index = locksmith_6c81_forloop__index | plus: 1 %}{% assign locksmith_6c81_forloop__index0 = locksmith_6c81_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_6c81_forloop__index == 1 %}{% assign locksmith_6c81_forloop__first = true %}{% else %}{% assign locksmith_6c81_forloop__first = false %}{% endif %}{% if locksmith_6c81_forloop__index == locksmith_6c81_forloop__size %}{% assign locksmith_6c81_forloop__last = true %}{% else %}{% assign locksmith_6c81_forloop__last = false %}{% endif %}{% assign locksmith_6c81_forloop__rindex = locksmith_6c81_forloop__size | minus: locksmith_6c81_forloop__index | minus: 1 %}{% assign locksmith_6c81_forloop__rindex0 = locksmith_6c81_forloop__size | minus: locksmith_6c81_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:95a2>{% endcomment -%}
               {%- if is_product_driven -%}
                 {%- assign product_obj = item -%}
                 {%- assign current_block = nil -%}
@@ -416,7 +446,7 @@
                 {%- assign film_indicator_y = current_block.settings.film_indicator_y -%}
               {%- endif -%}
               {%- if product_obj != blank -%}
-                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ forloop.index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}" data-film-indicator-x="{{ film_indicator_x }}" data-film-indicator-y="{{ film_indicator_y }}">
+                <li class="amm-stl__product-card" data-block-id="{{ block_id }}" data-index="{{ locksmith_6c81_forloop__index0 }}" data-show-as-hotspot="{{ show_as_hotspot }}" data-hotspot-x="{{ hotspot_x }}" data-hotspot-y="{{ hotspot_y }}" data-film-indicator-x="{{ film_indicator_x }}" data-film-indicator-y="{{ film_indicator_y }}">
                   <div class="amm-stl-product-item__image">
                     <a href="{{ product_obj.url }}">
                       {%- if product_obj.featured_image -%}

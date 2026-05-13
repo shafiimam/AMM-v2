@@ -1,0 +1,666 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_UhmPUC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "button_Td7AKh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "outline",
+            "text": "Book Now",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "heading_WbHVK6": {
+          "type": "heading",
+          "settings": {
+            "text": "A Ma Maniére Atlanta Flagship",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_madqef": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Launches May 21st, 2026 </h2>"
+          }
+        },
+        "liquid_CiMgth": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n479 Edgewood Ave SE in Atlanta, Georgia"
+          }
+        }
+      },
+      "block_order": [
+        "button_Td7AKh",
+        "heading_WbHVK6",
+        "richtext_madqef",
+        "liquid_CiMgth"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 8vw;}",
+        "svg {display: inline;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "image_size": "auto",
+        "image": "shopify://shop_images/DSC09240_BM.jpg",
+        "mobile_image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 55
+      }
+    },
+    "blocks_Ah6yzd": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_N4wJRD": {
+          "type": "ai_gen_block_5edc35c",
+          "settings": {
+            "height_mobile": 5,
+            "height_desktop": 5
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_N4wJRD"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
+    "rich_text_VcMXhH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zmhLEp": {
+          "type": "heading",
+          "settings": {
+            "text": "About our Atlanta Flagship",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Nat9dh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We are proud to introduce the new A Ma Maniére Edgewood Flagship in Atlanta — a multi-level destination designed to blur the lines between luxury shopping, hospitality, dining, and culture. Rooted in intentional design and elevated experiences, the space reflects our ongoing vision of creating environments that feel as curated and considered as the culture that inspires them. Located in the historic Edgewood neighborhood, the flagship will unveil a new expression of A Ma Maniére through exclusive offerings, immersive spaces, and culturally driven experiences designed to be discovered over time.</p><p>More than a flagship, Edgewood is a statement on ownership, legacy, and the future of luxury through a Black cultural lens. Every detail has been developed with purpose, from the atmosphere and programming to the art and hospitality experience woven throughout the space. As we prepare to open our doors, we look forward to welcoming the community into a destination built not only to be visited, but to be felt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zmhLEp",
+        "richtext_Nat9dh"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_hPeq4A": {
+      "type": "video",
+      "blocks": {
+        "play_6itPC8": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "play_6itPC8"
+      ],
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
+        "mobile_video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "map_with_text_zfmMKi": {
+      "type": "map-with-text",
+      "blocks": {
+        "heading_7TAyH4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "The Flagship Experience",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_baYYWk": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p><strong>“Too often, Black culture is celebrated without Black people being centered in the experience. Edgewood is about changing that. It’s about building spaces that reflect our taste, our ambition, our creativity, and our standard at the highest level.”</strong></p><p></p><p><strong>-Founder, James Whitner </strong></p>"
+          }
+        },
+        "image_block_q6mYbV": {
+          "type": "image_block",
+          "settings": {
+            "title": "SHOPPING",
+            "image": "shopify://shop_images/Frame_1000002060.png",
+            "link_target": "_self",
+            "button_style": "outline",
+            "text": "",
+            "url": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": ""
+          }
+        },
+        "image_block_fgDmzU": {
+          "type": "image_block",
+          "settings": {
+            "title": "LUXURY HOSPITALITY",
+            "image": "shopify://shop_images/Frame_1000002061.png",
+            "link_target": "_self",
+            "button_style": "outline",
+            "text": "",
+            "url": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": ""
+          }
+        },
+        "image_block_eWDJdQ": {
+          "type": "image_block",
+          "settings": {
+            "title": "DINING EXPERIENCES",
+            "image": "shopify://shop_images/image_76838ecb-57bc-4849-bc67-64c09f203b9c.jpg",
+            "link_target": "_self",
+            "button_style": "outline",
+            "text": "",
+            "url": "https://app.acuityscheduling.com/schedule.php?owner=21148378&calendarID=4890990",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_block_HNyTYK": {
+          "type": "image_block",
+          "settings": {
+            "title": "IMPACTFUL ART",
+            "image": "shopify://shop_images/Frame_1000002061.png",
+            "link_target": "_self",
+            "button_style": "outline",
+            "text": "",
+            "url": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7TAyH4",
+        "richtext_baYYWk",
+        "image_block_q6mYbV",
+        "image_block_fgDmzU",
+        "image_block_eWDJdQ",
+        "image_block_HNyTYK"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "map": "<div class=\"mapouter\">\n  <div class=\"gmap_canvas\">\n    <iframe\n      class=\"gmap_iframe\"\n      width=\"100%\"\n      frameborder=\"0\"\n      scrolling=\"no\"\n      marginheight=\"0\"\n      marginwidth=\"0\"\n      src=\"https://maps.google.com/maps?width=890&amp;height=631&amp;hl=en&amp;q=A Ma Maniére Atlanta&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\"\n    ></iframe\n    ><a href=\"https://sprunkiplay.com/\">Sprunki Game</a>\n  </div>\n  <style>\n    .mapouter {\n      position: relative;\n      text-align: right;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_canvas {\n      overflow: hidden;\n      background: none !important;\n      width: 100%;\n      height: 631px;\n    }\n    .gmap_iframe {\n      height: 631px !important;\n    }\n  </style>\n</div>",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_QNEjBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_LUNKi7": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_HczR6P": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Grand Opening May 21st",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_MK7jAW": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Shopping</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_BEnARr": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>DINING  EXPERIENCES</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_GfmMUd": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>LUXURY HOSPITALITY</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_dcgCDh": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>IMPACTFUL ART</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "countdown_BFxhK7": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "final_date": "21-05-2026",
+            "final_time": "15:00",
+            "start_countdown": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LUNKi7",
+        "heading_HczR6P",
+        "heading_MK7jAW",
+        "heading_BEnARr",
+        "heading_GfmMUd",
+        "heading_dcgCDh",
+        "countdown_BFxhK7"
+      ],
+      "custom_css": [
+        "img {width: 100%;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/GREENAMM.jpg",
+        "mobile_image": "shopify://shop_images/GREENAMM_3e7f55cd-ab0f-4eed-a5d8-2d4c3b792a09.jpg",
+        "video_autoplay": false,
+        "video_loop": false,
+        "video_muted": false,
+        "video_controls": false,
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": false,
+        "remove_top_padding": false
+      }
+    },
+    "media_grid_9nU4R3": {
+      "type": "media-grid",
+      "blocks": {
+        "image_wcrbW8": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/skylinehebru.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YphaVd": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/livingroom2.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_fUBdNT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/bar.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3iaKDm": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/artonwall.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hRxqhK": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/livingroom.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_wcrbW8",
+        "image_YphaVd",
+        "image_fUBdNT",
+        "image_3iaKDm",
+        "image_hRxqhK"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "blocks_tX8aJ4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_Kfz46e": {
+          "type": "ai_gen_block_5edc35c",
+          "disabled": true,
+          "settings": {
+            "height_mobile": 5,
+            "height_desktop": 10
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_Kfz46e"
+      ],
+      "name": "Spacer",
+      "settings": {}
+    },
+    "media_grid_UzC6Vn": {
+      "type": "media-grid",
+      "blocks": {
+        "image_ajDniE": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/retail.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HJLHj7": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/patio.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_fUyNNp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/retail2.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qPnKXC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC09004_BM.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ajDniE",
+        "image_HJLHj7",
+        "image_fUyNNp",
+        "image_qPnKXC"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "beach_location_banner_nGbcUy": {
+      "type": "beach-location-banner",
+      "blocks": {
+        "location_piNTD3": {
+          "type": "location",
+          "disabled": true,
+          "settings": {
+            "title": "Atlanta",
+            "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA<br/>Ph: 678-973-2116</p>"
+          }
+        },
+        "location_kJYYEU": {
+          "type": "location",
+          "settings": {
+            "title": "Houston",
+            "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA<br/>Ph: 713-640-5945</p>"
+          }
+        },
+        "location_rE4pGP": {
+          "type": "location",
+          "settings": {
+            "title": "Washington, D.C.",
+            "description": "<p>1214 H St NE, Washington, DC 20002, USA<br/>Ph: 202-290-3160</p>"
+          }
+        }
+      },
+      "block_order": [
+        "location_piNTD3",
+        "location_kJYYEU",
+        "location_rE4pGP"
+      ],
+      "settings": {
+        "desktop_image": "shopify://shop_images/AMM_Store_Front_View_5bf1d6ae-79d2-49a0-8c40-69b02e0ee24a.png",
+        "mobile_image": "shopify://shop_images/AMM_Stores_Front_View_-_Mobile.png",
+        "title": "Visit our Stores",
+        "description": "Experience A Ma Maniére’s signature luxury retail in person at our locations, where high-end streetwear, exclusive sneaker releases, and curated fashion collections come to life. Visit us to explore immersive shopping experiences, community-driven activations, and the latest in elevated street style and designer collaborations.",
+        "button_url": "shopify://pages/our-stores",
+        "button_text": "Learn More"
+      }
+    },
+    "multi_column_AG6HP7": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_phrQyX": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Support",
+            "heading_tag": "text-base",
+            "content": "<p>Our friendly team is here to help.</p>",
+            "link_url": "mailto:support@untitledui.com",
+            "link_text": "support@untitledui.com"
+          }
+        },
+        "image_with_text_3B8fyx": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Sales",
+            "heading_tag": "text-base",
+            "content": "<p>Questions or queries? Get in touch!</p>",
+            "link_url": "mailto:sales@untitledui.com",
+            "link_text": "sales@untitledui.com"
+          }
+        },
+        "image_with_text_yMbUVf": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Phone",
+            "heading_tag": "text-base",
+            "content": "<p>Mon-Fri from 8am to 5pm.</p>",
+            "link_url": "tel:+1 (555) 000-0000",
+            "link_text": "+1 (555) 000-0000"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_phrQyX",
+        "image_with_text_3B8fyx",
+        "image_with_text_yMbUVf"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".text-base {font-weight: bold; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_UhmPUC",
+    "blocks_Ah6yzd",
+    "rich_text_VcMXhH",
+    "video_hPeq4A",
+    "map_with_text_zfmMKi",
+    "image_with_text_QNEjBt",
+    "media_grid_9nU4R3",
+    "blocks_tX8aJ4",
+    "media_grid_UzC6Vn",
+    "beach_location_banner_nGbcUy",
+    "multi_column_AG6HP7"
+  ]
+}

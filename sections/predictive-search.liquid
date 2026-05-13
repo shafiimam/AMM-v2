@@ -21,6 +21,19 @@ Nothing
   {%- liquid
     assign unblocked_products = 0
     for product in predictive_search.resources.products
+      comment
+        <locksmith:7c65> Code added automatically by the Locksmith app. Do not modify or remove.
+      endcomment
+      capture var
+        render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: predictive_search.resources, variable: 'transparent'
+      endcapture
+      if var == "true"
+      else
+        continue
+      endif
+      comment
+        </locksmith:7c65> End Locksmith code block.
+      endcomment
       assign url_path = product.url | split: '?' | first | remove_first: '/' | downcase
       assign url_check = ',' | append: url_path | append: ','
       unless blocked_search_list contains url_check
@@ -30,6 +43,19 @@ Nothing
 
     assign unblocked_collections = 0
     for collection in predictive_search.resources.collections
+      comment
+        <locksmith:ee99> Code added automatically by the Locksmith app. Do not modify or remove.
+      endcomment
+      capture var
+        render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: predictive_search.resources, variable: 'transparent'
+      endcapture
+      if var == "true"
+      else
+        continue
+      endif
+      comment
+        </locksmith:ee99> End Locksmith code block.
+      endcomment
       assign url_path = collection.url | split: '?' | first | remove_first: '/' | downcase
       assign url_check = ',' | append: url_path | append: ','
       unless blocked_search_list contains url_check
@@ -101,6 +127,9 @@ Nothing
               <div class="predictive-search__products" style="--product-list-items-per-row: {{ products_count }}">
                 {%- assign predictive_products_shown = 0 -%}
                 {%- for product in predictive_search.resources.products -%}
+                  {%- comment %}<locksmith:9795>{% endcomment -%}
+                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: predictive_search.resources, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:9795>{% endcomment -%}
                   {%- if predictive_products_shown >= products_count -%}{%- break -%}{%- endif -%}
                   {%- assign url_path = product.url | split: '?' | first | remove_first: '/' | downcase -%}
                   {%- assign url_check = ',' | append: url_path | append: ',' -%}
@@ -131,6 +160,9 @@ Nothing
             <div class="predictive-search__collections" style="--collection-list-items-per-row: {{ collections_count }}">
               {%- assign predictive_collections_shown = 0 -%}
               {%- for collection in predictive_search.resources.collections -%}
+                {%- comment %}<locksmith:810f>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: predictive_search.resources, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:810f>{% endcomment -%}
                 {%- if predictive_collections_shown >= collections_count -%}{%- break -%}{%- endif -%}
                 {%- assign url_path = collection.url | split: '?' | first | remove_first: '/' | downcase -%}
                 {%- assign url_check = ',' | append: url_path | append: ',' -%}
@@ -193,6 +225,19 @@ Nothing
 
     assign unblocked_products = 0
     for product in product_results
+      comment
+        <locksmith:4a28> Code added automatically by the Locksmith app. Do not modify or remove.
+      endcomment
+      capture var
+        render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent'
+      endcapture
+      if var == "true"
+      else
+        continue
+      endif
+      comment
+        </locksmith:4a28> End Locksmith code block.
+      endcomment
       assign url_path = product.url | split: '?' | first | remove_first: '/' | downcase
       assign url_check = ',' | append: url_path | append: ','
       unless blocked_search_list contains url_check
@@ -202,6 +247,19 @@ Nothing
 
     assign unblocked_articles = 0
     for article in article_results
+      comment
+        <locksmith:89e8> Code added automatically by the Locksmith app. Do not modify or remove.
+      endcomment
+      capture var
+        render 'locksmith-variables', scope: 'subject', subject: article, variable: 'transparent'
+      endcapture
+      if var == "true"
+      else
+        continue
+      endif
+      comment
+        </locksmith:89e8> End Locksmith code block.
+      endcomment
       assign url_path = article.url | split: '?' | first | remove_first: '/' | downcase
       assign url_check = ',' | append: url_path | append: ','
       unless blocked_search_list contains url_check
@@ -211,6 +269,19 @@ Nothing
 
     assign unblocked_pages = 0
     for page in page_results
+      comment
+        <locksmith:49dc> Code added automatically by the Locksmith app. Do not modify or remove.
+      endcomment
+      capture var
+        render 'locksmith-variables', scope: 'subject', subject: page, variable: 'transparent'
+      endcapture
+      if var == "true"
+      else
+        continue
+      endif
+      comment
+        </locksmith:49dc> End Locksmith code block.
+      endcomment
       assign url_path = page.url | split: '?' | first | remove_first: '/' | downcase
       assign url_check = ',' | append: url_path | append: ','
       unless blocked_search_list contains url_check
@@ -248,6 +319,9 @@ Nothing
               <div class="predictive-search__products" style="--product-list-items-per-row: {{ products_count }}">
                 {%- assign search_products_shown = 0 -%}
                 {%- for product in product_results -%}
+                  {%- comment %}<locksmith:892b>{% endcomment -%}
+                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:892b>{% endcomment -%}
                   {%- if search_products_shown >= products_count -%}{%- break -%}{%- endif -%}
                   {%- assign url_path = product.url | split: '?' | first | remove_first: '/' | downcase -%}
                   {%- assign url_check = ',' | append: url_path | append: ',' -%}
@@ -274,6 +348,9 @@ Nothing
             <div class="predictive-search__blog-posts" style="--blog-post-list-items-per-row: {{ articles_count }}">
               {%- assign search_articles_shown = 0 -%}
               {%- for article in article_results -%}
+                {%- comment %}<locksmith:3fda>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: article, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:3fda>{% endcomment -%}
                 {%- if search_articles_shown >= articles_count -%}{%- break -%}{%- endif -%}
                 {%- assign url_path = article.url | split: '?' | first | remove_first: '/' | downcase -%}
                 {%- assign url_check = ',' | append: url_path | append: ',' -%}
@@ -291,6 +368,9 @@ Nothing
           <div class="predictive-search__resource-item" role="tabpanel" slot="content" {% cycle 'result_tab': '', 'hidden', 'hidden', 'hidden' %}>
             <div class="predictive-search__pages v-stack justify-items-start gap-3">
               {%- for page in page_results -%}
+                {%- comment %}<locksmith:1288>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: page, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:1288>{% endcomment -%}
                 {%- assign url_path = page.url | split: '?' | first | remove_first: '/' | downcase -%}
                 {%- assign url_check = ',' | append: url_path | append: ',' -%}
                 {%- if blocked_search_list contains url_check -%}{%- continue -%}{%- endif -%}
