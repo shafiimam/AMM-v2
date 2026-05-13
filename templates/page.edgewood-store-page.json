@@ -48,7 +48,7 @@
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n479 Edgewood Ave SE in Atlanta, Georgia"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n479 Edgewood Ave SE Atlanta, Georgia"
           }
         }
       },
