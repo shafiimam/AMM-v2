@@ -104,10 +104,10 @@
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "sound check",
-            "location": "galerie <br> 8-11pm",
+            "location": "galerie  8-11pm",
             "is_online": false,
-            "button_label": "curated dj experience",
-            "button_url": "#"
+            "button_label": "explore details",
+            "button_url": "shopify://blogs/events/sound-check"
           }
         },
         "event_CbK9CA": {
@@ -211,7 +211,9 @@
         "event_faX78z",
         "event_gYWajw"
       ],
-      "settings": {}
+      "settings": {
+        "hide_cta_buttons": false
+      }
     },
     "rich_text_YwFccG": {
       "type": "rich-text",
