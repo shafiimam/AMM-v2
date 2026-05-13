@@ -1,4 +1,4 @@
-<section class="section_event_header" id="shopify_section-{{ section.id }}" aria-labelledby="event-header-title" data-section-id="{{ section.id }}">
+<section class="section_event_header" id="shopify_section-{{ section.id }}" aria-labelledby="event-header-title" data-section-id="{{ section.id }}" style="--section-margin-top: {{ section.settings.section_margin_top }}px">
   <div class="section_event_header--title-container">
     <h1 id="event-header-title" class="section_event_header--title" data-banner-title>{{ section.settings.title }}</h1>
   </div>
@@ -60,14 +60,15 @@
   </div>
 </section>
 <style>
-   .section_event_header{
-      margin-block: 60px;
-      @media only screen and (max-width: 768px) {
-        margin-block: 30px;
-      }
-   }
-  .section_event_header{
-    position: relative; 
+  .section_event_header {
+    position: relative;
+    margin-top: var(--section-margin-top, 60px);
+    margin-bottom: 60px;
+  }
+  @media only screen and (max-width: 768px) {
+    .section_event_header {
+      margin-bottom: 30px;
+    }
   }
   .section_event_header--title-container {
     position: absolute;
@@ -241,6 +242,16 @@
       "id": "title",
       "label": "Title",
       "default": "Events"
+    },
+    {
+      "type": "range",
+      "id": "section_margin_top",
+      "label": "Section top margin",
+      "min": 0,
+      "max": 300,
+      "step": 5,
+      "unit": "px",
+      "default": 60
     },
     {
       "type": "header",
