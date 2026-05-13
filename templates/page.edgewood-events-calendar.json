@@ -13,9 +13,13 @@
       "type": "events-header-banner",
       "settings": {
         "title": "Cultural Experiences",
+        "heading_font_size": 9,
+        "media_type": "image",
         "desktop_image": "shopify://shop_images/skylinehebru.jpg",
         "mobile_image": "shopify://shop_images/retail2.jpg",
-        "heading_font_size": 9
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_show_controls": false
       }
     },
     "main": {

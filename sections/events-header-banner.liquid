@@ -60,14 +60,15 @@
   </div>
 </section>
 <style>
-   .section_event_header{
-      margin-block: 60px;
-      @media only screen and (max-width: 768px) {
-        margin-block: 30px;
-      }
-   }
-  .section_event_header{
-    position: relative; 
+  .section_event_header {
+    position: relative;
+    margin-top: var(--section-margin-top, 0px);
+    margin-bottom: 60px;
+  }
+  @media only screen and (max-width: 768px) {
+    .section_event_header {
+      margin-bottom: 30px;
+    }
   }
   .section_event_header--title-container {
     position: absolute;
@@ -83,7 +84,7 @@
     margin: 0;
     color: #fff;
     -webkit-text-stroke: 1px #e1e1e1;
-    text-stroke: 1px #e1e1e1;
+    paint-order: stroke fill;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -93,6 +94,8 @@
     white-space: nowrap;
     transform: translateY(-50%);
     font-size: 270px;
+    text-align: center;
+    text-decoration: none;
   }
   .section_event_header--image-container img {
     width: 100%;
@@ -191,6 +194,12 @@
       if (measuredWidth <= 0) return;
       const fontSize = Math.min((availableWidth / measuredWidth) * 100, MAX_FONT_SIZE);
       title.style.fontSize = fontSize + 'px';
+      updateSectionMargin(fontSize);
+    }
+
+    function updateSectionMargin(fontSize) {
+      const overflowAbove = fontSize / 2;
+      section.style.setProperty('--section-margin-top', overflowAbove + 'px');
     }
 
     if (title && mediaContainer) {
