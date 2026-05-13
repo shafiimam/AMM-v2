@@ -13,10 +13,9 @@
       "type": "events-header-banner",
       "settings": {
         "title": "Cultural Experiences",
-        "media_type": "video",
+        "media_type": "image",
         "desktop_image": "shopify://shop_images/skylinehebru.jpg",
         "mobile_image": "shopify://shop_images/retail2.jpg",
-        "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
         "video_autoplay": true,
         "video_loop": true,
         "video_show_controls": false
@@ -102,74 +101,75 @@
         "event_z7T663": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
-            "mobile_image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
-            "title": "404 Day Cipher Run",
-            "location": "969 Marietta Street NorthWest #200, Atlanta, GA 30318",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "sound check",
+            "location": "galerie <br> 8-11pm",
             "is_online": false,
-            "button_label": "Store information",
-            "button_url": "shopify://pages/a-ma-maniere-atlanta-store"
+            "button_label": "curated dj experience",
+            "button_url": "#"
           }
         },
         "event_CbK9CA": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC  3.28 - 3.29",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "open Air",
+            "location": "galerie 7:30-10:30",
             "is_online": false,
-            "button_label": "",
+            "button_label": "friday night social",
             "button_url": "#"
           }
         },
         "event_3CDdJK": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC  3.28 - 3.29",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "noir table",
+            "location": "living suites  7-11 pm",
             "is_online": false,
-            "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+            "button_label": "exclusive black attire supper club",
+            "button_url": "#"
           }
         },
         "event_AeGYCJ": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC  3.28 - 3.29",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
             "is_online": false,
-            "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+            "button_label": "",
+            "button_url": "#"
           }
         },
         "event_PAj7Tm": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC  3.28 - 3.29",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
             "is_online": false,
-            "button_label": "Participate",
+            "button_label": "",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
           }
         },
         "event_iYc33x": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC  3.28 - 3.29",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
             "is_online": false,
-            "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+            "button_label": "",
+            "button_url": "#"
           }
         },
         "event_N7ye7z": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -180,7 +180,7 @@
         "event_faX78z": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -191,7 +191,7 @@
         "event_gYWajw": {
           "type": "event",
           "settings": {
-            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
             "is_online": false,
@@ -211,9 +211,7 @@
         "event_faX78z",
         "event_gYWajw"
       ],
-      "settings": {
-        "hide_cta_buttons": true
-      }
+      "settings": {}
     },
     "rich_text_YwFccG": {
       "type": "rich-text",
