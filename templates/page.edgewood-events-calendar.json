@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "events_header_banner_AaNBMN": {
+      "type": "events-header-banner",
+      "settings": {
+        "title": "ATLANTA FLAGSHIP",
+        "desktop_image": "shopify://shop_images/skylinehebru.jpg",
+        "mobile_image": "shopify://shop_images/retail2.jpg",
+        "heading_font_size": 9
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -16,15 +25,6 @@
         "color_scheme": "",
         "show_title": true,
         "page_width": "xs"
-      }
-    },
-    "events_header_banner_AaNBMN": {
-      "type": "events-header-banner",
-      "settings": {
-        "title": "HANDWASH COLD",
-        "desktop_image": "shopify://shop_images/ffammwide_dc0d1ee5-2684-4b4e-9117-dc4e6564ea45.jpg",
-        "mobile_image": "shopify://shop_images/ffammobile4.jpg",
-        "heading_font_size": 10
       }
     },
     "multi_column_VJNMnL": {
@@ -77,6 +77,7 @@
         "image_with_text_GAij8D",
         "image_with_text_mVRVfJ"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -108,7 +109,6 @@
         },
         "event_CbK9CA": {
           "type": "event",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
@@ -117,11 +117,95 @@
             "button_label": "Participate",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
           }
+        },
+        "event_3CDdJK": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "location": "WASHINGTON DC  3.28 - 3.29",
+            "is_online": false,
+            "button_label": "Participate",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_AeGYCJ": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "location": "WASHINGTON DC  3.28 - 3.29",
+            "is_online": false,
+            "button_label": "Participate",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_PAj7Tm": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "location": "WASHINGTON DC  3.28 - 3.29",
+            "is_online": false,
+            "button_label": "Participate",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_iYc33x": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "location": "WASHINGTON DC  3.28 - 3.29",
+            "is_online": false,
+            "button_label": "Participate",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_N7ye7z": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "location": "WASHINGTON DC  3.28 - 3.29",
+            "is_online": false,
+            "button_label": "Participate",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_faX78z": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "location": "WASHINGTON DC  3.28 - 3.29",
+            "is_online": false,
+            "button_label": "Participate",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_gYWajw": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/HWC_e29d418b-683f-48d2-9e46-ad727330913b.jpg",
+            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "location": "WASHINGTON DC  3.28 - 3.29",
+            "is_online": false,
+            "button_label": "Participate",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
         }
       },
       "block_order": [
         "event_z7T663",
-        "event_CbK9CA"
+        "event_CbK9CA",
+        "event_3CDdJK",
+        "event_AeGYCJ",
+        "event_PAj7Tm",
+        "event_iYc33x",
+        "event_N7ye7z",
+        "event_faX78z",
+        "event_gYWajw"
       ],
       "settings": {}
     },
@@ -204,8 +288,8 @@
     }
   },
   "order": [
-    "main",
     "events_header_banner_AaNBMN",
+    "main",
     "multi_column_VJNMnL",
     "events_section_ajk3kJ",
     "rich_text_YwFccG",

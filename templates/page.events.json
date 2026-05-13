@@ -96,6 +96,7 @@
       "blocks": {
         "event_z7T663": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
             "mobile_image": "shopify://shop_images/404CipherRun_FEED.2.jpg",
