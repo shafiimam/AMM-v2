@@ -15,8 +15,41 @@
         "gutter_below": true
       }
     },
+    "events_header_banner_pbALwr": {
+      "type": "events-header-banner",
+      "disabled": true,
+      "name": "Events Header Banner",
+      "settings": {
+        "title": "Events",
+        "media_type": "image",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_show_controls": false
+      }
+    },
+    "blog_posts_egFjLA": {
+      "type": "blog-posts",
+      "name": "t:sections.blog_posts.presets.blog_posts.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "blog": "events",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "upcoming events",
+        "content": "",
+        "button_link": "",
+        "button_text": "View all"
+      }
+    },
     "main": {
       "type": "main-article",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_image": true,
@@ -253,6 +286,7 @@
     },
     "prev-next-blog-posts": {
       "type": "prev-next-blog-posts",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -266,6 +300,8 @@
   },
   "order": [
     "breeadcrumbs_j9kFad",
+    "events_header_banner_pbALwr",
+    "blog_posts_egFjLA",
     "main",
     "featured_product_3M9FWk",
     "featured_product_WCtaTy",
