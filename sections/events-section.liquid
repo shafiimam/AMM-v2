@@ -1,16 +1,7 @@
 <section class="container container-md" aria-labelledby="events-section-heading">
   <h1 id="events-section-heading" class="sr-only">Events Section</h1>
   <div class="filter-and-search-container">
-    <div class="filter-and-search w-full h-stack justify-between gap-2 flex-sm-wrap">
-      <div class="filter-and-search__filter h-stack gap-2">
-        {% render 'icons', icon_type: 'filter' %}
-        <label for="filter" class="text-subdued">Filter by</label>
-        <select name="filter" id="filter" aria-label="Filter events by type">
-          <option value="all">All</option>
-          <option value="online">Online</option>
-          <option value="offline">In Person</option>
-        </select>
-      </div>
+    <div class="filter-and-search w-full h-stack justify-end gap-2 flex-sm-wrap">
       <div class="filter-and-search__search h-stack gap-2">
         {% render 'icons', icon_type: 'search' %}
         <label for="search" class="sr-only" class="text-subdued">Search</label>
@@ -20,7 +11,7 @@
   </div>
   <div class="events_grid_container">
     {% for block in section.blocks %}
-      <div class="events_grid_item" data-is-online="{{ block.settings.is_online }}" {{ block.shopify_attributes }}>
+      <div class="events_grid_item" {{ block.shopify_attributes }}>
         <div class="event-container">
           <div class="event__image">
             <picture>
@@ -39,21 +30,40 @@
           </div>
           <div class="event_content">
             <h2 class="event_title h3">{{ block.settings.title }}</h2>
-            <div class="flex justify-start flex-no-wrap align-center gap-40">
-              <div class="h-stack gap-3">
-                {% render 'icons', icon_type: 'location' %}
-                <p class="event_location">{{ block.settings.location }}</p>
-              </div>
-              <div class="h-stack gap-3 event_status">
-                {% if block.settings.is_online %}
-                  {% render 'icons', icon_type: 'online' -%}
-                  <span>Online</span>
-                {% else %}
-                  {% render 'icons', icon_type: 'offline' %}
-                  <span>In Person</span>
-                {% endif %}
-              </div>
+            <div class="event_meta flex justify-start flex-wrap align-center gap-40">
+              {%- if block.settings.location != blank -%}
+                <div class="h-stack gap-3">
+                  {% render 'icons', icon_type: 'location' %}
+                  <p class="event_location">{{ block.settings.location }}</p>
+                </div>
+              {%- endif -%}
+              {%- if block.settings.event_date != blank -%}
+                <div class="h-stack gap-3 event_date_wrap">
+                  {% render 'icons', icon_type: 'clock' %}
+                  <p class="event_date">{{ block.settings.event_date }}</p>
+                </div>
+              {%- endif -%}
+              {%- if block.settings.custom_icon != blank or block.settings.custom_text != blank -%}
+                <div class="h-stack gap-3 event_custom">
+                  {%- if block.settings.custom_icon != blank -%}
+                    <img
+                      class="event_custom_icon"
+                      src="{{ block.settings.custom_icon | image_url: width: 40 }}"
+                      alt="{{ block.settings.custom_text | escape }}"
+                      width="20"
+                      height="20"
+                      loading="lazy"
+                    >
+                  {%- endif -%}
+                  {%- if block.settings.custom_text != blank -%}
+                    <span>{{ block.settings.custom_text }}</span>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
             </div>
+            {%- if block.settings.description != blank -%}
+              <div class="event_description rte">{{ block.settings.description }}</div>
+            {%- endif -%}
             {%- unless section.settings.hide_cta_buttons -%}
               {%- if block.settings.button_label != blank -%}
                 <a
@@ -101,9 +111,23 @@
     gap: 15px;
   }
   .event_location,
-  .event_status span {
+  .event_date,
+  .event_custom span {
     color: #535353;
     text-transform: uppercase;
+  }
+  .event_meta {
+    row-gap: 8px;
+  }
+  .event_custom_icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  .event_description {
+    color: #535353;
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
   .event_cta_button {
     margin-block-start: 1.2rem;
@@ -113,31 +137,20 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const filter = document.getElementById('filter');
     const search = document.getElementById('search');
     const events = document.querySelectorAll('.events_grid_item');
 
-    filter.addEventListener('change', function () {
-      const value = this.value;
-
-      events.forEach((event) => {
-        if (value === 'all') {
-          event.style.display = 'block';
-        } else {
-          const isOnline = event.getAttribute('data-is-online') === 'true';
-          const shouldShow = value === 'online' ? isOnline : !isOnline;
-          event.style.display = shouldShow ? 'block' : 'none';
-        }
-      });
-    });
+    if (!search) return;
 
     search.addEventListener('input', function () {
       const value = this.value.toLowerCase();
 
       events.forEach((event) => {
-        const title = event.querySelector('.event_title').textContent.toLowerCase();
-        const location = event.querySelector('.event_location').textContent.toLowerCase();
-        const shouldShow = title.includes(value) || location.includes(value);
+        const title = event.querySelector('.event_title')?.textContent.toLowerCase() || '';
+        const location = event.querySelector('.event_location')?.textContent.toLowerCase() || '';
+        const date = event.querySelector('.event_date')?.textContent.toLowerCase() || '';
+        const custom = event.querySelector('.event_custom span')?.textContent.toLowerCase() || '';
+        const shouldShow = title.includes(value) || location.includes(value) || date.includes(value) || custom.includes(value);
         event.style.display = shouldShow ? 'block' : 'none';
       });
     });
@@ -184,10 +197,36 @@
           "default": "New York, NY"
         },
         {
-          "type": "checkbox",
-          "id": "is_online",
-          "label": "Is Online?",
-          "default": false
+          "type": "text",
+          "id": "event_date",
+          "label": "Event Date",
+          "info": "E.g. Dec 12, 2024 · 6:00 PM",
+          "default": "Dec 12, 2024"
+        },
+        {
+          "type": "header",
+          "content": "Custom Info"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "Custom Icon"
+        },
+        {
+          "type": "text",
+          "id": "custom_text",
+          "label": "Custom Text",
+          "info": "Optional text shown next to the custom icon."
+        },
+        {
+          "type": "header",
+          "content": "Description & CTA"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "info": "Shown above the CTA button."
         },
         {
           "type": "text",

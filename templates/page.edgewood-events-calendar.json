@@ -106,7 +106,6 @@
             "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "sound check",
             "location": "galerie  8-11pm",
-            "is_online": false,
             "button_label": "explore details",
             "button_url": "shopify://blogs/events/sound-check"
           }
@@ -118,7 +117,6 @@
             "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "open Air",
             "location": "galerie 7:30-10:30",
-            "is_online": false,
             "button_label": "friday night social",
             "button_url": "#"
           }
@@ -129,7 +127,6 @@
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "noir table",
             "location": "living suites  7-11 pm",
-            "is_online": false,
             "button_label": "",
             "button_url": "#"
           }
@@ -140,7 +137,6 @@
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
-            "is_online": false,
             "button_label": "",
             "button_url": "#"
           }
@@ -151,7 +147,6 @@
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
-            "is_online": false,
             "button_label": "",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
           }
@@ -162,7 +157,6 @@
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
-            "is_online": false,
             "button_label": "",
             "button_url": "#"
           }
@@ -173,7 +167,6 @@
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
-            "is_online": false,
             "button_label": "Participate",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
           }
@@ -184,7 +177,6 @@
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
-            "is_online": false,
             "button_label": "Participate",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
           }
@@ -195,7 +187,6 @@
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "Maison Maniére: La Soirée in Washington, DC",
             "location": "WASHINGTON DC  3.28 - 3.29",
-            "is_online": false,
             "button_label": "Participate",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
           }
