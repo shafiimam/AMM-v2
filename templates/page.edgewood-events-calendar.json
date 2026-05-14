@@ -99,25 +99,17 @@
     "events_section_ajk3kJ": {
       "type": "events-section",
       "blocks": {
-        "event_z7T663": {
-          "type": "event",
-          "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "sound check",
-            "location": "galerie  8-11pm",
-            "button_label": "explore details",
-            "button_url": "shopify://blogs/events/sound-check"
-          }
-        },
         "event_CbK9CA": {
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "open Air",
-            "location": "galerie 7:30-10:30",
-            "button_label": "friday night social",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 22, 2026 · 7:30 pm-10:30 pm",
+            "custom_text": "Galerie",
+            "description": "<p>Friday Night Social</p>",
+            "button_label": "",
             "button_url": "#"
           }
         },
@@ -126,7 +118,10 @@
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "noir table",
-            "location": "living suites  7-11 pm",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 22, 2026 · 7-11 pm",
+            "custom_text": "living suites",
+            "description": "<p>Exclusive Black Attire Supper Club </p>",
             "button_label": "",
             "button_url": "#"
           }
@@ -135,8 +130,11 @@
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "title": "late checkout",
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 23, 2026 · 2-5 pm",
+            "custom_text": "living suites",
+            "description": "<p>DJ- and influencer-led breakfast club experience set in the late afternoon, blending vinyl sets with coffee and light fare. It creates a relaxed, content-driven environment where community, culture, and sound intersect.</p>",
             "button_label": "",
             "button_url": "#"
           }
@@ -145,18 +143,24 @@
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "title": "Maison Supper",
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 23, 2026 · 7-11 pm",
+            "custom_text": "maison",
+            "description": "<p>Dinner party with a global theme where food and music merge.</p>",
             "button_label": "",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+            "button_url": "#"
           }
         },
         "event_iYc33x": {
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
+            "title": "sunday service",
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 24, 2026 · 1-3 pm",
+            "custom_text": "rooftop",
+            "description": "<p>Weekly rooftop gathering featuring a rotating thought leader guiding conversation, perspective, and community reflection. Framed as a cultural forum, it creates space for dialogue, inspiration, and shared experience.</p>",
             "button_label": "",
             "button_url": "#"
           }
@@ -165,35 +169,214 @@
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC  3.28 - 3.29",
-            "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+            "title": "passed plates",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 24, 2026  ·  3-5 pm",
+            "custom_text": "galerie",
+            "description": "<p>Sunday Brunch </p>",
+            "button_label": "",
+            "button_url": "#"
           }
         },
         "event_faX78z": {
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC  3.28 - 3.29",
-            "button_label": "Participate",
-            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+            "title": "books after dark",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 25, 2026  ·  7-9 pm",
+            "custom_text": "living suites",
+            "description": "<p>Weekly Book Club </p>",
+            "button_label": "",
+            "button_url": "#"
           }
         },
         "event_gYWajw": {
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "Maison Maniére: La Soirée in Washington, DC",
-            "location": "WASHINGTON DC  3.28 - 3.29",
-            "button_label": "Participate",
+            "title": "social climbing",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 26, 2026 · 5-7 pm",
+            "custom_text": "",
+            "description": "<p>A networking experience. </p>",
+            "button_label": "",
             "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_98RJhD": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "Blind nil",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 26, 2026 · 7-11 pm",
+            "custom_text": "galerie",
+            "description": "<p>Spades, cards, and conversation. Weekly</p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_pgGmVU": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "maison retreat",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 27, 2026 · 2-5 pm",
+            "custom_text": "maison",
+            "description": "<p>A wellness aspect added to the shopping experience. <em>“Oxygen Bar, hand massages, warm stone therapy”</em></p>",
+            "button_label": "",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_fRMRp7": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "HWC ATL RUN CLUB",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 27, 2026 · 6 pm",
+            "custom_text": "",
+            "description": "",
+            "button_label": "",
+            "button_url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator"
+          }
+        },
+        "event_NtVDXh": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "THE SOCIAL PAIRING",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 27, 2026 · 8-11 pm",
+            "custom_text": "LIVING SUITES",
+            "description": "<p>A Nightcap Experience </p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_z7T663": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "sound check",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "May 28, 2026 · 8-11 PM",
+            "custom_text": "Galerie",
+            "description": "<p>Curated DJ series that focuses on one specific album/artist or genre. </p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_8fjzJz": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "in frame",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 29, 2026 · 2-5 pm",
+            "custom_text": "maison",
+            "description": "<p>A portrait photographer captures guests in the space styled in the week’s highlighted product, creating a consistent stream of elevated, on-brand imagery. The series turns everyday visitors into subjects, reinforcing product storytelling through real community presence.</p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_ykkKX9": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "open Air",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 29, 2026 · 7:30 pm-10:30 pm",
+            "custom_text": "Galerie",
+            "description": "<p>Friday Night Social</p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_Bjy7T3": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "noir table",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 29, 2026 · 7-11 pm",
+            "custom_text": "living suites",
+            "description": "<p>Exclusive Black Attire Supper Club </p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_p4GVyQ": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "diaspora daybreak",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 30, 2026 · 11am - 1pm",
+            "custom_text": "galerie",
+            "description": "<p>DJ- and influencer-led breakfast club experience set in the late afternoon, blending vinyl sets with coffee and light fare. It creates a relaxed, content-driven environment where community, culture, and sound intersect.</p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_B89qJ6": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "Maison Supper",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 30, 2026 · 7-11 pm",
+            "custom_text": "maison",
+            "description": "<p>Dinner party with a global theme where food and music merge.</p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_UiPetT": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "diaspora daybreak",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 30, 2026 · 11am - 1pm",
+            "custom_text": "galerie",
+            "description": "<p>DJ- and influencer-led breakfast club experience set in the late afternoon, blending vinyl sets with coffee and light fare. It creates a relaxed, content-driven environment where community, culture, and sound intersect.</p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_NR7e7L": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "sunday service",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 31, 2026 · 1-3 pm",
+            "custom_text": "rooftop",
+            "description": "<p>Weekly rooftop gathering featuring a rotating thought leader guiding conversation, perspective, and community reflection. Framed as a cultural forum, it creates space for dialogue, inspiration, and shared experience.</p>",
+            "button_label": "",
+            "button_url": "#"
+          }
+        },
+        "event_HBtKEt": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "passed plates",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 31, 2026  ·  3-5 pm",
+            "custom_text": "galerie",
+            "description": "<p>Sunday Brunch </p>",
+            "button_label": "",
+            "button_url": "#"
           }
         }
       },
       "block_order": [
-        "event_z7T663",
         "event_CbK9CA",
         "event_3CDdJK",
         "event_AeGYCJ",
@@ -201,7 +384,20 @@
         "event_iYc33x",
         "event_N7ye7z",
         "event_faX78z",
-        "event_gYWajw"
+        "event_gYWajw",
+        "event_98RJhD",
+        "event_pgGmVU",
+        "event_fRMRp7",
+        "event_NtVDXh",
+        "event_z7T663",
+        "event_8fjzJz",
+        "event_ykkKX9",
+        "event_Bjy7T3",
+        "event_p4GVyQ",
+        "event_B89qJ6",
+        "event_UiPetT",
+        "event_NR7e7L",
+        "event_HBtKEt"
       ],
       "settings": {
         "hide_cta_buttons": false
