@@ -180,14 +180,14 @@
         "heading_TQR4GH": {
           "type": "heading",
           "settings": {
-            "text": "BW ARMY RUNNER",
+            "text": "BW RUNNER",
             "heading_tag": "h1"
           }
         },
         "richtext_WVXb8y": {
           "type": "richtext",
           "settings": {
-            "content": "<p>BW ARMY RUNNER COPY </p>"
+            "content": "<p>Made by adidas for The Whitaker Group, the BW Runner continues the ongoing Do Not Duplicate storytelling platform from adidas Originals and The Whitaker Group, grounded in individuality, originality, and lived expression.<br/><br/>Inspired by 1970s road-running culture, the BW Runner revisits an archival silhouette through a refined contemporary lens. Suede and nylon construction pair with TRX-inspired traction underfoot, balancing nostalgic sport DNA with modern execution.<br/><br/>Exclusively available at A Ma Maniére</p>"
           }
         },
         "button_yd3i4M": {
@@ -1394,9 +1394,9 @@
     "main",
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
+    "rich_text_bgrjCr",
     "video_yGaVhn",
     "3d_gallery_simple_KeU3rf",
-    "rich_text_bgrjCr",
     "media_grid_4MXqFL",
     "rich_text_nYTrQD",
     "media_grid_NqpC6Q",
