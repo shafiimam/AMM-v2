@@ -96,17 +96,6 @@
             "image_2_link": ""
           }
         },
-        "release_DjJNYX": {
-          "type": "release",
-          "settings": {
-            "release_title": "5.16",
-            "release_image": "shopify://shop_images/AJ3WORLDSBESTDAD-1.jpg",
-            "product_title": "AIR JORDAN 3 RETRO OG \"WORLD'S BEST DAD\"",
-            "product_vendor": "",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-3-retro-og-worlds-best-dad"
-          }
-        },
         "release_egU6UA": {
           "type": "release",
           "settings": {
@@ -127,6 +116,17 @@
             "product_vendor": "",
             "product_price": "$130",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-shox-z-calistra-pale-ivory-and-oatmeal"
+          }
+        },
+        "release_DjJNYX": {
+          "type": "release",
+          "settings": {
+            "release_title": "5.23",
+            "release_image": "shopify://shop_images/AJ12BLOODLINE-1.jpg",
+            "product_title": "AIR JORDAN 12 RETRO \"BLOODLINE\"",
+            "product_vendor": "",
+            "product_price": "$215",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-bloodline"
           }
         },
         "release_KPd8WR": {
@@ -158,9 +158,9 @@
         "mega_menu_kbBhKp",
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_DjJNYX",
         "release_egU6UA",
         "release_tw94g8",
+        "release_DjJNYX",
         "release_KPd8WR",
         "release_nAhaJK"
       ],
