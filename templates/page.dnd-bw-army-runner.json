@@ -223,6 +223,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/bwrunner.jpg",
             "column_count": "8",
             "row_count": 1,
             "title": "",
@@ -242,24 +243,6 @@
             "color_scheme": "",
             "image": "shopify://shop_images/DSC00587_BM.jpg",
             "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_3tPX3b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -307,54 +290,13 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "image_BEtRTU": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ammdg1.png",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_dLC688": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/boxaj4.jpg",
-            "column_count": "12",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "image_HVfcXg",
         "image_TB3Va4",
-        "image_3tPX3b",
         "image_tHThM7",
-        "image_jckHzH",
-        "image_BEtRTU",
-        "image_dLC688"
+        "image_jckHzH"
       ],
       "name": "RUNNER GRID",
       "settings": {
