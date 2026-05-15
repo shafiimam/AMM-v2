@@ -12,6 +12,38 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_fPTtP7": {
+          "type": "video",
+          "name": "BW RUNNER 5.18",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/BW RUNNER.mov",
+            "mobile_video": "shopify://files/videos/BW Runner Vertical.mov",
+            "allow_sound": true,
+            "subheading": "MADE BY ADIDAS FOR THE WHITAKER GROUP",
+            "subheading_size": 16,
+            "title": "DO NOT DUPLICATE: BW ARMY RUNNER",
+            "title_size": 30,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "ENTER DRAW",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "EXPLORE THE STORY",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_Uhn43N": {
           "type": "video",
           "name": "edgewood video",
@@ -105,6 +137,7 @@
         }
       },
       "block_order": [
+        "video_fPTtP7",
         "video_Uhn43N",
         "image_RmiEQG",
         "video_WdyPWD"

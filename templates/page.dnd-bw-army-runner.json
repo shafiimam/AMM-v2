@@ -156,6 +156,24 @@
         "text_color": "#ffffff"
       }
     },
+    "3d_gallery_simple_KeU3rf": {
+      "type": "3d-gallery-simple",
+      "name": "3D Gallery Simple",
+      "settings": {
+        "title": "3D Gallery",
+        "start_index": "",
+        "end_index": "",
+        "dynamic_link_handle": "",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
     "rich_text_bgrjCr": {
       "type": "rich-text",
       "blocks": {
@@ -205,7 +223,6 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/DSC00710_BM.jpg",
             "column_count": "8",
             "row_count": 1,
             "title": "",
@@ -259,6 +276,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/DSC00548_BM.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -1142,24 +1160,6 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "3d_gallery_simple_KeU3rf": {
-      "type": "3d-gallery-simple",
-      "name": "3D Gallery Simple",
-      "settings": {
-        "title": "3D Gallery",
-        "start_index": "",
-        "end_index": "",
-        "dynamic_link_handle": "",
-        "button_label": "Shop Now",
-        "button_link": "",
-        "knob_position": 10,
-        "gallery_width": 60,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
       }
     },
     "rich_text_VrqdQt": {
