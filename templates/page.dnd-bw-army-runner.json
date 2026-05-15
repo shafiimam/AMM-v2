@@ -21,11 +21,10 @@
     },
     "hero_with_logo_nPMzTc": {
       "type": "hero-with-logo",
-      "disabled": true,
       "name": "Hero Banner With Logo",
       "settings": {
-        "image": "shopify://shop_images/ammcollection1.png",
-        "image_mobile": "shopify://shop_images/ammcollection_64e52915-59d4-4d47-b3c8-eaad4938f865.png",
+        "image": "shopify://shop_images/BW_RUNNER_1.9.1_BM.jpg",
+        "image_mobile": "shopify://shop_images/BW_RUNNER_1.9.1_BM_64209c37-26c1-4082-909d-99efbd987863.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "",
         "title_color": "#ffffff",
@@ -49,38 +48,6 @@
         "content_alignment": "center",
         "horizontal_position": 90,
         "vertical_position": 0
-      }
-    },
-    "video_yGaVhn": {
-      "type": "video",
-      "blocks": {
-        "play_YaRjFR": {
-          "type": "play",
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
-        "heading_zhzbkQ": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "play_YaRjFR",
-        "heading_zhzbkQ"
-      ],
-      "name": "statement film",
-      "settings": {
-        "autoplay": true,
-        "show_controls": true,
-        "video_size": "fill",
-        "video": "shopify://files/videos/MBTS4k H.265.mov",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff"
       }
     },
     "image_with_text_7Xm8Cg": {
@@ -143,6 +110,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC00788_BM.jpg",
+        "mobile_image": "shopify://shop_images/DSC00788_BM.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -152,6 +121,39 @@
         "content_width": "md",
         "remove_vertical_spacing": false,
         "remove_top_padding": false
+      }
+    },
+    "video_yGaVhn": {
+      "type": "video",
+      "blocks": {
+        "play_YaRjFR": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_zhzbkQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_YaRjFR",
+        "heading_zhzbkQ"
+      ],
+      "name": "statement film",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "fill",
+        "video": "shopify://files/videos/BW RUNNER.mov",
+        "mobile_video": "shopify://files/videos/BW Runner Vertical.mov",
+        "external_video_url": "",
+        "text_color": "#ffffff"
       }
     },
     "rich_text_bgrjCr": {
@@ -203,24 +205,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_3tPX3b": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "3",
+            "image": "shopify://shop_images/DSC00710_BM.jpg",
+            "column_count": "8",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -237,7 +223,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "column_count": "3",
+            "image": "shopify://shop_images/DSC00587_BM.jpg",
+            "column_count": "4",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -250,11 +237,12 @@
             "overlay_opacity": 0
           }
         },
-        "image_jckHzH": {
+        "image_3tPX3b": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
-            "column_count": "6",
+            "column_count": "3",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -271,6 +259,24 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jckHzH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC00858_BM.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "",
@@ -325,10 +331,10 @@
       },
       "block_order": [
         "image_HVfcXg",
-        "image_3tPX3b",
         "image_TB3Va4",
-        "image_jckHzH",
+        "image_3tPX3b",
         "image_tHThM7",
+        "image_jckHzH",
         "image_BEtRTU",
         "image_dLC688"
       ],
@@ -1140,7 +1146,6 @@
     },
     "3d_gallery_simple_KeU3rf": {
       "type": "3d-gallery-simple",
-      "disabled": true,
       "name": "3D Gallery Simple",
       "settings": {
         "title": "3D Gallery",
@@ -1446,8 +1451,9 @@
   "order": [
     "main",
     "hero_with_logo_nPMzTc",
-    "video_yGaVhn",
     "image_with_text_7Xm8Cg",
+    "video_yGaVhn",
+    "3d_gallery_simple_KeU3rf",
     "rich_text_bgrjCr",
     "media_grid_4MXqFL",
     "rich_text_nYTrQD",
@@ -1456,7 +1462,6 @@
     "media_grid_VWzJxx",
     "rich_text_Ycy4YL",
     "media_grid_fzyMFm",
-    "3d_gallery_simple_KeU3rf",
     "rich_text_VrqdQt",
     "media_grid_HwBKby"
   ]
