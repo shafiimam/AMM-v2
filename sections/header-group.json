@@ -96,17 +96,6 @@
             "image_2_link": ""
           }
         },
-        "release_egU6UA": {
-          "type": "release",
-          "settings": {
-            "release_title": "5.17",
-            "release_image": "shopify://shop_images/AM95BBSLATE-1_e0361f28-f1aa-42b6-994e-695d67409893.jpg",
-            "product_title": "NIKE AIR MAX 95 OG \"WHITE/EMERALD GREEN\"",
-            "product_vendor": "",
-            "product_price": "$190",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-og-whiteemerald-green"
-          }
-        },
         "release_tw94g8": {
           "type": "release",
           "settings": {
@@ -116,6 +105,17 @@
             "product_vendor": "",
             "product_price": "$130",
             "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-shox-z-calistra-pale-ivory-and-oatmeal"
+          }
+        },
+        "release_egU6UA": {
+          "type": "release",
+          "settings": {
+            "release_title": "5.21",
+            "release_image": "shopify://shop_images/BWRUNHARLEM_SBEST-1.jpg",
+            "product_title": "ADIDAS DO NOT DUPLICATE BW RUN",
+            "product_vendor": "",
+            "product_price": "$120",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-bw-run"
           }
         },
         "release_DjJNYX": {
@@ -158,8 +158,8 @@
         "mega_menu_kbBhKp",
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_egU6UA",
         "release_tw94g8",
+        "release_egU6UA",
         "release_DjJNYX",
         "release_KPd8WR",
         "release_nAhaJK"
