@@ -123,6 +123,47 @@
         "remove_top_padding": false
       }
     },
+    "rich_text_bgrjCr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TQR4GH": {
+          "type": "heading",
+          "settings": {
+            "text": "BW RUn",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_WVXb8y": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Made by adidas for The Whitaker Group, the BW Run continues the ongoing Do Not Duplicate storytelling platform from adidas Originals and The Whitaker Group, grounded in individuality, originality, and lived expression.<br/><br/>Inspired by 1970s road-running culture, the BW Run revisits an archival silhouette through a refined contemporary lens. Suede and nylon construction pair with TRX-inspired traction underfoot, balancing nostalgic sport DNA with modern execution.<br/><br/>Exclusively available at A Ma Maniére</p>"
+          }
+        },
+        "button_yd3i4M": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "enter draw",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TQR4GH",
+        "richtext_WVXb8y",
+        "button_yd3i4M"
+      ],
+      "name": "RUNNER COPY ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "video_yGaVhn": {
       "type": "video",
       "blocks": {
@@ -158,6 +199,7 @@
     },
     "3d_gallery_simple_KeU3rf": {
       "type": "3d-gallery-simple",
+      "disabled": true,
       "name": "3D Gallery Simple",
       "settings": {
         "title": "3D Gallery",
@@ -172,48 +214,6 @@
         "show_section_texts": true,
         "top_text": "Try",
         "bottom_text": "Now"
-      }
-    },
-    "rich_text_bgrjCr": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TQR4GH": {
-          "type": "heading",
-          "settings": {
-            "text": "BW RUNNER",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_WVXb8y": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Made by adidas for The Whitaker Group, the BW Runner continues the ongoing Do Not Duplicate storytelling platform from adidas Originals and The Whitaker Group, grounded in individuality, originality, and lived expression.<br/><br/>Inspired by 1970s road-running culture, the BW Runner revisits an archival silhouette through a refined contemporary lens. Suede and nylon construction pair with TRX-inspired traction underfoot, balancing nostalgic sport DNA with modern execution.<br/><br/>Exclusively available at A Ma Maniére</p>"
-          }
-        },
-        "button_yd3i4M": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "style": "solid",
-            "text": "enter draws",
-            "url": "https://a-ma-maniere.runfair.com/en-US/us",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_TQR4GH",
-        "richtext_WVXb8y",
-        "button_yd3i4M"
-      ],
-      "name": "RUNNER COPY ",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
       }
     },
     "media_grid_4MXqFL": {
