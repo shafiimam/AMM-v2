@@ -14,7 +14,7 @@
       "blocks": {
         "video_fPTtP7": {
           "type": "video",
-          "name": "BW RUNNER 5.18",
+          "name": "BW RUN",
           "disabled": true,
           "settings": {
             "video": "shopify://files/videos/BW RUNNER.mov",
@@ -22,7 +22,7 @@
             "allow_sound": true,
             "subheading": "MADE BY ADIDAS FOR THE WHITAKER GROUP",
             "subheading_size": 16,
-            "title": "DO NOT DUPLICATE: BW RUNNER",
+            "title": "DO NOT DUPLICATE: BW RUN",
             "title_size": 30,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
