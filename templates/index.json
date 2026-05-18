@@ -106,6 +106,7 @@
         "video_WdyPWD": {
           "type": "video",
           "name": "COLLECTION VID",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/slitsound wide.mp4",
             "mobile_video": "shopify://files/videos/slitsound vert.mp4",
