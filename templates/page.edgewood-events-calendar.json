@@ -19,7 +19,7 @@
         "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
         "video_autoplay": true,
         "video_loop": true,
-        "video_show_controls": false
+        "video_show_controls": true
       }
     },
     "main": {
