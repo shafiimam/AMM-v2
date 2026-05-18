@@ -12,6 +12,37 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_fPTtP7": {
+          "type": "video",
+          "name": "BW RUN",
+          "settings": {
+            "video": "shopify://files/videos/BW RUNNER.mov",
+            "mobile_video": "shopify://files/videos/BW Runner Vertical.mov",
+            "allow_sound": true,
+            "subheading": "MADE BY ADIDAS FOR THE WHITAKER GROUP",
+            "subheading_size": 17,
+            "title": "DO NOT DUPLICATE: BW RUN",
+            "title_size": 30,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "ENTER DRAW",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-bw-run",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "EXPLORE THE STORY",
+            "button_2_link": "shopify://pages/do-not-duplicate-bw-run",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_Uhn43N": {
           "type": "video",
           "name": "edgewood video",
@@ -75,6 +106,7 @@
         "video_WdyPWD": {
           "type": "video",
           "name": "COLLECTION VID",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/slitsound wide.mp4",
             "mobile_video": "shopify://files/videos/slitsound vert.mp4",
@@ -105,6 +137,7 @@
         }
       },
       "block_order": [
+        "video_fPTtP7",
         "video_Uhn43N",
         "image_RmiEQG",
         "video_WdyPWD"
@@ -125,52 +158,6 @@
       "type": "_blocks",
       "disabled": true,
       "settings": {}
-    },
-    "featureed_image_and_products_7MHNbK": {
-      "type": "featureed-image-and-products",
-      "blocks": {
-        "product_rMWBLC": {
-          "type": "product",
-          "settings": {
-            "product": "alchemist-summer-olympus-jacket-army-green"
-          }
-        },
-        "product_k9tgcN": {
-          "type": "product",
-          "settings": {
-            "product": "casablanca-plafond-orne-de-musique-tee-white"
-          }
-        },
-        "product_bFHKHA": {
-          "type": "product",
-          "settings": {
-            "product": "alchemist-studio-jeans-western-studs-black"
-          }
-        },
-        "product_TknLx3": {
-          "type": "product",
-          "settings": {
-            "product": "maison-mihara-yasuhiro-ss26-twg-exclusive-peterson-23-studded"
-          }
-        }
-      },
-      "block_order": [
-        "product_rMWBLC",
-        "product_k9tgcN",
-        "product_bFHKHA",
-        "product_TknLx3"
-      ],
-      "disabled": true,
-      "name": "STYLE GUIDE WEEK 1",
-      "settings": {
-        "section_alignment": "left",
-        "title": "SPRING STYLE GUIDE",
-        "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/DSC06425BB_1.jpg",
-        "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
-        "image_cta": "explore",
-        "image_cta_url": "shopify://collections/spring-style-guide"
-      }
     },
     "featureed_image_and_products_6MwW6y": {
       "type": "featureed-image-and-products",
@@ -1045,7 +1032,6 @@
   "order": [
     "slideshow_QGYQ6e",
     "176075966993f87866",
-    "featureed_image_and_products_7MHNbK",
     "featureed_image_and_products_6MwW6y",
     "blocks_hipbgz",
     "blocks_6H9VVp",
