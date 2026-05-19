@@ -177,7 +177,7 @@
         "button_link": "",
         "knob_position": 10,
         "gallery_width": 60,
-        "show_button": true,
+        "show_button": false,
         "show_section_texts": true,
         "top_text": "Try",
         "bottom_text": "Now"
