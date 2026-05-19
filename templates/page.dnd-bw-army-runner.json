@@ -120,7 +120,7 @@
         "image_position": "start",
         "content_width": "md",
         "remove_vertical_spacing": false,
-        "remove_top_padding": false
+        "remove_top_padding": true
       }
     },
     "rich_text_bgrjCr": {
@@ -162,6 +162,25 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "3d_gallery_FH8fjD": {
+      "type": "3d-gallery",
+      "name": "3D Gallery",
+      "settings": {
+        "title": "3D Gallery",
+        "start_index": "468",
+        "end_index": "526",
+        "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/DSC00",
+        "file_ext": "png",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
       }
     },
     "video_yGaVhn": {
@@ -1395,6 +1414,7 @@
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
     "rich_text_bgrjCr",
+    "3d_gallery_FH8fjD",
     "video_yGaVhn",
     "3d_gallery_simple_KeU3rf",
     "media_grid_4MXqFL",
