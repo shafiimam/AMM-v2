@@ -98,6 +98,7 @@
         },
         "release_tw94g8": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "5.20",
             "release_image": "shopify://shop_images/WOMEN_SSHOXZCALISTRA_PALEIVORY_-1.jpg",
