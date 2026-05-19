@@ -72,6 +72,7 @@
     }
     this.menu.style.top = `${rect.bottom + gap}px`;
     this.menu.style.left = `${left}px`;
+    this.menu.style.minWidth = `${rect.width}px`;
   }
 
   open() {
@@ -89,6 +90,7 @@
     this.trigger.setAttribute('aria-expanded', 'true');
     this.classList.add('is-open');
     requestAnimationFrame(() => this.menu.classList.add('is-open'));
+    this.pauseCarousel();
     document.addEventListener('click', this.handleDocumentClick, true);
     window.addEventListener('resize', this.handleViewportChange);
     window.addEventListener('scroll', this.handleViewportChange, true);
@@ -104,6 +106,7 @@
     }
     this.trigger.setAttribute('aria-expanded', 'false');
     this.classList.remove('is-open');
+    this.resumeCarousel();
     document.removeEventListener('click', this.handleDocumentClick, true);
     window.removeEventListener('resize', this.handleViewportChange);
     window.removeEventListener('scroll', this.handleViewportChange, true);
@@ -112,6 +115,24 @@
 
   handleViewportChange() {
     this.positionMenu();
+  }
+
+  pauseCarousel() {
+    const carousel = this.closest('slideshow-carousel');
+    if (!carousel || !carousel.hasAttribute('autoplay') || this.origCarouselNext) return;
+    this.carousel = carousel;
+    this.origCarouselNext = carousel.next.bind(carousel);
+    carousel.next = () => Promise.resolve();
+    carousel.setAttribute('data-dropdown-paused', '');
+  }
+
+  resumeCarousel() {
+    if (!this.origCarouselNext || !this.carousel) return;
+    this.carousel.next = this.origCarouselNext;
+    this.origCarouselNext = null;
+    this.carousel.removeAttribute('data-dropdown-paused');
+    this.carousel.next();
+    this.carousel = null;
   }
 
   toggle() {
