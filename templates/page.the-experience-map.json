@@ -9,42 +9,6 @@
  */
 {
   "sections": {
-    "rich_text_EpBhqb": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_WRFF7c": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1>MAISON LEVEL (CONSUMER SPACE)</h1><p>GROUND + FLOOR 1</p><p></p>"
-          }
-        },
-        "richtext_QemjhX": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Discover the collection, installations, and opening experience.</p>"
-          }
-        },
-        "richtext_tVMgwN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2>THE SUITES</h2><p>FLOOR 2 + FLOOR 3</p><p>Curated music, conversation, and hospitality experiences.</p><p>HOUSE GUEST ACCESS BEGINS AT 8:30 PM.</p><p>THE BALDWIN</p><p>For Literary Sophistication and Bold Truth Telling</p><p>THE HURSTON</p><p>Celebrating Storytelling and Cultural Preservation</p><p>THE MORRISON</p><p>For Literary Excellence</p><p>THE SIMONE</p><p>For Revolutionary Artistry and Activism</p><p>THE KING</p><p>A Tribute to His Vision of Justice and Equality</p><h3>THE GALERIE (KITCHEN + LOUNGE)</h3><p>FLOOR 4</p><p>Craft beverages, culinary offerings, and social gathering.</p><h3>LE CIEL (THE ROOFTOP)</h3><p>Assorted desserts and the best view of the city.</p><p>___________</p><p>21+ WRISTBAND REQUIRED FOR BEVERAGE SERVICE.</p><p>PLEASE RESPECT ROOM CAPACITIES AND GUEST FLOW.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_WRFF7c",
-        "richtext_QemjhX",
-        "richtext_tVMgwN"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-        "separate_section_with_border": true,
-        "content_width": "xs",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -61,7 +25,7 @@
         "liquid_bbAEPH": {
           "type": "liquid",
           "settings": {
-            "liquid": "<section>\n    <h2 style=\"color:#FFFFFF;\">Maison Level (Consumer Space)</h2>\n    <p style=\"color:#FFFFFF;\"><strong>Ground + Floor 1</strong></p>\n    <p style=\"color:#FFFFFF;\">Discover the collection, installations, and opening experience.</p>\n  </section>\n\n  <section>\n    <h2 style=\"color:#FFFFFF;\">The Suites</h2>\n    <p style=\"color:#FFFFFF;\"><strong>Floor 2 + Floor 3</strong></p>\n    <p style=\"color:#FFFFFF;\">Curated music, conversation, and hospitality experiences.</p>\n    <p style=\"color:#764E58;\"><em>House guest access begins at 8:30 PM.</em></p>\n\n    <article>\n      <h3 style=\"color:#764E58;\">The Baldwin</h3>\n      <p style=\"color:#FFFFFF;\">For Literary Sophistication and Bold Truth Telling</p>\n    </article>\n\n    <article>\n      <h3 style=\"color:#764E58;\">The Hurston</h3>\n      <p style=\"color:#FFFFFF;\">Celebrating Storytelling and Cultural Preservation</p>\n    </article>\n\n    <article>\n      <h3 style=\"color:#764E58;\">The Morrison</h3>\n      <p style=\"color:#FFFFFF;\">For Literary Excellence</p>\n    </article>\n\n    <article>\n      <h3 style=\"color:#764E58;\">The Simone</h3>\n      <p style=\"color:#FFFFFF;\">For Revolutionary Artistry and Activism</p>\n    </article>\n\n    <article>\n      <h3 style=\"color:#764E58;\">The King</h3>\n      <p style=\"color:#FFFFFF;\">A Tribute to His Vision of Justice and Equality</p>\n    </article>\n  </section>\n\n  <section>\n    <h2 style=\"color:#FFFFFF;\">The Galerie (Kitchen + Lounge)</h2>\n    <p style=\"color:#FFFFFF;\"><strong>Floor 4</strong></p>\n    <p style=\"color:#FFFFFF;\">Craft beverages, culinary offerings, and social gathering.</p>\n  </section>\n\n  <section>\n    <h2 style=\"color:#FFFFFF;\">Le Ciel (The Rooftop)</h2>\n    <p style=\"color:#FFFFFF;\">Assorted desserts and the best view of the city.</p>\n  </section>\n\n  <hr style=\"border:none; border-top:1px solid #FFFFFF; width:60px; margin:32px auto;\">\n\n  <footer>\n    <p style=\"color:#FFFFFF;\">21+ wristband required for beverage service.</p>\n    <p style=\"color:#FFFFFF;\">Please respect room capacities and guest flow.</p>\n  </footer>"
+            "liquid": "<div class=\"prose text-center\">\n        <h2 style=\"color:#FFFFFF;\">Maison Level (Consumer Space)</h2>\n        <p style=\"color:#FFFFFF;\"><strong>Ground + Floor 1</strong></p>\n        <p style=\"color:#FFFFFF;\">Discover the collection, installations, and opening experience.</p>\n\n\n        <h2 style=\"color:#FFFFFF;\">The Suites</h2>\n        <p style=\"color:#FFFFFF;\"><strong>Floor 2 + Floor 3</strong></p>\n        <p style=\"color:#FFFFFF;\">Curated music, conversation, and hospitality experiences.</p>\n        <p style=\"color:#764E58;\">House guest access begins at 8:30 PM.</p>\n\n        <h3 style=\"color:#764E58;\">The Baldwin</h3>\n        <p style=\"color:#FFFFFF;\">For Literary Sophistication and Bold Truth Telling</p>\n\n        <h3 style=\"color:#764E58;\">The Hurston</h3>\n        <p style=\"color:#FFFFFF;\">Celebrating Storytelling and Cultural Preservation</p>\n\n        <h3 style=\"color:#764E58;\">The Morrison</h3>\n        <p style=\"color:#FFFFFF;\">For Literary Excellence</p>\n\n        <h3 style=\"color:#764E58;\">The Simone</h3>\n        <p style=\"color:#FFFFFF;\">For Revolutionary Artistry and Activism</p>\n\n        <h3 style=\"color:#764E58;\">The King</h3>\n        <p style=\"color:#FFFFFF;\">A Tribute to His Vision of Justice and Equality</p>\n\n        <h2 style=\"color:#FFFFFF;\">The Galerie (Kitchen + Lounge)</h2>\n        <p style=\"color:#FFFFFF;\"><strong>Floor 4</strong></p>\n        <p style=\"color:#FFFFFF;\">Craft beverages, culinary offerings, and social gathering.</p>\n\n        <h2 style=\"color:#FFFFFF;\">Le Ciel (The Rooftop)</h2>\n        <p style=\"color:#FFFFFF;\">Assorted desserts and the best view of the city.</p>\n\n        <hr style=\"border:none; border-top:1px solid #FFFFFF; width:60px; margin:32px auto;\" />\n\n        <p style=\"color:#FFFFFF;\">21+ wristband required for beverage service.</p>\n        <p style=\"color:#FFFFFF;\">Please respect room capacities and guest flow.</p>\n    </div>"
           }
         }
       },
@@ -79,7 +43,6 @@
     }
   },
   "order": [
-    "rich_text_EpBhqb",
     "main",
     "rich_text_DadDUb"
   ]
