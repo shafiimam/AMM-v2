@@ -42,7 +42,7 @@
     "social_twitter": "https://twitter.com/maniere_usa",
     "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
     "social_discord": "https://bit.ly/thewhitakergrpdiscord",
-    "search_blocked_handles": "/pages/rsvp",
+    "search_blocked_handles": "/pages/rsvp,",
     "show_custom_badge": true,
     "content_for_index": [],
     "blocks": {
