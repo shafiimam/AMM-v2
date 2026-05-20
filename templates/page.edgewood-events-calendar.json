@@ -101,6 +101,7 @@
       "blocks": {
         "event_eg6yCy": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
@@ -150,7 +151,7 @@
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
             "event_date": "may 23, 2026 · 11am -1 pm",
             "custom_text": "living suites",
-            "description": "<p>DJ- and influencer-led breakfast club experience set in the late afternoon, blending vinyl sets with coffee and light fare. It creates a relaxed, content-driven environment where community, culture, and sound intersect.</p>",
+            "description": "<p>DJ- and influencer-led breakfast club experience set in the late afternoon, blending rhythm with coffee and light fare. It creates a relaxed, content-driven environment where culture and sound intersect.</p>",
             "button_label": "RSVP",
             "button_url": "https://posh.vip/e/late-checkout-suite-coffee-party"
           }
@@ -238,7 +239,6 @@
         },
         "event_pgGmVU": {
           "type": "event",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "maison retreat",
