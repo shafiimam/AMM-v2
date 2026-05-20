@@ -99,6 +99,20 @@
     "events_section_ajk3kJ": {
       "type": "events-section",
       "blocks": {
+        "event_eg6yCy": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "Sound Check",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 21, 2026 · 7 pm-10 pm",
+            "custom_text": "",
+            "description": "<p>Opening Edition<br/>Curated DJ Expereince</p>",
+            "button_label": "",
+            "button_url": ""
+          }
+        },
         "event_CbK9CA": {
           "type": "event",
           "settings": {
@@ -115,6 +129,7 @@
         },
         "event_3CDdJK": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "noir table",
@@ -130,9 +145,10 @@
           "type": "event",
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "late checkout",
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
-            "event_date": "may 23, 2026 · 2-5 pm",
+            "event_date": "may 23, 2026 · 11am -1 pm",
             "custom_text": "living suites",
             "description": "<p>DJ- and influencer-led breakfast club experience set in the late afternoon, blending vinyl sets with coffee and light fare. It creates a relaxed, content-driven environment where community, culture, and sound intersect.</p>",
             "button_label": "",
@@ -154,6 +170,7 @@
         },
         "event_iYc33x": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "sunday service",
@@ -180,6 +197,7 @@
         },
         "event_faX78z": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "books after dark",
@@ -193,6 +211,7 @@
         },
         "event_gYWajw": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "social climbing",
@@ -219,6 +238,7 @@
         },
         "event_pgGmVU": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "maison retreat",
@@ -261,9 +281,9 @@
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "mobile_image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "sound check",
+            "title": "sound check WITH RAY-BAN",
             "location": " 479 Edgewood Ave SE Atlanta, Georgia",
-            "event_date": "May 28, 2026 · 8-11 PM",
+            "event_date": "May 28, 2026 · 6:30 PM",
             "custom_text": "Galerie",
             "description": "<p>Curated DJ series that focuses on one specific album/artist or genre. </p>",
             "button_label": "",
@@ -299,6 +319,7 @@
         },
         "event_Bjy7T3": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "noir table",
@@ -338,6 +359,7 @@
         },
         "event_UiPetT": {
           "type": "event",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
             "title": "diaspora daybreak",
@@ -345,19 +367,6 @@
             "event_date": "may 30, 2026 · 11am - 1pm",
             "custom_text": "galerie",
             "description": "<p>DJ- and influencer-led breakfast club experience set in the late afternoon, blending vinyl sets with coffee and light fare. It creates a relaxed, content-driven environment where community, culture, and sound intersect.</p>",
-            "button_label": "",
-            "button_url": "#"
-          }
-        },
-        "event_NR7e7L": {
-          "type": "event",
-          "settings": {
-            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
-            "title": "sunday service",
-            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
-            "event_date": "may 31, 2026 · 1-3 pm",
-            "custom_text": "rooftop",
-            "description": "<p>Weekly rooftop gathering featuring a rotating thought leader guiding conversation, perspective, and community reflection. Framed as a cultural forum, it creates space for dialogue, inspiration, and shared experience.</p>",
             "button_label": "",
             "button_url": "#"
           }
@@ -374,9 +383,23 @@
             "button_label": "",
             "button_url": "#"
           }
+        },
+        "event_NR7e7L": {
+          "type": "event",
+          "settings": {
+            "image": "shopify://shop_images/AMM-Web_Article_Banner.jpg",
+            "title": "sunday service",
+            "location": " 479 Edgewood Ave SE Atlanta, Georgia",
+            "event_date": "may 31, 2026 · 1-3 pm",
+            "custom_text": "rooftop",
+            "description": "<p>Weekly rooftop gathering featuring a rotating thought leader guiding conversation, perspective, and community reflection. Framed as a cultural forum, it creates space for dialogue, inspiration, and shared experience.</p>",
+            "button_label": "",
+            "button_url": "#"
+          }
         }
       },
       "block_order": [
+        "event_eg6yCy",
         "event_CbK9CA",
         "event_3CDdJK",
         "event_AeGYCJ",
@@ -396,8 +419,8 @@
         "event_p4GVyQ",
         "event_B89qJ6",
         "event_UiPetT",
-        "event_NR7e7L",
-        "event_HBtKEt"
+        "event_HBtKEt",
+        "event_NR7e7L"
       ],
       "settings": {
         "hide_cta_buttons": false
