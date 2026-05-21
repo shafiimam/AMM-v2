@@ -12,6 +12,37 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_b6PGHW": {
+          "type": "image",
+          "name": "BW RUN 5.21",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC00331_BM_1.jpg",
+            "mobile_image": "shopify://shop_images/mobrun2.jpg",
+            "subheading": "<p><strong>MADE BY ADIDAS FOR THE WHITAKER GROUP</strong></p>",
+            "subheading_size": 15,
+            "title": "<p><strong>DO NOT DUPLICATE: BW RUN</strong></p>",
+            "title_size": 25,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 760,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/do-not-duplicate",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "explore the story",
+            "button_2_link": "shopify://pages/do-not-duplicate-bw-run",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_fPTtP7": {
           "type": "video",
           "name": "BW RUN",
@@ -137,6 +168,7 @@
         }
       },
       "block_order": [
+        "image_b6PGHW",
         "video_fPTtP7",
         "video_Uhn43N",
         "image_RmiEQG",
