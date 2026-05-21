@@ -58,6 +58,39 @@
         "text_color": "#ffffff"
       }
     },
+    "video_nbeAzP": {
+      "type": "video",
+      "blocks": {
+        "play_yMpxPQ": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_qcjfdj": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_yMpxPQ",
+        "heading_qcjfdj"
+      ],
+      "disabled": true,
+      "name": "bw run video",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/BW RUNNER.mov",
+        "mobile_video": "shopify://files/videos/BW Runner Vertical.mov",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -219,6 +252,83 @@
         "content": ""
       }
     },
+    "media_grid_4adhMM": {
+      "type": "media-grid",
+      "blocks": {
+        "image_yJEpeN": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC00917_BM.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QmRNzN": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC00772_BM.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rhri3a": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Untitled-46.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yJEpeN",
+        "image_QmRNzN",
+        "image_rhri3a"
+      ],
+      "disabled": true,
+      "name": "bw run grid",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 390,
+        "mobile_row_height": 270,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "image_with_text_block_TmCWVh": {
       "type": "image-with-text-block",
       "disabled": true,
@@ -237,9 +347,11 @@
   "order": [
     "collection-banner",
     "video_NAkGdf",
+    "video_nbeAzP",
     "main",
     "image_with_text_jLdmmU",
     "media_grid_wGyTFz",
+    "media_grid_4adhMM",
     "image_with_text_block_TmCWVh"
   ]
 }
