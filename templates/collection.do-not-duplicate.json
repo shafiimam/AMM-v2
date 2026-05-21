@@ -47,6 +47,7 @@
         "play_yqpKcH",
         "heading_QVEibd"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
@@ -79,7 +80,6 @@
         "play_yMpxPQ",
         "heading_qcjfdj"
       ],
-      "disabled": true,
       "name": "bw run video",
       "settings": {
         "autoplay": true,
@@ -93,25 +93,6 @@
     },
     "main": {
       "type": "main-collection",
-      "blocks": {
-        "image_card_xbb6z4": {
-          "type": "image_card",
-          "settings": {
-            "image": "shopify://shop_images/MOB5.jpg",
-            "button_text": "Shop The Look",
-            "button_url": "shopify://collections/a-bathing-ape-2",
-            "product_index": 5,
-            "column_span": 2,
-            "row_span": 2,
-            "button_style": "solid",
-            "button_background": "#ffffff",
-            "button_text_color": "#1c1c1c"
-          }
-        }
-      },
-      "block_order": [
-        "image_card_xbb6z4"
-      ],
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
@@ -239,6 +220,7 @@
         "image_Fdedra",
         "image_xKjBF6"
       ],
+      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
@@ -315,7 +297,6 @@
         "image_QmRNzN",
         "image_rhri3a"
       ],
-      "disabled": true,
       "name": "bw run grid",
       "settings": {
         "color_scheme": "",
