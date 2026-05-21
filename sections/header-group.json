@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_e49XGa": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>enjoy 20% off select styles + additional 10% off markdowns from now until 5.26</strong>"
+          }
+        },
         "message_cKYzUL": {
           "type": "message",
           "disabled": true,
@@ -35,6 +42,7 @@
         }
       },
       "block_order": [
+        "message_e49XGa",
         "message_cKYzUL",
         "message-1",
         "message_LyBJxq"
@@ -110,6 +118,7 @@
         },
         "release_egU6UA": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "5.21",
             "release_image": "shopify://shop_images/BWRUNHARLEM_SBEST-1.jpg",
