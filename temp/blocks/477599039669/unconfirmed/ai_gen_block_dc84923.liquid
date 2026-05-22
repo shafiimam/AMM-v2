@@ -1,6 +1,530 @@
+{% doc %}
+  @prompt
+    Create a text section with a CTA that links to a modal pop-up.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-text-modal-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.section_padding }}px;
+    background-color: {{ block.settings.background_color }};
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-text-modal__content-{{ ai_gen_id }} {
+    max-width: {{ block.settings.content_max_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-text-modal__heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.heading_size }}px;
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 {{ block.settings.spacing_between_elements }}px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .ai-text-modal__text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 {{ block.settings.spacing_between_elements }}px 0;
+    line-height: 1.6;
+  }
+
+  .ai-text-modal__button-{{ ai_gen_id }} {
+    display: inline-block;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: {{ block.settings.button_background }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    cursor: pointer;
+    font-size: {{ block.settings.button_text_size }}px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    transition: background-color 0.3s ease;
+  }
+
+  .ai-text-modal__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_background }};
+  }
+
+  .ai-text-modal__overlay-{{ ai_gen_id }} {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, {{ block.settings.overlay_opacity }});
+    z-index: 9998;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .ai-text-modal__overlay-{{ ai_gen_id }}.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .ai-text-modal__modal-{{ ai_gen_id }} {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    width: 90%;
+    max-width: {{ block.settings.modal_max_width }}px;
+    max-height: 90vh;
+    overflow-y: auto;
+    background-color: {{ block.settings.modal_background }};
+    padding: {{ block.settings.modal_padding }}px;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  }
+
+  .ai-text-modal__modal-{{ ai_gen_id }}.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .ai-text-modal__modal-header-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: {{ block.settings.modal_padding }}px;
+  }
+
+  .ai-text-modal__modal-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.modal_title_size }}px;
+    color: {{ block.settings.modal_text_color }};
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .ai-text-modal__close-{{ ai_gen_id }} {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: {{ block.settings.modal_text_color }};
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+
+  .ai-text-modal__close-{{ ai_gen_id }}:hover {
+    opacity: 1;
+  }
+
+  .ai-text-modal__close-{{ ai_gen_id }} svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 2px;
+  }
+
+  .ai-text-modal__modal-content-{{ ai_gen_id }} {
+    color: {{ block.settings.modal_text_color }};
+    font-size: {{ block.settings.modal_content_size }}px;
+    line-height: 1.6;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-text-modal__heading-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.8);
+    }
+
+    .ai-text-modal__text-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.text_size }}px * 0.9);
+    }
+
+    .ai-text-modal__modal-{{ ai_gen_id }} {
+      padding: {{ block.settings.modal_padding | times: 0.7 }}px;
+    }
+
+    .ai-text-modal__modal-title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.modal_title_size }}px * 0.8);
+    }
+  }
+{% endstyle %}
+
+<text-modal-{{ ai_gen_id }} class="ai-text-modal-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-text-modal__content-{{ ai_gen_id }}">
+    {% if block.settings.heading != blank %}
+      <h2 class="ai-text-modal__heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+    {% endif %}
+
+    {% if block.settings.text != blank %}
+      <div class="ai-text-modal__text-{{ ai_gen_id }}">{{ block.settings.text }}</div>
+    {% endif %}
+
+    <button
+      class="ai-text-modal__button-{{ ai_gen_id }}"
+      aria-label="{{ block.settings.button_text }}"
+      aria-expanded="false"
+    >
+      {{ block.settings.button_text }}
+    </button>
+  </div>
+
+  <div class="ai-text-modal__overlay-{{ ai_gen_id }}" aria-hidden="true"></div>
+
+  <div
+    class="ai-text-modal__modal-{{ ai_gen_id }}"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title-{{ ai_gen_id }}"
+  >
+    <div class="ai-text-modal__modal-header-{{ ai_gen_id }}">
+      {% if block.settings.modal_title != blank %}
+        <h3 class="ai-text-modal__modal-title-{{ ai_gen_id }}" id="modal-title-{{ ai_gen_id }}">
+          {{ block.settings.modal_title }}
+        </h3>
+      {% endif %}
+      <button class="ai-text-modal__close-{{ ai_gen_id }}" aria-label="Close modal">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="ai-text-modal__modal-content-{{ ai_gen_id }}">
+      {{ block.settings.modal_content }}
+    </div>
+  </div>
+</text-modal-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class TextModal{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.button = this.querySelector('.ai-text-modal__button-{{ ai_gen_id }}');
+        this.modal = this.querySelector('.ai-text-modal__modal-{{ ai_gen_id }}');
+        this.overlay = this.querySelector('.ai-text-modal__overlay-{{ ai_gen_id }}');
+        this.closeButton = this.querySelector('.ai-text-modal__close-{{ ai_gen_id }}');
+
+        this.setupEventListeners();
+      }
+
+      setupEventListeners() {
+        this.button.addEventListener('click', () => this.openModal());
+        this.closeButton.addEventListener('click', () => this.closeModal());
+        this.overlay.addEventListener('click', () => this.closeModal());
+
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && this.modal.classList.contains('active')) {
+            this.closeModal();
+          }
+        });
+      }
+
+      openModal() {
+        this.modal.classList.add('active');
+        this.overlay.classList.add('active');
+        this.button.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+        this.modal.focus();
+      }
+
+      closeModal() {
+        this.modal.classList.remove('active');
+        this.overlay.classList.remove('active');
+        this.button.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+        this.button.focus();
+      }
+    }
+
+    customElements.define('text-modal-{{ ai_gen_id }}', TextModal{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Text with modal CTA",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Discover more"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Click below to learn more about our exclusive offerings and premium experience.</p>"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Learn more"
+    },
+    {
+      "type": "header",
+      "content": "Modal content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "modal_title",
+      "label": "Modal title",
+      "default": "About us"
+    },
+    {
+      "type": "richtext",
+      "id": "modal_content",
+      "label": "Modal content",
+      "default": "<p>Welcome to our exclusive collection. We curate premium streetwear and footwear with a focus on quality, authenticity, and style. Each piece is carefully selected to bring you the best in contemporary fashion.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "label": "Content max width",
+      "min": 400,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "default": 800
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "spacing_between_elements",
+      "label": "Spacing between elements",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Section style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Background",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Hover background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "label": "Text size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "label": "Vertical padding",
+      "min": 8,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 16,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "header",
+      "content": "Modal style"
+    },
+    {
+      "type": "range",
+      "id": "modal_max_width",
+      "label": "Max width",
+      "min": 400,
+      "max": 1000,
+      "step": 50,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "modal_padding",
+      "label": "Padding",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "modal_background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "modal_text_color",
+      "label": "Text color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "range",
+      "id": "modal_title_size",
+      "label": "Title size",
+      "min": 16,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "modal_content_size",
+      "label": "Content size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "default": 0.5
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text with modal CTA"
+    }
+  ]
+}
 {% endschema %}
