@@ -16,9 +16,14 @@
       "blocks": {
         "message_e49XGa": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "<strong>enjoy 20% off select styles + additional 10% off markdowns from now until 5.26</strong>"
+            "text": "<strong>enjoy 20% off + 10% off markdowns now until 5.26</strong>"
+          }
+        },
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS NOW UNTIL 5.26</strong>"
           }
         },
         "message_cKYzUL": {
@@ -26,12 +31,6 @@
           "disabled": true,
           "settings": {
             "text": "<strong>DISCOVER </strong><a href=\"/collections/new-arrivals\" title=\"NEW ARRIVALS\"><strong>20% OFF SELECT STYLES</strong></a><strong> NOW UNTIL APRIL 19</strong>"
-          }
-        },
-        "message-1": {
-          "type": "message",
-          "settings": {
-            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $250</strong>"
           }
         },
         "message_LyBJxq": {
@@ -43,8 +42,8 @@
       },
       "block_order": [
         "message_e49XGa",
-        "message_cKYzUL",
         "message-1",
+        "message_cKYzUL",
         "message_LyBJxq"
       ],
       "custom_css": [

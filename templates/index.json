@@ -15,7 +15,6 @@
         "image_qajEDT": {
           "type": "image",
           "name": "sale block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ammsaledesk_440f56ff-149a-4e18-999e-ec2b2f491d13.jpg",
             "mobile_image": "shopify://shop_images/AMM_MEM_26_SALE_-_STORY.jpg",
@@ -136,6 +135,7 @@
         "image_RmiEQG": {
           "type": "image",
           "name": "adidas ",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Y-3desktop.png",
             "mobile_image": "shopify://shop_images/ATYPE_SS26_WHS_04_9x16_31a3f4e9-b430-425e-a70a-7f112b49a4c3.jpg",
