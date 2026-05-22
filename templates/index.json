@@ -183,6 +183,49 @@
         "controls_color": "#ffffff"
       }
     },
+    "17794745703e998b72": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_dc84923_q8XL7V": {
+          "type": "ai_gen_block_dc84923",
+          "settings": {
+            "heading": "Memorial Day Sale Event",
+            "text": "<p>In-Store & Online </p>",
+            "button_text": "See more details",
+            "modal_title": "Memorial Day sale event",
+            "modal_content": "<p>May 22 – May 26, 2026</p><p>Enjoy 20% off full-priced items plus 10% off markdown items online and in-store. No code required.</p><p>Select styles, brands, and shipping destinations are excluded. Merchandise assortment may vary by location. Items without a price adjustment in cart are not part of this event.</p><p>Promotions, pricing, and product availability may vary by location, channel, and inventory. Promotional offers are valid only during the stated timeframe and apply only to eligible items while supplies last. Exclusions may apply, including but not limited to select brands, products, or categories.</p><p>We do not offer price adjustments or price matching for prior purchases or between online and in-store pricing. Discounts are applied only where applicable and will be reflected at checkout. If a discount is not reflected at checkout, the item is not eligible for the promotion.</p><p>Promotional offers cannot be applied retroactively and may not be combined with other offers, discounts, or promotions unless otherwise stated. Promotions may be modified, suspended, or terminated at any time without notice.</p>",
+            "desktop_width_percent": 100,
+            "content_max_width": 800,
+            "section_padding": 40,
+            "text_alignment": "center",
+            "spacing_between_elements": 20,
+            "background_color": "#ffffff",
+            "heading_color": "#1c1c1c",
+            "heading_size": 32,
+            "text_color": "#1c1c1c",
+            "text_size": 16,
+            "button_background": "#1c1c1c",
+            "button_hover_background": "#000000",
+            "button_text_color": "#ffffff",
+            "button_text_size": 14,
+            "button_padding_vertical": 14,
+            "button_padding_horizontal": 32,
+            "modal_max_width": 600,
+            "modal_padding": 40,
+            "modal_background": "#ffffff",
+            "modal_text_color": "#1c1c1c",
+            "modal_title_size": 24,
+            "modal_content_size": 16,
+            "overlay_opacity": 0.5
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_dc84923_q8XL7V"
+      ],
+      "settings": {}
+    },
     "176075966993f87866": {
       "type": "_blocks",
       "disabled": true,
@@ -1060,6 +1103,7 @@
   },
   "order": [
     "slideshow_QGYQ6e",
+    "17794745703e998b72",
     "176075966993f87866",
     "featureed_image_and_products_6MwW6y",
     "blocks_hipbgz",
