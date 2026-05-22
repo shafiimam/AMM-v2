@@ -17,8 +17,8 @@
           "name": "sale block",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/AMM_MEM_26_SALE_-_WEB.jpg",
-            "mobile_image": "shopify://shop_images/AMM_MEM_26_SALE_-_MOBILE.jpg",
+            "image": "shopify://shop_images/ammsaledesk_440f56ff-149a-4e18-999e-ec2b2f491d13.jpg",
+            "mobile_image": "shopify://shop_images/AMM_MEM_26_SALE_-_STORY.jpg",
             "subheading": "",
             "subheading_size": 12,
             "title": "",
