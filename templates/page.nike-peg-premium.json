@@ -23,7 +23,6 @@
       "type": "hero-with-logo",
       "settings": {
         "image": "shopify://shop_images/066A4420_DC.jpg",
-        "image_mobile": "shopify://shop_images/mob3_5ea30bd8-5139-496d-8c13-460f9c9e8c8c.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
         "title": "NIKE X A MA MANIÉRE PEGASUS PREMIUM",
         "title_color": "#ffffff",
@@ -39,7 +38,7 @@
         "description_shadow_mobile": 30,
         "description_size": 20,
         "description_size_mobile": 20,
-        "button_url": "https://a-ma-maniere.runfair.com/en-US/us",
+        "button_url": "#",
         "button_text": "",
         "button_style": "outline",
         "button_background": "#efefef",
@@ -156,6 +155,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/066A4420_DC_a713f65f-a84f-4b7d-b98e-83561fb067c6.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -173,7 +173,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "column_count": "4",
+            "image": "shopify://shop_images/JE3_0225_DC_2_copy.jpg",
+            "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -190,8 +191,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ACDSC04733_DC_1_Large_becef6bd-71af-494f-8649-ca838894e83b.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/LXNG_Nikon-46_DC_copy56.jpg",
+            "column_count": "6",
             "row_count": 1,
             "title": "",
             "heading_tag": "h4",
@@ -204,11 +205,11 @@
             "overlay_opacity": 0
           }
         },
-        "image_iWhfJp": {
+        "image_ehLekQ": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/af1_7b4af28f-1f90-4099-886e-1694f3b4b23f.jpg",
+            "image": "shopify://shop_images/burgundy.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -226,9 +227,9 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC09208_BB__2_Large_3fd8c342-02c3-4328-9e30-3cfd23824ee0.jpg",
-            "column_count": "4",
-            "row_count": 2,
+            "image": "shopify://shop_images/jaidepeg.jpg",
+            "column_count": "8",
+            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -240,70 +241,13 @@
             "overlay_opacity": 0
           }
         },
-        "image_RDqhLU": {
+        "image_iWhfJp": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/FTL3_4e34eee8-601c-4285-bb01-425610b499c3.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_ehLekQ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/Untitled-31_cca74f22-a7d4-4c0c-81c9-42afe60e9b74.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_QtUcra": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/DSC05325_BM_Large_baa0aee3-2761-48ad-8cff-da36a9922b52.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_cTyBUg": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/Untitled-36.jpg",
-            "column_count": "4",
-            "row_count": 2,
+            "image": "shopify://shop_images/noth.jpg",
+            "column_count": "12",
+            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -320,12 +264,9 @@
         "image_mftQfm",
         "image_Fw9AEQ",
         "image_UfiUPV",
-        "image_iWhfJp",
-        "image_JnA3Yj",
-        "image_RDqhLU",
         "image_ehLekQ",
-        "image_QtUcra",
-        "image_cTyBUg"
+        "image_JnA3Yj",
+        "image_iWhfJp"
       ],
       "settings": {
         "color_scheme": "scheme-3",
@@ -555,8 +496,8 @@
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
     "3d_gallery_simple_pJ6NhK",
-    "media_grid_HwBKby",
     "3d_gallery_simple_MiAzJQ",
+    "media_grid_HwBKby",
     "media_grid_Jnd6rG"
   ]
 }
