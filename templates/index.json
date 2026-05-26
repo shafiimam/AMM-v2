@@ -12,36 +12,6 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_qajEDT": {
-          "type": "image",
-          "name": "sale block",
-          "settings": {
-            "image": "shopify://shop_images/ammsaledesk_440f56ff-149a-4e18-999e-ec2b2f491d13.jpg",
-            "mobile_image": "shopify://shop_images/AMM_MEM_26_SALE_-_STORY.jpg",
-            "subheading": "",
-            "subheading_size": 12,
-            "title": "",
-            "title_size": 32,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "video_rABfBf": {
           "type": "video",
           "name": "PEG PREM 5.26",
@@ -70,6 +40,36 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_qajEDT": {
+          "type": "image",
+          "name": "sale block",
+          "settings": {
+            "image": "shopify://shop_images/ammsaledesk_440f56ff-149a-4e18-999e-ec2b2f491d13.jpg",
+            "mobile_image": "shopify://shop_images/AMM_MEM_26_SALE_-_STORY.jpg",
+            "subheading": "",
+            "subheading_size": 12,
+            "title": "",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
           }
         },
         "image_b6PGHW": {
@@ -165,8 +165,8 @@
         }
       },
       "block_order": [
-        "image_qajEDT",
         "video_rABfBf",
+        "image_qajEDT",
         "image_b6PGHW",
         "video_Uhn43N",
         "image_RmiEQG"
