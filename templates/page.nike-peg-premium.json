@@ -70,17 +70,9 @@
           "settings": {
             "style": "solid",
             "text": "ENTER DRAWS",
-            "url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
             "background": "",
             "text_color": ""
-          }
-        },
-        "countdown_cDXnhg": {
-          "type": "countdown",
-          "settings": {
-            "final_date": "28-03-2025",
-            "final_time": "15:00",
-            "start_countdown": true
           }
         },
         "richtext_4H9jVT": {
@@ -95,7 +87,6 @@
         "heading_nYwRPc",
         "richtext_cnM9KP",
         "button_BQpBnw",
-        "countdown_cDXnhg",
         "richtext_4H9jVT"
       ],
       "custom_css": [
@@ -107,6 +98,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
+        "image": "shopify://shop_images/crush.jpg",
+        "mobile_image": "shopify://shop_images/crush.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -120,6 +113,7 @@
     },
     "3d_gallery_simple_pJ6NhK": {
       "type": "3d-gallery-simple",
+      "disabled": true,
       "settings": {
         "title": "BLACK AND BURGUNDY CRUSH",
         "start_index": "",
@@ -137,6 +131,7 @@
     },
     "3d_gallery_simple_MiAzJQ": {
       "type": "3d-gallery-simple",
+      "disabled": true,
       "settings": {
         "title": "SUMMIT WHITE/METALLIC SILVER",
         "start_index": "",
@@ -159,7 +154,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/066A4420_DC_a713f65f-a84f-4b7d-b98e-83561fb067c6.jpg",
+            "image": "shopify://shop_images/ammemailpeg.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
