@@ -23,9 +23,8 @@
         },
         "message-1": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS NOW UNTIL 5.26</strong>"
+            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $250</strong>"
           }
         },
         "message_cKYzUL": {
