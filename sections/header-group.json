@@ -16,12 +16,14 @@
       "blocks": {
         "message_e49XGa": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>enjoy 20% off + 10% off markdowns now until 5.26</strong>"
           }
         },
         "message-1": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS NOW UNTIL 5.26</strong>"
           }
