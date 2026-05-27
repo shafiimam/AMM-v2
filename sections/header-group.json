@@ -107,30 +107,29 @@
         },
         "release_tw94g8": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "5.20",
-            "release_image": "shopify://shop_images/WOMEN_SSHOXZCALISTRA_PALEIVORY_-1.jpg",
-            "product_title": "WOMEN'S SHOX Z CALISTRA \"PALE IVORY & OATMEAL\"",
+            "release_title": "6.5",
+            "release_image": "shopify://shop_images/AMMXPEGASUSWHT-1.jpg",
+            "product_title": "A MA MANIÉRE X NIKE PEGASUS PREMIUM SP \"SUMMIT WHITE & METALLIC SILVER\"",
             "product_vendor": "",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-shox-z-calistra-pale-ivory-and-oatmeal"
+            "product_price": "$210",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-nike-pegasus-premium-sp-summit-whitemetallic-silver"
           }
         },
         "release_egU6UA": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "5.21",
-            "release_image": "shopify://shop_images/BWRUNHARLEM_SBEST-1.jpg",
-            "product_title": "ADIDAS DO NOT DUPLICATE BW RUN",
+            "release_title": "6.5",
+            "release_image": "shopify://shop_images/AMMXPEGASUSBLK-1.jpg",
+            "product_title": "A MA MANIÉRE X NIKE PEGASUS PREMIUM SP \"BLACK & BURGUNDY CRUSH\"",
             "product_vendor": "",
-            "product_price": "$120",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-do-not-duplicate-bw-run"
+            "product_price": "$210",
+            "release_link": "https://apbstore.runfair.com/en-US/us/a-ma-maniere-x-nike-pegasus-premium-sp-black-and-burgundy-crush"
           }
         },
         "release_DjJNYX": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "5.23",
             "release_image": "shopify://shop_images/AJ12BLOODLINE-1.jpg",
@@ -201,7 +200,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": false
+        "show_releases": true
       }
     }
   },
