@@ -293,6 +293,7 @@
       "block_order": [
         "ai_gen_block_5edc35c_WUnXJX"
       ],
+      "disabled": true,
       "name": "Spacer",
       "settings": {}
     },
@@ -627,99 +628,10 @@
       "name": "Spacer",
       "settings": {}
     },
-    "featured_collections_EFnetB": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_b4hYCA": {
-          "type": "collection",
-          "settings": {
-            "collection": "a-ma-maniere",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_b4hYCA"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "a ma maniere",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.8,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "shop_the_look_yjtpt9": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_AQePmE": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/global-wales_bonner-originals-ss26-launch-hp-banner_hero-m_2462534d-ad20-437c-80f1-eb97ad9048fd.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "wales-bonner-adizero-adios-mes5-coca-mocha",
-            "product_1_horizontal_position": 34,
-            "product_1_vertical_position": 38,
-            "product_2": "",
-            "product_2_horizontal_position": 54,
-            "product_2_vertical_position": 57,
-            "product_3": "",
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 91,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
-        "look_waN3iW": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/global-wales_bonner-originals-ss26-launch-confirmed-collp-carousel_1-asset_4.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "wales-bonner-gazelle-snake",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look_AQePmE",
-        "look_waN3iW"
-      ],
-      "disabled": true,
-      "name": "t:sections.shop_the_look.presets.shop_the_look.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "adidas x wales bonner",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
-    "blocks_zGemJB": {
+    "blocks_bCxMVE": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_5edc35c_VKwpNT": {
+        "ai_gen_block_5edc35c_cGkYfM": {
           "type": "ai_gen_block_5edc35c",
           "settings": {
             "height_mobile": 20,
@@ -729,25 +641,7 @@
         }
       },
       "block_order": [
-        "ai_gen_block_5edc35c_VKwpNT"
-      ],
-      "name": "Spacer",
-      "settings": {}
-    },
-    "blocks_C9GbEP": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5edc35c_jBxbJd": {
-          "type": "ai_gen_block_5edc35c",
-          "settings": {
-            "height_mobile": 20,
-            "height_desktop": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5edc35c_jBxbJd"
+        "ai_gen_block_5edc35c_cGkYfM"
       ],
       "name": "Spacer",
       "settings": {}
@@ -758,7 +652,8 @@
         "image_ypjcGp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/m5EOGXoA.jpg",
+            "image": "shopify://shop_images/hats_14c91ff6-e145-4d82-a3b6-7ef51a1e1340.jpg",
+            "mobile_image": "shopify://shop_images/hats_14c91ff6-e145-4d82-a3b6-7ef51a1e1340.jpg",
             "subheading": "",
             "subheading_size": 12,
             "title": "",
@@ -767,7 +662,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify://collections/spring-style-guide",
+            "button_1_link": "shopify://collections/new-era",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -800,25 +695,55 @@
         "controls_color": "#ffffff"
       }
     },
+    "featured_collections_EFnetB": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_b4hYCA": {
+          "type": "collection",
+          "settings": {
+            "collection": "a-ma-maniere",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_b4hYCA"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "a ma maniere",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "media_grid_38Mmew": {
       "type": "media-grid",
       "blocks": {
-        "video_yG7g7d": {
-          "type": "video",
+        "image_iWYDPy": {
+          "type": "image",
           "settings": {
-            "color_scheme": "scheme-4",
-            "video": "shopify://files/videos/DND COLLECTION (FE)4k H.265.mov",
-            "autoplay": true,
-            "show_controls": true,
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/ECDSC03110_DC_96d71ae4-1e36-4851-8850-c07f59060748.jpg",
             "column_count": "6",
             "row_count": 2,
-            "title": "",
+            "title": "<strong>Essential Tops</strong>",
             "heading_tag": "h1",
             "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/tops",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -827,14 +752,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC03361_DC_copy.jpg",
+            "image": "shopify://shop_images/DSC00169.jpg",
             "column_count": "6",
             "row_count": 2,
-            "title": "<strong>DO NOT DUPLICATE: THE COLLECTION  </strong>",
+            "title": "<strong>Signature Shorts</strong>",
             "heading_tag": "h1",
             "content": "",
             "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/do-not-duplicate",
+            "link_url": "shopify://collections/new-shorts",
             "link_style": "solid",
             "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
@@ -843,10 +768,10 @@
         }
       },
       "block_order": [
-        "video_yG7g7d",
+        "image_iWYDPy",
         "image_NWPt3Q"
       ],
-      "name": "4.24 collection ",
+      "name": "tops/shorts grid",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -858,11 +783,6 @@
         "title": "",
         "content": ""
       }
-    },
-    "blocks_twxA67": {
-      "type": "_blocks",
-      "name": "Spacer",
-      "settings": {}
     },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
@@ -927,8 +847,15 @@
         "subheading": ""
       }
     },
+    "blocks_twxA67": {
+      "type": "_blocks",
+      "disabled": true,
+      "name": "Spacer",
+      "settings": {}
+    },
     "blocks_xhmELd": {
       "type": "_blocks",
+      "disabled": true,
       "name": "Spacer",
       "settings": {}
     },
@@ -1114,14 +1041,12 @@
     "media_grid_dcKXGR",
     "image_with_text_4rzGhq",
     "blocks_zLJRwf",
-    "featured_collections_EFnetB",
-    "shop_the_look_yjtpt9",
-    "blocks_zGemJB",
-    "blocks_C9GbEP",
     "slideshow_k8LTrN",
+    "featured_collections_EFnetB",
     "media_grid_38Mmew",
-    "blocks_twxA67",
+    "blocks_bCxMVE",
     "featured_collections_WMah7x",
+    "blocks_twxA67",
     "blocks_xhmELd",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
