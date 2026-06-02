@@ -67,6 +67,7 @@
         },
         "button_BQpBnw": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "ENTER DRAWS",
