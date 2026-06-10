@@ -184,20 +184,13 @@
           "settings": {
             "product": "a-ap-rocky-x-ray-ban-flacko-puffer-sunglasses-transparent-dark-blue-w-ultra-black-2"
           }
-        },
-        "product_39NrPi": {
-          "type": "product",
-          "settings": {
-            "product": ""
-          }
         }
       },
       "block_order": [
         "product_T6G3jP",
         "product_xJKx4n",
         "product_U6mYMd",
-        "product_YiALf3",
-        "product_39NrPi"
+        "product_YiALf3"
       ],
       "name": "summer GUIDE 6.10",
       "settings": {
