@@ -27,13 +27,134 @@
         "overlay_opacity": 0
       }
     },
+    "blocks_MYtUJD": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_219fc88_6e9QRP": {
+          "type": "ai_gen_block_219fc88",
+          "settings": {
+            "look_order": "1,2,3,4",
+            "image_aspect_ratio": "2 / 3",
+            "card_spacing": 20,
+            "content_padding": 20,
+            "enable_image_zoom": true,
+            "card_background": "#ffffff",
+            "text_color": "#1c1c1c",
+            "modal_background": "#ffffff",
+            "title_font": "roboto_n4",
+            "title_size": 16,
+            "title_transform": "uppercase",
+            "price_font": "roboto_n4",
+            "price_size": 14,
+            "default_button_text": "Shop the Look",
+            "button_font": "roboto_n4",
+            "button_size": 12,
+            "button_transform": "uppercase",
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 24,
+            "button_background": "#1c1c1c",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#1c1c1c",
+            "button_border_width": 1,
+            "button_border_radius": 0,
+            "button_hover_background": "#000000",
+            "button_hover_text_color": "#ffffff",
+            "button_hover_border_color": "#000000",
+            "bag_icon_transparent": false,
+            "bag_icon_background": "#ffffff",
+            "bag_icon_color": "#1c1c1c",
+            "bag_icon_border_color": "#1c1c1c",
+            "bag_icon_hover_background": "#1c1c1c",
+            "bag_icon_hover_color": "#ffffff",
+            "bag_icon_hover_border_color": "#1c1c1c",
+            "modal_subtitle": "Select options and add items to cart",
+            "add_to_cart_text": "Add Selected to Cart",
+            "modal_border_radius": 0,
+            "look_1_enabled": true,
+            "look_1_media_type": "image",
+            "look_1_image": "shopify://shop_images/DSC09476_DC.jpg",
+            "look_1_title": "Look 1",
+            "look_1_price": "",
+            "look_1_button_type": "modal",
+            "look_1_button_text": "",
+            "look_1_button_link": "",
+            "look_1_enable_bag_icon": true,
+            "look_1_product_1": "jacquemus-la-chemise-paysan-de-nime-light-beige",
+            "look_1_product_2": "jacquemus-le-pantalon-gardian-cuir-dark-brown",
+            "look_1_product_3": "",
+            "look_1_product_4": "",
+            "look_1_product_5": "",
+            "look_1_product_6": "",
+            "look_1_product_7": "",
+            "look_1_product_8": "",
+            "look_2_enabled": true,
+            "look_2_media_type": "image",
+            "look_2_image": "shopify://shop_images/DSC09727_DC.jpg",
+            "look_2_title": "Look 2",
+            "look_2_price": "",
+            "look_2_button_type": "modal",
+            "look_2_button_text": "",
+            "look_2_button_link": "",
+            "look_2_enable_bag_icon": true,
+            "look_2_product_1": "better-with-age-knoxville-ringer-tee-multi",
+            "look_2_product_2": "willy-chavarria-good-boy-jean-black",
+            "look_2_product_3": "",
+            "look_2_product_4": "",
+            "look_2_product_5": "",
+            "look_2_product_6": "",
+            "look_2_product_7": "",
+            "look_2_product_8": "",
+            "look_3_enabled": true,
+            "look_3_media_type": "image",
+            "look_3_image": "shopify://shop_images/DSC09893_DC_2.jpg",
+            "look_3_title": "Look 3",
+            "look_3_price": "",
+            "look_3_button_type": "modal",
+            "look_3_button_text": "",
+            "look_3_button_link": "",
+            "look_3_enable_bag_icon": true,
+            "look_3_product_1": "acne-studios-sprayed-logo-tank-top-light-yellow",
+            "look_3_product_2": "willy-chavarria-good-boy-jean-black",
+            "look_3_product_3": "",
+            "look_3_product_4": "",
+            "look_3_product_5": "",
+            "look_3_product_6": "",
+            "look_3_product_7": "",
+            "look_3_product_8": "",
+            "look_4_enabled": true,
+            "look_4_media_type": "image",
+            "look_4_image": "shopify://shop_images/DSC09256_DC.jpg",
+            "look_4_title": "Look 4",
+            "look_4_price": "",
+            "look_4_button_type": "modal",
+            "look_4_button_text": "",
+            "look_4_button_link": "",
+            "look_4_enable_bag_icon": true,
+            "look_4_product_1": "jacquemus-le-polo-maille-berlingot-dark-brown",
+            "look_4_product_2": "jacquemus-le-short-pastro-beige",
+            "look_4_product_3": "",
+            "look_4_product_4": "",
+            "look_4_product_5": "",
+            "look_4_product_6": "",
+            "look_4_product_7": "",
+            "look_4_product_8": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_219fc88_6e9QRP"
+      ],
+      "name": "Shop the look grid",
+      "settings": {}
+    },
     "slideshow_HF4ER9": {
       "type": "slideshow",
       "blocks": {
         "image_D6PTxF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/m5EOGXoA.jpg",
+            "image": "shopify://shop_images/guide2.jpg",
             "subheading": "",
             "subheading_size": 12,
             "title": "",
@@ -99,21 +220,13 @@
         "text_color": "#ffffff"
       }
     },
-    "subcollection_nav_rWzPbi": {
-      "type": "subcollection-nav",
-      "name": "Subcollection Navigation",
-      "settings": {
-        "fallback_collection": "",
-        "spacing_card": 16
-      }
-    },
     "main": {
       "type": "main-collection",
       "blocks": {
         "image_card_xbb6z4": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/5FW_wR0Q.jpg",
+            "image": "shopify://shop_images/DSC09842_DC.jpg",
             "button_text": "",
             "button_url": "#",
             "product_index": 5,
@@ -146,13 +259,22 @@
         "show_filter_values_count": true,
         "open_filters_by_default": false
       }
+    },
+    "subcollection_nav_rWzPbi": {
+      "type": "subcollection-nav",
+      "name": "Subcollection Navigation",
+      "settings": {
+        "fallback_collection": "",
+        "spacing_card": 16
+      }
     }
   },
   "order": [
     "collection-banner",
+    "blocks_MYtUJD",
     "slideshow_HF4ER9",
     "video_tCYxw6",
-    "subcollection_nav_rWzPbi",
-    "main"
+    "main",
+    "subcollection_nav_rWzPbi"
   ]
 }
