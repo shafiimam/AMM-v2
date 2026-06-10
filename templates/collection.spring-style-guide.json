@@ -229,7 +229,7 @@
             "image": "shopify://shop_images/DSC09842_DC.jpg",
             "button_text": "",
             "button_url": "#",
-            "product_index": 5,
+            "product_index": 9,
             "column_span": 2,
             "row_span": 1,
             "button_style": "solid",
@@ -244,7 +244,7 @@
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
-        "products_per_page": 44,
+        "products_per_page": 34,
         "products_per_row_mobile": "2",
         "products_size_desktop": "medium",
         "show_grid_mode_selector": false,
