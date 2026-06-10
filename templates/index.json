@@ -158,6 +158,52 @@
       "disabled": true,
       "settings": {}
     },
+    "featureed_image_and_products_DcwRQX": {
+      "type": "featureed-image-and-products",
+      "blocks": {
+        "product_T6G3jP": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_xJKx4n": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_U6mYMd": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_39NrPi": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_T6G3jP",
+        "product_xJKx4n",
+        "product_U6mYMd",
+        "product_39NrPi"
+      ],
+      "disabled": true,
+      "name": "STYLE GUIDE 6.10",
+      "settings": {
+        "section_alignment": "left",
+        "title": "SPRING STYLE GUIDE",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/ammguide1.jpg",
+        "image_description": "",
+        "image_cta": "explore",
+        "image_cta_url": "shopify://collections/spring-style-guide"
+      }
+    },
     "featureed_image_and_products_6MwW6y": {
       "type": "featureed-image-and-products",
       "blocks": {
@@ -199,51 +245,6 @@
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/week2springguide.png",
         "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
-        "image_cta": "explore",
-        "image_cta_url": "shopify://collections/spring-style-guide"
-      }
-    },
-    "featureed_image_and_products_DcwRQX": {
-      "type": "featureed-image-and-products",
-      "blocks": {
-        "product_T6G3jP": {
-          "type": "product",
-          "settings": {
-            "product": ""
-          }
-        },
-        "product_xJKx4n": {
-          "type": "product",
-          "settings": {
-            "product": ""
-          }
-        },
-        "product_U6mYMd": {
-          "type": "product",
-          "settings": {
-            "product": ""
-          }
-        },
-        "product_39NrPi": {
-          "type": "product",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "product_T6G3jP",
-        "product_xJKx4n",
-        "product_U6mYMd",
-        "product_39NrPi"
-      ],
-      "disabled": true,
-      "name": "STYLE GUIDE 6.10",
-      "settings": {
-        "section_alignment": "left",
-        "title": "SPRING STYLE GUIDE",
-        "background_image": "shopify://shop_images/image_4.png",
-        "image_description": "",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/spring-style-guide"
       }
@@ -376,8 +377,8 @@
           "type": "ai_gen_block_219fc88",
           "settings": {
             "look_order": "1,2,3,4",
-            "image_aspect_ratio": "4 / 5",
-            "card_spacing": 20,
+            "image_aspect_ratio": "2 / 3",
+            "card_spacing": 15,
             "content_padding": 20,
             "enable_image_zoom": true,
             "card_background": "#ffffff",
@@ -556,6 +557,69 @@
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "featured_collections_WMah7x": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_NDmmGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "acne-studios",
+            "products_count": 8,
+            "title": "Acne Studios",
+            "link_url": "shopify://collections/acne-studios",
+            "link_text": "View all"
+          }
+        },
+        "collection_QPJnbw": {
+          "type": "collection",
+          "settings": {
+            "collection": "fffpostalservice",
+            "products_count": 8,
+            "title": "FFFPOSTALSERVICE",
+            "link_url": "shopify://collections/fffpostalservice",
+            "link_text": "View all"
+          }
+        },
+        "collection_Q7Rc3m": {
+          "type": "collection",
+          "settings": {
+            "collection": "balenciaga",
+            "products_count": 8,
+            "title": "Balenciaga",
+            "link_url": "shopify://collections/balenciaga",
+            "link_text": "SHOP COLLECTION"
+          }
+        },
+        "collection_YYX6wA": {
+          "type": "collection",
+          "settings": {
+            "collection": "better-with-age",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/better-with-age",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_NDmmGJ",
+        "collection_QPJnbw",
+        "collection_Q7Rc3m",
+        "collection_YYX6wA"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "featured_collections_EFnetB": {
@@ -791,69 +855,6 @@
       "name": "Spacer",
       "settings": {}
     },
-    "featured_collections_WMah7x": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_QPJnbw": {
-          "type": "collection",
-          "settings": {
-            "collection": "saint-michael",
-            "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/saint-michael",
-            "link_text": "View all"
-          }
-        },
-        "collection_YYX6wA": {
-          "type": "collection",
-          "settings": {
-            "collection": "better-with-age",
-            "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/better-with-age",
-            "link_text": "View all"
-          }
-        },
-        "collection_NDmmGJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "paly",
-            "products_count": 8,
-            "title": "PALY",
-            "link_url": "shopify://collections/paly",
-            "link_text": "View all"
-          }
-        },
-        "collection_Q7Rc3m": {
-          "type": "collection",
-          "settings": {
-            "collection": "rivington-4",
-            "products_count": 8,
-            "title": "RIVINGTON",
-            "link_url": "shopify://collections/rivington-4",
-            "link_text": "SHOP COLLECTION"
-          }
-        }
-      },
-      "block_order": [
-        "collection_QPJnbw",
-        "collection_YYX6wA",
-        "collection_NDmmGJ",
-        "collection_Q7Rc3m"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "blocks_twxA67": {
       "type": "_blocks",
       "disabled": true,
@@ -1040,18 +1041,18 @@
   "order": [
     "slideshow_QGYQ6e",
     "176075966993f87866",
-    "featureed_image_and_products_6MwW6y",
     "featureed_image_and_products_DcwRQX",
+    "featureed_image_and_products_6MwW6y",
     "blocks_6H9VVp",
     "blocks_jVWpjA",
     "blocks_zLJRwf",
     "slideshow_k8LTrN",
+    "featured_collections_WMah7x",
     "featured_collections_EFnetB",
     "featured_product_Arb4DN",
     "media_grid_38Mmew",
     "blocks_bCxMVE",
     "blocks_z6tkpX",
-    "featured_collections_WMah7x",
     "blocks_twxA67",
     "blocks_xhmELd",
     "176076770152fa2223",
