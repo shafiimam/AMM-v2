@@ -106,7 +106,7 @@
         "image": "shopify://shop_images/DSC06425BB_1.jpg",
         "image_description": "<p>A considered approach to the season. Lightweight layers, refined textures, and pieces designed to move with ease.</p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/spring-style-guide"
+        "image_cta_url": "shopify://collections/summer-edit"
       }
     },
     "blocks_hipbgz": {
@@ -599,7 +599,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify://collections/spring-style-guide",
+            "button_1_link": "shopify://collections/summer-edit",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
