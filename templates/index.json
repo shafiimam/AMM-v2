@@ -247,20 +247,20 @@
         "collection_Q7Rc3m": {
           "type": "collection",
           "settings": {
-            "collection": "balenciaga",
+            "collection": "comme-des-garcons-homme",
             "products_count": 8,
-            "title": "Balenciaga",
-            "link_url": "shopify://collections/balenciaga",
+            "title": "COMME DES GARÇONS HOMME",
+            "link_url": "shopify://collections/comme-des-garcons-homme",
             "link_text": "SHOP COLLECTION"
           }
         },
         "collection_YYX6wA": {
           "type": "collection",
           "settings": {
-            "collection": "better-with-age",
+            "collection": "drkshdw",
             "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/better-with-age",
+            "title": "RICK OWENS DRKSHDW",
+            "link_url": "shopify://collections/drkshdw",
             "link_text": "View all"
           }
         }
