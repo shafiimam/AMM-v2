@@ -284,6 +284,64 @@
         "subheading": ""
       }
     },
+    "image_with_text_PtnpPp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LCyXbt": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>adidas Originals x Willy Chavarria</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_a4VtgE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>adidas Originals and Willy Chavarria present a football-inspired footwear, apparel and accessories collection in collaboration with the Selección Nacional de Mexico .</p>",
+            "text_color": "#535353"
+          }
+        },
+        "richtext_TzrbpC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>In the voices that guide us. In the pride, the rhythm and the culture wecarry every day. Designed by Willy Chavarria, this collection channelsthe journey where identity is shaped, where belief is built and where we learn to play for something bigger than ourselves </p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_yxfiRY": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Explore the Collection",
+            "url": "shopify://collections/willy-chavarria",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LCyXbt",
+        "richtext_a4VtgE",
+        "richtext_TzrbpC",
+        "button_yxfiRY"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/20260424-ADIDAS-WILLY-CHAVARRIA_1341_4-5.jpg",
+        "mobile_image": "shopify://shop_images/20260424-ADIDAS-WILLY-CHAVARRIA_1341_4-5.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "slideshow_peyCaU": {
       "type": "slideshow",
       "blocks": {
@@ -766,6 +824,7 @@
     "featureed_image_and_products_DcwRQX",
     "blocks_zLJRwf",
     "featured_collections_WMah7x",
+    "image_with_text_PtnpPp",
     "slideshow_peyCaU",
     "media_grid_38Mmew",
     "blocks_twxA67",
