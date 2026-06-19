@@ -23,7 +23,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       name="viewport"
       content="width=device-width, initial-scale=1"
     >
-    <meta name="theme-color" content="#ffffff">
+    <meta nam="theme-color" content="#ffffff">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link
@@ -120,11 +120,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'custom.css' | asset_url | stylesheet_tag: preload: true -}}
     <script>
-      // a11y: do NOT set maximum-scale/minimum-scale or user-scalable=no — that blocks pinch-zoom (WCAG 1.4.4 / 1.4.10).
       navigator.platform &&
         /iPad|iPhone|iPod/.test(navigator.platform) &&
         (document.head.querySelector('meta[name="viewport"]').content =
-          'width=device-width, initial-scale=1, viewport-fit=cover');
+          'width=device-width, initial-scale=1.0, viewport-fit=cover, height=device-height, minimum-scale=1.0, maximum-scale=1.0');
     </script>
   </head>
 
@@ -147,7 +146,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     {%- render 'shadow-dom-templates' -%}
     <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
-    <a href="#main" allow-hash-change class="skip-to-content sr-only">
+    <a href="#main" allow-hash-change class="skip-to-content sr-only" role="button">
       {{- 'general.accessibility.skip_to_content' | t -}}
     </a>
 

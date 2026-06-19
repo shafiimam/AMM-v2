@@ -33,7 +33,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/ankles_01ac8dc9-5e87-4e40-8722-c13d2dd61e4d.jpg",
+            "image": "shopify://shop_images/cleatsneaker.jpg",
             "column_count": "12",
             "row_count": 2,
             "title": "",
@@ -141,9 +141,9 @@
         "image_card_xbb6z4": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/willyrose2.jpg",
-            "button_text": "Shop Now",
-            "button_url": "shopify://products/wc-superstar-black-white-gold",
+            "image": "shopify://shop_images/willy2_2d5195c2-7a69-41a3-8e01-4a067189e1a5.jpg",
+            "button_text": "",
+            "button_url": "",
             "product_index": 5,
             "column_span": 2,
             "row_span": 2,

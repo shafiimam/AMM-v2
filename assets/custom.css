@@ -622,27 +622,3 @@ img.ryzo-product-image  {
 .globo-form-app .message.success{
   background: #fff !important;
 }
-/* ==========================================================================
-   Accessibility — visible keyboard focus (WCAG 2.4.7 Focus Visible / 1.4.11)
-   Added by a11y audit. theme.css suppresses outlines on several inputs and has
-   no global :focus-visible ring; this restores a consistent, high-contrast one.
-   ========================================================================== */
-:where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
-  outline: 2px solid rgb(var(--text-color, 0 0 0));
-  outline-offset: 2px;
-  border-radius: 1px;
-}
-
-/* Inputs in theme.css set `outline: none` — give them a clear focus indicator back */
-:is(.input, .textarea, .select, .header-search__input, .quantity-selector__input, .input-prefix > .field):focus-visible {
-  outline: 2px solid rgb(var(--text-color, 0 0 0));
-  outline-offset: 0;
-  border-color: rgb(var(--text-color, 0 0 0));
-}
-
-/* Visually-hidden filter checkboxes: make the focus indicator robust and consistent
-   (was keyed off :focus with a UA highlight outline only) */
-.dot-checkbox:focus-visible ~ label {
-  outline: 2px solid rgb(var(--text-color, 0 0 0));
-  outline-offset: 2px;
-}
