@@ -9,6 +9,8 @@
  */
 {
   "current": {
+    "accessibility_seal": "shopify://shop_images/ADA_Website_Accessibility_Logo.jpg",
+    "accessibility_seal_link": "shopify://pages/accessibility",
     "icon_stroke_width": 2,
     "section_vertical_spacing": "md",
     "product_rating_color": "#1c1c1c",
