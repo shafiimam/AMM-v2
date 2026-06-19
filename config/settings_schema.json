@@ -8,6 +8,35 @@
     "theme_support_url": "https://support.maestrooo.com/article/203-contact-us"
   },
   {
+    "name": "Accessibility",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Accessibility certification badge"
+      },
+      {
+        "type": "paragraph",
+        "content": "Upload the Miami Lighthouse ADA seal. It appears in the footer (linked) and on the accessibility statement page."
+      },
+      {
+        "type": "image_picker",
+        "id": "accessibility_seal",
+        "label": "Accessibility seal image"
+      },
+      {
+        "type": "url",
+        "id": "accessibility_seal_link",
+        "label": "Seal link (leave blank to use /pages/accessibility)"
+      },
+      {
+        "type": "text",
+        "id": "accessibility_seal_alt",
+        "label": "Seal alt text",
+        "default": "Miami Lighthouse ADA Compliance certified \u2014 confirming this website is accessible"
+      }
+    ]
+  },
+  {
     "name": "t:theme_settings.appearance.name",
     "settings": [
       {

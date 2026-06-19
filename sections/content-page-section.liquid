@@ -13,6 +13,9 @@
         <div class="v-stack gap-5" style="max-width: 500px;">
           <h1 class="h1 content-page-section__title">{{ section.settings.title }}</h1>
           <p class="content-page-section__description text-subdued">{{ section.settings.description }}</p>
+          {%- if section.settings.show_accessibility_seal and settings.accessibility_seal != blank -%}
+            {{ settings.accessibility_seal | image_url: width: 320 | image_tag: loading: 'lazy', widths: '160,200,240,320', sizes: '180px', alt: settings.accessibility_seal_alt | default: 'Accessibility certification', class: 'content-page-section__seal' }}
+          {%- endif -%}
         </div>
         <div class="content-page-section__circular-text-container">
           <img
@@ -116,6 +119,13 @@
       "type": "image_picker",
       "id": "section_banner_mobile",
       "label": "Section Banner Image Mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_accessibility_seal",
+      "label": "Show accessibility certification seal",
+      "info": "Displays the seal uploaded in Theme settings → Accessibility.",
+      "default": false
     }
   ],
   "blocks": [
