@@ -23,16 +23,15 @@
       "type": "hero-with-logo",
       "settings": {
         "image": "shopify://shop_images/066A4420_DC.jpg",
-        "image_mobile": "shopify://shop_images/mob3_5ea30bd8-5139-496d-8c13-460f9c9e8c8c.jpg",
         "logo_image": "shopify://shop_images/jordan-2-logo.svg",
-        "title": "NIKE X A MA MANIÉRE PEGASUS PREMIUM",
-        "title_color": "#ffffff",
-        "title_color_mobile": "#ffffff",
+        "title": "A MA MANIÉRE X NIKE PEGASUS PREMIUM SP",
+        "title_color": "#eaeaea",
+        "title_color_mobile": "#eaeaea",
         "title_shadow": 17,
-        "title_shadow_mobile": 20,
-        "title_size": 29,
-        "title_size_mobile": 20,
-        "description": "Launches exclusively at A Ma Maniére on 6.5.26",
+        "title_shadow_mobile": 0,
+        "title_size": 42,
+        "title_size_mobile": 28,
+        "description": "EXCLUSIVELY AVAILALE  JUNE 5 AT 11 AM EST",
         "description_color": "#ffffff",
         "description_color_mobile": "#ffffff",
         "description_shadow": 30,
@@ -52,65 +51,44 @@
     "image_with_text_7Xm8Cg": {
       "type": "image-with-text",
       "blocks": {
-        "richtext_Pdk9a9": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p><strong>Thank you for the passion you share with the world. More than ever, this energy keeps us all inspired.</strong></p><p><strong>We are always better, together.</strong></p><p><strong>Stay true to your purpose.</strong></p><p>A Ma Maniére’s <em>“For The Love” </em>story celebrates the power of unity, joy, and our shared passion against all odds. The A Ma Maniére Air Jordan 3 <em>“For The Love,” </em>A Ma Maniére x NIKE Air Max 95 <em>“Hand Wash Cold,” </em>and A Ma Maniére x NIKE Air Force 1 <em>“Hand Wash Cold” </em>will be exclusively available for release on March 29, 2025, at 11 AM EST online at <a href=\"http://amamaniere.com/\" target=\"_blank\">amamaniere.com</a>, and in-store at 12 PM local time in Atlanta, Washington, DC, and Houston. </p><p>Complementing the exclusive releases is the A Ma Maniére Nylon Program–a capsule collection made in Portugal and executed on premium Limonta Nylon. Featuring four timeless pieces–a Coach's Jacket, Reversible Bomber, Tech Pant, and Cargo Pant with sizing ranging from XS - 2XL.</p><p></p><p><br/></p>",
-            "text_color": "#eaeaea"
-          }
-        },
-        "heading_dh9VqW": {
+        "heading_nYwRPc": {
           "type": "heading",
           "settings": {
-            "text": "RELEASE DETAILS",
-            "heading_tag": "h1"
+            "text": "A MA MANIÉRE X NIKE PEGASUS PREMIUM SP",
+            "heading_tag": "h2"
           }
         },
         "richtext_cnM9KP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The online raffle for both US & international access, is available at <a href=\"http://amamaniere.com/\" target=\"_blank\"><strong>amamaniere.com</strong> </a>from <strong>3.12 until 3.23. </strong>Entries are limited to 1 per person and confirmed entries do not guarantee access to footwear.</p><p>Availability is <strong>LIMITED </strong>and raffle entries will be prioritized for this release. Some sizes may not be available for the online launch on  3.29</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "content": "<p>TIMING IS EVERYTHING<br/><br/>Movement shapes us before we realize it.<br/><br/>The people who steady us.<br/>The spaces that ground us.<br/>The rhythm that carries us forward long after the moment has passed.<br/><br/>Set against the cultural energy of Texas Southern University, the A Ma Maniére x Nike Pegasus Premium SP reflects Black love in motion through friendship, mentorship, partnership, family, and self. A reflection on how presence is built collectively through movement, care, discipline, and intention.<br/><br/>Presented in Black and Burgundy Crush alongside Summit White and Metallic Silver, the silhouette merges considered design with Nike’s most responsive Pegasus to date. ZoomX foam, a sculpted full-length Air Zoom unit, and ReactX foam work together to create a system built for energy return, lightness, and forward progression.<br/><br/>Not simply movement for performance.<br/>Movement as connection.<br/>Movement as grounding.<br/>Movement as love carried forward.</p>",
             "text_color": "#eaeaea"
           }
         },
         "button_BQpBnw": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "ENTER DRAWS",
-            "url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-soiree-in-washington-dc-tickets-1279154107369?aff=oddtdtcreator",
+            "url": "https://a-ma-maniere.runfair.com/en-US/us",
             "background": "",
             "text_color": ""
           }
         },
-        "button_gYDrLn": {
-          "type": "button",
+        "richtext_4H9jVT": {
+          "type": "richtext",
           "settings": {
-            "style": "solid",
-            "text": "",
-            "url": "https://www.eventbrite.com/e/a-ma-maniere-presents-maison-maniere-la-matinee-in-houston-tx-tickets-1279334597219?aff=oddtdtcreator",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "countdown_cDXnhg": {
-          "type": "countdown",
-          "disabled": true,
-          "settings": {
-            "final_date": "28-03-2025",
-            "final_time": "15:00",
-            "start_countdown": true
+            "content": "<p>Presented in Men's sizing, 3.5M–15M in Summit White/Metallic Silver and 7M–14M in Black/Burgundy Crush.<br/><br/>EQL Draw Opens<br/>May 26 at 1 PM EST<br/><br/>EQL Draw Closes<br/>June 2 at 3 PM EST<br/><br/>Limited availability.</p><p><strong>PLEASE NOTE: </strong>SOME SHIPPING DESTINATION EXCLUSIONS APPLY, SHIPPING CHARGES AND LIMITED AVAILABILITY TO DESTINATIONS OUTSIDE OF THE U.S. ARE BASED ON YOUR COUNTRY’S POLICIES AND MAY DIFFER. ALL WINNING ENTRIES WILL BE SELECTED BEFORE LAUNCH AND SHIPPED AFTER LAUNCH.</p>",
+            "text_color": "#eaeaea"
           }
         }
       },
       "block_order": [
-        "richtext_Pdk9a9",
-        "heading_dh9VqW",
+        "heading_nYwRPc",
         "richtext_cnM9KP",
         "button_BQpBnw",
-        "button_gYDrLn",
-        "countdown_cDXnhg"
+        "richtext_4H9jVT"
       ],
       "custom_css": [
         ".container * {text-align: center;}",
@@ -121,6 +99,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
+        "image": "shopify://shop_images/crush.jpg",
+        "mobile_image": "shopify://shop_images/crush.jpg",
         "video_autoplay": false,
         "video_loop": true,
         "video_muted": true,
@@ -134,8 +114,27 @@
     },
     "3d_gallery_simple_pJ6NhK": {
       "type": "3d-gallery-simple",
+      "disabled": true,
       "settings": {
         "title": "BLACK AND BURGUNDY CRUSH",
+        "start_index": "",
+        "end_index": "",
+        "dynamic_link_handle": "",
+        "button_label": "",
+        "button_link": "",
+        "knob_position": 10,
+        "gallery_width": 60,
+        "show_button": true,
+        "show_section_texts": true,
+        "top_text": "Try",
+        "bottom_text": "Now"
+      }
+    },
+    "3d_gallery_simple_MiAzJQ": {
+      "type": "3d-gallery-simple",
+      "disabled": true,
+      "settings": {
+        "title": "SUMMIT WHITE/METALLIC SILVER",
         "start_index": "",
         "end_index": "",
         "dynamic_link_handle": "",
@@ -152,7 +151,139 @@
     "media_grid_HwBKby": {
       "type": "media-grid",
       "blocks": {
+        "image_mftQfm": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ammemailpeg.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "image_Fw9AEQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/JE3_0225_DC_2_copy.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UfiUPV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/LXNG_Nikon-46_DC_copy56.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ehLekQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/burgundy.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JnA3Yj": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/jaidepeg.jpg",
+            "column_count": "8",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iWhfJp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/noth.jpg",
+            "column_count": "12",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_mftQfm",
+        "image_Fw9AEQ",
+        "image_UfiUPV",
+        "image_ehLekQ",
+        "image_JnA3Yj",
+        "image_iWhfJp"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "desktop_row_height": 390,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_Jnd6rG": {
+      "type": "media-grid",
+      "blocks": {
+        "image_htBqAR": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -170,7 +301,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_mftQfm": {
+        "image_4bXEiN": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -188,7 +319,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_UfiUPV": {
+        "image_rGGFEP": {
           "type": "image",
           "settings": {
             "color_scheme": "",
@@ -206,7 +337,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_iWhfJp": {
+        "image_GU9EJr": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
@@ -224,7 +355,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_RDqhLU": {
+        "image_zTCULm": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
@@ -242,7 +373,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_JnA3Yj": {
+        "image_gQ6ENY": {
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
@@ -260,8 +391,9 @@
             "overlay_opacity": 0
           }
         },
-        "image_ehLekQ": {
+        "image_pX6Jeb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/Untitled-31_cca74f22-a7d4-4c0c-81c9-42afe60e9b74.jpg",
@@ -278,8 +410,9 @@
             "overlay_opacity": 0
           }
         },
-        "image_QtUcra": {
+        "image_63wxTr": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/DSC05325_BM_Large_baa0aee3-2761-48ad-8cff-da36a9922b52.jpg",
@@ -296,8 +429,9 @@
             "overlay_opacity": 0
           }
         },
-        "image_cTyBUg": {
+        "image_UManNq": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4",
             "image": "shopify://shop_images/Untitled-36.jpg",
@@ -316,16 +450,17 @@
         }
       },
       "block_order": [
-        "image_Fw9AEQ",
-        "image_mftQfm",
-        "image_UfiUPV",
-        "image_iWhfJp",
-        "image_RDqhLU",
-        "image_JnA3Yj",
-        "image_ehLekQ",
-        "image_QtUcra",
-        "image_cTyBUg"
+        "image_htBqAR",
+        "image_4bXEiN",
+        "image_rGGFEP",
+        "image_GU9EJr",
+        "image_zTCULm",
+        "image_gQ6ENY",
+        "image_pX6Jeb",
+        "image_63wxTr",
+        "image_UManNq"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
@@ -337,23 +472,6 @@
         "title": "",
         "content": ""
       }
-    },
-    "3d_gallery_simple_MiAzJQ": {
-      "type": "3d-gallery-simple",
-      "settings": {
-        "title": "SUMMIT WHITE/METALLIC SILVER",
-        "start_index": "",
-        "end_index": "",
-        "dynamic_link_handle": "",
-        "button_label": "",
-        "button_link": "",
-        "knob_position": 10,
-        "gallery_width": 60,
-        "show_button": true,
-        "show_section_texts": true,
-        "top_text": "Try",
-        "bottom_text": "Now"
-      }
     }
   },
   "order": [
@@ -361,7 +479,8 @@
     "hero_with_logo_nPMzTc",
     "image_with_text_7Xm8Cg",
     "3d_gallery_simple_pJ6NhK",
+    "3d_gallery_simple_MiAzJQ",
     "media_grid_HwBKby",
-    "3d_gallery_simple_MiAzJQ"
+    "media_grid_Jnd6rG"
   ]
 }

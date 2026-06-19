@@ -6,9 +6,6 @@
   ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
-{{ 'slideshow-dropdown.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'slideshow-dropdown.js' | asset_url }}" defer></script>
-
 {%- if section.blocks.size > 0 -%}
   {%- assign carousel_id = 'carousel-' | append: section.id -%}
 
@@ -134,86 +131,7 @@
 
                 <div class="{{ button_wrapper_class }}">
                   {%- if block.settings.button_1_text != blank -%}
-                    {%- liquid
-                      assign has_dropdown_item = false
-                      if block.settings.enable_dropdown
-                        for i in (1..4)
-                          assign dd_label_key = 'dropdown_item_' | append: i | append: '_label'
-                          if block.settings[dd_label_key] != blank
-                            assign has_dropdown_item = true
-                            break
-                          endif
-                        endfor
-                      endif
-                    -%}
-
-                    {%- if block.settings.enable_dropdown and has_dropdown_item -%}
-                      {%- liquid
-                        assign trigger_class = 'button slideshow-cta-dropdown__trigger'
-                        if block.settings.button_1_style == 'outline'
-                          assign trigger_class = trigger_class | append: ' button--outline'
-                        elsif block.settings.button_1_style == 'link'
-                          assign trigger_class = 'link slideshow-cta-dropdown__trigger slideshow-cta-dropdown__trigger--link'
-                        endif
-
-                        capture trigger_style
-                          if block.settings.button_1_style != 'link'
-                            if block.settings.button_1_background != blank and block.settings.button_1_background != 'rgba(0,0,0,0)'
-                              echo '--button-background: ' | append: block.settings.button_1_background.rgb | append: ';'
-                              echo '--button-outline-color: ' | append: block.settings.button_1_background.rgb | append: ';'
-                            endif
-                            if block.settings.button_1_text_color != blank and block.settings.button_1_text_color != 'rgba(0,0,0,0)'
-                              echo '--button-text-color: ' | append: block.settings.button_1_text_color.rgb | append: ';'
-                            endif
-                          endif
-                        endcapture
-
-                        assign menu_id = 'slideshow-dropdown-menu-' | append: section.id | append: '-' | append: block.id
-                      -%}
-
-                      <slideshow-cta-dropdown class="slideshow-cta-dropdown" {{ block.shopify_attributes }}>
-                        <button
-                          type="button"
-                          class="{{ trigger_class }}"
-                          style="{{ trigger_style }}"
-                          data-dropdown-trigger
-                          aria-haspopup="true"
-                          aria-expanded="false"
-                          aria-controls="{{ menu_id }}"
-                        >
-                          <span class="slideshow-cta-dropdown__trigger-label">{{ block.settings.button_1_text }}</span>
-                          <svg class="slideshow-cta-dropdown__chevron" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-                            <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </button>
-                        <ul
-                          id="{{ menu_id }}"
-                          class="slideshow-cta-dropdown__menu"
-                          role="menu"
-                          data-dropdown-menu
-                          hidden
-                        >
-                          {%- for i in (1..4) -%}
-                            {%- assign dd_label_key = 'dropdown_item_' | append: i | append: '_label' -%}
-                            {%- assign dd_link_key = 'dropdown_item_' | append: i | append: '_link' -%}
-                            {%- assign dd_label = block.settings[dd_label_key] -%}
-                            {%- assign dd_link = block.settings[dd_link_key] -%}
-                            {%- if dd_label != blank -%}
-                              <li role="none" class="slideshow-cta-dropdown__item">
-                                <a
-                                  class="slideshow-cta-dropdown__link"
-                                  role="menuitem"
-                                  tabindex="-1"
-                                  href="{{ dd_link | default: '#' }}"
-                                >{{ dd_label }}</a>
-                              </li>
-                            {%- endif -%}
-                          {%- endfor -%}
-                        </ul>
-                      </slideshow-cta-dropdown>
-                    {%- else -%}
-                      {%- render 'button', href: block.settings.button_1_link, content: block.settings.button_1_text, style: block.settings.button_1_style, background: block.settings.button_1_background, text_color: block.settings.button_1_text_color-%}
-                    {%- endif -%}
+                    {%- render 'button', href: block.settings.button_1_link, content: block.settings.button_1_text, style: block.settings.button_1_style, background: block.settings.button_1_background, text_color: block.settings.button_1_text_color-%}
                   {%- endif -%}
 
                   {%- if block.settings.button_2_text != blank -%}
@@ -251,7 +169,7 @@
           {% if forloop.first and section.settings.show_initial_transition %}
             reveal-on-scroll="true"
           {% endif %}
-          role="group"
+          aria-label="{{ block.settings.title | default: block.settings.subheading | default: block.settings.image.alt | default: 'View slide' | strip_html | escape }}"
           {{ block.shopify_attributes }}
         >
           {{- slide -}}
@@ -614,65 +532,6 @@
         },
         {
           "type": "header",
-          "content": "Button 1 dropdown menu"
-        },
-        {
-          "type": "checkbox",
-          "id": "enable_dropdown",
-          "label": "Enable dropdown menu",
-          "info": "Turns Button 1 into a dropdown trigger. Add up to 4 menu items below.",
-          "default": false
-        },
-        {
-          "type": "text",
-          "id": "dropdown_item_1_label",
-          "label": "Item 1 label",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "url",
-          "id": "dropdown_item_1_link",
-          "label": "Item 1 link",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "text",
-          "id": "dropdown_item_2_label",
-          "label": "Item 2 label",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "url",
-          "id": "dropdown_item_2_link",
-          "label": "Item 2 link",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "text",
-          "id": "dropdown_item_3_label",
-          "label": "Item 3 label",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "url",
-          "id": "dropdown_item_3_link",
-          "label": "Item 3 link",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "text",
-          "id": "dropdown_item_4_label",
-          "label": "Item 4 label",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "url",
-          "id": "dropdown_item_4_link",
-          "label": "Item 4 link",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "header",
           "content": "t:global.text.button_2_category"
         },
         {
@@ -954,65 +813,6 @@
           "id": "button_1_text_color",
           "label": "t:global.colors.text",
           "default": "#000000"
-        },
-        {
-          "type": "header",
-          "content": "Button 1 dropdown menu"
-        },
-        {
-          "type": "checkbox",
-          "id": "enable_dropdown",
-          "label": "Enable dropdown menu",
-          "info": "Turns Button 1 into a dropdown trigger. Add up to 4 menu items below.",
-          "default": false
-        },
-        {
-          "type": "text",
-          "id": "dropdown_item_1_label",
-          "label": "Item 1 label",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "url",
-          "id": "dropdown_item_1_link",
-          "label": "Item 1 link",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "text",
-          "id": "dropdown_item_2_label",
-          "label": "Item 2 label",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "url",
-          "id": "dropdown_item_2_link",
-          "label": "Item 2 link",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "text",
-          "id": "dropdown_item_3_label",
-          "label": "Item 3 label",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "url",
-          "id": "dropdown_item_3_link",
-          "label": "Item 3 link",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "text",
-          "id": "dropdown_item_4_label",
-          "label": "Item 4 label",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
-        },
-        {
-          "type": "url",
-          "id": "dropdown_item_4_link",
-          "label": "Item 4 link",
-          "visible_if": "{{ block.settings.enable_dropdown }}"
         },
         {
           "type": "header",

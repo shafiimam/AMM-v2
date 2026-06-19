@@ -47,6 +47,7 @@
         "play_yqpKcH",
         "heading_QVEibd"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
@@ -58,27 +59,40 @@
         "text_color": "#ffffff"
       }
     },
-    "main": {
-      "type": "main-collection",
+    "video_nbeAzP": {
+      "type": "video",
       "blocks": {
-        "image_card_xbb6z4": {
-          "type": "image_card",
+        "play_yMpxPQ": {
+          "type": "play",
           "settings": {
-            "image": "shopify://shop_images/MOB5.jpg",
-            "button_text": "Shop The Look",
-            "button_url": "shopify://collections/a-bathing-ape-2",
-            "product_index": 5,
-            "column_span": 2,
-            "row_span": 2,
-            "button_style": "solid",
-            "button_background": "#ffffff",
-            "button_text_color": "#1c1c1c"
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_qcjfdj": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
           }
         }
       },
       "block_order": [
-        "image_card_xbb6z4"
+        "play_yMpxPQ",
+        "heading_qcjfdj"
       ],
+      "name": "bw run video",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/BW RUNNER.mov",
+        "mobile_video": "shopify://files/videos/BW Runner Vertical.mov",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-collection",
       "settings": {
         "color_scheme": "",
         "hide_product_information": false,
@@ -206,7 +220,84 @@
         "image_Fdedra",
         "image_xKjBF6"
       ],
+      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 390,
+        "mobile_row_height": 270,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_4adhMM": {
+      "type": "media-grid",
+      "blocks": {
+        "image_yJEpeN": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC00917_BM.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rhri3a": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/BW_Runner__1.7.1_BM.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QmRNzN": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC00772_BM.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yJEpeN",
+        "image_rhri3a",
+        "image_QmRNzN"
+      ],
+      "name": "bw run grid",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -237,9 +328,11 @@
   "order": [
     "collection-banner",
     "video_NAkGdf",
+    "video_nbeAzP",
     "main",
     "image_with_text_jLdmmU",
     "media_grid_wGyTFz",
+    "media_grid_4adhMM",
     "image_with_text_block_TmCWVh"
   ]
 }
