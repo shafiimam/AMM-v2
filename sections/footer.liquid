@@ -184,8 +184,6 @@
             {%- endif -%}
           </div>
         {%- endif -%}
-
-        <p class="text-base text-subdued text-xxs footer-copyright">© {{ 'now' | date: '%Y' }} - A Ma Maniére - all rights reserved</p>
         {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
           <ul class="payment-methods unstyled-list">
             {%- for type in shop.enabled_payment_types -%}
@@ -195,6 +193,48 @@
         {% else %}
           {% render 'payment-icons' %}
         {%- endif -%}
+        <p class="text-base text-subdued text-xxs footer-copyright">
+          © {{ 'now' | date: '%Y' }} - A Ma Maniére - all rights reserved
+        </p>
+        {%- if settings.accessibility_seal != blank -%}
+          {%- assign seal_link = settings.accessibility_seal_link | default: '/pages/accessibility' -%}
+          {%- assign seal_alt = settings.accessibility_seal_alt | default: 'Accessibility certification' -%}
+          {% style %}
+            .footer__aside .footer__accessibility-seal {
+              grid-row: 2 / 4;
+              flex-basis: 100%;
+              width: 100%;
+              order: 99;
+              display: flex;
+              justify-content: center;
+              line-height: 0;
+            }
+            @media screen and (max-width: 750px) {
+              .footer__aside .footer__accessibility-seal {
+                grid-row: 3 / 4;
+              }
+            }
+            .footer__accessibility-seal-img {
+              width: 104px;
+              height: auto;
+            }
+          {% endstyle %}
+        {%- endif -%}
+
+        <div class="footer__accessibility-seal">
+          <a href="{{ seal_link }}" class="footer__accessibility-seal-link">
+            {{
+              settings.accessibility_seal
+              | image_url: width: 200
+              | image_tag:
+                loading: 'lazy',
+                widths: '88,120,160,200',
+                sizes: '88px',
+                alt: seal_alt,
+                class: 'footer__accessibility-seal-img'
+            }}
+          </a>
+        </div>
       </div>
     </div>
   </div>
