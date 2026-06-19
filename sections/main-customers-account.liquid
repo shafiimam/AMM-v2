@@ -95,8 +95,8 @@
 
                         <tbody>
                           {%- for order in customer.orders -%}
-                            <tr onclick="window.location.href = '{{ order.customer_url }}'">
-                              <td>{{ order.name }}</td>
+                            <tr>
+                              <td><a href="{{ order.customer_url }}">{{ order.name }}</a></td>
                               <td>{{ order.created_at | date: format: 'date' }}</td>
                               <td>{{ order.financial_status_label }}</td>
                               <td>{{ order.fulfillment_status_label }}</td>

@@ -169,7 +169,7 @@
           {% if forloop.first and section.settings.show_initial_transition %}
             reveal-on-scroll="true"
           {% endif %}
-          role="group"
+          aria-label="{{ block.settings.title | default: block.settings.subheading | default: block.settings.image.alt | default: 'View slide' | strip_html | escape }}"
           {{ block.shopify_attributes }}
         >
           {{- slide -}}
