@@ -86,11 +86,13 @@
       "cart": "Cart",
       "primary_navigation": "Primary navigation",
       "secondary_navigation": "Secondary navigation",
-      "menu": "Navigation menu"
+      "menu": "Navigation menu",
+      "wishlist": "Wishlist"
     }
   },
   "product": {
     "general": {
+      "copy_sku": "Copy product SKU to clipboard",
       "description": "Description",
       "view_details": "View details",
       "add_to_cart_button": "Add to cart",

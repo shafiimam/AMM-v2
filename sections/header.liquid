@@ -101,7 +101,7 @@
     {% assign release_menu_link = '' %}
     {%- if menu.links.size > 0 or sidebar_menu.links.size > 0 -%}
       <nav class="header__primary-nav {% if section.settings.layout == 'logo_center_navigation_below' or section.settings.layout == 'logo_left_navigation_center' %}header__primary-nav--center{% endif %}" aria-label="{{ 'header.general.primary_navigation' | t | escape }}">
-        <button type="button" aria-controls="sidebar-menu" {% unless section.settings.layout == 'drawer' %}class="md:hidden"{% endunless %}>
+        <button type="button" aria-controls="sidebar-menu" aria-expanded="false" {% unless section.settings.layout == 'drawer' %}class="md:hidden"{% endunless %}>
           <span class="sr-only">{{ 'header.general.menu' | t }}</span>
           {%- render 'icon' with 'hamburger', class: 'header__nav-icon' -%}
         </button>
@@ -246,7 +246,11 @@
           {%- endif -%}
         {%- endfor -%}
         {% if customer.email %}
-          <a href="/a/wishlist"><i class="fa fa-bookmark-o" style="font-size: 20px; margin-top: 5px;"></i></a>
+          <li class="header__wishlist-link">
+            <a href="/a/wishlist" aria-label="{{ 'header.general.wishlist' | t | default: 'Wishlist' }}">
+              <i class="fa fa-bookmark-o" aria-hidden="true" style="font-size: 20px; margin-top: 5px;"></i>
+            </a>
+          </li>
         {% endif %}
         {%- if shop.customer_accounts_enabled -%}
           <li class="header__account-link sm-max:hidden">

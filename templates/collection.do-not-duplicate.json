@@ -255,6 +255,24 @@
             "overlay_opacity": 0
           }
         },
+        "image_rhri3a": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/BW_Runner__1.7.1_BM.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "image_QmRNzN": {
           "type": "image",
           "settings": {
@@ -272,30 +290,12 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "image_rhri3a": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/Untitled-46.jpg",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "image_yJEpeN",
-        "image_QmRNzN",
-        "image_rhri3a"
+        "image_rhri3a",
+        "image_QmRNzN"
       ],
       "name": "bw run grid",
       "settings": {
