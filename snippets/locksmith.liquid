@@ -4,10 +4,10 @@
   Do not modify this file. Any changes will be reset the next time that
   Locksmith interacts with this theme.
 
-  Last updated: Fri, 09 Jan 2026 19:02:50 -0500 (EST)
+  Last updated: Tue, 23 Jun 2026 04:19:16 -0400 (EDT)
 {% endcomment -%}
 
-{%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied_content == blank%}{%capture locksmith_access_denied_content%}{%if locksmith_manual_lock%}{{content_for_layout}}{%elsif locksmith_remote_lock%}<div id="locksmith-content">
+{%assign _7='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button'%}{%assign _b='input field__input form-control input__field input-group-field input-full field'%}{%assign _r='select field__input form-control input'%}{%assign _f='container page-width'%}{%assign _n='field'%}{%assign _0b='select field__input form-control input select__select'%}{%assign _v='select'%}{%assign _07='input-group'%}{%assign _0j='form-control'%}{%assign _03='container page-width wrapper'%}{%assign _0r='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button btn--solid'%}{%assign _z='form-field'%}{%assign _0f='select-wrapper'%}{%assign _0v='select field__input form-control input form-control--select'%}{%assign _0z='container page-width row'%}{%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied_content == blank%}{%capture locksmith_access_denied_content%}{%if locksmith_manual_lock%}{{content_for_layout}}{%elsif locksmith_remote_lock%}<div id="locksmith-content">
         <div id="locksmith-spinner-wrapper" style="background:#FFF;z-index:999999;top:0;left:0;right:0;bottom:0;position:fixed">
           <style>
             @keyframes spin { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-      </div>{%assign _7=true%}<script data-locksmith>
+      </div>{%assign _0n=true%}<script data-locksmith>
         var load = function () {
           Locksmith.postResource(
             {},
@@ -69,9 +69,201 @@
         } else {
           window.addEventListener('load', load);
         }
-      </script>{%endif%}{%endcapture%}{%endif%}{%include 'locksmith-content-variables'%}{%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied%}{%capture content_for_header%}{{content_for_header|replace:'.oembed', ''|replace:'.atom', ''|replace:'link rel="alternate" type="application/json+oembed"', 'link'|replace:' title="Feed" rel="alternate" type="application/atom+xml"', ''}}{%endcapture%}{%endif%}{%capture locksmith_initializations%}{%if locksmith_access_denied and locksmith_manual_lock == false and locksmith_noindex%}<meta name="robots" content="noindex" />{%endif%}{{locksmith_json_script}}{{locksmith_client}}
+      </script>{%endif%}{%endcapture%}{%endif%}{%assign _3=theme.name|default:''|downcase%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=''%}{%assign locksmith_select_classes=_r%}{%assign locksmith_select_wrapper_classes=''%}{%assign locksmith_label_classes=''%}{%assign locksmith_container_classes=_f%}{%if _3 contains 'debutify'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'dawn'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_select_classes=_0b%}{%assign locksmith_select_wrapper_classes=_v%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'debut'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_07%}{%assign locksmith_select_classes=_r%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'horizon'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'prestige'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_0j%}{%assign locksmith_select_classes=_r%}{%assign locksmith_select_wrapper_classes=_0j%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'turbo'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=''%}{%assign locksmith_select_classes=''%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'atelier'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'baseline'%}{%assign locksmith_button_classes='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button theme-button'%}{%elsif _3 contains 'be yours'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'blockshop'%}{%elsif _3 contains 'boost'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_wrapper_classes='input-wrapper'%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'boundless'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_container_classes=_03%}{%elsif _3 contains 'broadcast'%}{%assign locksmith_button_classes=_0r%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_z%}{%elsif _3 contains 'brooklyn'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_container_classes=_03%}{%elsif _3 contains 'canopy'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes='form__field'%}{%assign locksmith_select_classes=_r%}{%assign locksmith_select_wrapper_classes=_v%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'concept'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_select_classes=_r%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'craft'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_select_classes=_r%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'crave'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_select_classes=_0b%}{%assign locksmith_select_wrapper_classes=_v%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'district'%}{%assign locksmith_button_classes='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button button--cta button--solid'%}{%assign locksmith_select_classes=_r%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'dwell'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'ella'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'empire'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes='input field__input form-control input__field input-group-field input-full field form-field-input form-field-text'%}{%assign locksmith_input_wrapper_classes=_z%}{%elsif _3 contains 'enterprise'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes='form__field'%}{%assign locksmith_select_classes=_r%}{%assign locksmith_select_wrapper_classes=_v%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'envy'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%elsif _3 contains 'expanse'%}{%assign locksmith_button_classes='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button element-button'%}{%assign locksmith_input_classes='input field__input form-control input__field input-group-field input-full field element-input'%}{%elsif _3 contains 'fabric'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'flex'%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes='control'%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'flow'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%elsif _3 contains 'focal'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes='input'%}{%assign locksmith_select_classes=_r%}{%assign locksmith_select_wrapper_classes=_0f%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'hyper'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_z%}{%assign locksmith_select_classes=_0v%}{%assign locksmith_select_wrapper_classes=_v%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'icon'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_container_classes='container page-width gridlock'%}{%elsif _3 contains 'impact'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_0j%}{%elsif _3 contains 'impulse'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'kalles'%}{%assign locksmith_button_classes='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button hdt-btn'%}{%assign locksmith_input_classes='input field__input form-control input__field input-group-field input-full field hdt-input'%}{%assign locksmith_input_wrapper_classes='hdt-field'%}{%assign locksmith_container_classes='container page-width hdt-container'%}{%elsif _3 contains 'local'%}{%assign locksmith_button_classes='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button button--solid'%}{%assign locksmith_container_classes='container page-width container--large'%}{%elsif _3 contains 'minimal'%}{%assign locksmith_button_classes=_7%}{%elsif _3 contains 'modular'%}{%assign locksmith_button_classes=_0r%}{%assign locksmith_input_wrapper_classes=_07%}{%assign locksmith_select_wrapper_classes='selector-wrapper'%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'motion'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_07%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'narrative'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_wrapper_classes='input-group--underline'%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'origin'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'palo alto'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes='input field__input form-control input__field input-group-field input-full field input--full'%}{%assign locksmith_select_classes='select field__input form-control input FormSelect'%}{%assign locksmith_select_wrapper_classes='selector-wrapper'%}{%assign locksmith_container_classes=_03%}{%elsif _3 contains 'parallax'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_wrapper_classes='input-row'%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'pipeline'%}{%assign locksmith_button_classes='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button btn--soft'%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes='input-group input-group--inner-button'%}{%assign locksmith_container_classes=_03%}{%elsif _3 contains 'pitch'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%elsif _3 contains 'publisher'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'reformation'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_select_wrapper_classes='field select'%}{%assign locksmith_container_classes=_0z%}{%elsif _3 contains 'refresh'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_select_classes=_0b%}{%assign locksmith_select_wrapper_classes=_v%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'ride'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_select_classes=_0b%}{%assign locksmith_select_wrapper_classes=_v%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'ritual'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_wrapper_classes=_n%}{%elsif _3 contains 'savor'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%elsif _3 contains 'shapes'%}{%assign locksmith_button_classes='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button push-btn'%}{%assign locksmith_input_classes=_b%}{%elsif _3 contains 'showcase'%}{%assign locksmith_input_wrapper_classes='input-row'%}{%assign locksmith_container_classes='container page-width central'%}{%elsif _3 contains 'shrine'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'simple'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'sleek'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_z%}{%assign locksmith_select_classes=_0v%}{%assign locksmith_select_wrapper_classes=_v%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'sparklayer'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_select_classes=_r%}{%assign locksmith_select_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'spotlight'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'stiletto'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_select_classes=_r%}{%assign locksmith_select_wrapper_classes=_0f%}{%elsif _3 contains 'streamline'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_select_classes='select field__input form-control input input-full'%}{%elsif _3 contains 'studio'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'supply'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_07%}{%elsif _3 contains 'symmetry'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_wrapper_classes='input-row'%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'taste'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'testament'%}{%assign locksmith_button_classes=_7%}{%elsif _3 contains 'tinker'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%elsif _3 contains 'rise' or _3 contains 'unknown'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'venture'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'venue'%}{%assign locksmith_button_classes='button button--primary button-primary btn btn-primary btn--primary global-button global-button--primary action_button action-button c-btn c-btn--primary'%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'vessel'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%elsif _3 contains 'vision'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_0z%}{%elsif _3 contains 'warehouse'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes='input field__input form-control input__field input-group-field input-full field form__field form__field--text'%}{%assign locksmith_input_wrapper_classes='form__input-wrapper'%}{%assign locksmith_select_wrapper_classes=_0f%}{%assign locksmith_container_classes=_f%}{%elsif _3 contains 'sense'%}{%assign locksmith_button_classes=_7%}{%assign locksmith_input_classes=_b%}{%assign locksmith_input_wrapper_classes=_n%}{%assign locksmith_container_classes=_f%}{%endif%}<style data-locksmith-content-styling>
+  /* message content matches the theme's own page width when it exposes one,
+     centered as a block and centered text so a short protected-content
+     message reads as intentionally centered */
+  .locksmith-content {
+    max-width: var(--page-width, var(--page-content-width, var(--container-md-max-width, 1200px)));
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* center the message text + everything in it. we target the paragraphs
+     (and the container) explicitly rather than relying on inherited
+     text-align, because many themes set their own `p { text-align: left }`
+     that would otherwise override the inherited centering. */
+  .locksmith-content,
+  .locksmith-content p {
+    text-align: center;
+  }
+  /* spacing between the message text and whatever follows it (e.g. the
+     login button), even on themes that zero out <p> margins */
+  .locksmith-content p {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  /* form containers stay narrow + centered (as a block) regardless of theme
+     page width. content stays left-aligned within, so the prompt and button
+     line up with the full-width input's left edge. display:block is forced
+     because some themes' container class (e.g. Turbo's .container) is
+     display:flex, which would otherwise turn our stacked rows into
+     content-sized flex items and bunch the form to the left. */
+  .locksmith-passcode-container,
+  .locksmith-email-container,
+  .locksmith-confirmation-container {
+    display: block;
+    max-width: min(90vw, 600px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* passcode + newsletter keep prompt and button left-aligned within the
+     centered container. we target the prompt's <p>/<label> directly (not just
+     the container) because these forms are injected inside the centered
+     .locksmith-content message area, whose `.locksmith-content p { text-align:
+     center }` rule (0,1,1) would otherwise beat a container rule that only sets
+     alignment via inheritance. declared after that rule so it wins the tie. */
+  .locksmith-passcode-container,
+  .locksmith-passcode-container p,
+  .locksmith-passcode-container label,
+  .locksmith-email-container,
+  .locksmith-email-container p,
+  .locksmith-email-container label {
+    text-align: left;
+  }
+  /* confirmation has no input to align to (just a prompt + button), so center
+     its content the way the plain messages are centered. the prompt renders
+     inside a <label> (sometimes a <p>), so center those explicitly too —
+     otherwise a theme's own label/p text-align leaves the prompt left while
+     the button centers. */
+  .locksmith-confirmation-container,
+  .locksmith-confirmation-container label,
+  .locksmith-confirmation-container p {
+    text-align: center;
+  }
+  /* keep the submit button and its "or Cancel" link on the same line, even
+     when the theme renders the button as a block-level element. left-aligned
+     by default so passcode/newsletter buttons sit at the input's left edge. */
+  .locksmith-submit-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  /* vertical spacing around the input + button. scoped under the container so
+     it beats theme paragraph rules (e.g. Dawn/Ride's `.page-width p { margin }`,
+     specificity 0,2,0 > 0,1,1) and survives themes that zero out <p> margins
+     (e.g. Prestige). */
+  .locksmith-passcode-container .locksmith-input-row,
+  .locksmith-email-container .locksmith-input-row {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .locksmith-passcode-container .locksmith-submit-row,
+  .locksmith-email-container .locksmith-submit-row,
+  .locksmith-confirmation-container .locksmith-submit-row {
+    margin-top: 1em;
+  }
+  /* confirmation centers its content, so center its button to match */
+  .locksmith-confirmation-container .locksmith-submit-row {
+    justify-content: center;
+  }
+  .locksmith-content .or-cancel,
+  .locksmith-passcode-container .or-cancel,
+  .locksmith-email-container .or-cancel,
+  .locksmith-confirmation-container .or-cancel {
+    margin-left: 10px;
+  }
 
-  <script data-locksmith>Locksmith.jsonTag={{locksmith_json|json}};Locksmith.jsonTagSignature={{locksmith_json_signature|json}}</script>{%endcapture%}{%if locksmith_access_granted or locksmith_manual_lock%}{%if locksmith_redirect != blank%}{%assign content_for_layout=locksmith_redirect%}{%endif%}{%else%}{%assign content_for_layout=locksmith_access_denied_content%}{%endif%}{%capture _3%}{%if locksmith_access_denied%}<style>
+  /* neutral control defaults. selectors use element:where(.locksmith-class)
+     rather than plain :where(.locksmith-class) to get specificity (0,0,1)
+     instead of (0,0,0). this lets our fallback survive themes that reset
+     button/input/select via bare element selectors (also 0,0,1) — our
+     style block is in the page body, after the theme link stylesheets in
+     document order, so we win the tie. theme class selectors (.button etc)
+     are (0,1,0) and still beat us, keeping injected classes effective. */
+  button:where(.locksmith-btn) {
+    display: inline-block;
+    font: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 0.8em 1.6em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    /* pick up theme button colors via CSS custom properties. chains try
+       multiple naming conventions in order of prevalence across surveyed
+       themes; first defined wins. RGB-triplet conventions (Dawn's
+       --color-button stores "R, G, B" not a full color) are excluded
+       because they require a rgb() wrapper we cannot provide here.
+       covered families:
+         --button--bg-color / --button--color     → Blockshop / Troop Themes
+         --btn-bg-color / --btn-text-color        → Enterprise, Symmetry, Canopy
+         --colorBtnPrimary / --colorBtnPrimaryText → Impulse, Motion, Streamline
+         --primary-btn-bg-color / ...-text-color  → Flow, Envy            */
+    background: var(--button--bg-color, var(--btn-bg-color, var(--colorBtnPrimary, var(--primary-btn-bg-color, transparent))));
+    color: var(--button--color, var(--btn-text-color, var(--colorBtnPrimaryText, var(--primary-btn-text-color, inherit))));
+    border: 2px solid var(--button--bg-color, var(--btn-bg-color, var(--colorBtnPrimary, var(--primary-btn-bg-color, currentColor))));
+    border-radius: var(--button--radius, 4px);
+  }
+  /* structural (real specificity, not :where): our centered forms need a
+     full-width, block field so it fills the container and the left-aligned
+     prompt + button line up with its left edge. without this, themes that
+     render inputs inline or at a fixed width leave the form looking
+     left-shifted inside its centered container. */
+  .locksmith-input,
+  .locksmith-select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  /* visual defaults — see specificity note on button:where(.locksmith-btn) above */
+  input:where(.locksmith-input),
+  select:where(.locksmith-select) {
+    font: inherit;
+    font-size: 16px; /* keep iOS Safari from zooming the field on focus */
+    padding: 0.5em 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    color: inherit;
+  }
+  select:where(.locksmith-select) {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    padding-right: 40px;
+  }
+
+  /* failed-attempt feedback */
+  .locksmith-input.failed,
+  .locksmith-select.failed {
+    outline-color: #d9534f !important;
+    border-color: #d9534f !important;
+    animation: locksmith-shake .5s linear;
+  }
+
+  /* submit button label/loading swap + clear common theme conflicts on the
+     inner spans; generalized off the per-form id selectors we used to repeat */
+  .locksmith-submit span {
+    border: 0 !important;
+    margin: 0 !important;
+  }
+  .locksmith-submit .default,
+  .locksmith-submit[disabled] .loading {
+    display: inline !important;
+  }
+  .locksmith-submit .loading,
+  .locksmith-submit[disabled] .default {
+    display: none !important;
+  }
+
+  @keyframes locksmith-shake {
+    8%, 41% { transform: translateX(-10px); }
+    25%, 58% { transform: translateX(10px); }
+    75% { transform: translateX(-5px); }
+    92% { transform: translateX(5px); }
+    0%, 100% { transform: translateX(0); }
+  }
+
+  /* fix for Debut+Gempages, per Gempages technical support */
+  html.gemapp.video { display: block; }
+</style>{%include 'locksmith-content-variables'%}{%include 'locksmith-variables', locksmith_scope: nil%}{%if locksmith_access_denied%}{%capture content_for_header%}{{content_for_header|replace:'.oembed', ''|replace:'.atom', ''|replace:'link rel="alternate" type="application/json+oembed"', 'link'|replace:' title="Feed" rel="alternate" type="application/atom+xml"', ''}}{%endcapture%}{%endif%}{%capture locksmith_initializations%}{%if locksmith_access_denied and locksmith_manual_lock == false and locksmith_noindex%}<meta name="robots" content="noindex" />{%endif%}{{locksmith_json_script}}{{locksmith_client}}
+
+  <script data-locksmith>Locksmith.jsonTag={{locksmith_json|json}};Locksmith.jsonTagSignature={{locksmith_json_signature|json}}</script>{%endcapture%}{%if locksmith_access_granted or locksmith_manual_lock%}{%if locksmith_redirect != blank%}{%assign content_for_layout=locksmith_redirect%}{%endif%}{%else%}{%assign content_for_layout=locksmith_access_denied_content%}{%endif%}{%capture _13%}{%if locksmith_access_denied%}<style>
     /* Smart spacing for Locksmith content - only applied when access is denied */
       /* Base padding: always add 20px minimum to top */
       #locksmith-content .section {
@@ -81,7 +273,7 @@
 
       /* Locksmith-specific centering that doesn't rely on theme CSS */
       #locksmith-content .locksmith-content-inner {
-        max-width: var(--page-width, 1200px);
+        max-width: var(--page-width, var(--page-content-width, var(--container-md-max-width, 1200px)));
         margin-left: auto !important;
         margin-right: auto !important;
         padding-left: var(--page-padding, 1.5rem);
@@ -105,19 +297,19 @@
         > #locksmith-content:first-child .section {
         /* Prioritize header-height, then header-group-height, default to 70px for transparent headers */
         /* The 20px base padding is already included in the base rule above */
-        padding-top: calc(var(--header-height, var(--header-group-height, 70px)) + 20px );
+        padding-top: calc(var(--header-height, var(--header-group-height, var(--sticky-header-offset, var(--sticky-header-height, var(--sticky-area-height, 70px))))) + 20px);
       }
 
       /* Alternative selector for themes that don't use #header-group */
       body:has(header[data-transparent], .header[data-transparent], #shopify-section-header[data-transparent])
         > main
         > #locksmith-content:first-child .section {
-        padding-top: calc(var(--header-height, var(--header-group-height, 70px)) + 20px );
+        padding-top: calc(var(--header-height, var(--header-group-height, var(--sticky-header-offset, var(--sticky-header-height, var(--sticky-area-height, 70px))))) + 20px);
       }
 
   </style>{%endif%}<script data-locksmith>
     var load = function () {
-{%unless _7%}{%if cart.attributes.locksmith == nil%}
+{%unless _0n%}{%if cart.attributes.locksmith == nil%}
 
             Locksmith.initializeSession({silent: window.location.search === ""});
 {%else%}
@@ -150,4 +342,4 @@
     } else {
       window.addEventListener('load', load);
     }
-  </script>{%endcapture%}{%unless request.design_mode or request.host contains ".shopifypreview.com" or request.page_type == "password"%}{%assign content_for_layout=content_for_layout|append:_3%}{%endunless%}{%if locksmith_access_denied and content_for_layout contains '<input type="hidden" name="form_type" value="customer_login" />'%}{%assign locksmith_original_template=template%}{%assign template='customers/login'%}{%endif%}
+  </script>{%endcapture%}{%unless request.design_mode or request.host contains ".shopifypreview.com" or request.page_type == "password"%}{%assign content_for_layout=content_for_layout|append:_13%}{%endunless%}{%if locksmith_access_denied and content_for_layout contains '<input type="hidden" name="form_type" value="customer_login" />'%}{%assign locksmith_original_template=template%}{%assign template='customers/login'%}{%endif%}
