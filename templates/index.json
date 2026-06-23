@@ -17,7 +17,7 @@
           "name": "dnd world cup 6.23",
           "settings": {
             "video": "shopify://files/videos/4k H.265 no logo  (1).mov",
-            "allow_sound": false,
+            "allow_sound": true,
             "subheading": "<strong>Exclusively available june 26 at 12 pm local time </strong>",
             "subheading_size": 21,
             "title": "<strong>DO NOT DUPLICATE WORLD CUP</strong>",
