@@ -9,66 +9,39 @@
  */
 {
   "sections": {
-    "media_grid_YB6gei": {
-      "type": "media-grid",
-      "blocks": {
-        "image_P8BMaQ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC02446_DC_1.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "A Ma Maniere x New Era Atlanta Series Hats",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_style": "solid",
-            "text_position": "place-self-start text-start",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_T4VmXD": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC02351_DC_1.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_P8BMaQ",
-        "image_T4VmXD"
-      ],
-      "name": "new era hats ",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 450,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_P8Xnjc": {
+          "type": "video",
+          "name": "dnd world cup 6.23",
+          "disabled": true,
+          "settings": {
+            "allow_sound": false,
+            "subheading": "Exclusively available june 26 at 12 pm local time",
+            "subheading_size": 21,
+            "title": "DO NOT DUPLICATE WORLD CUP",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "video_jq67y7": {
           "type": "video",
           "name": "jae tips 6.23",
@@ -163,6 +136,7 @@
         }
       },
       "block_order": [
+        "video_P8Xnjc",
         "video_jq67y7",
         "video_rABfBf",
         "video_Uhn43N"
@@ -177,6 +151,63 @@
         "cycle_speed": 10,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "media_grid_YB6gei": {
+      "type": "media-grid",
+      "blocks": {
+        "image_P8BMaQ": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC02446_DC_1.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "A Ma Maniere x New Era Atlanta Series Hats",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "shopify://collections/a-ma-maniere",
+            "link_style": "solid",
+            "text_position": "place-self-start text-start",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_T4VmXD": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC02351_DC_1.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/a-ma-maniere",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_P8BMaQ",
+        "image_T4VmXD"
+      ],
+      "name": "new era hats ",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 450,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "176075966993f87866": {
