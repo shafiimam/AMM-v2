@@ -12,21 +12,21 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "video_P8Xnjc": {
+        "video_jq67y7": {
           "type": "video",
-          "name": "dnd world cup 6.23",
+          "name": "jae tips 6.24",
           "settings": {
-            "video": "shopify://files/videos/4k H.265 no logo  (1).mov",
+            "video": "shopify://files/videos/JAE TIPS x TWG_STARTED FROM THE SOIL.mov",
             "allow_sound": true,
-            "subheading": "<strong>Exclusively available june 26 at 12 pm local time </strong>",
-            "subheading_size": 21,
-            "title": "<strong>DO NOT DUPLICATE WORLD CUP</strong>",
+            "subheading": "exclusively available june 26th at 12 pm est",
+            "subheading_size": 19,
+            "title": "<strong>jaetips x the whitaker group \"Started from the soil\" fitted cap collection </strong>",
             "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "ENTER THE DRAW",
-            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
+            "button_1_text": "",
+            "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -42,22 +42,21 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "video_jq67y7": {
+        "video_P8Xnjc": {
           "type": "video",
-          "name": "jae tips 6.23",
-          "disabled": true,
+          "name": "dnd world cup 6.23",
           "settings": {
-            "video": "shopify://files/videos/JAE TIPS x TWG_NEW GROWTH COLLECTION.mov",
+            "video": "shopify://files/videos/4k H.265 no logo  (1).mov",
             "allow_sound": true,
-            "subheading": "",
-            "subheading_size": 12,
-            "title": "jae tips x the whitaker group",
+            "subheading": "<strong>Exclusively available june 26 at 12 pm local time </strong>",
+            "subheading_size": 21,
+            "title": "<strong>DO NOT DUPLICATE WORLD CUP</strong>",
             "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
+            "button_1_text": "ENTER THE DRAW",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -137,8 +136,8 @@
         }
       },
       "block_order": [
-        "video_P8Xnjc",
         "video_jq67y7",
+        "video_P8Xnjc",
         "video_rABfBf",
         "video_Uhn43N"
       ],
