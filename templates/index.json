@@ -53,7 +53,6 @@
         "image_P8BMaQ",
         "image_pCX4Vf"
       ],
-      "disabled": true,
       "name": "jaetips 6.26",
       "settings": {
         "color_scheme": "",
@@ -73,6 +72,7 @@
         "video_jq67y7": {
           "type": "video",
           "name": "jae tips 6.24",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/JAE TIPS x TWG_STARTED FROM THE SOIL.mov",
             "allow_sound": true,
@@ -913,10 +913,10 @@
   },
   "order": [
     "media_grid_YB6gei",
-    "slideshow_QGYQ6e",
     "176075966993f87866",
-    "media_grid_tM6W3f",
     "featureed_image_and_products_DcwRQX",
+    "media_grid_tM6W3f",
+    "slideshow_QGYQ6e",
     "blocks_zLJRwf",
     "media_grid_VqFRV4",
     "featured_collections_WMah7x",
