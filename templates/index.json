@@ -183,6 +183,63 @@
       "disabled": true,
       "settings": {}
     },
+    "media_grid_tM6W3f": {
+      "type": "media-grid",
+      "blocks": {
+        "image_H9CLtR": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC06891_DC_1.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "do not duplicate world cup f50 & ghost moto",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop now",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-start text-start",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pNRaUH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC04718_DC_2.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_H9CLtR",
+        "image_pNRaUH"
+      ],
+      "name": "dnd 6.26 f50/moto",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 450,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "featureed_image_and_products_DcwRQX": {
       "type": "featureed-image-and-products",
       "blocks": {
@@ -226,64 +283,6 @@
         "image_description": "<p>From destination weddings to rooftop evenings, discover a curated selection of elevated summer essentials designed for every occasion. Tailored silhouettes, refined textures, and effortless layers made to move with the season.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/summer-edit"
-      }
-    },
-    "media_grid_tM6W3f": {
-      "type": "media-grid",
-      "blocks": {
-        "image_H9CLtR": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC06891_DC_1.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "do not duplicate world cup f50 & ghost moto",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_style": "solid",
-            "text_position": "place-self-start text-start",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_pNRaUH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC04718_DC_2.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_H9CLtR",
-        "image_pNRaUH"
-      ],
-      "disabled": true,
-      "name": "dnd 6.26 f50/moto",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 450,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
       }
     },
     "blocks_zLJRwf": {
@@ -348,6 +347,7 @@
         "image_wYfYeF",
         "image_CYGCDD"
       ],
+      "disabled": true,
       "name": "new era hats ",
       "settings": {
         "color_scheme": "",
@@ -914,8 +914,8 @@
     "media_grid_YB6gei",
     "slideshow_QGYQ6e",
     "176075966993f87866",
-    "featureed_image_and_products_DcwRQX",
     "media_grid_tM6W3f",
+    "featureed_image_and_products_DcwRQX",
     "blocks_zLJRwf",
     "media_grid_VqFRV4",
     "featured_collections_WMah7x",
