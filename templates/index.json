@@ -103,6 +103,7 @@
         "video_P8Xnjc": {
           "type": "video",
           "name": "dnd world cup 6.23",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/4k H.265 no logo  (1).mov",
             "allow_sound": true,
