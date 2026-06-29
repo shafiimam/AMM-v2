@@ -40,6 +40,8 @@
     "custom_badge_enable": true,
     "custom_badge_text": "Exclusive",
     "custom_badge_include_tag": "exclusive",
+    "cart_show_free_shipping_bar": true,
+    "cart_free_shipping_threshold": "250",
     "social_facebook": "https://www.facebook.com/maniereusa",
     "social_twitter": "https://twitter.com/maniere_usa",
     "social_instagram": "https://www.instagram.com/maniere_usa/?hl=en",
