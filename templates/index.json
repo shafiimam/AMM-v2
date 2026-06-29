@@ -77,7 +77,13 @@
         "product_T6G3jP": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-polo-maille-berlingot-dark-brown"
+            "product": "givenchy-college-polo-1"
+          }
+        },
+        "product_YiALf3": {
+          "type": "product",
+          "settings": {
+            "product": "new-era-x-jae-tips-x-amm-hat-burnt-wood"
           }
         },
         "product_xJKx4n": {
@@ -89,28 +95,22 @@
         "product_U6mYMd": {
           "type": "product",
           "settings": {
-            "product": "a-ma-maniere-air-ship-sp-black-white"
-          }
-        },
-        "product_YiALf3": {
-          "type": "product",
-          "settings": {
-            "product": "a-ap-rocky-x-ray-ban-flacko-puffer-sunglasses-transparent-dark-blue-w-ultra-black-2"
+            "product": "a-ma-maniere-x-pegasus-premium-summit-white-metallic-silver"
           }
         }
       },
       "block_order": [
         "product_T6G3jP",
+        "product_YiALf3",
         "product_xJKx4n",
-        "product_U6mYMd",
-        "product_YiALf3"
+        "product_U6mYMd"
       ],
       "name": "summer GUIDE 6.10",
       "settings": {
         "section_alignment": "left",
         "title": "A Ma Maniére Summer Edit",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/ammguide1.jpg",
+        "image": "shopify://shop_images/ammsummer2.jpg",
         "image_description": "<p>From destination weddings to rooftop evenings, discover a curated selection of elevated summer essentials designed for every occasion. Tailored silhouettes, refined textures, and effortless layers made to move with the season.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/summer-edit"
