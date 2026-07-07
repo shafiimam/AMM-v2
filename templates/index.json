@@ -15,7 +15,6 @@
         "image_w8fHbA": {
           "type": "image",
           "name": "POWERPHASE",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DND_Powerphase_1.jpg",
             "subheading": "<p><strong>AVAILABLE JULY 10 AT 12 PM LOCAL TIME </strong></p>",
@@ -25,12 +24,12 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "ENTER DRAW",
+            "button_1_text": "ENTER THE DRAW",
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
-            "button_2_text": "EXPLORE THE STORY",
+            "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "solid",
             "button_2_background": "#ffffff",
@@ -163,70 +162,12 @@
         "image_H9CLtR",
         "image_pNRaUH"
       ],
-      "name": "dnd 6.26 f50/moto",
+      "name": "BAPE HATS/TEES",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
         "desktop_row_height": 450,
         "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
-    "media_grid_YB6gei": {
-      "type": "media-grid",
-      "blocks": {
-        "image_P8BMaQ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/ammjae.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/new-era",
-            "link_style": "solid",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_pCX4Vf": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/ammjae2.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "<strong>The whitaker group and jaetips \"Started from the soil\"</strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://collections/new-era",
-            "link_style": "outline",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_P8BMaQ",
-        "image_pCX4Vf"
-      ],
-      "disabled": true,
-      "name": "jaetips 6.26",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 540,
-        "mobile_row_height": 290,
         "section_width": "full",
         "spacing": "xs",
         "subheading": "",
@@ -910,9 +851,8 @@
     }
   },
   "order": [
-    "media_grid_tM6W3f",
     "slideshow_QGYQ6e",
-    "media_grid_YB6gei",
+    "media_grid_tM6W3f",
     "176075966993f87866",
     "featureed_image_and_products_DcwRQX",
     "blocks_zLJRwf",
