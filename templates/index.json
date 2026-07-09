@@ -371,21 +371,14 @@
         "heading_LCyXbt": {
           "type": "heading",
           "settings": {
-            "text": "<strong>adidas Originals x Willy Chavarria</strong>",
+            "text": "SECND SELF",
             "heading_tag": "h1"
           }
         },
         "richtext_a4VtgE": {
           "type": "richtext",
           "settings": {
-            "content": "<p>adidas Originals and Willy Chavarria present a football-inspired footwear, apparel and accessories collection in collaboration with the Selección Nacional de Mexico .</p>",
-            "text_color": "#535353"
-          }
-        },
-        "richtext_TzrbpC": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>In the voices that guide us. In the pride, the rhythm and the culture wecarry every day. Designed by Willy Chavarria, this collection channelsthe journey where identity is shaped, where belief is built and where we learn to play for something bigger than ourselves </p>",
+            "content": "<p>Rooted in the legacy of Americana sportswear, SECND SLF blends heritage design with forward-thinking craftsmanship. Every collection revisits iconic eras and cultural moments, reimagined for today.</p>",
             "text_color": "#535353"
           }
         },
@@ -394,7 +387,7 @@
           "settings": {
             "style": "solid",
             "text": "Explore the Collection",
-            "url": "shopify://collections/willy-chavarria",
+            "url": "shopify://collections/secndself",
             "background": "",
             "text_color": ""
           }
@@ -403,17 +396,15 @@
       "block_order": [
         "heading_LCyXbt",
         "richtext_a4VtgE",
-        "richtext_TzrbpC",
         "button_yxfiRY"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/20260424-ADIDAS-WILLY-CHAVARRIA_1341_4-5.jpg",
-        "mobile_image": "shopify://shop_images/20260424-ADIDAS-WILLY-CHAVARRIA_1341_4-5.jpg",
+        "image": "shopify://shop_images/snd.jpg",
         "video_autoplay": false,
-        "video_loop": true,
+        "video_loop": false,
         "video_muted": true,
         "video_controls": false,
         "reveal_on_scroll": false,
