@@ -493,19 +493,19 @@
     "featured_collections_EFnetB": {
       "type": "featured-collections",
       "blocks": {
-        "collection_b4hYCA": {
+        "collection_3AqAWW": {
           "type": "collection",
           "settings": {
-            "collection": "a-ma-maniere",
+            "collection": "footwear",
             "products_count": 8,
             "title": "",
-            "link_url": "",
+            "link_url": "shopify://collections/footwear",
             "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_b4hYCA"
+        "collection_3AqAWW"
       ],
       "custom_css": [],
       "name": "a ma maniere",
@@ -876,10 +876,10 @@
     "media_grid_tM6W3f",
     "blocks_zLJRwf",
     "media_grid_VqFRV4",
-    "featured_collections_WMah7x",
-    "image_with_text_PtnpPp",
-    "slideshow_peyCaU",
     "featured_collections_EFnetB",
+    "image_with_text_PtnpPp",
+    "featured_collections_WMah7x",
+    "slideshow_peyCaU",
     "media_grid_38Mmew",
     "blocks_twxA67",
     "featured_product_Arb4DN",
