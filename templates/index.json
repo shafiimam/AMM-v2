@@ -23,7 +23,7 @@
             "heading_tag": "h1",
             "content": "<p><strong>Exclusively Available July 16th <br/>at 12PM Local Time </strong></p>",
             "link_text": "ENTER DRAW",
-            "link_url": "#",
+            "link_url": "https://a-ma-maniere.runfair.com/en-US/us",
             "link_style": "solid",
             "text_position": "place-self-start text-start",
             "overlay_color": "#000000",
@@ -41,7 +41,7 @@
             "heading_tag": "h1",
             "content": "",
             "link_text": "",
-            "link_url": "shopify://collections/do-not-duplicate",
+            "link_url": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-bw-mundial-world-cup-creamwhite",
             "link_style": "solid",
             "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
@@ -53,7 +53,6 @@
         "image_mB9CJn",
         "image_GKdFHt"
       ],
-      "disabled": true,
       "name": "BW MUNDIAL ",
       "settings": {
         "color_scheme": "",
@@ -111,6 +110,7 @@
         "image_CwAwjy",
         "image_UVL8wC"
       ],
+      "disabled": true,
       "name": "powerphase 7/10",
       "settings": {
         "color_scheme": "",
