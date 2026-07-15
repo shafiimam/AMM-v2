@@ -586,8 +586,25 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/ECDSC03110_DC_96d71ae4-1e36-4851-8850-c07f59060748.jpg",
-            "column_count": "6",
+            "image": "shopify://shop_images/DSC09727_DC_eea39c49-8f46-4ae5-8bbe-2a797d255614.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "<strong>Essential Tops</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/tops",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XfPbzY": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "column_count": "4",
             "row_count": 2,
             "title": "<strong>Essential Tops</strong>",
             "heading_tag": "h1",
@@ -605,7 +622,7 @@
           "settings": {
             "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
             "image": "shopify://shop_images/DSC00169.jpg",
-            "column_count": "6",
+            "column_count": "4",
             "row_count": 2,
             "title": "<strong>Signature Shorts</strong>",
             "heading_tag": "h1",
@@ -621,8 +638,10 @@
       },
       "block_order": [
         "image_iWYDPy",
+        "image_XfPbzY",
         "image_NWPt3Q"
       ],
+      "disabled": true,
       "name": "tops/shorts grid",
       "settings": {
         "color_scheme": "",
