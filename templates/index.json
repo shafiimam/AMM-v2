@@ -80,8 +80,8 @@
             "title": "<strong>do not duplicate adidas BW MUNDIAL</strong>",
             "heading_tag": "h1",
             "content": "<p><strong>Exclusively Available July 16th <br/>at 12PM Local Time </strong></p>",
-            "link_text": "ENTER DRAW",
-            "link_url": "https://a-ma-maniere.runfair.com/en-US/us",
+            "link_text": "",
+            "link_url": "#",
             "link_style": "solid",
             "text_position": "place-self-start text-start",
             "overlay_color": "#000000",
@@ -422,7 +422,7 @@
             "link_url": "shopify://collections/a-bathing-ape",
             "link_style": "solid",
             "text_position": "place-self-end-center text-center",
-            "overlay_color": "#FFFFFF",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0
           }
         },
