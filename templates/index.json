@@ -190,7 +190,7 @@
           "settings": {
             "image": "shopify://shop_images/ammdesktop4_e22829e6-b81e-4c65-9b8a-c5386137080d.jpg",
             "mobile_image": "shopify://shop_images/9CL_2.jpg",
-            "subheading": "<p>Available Now </p>",
+            "subheading": "<p><strong>Available Now </strong></p>",
             "subheading_size": 19,
             "title": "<p><strong>DO NOT DUPLICATE fourth of july pack </strong></p>",
             "title_size": 35,
