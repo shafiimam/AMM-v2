@@ -98,74 +98,13 @@
         },
         "release_tw94g8": {
           "type": "release",
-          "disabled": true,
           "settings": {
-            "release_title": "6.26",
-            "release_image": "shopify://shop_images/KH8148GHOSTMOTOKEYLIME-1.jpg",
-            "product_title": "DO NOT DUPLICATE WOMEN'S GHOST MOTO LOW \"MINT\"",
+            "release_title": "7.18",
+            "release_image": "shopify://shop_images/BADBUNNYXF50GHOSTPRINTDARKMARINE-1_05242352-5fb8-41fe-8642-9b9186546396.jpg",
+            "product_title": "ADIDAS BAD BUNNY F50 \"GHOST SPRINT\"",
             "product_vendor": "",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-womens-ghost-moto-low-mint"
-          }
-        },
-        "release_egU6UA": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "6.26",
-            "release_image": "shopify://shop_images/KH8149GHOSTMOTOBLK-1.jpg",
-            "product_title": "DO NOT DUPLICATE WOMEN'S GHOST MOTO LOW \"BLACK\"",
-            "product_vendor": "",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-womens-ghost-moto-low-black"
-          }
-        },
-        "release_DjJNYX": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "6.26",
-            "release_image": "shopify://shop_images/KH6169GHOSTMOTOSILVER-1.jpg",
-            "product_title": "DO NOT DUPLICATE WOMEN'S GHOST MOTO LOW \"SILVER\"",
-            "product_vendor": "",
-            "product_price": "$130",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-womens-ghost-moto-low-silver"
-          }
-        },
-        "release_KPd8WR": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "6.26",
-            "release_image": "shopify://shop_images/KH8098F50SALAGREEN-1.jpg",
-            "product_title": "DO NOT DUPLICATE F50 SALA WORLD CUP",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-f50-sala-world-cup"
-          }
-        },
-        "release_nAhaJK": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "6.26",
-            "release_image": "shopify://shop_images/KZ9149F50SALACREAM-1.jpg",
-            "product_title": "DO NOT DUPLICATE F50 SALA WORLD CUP",
-            "product_vendor": "",
-            "product_price": "$140",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/do-not-duplicate-f50-sala-world-cup-white"
-          }
-        },
-        "release_EWt834": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "6.27",
-            "release_image": "shopify://shop_images/BAPEADIZEROEVOSL-1.jpg",
-            "product_title": "ADIDAS X BAPE ADIZERO EVO SL",
-            "product_vendor": "",
-            "product_price": "200",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-x-bape-adizero-evo-sl"
+            "product_price": "160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-bad-bunny-f50-ghost-sprint"
           }
         }
       },
@@ -173,12 +112,7 @@
         "mega_menu_kbBhKp",
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_tw94g8",
-        "release_egU6UA",
-        "release_DjJNYX",
-        "release_KPd8WR",
-        "release_nAhaJK",
-        "release_EWt834"
+        "release_tw94g8"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -206,7 +140,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": false
+        "show_releases": true
       }
     }
   },
