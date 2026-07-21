@@ -26,6 +26,83 @@
         "overlay_opacity": 0
       }
     },
+    "media_grid_wGyTFz": {
+      "type": "media-grid",
+      "blocks": {
+        "image_3g6hHn": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC03187_DC_1_copy6.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Fdedra": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/apbmicro_a6e44ca8-7530-49dc-b30a-bf3ee37ce27e.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xKjBF6": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ssmicro.webp",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3g6hHn",
+        "image_Fdedra",
+        "image_xKjBF6"
+      ],
+      "disabled": true,
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 390,
+        "mobile_row_height": 270,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "video_NAkGdf": {
       "type": "video",
       "blocks": {
@@ -214,83 +291,6 @@
         "remove_top_padding": false
       }
     },
-    "media_grid_wGyTFz": {
-      "type": "media-grid",
-      "blocks": {
-        "image_3g6hHn": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC03187_DC_1_copy6.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Fdedra": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/apbmicro_a6e44ca8-7530-49dc-b30a-bf3ee37ce27e.png",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_xKjBF6": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/ssmicro.webp",
-            "column_count": "6",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_3g6hHn",
-        "image_Fdedra",
-        "image_xKjBF6"
-      ],
-      "disabled": true,
-      "name": "t:sections.media_grid.presets.media_grid.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 390,
-        "mobile_row_height": 270,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "image_with_text_block_TmCWVh": {
       "type": "image-with-text-block",
       "disabled": true,
@@ -308,12 +308,12 @@
   },
   "order": [
     "collection-banner",
-    "video_NAkGdf",
-    "video_nbeAzP",
-    "main",
     "media_grid_4adhMM",
-    "image_with_text_jLdmmU",
     "media_grid_wGyTFz",
+    "video_NAkGdf",
+    "main",
+    "video_nbeAzP",
+    "image_with_text_jLdmmU",
     "image_with_text_block_TmCWVh"
   ]
 }
