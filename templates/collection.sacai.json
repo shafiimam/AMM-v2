@@ -1,0 +1,288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_size": "lg",
+        "allow_transparent_header": false,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_image": false,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_breadcrumb": true,
+        "content_width": "full",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "video_BMBRUt": {
+      "type": "video",
+      "blocks": {
+        "play_4YPpDb": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_EizRw3": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_4YPpDb",
+        "heading_EizRw3"
+      ],
+      "disabled": true,
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "fill",
+        "video": "shopify://files/videos/BB AMM 1_37111aea-247f-4701-bfdb-a3ab1f2cb0c3.mov",
+        "mobile_video": "shopify://files/videos/BB AMM 1_37111aea-247f-4701-bfdb-a3ab1f2cb0c3.mov",
+        "external_video_url": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_nYct7Y": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_6Mc89a": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_PxW4EQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_JVcVDe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Better With Age uses deadstock vintage garments and reworks them into 1-of-1 pieces. Please note due to the brand's unique and rare process, each design can vary in blank's color base, and material used. The item you receive will vary in uniqueness from what is pictured here.\"</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6Mc89a",
+        "heading_PxW4EQ",
+        "richtext_JVcVDe"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_block_TmCWVh": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify://shop_images/DSC08655_BB_1.jpg",
+        "mobile_image": "shopify://shop_images/DSC08655_BB_1.jpg",
+        "content_width": "sm",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "image_card_xbb6z4": {
+          "type": "image_card",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ECDSC02391_DC_copy2.jpg",
+            "button_text": "Shop The Look",
+            "button_url": "shopify://collections/a-bathing-ape-2",
+            "product_index": 7,
+            "column_span": 2,
+            "row_span": 3,
+            "button_style": "solid",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1c1c"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_xbb6z4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 31,
+        "products_per_row_mobile": "1",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 0.4,
+        "vertical_spacing_factor": 0.4,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "image_with_text_jLdmmU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MAfpmm": {
+          "type": "heading",
+          "settings": {
+            "text": "Entire studios shrunken denim jacket",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nmR43n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The Shrunken Denim Jacket from Entire Studios merges vintage attitude with a contemporary edge. Cut from 100% cotton with a perfectly washed finish, it’s designed with a cropped, structured fit, exaggerated shoulders, and contrast stitching that adds dimension and character. Waist adjusters and a regular-fit silhouette offer a tailored feel without sacrificing comfort, making it a versatile piece that elevates any layered look.Defined by its bold proportions and refined detailing, this jacket reinterprets a timeless staple through the lens of modern utility. Whether thrown over a hoodie or paired with minimal separates, it delivers a confident, off-duty aesthetic rooted in the brand’s signature approach to shape and simplicity.</p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAfpmm",
+        "richtext_nmR43n"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "mobile_image": "shopify://shop_images/FCDSC02074_DC_1_1.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
+    "media_grid_wGyTFz": {
+      "type": "media-grid",
+      "blocks": {
+        "image_3g6hHn": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ECDSC03027_DC.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xKjBF6": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ECDSC03110_DC_2a628a3a-352a-4ad4-90ab-6aa84b886447.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Fdedra": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ECDSC02391_DC_copy2.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_3g6hHn",
+        "image_xKjBF6",
+        "image_Fdedra"
+      ],
+      "disabled": true,
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "A closer look",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "video_BMBRUt",
+    "rich_text_nYct7Y",
+    "image_with_text_block_TmCWVh",
+    "main",
+    "image_with_text_jLdmmU",
+    "media_grid_wGyTFz"
+  ]
+}
