@@ -98,6 +98,7 @@
         },
         "release_tw94g8": {
           "type": "release",
+          "disabled": true,
           "settings": {
             "release_title": "7.18",
             "release_image": "shopify://shop_images/BADBUNNYXF50GHOSTPRINTDARKMARINE-1_05242352-5fb8-41fe-8642-9b9186546396.jpg",
