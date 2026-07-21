@@ -76,12 +76,12 @@
         "image_card_xbb6z4": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/thuglub1.jpg",
+            "image": "shopify://shop_images/thugclub.jpg",
             "button_text": "",
-            "button_url": "",
-            "product_index": 5,
+            "button_url": "shopify://products/thug-club-tc-destroyed-knit-zip-up-hoodie-beige",
+            "product_index": 6,
             "column_span": 2,
-            "row_span": 2,
+            "row_span": 1,
             "button_style": "solid",
             "button_background": "#ffffff",
             "button_text_color": "#1c1c1c"
