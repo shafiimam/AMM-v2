@@ -26,6 +26,51 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_jLdmmU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MAfpmm": {
+          "type": "heading",
+          "settings": {
+            "text": "SATOSHI NAKAMOTO",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nmR43n": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p><strong>SATOSHI NAKAMOTO DFDGKDHGKDHGK</strong></p>",
+            "text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MAfpmm",
+        "richtext_nmR43n"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "image-with-text .prose {background: #fafafa; padding: 60px;}",
+        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
+        "picture {display: flex; justify-content: end;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/34CL.jpg",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "video_BMBRUt": {
       "type": "video",
       "blocks": {
@@ -47,12 +92,12 @@
         "play_4YPpDb",
         "heading_EizRw3"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
         "show_controls": true,
         "video_size": "fill",
-        "video": "shopify://files/videos/AMA STUSSY.mov",
         "mobile_video": "shopify://files/videos/AMA STUSSY.mov",
         "external_video_url": "",
         "text_color": "#ffffff"
@@ -98,51 +143,50 @@
         "open_filters_by_default": false
       }
     },
-    "image_with_text_jLdmmU": {
-      "type": "image-with-text",
+    "media_grid_mnBGfT": {
+      "type": "media-grid",
       "blocks": {
-        "heading_MAfpmm": {
-          "type": "heading",
+        "image_kqpPc7": {
+          "type": "image",
           "settings": {
-            "text": "<a href=\"https://www.a-ma-maniere.com/collections/stussy\">STÜSSY</a>",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nmR43n": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Stüssy</strong> returns with a Fall collection that effortlessly blurs the line between street culture and modern luxury. The collection features oversized outerwear, washed textures, classic logos, and understated essentials refined through a minimalist, contemporary lens. </p>",
-            "text_color": "#535353"
+            "color_scheme": "",
+            "image": "shopify://shop_images/35CL.jpg",
+            "column_count": "12",
+            "row_count": 3,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "heading_MAfpmm",
-        "richtext_nmR43n"
+        "image_kqpPc7"
       ],
-      "custom_css": [
-        "image-with-text .prose {background: #fafafa; padding: 60px;}",
-        "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
-        "picture {display: flex; justify-content: end;}"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/Stussy21.jpg",
-        "mobile_image": "shopify://shop_images/STUSSY23.png",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "md",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
+        "desktop_row_height": 150,
+        "mobile_row_height": 250,
+        "section_width": "md",
+        "spacing": "md",
+        "subheading": "",
+        "title": "A CLOSER LOOK",
+        "content": ""
       }
     }
   },
   "order": [
     "collection-banner",
+    "image_with_text_jLdmmU",
     "video_BMBRUt",
     "main",
-    "image_with_text_jLdmmU"
+    "media_grid_mnBGfT"
   ]
 }
