@@ -15,7 +15,6 @@
         "video_DXFVHb": {
           "type": "video",
           "name": "PUMA x CODA",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/1PUMACODA.mov",
             "allow_sound": true,
