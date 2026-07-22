@@ -17,6 +17,7 @@
           "name": "PUMA x CODA",
           "settings": {
             "video": "shopify://files/videos/1PUMACODA.mov",
+            "mobile_video": "shopify://files/videos/1PUMACODA.mov",
             "allow_sound": true,
             "subheading": "<strong>INTRODUCING CODA</strong>",
             "subheading_size": 27,
