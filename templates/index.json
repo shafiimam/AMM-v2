@@ -152,6 +152,51 @@
         "controls_color": "#ffffff"
       }
     },
+    "featureed_image_and_products_DcwRQX": {
+      "type": "featureed-image-and-products",
+      "blocks": {
+        "product_T6G3jP": {
+          "type": "product",
+          "settings": {
+            "product": "givenchy-college-polo-1"
+          }
+        },
+        "product_YiALf3": {
+          "type": "product",
+          "settings": {
+            "product": "new-era-x-amm-dc-chrome-hat-chrome-navy"
+          }
+        },
+        "product_xJKx4n": {
+          "type": "product",
+          "settings": {
+            "product": "jacquemus-le-de-nimes-droit-jeans-blue"
+          }
+        },
+        "product_U6mYMd": {
+          "type": "product",
+          "settings": {
+            "product": "a-ma-maniere-x-pegasus-premium-summit-white-metallic-silver"
+          }
+        }
+      },
+      "block_order": [
+        "product_T6G3jP",
+        "product_YiALf3",
+        "product_xJKx4n",
+        "product_U6mYMd"
+      ],
+      "name": "summer GUIDE 6.10",
+      "settings": {
+        "section_alignment": "left",
+        "title": "A Ma Maniére Summer Edit",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/ammsummer2.jpg",
+        "image_description": "<p>From destination weddings to rooftop evenings, discover a curated selection of elevated summer essentials designed for every occasion. Tailored silhouettes, refined textures, and effortless layers made to move with the season.</p>",
+        "image_cta": "explore",
+        "image_cta_url": "shopify://collections/summer-edit"
+      }
+    },
     "media_grid_tM6W3f": {
       "type": "media-grid",
       "blocks": {
@@ -267,188 +312,45 @@
         "content": ""
       }
     },
-    "media_grid_WDX4Mw": {
-      "type": "media-grid",
-      "blocks": {
-        "image_CwAwjy": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DND_Powerphase_2_1.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "do not duplicate adidas powerphase",
-            "heading_tag": "h1",
-            "content": "<p>Exclusively Available Now </p>",
-            "link_text": "shop now",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "solid",
-            "text_position": "place-self-start text-start",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_UVL8wC": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC00450.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_CwAwjy",
-        "image_UVL8wC"
-      ],
-      "disabled": true,
-      "name": "powerphase 7/10",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 450,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "176075966993f87866": {
       "type": "_blocks",
       "disabled": true,
       "settings": {}
     },
-    "featureed_image_and_products_DcwRQX": {
-      "type": "featureed-image-and-products",
-      "blocks": {
-        "product_T6G3jP": {
-          "type": "product",
-          "settings": {
-            "product": "givenchy-college-polo-1"
-          }
-        },
-        "product_YiALf3": {
-          "type": "product",
-          "settings": {
-            "product": "new-era-x-amm-dc-chrome-hat-chrome-navy"
-          }
-        },
-        "product_xJKx4n": {
-          "type": "product",
-          "settings": {
-            "product": "jacquemus-le-de-nimes-droit-jeans-blue"
-          }
-        },
-        "product_U6mYMd": {
-          "type": "product",
-          "settings": {
-            "product": "a-ma-maniere-x-pegasus-premium-summit-white-metallic-silver"
-          }
-        }
-      },
-      "block_order": [
-        "product_T6G3jP",
-        "product_YiALf3",
-        "product_xJKx4n",
-        "product_U6mYMd"
-      ],
-      "name": "summer GUIDE 6.10",
-      "settings": {
-        "section_alignment": "left",
-        "title": "A Ma Maniére Summer Edit",
-        "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/ammsummer2.jpg",
-        "image_description": "<p>From destination weddings to rooftop evenings, discover a curated selection of elevated summer essentials designed for every occasion. Tailored silhouettes, refined textures, and effortless layers made to move with the season.</p>",
-        "image_cta": "explore",
-        "image_cta_url": "shopify://collections/summer-edit"
-      }
-    },
     "blocks_zLJRwf": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5edc35c_QbKHUb": {
-          "type": "ai_gen_block_5edc35c",
-          "settings": {
-            "height_mobile": 20,
-            "height_desktop": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5edc35c_QbKHUb"
-      ],
       "name": "Spacer",
       "settings": {}
     },
-    "media_grid_VqFRV4": {
-      "type": "media-grid",
+    "featured_collections_EFnetB": {
+      "type": "featured-collections",
       "blocks": {
-        "image_wYfYeF": {
-          "type": "image",
+        "collection_3AqAWW": {
+          "type": "collection",
           "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC02446_DC_1.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "A Ma Maniere x New Era Atlanta Series Hats",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_style": "solid",
-            "text_position": "place-self-start text-start",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_CYGCDD": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/DSC02351_DC_1.jpg",
-            "column_count": "6",
-            "row_count": 2,
+            "collection": "footwear",
+            "products_count": 8,
             "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/a-ma-maniere",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_url": "shopify://collections/footwear",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "image_wYfYeF",
-        "image_CYGCDD"
+        "collection_3AqAWW"
       ],
-      "disabled": true,
-      "name": "new era hats ",
+      "custom_css": [],
+      "name": "a ma maniere",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "separate_section_with_border": false,
-        "desktop_row_height": 450,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "media_grid_38Mmew": {
@@ -520,32 +422,58 @@
         "separate_section_with_border": false,
         "desktop_row_height": 400,
         "mobile_row_height": 420,
-        "section_width": "lg",
-        "spacing": "sm",
+        "section_width": "full",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
       }
     },
-    "featured_collections_EFnetB": {
+    "blocks_xhmELd": {
+      "type": "_blocks",
+      "name": "Spacer",
+      "settings": {}
+    },
+    "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
-        "collection_3AqAWW": {
+        "collection_YYX6wA": {
           "type": "collection",
           "settings": {
-            "collection": "footwear",
+            "collection": "ray-ban",
             "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/footwear",
+            "title": "RAY-BAN",
+            "link_url": "shopify://collections/ray-ban",
             "link_text": "View all"
+          }
+        },
+        "collection_QPJnbw": {
+          "type": "collection",
+          "settings": {
+            "collection": "rhude",
+            "products_count": 8,
+            "title": "RHUDE",
+            "link_url": "shopify://collections/rhude",
+            "link_text": "View all"
+          }
+        },
+        "collection_Q7Rc3m": {
+          "type": "collection",
+          "settings": {
+            "collection": "willy-chavarria",
+            "products_count": 8,
+            "title": "WILLY CHAVARRIA",
+            "link_url": "shopify://collections/willy-chavarria",
+            "link_text": "view all"
           }
         }
       },
       "block_order": [
-        "collection_3AqAWW"
+        "collection_YYX6wA",
+        "collection_QPJnbw",
+        "collection_Q7Rc3m"
       ],
       "custom_css": [],
-      "name": "a ma maniere",
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -553,8 +481,8 @@
         "stack_products": true,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.8,
-        "vertical_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.9,
         "subheading": ""
       }
     },
@@ -607,10 +535,30 @@
         "remove_top_padding": false
       }
     },
-    "featured_collections_WMah7x": {
+    "featured_collections_KWmgFV": {
       "type": "featured-collections",
       "blocks": {
-        "collection_NDmmGJ": {
+        "collection_MCVUaY": {
+          "type": "collection",
+          "settings": {
+            "collection": "adidas",
+            "products_count": 8,
+            "title": "SP5DER",
+            "link_url": "shopify://collections/adidas",
+            "link_text": "View all"
+          }
+        },
+        "collection_TTiYmf": {
+          "type": "collection",
+          "settings": {
+            "collection": "sacai",
+            "products_count": 8,
+            "title": "SACAI",
+            "link_url": "shopify://collections/sacai",
+            "link_text": "View all"
+          }
+        },
+        "collection_3xEBwR": {
           "type": "collection",
           "settings": {
             "collection": "human-made",
@@ -619,43 +567,12 @@
             "link_url": "shopify://collections/human-made",
             "link_text": "View all"
           }
-        },
-        "collection_YYX6wA": {
-          "type": "collection",
-          "settings": {
-            "collection": "ray-ban",
-            "products_count": 8,
-            "title": "RAY-BAN",
-            "link_url": "shopify://collections/ray-ban",
-            "link_text": "View all"
-          }
-        },
-        "collection_QPJnbw": {
-          "type": "collection",
-          "settings": {
-            "collection": "rhude",
-            "products_count": 8,
-            "title": "RHUDE",
-            "link_url": "shopify://collections/rhude",
-            "link_text": "View all"
-          }
-        },
-        "collection_Q7Rc3m": {
-          "type": "collection",
-          "settings": {
-            "collection": "willy-chavarria",
-            "products_count": 8,
-            "title": "WILLY CHAVARRIA",
-            "link_url": "shopify://collections/willy-chavarria",
-            "link_text": "view all"
-          }
         }
       },
       "block_order": [
-        "collection_NDmmGJ",
-        "collection_YYX6wA",
-        "collection_QPJnbw",
-        "collection_Q7Rc3m"
+        "collection_MCVUaY",
+        "collection_TTiYmf",
+        "collection_3xEBwR"
       ],
       "custom_css": [],
       "settings": {
@@ -670,172 +587,8 @@
         "subheading": ""
       }
     },
-    "slideshow_peyCaU": {
-      "type": "slideshow",
-      "blocks": {
-        "image_HHTXtb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/acnetank.jpg",
-            "mobile_image": "shopify://shop_images/acnetank.jpg",
-            "subheading": "",
-            "subheading_size": 12,
-            "title": "",
-            "title_size": 32,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 33,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_HHTXtb"
-      ],
-      "disabled": true,
-      "name": "t:sections.slideshow.presets.slideshow.name",
-      "settings": {
-        "allow_transparent_header": true,
-        "show_next_section_button": true,
-        "media_size": "auto",
-        "show_initial_transition": false,
-        "autoplay": true,
-        "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
     "blocks_twxA67": {
       "type": "_blocks",
-      "name": "Spacer",
-      "settings": {}
-    },
-    "featured_product_Arb4DN": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor_gBRKXx": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title_XzzNQD": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h3"
-          }
-        },
-        "badges_HzixcH": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_zMTrmb": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_WPwKXn": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-            "show_empty": true,
-            "rating_mode": "rating"
-          }
-        },
-        "payment_terms_L7WVEb": {
-          "type": "payment_terms",
-          "disabled": true,
-          "settings": {}
-        },
-        "separator_6yJDmn": {
-          "type": "separator",
-          "disabled": true,
-          "settings": {}
-        },
-        "description_NkxtEx": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker_aVL3aD": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_rdmp4D": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
-        "buy_buttons_CfYf8Q": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "vendor_gBRKXx",
-        "title_XzzNQD",
-        "badges_HzixcH",
-        "price_zMTrmb",
-        "rating_WPwKXn",
-        "payment_terms_L7WVEb",
-        "separator_6yJDmn",
-        "description_NkxtEx",
-        "variant_picker_aVL3aD",
-        "quantity_selector_rdmp4D",
-        "buy_buttons_CfYf8Q"
-      ],
-      "disabled": true,
-      "name": "t:sections.featured_product.presets.featured_product.name",
-      "settings": {
-        "color_scheme": "",
-        "product": "",
-        "separate_section_with_border": true,
-        "container_size": "lg",
-        "product_info_size": 40,
-        "center_basic_info": true,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
-        "desktop_media_grid_gap": 30,
-        "mobile_controls": "dots",
-        "enable_media_autoplay": false,
-        "enable_video_looping": true,
-        "enable_image_zoom": false,
-        "max_image_zoom_level": 2.5,
-        "subheading": "",
-        "title": "A ma maniére x new era",
-        "content": ""
-      }
-    },
-    "blocks_xhmELd": {
-      "type": "_blocks",
-      "disabled": true,
       "name": "Spacer",
       "settings": {}
     },
@@ -1012,21 +765,18 @@
   },
   "order": [
     "slideshow_QGYQ6e",
+    "featureed_image_and_products_DcwRQX",
     "media_grid_tM6W3f",
     "media_grid_bjemYk",
-    "media_grid_WDX4Mw",
     "176075966993f87866",
-    "featureed_image_and_products_DcwRQX",
     "blocks_zLJRwf",
-    "media_grid_VqFRV4",
-    "media_grid_38Mmew",
     "featured_collections_EFnetB",
-    "image_with_text_PtnpPp",
-    "featured_collections_WMah7x",
-    "slideshow_peyCaU",
-    "blocks_twxA67",
-    "featured_product_Arb4DN",
+    "media_grid_38Mmew",
     "blocks_xhmELd",
+    "featured_collections_WMah7x",
+    "image_with_text_PtnpPp",
+    "featured_collections_KWmgFV",
+    "blocks_twxA67",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
