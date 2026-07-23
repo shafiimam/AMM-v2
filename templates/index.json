@@ -434,6 +434,55 @@
       "name": "Spacer",
       "settings": {}
     },
+    "image_with_text_PtnpPp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LCyXbt": {
+          "type": "heading",
+          "settings": {
+            "text": "SECND SELF",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_a4VtgE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Rooted in the legacy of Americana sportswear, SECND SLF blends heritage design with forward-thinking craftsmanship. Every collection revisits iconic eras and cultural moments, reimagined for today.</p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_yxfiRY": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Explore the Collection",
+            "url": "shopify://collections/secndself",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LCyXbt",
+        "richtext_a4VtgE",
+        "button_yxfiRY"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/snd.jpg",
+        "video_autoplay": false,
+        "video_loop": false,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
+    },
     "featured_collections_WMah7x": {
       "type": "featured-collections",
       "blocks": {
@@ -484,55 +533,6 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 0.9,
         "subheading": ""
-      }
-    },
-    "image_with_text_PtnpPp": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LCyXbt": {
-          "type": "heading",
-          "settings": {
-            "text": "SECND SELF",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_a4VtgE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Rooted in the legacy of Americana sportswear, SECND SLF blends heritage design with forward-thinking craftsmanship. Every collection revisits iconic eras and cultural moments, reimagined for today.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_yxfiRY": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Explore the Collection",
-            "url": "shopify://collections/secndself",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_LCyXbt",
-        "richtext_a4VtgE",
-        "button_yxfiRY"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/snd.jpg",
-        "video_autoplay": false,
-        "video_loop": false,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": false,
-        "image_position": "start",
-        "content_width": "lg",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "featured_collections_KWmgFV": {
@@ -773,9 +773,9 @@
     "featured_collections_EFnetB",
     "media_grid_38Mmew",
     "blocks_xhmELd",
-    "featured_collections_WMah7x",
-    "image_with_text_PtnpPp",
     "featured_collections_KWmgFV",
+    "image_with_text_PtnpPp",
+    "featured_collections_WMah7x",
     "blocks_twxA67",
     "176076770152fa2223",
     "blog_posts_XjJCVj",
