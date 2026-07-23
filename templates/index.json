@@ -204,8 +204,8 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/cream2.jpg",
-            "column_count": "4",
+            "image": "shopify://shop_images/FA26_Lifestyle_Souvenir_Oatmeal_LXOldSkool36_VN000E8V2N1_0361.jpg",
+            "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h1",
@@ -222,14 +222,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-            "image": "shopify://shop_images/amm_98525da4-80cb-4e01-92b9-a4e57b207bbd.jpg",
-            "column_count": "8",
+            "image": "shopify://shop_images/FA26_Lifestyle_Souvenir_Faded_Black_LXOldSkool36_VN000E8VEMV_0251.jpg",
+            "column_count": "6",
             "row_count": 2,
-            "title": "<strong>do not duplicate bw mundial world cup </strong>",
+            "title": "<strong>VANS SOUVENIR PACK </strong>",
             "heading_tag": "h1",
             "content": "",
-            "link_text": "shop now",
-            "link_url": "shopify://collections/do-not-duplicate",
+            "link_text": "shop noW",
+            "link_url": "shopify://collections/vans",
             "link_style": "solid",
             "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
@@ -434,6 +434,58 @@
       "name": "Spacer",
       "settings": {}
     },
+    "featured_collections_KWmgFV": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_MCVUaY": {
+          "type": "collection",
+          "settings": {
+            "collection": "adidas",
+            "products_count": 8,
+            "title": "SP5DER",
+            "link_url": "shopify://collections/adidas",
+            "link_text": "View all"
+          }
+        },
+        "collection_TTiYmf": {
+          "type": "collection",
+          "settings": {
+            "collection": "sacai",
+            "products_count": 8,
+            "title": "SACAI",
+            "link_url": "shopify://collections/sacai",
+            "link_text": "View all"
+          }
+        },
+        "collection_3xEBwR": {
+          "type": "collection",
+          "settings": {
+            "collection": "human-made",
+            "products_count": 8,
+            "title": "Human made",
+            "link_url": "shopify://collections/human-made",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_MCVUaY",
+        "collection_TTiYmf",
+        "collection_3xEBwR"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.6,
+        "vertical_spacing_factor": 0.9,
+        "subheading": ""
+      }
+    },
     "image_with_text_PtnpPp": {
       "type": "image-with-text",
       "blocks": {
@@ -521,58 +573,6 @@
         "collection_YYX6wA",
         "collection_QPJnbw",
         "collection_Q7Rc3m"
-      ],
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.6,
-        "vertical_spacing_factor": 0.9,
-        "subheading": ""
-      }
-    },
-    "featured_collections_KWmgFV": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_MCVUaY": {
-          "type": "collection",
-          "settings": {
-            "collection": "adidas",
-            "products_count": 8,
-            "title": "SP5DER",
-            "link_url": "shopify://collections/adidas",
-            "link_text": "View all"
-          }
-        },
-        "collection_TTiYmf": {
-          "type": "collection",
-          "settings": {
-            "collection": "sacai",
-            "products_count": 8,
-            "title": "SACAI",
-            "link_url": "shopify://collections/sacai",
-            "link_text": "View all"
-          }
-        },
-        "collection_3xEBwR": {
-          "type": "collection",
-          "settings": {
-            "collection": "human-made",
-            "products_count": 8,
-            "title": "Human made",
-            "link_url": "shopify://collections/human-made",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_MCVUaY",
-        "collection_TTiYmf",
-        "collection_3xEBwR"
       ],
       "custom_css": [],
       "settings": {
