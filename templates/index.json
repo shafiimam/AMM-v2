@@ -15,6 +15,7 @@
         "image_7h8KXh": {
           "type": "image",
           "name": "TWG REJUVEN8",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/splatter1.jpg",
             "mobile_image": "shopify://shop_images/splatter2.jpg",
