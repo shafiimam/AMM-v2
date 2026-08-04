@@ -27,13 +27,6 @@
             "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $250</strong>"
           }
         },
-        "message_cKYzUL": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>DISCOVER </strong><a href=\"/collections/new-arrivals\" title=\"NEW ARRIVALS\"><strong>20% OFF SELECT STYLES</strong></a><strong> NOW UNTIL APRIL 19</strong>"
-          }
-        },
         "message_LyBJxq": {
           "type": "message",
           "settings": {
@@ -44,7 +37,6 @@
       "block_order": [
         "message_e49XGa",
         "message-1",
-        "message_cKYzUL",
         "message_LyBJxq"
       ],
       "custom_css": [
@@ -106,60 +98,14 @@
         },
         "release_tw94g8": {
           "type": "release",
-          "settings": {
-            "release_title": "6.5",
-            "release_image": "shopify://shop_images/AMMXPEGASUSWHT-1.jpg",
-            "product_title": "A MA MANIÉRE X NIKE PEGASUS PREMIUM SP \"SUMMIT WHITE & METALLIC SILVER\"",
-            "product_vendor": "",
-            "product_price": "$210",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/a-ma-maniere-x-nike-pegasus-premium-sp-summit-whitemetallic-silver"
-          }
-        },
-        "release_egU6UA": {
-          "type": "release",
-          "settings": {
-            "release_title": "6.5",
-            "release_image": "shopify://shop_images/AMMXPEGASUSBLK-1.jpg",
-            "product_title": "A MA MANIÉRE X NIKE PEGASUS PREMIUM SP \"BLACK & BURGUNDY CRUSH\"",
-            "product_vendor": "",
-            "product_price": "$210",
-            "release_link": "https://apbstore.runfair.com/en-US/us/a-ma-maniere-x-nike-pegasus-premium-sp-black-and-burgundy-crush"
-          }
-        },
-        "release_DjJNYX": {
-          "type": "release",
           "disabled": true,
           "settings": {
-            "release_title": "5.23",
-            "release_image": "shopify://shop_images/AJ12BLOODLINE-1.jpg",
-            "product_title": "AIR JORDAN 12 RETRO \"BLOODLINE\"",
+            "release_title": "7.18",
+            "release_image": "shopify://shop_images/BADBUNNYXF50GHOSTPRINTDARKMARINE-1_05242352-5fb8-41fe-8642-9b9186546396.jpg",
+            "product_title": "ADIDAS BAD BUNNY F50 \"GHOST SPRINT\"",
             "product_vendor": "",
-            "product_price": "$215",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/air-jordan-12-retro-bloodline"
-          }
-        },
-        "release_KPd8WR": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "5.8",
-            "release_image": "shopify://shop_images/REJUVEN8JELLYMUSLIN-1.jpg",
-            "product_title": "WOMEN'S REJUVEN8 RUN OG \"JELLY PACK: MUSLIN & PALE IVORY\"",
-            "product_vendor": "",
-            "product_price": "$135",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/womens-rejuven8-run-og-jelly-pack-muslin-and-pale-ivory"
-          }
-        },
-        "release_nAhaJK": {
-          "type": "release",
-          "disabled": true,
-          "settings": {
-            "release_title": "5.8",
-            "release_image": "shopify://shop_images/AM95BBCOMETRED-1.jpg",
-            "product_title": "NIKE AIR MAX 95 BIG BUBBLE \"COMET RED\"",
-            "product_vendor": "",
-            "product_price": "$180",
-            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/nike-air-max-95-big-bubble-comet-red"
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-bad-bunny-f50-ghost-sprint"
           }
         }
       },
@@ -167,11 +113,7 @@
         "mega_menu_kbBhKp",
         "mega_menu_wJYUCr",
         "mega_menu_px7EJK",
-        "release_tw94g8",
-        "release_egU6UA",
-        "release_DjJNYX",
-        "release_KPd8WR",
-        "release_nAhaJK"
+        "release_tw94g8"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -199,7 +141,7 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
-        "show_releases": false
+        "show_releases": true
       }
     }
   },

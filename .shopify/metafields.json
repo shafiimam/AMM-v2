@@ -10,83 +10,23 @@
   "page": [],
   "product": [
     {
-      "key": "custom_product",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Product",
-      "description": "Use to indicate whether or not the unique product identifiers (UPIs) GTIN, MPN, and brand are available for your product.",
+      "key": "snowboard_length",
+      "namespace": "test_data",
+      "name": "Snowboard length",
+      "description": "The length of the snowboard",
       "type": {
-        "name": "boolean",
-        "category": "TRUE_FALSE"
+        "name": "dimension",
+        "category": "MEASUREMENT"
       }
     },
     {
-      "key": "rating",
-      "namespace": "reviews",
-      "name": "Product rating",
-      "description": "Average rating from customers",
+      "key": "binding_mount",
+      "namespace": "test_data",
+      "name": "Snowboard binding mount",
+      "description": "The type of binding mount used on the snowboard",
       "type": {
-        "name": "rating",
-        "category": "RATING"
-      }
-    },
-    {
-      "key": "rating_count",
-      "namespace": "reviews",
-      "name": "Product rating count",
-      "description": "Total number of ratings from customers",
-      "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
-      }
-    },
-    {
-      "key": "product_details",
-      "namespace": "custom",
-      "name": "Product Details",
-      "description": "short blurb for the product information ",
-      "type": {
-        "name": "rich_text_field",
+        "name": "single_line_text_field",
         "category": "TEXT"
-      }
-    },
-    {
-      "key": "how_to_use",
-      "namespace": "custom",
-      "name": "How to Use",
-      "description": "how to use the product/write product how-to instructions here",
-      "type": {
-        "name": "rich_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "product_ingredients",
-      "namespace": "custom",
-      "name": "Product Ingredients",
-      "description": "",
-      "type": {
-        "name": "rich_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "pre_order_timeline_disclaimer",
-      "namespace": "custom",
-      "name": "Pre-Order Timeline Disclaimer",
-      "description": "Pre-order: Expected to ship ______",
-      "type": {
-        "name": "rich_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "more_colors",
-      "namespace": "custom",
-      "name": "More Colors",
-      "description": "",
-      "type": {
-        "name": "list.product_reference",
-        "category": "REFERENCE"
       }
     },
     {
@@ -100,237 +40,16 @@
       }
     }
   ],
-  "variant": [
-    {
-      "key": "custom_label_4",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 4",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_label_3",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 3",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_label_2",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 2",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_label_1",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 1",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "custom_label_0",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Custom Label 0",
-      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "size_system",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Size System",
-      "description": "The country of the size system used by your product.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "size_type",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Size Type",
-      "description": "Your apparel product’s cut.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "mpn",
-      "namespace": "mm-google-shopping",
-      "name": "Google: MPN",
-      "description": "Your product’s Manufacturer Part Number (MPN).",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "gender",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Gender",
-      "description": "The gender for which your product is intended.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "condition",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Condition",
-      "description": "The condition of your product at time of sale.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "age_group",
-      "namespace": "mm-google-shopping",
-      "name": "Google: Age Group",
-      "description": "The demographic for which your product is intended.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "preorder_count",
-      "namespace": "restockrocket_production",
-      "name": "Preorder Count",
-      "description": "Current preorder count for the variant",
-      "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
-      }
-    },
-    {
-      "key": "preorder_max_count",
-      "namespace": "restockrocket_production",
-      "name": "Preorder Max Count",
-      "description": "Maximum preorder count allowed for the variant",
-      "type": {
-        "name": "number_integer",
-        "category": "NUMBER"
-      }
-    },
-    {
-      "key": "shipping_text",
-      "namespace": "restockrocket_production",
-      "name": "Shipping Text",
-      "description": "Custom shipping text for the variant",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "market_preorder_count",
-      "namespace": "restockrocket_production",
-      "name": "Market Preorder Count",
-      "description": "Market-specific preorder counts for the variant",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "market_preorder_max_count",
-      "namespace": "restockrocket_production",
-      "name": "Market Preorder Max Count",
-      "description": "Market-specific preorder max counts for the variant",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "market_shipping_text",
-      "namespace": "restockrocket_production",
-      "name": "Market Shipping Text",
-      "description": "Market-specific shipping text for the variant",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    }
-  ],
+  "variant": [],
   "shop": [
     {
-      "key": "settings",
-      "namespace": "restockrocket_production",
-      "name": "Settings",
-      "description": "Settings for the app",
+      "key": "alpine_sports",
+      "namespace": "test_data",
+      "name": "Alpine sport types",
+      "description": "The set of alpine sports that this sport shop specializes in",
       "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "selling_plans",
-      "namespace": "restockrocket_production",
-      "name": "Selling Plans",
-      "description": "Settings and variant IDs for preorder offers",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "out_of_stock_variant_ids",
-      "namespace": "restockrocket_production",
-      "name": "Out of Stock Variant IDs",
-      "description": "List of variant IDs that are currently out of stock",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "in_stock_variant_ids",
-      "namespace": "restockrocket_production",
-      "name": "In Stock Variant IDs",
-      "description": "List of variant IDs that are currently in stock",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "preorder_variant_ids",
-      "namespace": "restockrocket_production",
-      "name": "Preorder Variant IDs",
-      "description": "List of variant IDs that are available for preorder",
-      "type": {
-        "name": "json",
-        "category": "JSON"
-      }
-    },
-    {
-      "key": "freegifts_custom_data",
-      "namespace": "secomapp",
-      "name": "BOGOS custom_data (Do not edit)",
-      "description": null,
-      "type": {
-        "name": "json",
-        "category": "JSON"
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
       }
     }
   ]
