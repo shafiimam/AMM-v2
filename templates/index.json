@@ -304,6 +304,64 @@
         "image_pNRaUH",
         "image_kabC3n"
       ],
+      "disabled": true,
+      "name": "mundial 7/16",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 450,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_YiHh9b": {
+      "type": "media-grid",
+      "blocks": {
+        "image_JxwcxA": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/jaetipsamm1.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "<h1><strong>STARTED FROM THE SOIL</strong></h1>",
+            "link_text": "",
+            "link_url": "shopify://collections/new-era",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hU9RQx": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/jaetipsamm.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "<strong>jae tips x Maniére</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop noW",
+            "link_url": "shopify://collections/new-era",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_JxwcxA",
+        "image_hU9RQx"
+      ],
       "name": "mundial 7/16",
       "settings": {
         "color_scheme": "",
@@ -830,6 +888,7 @@
     "slideshow_QGYQ6e",
     "featureed_image_and_products_DcwRQX",
     "media_grid_tM6W3f",
+    "media_grid_YiHh9b",
     "media_grid_bjemYk",
     "176075966993f87866",
     "blocks_zLJRwf",
