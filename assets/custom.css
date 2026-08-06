@@ -324,7 +324,7 @@ variant-sku {
   cursor: pointer;
   position: relative;
 }
-.copy-to-clip .tooltip{
+.copy-to-clip .tooltip {
   position: absolute;
   width: max-content;
   font-size: 12px;
@@ -336,7 +336,7 @@ variant-sku {
   opacity: 0;
   transition: opacity 0.1s ease-in-out;
 }
-.copy-to-clip:hover .tooltip{
+.copy-to-clip:hover .tooltip {
   opacity: 1;
 }
 .copy-success-popup {
@@ -529,7 +529,7 @@ h1#cae-heading {
   }
 }
 
-@media screen  and (display-mode: standalone) and (orientation: landscape) {
+@media screen and (display-mode: standalone) and (orientation: landscape) {
   .product-gallery__media > * {
     max-height: 70vh;
     object-fit: contain;
@@ -546,28 +546,28 @@ h1#cae-heading {
   font-family: var(--text-font-family);
 }
 .locksmith-email-container.container.page-width {
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 input#locksmith_email {
-    border: 1px solid #000;
+  border: 1px solid #000;
 }
 
 button#locksmith_email_submit {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .ryzo-upload-options-modal,
-.ryzo-modal-container, 
-.ryzo-upload-area.has-image, 
-.ryzo-cropper-container, 
+.ryzo-modal-container,
+.ryzo-upload-area.has-image,
+.ryzo-cropper-container,
 .ryzo-demo-image-item,
 .ryzo-text-product-card,
 .ryzo-size-swatch,
 .ryzo-size-badge,
-img.ryzo-product-image  {
-  border-radius: 0 !important; 
+img.ryzo-product-image {
+  border-radius: 0 !important;
 }
 
 .ryzo-wishlist-button {
@@ -576,24 +576,24 @@ img.ryzo-product-image  {
 .ryzo-search-icon {
   top: 10px !important;
 }
-.ryzo-search-icon:after{
+.ryzo-search-icon:after {
   display: none;
 }
-.ryzo-text-product-card{
+.ryzo-text-product-card {
   box-shadow: none !important;
-  border: 1px solid #E8E8E8 !important;
+  border: 1px solid #e8e8e8 !important;
 }
-.ryzo-text-product-card:hover{
+.ryzo-text-product-card:hover {
   box-shadow: none !important;
   transform: none !important;
 }
 .ryzo-col-3 {
-  width: calc(100%/ 3 - 10px);
+  width: calc(100% / 3 - 10px);
   height: 100%;
 }
-@media screen and (max-width: 768px){
-  .ryzo-col-3{
-    width: calc(100%/ 2 - 10px);
+@media screen and (max-width: 768px) {
+  .ryzo-col-3 {
+    width: calc(100% / 2 - 10px);
   }
 }
 .ryzo-row {
@@ -619,7 +619,7 @@ img.ryzo-product-image  {
   font-weight: normal !important;
 }
 
-.globo-form-app .message.success{
+.globo-form-app .message.success {
   background: #fff !important;
 }
 /* ==========================================================================
@@ -634,7 +634,14 @@ img.ryzo-product-image  {
 }
 
 /* Inputs in theme.css set `outline: none` — give them a clear focus indicator back */
-:is(.input, .textarea, .select, .header-search__input, .quantity-selector__input, .input-prefix > .field):focus-visible {
+:is(
+  .input,
+  .textarea,
+  .select,
+  .header-search__input,
+  .quantity-selector__input,
+  .input-prefix > .field
+):focus-visible {
   outline: 2px solid rgb(var(--text-color, 0 0 0));
   outline-offset: 0;
   border-color: rgb(var(--text-color, 0 0 0));
@@ -645,4 +652,35 @@ img.ryzo-product-image  {
 .dot-checkbox:focus-visible ~ label {
   outline: 2px solid rgb(var(--text-color, 0 0 0));
   outline-offset: 2px;
+}
+
+shopify-account {
+  --shopify-account-avatar-size: 24px !important;
+  --shopify-account-signed-in-avatar-size: 24px !important;
+  --shopify-account-signed-in-avatar-color-background: #1c1c1c !important;
+  --shopify-account-signed-in-avatar-color-text: #ffffff !important;
+  --shopify-account-color-accent: #1c1c1c !important;
+  --shopify-account-color-accent-hover: #3d3d3d !important;
+  --shopify-account-color-accent-text: #ffffff !important;
+  --shopify-account-color-background: #1c1c1c !important;
+  --shopify-account-color-background-subdued: #292929 !important;
+  --shopify-account-color-border: #4a4a4a !important;
+  --shopify-account-color-card-background: #292929 !important;
+  --shopify-account-color-card-text: #ffffff !important;
+  --shopify-account-color-control-background: #ffffff !important;
+  --shopify-account-color-control-text: #1c1c1c !important;
+  --shopify-account-color-shadow: #000000 !important;
+  --shopify-account-color-text: #ffffff !important;
+  --shopify-account-color-text-subdued: #b8b8b8 !important;
+  --shopify-account-font-body: var(--text-font-family) !important;
+  --shopify-account-font-body-transform: none !important;
+  --shopify-account-font-body-weight: 400 !important;
+  --shopify-account-font-heading: var(--heading-font-family) !important;
+  --shopify-account-font-heading-transform: uppercase !important;
+  --shopify-account-font-heading-weight: 400 !important;
+  --shopify-account-radius-base: 0 !important;
+  --shopify-account-radius-button: 0 !important;
+  --shopify-account-radius-button-small: 0 !important;
+  --shopify-account-radius-dialog: 0 !important;
+  --shopify-account-radius-input: 0 !important;
 }
