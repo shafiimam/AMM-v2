@@ -215,6 +215,64 @@
         "controls_color": "#ffffff"
       }
     },
+    "media_grid_tM6W3f": {
+      "type": "media-grid",
+      "blocks": {
+        "image_hFPkyC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/DSC03679_DC.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/do-not-duplicate",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kabC3n": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+            "image": "shopify://shop_images/a_ma_af1_914284cf-90f0-4e56-9037-7152b45a582b.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "<strong>A MA MANIÉRE AIR FORCE 1</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop noW",
+            "link_url": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/a-ma-maniere-w-y-w-s-air-force-1-white-white",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_hFPkyC",
+        "image_kabC3n"
+      ],
+      "disabled": true,
+      "name": "AMM AF1",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 450,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "featureed_image_and_products_DcwRQX": {
       "type": "featureed-image-and-products",
       "blocks": {
@@ -258,64 +316,6 @@
         "image_description": "<p>From destination weddings to rooftop evenings, discover a curated selection of elevated summer essentials designed for every occasion. Tailored silhouettes, refined textures, and effortless layers made to move with the season.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/summer-edit"
-      }
-    },
-    "media_grid_tM6W3f": {
-      "type": "media-grid",
-      "blocks": {
-        "image_pNRaUH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/amm_98525da4-80cb-4e01-92b9-a4e57b207bbd.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_kabC3n": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-            "image": "shopify://shop_images/cream2.jpg",
-            "column_count": "6",
-            "row_count": 2,
-            "title": "<strong>do not duplicate bw mundial</strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "shop noW",
-            "link_url": "shopify://collections/do-not-duplicate",
-            "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_pNRaUH",
-        "image_kabC3n"
-      ],
-      "disabled": true,
-      "name": "mundial 7/16",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "desktop_row_height": 450,
-        "mobile_row_height": 420,
-        "section_width": "full",
-        "spacing": "xs",
-        "subheading": "",
-        "title": "",
-        "content": ""
       }
     },
     "media_grid_YiHh9b": {
@@ -886,8 +886,8 @@
   },
   "order": [
     "slideshow_QGYQ6e",
-    "featureed_image_and_products_DcwRQX",
     "media_grid_tM6W3f",
+    "featureed_image_and_products_DcwRQX",
     "media_grid_YiHh9b",
     "media_grid_bjemYk",
     "176075966993f87866",
