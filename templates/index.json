@@ -12,9 +12,38 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "video_agDWjw": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/PG GQ 3.mov",
+            "allow_sound": true,
+            "subheading": "Tell your story",
+            "subheading_size": 12,
+            "title": "Video slide",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "image_KqHhpy": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/AmaAf1.jpg",
             "mobile_image": "shopify://shop_images/DSC04267_DC_1.jpg",
@@ -26,7 +55,7 @@
             "desktop_text_position": "sm:place-self-end sm:text-end",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "",
+            "button_1_link": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/a-ma-maniere-w-y-w-s-air-force-1-white-white",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -134,36 +163,6 @@
             "gradient_overlay": ""
           }
         },
-        "image_kHDbJQ": {
-          "type": "image",
-          "name": "dnd july 4",
-          "settings": {
-            "image": "shopify://shop_images/ammdesktop4_e22829e6-b81e-4c65-9b8a-c5386137080d.jpg",
-            "mobile_image": "shopify://shop_images/9CL_2.jpg",
-            "subheading": "<p><strong>Available Now </strong></p>",
-            "subheading_size": 19,
-            "title": "<p><strong>DO NOT DUPLICATE fourth of july pack </strong></p>",
-            "title_size": 35,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "shop now",
-            "button_1_link": "shopify://collections/do-not-duplicate",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "video_Uhn43N": {
           "type": "video",
           "name": "edgewood video",
@@ -196,11 +195,11 @@
         }
       },
       "block_order": [
+        "video_agDWjw",
         "image_KqHhpy",
         "image_7h8KXh",
         "video_DXFVHb",
         "image_zN8RjD",
-        "image_kHDbJQ",
         "video_Uhn43N"
       ],
       "settings": {
