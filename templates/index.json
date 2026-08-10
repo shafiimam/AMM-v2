@@ -15,7 +15,6 @@
         "image_BPcgHY": {
           "type": "image",
           "name": "CODA ECHO POINTS",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pumacoda1.jpg",
             "mobile_image": "shopify://shop_images/pumacoda2.jpg",
@@ -27,10 +26,10 @@
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
             "button_1_text": "ENTER DRAW",
-            "button_1_link": "",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
             "button_1_style": "solid",
             "button_1_background": "#000000",
-            "button_1_text_color": "#FFFFFF",
+            "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
