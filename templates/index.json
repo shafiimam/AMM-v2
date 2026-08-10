@@ -12,24 +12,25 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "video_agDWjw": {
-          "type": "video",
+        "image_BPcgHY": {
+          "type": "image",
+          "name": "CODA ECHO POINTS",
           "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/PG GQ 3.mov",
-            "allow_sound": true,
-            "subheading": "Tell your story",
-            "subheading_size": 12,
-            "title": "Video slide",
-            "title_size": 32,
+            "image": "shopify://shop_images/pumacoda1.jpg",
+            "mobile_image": "shopify://shop_images/pumacoda2.jpg",
+            "subheading": "<p><strong>THE WHITAKER GROUP & PUMA</strong></p>",
+            "subheading_size": 21,
+            "title": "<p><strong>SUEDE CODA \"ECHO POINTS\"</strong></p>",
+            "title_size": 33,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "",
+            "button_1_text": "ENTER DRAW",
             "button_1_link": "",
             "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
+            "button_1_background": "#000000",
+            "button_1_text_color": "#FFFFFF",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
@@ -78,9 +79,9 @@
           "settings": {
             "image": "shopify://shop_images/AmaAf1.jpg",
             "mobile_image": "shopify://shop_images/DSC04267_DC_1.jpg",
-            "subheading": "<p>AVAILABLE NOW</p>",
+            "subheading": "<p><strong>AVAILABLE NOW</strong></p>",
             "subheading_size": 21,
-            "title": "<p>A MA MANIÉRE WHITE/WHITE AF1</p>",
+            "title": "<p><strong>A MA MANIÉRE WHITE/WHITE AF1</strong></p>",
             "title_size": 32,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end sm:text-end",
@@ -195,7 +196,7 @@
         }
       },
       "block_order": [
-        "video_agDWjw",
+        "image_BPcgHY",
         "video_DXFVHb",
         "image_KqHhpy",
         "image_7h8KXh",
