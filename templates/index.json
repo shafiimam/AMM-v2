@@ -23,7 +23,7 @@
             "title": "<p><strong>SUEDE CODA \"ECHO POINTS\"</strong></p>",
             "title_size": 33,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "ENTER DRAW",
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
