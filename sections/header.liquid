@@ -254,23 +254,10 @@
         {% endif %}
         {%- if shop.customer_accounts_enabled -%}
           <li class="header__account-link sm-max:hidden">
-            <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}">
-              <span class="sr-only">{% if customer %}{{ 'header.general.account' | t }}{% else %}{{ 'header.general.login' | t }}{% endif %}</span>
-
-              {%- if section.settings.show_icons -%}
-                {%- render 'icon' with 'account', class: 'header__nav-icon' -%}
-              {%- else -%}
-                <span class="md:hidden">{%- render 'icon' with 'account', class: 'header__nav-icon' -%}</span>
-
-                <span class="{% if section.settings.menu_text_font == 'heading' %}h6{% endif %} link-faded md-max:hidden" aria-hidden="true">
-                  {%- if customer -%}
-                    {{- 'header.general.account' | t -}}
-                  {%- else -%}
-                    {{- 'header.general.login' | t -}}
-                  {%- endif -%}
-                </span>
-              {%- endif -%}
-            </a>
+            <shopify-account
+              menu="{{ section.settings.customer_account_menu | escape }}"
+              style="--shopify-account-color-accent: rgb({{ section.settings.color_scheme.settings.text_color.rgb }}); --shopify-account-color-background: rgb({{ section.settings.color_scheme.settings.background.rgb }}); --shopify-account-color-text: rgb({{ section.settings.color_scheme.settings.text_color.rgb }}); --shopify-account-avatar-size: 1.375rem; --shopify-account-font-body: var(--text-font-family); --shopify-account-font-heading: var(--heading-font-family);"
+            ></shopify-account>
           </li>
         {%- endif -%}
 
@@ -441,6 +428,12 @@
       "id": "enable_search",
       "label": "t:sections.header.enable_search",
       "default": true
+    },
+    {
+      "type": "link_list",
+      "id": "customer_account_menu",
+      "label": "Customer account menu",
+      "default": "customer-account-main-menu"
     },
     {
       "type": "header",

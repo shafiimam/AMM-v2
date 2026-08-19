@@ -87,15 +87,11 @@ therefore using a different structure for the Shadow DOM template
     {%- if shop.customer_accounts_enabled or show_country_selector or show_locale_selector -%}
       <div class="header-sidebar__footer">
         {%- if shop.customer_accounts_enabled -%}
-          <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="text-with-icon smallcaps sm:hidden">
-            {%- render 'icon' with 'account', width: 20 -%}
-            
-            {%- if customer -%}
-              {{- 'header.general.account' | t -}}
-            {%- else -%}
-              {{- 'header.general.login' | t -}}
-            {%- endif -%}
-          </a>
+          <shopify-account
+            class="header-sidebar__account sm:hidden"
+            menu="{{ section.settings.customer_account_menu | escape }}"
+            style="--shopify-account-color-accent: rgb({{ color_scheme.settings.text_color.rgb }}); --shopify-account-color-background: rgb({{ color_scheme.settings.background.rgb }}); --shopify-account-color-text: rgb({{ color_scheme.settings.text_color.rgb }}); --shopify-account-avatar-size: 1.25rem; --shopify-account-font-body: var(--text-font-family); --shopify-account-font-heading: var(--heading-font-family);"
+          ></shopify-account>
         {%- endif -%}
 
         {%- if show_country_selector or show_locale_selector -%}

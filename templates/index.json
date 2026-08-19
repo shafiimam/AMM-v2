@@ -12,25 +12,24 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
-        "image_7h8KXh": {
+        "image_BPcgHY": {
           "type": "image",
-          "name": "TWG REJUVEN8",
-          "disabled": true,
+          "name": "CODA ECHO POINTS",
           "settings": {
-            "image": "shopify://shop_images/splatter1.jpg",
-            "mobile_image": "shopify://shop_images/splatter2.jpg",
-            "subheading": "",
-            "subheading_size": 25,
-            "title": "<p>THE WHITAKER GROUP X NIKE REACTX REJUVEN8 \"SPLATTER PACK\"</p>",
-            "title_size": 29,
+            "image": "shopify://shop_images/pumacoda1.jpg",
+            "mobile_image": "shopify://shop_images/pumacoda2.jpg",
+            "subheading": "<p><strong>THE WHITAKER GROUP & PUMA</strong></p>",
+            "subheading_size": 21,
+            "title": "<p><strong>SUEDE CODA \"ECHO POINTS\"</strong></p>",
+            "title_size": 33,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "ENTER THE DRAW",
+            "button_1_text": "ENTER DRAW",
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
-            "button_1_style": "outline",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
+            "button_1_style": "solid",
+            "button_1_background": "#000000",
+            "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
@@ -60,6 +59,66 @@
             "button_1_text": "",
             "button_1_link": "",
             "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_KqHhpy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AmaAf1.jpg",
+            "mobile_image": "shopify://shop_images/DSC04267_DC_1.jpg",
+            "subheading": "<p><strong>AVAILABLE NOW</strong></p>",
+            "subheading_size": 21,
+            "title": "<p><strong>A MA MANIÉRE WHITE/WHITE AF1</strong></p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end sm:text-end",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/a-ma-maniere-w-y-w-s-air-force-1-white-white",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_7h8KXh": {
+          "type": "image",
+          "name": "TWG REJUVEN8",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/splatter1.jpg",
+            "mobile_image": "shopify://shop_images/splatter2.jpg",
+            "subheading": "",
+            "subheading_size": 25,
+            "title": "<p>THE WHITAKER GROUP X NIKE REACTX REJUVEN8 \"SPLATTER PACK\"</p>",
+            "title_size": 29,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "ENTER THE DRAW",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
+            "button_1_style": "outline",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
@@ -104,36 +163,6 @@
             "gradient_overlay": ""
           }
         },
-        "image_kHDbJQ": {
-          "type": "image",
-          "name": "dnd july 4",
-          "settings": {
-            "image": "shopify://shop_images/ammdesktop4_e22829e6-b81e-4c65-9b8a-c5386137080d.jpg",
-            "mobile_image": "shopify://shop_images/9CL_2.jpg",
-            "subheading": "<p><strong>Available Now </strong></p>",
-            "subheading_size": 19,
-            "title": "<p><strong>DO NOT DUPLICATE fourth of july pack </strong></p>",
-            "title_size": 35,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "shop now",
-            "button_1_link": "shopify://collections/do-not-duplicate",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "video_Uhn43N": {
           "type": "video",
           "name": "edgewood video",
@@ -166,10 +195,11 @@
         }
       },
       "block_order": [
-        "image_7h8KXh",
+        "image_BPcgHY",
         "video_DXFVHb",
+        "image_KqHhpy",
+        "image_7h8KXh",
         "image_zN8RjD",
-        "image_kHDbJQ",
         "video_Uhn43N"
       ],
       "settings": {
@@ -182,6 +212,63 @@
         "cycle_speed": 10,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "media_grid_tM6W3f": {
+      "type": "media-grid",
+      "blocks": {
+        "image_hFPkyC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/amaf1mobile5.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/a-ma-maniere-w-y-w-s-air-force-1-white-white",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kabC3n": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+            "image": "shopify://shop_images/a_ma_af1_914284cf-90f0-4e56-9037-7152b45a582b.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "<strong>A MA MANIÉRE AIR FORCE 1</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "shop noW",
+            "link_url": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/a-ma-maniere-w-y-w-s-air-force-1-white-white",
+            "link_style": "solid",
+            "text_position": "place-self-start-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_hFPkyC",
+        "image_kabC3n"
+      ],
+      "name": "AMM AF1",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 450,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "featureed_image_and_products_DcwRQX": {
@@ -229,39 +316,39 @@
         "image_cta_url": "shopify://collections/summer-edit"
       }
     },
-    "media_grid_tM6W3f": {
+    "media_grid_YiHh9b": {
       "type": "media-grid",
       "blocks": {
-        "image_pNRaUH": {
+        "image_JxwcxA": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/amm_98525da4-80cb-4e01-92b9-a4e57b207bbd.jpg",
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/jaetipsamm1.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
             "heading_tag": "h1",
-            "content": "",
+            "content": "<h1><strong>STARTED FROM THE SOIL</strong></h1>",
             "link_text": "",
-            "link_url": "shopify://collections/do-not-duplicate",
+            "link_url": "shopify://collections/new-era",
             "link_style": "solid",
             "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_kabC3n": {
+        "image_hU9RQx": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-            "image": "shopify://shop_images/cream2.jpg",
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/jaetipsamm.jpg",
             "column_count": "6",
             "row_count": 2,
-            "title": "<strong>do not duplicate bw mundial</strong>",
+            "title": "<strong>jae tips x Maniére</strong>",
             "heading_tag": "h1",
             "content": "",
             "link_text": "shop noW",
-            "link_url": "shopify://collections/do-not-duplicate",
+            "link_url": "shopify://collections/new-era",
             "link_style": "solid",
             "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
@@ -270,8 +357,8 @@
         }
       },
       "block_order": [
-        "image_pNRaUH",
-        "image_kabC3n"
+        "image_JxwcxA",
+        "image_hU9RQx"
       ],
       "name": "mundial 7/16",
       "settings": {
@@ -472,7 +559,7 @@
         "collection_MCVUaY": {
           "type": "collection",
           "settings": {
-            "collection": "adidas",
+            "collection": "sp5der",
             "products_count": 8,
             "title": "SP5DER",
             "link_url": "shopify://collections/adidas",
@@ -797,8 +884,9 @@
   },
   "order": [
     "slideshow_QGYQ6e",
-    "featureed_image_and_products_DcwRQX",
     "media_grid_tM6W3f",
+    "featureed_image_and_products_DcwRQX",
+    "media_grid_YiHh9b",
     "media_grid_bjemYk",
     "176075966993f87866",
     "blocks_zLJRwf",

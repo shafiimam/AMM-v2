@@ -1,0 +1,27 @@
+{
+  "name": "amm-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "shopify theme dev --store=a-ma-maniere.myshopify.com --port=9293",
+    "pull": "shopify theme pull --store=a-ma-maniere.myshopify.com",
+    "push": "shopify theme push --store=a-ma-maniere.myshopify.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafiimam/AMM-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shafiimam/AMM-v2/issues"
+  },
+  "homepage": "https://github.com/shafiimam/AMM-v2#readme",
+  "description": ""
+}
