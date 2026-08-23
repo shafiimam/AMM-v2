@@ -31,7 +31,7 @@
         "richtext_6GdLWF": {
           "type": "richtext",
           "settings": {
-            "content": "<h3></h3><h3>Join us as we welcome the future of The Whitaker Group. <br/><br/>An evening shaped by vision, intention, and culture.<br/><br/>Kindly confirm your attendance below.</h3><h3>May 21<br/>7pm est<br/>—<br/>479 Edgewood Ave SE<br/>Atlanta, Georgia</h3>"
+            "content": "<h3>An intimate supper club experience celebrating P Star Performance × Under Armour. Space is limited and attendance is by invitation only.</h3><h3>Join us for <strong>Maniére Noir: A Supper Club Experience</strong>, celebrating the launch of the P-Star Performance × Under Armour Collection.</h3><h4>Hosted by Maurice Kamara</h4>"
           }
         }
       },
@@ -69,7 +69,7 @@
         "powerful_form_builder_app_block_Qqt7Ga": {
           "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMxMjM1\"></div>"
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMxMjM2\"></div>"
           }
         }
       },
@@ -77,9 +77,9 @@
         "powerful_form_builder_app_block_Qqt7Ga"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
         "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false
       }
     }
