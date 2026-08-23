@@ -9,296 +9,48 @@
  */
 {
   "sections": {
-    "slideshow_ae6wLi": {
-      "type": "slideshow",
-      "blocks": {
-        "image_GiMHqy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/AMM-BEACH-A10_black_5dc69f1e-8ec2-4816-8304-d0d9094de383.jpg",
-            "mobile_image": "shopify://shop_images/AMM-BEACH-A10_black_5dc69f1e-8ec2-4816-8304-d0d9094de383.jpg",
-            "subheading": "",
-            "subheading_size": 12,
-            "title": "<p>A Ma Maniére Experiences </p>",
-            "title_size": 43,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 520,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 23,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        }
-      },
-      "block_order": [
-        "image_GiMHqy"
-      ],
-      "name": "t:sections.slideshow.presets.slideshow.name",
-      "settings": {
-        "allow_transparent_header": true,
-        "show_next_section_button": false,
-        "media_size": "sm",
-        "show_initial_transition": false,
-        "autoplay": false,
-        "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
-    "beach_location_banner_yVFgwJ": {
-      "type": "beach-location-banner",
-      "disabled": true,
-      "name": "Beach Location Banner",
-      "settings": {
-        "desktop_image": "shopify://shop_images/AMM-BEACH-A10_black.jpg",
-        "mobile_image": "shopify://shop_images/AMM-BEACH-A10_black_73fb0685-d960-44b3-baa1-d5669f5b3b4d.png",
-        "title": "a ma Maniére experiences",
-        "description": "",
-        "button_url": "",
-        "button_text": "Learn More"
-      }
-    },
-    "rich_text_EpBhqb": {
+    "rich_text_6hXNAi": {
       "type": "rich-text",
       "blocks": {
-        "heading_adnqV7": {
-          "type": "heading",
+        "image_FfBLGL": {
+          "type": "image",
           "settings": {
-            "text": "Built on Community. Accessed Through Connection.",
-            "heading_tag": "h1"
+            "image": "shopify://shop_images/amm-white-logo.png",
+            "width_mode": "custom",
+            "max_width": 130,
+            "mobile_max_width": 100
           }
         },
-        "richtext_WRFF7c": {
+        "richtext_Ai3pPY": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<h2>vision takes belief,</h2><h2>vision takes partnership</h2><h2>—</h2><h2>vision embraces risk,</h2><h2>vision fights against attack</h2><h2>—</h2><h2>vision takes patience</h2><h2>vision relies on accountability</h2><h2>—</h2><h2>thank you for believing</h2><h2>in our vision</h2><h2>—</h2><h2>welcome to the future of</h2><h2>the whitaker group</h2><h2>—</h2><h3>may 21</h3><h3>7pm est</h3><h2>—</h2><h3>479 edgewood ave se</h3><h3>atlanta, georgia</h3>"
+          }
+        },
+        "richtext_6GdLWF": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A Ma Maniere has always been about more than product. It's about perspective; our way of honoring culture through elevated experiences.<br/><br/>Our experiential spaces extend this philosophy beyond retail. AMM Lounge, AMM Eats, AMM Living, and AMM Beach exist as destinations where our community gathers, celebrates, and connects.<br/><br/>Access begins with an invitation. Know someone within our circle? That's your entry point.</p><p><br/>Initially, members experience AMM Lounge and AMM Eats through exclusive events thoughtfully curated moments that reflect our dedication to hospitality, culture, and community.<br/><br/>This is membership redefined: selective, intentional, and rooted in relationships.<br/><br/>Details forthcoming. Connection is prerequisite.</p>"
+            "content": "<h3></h3><h3>Join us as we welcome the future of The Whitaker Group. <br/><br/>An evening shaped by vision, intention, and culture.<br/><br/>Kindly confirm your attendance below.</h3><h3>May 21<br/>7pm est<br/>—<br/>479 Edgewood Ave SE<br/>Atlanta, Georgia</h3>"
           }
         }
       },
       "block_order": [
-        "heading_adnqV7",
-        "richtext_WRFF7c"
+        "image_FfBLGL",
+        "richtext_Ai3pPY",
+        "richtext_6GdLWF"
+      ],
+      "custom_css": [
+        "img {max-width: 45px; padding-bottom: 40px;}",
+        "h3 {letter-spacing: 1px;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "separate_section_with_border": false,
+        "content_width": "xs",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "image_with_text_qmhKYE": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_FtydCp": {
-          "type": "heading",
-          "settings": {
-            "text": "A MA MANIÉRE LIVING",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_3R37fL": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Luxury boutique residential concept blending hotel and consumer experiences, located at our Washington DC and Atlanta Flagship locations.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "richtext_fg6nN8": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1><strong>Learn More About Maniére Membership SOon </strong></h1>",
-            "text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "heading_FtydCp",
-        "richtext_3R37fL",
-        "richtext_fg6nN8"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/amm_dc-1.jpg",
-        "mobile_image": "shopify://shop_images/amm_dc-1_15462d25-a8fd-47f1-b130-72110af3d447.jpg",
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
-      }
-    },
-    "media_grid_XbGawa": {
-      "type": "media-grid",
-      "blocks": {
-        "image_wUrm3M": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/amm_product-5_14a4b26a-74ae-4c24-84b6-ed77f17f315f.jpg",
-            "column_count": "4",
-            "row_count": 3,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_YKgPXp": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC05614.jpg",
-            "column_count": "4",
-            "row_count": 3,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Wfg7iY": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC01511.jpg",
-            "column_count": "4",
-            "row_count": 3,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_wUrm3M",
-        "image_YKgPXp",
-        "image_Wfg7iY"
-      ],
-      "name": "chi town",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 260,
-        "mobile_row_height": 180,
-        "section_width": "full",
-        "spacing": "sm",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
-    "media_grid_PmdwRe": {
-      "type": "media-grid",
-      "blocks": {
-        "image_MayL7Y": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/amm_dc-4_94881b01-673e-4b9f-b2ac-69407452fa97.jpg",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_y6Ye8y": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/amm_bathroom_1-4.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_ncRPbB": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC04829.jpg",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_MayL7Y",
-        "image_y6Ye8y",
-        "image_ncRPbB"
-      ],
-      "name": "DC",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 200,
-        "mobile_row_height": 180,
-        "section_width": "full",
-        "spacing": "sm",
-        "subheading": "",
-        "title": "",
-        "content": ""
       }
     },
     "main": {
@@ -310,15 +62,31 @@
         "show_title": true,
         "page_width": "lg"
       }
+    },
+    "17874842228a424768": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_Qqt7Ga": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_Qqt7Ga"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
-    "slideshow_ae6wLi",
-    "beach_location_banner_yVFgwJ",
-    "rich_text_EpBhqb",
-    "image_with_text_qmhKYE",
-    "media_grid_XbGawa",
-    "media_grid_PmdwRe",
-    "main"
+    "rich_text_6hXNAi",
+    "main",
+    "17874842228a424768"
   ]
 }
