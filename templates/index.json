@@ -15,6 +15,7 @@
         "image_7h8KXh": {
           "type": "image",
           "name": "DND BEACH HOUSE",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_5524.jpg",
             "mobile_image": "shopify://shop_images/AMM_Beach_House_HOMEPAGE_MOBILE_1200x1600_NO_SPACING.jpg",
@@ -29,7 +30,7 @@
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
             "button_1_style": "outline",
             "button_1_background": "#000000",
-            "button_1_text_color": "#FFFFFF",
+            "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
