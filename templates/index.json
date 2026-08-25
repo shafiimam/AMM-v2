@@ -16,7 +16,8 @@
           "type": "image",
           "name": "DND BEACH HOUSE",
           "settings": {
-            "image": "shopify://shop_images/467C858E-38A4-4895-BD1C-873D10929D67.png",
+            "image": "shopify://shop_images/4F0D420E-AD18-4392-B738-308FBEC63C84.png",
+            "mobile_image": "shopify://shop_images/beachhouse.jpg",
             "subheading": "<p><strong>The adidas DND Beach House Collection arrives August 28.</strong></p>",
             "subheading_size": 15,
             "title": "<p><strong>WELCOME TO THE BEACH HOUSE</strong></p>",
@@ -36,7 +37,7 @@
             "button_2_text_color": "#000000",
             "background": "",
             "background_opacity": 0,
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 0), rgba(4, 4, 4, 0.65) 100%)"
           }
