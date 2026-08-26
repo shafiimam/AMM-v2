@@ -218,7 +218,6 @@
       "blocks": {
         "ai_gen_block_31e068c_rN3K7f": {
           "type": "ai_gen_block_31e068c",
-          "disabled": true,
           "settings": {
             "layout": "media_left",
             "vertical_alignment": "center",
@@ -947,6 +946,44 @@
         "text_color": "",
         "text_alignment": "center"
       }
+    },
+    "1787761806f9e4f580": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_49f0a66_TJRtGr": {
+          "type": "ai_gen_block_49f0a66",
+          "settings": {
+            "video": "shopify://files/videos/UA_GUNNA_FINAL_LQ-SOCIAL.mp4",
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_muted": true,
+            "video_background_color": "#000000",
+            "image": "shopify://shop_images/gunna1.jpg",
+            "show_text_overlay": true,
+            "heading": "Your Heading",
+            "description": "<p>Add your description text here</p>",
+            "heading_size": 40,
+            "description_size": 16,
+            "text_color": "#ffffff",
+            "text_spacing": 15,
+            "text_padding": 40,
+            "text_vertical_alignment": "center",
+            "text_horizontal_alignment": "center",
+            "text_align": "center",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 0.3,
+            "desktop_width_percent": 100,
+            "gap": 20,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_49f0a66_TJRtGr"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -969,6 +1006,7 @@
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",
-    "text_with_icons_nKDVet"
+    "text_with_icons_nKDVet",
+    "1787761806f9e4f580"
   ]
 }
