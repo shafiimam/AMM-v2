@@ -75,6 +75,7 @@
         "video_DXFVHb": {
           "type": "video",
           "name": "PUMA x CODA",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/1PUMACODA.mov",
             "mobile_video": "shopify://files/videos/1PUMACODA.mov",
@@ -135,6 +136,7 @@
         "image_zN8RjD": {
           "type": "image",
           "name": "sp5der",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Originals_FW26_Sp5der_Drop2_HeroStills_01_16x9_low.jpg",
             "mobile_image": "shopify://shop_images/Originals_FW26_Sp5der_Drop2_HeroStills_01_3x4_low.jpg",
@@ -213,72 +215,55 @@
         "controls_color": "#ffffff"
       }
     },
-    "1787754121d4193385": {
+    "178777566323e3268e": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_31e068c_rN3K7f": {
-          "type": "ai_gen_block_31e068c",
-          "disabled": true,
+        "ai_gen_block_7e9900a_GTER4R": {
+          "type": "ai_gen_block_7e9900a",
+          "name": "P-STAR X UA",
           "settings": {
-            "layout": "media_left",
-            "vertical_alignment": "center",
-            "container_width": 1200,
-            "section_padding": 10,
-            "content_gap": 20,
-            "media_gap": 15,
-            "media_border_radius": 0,
-            "video_file": "shopify://files/videos/UA_GUNNA_FINAL_LQ-SOCIAL.mp4",
+            "video": "shopify://files/videos/UA_GUNNA_FINAL_LQ-SOCIAL.mp4",
             "autoplay": true,
-            "mute": true,
             "loop": true,
-            "show_controls": true,
+            "muted": false,
+            "controls": false,
             "image": "shopify://shop_images/gunna1.jpg",
-            "overlay_heading": "",
-            "overlay_text": "",
-            "overlay_vertical_position": "center",
-            "overlay_horizontal_position": "center",
-            "overlay_padding": 30,
-            "overlay_text_gap": 10,
-            "overlay_background": "",
-            "overlay_heading_size_mobile": 24,
-            "overlay_heading_size_desktop": 32,
-            "overlay_text_size": 14,
-            "overlay_heading_color": "#ffffff",
-            "overlay_text_color": "#ffffff",
-            "subheading": "",
-            "heading": "Premium content",
-            "description": "<p>Share your brand story, product details, or campaign message with rich media content that engages your audience.</p>",
-            "text_gap": 20,
-            "text_padding": 40,
-            "button_label": "",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": "",
-            "heading_font": "roboto_n4",
-            "heading_size_mobile": 32,
-            "heading_size_desktop": 48,
-            "heading_text_transform": "uppercase",
-            "heading_letter_spacing": 0,
-            "text_font": "roboto_n4",
-            "subheading_size": 14,
+            "show_text_overlay": true,
+            "heading": "GUNNA P-STAR x UNDER ARMOUR COLLECTION",
+            "description": "",
+            "heading_size": 32,
             "description_size": 16,
+            "heading_color": "#ffffff",
+            "description_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0.3)",
+            "text_alignment": "center",
+            "text_vertical_alignment": "flex-start",
+            "text_horizontal_alignment": "center",
+            "text_padding": 40,
+            "text_spacing": 15,
+            "button_text": "SHOP NOW",
+            "button_link": "",
+            "button_font_size": 16,
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 16,
             "button_border_radius": 0,
-            "button_text_transform": "uppercase",
-            "button_letter_spacing": 18,
-            "background_color": "#ffffff",
-            "heading_color": "#1c1c1c",
-            "text_color": "#1c1c1c",
-            "button_background": "#1c1c1c",
+            "button_spacing": 20,
+            "button_background_color": "#1c1c1c",
             "button_text_color": "#ffffff",
-            "button_hover_background": "#000000",
-            "button_hover_text_color": "#ffffff"
+            "button_hover_color": "#000000",
+            "desktop_width_percent": 100,
+            "gap": 0,
+            "gap_mobile": 16,
+            "border_radius": 0
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_31e068c_rN3K7f"
+        "ai_gen_block_7e9900a_GTER4R"
       ],
+      "disabled": true,
+      "name": "P-STAR X UA",
       "settings": {}
     },
     "media_grid_tM6W3f": {
@@ -947,49 +932,11 @@
         "text_color": "",
         "text_alignment": "center"
       }
-    },
-    "1787761806f9e4f580": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_49f0a66_TJRtGr": {
-          "type": "ai_gen_block_49f0a66",
-          "settings": {
-            "video": "shopify://files/videos/UA_GUNNA_FINAL_LQ-SOCIAL.mp4",
-            "video_autoplay": true,
-            "video_loop": true,
-            "video_muted": true,
-            "video_background_color": "#000000",
-            "image": "shopify://shop_images/gunna1.jpg",
-            "show_text_overlay": true,
-            "heading": "Your Heading",
-            "description": "<p>Add your description text here</p>",
-            "heading_size": 40,
-            "description_size": 16,
-            "text_color": "#ffffff",
-            "text_spacing": 15,
-            "text_padding": 40,
-            "text_vertical_alignment": "center",
-            "text_horizontal_alignment": "center",
-            "text_align": "center",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 0.3,
-            "desktop_width_percent": 100,
-            "gap": 20,
-            "border_radius": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_49f0a66_TJRtGr"
-      ],
-      "settings": {}
     }
   },
   "order": [
     "slideshow_QGYQ6e",
-    "1787754121d4193385",
+    "178777566323e3268e",
     "media_grid_tM6W3f",
     "featureed_image_and_products_DcwRQX",
     "media_grid_YiHh9b",
@@ -1007,7 +954,6 @@
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",
-    "text_with_icons_nKDVet",
-    "1787761806f9e4f580"
+    "text_with_icons_nKDVet"
   ]
 }
