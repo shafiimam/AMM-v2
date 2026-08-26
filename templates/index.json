@@ -213,6 +213,72 @@
         "controls_color": "#ffffff"
       }
     },
+    "1787754121d4193385": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_31e068c_rN3K7f": {
+          "type": "ai_gen_block_31e068c",
+          "settings": {
+            "layout": "media_right",
+            "vertical_alignment": "center",
+            "container_width": 1200,
+            "section_padding": 60,
+            "content_gap": 60,
+            "media_gap": 15,
+            "media_border_radius": 0,
+            "video_file": "shopify://files/videos/UA_GUNNA_FINAL_LQ-SOCIAL.mp4",
+            "autoplay": true,
+            "mute": true,
+            "loop": true,
+            "show_controls": false,
+            "overlay_heading": "",
+            "overlay_text": "",
+            "overlay_vertical_position": "center",
+            "overlay_horizontal_position": "center",
+            "overlay_padding": 30,
+            "overlay_text_gap": 10,
+            "overlay_background": "",
+            "overlay_heading_size_mobile": 24,
+            "overlay_heading_size_desktop": 32,
+            "overlay_text_size": 14,
+            "overlay_heading_color": "#ffffff",
+            "overlay_text_color": "#ffffff",
+            "subheading": "",
+            "heading": "Premium content",
+            "description": "<p>Share your brand story, product details, or campaign message with rich media content that engages your audience.</p>",
+            "text_gap": 20,
+            "text_padding": 40,
+            "button_label": "",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "heading_font": "roboto_n4",
+            "heading_size_mobile": 32,
+            "heading_size_desktop": 48,
+            "heading_text_transform": "uppercase",
+            "heading_letter_spacing": 0,
+            "text_font": "roboto_n4",
+            "subheading_size": 14,
+            "description_size": 16,
+            "button_border_radius": 0,
+            "button_text_transform": "uppercase",
+            "button_letter_spacing": 18,
+            "background_color": "#ffffff",
+            "heading_color": "#1c1c1c",
+            "text_color": "#1c1c1c",
+            "button_background": "#1c1c1c",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#000000",
+            "button_hover_text_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_31e068c_rN3K7f"
+      ],
+      "settings": {}
+    },
     "media_grid_tM6W3f": {
       "type": "media-grid",
       "blocks": {
@@ -883,6 +949,7 @@
   },
   "order": [
     "slideshow_QGYQ6e",
+    "1787754121d4193385",
     "media_grid_tM6W3f",
     "featureed_image_and_products_DcwRQX",
     "media_grid_YiHh9b",
