@@ -226,7 +226,7 @@
             "autoplay": true,
             "loop": true,
             "muted": false,
-            "controls": false,
+            "controls": true,
             "image": "shopify://shop_images/gunna1.jpg",
             "show_text_overlay": true,
             "heading": "GUNNA P-STAR x UNDER ARMOUR COLLECTION",
@@ -235,14 +235,14 @@
             "description_size": 16,
             "heading_color": "#ffffff",
             "description_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0.3)",
+            "overlay_color": "#0000004d",
             "text_alignment": "center",
             "text_vertical_alignment": "flex-start",
             "text_horizontal_alignment": "center",
             "text_padding": 40,
             "text_spacing": 15,
             "button_text": "SHOP NOW",
-            "button_link": "",
+            "button_link": "shopify://collections/under-armour",
             "button_font_size": 16,
             "button_padding_vertical": 12,
             "button_padding_horizontal": 16,
@@ -310,7 +310,65 @@
         "image_hFPkyC",
         "image_kabC3n"
       ],
+      "disabled": true,
       "name": "AMM AF1",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 450,
+        "mobile_row_height": 420,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_9rfpiy": {
+      "type": "media-grid",
+      "blocks": {
+        "image_MQCegE": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+            "image": "shopify://shop_images/gunna5.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "<strong>P-STAR x UNDER ARMOUR COLLECTION</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/under-armour",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_C3TNzk": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+            "image": "shopify://shop_images/gunna1.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify://collections/under-armour",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MQCegE",
+        "image_C3TNzk"
+      ],
+      "name": "P-STAR X UA",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
@@ -938,6 +996,7 @@
     "slideshow_QGYQ6e",
     "178777566323e3268e",
     "media_grid_tM6W3f",
+    "media_grid_9rfpiy",
     "featureed_image_and_products_DcwRQX",
     "media_grid_YiHh9b",
     "media_grid_bjemYk",
