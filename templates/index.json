@@ -225,7 +225,7 @@
             "video": "shopify://files/videos/UA_GUNNA_FINAL_LQ-SOCIAL.mp4",
             "autoplay": true,
             "loop": true,
-            "muted": true,
+            "muted": false,
             "controls": false,
             "image": "shopify://shop_images/gunna1.jpg",
             "show_text_overlay": true,
