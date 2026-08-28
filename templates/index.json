@@ -415,6 +415,7 @@
         "product_xJKx4n",
         "product_U6mYMd"
       ],
+      "disabled": true,
       "name": "summer GUIDE 6.10",
       "settings": {
         "section_alignment": "left",
@@ -438,19 +439,19 @@
         "product_yXrEUt": {
           "type": "product",
           "settings": {
-            "product": "loewe-workwear-jacket-blue"
+            "product": "new-era-amm-a-logo-fitted-3"
           }
         },
         "product_B48K4M": {
           "type": "product",
           "settings": {
-            "product": "jacquemus-le-de-nimes-droit-jeans-blue"
+            "product": "loewe-cargo-trousers-khaki-green"
           }
         },
         "product_yjBAj3": {
           "type": "product",
           "settings": {
-            "product": "loewe-trousers-blue-navy"
+            "product": "vintage-sneaks-10"
           }
         }
       },
@@ -460,16 +461,15 @@
         "product_B48K4M",
         "product_yjBAj3"
       ],
-      "disabled": true,
       "name": "summer GUIDE 6.10",
       "settings": {
         "section_alignment": "left",
         "title": "LOEWE: BETWEEN SEASONS",
         "background_image": "shopify://shop_images/image_4.png",
-        "image": "shopify://shop_images/AU0A0631_DC_Shopify.jpg",
-        "image_description": "<p>From destination weddings to rooftop evenings, discover a curated selection of elevated summer essentials designed for every occasion. Tailored silhouettes, refined textures, and effortless layers made to move with the season.</p>",
+        "image": "shopify://shop_images/loewe3.jpg",
+        "image_description": "<p><strong>Where seasons meet. Loewe brings refined craftsmanship to effortless layers, balancing relaxed silhouettes, rich textures, and understated color for the season ahead.</strong></p>",
         "image_cta": "explore",
-        "image_cta_url": "shopify://collections/summer-edit"
+        "image_cta_url": "shopify://collections/loewe"
       }
     },
     "media_grid_YiHh9b": {
@@ -691,6 +691,7 @@
         "image_XfPbzY",
         "image_NWPt3Q"
       ],
+      "disabled": true,
       "name": "tops/shorts grid",
       "settings": {
         "color_scheme": "",
@@ -767,7 +768,6 @@
         "image_Fm8WNR",
         "image_8W6cAY"
       ],
-      "disabled": true,
       "name": "tops/shorts grid",
       "settings": {
         "color_scheme": "",
