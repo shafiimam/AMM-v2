@@ -25,8 +25,8 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "ENTER THE DRAW",
-            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
+            "button_1_text": "",
+            "button_1_link": "",
             "button_1_style": "outline",
             "button_1_background": "#000000",
             "button_1_text_color": "#ffffff",
@@ -230,7 +230,7 @@
             "image": "shopify://shop_images/gunna1.jpg",
             "show_text_overlay": true,
             "heading": "GUNNA P-STAR x UNDER ARMOUR COLLECTION",
-            "description": "",
+            "description": "<p>AVAILABLE IN STORE @ AMM ATLANTA </p>",
             "heading_size": 32,
             "description_size": 16,
             "heading_color": "#ffffff",
@@ -241,8 +241,8 @@
             "text_horizontal_alignment": "center",
             "text_padding": 40,
             "text_spacing": 15,
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/under-armour",
+            "button_text": "",
+            "button_link": "",
             "button_font_size": 16,
             "button_padding_vertical": 12,
             "button_padding_horizontal": 16,
@@ -262,7 +262,6 @@
       "block_order": [
         "ai_gen_block_7e9900a_GTER4R"
       ],
-      "disabled": true,
       "name": "P-STAR X UA",
       "settings": {}
     },
@@ -368,6 +367,7 @@
         "image_MQCegE",
         "image_C3TNzk"
       ],
+      "disabled": true,
       "name": "P-STAR X UA",
       "settings": {
         "color_scheme": "",
@@ -421,6 +421,52 @@
         "title": "A Ma Maniére Summer Edit",
         "background_image": "shopify://shop_images/image_4.png",
         "image": "shopify://shop_images/ammsummer2.jpg",
+        "image_description": "<p>From destination weddings to rooftop evenings, discover a curated selection of elevated summer essentials designed for every occasion. Tailored silhouettes, refined textures, and effortless layers made to move with the season.</p>",
+        "image_cta": "explore",
+        "image_cta_url": "shopify://collections/summer-edit"
+      }
+    },
+    "featureed_image_and_products_DdChJe": {
+      "type": "featureed-image-and-products",
+      "blocks": {
+        "product_B7WwKX": {
+          "type": "product",
+          "settings": {
+            "product": "loewe-short-sleeve-shirt-denim-blue"
+          }
+        },
+        "product_yXrEUt": {
+          "type": "product",
+          "settings": {
+            "product": "loewe-workwear-jacket-blue"
+          }
+        },
+        "product_B48K4M": {
+          "type": "product",
+          "settings": {
+            "product": "jacquemus-le-de-nimes-droit-jeans-blue"
+          }
+        },
+        "product_yjBAj3": {
+          "type": "product",
+          "settings": {
+            "product": "loewe-trousers-blue-navy"
+          }
+        }
+      },
+      "block_order": [
+        "product_B7WwKX",
+        "product_yXrEUt",
+        "product_B48K4M",
+        "product_yjBAj3"
+      ],
+      "disabled": true,
+      "name": "summer GUIDE 6.10",
+      "settings": {
+        "section_alignment": "left",
+        "title": "LOEWE: BETWEEN SEASONS",
+        "background_image": "shopify://shop_images/image_4.png",
+        "image": "shopify://shop_images/AU0A0631_DC_Shopify.jpg",
         "image_description": "<p>From destination weddings to rooftop evenings, discover a curated selection of elevated summer essentials designed for every occasion. Tailored silhouettes, refined textures, and effortless layers made to move with the season.</p>",
         "image_cta": "explore",
         "image_cta_url": "shopify://collections/summer-edit"
@@ -990,6 +1036,72 @@
         "text_color": "",
         "text_alignment": "center"
       }
+    },
+    "1787896020f6c31e44": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_9497ee8_6Fd7eC": {
+          "type": "ai_gen_block_9497ee8",
+          "settings": {
+            "title": "<strong>LOEWE: BETWEEN SEASONS</strong>",
+            "subtitle": "Curated essentials for the season",
+            "description": "Discover our handpicked selection of premium pieces designed to elevate your style this season.",
+            "title_size": 36,
+            "subtitle_size": 16,
+            "description_size": 14,
+            "image_1": "shopify://shop_images/AU0A0778_DC_Shopify.jpg",
+            "image_1_url": "",
+            "image_2_url": "",
+            "image_aspect_ratio": "3 / 4",
+            "image_gap": 20,
+            "enable_image_overlay": false,
+            "image_overlay_color": "#000000",
+            "image_overlay_opacity": 0,
+            "image_overlay_hover_opacity": 0,
+            "product_1": "",
+            "product_2": "",
+            "product_3": "",
+            "product_4": "",
+            "product_5": "",
+            "product_6": "",
+            "product_7": "",
+            "product_8": "",
+            "show_product_price": false,
+            "products_per_row": 4,
+            "products_per_row_tablet": "2",
+            "products_per_row_mobile": "2",
+            "product_gap": 20,
+            "product_title_size": 14,
+            "product_price_size": 14,
+            "enable_product_overlay": false,
+            "product_overlay_color": "#000000",
+            "product_overlay_opacity": 0.2,
+            "product_overlay_hover_opacity": 0,
+            "cta_text": "Shop Collection",
+            "cta_link": "",
+            "cta_text_size": 14,
+            "cta_background_color": "#1c1c1c",
+            "cta_text_color": "#ffffff",
+            "cta_border_color": "#1c1c1c",
+            "cta_border_width": 0,
+            "cta_hover_background": "#ffffff",
+            "cta_hover_text_color": "#1c1c1c",
+            "cta_hover_border_color": "#1c1c1c",
+            "background_image_opacity": 0.2,
+            "logo_size": 600,
+            "logo_opacity": 0.1,
+            "background_color": "#ffffff",
+            "text_color": "#1c1c1c",
+            "section_padding": 60
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9497ee8_6Fd7eC"
+      ],
+      "disabled": true,
+      "settings": {}
     }
   },
   "order": [
@@ -998,6 +1110,7 @@
     "media_grid_tM6W3f",
     "media_grid_9rfpiy",
     "featureed_image_and_products_DcwRQX",
+    "featureed_image_and_products_DdChJe",
     "media_grid_YiHh9b",
     "media_grid_bjemYk",
     "176075966993f87866",
@@ -1013,6 +1126,7 @@
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",
-    "text_with_icons_nKDVet"
+    "text_with_icons_nKDVet",
+    "1787896020f6c31e44"
   ]
 }
