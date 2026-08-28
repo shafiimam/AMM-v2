@@ -226,7 +226,7 @@
             "autoplay": true,
             "loop": true,
             "muted": false,
-            "controls": false,
+            "controls": true,
             "image": "shopify://shop_images/gunna1.jpg",
             "show_text_overlay": true,
             "heading": "GUNNA P-STAR x UNDER ARMOUR COLLECTION",
