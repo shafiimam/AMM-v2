@@ -1,6 +1,694 @@
+{% doc %}
+  @prompt
+    can you generate a page similar to the summer guide 6.10 section that features a image as well as product cards and a CTA option/link. I want the section to be able to feature 2 images that can be inputted and also keep the background A Ma Maniere logo in the background 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-featured-guide-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.section_padding }}px 0;
+    overflow: hidden;
+  }
+
+  .ai-featured-guide-{{ ai_gen_id }}::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: {{ block.settings.logo_size }}px;
+    height: {{ block.settings.logo_size }}px;
+    background-image: url('{{ block.settings.background_logo | image_url }}');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: {{ block.settings.logo_opacity }};
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .ai-featured-guide__container-{{ ai_gen_id }} {
+    position: relative;
+    z-index: 1;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-featured-guide__header-{{ ai_gen_id }} {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .ai-featured-guide__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .ai-featured-guide__subtitle-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subtitle_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    opacity: 0.8;
+  }
+
+  .ai-featured-guide__images-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: {{ block.settings.image_gap }}px;
+    margin-bottom: 50px;
+  }
+
+  .ai-featured-guide__image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: {{ block.settings.image_aspect_ratio }};
+  }
+
+  .ai-featured-guide__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ai-featured-guide__image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-featured-guide__image-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    opacity: 0.3;
+  }
+
+  .ai-featured-guide__products-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.products_per_row }}, 1fr);
+    gap: {{ block.settings.product_gap }}px;
+    margin-bottom: 50px;
+  }
+
+  .ai-featured-guide__product-{{ ai_gen_id }} {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ai-featured-guide__product-image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    margin-bottom: 12px;
+  }
+
+  .ai-featured-guide__product-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .ai-featured-guide__product-{{ ai_gen_id }}:hover .ai-featured-guide__product-image-{{ ai_gen_id }} {
+    transform: scale(1.05);
+  }
+
+  .ai-featured-guide__product-image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-featured-guide__product-image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-featured-guide__product-info-{{ ai_gen_id }} {
+    text-align: center;
+  }
+
+  .ai-featured-guide__product-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.product_title_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0 0 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .ai-featured-guide__product-price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.product_price_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-featured-guide__product-link-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .ai-featured-guide__cta-{{ ai_gen_id }} {
+    text-align: center;
+  }
+
+  .ai-featured-guide__cta-button-{{ ai_gen_id }} {
+    display: inline-block;
+    padding: 16px 48px;
+    background-color: {{ block.settings.cta_background_color }};
+    color: {{ block.settings.cta_text_color }};
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: {{ block.settings.cta_text_size }}px;
+    border: {{ block.settings.cta_border_width }}px solid {{ block.settings.cta_border_color }};
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .ai-featured-guide__cta-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.cta_hover_background }};
+    color: {{ block.settings.cta_hover_text_color }};
+    border-color: {{ block.settings.cta_hover_border_color }};
+  }
+
+  .ai-featured-guide__empty-state-{{ ai_gen_id }} {
+    text-align: center;
+    padding: 40px 20px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.6;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-featured-guide__images-{{ ai_gen_id }} {
+      gap: {{ block.settings.image_gap | times: 0.6 }}px;
+    }
+
+    .ai-featured-guide__products-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.products_per_row_tablet }}, 1fr);
+      gap: {{ block.settings.product_gap | times: 0.7 }}px;
+    }
+
+    .ai-featured-guide__title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.8 }}px;
+    }
+
+    .ai-featured-guide__subtitle-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subtitle_size | times: 0.9 }}px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-featured-guide-{{ ai_gen_id }} {
+      padding: {{ block.settings.section_padding | times: 0.6 }}px 0;
+    }
+
+    .ai-featured-guide__images-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.image_gap | times: 0.5 }}px;
+      margin-bottom: 30px;
+    }
+
+    .ai-featured-guide__products-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.products_per_row_mobile }}, 1fr);
+      gap: {{ block.settings.product_gap | times: 0.5 }}px;
+      margin-bottom: 30px;
+    }
+
+    .ai-featured-guide__title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.7 }}px;
+    }
+
+    .ai-featured-guide__cta-button-{{ ai_gen_id }} {
+      padding: 14px 36px;
+      font-size: {{ block.settings.cta_text_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-featured-guide-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-featured-guide__container-{{ ai_gen_id }}">
+    {% if block.settings.title != blank or block.settings.subtitle != blank %}
+      <div class="ai-featured-guide__header-{{ ai_gen_id }}">
+        {% if block.settings.title != blank %}
+          <h2 class="ai-featured-guide__title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+        {% endif %}
+        {% if block.settings.subtitle != blank %}
+          <div class="ai-featured-guide__subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ai-featured-guide__images-{{ ai_gen_id }}">
+      {% if block.settings.image_1 %}
+        <div class="ai-featured-guide__image-wrapper-{{ ai_gen_id }}">
+          <img
+            src="{{ block.settings.image_1 | image_url: width: 1000 }}"
+            alt="{{ block.settings.image_1.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.image_1.width }}"
+            height="{{ block.settings.image_1.height }}"
+            class="ai-featured-guide__image-{{ ai_gen_id }}"
+          >
+        </div>
+      {% else %}
+        <div class="ai-featured-guide__image-wrapper-{{ ai_gen_id }}">
+          <div class="ai-featured-guide__image-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if block.settings.image_2 %}
+        <div class="ai-featured-guide__image-wrapper-{{ ai_gen_id }}">
+          <img
+            src="{{ block.settings.image_2 | image_url: width: 1000 }}"
+            alt="{{ block.settings.image_2.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.image_2.width }}"
+            height="{{ block.settings.image_2.height }}"
+            class="ai-featured-guide__image-{{ ai_gen_id }}"
+          >
+        </div>
+      {% else %}
+        <div class="ai-featured-guide__image-wrapper-{{ ai_gen_id }}">
+          <div class="ai-featured-guide__image-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+
+    {% assign has_products = false %}
+    {% for i in (1..4) %}
+      {% assign product_key = 'product_' | append: i %}
+      {% if block.settings[product_key] != blank %}
+        {% assign has_products = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if has_products %}
+      <div class="ai-featured-guide__products-{{ ai_gen_id }}">
+        {% for i in (1..4) %}
+          {% assign product_key = 'product_' | append: i %}
+          {% assign product = block.settings[product_key] %}
+          
+          {% if product != blank %}
+            <div class="ai-featured-guide__product-{{ ai_gen_id }}">
+              <a href="{{ product.url }}" class="ai-featured-guide__product-link-{{ ai_gen_id }}" aria-label="View {{ product.title }}"></a>
+              <div class="ai-featured-guide__product-image-wrapper-{{ ai_gen_id }}">
+                {% if product.featured_image %}
+                  <img
+                    src="{{ product.featured_image | image_url: width: 600 }}"
+                    alt="{{ product.featured_image.alt | default: product.title | escape }}"
+                    loading="lazy"
+                    width="{{ product.featured_image.width }}"
+                    height="{{ product.featured_image.height }}"
+                    class="ai-featured-guide__product-image-{{ ai_gen_id }}"
+                  >
+                {% else %}
+                  <div class="ai-featured-guide__product-image-placeholder-{{ ai_gen_id }}">
+                    {{ 'product-1' | placeholder_svg_tag }}
+                  </div>
+                {% endif %}
+              </div>
+              <div class="ai-featured-guide__product-info-{{ ai_gen_id }}">
+                <h3 class="ai-featured-guide__product-title-{{ ai_gen_id }}">{{ product.title }}</h3>
+                {% if block.settings.show_product_price %}
+                  <div class="ai-featured-guide__product-price-{{ ai_gen_id }}">{{ product.price | money }}</div>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="ai-featured-guide__empty-state-{{ ai_gen_id }}">
+        Select products to feature in this guide
+      </div>
+    {% endif %}
+
+    {% if block.settings.cta_text != blank %}
+      <div class="ai-featured-guide__cta-{{ ai_gen_id }}">
+        <a
+          href="{{ block.settings.cta_link }}"
+          class="ai-featured-guide__cta-button-{{ ai_gen_id }}"
+        >
+          {{ block.settings.cta_text }}
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Featured guide",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "Summer Guide 2024"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Curated essentials for the season"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "label": "Subtitle size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Featured images"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "Image aspect ratio",
+      "options": [
+        {
+          "value": "3 / 4",
+          "label": "Portrait (3:4)"
+        },
+        {
+          "value": "1 / 1",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "4 / 3",
+          "label": "Landscape (4:3)"
+        },
+        {
+          "value": "16 / 9",
+          "label": "Widescreen (16:9)"
+        }
+      ],
+      "default": "3 / 4"
+    },
+    {
+      "type": "range",
+      "id": "image_gap",
+      "label": "Gap between images",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Products"
+    },
+    {
+      "type": "product",
+      "id": "product_1",
+      "label": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "product_2",
+      "label": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "product_3",
+      "label": "Product 3"
+    },
+    {
+      "type": "product",
+      "id": "product_4",
+      "label": "Product 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_price",
+      "label": "Show product prices",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "products_per_row",
+      "label": "Products per row (desktop)",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "products_per_row_tablet",
+      "label": "Products per row (tablet)",
+      "options": [
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "select",
+      "id": "products_per_row_mobile",
+      "label": "Products per row (mobile)",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "id": "product_gap",
+      "label": "Gap between products",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "product_title_size",
+      "label": "Product title size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "product_price_size",
+      "label": "Product price size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Call to action"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "Button text",
+      "default": "Shop Collection"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "cta_text_size",
+      "label": "Button text size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "cta_background_color",
+      "label": "Button background",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "cta_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "cta_border_color",
+      "label": "Button border",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "range",
+      "id": "cta_border_width",
+      "label": "Button border width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "cta_hover_background",
+      "label": "Hover background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "cta_hover_text_color",
+      "label": "Hover text",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "cta_hover_border_color",
+      "label": "Hover border",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "header",
+      "content": "Background logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_logo",
+      "label": "Logo image"
+    },
+    {
+      "type": "range",
+      "id": "logo_size",
+      "label": "Logo size",
+      "min": 200,
+      "max": 1000,
+      "step": 50,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "logo_opacity",
+      "label": "Logo opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "default": 0.1
+    },
+    {
+      "type": "header",
+      "content": "Section style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "default": 60
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured guide"
+    }
+  ]
+}
 {% endschema %}
