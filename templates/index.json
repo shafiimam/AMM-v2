@@ -15,7 +15,6 @@
         "image_mH3cGU": {
           "type": "image",
           "name": "TWG SPLATTER PACK",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/splatter1.jpg",
             "mobile_image": "shopify://shop_images/splattermobile.jpg",
