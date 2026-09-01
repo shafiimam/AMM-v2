@@ -86,7 +86,8 @@
       "cart": "Warenkorb",
       "primary_navigation": "Hauptnavigation",
       "secondary_navigation": "Sekundäre Navigation",
-      "menu": "Menü"
+      "menu": "Menü",
+      "wishlist": "Wunschliste"
     }
   },
   "product": {
@@ -107,12 +108,13 @@
       "view_in_space": "In deinem Bereich ansehen",
       "taxes_included": "inkl. MwSt.",
       "taxes_excluded": "zzgl. MwSt.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten<\/a> werden an der Kasse berechnet",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten</a> werden an der Kasse berechnet",
       "size_chart": "Größentabelle",
       "available_colors_count": {
         "one": "{{ count }} Farbe verfügbar",
         "other": "{{ count }} Farben verfügbar"
-      }
+      },
+      "copy_sku": "Produkt-SKU in die Zwischenablage kopieren"
     },
     "gallery": {
       "close": "Galerie schließen",
