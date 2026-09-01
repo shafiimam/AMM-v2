@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_BJj76K": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>We Are Now Offering Package Protection with Route!</strong>"
+          }
+        },
         "message_e49XGa": {
           "type": "message",
           "disabled": true,
@@ -29,12 +35,14 @@
         },
         "message_LyBJxq": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>VISIT OUR </strong><a href=\"/pages/our-stores\" title=\"Our Stores\"><strong>LOCATIONS</strong></a>"
           }
         }
       },
       "block_order": [
+        "message_BJj76K",
         "message_e49XGa",
         "message-1",
         "message_LyBJxq"
@@ -129,6 +137,7 @@
         "menu_open_trigger": "hover",
         "menu_text_font": "heading",
         "enable_search": true,
+        "customer_account_menu": "customer-account-main-menu",
         "sidebar_color_scheme": "",
         "sidebar_text_font": "body",
         "sidebar_show_dividers": true,
