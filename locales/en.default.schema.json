@@ -457,6 +457,25 @@
       "cycle_speed": "Change messages every",
       "mobile_text_size": "Mobile text size",
       "desktop_text_size": "Desktop text size",
+      "display_style": "Display style",
+      "display_style_options": {
+        "carousel": "Carousel",
+        "marquee": "Marquee"
+      },
+      "carousel_settings": "Carousel",
+      "marquee_settings": "Marquee",
+      "marquee_paragraph": "All messages scroll together in one continuous line. Arrows and auto rotation are not used in this style.",
+      "marquee_speed": "Scrolling speed",
+      "marquee_direction": "Scroll direction",
+      "marquee_direction_options": {
+        "to_left": "To left",
+        "to_right": "To right"
+      },
+      "marquee_pause_on_hover": "Pause on hover",
+      "marquee_separator": "Separator",
+      "marquee_separator_info": "Shown between messages. Leave blank for spacing only.",
+      "marquee_gap_mobile": "Mobile spacing",
+      "marquee_gap_desktop": "Desktop spacing",
       "blocks": {
         "message": {
           "name": "Message",
