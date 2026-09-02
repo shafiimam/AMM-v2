@@ -1,0 +1,81 @@
+/*
+ * Marquee display style for the announcement bar.
+ * Loaded only when the section's "Display style" setting is "Marquee".
+ * Relies on the theme's <marquee-text> custom element (assets/theme.js).
+ */
+
+.announcement-bar--marquee {
+  display: block;
+  column-gap: 0;
+  padding-inline: 0;
+}
+
+.announcement-bar__marquee {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: start;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.announcement-bar__marquee[direction='right'] {
+  text-align: end;
+}
+
+.announcement-bar__marquee::part(scroller) {
+  display: inline-flex;
+  position: relative;
+  min-width: max-content;
+}
+
+.announcement-bar__marquee-track {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  column-gap: var(--announcement-bar-marquee-gap);
+  /* column-gap does not reach across the seam between a track and its clone,
+     so the trailing padding is what keeps the loop evenly spaced. */
+  padding-inline-end: var(--announcement-bar-marquee-gap);
+}
+
+.announcement-bar__marquee-item {
+  margin: 0;
+}
+
+.announcement-bar__marquee-separator {
+  opacity: 0.55;
+}
+
+/*
+ * Reduced motion: freeze the track and centre it.
+ * The scroll is a Web Animations transform on the shadow slot, so an
+ * !important author declaration is what overrides it — a CSS animation
+ * shorthand would not.
+ */
+@media screen and (prefers-reduced-motion: reduce) {
+  .announcement-bar__marquee {
+    text-align: center;
+  }
+
+  .announcement-bar__marquee::part(scroller) {
+    justify-content: center;
+    min-width: 100%;
+    transform: none !important;
+  }
+
+  .announcement-bar__marquee-track {
+    max-width: 100%;
+    padding-inline-end: 0;
+  }
+
+  .announcement-bar__marquee-separator:last-child {
+    display: none;
+  }
+}
+
+.heading {
+  letter-spacing: 1.5px;
+  font-family: var(--text-font-family);
+}
