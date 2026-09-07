@@ -14,13 +14,12 @@
       "blocks": {
         "image_KNF3UK": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_6039.jpg",
             "mobile_image": "shopify://shop_images/IMG_6040.jpg",
-            "subheading": "<p><strong>INTRODUCING </strong></p>",
+            "subheading": "<p><strong>INTRODUCING</strong></p>",
             "subheading_size": 16,
-            "title": "<p><strong>JAIDE AIR JORDAN 11 LOW </strong></p>",
+            "title": "<p><strong>JAIDE AIR JORDAN 11 LOW</strong></p>",
             "title_size": 35,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
