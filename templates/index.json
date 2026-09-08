@@ -259,6 +259,7 @@
       "block_order": [
         "ai_gen_block_7e9900a_GTER4R"
       ],
+      "disabled": true,
       "name": "P-STAR X UA",
       "settings": {}
     },
@@ -268,17 +269,17 @@
         "image_hFPkyC": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/amaf1mobile5.jpg",
+            "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+            "image": "shopify://shop_images/rick1.png",
             "column_count": "6",
             "row_count": 2,
-            "title": "",
+            "title": "<strong>RICK OWENS</strong>",
             "heading_tag": "h1",
             "content": "",
-            "link_text": "",
-            "link_url": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/a-ma-maniere-w-y-w-s-air-force-1-white-white",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/rick-owens",
             "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -287,16 +288,16 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-            "image": "shopify://shop_images/a_ma_af1_914284cf-90f0-4e56-9037-7152b45a582b.jpg",
+            "image": "shopify://shop_images/rick3_273f2fd8-afe4-4979-90ce-64ffc441fe62.png",
             "column_count": "6",
             "row_count": 2,
-            "title": "<strong>A MA MANIÉRE AIR FORCE 1</strong>",
+            "title": "<strong>EXPLORE THE COLLECTION</strong>",
             "heading_tag": "h1",
             "content": "",
-            "link_text": "shop noW",
-            "link_url": "https://www.a-ma-maniere.com/collections/a-ma-maniere/products/a-ma-maniere-w-y-w-s-air-force-1-white-white",
+            "link_text": "",
+            "link_url": "shopify://collections/rick-owens",
             "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -306,7 +307,6 @@
         "image_hFPkyC",
         "image_kabC3n"
       ],
-      "disabled": true,
       "name": "AMM AF1",
       "settings": {
         "color_scheme": "",
