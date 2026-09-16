@@ -469,55 +469,74 @@
         "image_cta_url": "shopify://collections/loewe"
       }
     },
-    "media_grid_YiHh9b": {
+    "media_grid_M87h96": {
       "type": "media-grid",
       "blocks": {
-        "image_JxwcxA": {
+        "image_jheYCc": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-1",
-            "image": "shopify://shop_images/jaetipsamm1.jpg",
-            "column_count": "6",
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/424.jpg",
+            "column_count": "4",
             "row_count": 2,
-            "title": "",
+            "title": "<strong>424</strong>",
             "heading_tag": "h1",
-            "content": "<h1><strong>STARTED FROM THE SOIL</strong></h1>",
-            "link_text": "",
-            "link_url": "shopify://collections/new-era",
+            "content": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/424",
             "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_hU9RQx": {
+        "image_8W6cAY": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-1",
-            "image": "shopify://shop_images/jaetipsamm.jpg",
-            "column_count": "6",
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/houseoferrors.png",
+            "column_count": "4",
             "row_count": 2,
-            "title": "<strong>jae tips x Maniére</strong>",
+            "title": "<strong>house of errors </strong>",
             "heading_tag": "h1",
             "content": "",
-            "link_text": "shop noW",
-            "link_url": "shopify://collections/new-era",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/house-of-errors",
             "link_style": "solid",
-            "text_position": "place-self-start-center text-center",
+            "text_position": "place-self-end-center text-center",
             "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Fm8WNR": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+            "image": "shopify://shop_images/adidem.jpg",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "<strong>adidem asterisks*</strong>",
+            "heading_tag": "h1",
+            "content": "",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify://collections/adidem-asterisks",
+            "link_style": "solid",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_JxwcxA",
-        "image_hU9RQx"
+        "image_jheYCc",
+        "image_8W6cAY",
+        "image_Fm8WNR"
       ],
-      "name": "mundial 7/16",
+      "name": "NEW BRANDS SEC",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "desktop_row_height": 450,
+        "desktop_row_height": 400,
         "mobile_row_height": 420,
         "section_width": "full",
         "spacing": "xs",
@@ -702,74 +721,55 @@
         "content": ""
       }
     },
-    "media_grid_M87h96": {
+    "media_grid_YiHh9b": {
       "type": "media-grid",
       "blocks": {
-        "image_jheYCc": {
+        "image_JxwcxA": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/424.jpg",
-            "column_count": "4",
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/jaetipsamm1.jpg",
+            "column_count": "6",
             "row_count": 2,
-            "title": "<strong>424</strong>",
+            "title": "",
             "heading_tag": "h1",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/424",
+            "content": "<h1><strong>STARTED FROM THE SOIL</strong></h1>",
+            "link_text": "",
+            "link_url": "shopify://collections/new-era",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "image_Fm8WNR": {
+        "image_hU9RQx": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/adidem.jpg",
-            "column_count": "4",
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/jaetipsamm.jpg",
+            "column_count": "6",
             "row_count": 2,
-            "title": "<strong>adidem asterisks*</strong>",
+            "title": "<strong>jae tips x Maniére</strong>",
             "heading_tag": "h1",
             "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/adidem-asterisks",
+            "link_text": "shop noW",
+            "link_url": "shopify://collections/new-era",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 0
-          }
-        },
-        "image_8W6cAY": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
-            "image": "shopify://shop_images/y-3.jpg",
-            "column_count": "4",
-            "row_count": 2,
-            "title": "<strong>y-3 adidas</strong>",
-            "heading_tag": "h1",
-            "content": "",
-            "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/y-3-adidas",
-            "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-start-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "image_jheYCc",
-        "image_Fm8WNR",
-        "image_8W6cAY"
+        "image_JxwcxA",
+        "image_hU9RQx"
       ],
-      "name": "tops/shorts grid",
+      "name": "JAE TIPS",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "desktop_row_height": 400,
+        "desktop_row_height": 450,
         "mobile_row_height": 420,
         "section_width": "full",
         "spacing": "xs",
@@ -1186,13 +1186,13 @@
     "media_grid_9rfpiy",
     "featureed_image_and_products_DcwRQX",
     "featureed_image_and_products_DdChJe",
-    "media_grid_YiHh9b",
+    "media_grid_M87h96",
     "media_grid_bjemYk",
     "176075966993f87866",
     "blocks_zLJRwf",
     "featured_collections_EFnetB",
     "media_grid_38Mmew",
-    "media_grid_M87h96",
+    "media_grid_YiHh9b",
     "blocks_xhmELd",
     "featured_collections_KWmgFV",
     "image_with_text_PtnpPp",
