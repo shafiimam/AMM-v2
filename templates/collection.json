@@ -63,6 +63,7 @@
       "blocks": {
         "image_card_g9Cxhi": {
           "type": "image_card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/houseoferrors1.png",
             "button_text": "",
@@ -77,6 +78,7 @@
         },
         "image_card_xbb6z4": {
           "type": "image_card",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/houseoferrors2.png",
             "button_text": "Shop The Look",
