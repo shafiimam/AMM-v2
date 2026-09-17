@@ -485,7 +485,7 @@
             "link_text": "SHOP NOW",
             "link_url": "shopify://collections/424",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -503,7 +503,7 @@
             "link_text": "SHOP NOW",
             "link_url": "shopify://collections/house-of-errors",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -521,7 +521,7 @@
             "link_text": "SHOP NOW",
             "link_url": "shopify://collections/adidem-asterisks",
             "link_style": "solid",
-            "text_position": "place-self-end-center text-center",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#ffffff",
             "overlay_opacity": 0
           }
