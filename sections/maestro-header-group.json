@@ -1,0 +1,168 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "order": [
+    "announcement-bar",
+    "header"
+  ],
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_BJj76K": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>We Are Now Offering Package Protection with Route!</strong>"
+          }
+        },
+        "message_e49XGa": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>enjoy 20% off + 10% off markdowns now until 5.26</strong>"
+          }
+        },
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $250</strong>"
+          }
+        },
+        "message_LyBJxq": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>VISIT OUR </strong><a href=\"/pages/our-stores\" title=\"Our Stores\"><strong>LOCATIONS</strong></a>"
+          }
+        }
+      },
+      "block_order": [
+        "message_BJj76K",
+        "message_e49XGa",
+        "message-1",
+        "message_LyBJxq"
+      ],
+      "custom_css": [
+        ".heading {letter-spacing: 1.5px; font-family: var(--text-font-family);}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": false,
+        "display_style": "marquee",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "marquee_speed": 0.3,
+        "marquee_direction": "left",
+        "marquee_pause_on_hover": true,
+        "marquee_separator": "•",
+        "marquee_gap_mobile": 20,
+        "marquee_gap_desktop": 40,
+        "desktop_font_size": 12,
+        "mobile_font_size": 10
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_kbBhKp": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "SHOP",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "#",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_wJYUCr": {
+          "type": "mega_menu",
+          "name": "OFFSEASON PROMO",
+          "disabled": true,
+          "settings": {
+            "menu_item": "Shop",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "https://www.off--season.com/",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_px7EJK": {
+          "type": "mega_menu",
+          "name": "BRANDS DROP DOWN",
+          "settings": {
+            "menu_item": "Brands",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "release_tw94g8": {
+          "type": "release",
+          "disabled": true,
+          "settings": {
+            "release_title": "7.18",
+            "release_image": "shopify://shop_images/BADBUNNYXF50GHOSTPRINTDARKMARINE-1_05242352-5fb8-41fe-8642-9b9186546396.jpg",
+            "product_title": "ADIDAS BAD BUNNY F50 \"GHOST SPRINT\"",
+            "product_vendor": "",
+            "product_price": "$160",
+            "release_link": "https://a-ma-maniere.runfair.com/en-US/us/adidas-bad-bunny-f50-ghost-sprint"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_kbBhKp",
+        "mega_menu_wJYUCr",
+        "mega_menu_px7EJK",
+        "release_tw94g8"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "show_separation_border": true,
+        "reduce_padding": false,
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_width": 140,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu-v2",
+        "sidebar_menu": "",
+        "menu_open_trigger": "hover",
+        "menu_text_font": "heading",
+        "enable_search": true,
+        "customer_account_menu": "customer-account-main-menu",
+        "sidebar_color_scheme": "",
+        "sidebar_text_font": "body",
+        "sidebar_show_dividers": true,
+        "sidebar_open_second_level_menus": false,
+        "layout": "logo_center_navigation_inline",
+        "show_icons": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
+        "show_releases": true
+      }
+    }
+  }
+}
