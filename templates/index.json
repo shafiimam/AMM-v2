@@ -27,7 +27,7 @@
             "button_1_text": "ENTER THE DRAW",
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/twg-new-balance-2010-ostrich",
             "button_1_style": "solid",
-            "button_1_background": "#BEA1B2",
+            "button_1_background": "#bea1b2",
             "button_1_text_color": "#000000",
             "button_2_text": "",
             "button_2_link": "",
@@ -103,6 +103,7 @@
         "image_BPcgHY": {
           "type": "image",
           "name": "CODA ECHO POINTS",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pumacoda1.jpg",
             "mobile_image": "shopify://shop_images/pumacoda2.jpg",
