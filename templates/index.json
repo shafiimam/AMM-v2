@@ -287,14 +287,14 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-            "image": "shopify://shop_images/rick3_273f2fd8-afe4-4979-90ce-64ffc441fe62.png",
+            "image": "shopify://shop_images/darkpark2.png",
             "column_count": "6",
             "row_count": 2,
-            "title": "<strong>EXPLORE THE COLLECTION</strong>",
+            "title": "<strong>darkpark</strong>",
             "heading_tag": "h1",
             "content": "",
-            "link_text": "",
-            "link_url": "shopify://collections/rick-owens",
+            "link_text": "shop now",
+            "link_url": "shopify://collections/darkpark",
             "link_style": "solid",
             "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
@@ -764,6 +764,7 @@
         "image_JxwcxA",
         "image_hU9RQx"
       ],
+      "disabled": true,
       "name": "JAE TIPS",
       "settings": {
         "color_scheme": "",
@@ -781,6 +782,55 @@
       "type": "_blocks",
       "name": "Spacer",
       "settings": {}
+    },
+    "image_with_text_PtnpPp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LCyXbt": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>jiyongkim</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_a4VtgE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Exploring the beauty of time and transformation, each garment is naturally bleached and weathered through exposure to sunlight and the elements. The result is a distinctive, one-of-a-kind finish shaped by light, time and environment.</strong></p>",
+            "text_color": "#535353"
+          }
+        },
+        "button_yxfiRY": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Explore the Collection",
+            "url": "shopify://collections/jiyongkim",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LCyXbt",
+        "richtext_a4VtgE",
+        "button_yxfiRY"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/jiyongkim3.png",
+        "video_autoplay": false,
+        "video_loop": false,
+        "video_muted": true,
+        "video_controls": false,
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "remove_top_padding": false
+      }
     },
     "featured_collections_KWmgFV": {
       "type": "featured-collections",
@@ -832,55 +882,6 @@
         "horizontal_spacing_factor": 0.6,
         "vertical_spacing_factor": 0.9,
         "subheading": ""
-      }
-    },
-    "image_with_text_PtnpPp": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LCyXbt": {
-          "type": "heading",
-          "settings": {
-            "text": "SECND SELF",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_a4VtgE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Rooted in the legacy of Americana sportswear, SECND SLF blends heritage design with forward-thinking craftsmanship. Every collection revisits iconic eras and cultural moments, reimagined for today.</p>",
-            "text_color": "#535353"
-          }
-        },
-        "button_yxfiRY": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Explore the Collection",
-            "url": "shopify://collections/secndself",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_LCyXbt",
-        "richtext_a4VtgE",
-        "button_yxfiRY"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/snd.jpg",
-        "video_autoplay": false,
-        "video_loop": false,
-        "video_muted": true,
-        "video_controls": false,
-        "reveal_on_scroll": false,
-        "image_position": "start",
-        "content_width": "lg",
-        "remove_vertical_spacing": true,
-        "remove_top_padding": false
       }
     },
     "featured_collections_WMah7x": {
@@ -1193,8 +1194,8 @@
     "media_grid_38Mmew",
     "media_grid_YiHh9b",
     "blocks_xhmELd",
-    "featured_collections_KWmgFV",
     "image_with_text_PtnpPp",
+    "featured_collections_KWmgFV",
     "featured_collections_WMah7x",
     "blocks_twxA67",
     "176076770152fa2223",
