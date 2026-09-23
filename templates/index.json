@@ -274,7 +274,7 @@
             "column_count": "6",
             "row_count": 2,
             "title": "<strong>RICK OWENS</strong>",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "content": "",
             "link_text": "SHOP NOW",
             "link_url": "shopify://collections/rick-owens",
@@ -292,7 +292,7 @@
             "column_count": "6",
             "row_count": 2,
             "title": "<strong>darkpark</strong>",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "content": "",
             "link_text": "shop now",
             "link_url": "shopify://collections/darkpark",
@@ -306,6 +306,9 @@
       "block_order": [
         "image_hFPkyC",
         "image_kabC3n"
+      ],
+      "custom_css": [
+        "h2 {font-size: 42px;}"
       ],
       "name": "AMM AF1",
       "settings": {
