@@ -47,6 +47,7 @@
         "play_4YPpDb",
         "heading_EizRw3"
       ],
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
@@ -64,7 +65,7 @@
         "image_card_xbb6z4": {
           "type": "image_card",
           "settings": {
-            "image": "shopify://shop_images/ADIDEM2.png",
+            "image": "shopify://shop_images/adidem2_f2bf658c-a21f-4e6a-8c45-1b5363feaa59.png",
             "button_text": "",
             "button_url": "",
             "product_index": 5,
@@ -120,6 +121,7 @@
         "heading_MAfpmm",
         "richtext_nmR43n"
       ],
+      "disabled": true,
       "custom_css": [
         "image-with-text .prose {background: #fafafa; padding: 60px;}",
         "@media (max-width: 700px) {image-with-text .prose {padding: 20px; }}",
