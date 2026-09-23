@@ -43,6 +43,7 @@
         },
         "image_KNF3UK": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_6039.jpg",
             "mobile_image": "shopify://shop_images/IMG_6040.jpg",
