@@ -15,7 +15,6 @@
         "image_BPcgHY": {
           "type": "image",
           "name": "ADIDAS DND FASHION WEEK",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_7103_d1b8966f-4ffb-4877-b666-695a49b08e27.jpg",
             "mobile_image": "shopify://shop_images/DND1.jpg",
