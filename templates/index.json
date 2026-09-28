@@ -14,7 +14,8 @@
       "blocks": {
         "image_BPcgHY": {
           "type": "image",
-          "name": "CODA ECHO POINTS",
+          "name": "ADIDAS DND FASHION WEEK",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_7103_d1b8966f-4ffb-4877-b666-695a49b08e27.jpg",
             "mobile_image": "shopify://shop_images/DND1.jpg",
@@ -28,7 +29,7 @@
             "button_1_text": "ENTER THE DRAW",
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
             "button_1_style": "solid",
-            "button_1_background": "#FFFFFF",
+            "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
             "button_2_link": "",
