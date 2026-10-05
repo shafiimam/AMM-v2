@@ -16,6 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_7545.jpg",
+            "mobile_image": "shopify://shop_images/IMG_7550.jpg",
             "subheading": "<p><strong>DO NOT DUPLICATE</strong></p>",
             "subheading_size": 16,
             "title": "<p><strong>THE CHICAGO MARATHON COLLECTION</strong></p>",
