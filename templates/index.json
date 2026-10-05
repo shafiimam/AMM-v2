@@ -12,6 +12,35 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_KNF3UK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7545.jpg",
+            "mobile_image": "shopify://shop_images/IMG_6040.jpg",
+            "subheading": "<p><strong>DO NOT DUPLICATE</strong></p>",
+            "subheading_size": 16,
+            "title": "<p><strong>THE CHICAGO MARATHON COLLECTION</strong></p>",
+            "title_size": 35,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "ENTER THE DRAW",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_BPcgHY": {
           "type": "image",
           "name": "ADIDAS DND FASHION WEEK",
@@ -58,36 +87,6 @@
             "button_1_link": "https://www.a-ma-maniere.com/products/twg-new-balance-2010",
             "button_1_style": "solid",
             "button_1_background": "#bea1b2",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_KNF3UK": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/IMG_6039.jpg",
-            "mobile_image": "shopify://shop_images/IMG_6040.jpg",
-            "subheading": "<p><strong>AVAILABLE NOW</strong></p>",
-            "subheading_size": 16,
-            "title": "<p><strong>JAIDE AIR JORDAN 11 LOW</strong></p>",
-            "title_size": 35,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "https://www.a-ma-maniere.com/products/jaide-x-air-jordan-11-low-retro",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
             "button_2_link": "",
@@ -192,9 +191,9 @@
         }
       },
       "block_order": [
+        "image_KNF3UK",
         "image_BPcgHY",
         "image_b7RAQc",
-        "image_KNF3UK",
         "image_mH3cGU",
         "image_KqHhpy",
         "video_Uhn43N"
