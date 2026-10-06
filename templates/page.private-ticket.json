@@ -43,6 +43,7 @@
         },
         "richtext_Ci6GYc": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<h3>Join us as we welcome the future of The Whitaker Group.&nbsp;<br/><br/>An evening shaped by vision, intention, and culture.<br/><br/>Kindly confirm your attendance below.</h3><h3>October 2026<br/>7pm est<br/>—<br/>1144 West Washington Blvd&nbsp;<br/>chicago, IL 60607</h3>"
           }
@@ -71,6 +72,7 @@
       "blocks": {
         "powerful_form_builder_app_block_bnrAPE": {
           "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "disabled": true,
           "settings": {
             "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTMwMjQx\"></div>"
           }
@@ -98,12 +100,121 @@
         "show_title": true,
         "page_width": "lg"
       }
+    },
+    "featured_product_ePATBg": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_pbVjy8": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_bpYRW7": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_n97iMn": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_xe6VEm": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Be3kRp": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_LekUya": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_e3fhDy": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_BxCVgQ": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_qfYTpU": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_AHUU9z": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_aJ9hxB": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_riCaB4": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_pbVjy8",
+        "title_bpYRW7",
+        "badges_n97iMn",
+        "price_xe6VEm",
+        "rating_Be3kRp",
+        "payment_terms_LekUya",
+        "separator_e3fhDy",
+        "description_BxCVgQ",
+        "variant_picker_qfYTpU",
+        "quantity_selector_AHUU9z",
+        "buy_buttons_aJ9hxB",
+        "pickup_availability_riCaB4"
+      ],
+      "name": "t:sections.featured_product.presets.featured_product.name",
+      "settings": {
+        "color_scheme": "scheme-d5f0c659-f24f-4bbb-8f51-b1b0e1ae3953",
+        "product": "",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "Featured product",
+        "content": ""
+      }
     }
   },
   "order": [
     "beach_location_banner_yVFgwJ",
     "rich_text_EpBhqb",
     "177800612565ad2a36",
-    "main"
+    "main",
+    "featured_product_ePATBg"
   ]
 }
