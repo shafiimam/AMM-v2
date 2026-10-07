@@ -56,15 +56,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "true_fit_widget_tpCKyE": {
-          "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
-          "settings": {}
-        },
-        "selleasy_lb_upsell_widget_pal_FGTyfL": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-pal/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "disabled": true,
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -206,8 +197,6 @@
         "separator",
         "variant_picker",
         "quantity_selector",
-        "true_fit_widget_tpCKyE",
-        "selleasy_lb_upsell_widget_pal_FGTyfL",
         "buy_buttons",
         "genlook_virtual_try_on_genlook_widget_DhJxRe",
         "product_availability_bm4JRe",
