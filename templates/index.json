@@ -41,6 +41,36 @@
             "gradient_overlay": ""
           }
         },
+        "image_mH3cGU": {
+          "type": "image",
+          "name": "MM6",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7627.jpg",
+            "mobile_image": "shopify://shop_images/IMG_7628.jpg",
+            "subheading": "",
+            "subheading_size": 14,
+            "title": "<p>MM6 EYEWEAR</p>",
+            "title_size": 32,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/mm6",
+            "button_1_style": "solid",
+            "button_1_background": "#000000",
+            "button_1_text_color": "#FFFFFF",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/mm6",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#000000",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_BPcgHY": {
           "type": "image",
           "name": "ADIDAS DND FASHION WEEK",
@@ -76,7 +106,7 @@
           "settings": {
             "image": "shopify://shop_images/nb1.png",
             "mobile_image": "shopify://shop_images/nb2.png",
-            "subheading": "<p><br></p>",
+            "subheading": "<p><br/></p>",
             "subheading_size": 16,
             "title": "<p>TWG X NEW BALANCE 2010 \"OSTRICH\"</p>",
             "title_size": 37,
@@ -95,36 +125,6 @@
             "button_2_text_color": "#000000",
             "background": "",
             "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_mH3cGU": {
-          "type": "image",
-          "name": "TWG SPLATTER PACK",
-          "settings": {
-            "image": "shopify://shop_images/splatter1.jpg",
-            "mobile_image": "shopify://shop_images/splattermobile.jpg",
-            "subheading": "",
-            "subheading_size": 14,
-            "title": "<p>THE WHITAKER GROUP X NIKE REACTX REJUVEN8 \"SPLATTER PACK\"</p>",
-            "title_size": 32,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/new-arrivals",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
@@ -192,9 +192,9 @@
       },
       "block_order": [
         "image_KNF3UK",
+        "image_mH3cGU",
         "image_BPcgHY",
         "image_b7RAQc",
-        "image_mH3cGU",
         "image_KqHhpy",
         "video_Uhn43N"
       ],
