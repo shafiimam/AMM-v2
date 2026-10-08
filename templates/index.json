@@ -58,7 +58,7 @@
             "button_1_link": "shopify://collections/mm6",
             "button_1_style": "solid",
             "button_1_background": "#000000",
-            "button_1_text_color": "#FFFFFF",
+            "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "shopify://collections/mm6",
             "button_2_style": "outline",
@@ -286,7 +286,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
-            "image": "shopify://shop_images/darkpark2.png",
+            "image": "shopify://shop_images/darkpark.png",
             "column_count": "6",
             "row_count": 2,
             "title": "<strong>darkpark</strong>",
