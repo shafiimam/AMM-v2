@@ -261,6 +261,57 @@
       "name": "P-STAR X UA",
       "settings": {}
     },
+    "blocks_HXWcCM": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7e9900a_nNx4hJ": {
+          "type": "ai_gen_block_7e9900a",
+          "name": "P-STAR X UA",
+          "settings": {
+            "video": "shopify://files/videos/DARKPARK2 (1).mp4",
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "controls": true,
+            "image": "shopify://shop_images/gunna1.jpg",
+            "show_text_overlay": true,
+            "heading": "GUNNA P-STAR x UNDER ARMOUR COLLECTION",
+            "description": "",
+            "heading_size": 32,
+            "description_size": 16,
+            "heading_color": "#ffffff",
+            "description_color": "#ffffff",
+            "overlay_color": "#0000004d",
+            "text_alignment": "center",
+            "text_vertical_alignment": "flex-start",
+            "text_horizontal_alignment": "center",
+            "text_padding": 40,
+            "text_spacing": 15,
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://collections/under-armour",
+            "button_font_size": 16,
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 16,
+            "button_border_radius": 0,
+            "button_spacing": 20,
+            "button_background_color": "#1c1c1c",
+            "button_text_color": "#ffffff",
+            "button_hover_color": "#000000",
+            "desktop_width_percent": 100,
+            "gap": 0,
+            "gap_mobile": 16,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7e9900a_nNx4hJ"
+      ],
+      "disabled": true,
+      "name": "P-STAR X UA",
+      "settings": {}
+    },
     "media_grid_tM6W3f": {
       "type": "media-grid",
       "blocks": {
@@ -1184,6 +1235,7 @@
   "order": [
     "slideshow_QGYQ6e",
     "178777566323e3268e",
+    "blocks_HXWcCM",
     "media_grid_tM6W3f",
     "media_grid_9rfpiy",
     "featureed_image_and_products_DcwRQX",
