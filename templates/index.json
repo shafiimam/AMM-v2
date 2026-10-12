@@ -933,38 +933,38 @@
         "collection_MCVUaY": {
           "type": "collection",
           "settings": {
-            "collection": "sp5der",
+            "collection": "thug-club",
             "products_count": 8,
-            "title": "SP5DER",
-            "link_url": "shopify://collections/adidas",
-            "link_text": "View all"
-          }
-        },
-        "collection_TTiYmf": {
-          "type": "collection",
-          "settings": {
-            "collection": "sacai",
-            "products_count": 8,
-            "title": "SACAI",
-            "link_url": "shopify://collections/sacai",
+            "title": "THUG CLUB",
+            "link_url": "shopify://collections/thug-club",
             "link_text": "View all"
           }
         },
         "collection_3xEBwR": {
           "type": "collection",
           "settings": {
-            "collection": "human-made",
+            "collection": "maison-mihara-yasuhiro",
             "products_count": 8,
-            "title": "Human made",
-            "link_url": "shopify://collections/human-made",
+            "title": "MAISON MIHARA YASUHIRO",
+            "link_url": "shopify://collections/maison-mihara-yasuhiro",
+            "link_text": "View all"
+          }
+        },
+        "collection_TTiYmf": {
+          "type": "collection",
+          "settings": {
+            "collection": "better-with-age",
+            "products_count": 8,
+            "title": "BETTER WITH AGE",
+            "link_url": "shopify://collections/better-with-age",
             "link_text": "View all"
           }
         }
       },
       "block_order": [
         "collection_MCVUaY",
-        "collection_TTiYmf",
-        "collection_3xEBwR"
+        "collection_3xEBwR",
+        "collection_TTiYmf"
       ],
       "custom_css": [],
       "settings": {
