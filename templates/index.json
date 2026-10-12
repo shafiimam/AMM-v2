@@ -15,7 +15,6 @@
         "image_mH3cGU": {
           "type": "image",
           "name": "APB 11",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_7856.jpg",
             "mobile_image": "shopify://shop_images/IMG_7863.jpg",
@@ -29,7 +28,7 @@
             "button_1_text": "ENTER THE DRAW",
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/apb-x-air-jordan-11-low-made-for-locals",
             "button_1_style": "solid",
-            "button_1_background": "#1C2950",
+            "button_1_background": "#1c2950",
             "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "",
