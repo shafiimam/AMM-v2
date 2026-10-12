@@ -26,10 +26,10 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "COMING SOON",
-            "button_1_link": "",
+            "button_1_text": "ENTER THE DRAW",
+            "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/apb-x-air-jordan-11-low-made-for-locals",
             "button_1_style": "solid",
-            "button_1_background": "#000000",
+            "button_1_background": "#1C2950",
             "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "",
@@ -348,7 +348,7 @@
             "link_url": "shopify://collections/mm6",
             "link_style": "solid",
             "text_position": "place-self-center text-center",
-            "overlay_color": "#1C1C1C",
+            "overlay_color": "#1c1c1c",
             "overlay_opacity": 0
           }
         },
