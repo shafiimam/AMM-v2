@@ -878,30 +878,6 @@
       "name": "Spacer",
       "settings": {}
     },
-    "1791899888b0b3b5c5": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5a553cf_ynhx8z": {
-          "type": "ai_gen_block_5a553cf",
-          "settings": {
-            "feature_image": "shopify://shop_images/pumacoda2.jpg",
-            "desktop_width_percent": 95,
-            "heading": "PUMA CODA",
-            "description": "<p>EVERYDAY CLASSICS, ELEVATED THROUGH THOUGHTFUL DETAILS & EFFORTLESS STYLE.</p>",
-            "products": [
-              "the-whitaker-grp-coda-echo-points-chambray-blue-alpine-snow-buttercream",
-              "suede-coda-echo-points-flaxen-alpine-snow",
-              "the-whitaker-grp-suede-coda-echo-points-alpine-snow"
-            ]
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5a553cf_ynhx8z"
-      ],
-      "settings": {}
-    },
     "image_with_text_PtnpPp": {
       "type": "image-with-text",
       "blocks": {
@@ -1086,6 +1062,30 @@
         "button_text": ""
       }
     },
+    "1791899888b0b3b5c5": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5a553cf_ynhx8z": {
+          "type": "ai_gen_block_5a553cf",
+          "settings": {
+            "feature_image": "shopify://shop_images/pumacoda2.jpg",
+            "desktop_width_percent": 95,
+            "heading": "PUMA CODA",
+            "description": "<p>EVERYDAY CLASSICS, ELEVATED THROUGH THOUGHTFUL DETAILS & EFFORTLESS STYLE.</p>",
+            "products": [
+              "the-whitaker-grp-coda-echo-points-chambray-blue-alpine-snow-buttercream",
+              "suede-coda-echo-points-flaxen-alpine-snow",
+              "the-whitaker-grp-suede-coda-echo-points-alpine-snow"
+            ]
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5a553cf_ynhx8z"
+      ],
+      "settings": {}
+    },
     "timeline_Ef8jwR": {
       "type": "timeline",
       "blocks": {
@@ -1250,12 +1250,12 @@
     "media_grid_38Mmew",
     "media_grid_YiHh9b",
     "blocks_xhmELd",
-    "1791899888b0b3b5c5",
     "image_with_text_PtnpPp",
     "featured_collections_KWmgFV",
     "featured_collections_WMah7x",
     "blocks_twxA67",
     "176076770152fa2223",
+    "1791899888b0b3b5c5",
     "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
     "image_with_text_3MihKd",
