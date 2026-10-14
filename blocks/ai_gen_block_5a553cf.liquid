@@ -181,6 +181,9 @@
       {% if block.settings.products != blank %}
         <div class="ai-editorial-feature__products-{{ ai_gen_id }}">
           {% for product in block.settings.products %}
+            {%- comment %}<locksmith:90e1>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: block.settings, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:90e1>{% endcomment -%}
             <a class="ai-editorial-feature__product-{{ ai_gen_id }}" href="{{ product.url }}">
               <span class="ai-editorial-feature__product-image-wrap-{{ ai_gen_id }}">
                 {% if product.featured_image %}
