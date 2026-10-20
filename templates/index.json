@@ -600,7 +600,7 @@
         "product_yjBAj3": {
           "type": "product",
           "settings": {
-            "product": "vintage-sneaks-10"
+            "product": "jumbolace-low-sneaks-3"
           }
         }
       },
@@ -1043,25 +1043,6 @@
       "disabled": true,
       "settings": {}
     },
-    "blog_posts_XjJCVj": {
-      "type": "blog-posts",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "blog": "editorials",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_date": false,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "Our Latest blogs",
-        "content": "",
-        "button_link": "",
-        "button_text": ""
-      }
-    },
     "1791899888b0b3b5c5": {
       "type": "_blocks",
       "blocks": {
@@ -1085,6 +1066,25 @@
         "ai_gen_block_5a553cf_ynhx8z"
       ],
       "settings": {}
+    },
+    "blog_posts_XjJCVj": {
+      "type": "blog-posts",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "blog": "editorials",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_date": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "Our Latest blogs",
+        "content": "",
+        "button_link": "",
+        "button_text": ""
+      }
     },
     "timeline_Ef8jwR": {
       "type": "timeline",
