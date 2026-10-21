@@ -139,7 +139,7 @@
         "logo": "{{ shop.brand.logo }}",
         "logo_max_width": 140,
         "logo_mobile_max_width": 100,
-        "menu": "main-menu-v2",
+        "menu": "main-menu-1",
         "sidebar_menu": "",
         "menu_open_trigger": "hover",
         "menu_text_font": "heading",
