@@ -485,11 +485,5 @@
       "view_products": "הצג מוצרים",
       "view_product": "הצג מוצר"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }
