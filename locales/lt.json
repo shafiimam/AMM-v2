@@ -492,11 +492,5 @@
       "view_products": "Peržiūrėti prekes",
       "view_product": "Peržiūrėti prekę"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }

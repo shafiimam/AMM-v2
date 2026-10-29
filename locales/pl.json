@@ -496,11 +496,5 @@
       "view_products": "Wyświetl produkty",
       "view_product": "Wyświetl produkt"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }

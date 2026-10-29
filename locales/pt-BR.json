@@ -481,11 +481,5 @@
       "view_products": "Ver produtos",
       "view_product": "Ver produto"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }

@@ -480,11 +480,5 @@
       "view_products": "Visa produkter",
       "view_product": "Visa produkt"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }
