@@ -107,7 +107,7 @@
       "view_in_space": "Afficher dans votre espace",
       "taxes_included": "Taxes inclues",
       "taxes_excluded": "Taxes exclues",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés<\/a> au paiement",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés</a> au paiement",
       "size_chart": "Guide des tailles",
       "available_colors_count": {
         "one": "{{ count }} couleur",
@@ -484,6 +484,12 @@
     "shop_the_look": {
       "view_products": "Voir les produits",
       "view_product": "Voir le produit"
+    }
+  },
+  "locksmith": {
+    "forms": {
+      "submit_button_text": "Continue",
+      "loading_text": "One moment..."
     }
   }
 }
