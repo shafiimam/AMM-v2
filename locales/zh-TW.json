@@ -478,11 +478,5 @@
       "view_products": "查看產品",
       "view_product": "查看產品"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }
