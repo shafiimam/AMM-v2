@@ -51,7 +51,7 @@
   const config = {
     selectors: {
       routeCheckout: '[data-route-cloned-button]',
-      cartContainer: ['#section-cart #AjaxCartSubtotal .cart-actions', 'sidebar-drawer#site-cart #AjaxCartSubtotal .cart-actions'],
+      cartContainer: ['.cart-footer','#section-cart #AjaxCartSubtotal .cart-actions', 'sidebar-drawer#site-cart #AjaxCartSubtotal .cart-actions'],
       requiredCheckboxes: ['input.rterms-checkbox']
     }
   };
