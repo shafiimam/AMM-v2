@@ -74,6 +74,7 @@
         "image_QwRebk": {
           "type": "image",
           "name": "MANIERE CHICAGO",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/67936B46-5B24-4C8E-9A45-D6EA2A490F11.png",
             "subheading": "<p><strong>OPENING SOON</strong></p>",
