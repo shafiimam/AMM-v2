@@ -14,12 +14,11 @@
       "blocks": {
         "image_b7RAQc": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_8811.jpg",
             "subheading": "<p><br/></p>",
             "subheading_size": 16,
-            "title": "<p><strong>New Balance&nbsp;<br/>Willful Bias “For Identity”&nbsp;<br/>2010</strong></p>",
+            "title": "<p><strong>New Balance&nbsp;<br>Willful Bias “For Identity”&nbsp;<br>2010</strong></p>",
             "title_size": 38,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-start sm:text-start",
