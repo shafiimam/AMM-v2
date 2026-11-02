@@ -122,7 +122,7 @@
       },
       "9305562503569750861": {
         "type": "shopify://apps/route-protection-tracking/blocks/settings/fb8ca446-3fcd-450e-b3b6-e8e3615553e2",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "variant": "preferred-checkout-container",
           "container_placement": "button[name=checkout]",
