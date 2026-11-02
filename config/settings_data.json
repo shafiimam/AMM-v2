@@ -119,6 +119,16 @@
         "type": "shopify://apps/avada-seo-suite/blocks/avada-seo/15507c6e-1aa3-45d3-b698-7e175e033440",
         "disabled": false,
         "settings": {}
+      },
+      "9305562503569750861": {
+        "type": "shopify://apps/route-protection-tracking/blocks/settings/fb8ca446-3fcd-450e-b3b6-e8e3615553e2",
+        "disabled": true,
+        "settings": {
+          "variant": "preferred-checkout-container",
+          "container_placement": "button[name=checkout]",
+          "entrypoints": "button[name=checkout]",
+          "custom_css": "[data-route-widget-header] .pw-cashback-body-benefit-row {\n  align-items: center !important;\n}\n\n[data-route-cloned-button] * {\n  text-transform: uppercase !important;\n  letter-spacing: normal !important;\n  text-align: center !important;\n}\n[data-route-cloned-button]:hover *{\n  color: inherit !important;\n}\n\n\n/* DRAWER CART STYLES */\n#cart-drawer .button-group:has([data-route-cloned-button]){\n  gap: 0px !important;\n}\n\n#cart-drawer .button-group .terms-relentless {\n  order: 1;\n}\n\n#cart-drawer .button-group [data-route-widget-header] {\n  order: 2;\n}\n\n#cart-drawer .button-group [data-route-widget-button] {\n  order: 3;\n  display: inline-block !important;\n}\n\n#cart-drawer .button-group [data-route-widget-cwc] {\n  order: 4;\n}\n/* END DRAWER CART STYLES */\n\n\n/* CART PAGE */\n@media screen and (min-width: 700px) {\n  .shopify-section--main-cart .cart-footer .cart-recap [data-route-widget-header],\n  .shopify-section--main-cart .cart-footer .cart-recap [data-route-widget-button],\n  .shopify-section--main-cart .cart-footer .cart-recap [data-route-widget-button] [data-route-cloned-button],\n  .shopify-section--main-cart .cart-footer .cart-recap [data-route-widget-cwc] {\n    max-width: 20rem;\n  }\n}\n\n.shopify-section--main-cart .cart-footer .cart-recap [data-route-widget-button] [data-route-cloned-button] {\n  width: 100%;\n  margin-top: -1rem;\n}\n\n.shopify-section--main-cart .cart-footer .cart-recap [data-route-widget-cwc] {\n  order: 1;\n}\n/* END CART PAGE */"
+        }
       }
     },
     "color_schemes": {
@@ -141,7 +151,7 @@
           "primary_button_background": "#1c1c1c",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1C1C1C"
+          "circle_button_icon": "#1c1c1c"
         }
       },
       "scheme-3": {
