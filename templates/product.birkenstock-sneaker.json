@@ -71,10 +71,20 @@
             "payment_button_text_color": ""
           }
         },
+        "route_protection_tracking_route_pdp_asset_UAbqXB": {
+          "type": "shopify://apps/route-protection-tracking/blocks/route-pdp-asset/fb8ca446-3fcd-450e-b3b6-e8e3615553e2",
+          "settings": {
+            "custom_css": ""
+          }
+        },
         "product_availability_bm4JRe": {
           "type": "product_availability",
           "settings": {
-            "product_skus": "HV8571-100, FZ8743-001, HF4084-001, FZ8743-201, HF4084-100, IB1528-100, IB5705-010, IB5701-010, IB5699-010"
+            "product_skus": "HV8571-100, FZ8743-001, HF4084-001, FZ8743-201, HF4084-100, IB1528-100, IB5705-010, IB5701-010, IB5699-010",
+            "show_final_sale_message": true,
+            "enable_compare_price_rule": true,
+            "final_sale_tag": "FinalSale",
+            "final_sale_message": "This item is on final sale, it cannot be exchanged or returned."
           }
         },
         "feature_with_icon_TyMeDX": {
@@ -177,6 +187,7 @@
         "quantity_selector",
         "true_fit_widget_tpCKyE",
         "buy_buttons",
+        "route_protection_tracking_route_pdp_asset_UAbqXB",
         "product_availability_bm4JRe",
         "feature_with_icon_TyMeDX",
         "feature_with_icon_zCCbKy",
@@ -210,6 +221,7 @@
         "start_index": "1",
         "end_index": "50",
         "dynamic_link_handle": "https://cdn.shopify.com/s/files/1/0626/9065/files/1774_GOERLITZ_ORANGE_360-",
+        "file_ext": "png",
         "button_label": "",
         "button_link": "",
         "knob_position": 10,
