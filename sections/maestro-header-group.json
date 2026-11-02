@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "order": [
+    "announcement-bar",
+    "header"
+  ],
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": false,
+        "display_style": "marquee",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "marquee_speed": 0.3,
+        "marquee_direction": "left",
+        "marquee_pause_on_hover": true,
+        "marquee_separator": "•",
+        "marquee_gap_mobile": 20,
+        "marquee_gap_desktop": 40,
+        "desktop_font_size": 12,
+        "mobile_font_size": 10
+      },
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $250</strong>"
+          }
+        },
+        "message_LyBJxq": {
+          "type": "message",
+          "settings": {
+            "text": "<strong>VISIT OUR </strong><a href=\"/pages/our-stores\" title=\"Our Stores\"><strong>LOCATIONS</strong></a>"
+          }
+        }
+      },
+      "block_order": [
+        "message-1",
+        "message_LyBJxq"
+      ],
+      "custom_css": [
+        ".heading {letter-spacing: 1.5px; font-family: var(--text-font-family);}"
+      ]
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "show_separation_border": true,
+        "reduce_padding": false,
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_width": 140,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu-1",
+        "sidebar_menu": "",
+        "menu_open_trigger": "hover",
+        "menu_text_font": "heading",
+        "enable_search": true,
+        "customer_account_menu": "customer-account-main-menu",
+        "sidebar_color_scheme": "",
+        "sidebar_text_font": "body",
+        "sidebar_show_dividers": true,
+        "sidebar_open_second_level_menus": false,
+        "layout": "logo_center_navigation_inline",
+        "show_icons": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/amm-logo-white.svg",
+        "show_releases": true
+      },
+      "blocks": {
+        "mega_menu_kbBhKp": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "SHOP",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "#",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_px7EJK": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Brands",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_kbBhKp",
+        "mega_menu_px7EJK"
+      ]
+    }
+  }
+}
