@@ -1,13 +1,13 @@
-{%- comment %}<locksmith:73fd>{% endcomment -%}
+{%- comment %}<locksmith:f409>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:73fd>{% endcomment -%}
+{%- comment %}</locksmith:f409>{% endcomment -%}
 
 <!doctype html>
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+{{ locksmith_initializations }}
 <!-- maestro-preview-layout -->
-	{{ locksmith_initializations }}
 	<!-- Added by AVADA SEO Suite -->
 	{% include 'avada-seo' %}
 	<!-- /Added by AVADA SEO Suite -->
@@ -46,10 +46,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </title>
 
     {%- if page_description -%}
-      {%- comment %}<locksmith:9750>{% endcomment -%}
+      {%- comment %}<locksmith:ff78>{% endcomment -%}
         {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
         {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-      {%- comment %}</locksmith:9750>{% endcomment -%}
+      {%- comment %}</locksmith:ff78>{% endcomment -%}
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
