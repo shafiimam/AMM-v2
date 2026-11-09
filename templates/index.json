@@ -14,9 +14,10 @@
       "blocks": {
         "image_QwRebk": {
           "type": "image",
-          "name": "MANIERE CHICAGO",
+          "name": "NB SMU 950",
           "settings": {
             "image": "shopify://shop_images/IMG_9590.jpg",
+            "mobile_image": "shopify://shop_images/IMG_9593.jpg",
             "subheading": "",
             "subheading_size": 24,
             "title": "<p><strong>NEW BALANCE x TWG SMU 950</strong></p>",
@@ -27,7 +28,7 @@
             "button_1_text": "enter draw",
             "button_1_link": "https://a-ma-maniere.runfair.com/en-US/us/new-balance-x-twg-smu-950",
             "button_1_style": "solid",
-            "button_1_background": "#504F5F",
+            "button_1_background": "#504f5f",
             "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "",
