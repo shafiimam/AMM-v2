@@ -1048,6 +1048,7 @@
       "blocks": {
         "ai_gen_block_5a553cf_ynhx8z": {
           "type": "ai_gen_block_5a553cf",
+          "disabled": true,
           "settings": {
             "feature_image": "shopify://shop_images/pumacoda2.jpg",
             "desktop_width_percent": 95,
@@ -1065,7 +1066,40 @@
       "block_order": [
         "ai_gen_block_5a553cf_ynhx8z"
       ],
+      "disabled": true,
       "settings": {}
+    },
+    "timeline_Ef8jwR": {
+      "type": "timeline",
+      "blocks": {
+        "item_TDLyew": {
+          "type": "item",
+          "settings": {
+            "image_position": "right",
+            "image": "shopify://shop_images/ammahomepage_9c8c8464-ef72-415a-b3ec-bd6e29c5a7e5.jpg",
+            "mobile_image": "shopify://shop_images/SS_MOBILE.jpg",
+            "label": "2014",
+            "subheading": "",
+            "title": "From Concept to launch",
+            "content": "<p>A Ma Maniére embodies the essence of classic, timeless luxury, merging refined exploration with a deep connection to global community and street culture. It embodies its founding vision of celebrating and uplifting the power of Black and street culture on the global lifestyle space. By offfering our very own in-house luxury label of elevated seasonal collections curated alongside an exclusive blend of the world’s most celebrated fashion houses, we remain focused on elevating each consumer’s journey by bridging their evolving taste to the immersive experiences we create.&nbsp;</p><p></p>",
+            "link_text": "Learn More",
+            "aria_label": "Learn more about this",
+            "link_url": "shopify://pages/about-us-1",
+            "link_style": "solid",
+            "mobile_text_color": "#535353"
+          }
+        }
+      },
+      "block_order": [
+        "item_TDLyew"
+      ],
+      "settings": {
+        "title": "About Us",
+        "title_background": "shopify://shop_images/Frame_51.png",
+        "color_scheme": "scheme-1",
+        "item_color_scheme": "scheme-1",
+        "separate_section_with_border": false
+      }
     },
     "blog_posts_XjJCVj": {
       "type": "blog-posts",
@@ -1084,38 +1118,6 @@
         "content": "",
         "button_link": "",
         "button_text": ""
-      }
-    },
-    "timeline_Ef8jwR": {
-      "type": "timeline",
-      "blocks": {
-        "item_TDLyew": {
-          "type": "item",
-          "settings": {
-            "image_position": "right",
-            "image": "shopify://shop_images/ammahomepage_9c8c8464-ef72-415a-b3ec-bd6e29c5a7e5.jpg",
-            "mobile_image": "shopify://shop_images/SS_MOBILE.jpg",
-            "label": "2014",
-            "subheading": "",
-            "title": "From Concept to launch",
-            "content": "<p>A Ma Maniére embodies the essence of classic, timeless luxury, merging refined exploration with a deep connection to global community and street culture. It embodies its founding vision of celebrating and uplifting the power of Black and street culture on the global lifestyle space. By offfering our very own in-house luxury label of elevated seasonal collections curated alongside an exclusive blend of the world’s most celebrated fashion houses, we remain focused on elevating each consumer’s journey by bridging their evolving taste to the immersive experiences we create. </p><p></p>",
-            "link_text": "Learn More",
-            "aria_label": "Learn more about this",
-            "link_url": "shopify://pages/about-us-1",
-            "link_style": "solid",
-            "mobile_text_color": "#535353"
-          }
-        }
-      },
-      "block_order": [
-        "item_TDLyew"
-      ],
-      "settings": {
-        "title": "About Us",
-        "title_background": "shopify://shop_images/Frame_51.png",
-        "color_scheme": "scheme-1",
-        "item_color_scheme": "scheme-1",
-        "separate_section_with_border": false
       }
     },
     "image_with_text_3MihKd": {
@@ -1256,8 +1258,8 @@
     "blocks_twxA67",
     "176076770152fa2223",
     "1791899888b0b3b5c5",
-    "blog_posts_XjJCVj",
     "timeline_Ef8jwR",
+    "blog_posts_XjJCVj",
     "image_with_text_3MihKd",
     "text_with_icons_nKDVet"
   ]
