@@ -13,11 +13,12 @@
       "type": "content-page-section",
       "settings": {
         "title": "About Us",
-        "description": "A Ma Maniére is a premier destination for luxury streetwear, showcasing high-end fashion, exclusive sneaker drops, and designer collaborations available both online and in-store.",
+        "description": "A Ma Maniére is a cultural ecosystem connecting brand, human interaction, and cultural experiences. Rooted in Black culture and street culture, we bring fashion, storytelling, and hospitality together through spaces shaped by individuality and a shared purpose to move humanity forward.",
         "circular_text": "Scroll Scroll Scroll Scroll Scroll Scroll",
         "section_background_image": "shopify://shop_images/image_4_ccb96bab-a6d6-4fe2-a0e4-174d2b33edea.png",
         "section_banner_desktop": "shopify://shop_images/ammaboutus_7c436abc-bac4-48a0-bf4e-3193e6e38ca9.jpg",
-        "section_banner_mobile": "shopify://shop_images/A_Ma_Maniere_About_Us_Page_Image.jpg"
+        "section_banner_mobile": "shopify://shop_images/A_Ma_Maniere_About_Us_Page_Image.jpg",
+        "show_accessibility_seal": false
       }
     },
     "main": {
