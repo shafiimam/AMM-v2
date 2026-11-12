@@ -162,18 +162,25 @@
         "location_rjmt6U": {
           "type": "location",
           "settings": {
+            "title": "Chicago",
+            "description": "<p>1144 W Washington Blvd Chicago, IL 60607, USA<br/>Ph: 312-265-0502</p>"
+          }
+        },
+        "location_mgfyeK": {
+          "type": "location",
+          "settings": {
             "title": "Atlanta",
             "description": "<p>479 Edgewood Ave SE Atlanta, Georgia 30312, USA<br/>Ph: 678-973-2116</p>"
           }
         },
-        "location_mgfyeK": {
+        "location_Yx4LpJ": {
           "type": "location",
           "settings": {
             "title": "Houston",
             "description": "<p>3300 Kirby Dr #6A, Houston, TX 77098, USA<br/>Ph: 713-640-5945</p>"
           }
         },
-        "location_Yx4LpJ": {
+        "location_ebKbr7": {
           "type": "location",
           "settings": {
             "title": "Washington, D.C.",
@@ -184,7 +191,8 @@
       "block_order": [
         "location_rjmt6U",
         "location_mgfyeK",
-        "location_Yx4LpJ"
+        "location_Yx4LpJ",
+        "location_ebKbr7"
       ],
       "settings": {
         "desktop_image": "shopify://shop_images/AMM_Store_Front_View_5bf1d6ae-79d2-49a0-8c40-69b02e0ee24a.png",
