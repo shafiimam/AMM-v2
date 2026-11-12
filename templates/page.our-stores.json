@@ -21,6 +21,15 @@
     "image_hotspot_3KfiCc": {
       "type": "image-hotspot",
       "blocks": {
+        "hotspot_kPwbxy": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Chicago",
+            "text": "1144 W Washington Blvd Chicago, IL 60607, USA",
+            "top": 0,
+            "left": 0
+          }
+        },
         "hotspot_8hxXcb": {
           "type": "hotspot",
           "settings": {
@@ -50,6 +59,7 @@
         }
       },
       "block_order": [
+        "hotspot_kPwbxy",
         "hotspot_8hxXcb",
         "hotspot_CDgjBH",
         "hotspot_K7Dpyz"

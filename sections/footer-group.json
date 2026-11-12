@@ -33,7 +33,7 @@
             "icon_width": 32,
             "mobile_icon_width": 32,
             "title": "RETURNS & EXCHANGES",
-            "content": "<p> Ensures your experience remains as elevated as the products you select.</p>"
+            "content": "<p>&nbsp;Ensures your experience remains as elevated as the products you select.</p>"
           }
         },
         "item_H4xqx3": {
@@ -89,6 +89,7 @@
             "link": "",
             "title": "",
             "content": "<p>Receive the latest releases and curated updates. </p>",
+            "button_label": "Subscribe",
             "button_background": "",
             "button_text_color": ""
           }
@@ -96,7 +97,7 @@
         "links_aYeMKk": {
           "type": "links",
           "settings": {
-            "menu": "locations",
+            "menu": "",
             "show_menu_title": true,
             "menu_title": ""
           }
