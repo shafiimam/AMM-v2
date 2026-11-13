@@ -336,18 +336,18 @@
         "image_7w9enX": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-2",
-            "image": "shopify://shop_images/IMG_7628.jpg",
+            "color_scheme": "scheme-8162dd0c-fa88-4bf1-bd66-64023d583a3a",
+            "image": "shopify://shop_images/IMG_9906.jpg",
             "column_count": "4",
             "row_count": 2,
-            "title": "<strong>MM6 EYEWEAR</strong>",
+            "title": "<strong>ADIDAS DND PATCHWORK DENIM</strong>",
             "heading_tag": "h2",
             "content": "",
             "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/mm6",
+            "link_url": "shopify://collections/adidas",
             "link_style": "solid",
             "text_position": "place-self-center text-center",
-            "overlay_color": "#1c1c1c",
+            "overlay_color": "#FFFFFF",
             "overlay_opacity": 0
           }
         },
