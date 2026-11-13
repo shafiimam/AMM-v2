@@ -344,10 +344,10 @@
             "heading_tag": "h2",
             "content": "",
             "link_text": "SHOP NOW",
-            "link_url": "shopify://collections/adidas",
+            "link_url": "shopify://collections/adidas-dnd",
             "link_style": "solid",
             "text_position": "place-self-center text-center",
-            "overlay_color": "#FFFFFF",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0
           }
         },
