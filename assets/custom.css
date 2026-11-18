@@ -294,6 +294,14 @@ variant-sku {
   color: #535353;
 }
 
+/* Keep pasted rich-text spans in one text flow so word spaces are preserved. */
+.product-info__block-item[data-block-type="description"] .prose
+  :where(* + span:not(:empty, .metafield-multi_line_text_field)),
+.product-content-below-gallery .prose
+  :where(* + span:not(:empty, .metafield-multi_line_text_field)) {
+  display: inline;
+}
+
 .complementary-products__header .h5 {
   color: #000;
   text-align: center;

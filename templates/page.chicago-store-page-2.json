@@ -35,7 +35,7 @@
         "heading_WbHVK6": {
           "type": "heading",
           "settings": {
-            "text": "A Ma&nbsp;Maniére CHICAGO Flagship",
+            "text": "A Ma Maniére Atlanta Flagship",
             "heading_tag": "h1"
           }
         },
@@ -48,7 +48,7 @@
         "liquid_CiMgth": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% render 'icons', icon_type: 'map' %}\n1144 W Washington Blvd Chicago, IL 60607, USA"
+            "liquid": "{% render 'icons', icon_type: 'map' %}\n479 Edgewood Ave SE Atlanta, Georgia"
           }
         }
       },
@@ -65,8 +65,8 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/EXTERIOR_2_5e650ebf-302b-4ced-a100-42d2cf5fdc2c.png",
-        "mobile_image": "shopify://shop_images/EXTERIOR_2_5e650ebf-302b-4ced-a100-42d2cf5fdc2c.png",
+        "image": "shopify://shop_images/DSC09240_BM.jpg",
+        "mobile_image": "shopify://shop_images/DSC09240_BM_18607d7d-78b4-4bb9-b682-110a8cbf6380.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -101,14 +101,14 @@
         "heading_zmhLEp": {
           "type": "heading",
           "settings": {
-            "text": "ABOUT OUR CHICAGO FLAGSHIP",
+            "text": "About our Atlanta Flagship",
             "heading_tag": "h1"
           }
         },
         "richtext_Nat9dh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We are proud to introduce A Ma Maniére Chicago, a three-story destination where luxury retail, exceptional hospitality, and cultural experiences converge. Located in Chicago’s Fulton Market district, the space brings together the Galerie lounge, the Maison retail experience, an open-air courtyard, and two thoughtfully designed living suites honoring the enduring legacies of Fred Hampton and Michael Jordan. Every element reflects our ongoing vision of creating environments that are as intentional and considered as the culture that inspires them.<br/>Chicago’s influence on culture, creativity, and leadership extends well beyond the city itself. Inspired by the people and perspectives that have shaped its identity, A Ma Maniére Chicago is an invitation to gather, exchange ideas, and cultivate meaningful connections. Through curated experiences, intimate gatherings, and a thoughtful approach to hospitality, our intention is to become a part of the city’s footprint.</p>"
+            "content": "<p>We are proud to introduce the new A Ma Maniére Edgewood Flagship in Atlanta — a multi-level destination designed to blur the lines between luxury shopping, hospitality, dining, and culture. Rooted in intentional design and elevated experiences, the space reflects our ongoing vision of creating environments that feel as curated and considered as the culture that inspires them. Located in the historic Edgewood neighborhood, the flagship will unveil a new expression of A Ma Maniére through exclusive offerings, immersive spaces, and culturally driven experiences designed to be discovered over time.</p><p>More than a flagship, Edgewood is a statement on ownership, legacy, and the future of luxury through a Black cultural lens. Every detail has been developed with purpose, from the atmosphere and programming to the art and hospitality experience woven throughout the space. As we prepare to open our doors, we look forward to welcoming the community into a destination built not only to be visited, but to be felt.</p>"
           }
         }
       },
@@ -142,9 +142,9 @@
         "autoplay": true,
         "show_controls": true,
         "video_size": "lg",
-        "video": "shopify://files/videos/A Ma Maniére Chicago.mov",
-        "mobile_video": "shopify://files/videos/A Ma Maniére Chicago.mov",
-        "external_video_url": "",
+        "video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
+        "mobile_video": "shopify://files/videos/REVEALwhole building jet 4k H.265.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
       }
     },
@@ -239,56 +239,6 @@
         "remove_vertical_spacing": true
       }
     },
-    "blocks_YQT7nJ": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5edc35c_PejEEe": {
-          "type": "ai_gen_block_5edc35c",
-          "settings": {
-            "height_mobile": 5,
-            "height_desktop": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5edc35c_PejEEe"
-      ],
-      "name": "Spacer",
-      "settings": {}
-    },
-    "179501717582faf5b8": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_cbb7856_CaMY6e": {
-          "type": "ai_gen_block_cbb7856",
-          "settings": {
-            "desktop_width_percent": 100,
-            "background_color": "#ffffff",
-            "text_color": "#1c1c1c",
-            "gap": 20,
-            "text_spacing": 15,
-            "image_ratio": "1 / 1",
-            "image_fit": "cover",
-            "image_1": "shopify://shop_images/Muted_gray_A_MA_MANIERE_storefront.png",
-            "heading_1": "",
-            "text_1": "",
-            "link_label_1": "",
-            "link_url_1": "",
-            "image_2": "shopify://shop_images/Restored_courtyard_walkway_and_river_rocks.png",
-            "heading_2": "",
-            "text_2": "",
-            "link_label_2": "",
-            "link_url_2": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_cbb7856_CaMY6e"
-      ],
-      "settings": {}
-    },
     "image_with_text_QNEjBt": {
       "type": "image-with-text",
       "blocks": {
@@ -354,14 +304,13 @@
         "heading_dcgCDh",
         "countdown_BFxhK7"
       ],
-      "disabled": true,
       "custom_css": [
         "img {width: 100%;}"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/Cinematic_luxury_retail_interior-1.png",
+        "image": "shopify://shop_images/GREENAMM.jpg",
         "mobile_image": "shopify://shop_images/GREENAMM_3e7f55cd-ab0f-4eed-a5d8-2d4c3b792a09.jpg",
         "video_autoplay": false,
         "video_loop": false,
@@ -381,7 +330,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Cinematic_luxury_retail_interior-4.png",
+            "image": "shopify://shop_images/skylinehebru.jpg",
             "column_count": "8",
             "row_count": 2,
             "title": "",
@@ -399,7 +348,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/Moody_neutral_lounge_bar_interior.png",
+            "image": "shopify://shop_images/livingroom2.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -417,7 +366,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/Neutral-toned_lounge_with_preserved_mood_97d6c9c3-9594-4ecf-8a72-0023341591b4.png",
+            "image": "shopify://shop_images/bar.jpg",
             "column_count": "6",
             "row_count": 2,
             "title": "",
@@ -435,7 +384,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Moody_cinematic_luxury_retail_interior-3.png",
+            "image": "shopify://shop_images/artonwall.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -453,7 +402,7 @@
           "type": "image",
           "settings": {
             "color_scheme": "",
-            "image": "shopify://shop_images/Moody_lounge_with_pink_sculpture_and_shelves.png",
+            "image": "shopify://shop_images/livingroom.jpg",
             "column_count": "4",
             "row_count": 1,
             "title": "",
@@ -513,28 +462,10 @@
         "image_ajDniE": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/0A691AC1-78FB-42B7-9602-BCAE5A235885.png",
+            "color_scheme": "",
+            "image": "shopify://shop_images/retail.jpg",
             "column_count": "6",
-            "row_count": 2,
-            "title": "THE JORDAN",
-            "heading_tag": "h1",
-            "content": "<p>EWFFHEWU</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#FFFFFF",
-            "overlay_opacity": 0
-          }
-        },
-        "image_HJLHj7": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/Moody_interior_with_warm_wood_cool_light.png",
-            "column_count": "6",
-            "row_count": 2,
+            "row_count": 1,
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -542,13 +473,30 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
-            "overlay_color": "#FFFFFF",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HJLHj7": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/patio.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
         "image_fUyNNp": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/retail2.jpg",
@@ -567,7 +515,6 @@
         },
         "image_qPnKXC": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/DSC09004_BM.jpg",
@@ -591,7 +538,6 @@
         "image_fUyNNp",
         "image_qPnKXC"
       ],
-      "disabled": true,
       "name": "t:sections.media_grid.presets.media_grid.name",
       "settings": {
         "color_scheme": "",
@@ -608,16 +554,9 @@
     "beach_location_banner_nGbcUy": {
       "type": "beach-location-banner",
       "blocks": {
-        "location_TqdXya": {
-          "type": "location",
-          "disabled": true,
-          "settings": {
-            "title": "Chicago",
-            "description": "<p>1144 W Washington Blvd Chicago, IL 60607, USA<br/>Ph: 312-265-0502</p>"
-          }
-        },
         "location_piNTD3": {
           "type": "location",
+          "disabled": true,
           "settings": {
             "title": "Atlanta",
             "description": "<p>969 Marietta St NW #200, Atlanta, GA 30318, USA<br/>Ph: 678-973-2116</p>"
@@ -639,7 +578,6 @@
         }
       },
       "block_order": [
-        "location_TqdXya",
         "location_piNTD3",
         "location_kJYYEU",
         "location_rE4pGP"
@@ -709,80 +647,6 @@
         "title": "",
         "content": ""
       }
-    },
-    "media_grid_JRbD4e": {
-      "type": "media-grid",
-      "blocks": {
-        "image_cC4jAQ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_iAfneA": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_LGTPjJ": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_cC4jAQ",
-        "image_iAfneA",
-        "image_LGTPjJ"
-      ],
-      "disabled": true,
-      "name": "t:sections.media_grid.presets.media_grid.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "THE JORDAN SUITE",
-        "content": ""
-      }
     }
   },
   "order": [
@@ -792,14 +656,11 @@
     "rich_text_VcMXhH",
     "video_hPeq4A",
     "map_with_text_zfmMKi",
-    "blocks_YQT7nJ",
-    "179501717582faf5b8",
     "image_with_text_QNEjBt",
     "media_grid_9nU4R3",
     "blocks_tX8aJ4",
     "media_grid_UzC6Vn",
     "beach_location_banner_nGbcUy",
-    "multi_column_AG6HP7",
-    "media_grid_JRbD4e"
+    "multi_column_AG6HP7"
   ]
 }
