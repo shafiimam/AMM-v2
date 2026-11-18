@@ -75,6 +75,15 @@
     "list_column_aAz7bE": {
       "type": "list-column",
       "blocks": {
+        "list_item_qLPeDb": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "1144 W Washington Blvd Chicago, IL 60607, USA",
+            "button_link": "",
+            "button_text": "VISIT THIS STORE",
+            "hover_image": "shopify://shop_images/Neutral-toned_lounge_with_preserved_mood.png"
+          }
+        },
         "list_item_i3Pycr": {
           "type": "list_item",
           "settings": {
@@ -104,6 +113,7 @@
         }
       },
       "block_order": [
+        "list_item_qLPeDb",
         "list_item_i3Pycr",
         "list_item_JY7gtz",
         "list_item_9WfXdL"
