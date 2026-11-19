@@ -1,6 +1,187 @@
+{% doc %}
+  @prompt
+    can you generate a media grid section that allows for landscape shot photos to be imported and allows for the sizing of the images and the percentage of space being taken up
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-media-grid-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-media-grid-{{ ai_gen_id }}__grid {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, minmax(0, 1fr));
+    gap: {{ block.settings.gap }}px;
+    width: 100%;
+  }
+
+  .ai-media-grid-{{ ai_gen_id }}__item {
+    position: relative;
+    overflow: hidden;
+    min-width: 0;
+    aspect-ratio: {{ block.settings.image_ratio }};
+    grid-column: span var(--item-span);
+    background: #efefef;
+  }
+
+  .ai-media-grid-{{ ai_gen_id }}__item img,
+  .ai-media-grid-{{ ai_gen_id }}__placeholder svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-media-grid-{{ ai_gen_id }}__placeholder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    color: #1c1c1c;
+  }
+
+  .ai-media-grid-{{ ai_gen_id }}__placeholder svg {
+    position: absolute;
+    inset: 0;
+    color: #c8c8c8;
+  }
+
+  .ai-media-grid-{{ ai_gen_id }}__empty-text {
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    padding: 8px 10px;
+    background: rgba(255, 255, 255, 0.92);
+    color: #1c1c1c;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-media-grid-{{ ai_gen_id }} {
+      width: 100%;
+    }
+
+    .ai-media-grid-{{ ai_gen_id }}__grid {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, minmax(0, 1fr));
+    }
+
+    .ai-media-grid-{{ ai_gen_id }}__item {
+      grid-column: span var(--mobile-span);
+    }
+  }
+{% endstyle %}
+
+<div class="ai-media-grid-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-media-grid-{{ ai_gen_id }}__grid">
+    {% for i in (1..4) %}
+      {% liquid
+        assign image_key = 'image_' | append: i
+        assign alt_key = 'image_' | append: i | append: '_alt'
+        assign span_key = 'image_' | append: i | append: '_span'
+        assign image = block.settings[image_key]
+        assign image_alt = block.settings[alt_key]
+        assign image_span = block.settings[span_key]
+      %}
+      {% if image != blank %}
+        <div class="ai-media-grid-{{ ai_gen_id }}__item" style="--item-span: {{ image_span }}; --mobile-span: {{ image_span }};">
+          {{ image | image_url: width: 2400 | image_tag: loading: 'lazy', alt: image_alt | default: image.alt | escape }}
+        </div>
+      {% elsif request.design_mode %}
+        <div class="ai-media-grid-{{ ai_gen_id }}__item" style="--item-span: {{ image_span }}; --mobile-span: {{ image_span }};">
+          <div class="ai-media-grid-{{ ai_gen_id }}__placeholder">
+            {{ 'image' | placeholder_svg_tag }}
+            <span class="ai-media-grid-{{ ai_gen_id }}__empty-text">Add a landscape photo</span>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Media grid",
+  "settings": [
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "select",
+      "id": "columns_desktop",
+      "label": "Desktop columns",
+      "options": [
+        { "value": "2", "label": "2" },
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Mobile columns",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Image shape",
+      "options": [
+        { "value": "16 / 9", "label": "Landscape 16:9" },
+        { "value": "3 / 2", "label": "Landscape 3:2" },
+        { "value": "2 / 1", "label": "Wide 2:1" }
+      ],
+      "default": "16 / 9"
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "label": "Image spacing",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    { "type": "header", "content": "Image 1" },
+    { "type": "image_picker", "id": "image_1", "label": "Photo" },
+    { "type": "text", "id": "image_1_alt", "label": "Alt text" },
+    { "type": "range", "id": "image_1_span", "label": "Grid space", "min": 1, "max": 4, "step": 1, "default": 2 },
+    { "type": "header", "content": "Image 2" },
+    { "type": "image_picker", "id": "image_2", "label": "Photo" },
+    { "type": "text", "id": "image_2_alt", "label": "Alt text" },
+    { "type": "range", "id": "image_2_span", "label": "Grid space", "min": 1, "max": 4, "step": 1, "default": 2 },
+    { "type": "header", "content": "Image 3" },
+    { "type": "image_picker", "id": "image_3", "label": "Photo" },
+    { "type": "text", "id": "image_3_alt", "label": "Alt text" },
+    { "type": "range", "id": "image_3_span", "label": "Grid space", "min": 1, "max": 4, "step": 1, "default": 2 },
+    { "type": "header", "content": "Image 4" },
+    { "type": "image_picker", "id": "image_4", "label": "Photo" },
+    { "type": "text", "id": "image_4_alt", "label": "Alt text" },
+    { "type": "range", "id": "image_4_span", "label": "Grid space", "min": 1, "max": 4, "step": 1, "default": 2 }
+  ],
+  "presets": [
+    { "name": "Media grid" }
+  ],
+  "tag": null,
+  "class": "media-grid-block"
+}
 {% endschema %}
