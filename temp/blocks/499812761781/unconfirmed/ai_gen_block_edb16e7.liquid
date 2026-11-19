@@ -1,6 +1,242 @@
+{% doc %}
+  @prompt
+    can you generate a section that combines and is integrated/connected with what is in the "LIVING SUITES" section, the media grid1 and the media grid2. 
+    
+    I need the section to have split headers with description options below. A main/leading image and then a connected section below that can hold 4 corresponding images in a media grid. Want to make sure the proper heading stays connected to the corresponding images 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-living-suite-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    color: #1c1c1c;
+    font-family: inherit;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr);
+    gap: 32px;
+    align-items: end;
+    margin-bottom: 28px;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__title,
+  .ai-living-suite-{{ ai_gen_id }}__grid-title {
+    margin: 0;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__title {
+    font-size: clamp(30px, 5vw, 64px);
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__description,
+  .ai-living-suite-{{ ai_gen_id }}__grid-description {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__description p,
+  .ai-living-suite-{{ ai_gen_id }}__grid-description p {
+    margin: 0;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__lead {
+    width: 100%;
+    overflow: hidden;
+    background: #efefef;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__lead img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__placeholder {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 260px;
+    aspect-ratio: 16 / 9;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__placeholder svg {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    color: #777;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__empty {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    margin: 0;
+    padding: 8px 12px;
+    background: #fff;
+    color: #1c1c1c;
+    font-size: 13px;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__gallery-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr);
+    gap: 32px;
+    align-items: end;
+    margin: 42px 0 20px;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__grid-title {
+    font-size: clamp(23px, 3vw, 38px);
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__item {
+    min-width: 0;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__item-media {
+    overflow: hidden;
+    aspect-ratio: 4 / 5;
+    background: #efefef;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__item-media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__item-media .ai-living-suite-{{ ai_gen_id }}__placeholder {
+    min-height: 0;
+    height: 100%;
+    aspect-ratio: auto;
+  }
+
+  .ai-living-suite-{{ ai_gen_id }}__caption {
+    margin: 10px 0 0;
+    color: #1c1c1c;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-living-suite-{{ ai_gen_id }}__intro,
+    .ai-living-suite-{{ ai_gen_id }}__gallery-head {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .ai-living-suite-{{ ai_gen_id }}__intro {
+      margin-bottom: 20px;
+    }
+
+    .ai-living-suite-{{ ai_gen_id }}__gallery-head {
+      margin-top: 30px;
+    }
+
+    .ai-living-suite-{{ ai_gen_id }}__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-living-suite-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.heading != blank or block.settings.description != blank %}
+    <div class="ai-living-suite-{{ ai_gen_id }}__intro">
+      {% if block.settings.heading != blank %}<h2 class="ai-living-suite-{{ ai_gen_id }}__title">{{ block.settings.heading | escape }}</h2>{% endif %}
+      {% if block.settings.description != blank %}<div class="ai-living-suite-{{ ai_gen_id }}__description">{{ block.settings.description }}</div>{% endif %}
+    </div>
+  {% endif %}
+
+  <div class="ai-living-suite-{{ ai_gen_id }}__lead">
+    {% if block.settings.lead_image != blank %}
+      <img src="{{ block.settings.lead_image | image_url: width: 2400 }}" alt="{{ block.settings.lead_image.alt | default: block.settings.heading | escape }}" loading="lazy" width="{{ block.settings.lead_image.width }}" height="{{ block.settings.lead_image.height }}">
+    {% else %}
+      <div class="ai-living-suite-{{ ai_gen_id }}__placeholder">
+        {{ 'hero-apparel-1' | placeholder_svg_tag }}
+        <p class="ai-living-suite-{{ ai_gen_id }}__empty">Add a leading image to introduce this living suite.</p>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if block.settings.gallery_heading != blank or block.settings.gallery_description != blank %}
+    <div class="ai-living-suite-{{ ai_gen_id }}__gallery-head">
+      {% if block.settings.gallery_heading != blank %}<h3 class="ai-living-suite-{{ ai_gen_id }}__grid-title">{{ block.settings.gallery_heading | escape }}</h3>{% endif %}
+      {% if block.settings.gallery_description != blank %}<div class="ai-living-suite-{{ ai_gen_id }}__grid-description">{{ block.settings.gallery_description }}</div>{% endif %}
+    </div>
+  {% endif %}
+
+  <div class="ai-living-suite-{{ ai_gen_id }}__grid">
+    {% for i in (1..4) %}
+      {% liquid
+        assign image_key = 'gallery_image_' | append: i
+        assign caption_key = 'gallery_caption_' | append: i
+        assign gallery_image = block.settings[image_key]
+        assign gallery_caption = block.settings[caption_key]
+      %}
+      <div class="ai-living-suite-{{ ai_gen_id }}__item">
+        <div class="ai-living-suite-{{ ai_gen_id }}__item-media">
+          {% if gallery_image != blank %}
+            <img src="{{ gallery_image | image_url: width: 1000 }}" alt="{{ gallery_image.alt | default: gallery_caption | escape }}" loading="lazy" width="{{ gallery_image.width }}" height="{{ gallery_image.height }}">
+          {% else %}
+            <div class="ai-living-suite-{{ ai_gen_id }}__placeholder">
+              {{ 'image' | placeholder_svg_tag }}
+              <p class="ai-living-suite-{{ ai_gen_id }}__empty">Add gallery image {{ i }}.</p>
+            </div>
+          {% endif %}
+        </div>
+        {% if gallery_caption != blank %}<p class="ai-living-suite-{{ ai_gen_id }}__caption">{{ gallery_caption | escape }}</p>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Living suite media",
+  "settings": [
+    { "type": "header", "content": "Introduction" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Living suites" },
+    { "type": "richtext", "id": "description", "label": "Description", "default": "<p>Add an introduction to this living suite.</p>" },
+    { "type": "image_picker", "id": "lead_image", "label": "Leading image" },
+    { "type": "header", "content": "Connected media grid" },
+    { "type": "text", "id": "gallery_heading", "label": "Grid heading", "default": "Explore the space" },
+    { "type": "richtext", "id": "gallery_description", "label": "Grid description", "default": "<p>Add context for the four images below.</p>" },
+    { "type": "image_picker", "id": "gallery_image_1", "label": "Image 1" },
+    { "type": "text", "id": "gallery_caption_1", "label": "Caption 1" },
+    { "type": "image_picker", "id": "gallery_image_2", "label": "Image 2" },
+    { "type": "text", "id": "gallery_caption_2", "label": "Caption 2" },
+    { "type": "image_picker", "id": "gallery_image_3", "label": "Image 3" },
+    { "type": "text", "id": "gallery_caption_3", "label": "Caption 3" },
+    { "type": "image_picker", "id": "gallery_image_4", "label": "Image 4" },
+    { "type": "text", "id": "gallery_caption_4", "label": "Caption 4" },
+    { "type": "header", "content": "Layout" },
+    { "type": "range", "id": "desktop_width_percent", "label": "Desktop width", "min": 50, "max": 100, "step": 5, "unit": "%", "default": 100 }
+  ],
+  "presets": [
+    { "name": "Living suite media" }
+  ],
+  "tag": null,
+  "class": "living-suite-media-block"
+}
 {% endschema %}
