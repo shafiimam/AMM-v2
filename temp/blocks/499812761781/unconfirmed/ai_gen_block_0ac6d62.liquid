@@ -1,6 +1,192 @@
+{% doc %}
+  @prompt
+    can you generate a section that combines and is integrated/connected with what is in the "LIVING SUITES" section, the media grid1 and the media grid2. 
+    
+    I need the section to have split headers with description options below. A main/leading image and then a connected section below that can hold 4 corresponding images in a media grid. Want to make sure the proper heading stays connected to the corresponding images , I need there to be 2 seperate sides to the section. 
+    
+    Left Side: 
+    Heading: The Jordan Suite 
+    Description:
+    below: Main photo
+    below: 2 complimenting images
+    
+    Ride Side: 
+    Heading: The Hampton Suite
+    Description:
+    Below: main image
+    Below: 2 complimenting images, this is almost perfect. can you adjust so that the heading font style can be selected. As well as giving the option to adjust the sizing of the complementary images 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-suite-pair-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    color: #1c1c1c;
+    font-family: inherit;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__suite { min-width: 0; }
+
+  .ai-suite-pair-{{ ai_gen_id }}__heading {
+    margin: 0 0 12px;
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-style: {{ block.settings.heading_font.style }};
+    font-size: clamp({{ block.settings.heading_size }}px, 3.2vw, {{ block.settings.heading_size | plus: 16 }}px);
+    font-weight: {{ block.settings.heading_font.weight }};
+    line-height: 1.08;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__description {
+    margin-bottom: 18px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__description p { margin: 0; }
+
+  .ai-suite-pair-{{ ai_gen_id }}__main-media,
+  .ai-suite-pair-{{ ai_gen_id }}__small-media {
+    overflow: hidden;
+    background: #efefef;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__main-media { aspect-ratio: 4 / 3; }
+
+  .ai-suite-pair-{{ ai_gen_id }}__main-media img,
+  .ai-suite-pair-{{ ai_gen_id }}__small-media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__small-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__small-media { aspect-ratio: {{ block.settings.complementary_ratio }}; }
+
+  .ai-suite-pair-{{ ai_gen_id }}__placeholder {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__placeholder svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #777;
+  }
+
+  .ai-suite-pair-{{ ai_gen_id }}__empty {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 7px 10px;
+    background: #fff;
+    color: #1c1c1c;
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-suite-pair-{{ ai_gen_id }}__columns { grid-template-columns: 1fr; gap: 36px; }
+    .ai-suite-pair-{{ ai_gen_id }}__heading { font-size: {{ block.settings.heading_size }}px; }
+  }
+{% endstyle %}
+
+<div class="ai-suite-pair-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-suite-pair-{{ ai_gen_id }}__columns">
+    {% for suite_index in (1..2) %}
+      {% liquid
+        if suite_index == 1
+          assign suite_heading = block.settings.left_heading
+          assign suite_description = block.settings.left_description
+          assign main_image = block.settings.left_main_image
+          assign image_one = block.settings.left_image_one
+          assign image_two = block.settings.left_image_two
+          assign suite_fallback_title = 'The Jordan Suite'
+        else
+          assign suite_heading = block.settings.right_heading
+          assign suite_description = block.settings.right_description
+          assign main_image = block.settings.right_main_image
+          assign image_one = block.settings.right_image_one
+          assign image_two = block.settings.right_image_two
+          assign suite_fallback_title = 'The Hampton Suite'
+        endif
+      %}
+      <section class="ai-suite-pair-{{ ai_gen_id }}__suite" aria-label="{{ suite_heading | default: suite_fallback_title | escape }}">
+        {% if suite_heading != blank %}<h2 class="ai-suite-pair-{{ ai_gen_id }}__heading">{{ suite_heading | escape }}</h2>{% endif %}
+        {% if suite_description != blank %}<div class="ai-suite-pair-{{ ai_gen_id }}__description">{{ suite_description }}</div>{% endif %}
+        <div class="ai-suite-pair-{{ ai_gen_id }}__main-media">
+          {% if main_image != blank %}
+            <img src="{{ main_image | image_url: width: 1600 }}" alt="{{ main_image.alt | default: suite_heading | escape }}" loading="lazy" width="{{ main_image.width }}" height="{{ main_image.height }}">
+          {% else %}
+            <div class="ai-suite-pair-{{ ai_gen_id }}__placeholder">{{ 'hero-apparel-1' | placeholder_svg_tag }}<p class="ai-suite-pair-{{ ai_gen_id }}__empty">Add the {{ suite_heading | default: suite_fallback_title | escape }} main image.</p></div>
+          {% endif %}
+        </div>
+        <div class="ai-suite-pair-{{ ai_gen_id }}__small-grid">
+          {% for image_index in (1..2) %}
+            {% if image_index == 1 %}{% assign suite_image = image_one %}{% else %}{% assign suite_image = image_two %}{% endif %}
+            <div class="ai-suite-pair-{{ ai_gen_id }}__small-media">
+              {% if suite_image != blank %}
+                <img src="{{ suite_image | image_url: width: 900 }}" alt="{{ suite_image.alt | default: suite_heading | escape }}" loading="lazy" width="{{ suite_image.width }}" height="{{ suite_image.height }}">
+              {% else %}
+                <div class="ai-suite-pair-{{ ai_gen_id }}__placeholder">{{ 'image' | placeholder_svg_tag }}<p class="ai-suite-pair-{{ ai_gen_id }}__empty">Add {{ suite_heading | default: suite_fallback_title | escape }} image {{ image_index }}.</p></div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Suite image columns",
+  "settings": [
+    { "type": "header", "content": "Left side — Jordan suite" },
+    { "type": "text", "id": "left_heading", "label": "Heading", "default": "The Jordan Suite" },
+    { "type": "richtext", "id": "left_description", "label": "Description", "default": "<p>Add a description of the Jordan Suite.</p>" },
+    { "type": "image_picker", "id": "left_main_image", "label": "Main photo" },
+    { "type": "image_picker", "id": "left_image_one", "label": "Complementary image 1" },
+    { "type": "image_picker", "id": "left_image_two", "label": "Complementary image 2" },
+    { "type": "header", "content": "Right side — Hampton suite" },
+    { "type": "text", "id": "right_heading", "label": "Heading", "default": "The Hampton Suite" },
+    { "type": "richtext", "id": "right_description", "label": "Description", "default": "<p>Add a description of the Hampton Suite.</p>" },
+    { "type": "image_picker", "id": "right_main_image", "label": "Main photo" },
+    { "type": "image_picker", "id": "right_image_one", "label": "Complementary image 1" },
+    { "type": "image_picker", "id": "right_image_two", "label": "Complementary image 2" },
+    { "type": "header", "content": "Heading style" },
+    { "type": "font_picker", "id": "heading_font", "label": "Heading font", "default": "roboto_n4" },
+    { "type": "range", "id": "heading_size", "label": "Heading size", "min": 20, "max": 60, "step": 2, "unit": "px", "default": 36 },
+    { "type": "header", "content": "Complementary images" },
+    { "type": "select", "id": "complementary_ratio", "label": "Image shape", "options": [{ "value": "1 / 1", "label": "Square" }, { "value": "4 / 3", "label": "Landscape" }, { "value": "3 / 4", "label": "Portrait" }], "default": "4 / 3" },
+    { "type": "range", "id": "desktop_width_percent", "label": "Desktop width", "min": 50, "max": 100, "step": 5, "unit": "%", "default": 100 }
+  ],
+  "presets": [{ "name": "Suite image columns" }],
+  "tag": null,
+  "class": "suite-image-columns-block"
+}
 {% endschema %}
