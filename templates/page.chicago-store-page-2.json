@@ -189,10 +189,10 @@
             "mobile_padding": 0,
             "button_label": "Discover more",
             "button_link": "",
-            "background_color": "#FFFFFF",
-            "text_color": "#1C1C1C",
-            "button_color": "#1C1C1C",
-            "button_text_color": "#FFFFFF",
+            "background_color": "#ffffff",
+            "text_color": "#1c1c1c",
+            "button_color": "#1c1c1c",
+            "button_text_color": "#ffffff",
             "desktop_width_percent": 100
           },
           "blocks": {}
@@ -414,7 +414,7 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "place-self-center text-center",
-            "overlay_color": "#FFFFFF",
+            "overlay_color": "#ffffff",
             "overlay_opacity": 0
           }
         },
@@ -493,12 +493,41 @@
         "content": ""
       }
     },
+    "179510242187121ddc": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5af5946_hXJW9c": {
+          "type": "ai_gen_block_5af5946",
+          "settings": {
+            "left_heading": "The Jordan Suite",
+            "left_description": "<p>honors Michael Jordan, whose impact helped carry Chicago’s identity onto a global stage. His pursuit of excellence and competitive spirit became part of the city’s character, inspiring generations to approach their own ambitions with conviction. The suite pays tribute to that enduring influence and the pride he embodied.</p>",
+            "left_main_image": "shopify://shop_images/0A691AC1-78FB-42B7-9602-BCAE5A235885.png",
+            "left_image_one": "shopify://shop_images/Smooth_taupe_comforter_hotel-style_bed_1.png",
+            "left_image_two": "shopify://shop_images/Moody_cinematic_luxury_retail_interior-8.png",
+            "right_heading": "The Hampton Suite",
+            "right_description": "<p>is named for Fred Hampton, the young Chicago organizer who united neighborhoods across racial lines and dedicated himself to feeding and caring for the people around him. The suite honors his legacy and the belief that welcoming, protecting and caring for others can be a powerful expression of purpose.</p>",
+            "right_main_image": "shopify://shop_images/Polished_luxury_hospitality_interior-3.png",
+            "right_image_one": "shopify://shop_images/Refined_luxury_hospitality_interior-2.png",
+            "right_image_two": "shopify://shop_images/6EE0608E-2565-4999-A1E0-5F5FF8CE7E6D.png",
+            "heading_font": "serif",
+            "heading_size": 36,
+            "description_size": 14,
+            "complementary_ratio": "4 / 3",
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5af5946_hXJW9c"
+      ],
+      "settings": {}
+    },
     "blocks_tX8aJ4": {
       "type": "_blocks",
       "blocks": {
         "ai_gen_block_5edc35c_Kfz46e": {
           "type": "ai_gen_block_5edc35c",
-          "disabled": true,
           "settings": {
             "height_mobile": 5,
             "height_desktop": 10
@@ -510,36 +539,6 @@
         "ai_gen_block_5edc35c_Kfz46e"
       ],
       "name": "Spacer",
-      "settings": {}
-    },
-    "179510242187121ddc": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5af5946_hXJW9c": {
-          "type": "ai_gen_block_5af5946",
-          "settings": {
-            "left_heading": "The Jordan Suite",
-            "left_description": "<p>honors Michael Jordan, whose impact helped carry Chicago’s identity onto a global stage. His pursuit of excellence and competitive spirit became part of the city’s character, inspiring generations to approach their own ambitions with conviction. The suite pays tribute to that enduring influence and the pride he continues to represent for Chicago.</p>",
-            "left_main_image": "shopify://shop_images/0A691AC1-78FB-42B7-9602-BCAE5A235885.png",
-            "left_image_one": "shopify://shop_images/Smooth_taupe_comforter_hotel-style_bed_1.png",
-            "left_image_two": "shopify://shop_images/Moody_cinematic_luxury_retail_interior-8.png",
-            "right_heading": "The Hampton Suite",
-            "right_description": "<p>is named for Fred Hampton, the young Chicago organizer who united neighborhoods across racial lines and dedicated himself to feeding and caring for the people around him. The suite honors his legacy and the belief that welcoming, protecting and caring for others can be a powerful expression of purpose.<br/><br/></p>",
-            "right_main_image": "shopify://shop_images/Polished_luxury_hospitality_interior-3.png",
-            "right_image_one": "shopify://shop_images/Refined_luxury_hospitality_interior-2.png",
-            "right_image_two": "shopify://shop_images/6EE0608E-2565-4999-A1E0-5F5FF8CE7E6D.png",
-            "heading_font": "serif",
-            "heading_size": 36,
-            "description_size": 15,
-            "complementary_ratio": "4 / 3",
-            "desktop_width_percent": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5af5946_hXJW9c"
-      ],
       "settings": {}
     },
     "media_grid_UzC6Vn": {
@@ -848,8 +847,8 @@
     "map_with_text_zfmMKi",
     "image_with_text_QNEjBt",
     "media_grid_9nU4R3",
-    "blocks_tX8aJ4",
     "179510242187121ddc",
+    "blocks_tX8aJ4",
     "media_grid_UzC6Vn",
     "media_grid_jbNFCG",
     "1795099712ab1fa36d",
