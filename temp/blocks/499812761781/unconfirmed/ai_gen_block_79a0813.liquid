@@ -1,6 +1,200 @@
+{% doc %}
+  @prompt
+    can you generate a split text section that has a header section and description , i need the section to be split into two sections that can have 2 seperate headings
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-split-text-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    margin-inline: auto;
+    padding: {{ block.settings.vertical_padding }}px 0;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-split-text-{{ ai_gen_id }}__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(24px, 5vw, 80px);
+    align-items: start;
+  }
+
+  .ai-split-text-{{ ai_gen_id }}__column {
+    min-width: 0;
+  }
+
+  .ai-split-text-{{ ai_gen_id }}__heading {
+    margin: 0 0 16px;
+    color: inherit;
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+    font-size: clamp(26px, 3.5vw, {{ block.settings.heading_size }}px);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  .ai-split-text-{{ ai_gen_id }}__description {
+    font-size: {{ block.settings.body_size }}px;
+    line-height: 1.65;
+  }
+
+  .ai-split-text-{{ ai_gen_id }}__description > :first-child {
+    margin-top: 0;
+  }
+
+  .ai-split-text-{{ ai_gen_id }}__description > :last-child {
+    margin-bottom: 0;
+  }
+
+  .ai-split-text-{{ ai_gen_id }}__divider {
+    border: 0;
+    border-top: 1px solid {{ block.settings.divider_color }};
+    margin: 24px 0 0;
+    display: none;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-split-text-{{ ai_gen_id }}__inner {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .ai-split-text-{{ ai_gen_id }}__divider {
+      display: block;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-split-text-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-split-text-{{ ai_gen_id }}__inner">
+    <section class="ai-split-text-{{ ai_gen_id }}__column" aria-labelledby="ai-split-heading-one-{{ ai_gen_id }}">
+      {% if block.settings.heading_one != blank %}
+        <h2 id="ai-split-heading-one-{{ ai_gen_id }}" class="ai-split-text-{{ ai_gen_id }}__heading">{{ block.settings.heading_one | escape }}</h2>
+      {% endif %}
+      {% if block.settings.description_one != blank %}
+        <div class="ai-split-text-{{ ai_gen_id }}__description">{{ block.settings.description_one }}</div>
+      {% endif %}
+      <hr class="ai-split-text-{{ ai_gen_id }}__divider" aria-hidden="true">
+    </section>
+    <section class="ai-split-text-{{ ai_gen_id }}__column" aria-labelledby="ai-split-heading-two-{{ ai_gen_id }}">
+      {% if block.settings.heading_two != blank %}
+        <h2 id="ai-split-heading-two-{{ ai_gen_id }}" class="ai-split-text-{{ ai_gen_id }}__heading">{{ block.settings.heading_two | escape }}</h2>
+      {% endif %}
+      {% if block.settings.description_two != blank %}
+        <div class="ai-split-text-{{ ai_gen_id }}__description">{{ block.settings.description_two }}</div>
+      {% endif %}
+    </section>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Split text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "First column"
+    },
+    {
+      "type": "text",
+      "id": "heading_one",
+      "label": "Heading",
+      "default": "Our perspective"
+    },
+    {
+      "type": "richtext",
+      "id": "description_one",
+      "label": "Description",
+      "default": "<p>Share the story, perspective, or details behind this moment.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Second column"
+    },
+    {
+      "type": "text",
+      "id": "heading_two",
+      "label": "Heading",
+      "default": "The experience"
+    },
+    {
+      "type": "richtext",
+      "id": "description_two",
+      "label": "Description",
+      "default": "<p>Add another message to create a balanced, two-part story.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "helvetica_n4"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 24,
+      "max": 64,
+      "step": 2,
+      "unit": "px",
+      "default": 42
+    },
+    {
+      "type": "range",
+      "id": "body_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "vertical_padding",
+      "label": "Vertical spacing",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#1c1c1c"
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Mobile divider",
+      "default": "#b8b8b8"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Split text"
+    }
+  ],
+  "tag": null,
+  "class": "split-text-block"
+}
 {% endschema %}
