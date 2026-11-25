@@ -212,6 +212,56 @@
         "controls_color": "#ffffff"
       }
     },
+    "blocks_NWMCyp": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5edc35c_tGj3qn": {
+          "type": "ai_gen_block_5edc35c",
+          "name": "Spacer",
+          "settings": {
+            "height_mobile": 5,
+            "height_desktop": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5edc35c_tGj3qn"
+      ],
+      "disabled": true,
+      "name": "Spacer",
+      "settings": {}
+    },
+    "17956390958df22801": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_701fe62_GyWypz": {
+          "type": "ai_gen_block_701fe62",
+          "settings": {
+            "image_1": "shopify://shop_images/AMM-TWG_Classics_Sale_FEED2.jpg",
+            "image_1_alt": "",
+            "button_1_label": "Shop now",
+            "button_1_link": "shopify://collections",
+            "image_2": "shopify://shop_images/Black_Friday_Weekend_Poster.png",
+            "image_2_alt": "",
+            "button_2_label": "Shop now",
+            "button_2_link": "",
+            "desktop_width_percent": 100,
+            "aspect_ratio": "4 / 5",
+            "gap": 10,
+            "button_alignment": "center",
+            "button_background": "#1c1c1c",
+            "button_text_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_701fe62_GyWypz"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
     "178777566323e3268e": {
       "type": "_blocks",
       "blocks": {
@@ -258,57 +308,6 @@
       },
       "block_order": [
         "ai_gen_block_7e9900a_GTER4R"
-      ],
-      "disabled": true,
-      "name": "P-STAR X UA",
-      "settings": {}
-    },
-    "blocks_HXWcCM": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_7e9900a_nNx4hJ": {
-          "type": "ai_gen_block_7e9900a",
-          "name": "P-STAR X UA",
-          "settings": {
-            "video": "shopify://files/videos/DARKPARK2 (1).mp4",
-            "autoplay": true,
-            "loop": true,
-            "muted": true,
-            "controls": true,
-            "image": "shopify://shop_images/gunna1.jpg",
-            "show_text_overlay": true,
-            "heading": "GUNNA P-STAR x UNDER ARMOUR COLLECTION",
-            "description": "",
-            "heading_size": 32,
-            "description_size": 16,
-            "heading_color": "#ffffff",
-            "description_color": "#ffffff",
-            "overlay_color": "#0000004d",
-            "text_alignment": "center",
-            "text_vertical_alignment": "flex-start",
-            "text_horizontal_alignment": "center",
-            "text_padding": 40,
-            "text_spacing": 15,
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/under-armour",
-            "button_font_size": 16,
-            "button_padding_vertical": 12,
-            "button_padding_horizontal": 16,
-            "button_border_radius": 0,
-            "button_spacing": 20,
-            "button_background_color": "#1c1c1c",
-            "button_text_color": "#ffffff",
-            "button_hover_color": "#000000",
-            "desktop_width_percent": 100,
-            "gap": 0,
-            "gap_mobile": 16,
-            "border_radius": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_7e9900a_nNx4hJ"
       ],
       "disabled": true,
       "name": "P-STAR X UA",
@@ -767,16 +766,6 @@
         "content": ""
       }
     },
-    "176075966993f87866": {
-      "type": "_blocks",
-      "disabled": true,
-      "settings": {}
-    },
-    "blocks_zLJRwf": {
-      "type": "_blocks",
-      "name": "Spacer",
-      "settings": {}
-    },
     "featured_collections_EFnetB": {
       "type": "featured-collections",
       "blocks": {
@@ -795,7 +784,7 @@
         "collection_3AqAWW"
       ],
       "custom_css": [],
-      "name": "a ma maniere",
+      "name": "FOOTWEAR",
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -807,6 +796,16 @@
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
+    },
+    "176075966993f87866": {
+      "type": "_blocks",
+      "disabled": true,
+      "settings": {}
+    },
+    "blocks_zLJRwf": {
+      "type": "_blocks",
+      "name": "Spacer",
+      "settings": {}
     },
     "media_grid_38Mmew": {
       "type": "media-grid",
@@ -1102,32 +1101,6 @@
         "subheading": ""
       }
     },
-    "1791899888b0b3b5c5": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5a553cf_ynhx8z": {
-          "type": "ai_gen_block_5a553cf",
-          "disabled": true,
-          "settings": {
-            "feature_image": "shopify://shop_images/pumacoda2.jpg",
-            "desktop_width_percent": 95,
-            "heading": "PUMA CODA",
-            "description": "<p>EVERYDAY CLASSICS, ELEVATED THROUGH THOUGHTFUL DETAILS & EFFORTLESS STYLE.</p>",
-            "products": [
-              "the-whitaker-grp-coda-echo-points-chambray-blue-alpine-snow-buttercream",
-              "suede-coda-echo-points-flaxen-alpine-snow",
-              "the-whitaker-grp-suede-coda-echo-points-alpine-snow"
-            ]
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5a553cf_ynhx8z"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "timeline_Ef8jwR": {
       "type": "timeline",
       "blocks": {
@@ -1297,8 +1270,9 @@
   },
   "order": [
     "slideshow_QGYQ6e",
+    "blocks_NWMCyp",
+    "17956390958df22801",
     "178777566323e3268e",
-    "blocks_HXWcCM",
     "blocks_twxA67",
     "slideshow_fMBBbY",
     "media_grid_tM6W3f",
@@ -1307,16 +1281,15 @@
     "featureed_image_and_products_DcwRQX",
     "featureed_image_and_products_DdChJe",
     "media_grid_M87h96",
+    "featured_collections_EFnetB",
     "176075966993f87866",
     "blocks_zLJRwf",
-    "featured_collections_EFnetB",
     "media_grid_38Mmew",
     "media_grid_YiHh9b",
     "blocks_xhmELd",
     "image_with_text_PtnpPp",
     "featured_collections_KWmgFV",
     "featured_collections_WMah7x",
-    "1791899888b0b3b5c5",
     "timeline_Ef8jwR",
     "blog_posts_XjJCVj",
     "image_with_text_3MihKd",
