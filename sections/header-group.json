@@ -16,7 +16,6 @@
       "blocks": {
         "message_BJj76K": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "<strong>We Are Now Offering Package Protection with Route!</strong>"
           }
@@ -30,8 +29,9 @@
         },
         "message-1": {
           "type": "message",
+          "disabled": true,
           "settings": {
-            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $250</strong>"
+            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $200</strong>"
           }
         },
         "message_LyBJxq": {
