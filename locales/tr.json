@@ -485,11 +485,5 @@
       "view_products": "Ürünleri görüntüle",
       "view_product": "Ürünü görüntüle"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }

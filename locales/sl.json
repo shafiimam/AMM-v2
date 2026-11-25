@@ -499,11 +499,5 @@
       "view_products": "Prikaz izdelkov",
       "view_product": "Prikaz izdelka"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }

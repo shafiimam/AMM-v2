@@ -500,11 +500,5 @@
       "view_products": "Zobraziť produkty",
       "view_product": "Zobraziť produkt"
     }
-  },
-  "locksmith": {
-    "forms": {
-      "submit_button_text": "Continue",
-      "loading_text": "One moment..."
-    }
   }
 }
