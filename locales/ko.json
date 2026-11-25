@@ -475,5 +475,11 @@
       "view_products": "상품 보기",
       "view_product": "상품 보기"
     }
+  },
+  "locksmith": {
+    "forms": {
+      "submit_button_text": "Continue",
+      "loading_text": "One moment..."
+    }
   }
 }
