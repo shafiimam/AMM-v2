@@ -33,10 +33,10 @@
         "mobile_font_size": 10
       },
       "blocks": {
-        "message-1": {
+        "message_BJj76K": {
           "type": "message",
           "settings": {
-            "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $250</strong>"
+            "text": "<strong>We Are Now Offering Package Protection with Route!</strong>"
           }
         },
         "message_LyBJxq": {
@@ -47,7 +47,7 @@
         }
       },
       "block_order": [
-        "message-1",
+        "message_BJj76K",
         "message_LyBJxq"
       ],
       "custom_css": [

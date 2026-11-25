@@ -1,13 +1,13 @@
-{%- comment %}<locksmith:f409>{% endcomment -%}
+{%- comment %}<locksmith:73fd>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:f409>{% endcomment -%}
+{%- comment %}</locksmith:73fd>{% endcomment -%}
 
 <!doctype html>
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
-{{ locksmith_initializations }}
 <!-- maestro-preview-layout -->
+	{{ locksmith_initializations }}
 	<!-- Added by AVADA SEO Suite -->
 	{% include 'avada-seo' %}
 	<!-- /Added by AVADA SEO Suite -->
@@ -46,10 +46,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </title>
 
     {%- if page_description -%}
-      {%- comment %}<locksmith:ff78>{% endcomment -%}
+      {%- comment %}<locksmith:9750>{% endcomment -%}
         {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
         {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
-      {%- comment %}</locksmith:ff78>{% endcomment -%}
+      {%- comment %}</locksmith:9750>{% endcomment -%}
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
@@ -180,6 +180,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {% sections 'maestro-footer-group' %}
       {%- endif -%}
     </main>
+
+    <!-- Route Code Edited 11/02/2026 -->
+    <script src="{{ 'route-bfcache-handler.js' | asset_url }}" defer></script>
+    <script src="{{ 'route-element-text-handler.js' | asset_url }}" defer></script>
+    <script src="{{ 'route-checkbox-handler.js' | asset_url }}" defer></script>
+    <!-- End Route Code -->
+
   </body>
   
   <script>
