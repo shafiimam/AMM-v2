@@ -1,6 +1,185 @@
+{% doc %}
+  @prompt
+    can you generate me a split image section that can hold two seperate images and 2 seperate shop now buttons on each image
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-split-image-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-split-image__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: {{ block.settings.gap }}px;
+    width: 100%;
+  }
+
+  .ai-split-image__panel-{{ ai_gen_id }} {
+    position: relative;
+    overflow: hidden;
+    min-width: 0;
+    aspect-ratio: {{ block.settings.aspect_ratio }};
+    background: #e8e8e8;
+  }
+
+  .ai-split-image__media-{{ ai_gen_id }},
+  .ai-split-image__placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ai-split-image__media-{{ ai_gen_id }} {
+    display: block;
+    object-fit: cover;
+  }
+
+  .ai-split-image__placeholder-{{ ai_gen_id }} svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: #777;
+  }
+
+  .ai-split-image__empty-{{ ai_gen_id }} {
+    position: absolute;
+    inset: auto 12px 12px;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.94);
+    color: #1c1c1c;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .ai-split-image__content-{{ ai_gen_id }} {
+    position: absolute;
+    inset: auto 16px 20px;
+    z-index: 1;
+    display: flex;
+    justify-content: {{ block.settings.button_alignment }};
+  }
+
+  .ai-split-image__button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    max-width: 100%;
+    padding: 12px 24px;
+    border: 1px solid {{ block.settings.button_background }};
+    background: {{ block.settings.button_background }};
+    color: {{ block.settings.button_text_color }};
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 160ms ease;
+  }
+
+  .ai-split-image__button-{{ ai_gen_id }}:hover {
+    opacity: 0.82;
+  }
+
+  .ai-split-image__button-{{ ai_gen_id }}:focus-visible {
+    outline: 2px solid {{ block.settings.button_background }};
+    outline-offset: 4px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-split-image__grid-{{ ai_gen_id }} {
+      gap: {{ block.settings.gap | divided_by: 2 }}px;
+    }
+
+    .ai-split-image__panel-{{ ai_gen_id }} {
+      aspect-ratio: 0.72;
+    }
+
+    .ai-split-image__content-{{ ai_gen_id }} {
+      inset: auto 8px 12px;
+    }
+
+    .ai-split-image__button-{{ ai_gen_id }} {
+      min-height: 42px;
+      padding: 10px 12px;
+      font-size: 11px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ai-split-image__button-{{ ai_gen_id }} {
+      transition: none;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-split-image-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-split-image__grid-{{ ai_gen_id }}">
+    {% for i in (1..2) %}
+      {% liquid
+        assign image_key = 'image_' | append: i
+        assign alt_key = 'image_' | append: i | append: '_alt'
+        assign label_key = 'button_' | append: i | append: '_label'
+        assign link_key = 'button_' | append: i | append: '_link'
+        assign image = block.settings[image_key]
+        assign image_alt = block.settings[alt_key]
+        assign button_label = block.settings[label_key]
+        assign button_link = block.settings[link_key]
+      %}
+      <div class="ai-split-image__panel-{{ ai_gen_id }}">
+        {% if image != blank %}
+          <img class="ai-split-image__media-{{ ai_gen_id }}" src="{{ image | image_url: width: 1600 }}" alt="{{ image_alt | default: image.alt | escape }}" loading="lazy" width="{{ image.width }}" height="{{ image.height }}">
+        {% else %}
+          <div class="ai-split-image__placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+            <div class="ai-split-image__empty-{{ ai_gen_id }}">Add image {{ i }} in the block settings</div>
+          </div>
+        {% endif %}
+        <div class="ai-split-image__content-{{ ai_gen_id }}">
+          {% if button_link != blank %}
+            <a class="ai-split-image__button-{{ ai_gen_id }}" href="{{ button_link }}">{{ button_label | escape }}</a>
+          {% else %}
+            <span class="ai-split-image__button-{{ ai_gen_id }}">{{ button_label | escape }}</span>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Split image with buttons",
+  "settings": [
+    { "type": "header", "content": "Images and links" },
+    { "type": "image_picker", "id": "image_1", "label": "Image 1" },
+    { "type": "text", "id": "image_1_alt", "label": "Image 1 alt text" },
+    { "type": "text", "id": "button_1_label", "label": "Button 1 label", "default": "Shop now" },
+    { "type": "url", "id": "button_1_link", "label": "Button 1 link" },
+    { "type": "image_picker", "id": "image_2", "label": "Image 2" },
+    { "type": "text", "id": "image_2_alt", "label": "Image 2 alt text" },
+    { "type": "text", "id": "button_2_label", "label": "Button 2 label", "default": "Shop now" },
+    { "type": "url", "id": "button_2_link", "label": "Button 2 link" },
+    { "type": "header", "content": "Layout and style" },
+    { "type": "range", "id": "desktop_width_percent", "label": "Desktop width", "min": 50, "max": 100, "step": 5, "unit": "%", "default": 100 },
+    { "type": "select", "id": "aspect_ratio", "label": "Desktop image shape", "options": [{ "value": "1 / 1", "label": "Square" }, { "value": "4 / 5", "label": "Portrait" }, { "value": "3 / 2", "label": "Landscape" }], "default": "4 / 5" },
+    { "type": "range", "id": "gap", "label": "Space between images", "min": 0, "max": 40, "step": 2, "unit": "px", "default": 12 },
+    { "type": "select", "id": "button_alignment", "label": "Button alignment", "options": [{ "value": "flex-start", "label": "Left" }, { "value": "center", "label": "Center" }, { "value": "flex-end", "label": "Right" }], "default": "center" },
+    { "type": "color", "id": "button_background", "label": "Button background", "default": "#1c1c1c" },
+    { "type": "color", "id": "button_text_color", "label": "Button text", "default": "#ffffff" }
+  ],
+  "presets": [{ "name": "Split image with buttons" }],
+  "tag": null,
+  "class": "split-image-buttons"
+}
 {% endschema %}
