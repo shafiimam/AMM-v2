@@ -228,7 +228,6 @@
       "block_order": [
         "ai_gen_block_5edc35c_tGj3qn"
       ],
-      "disabled": true,
       "name": "Spacer",
       "settings": {}
     },
@@ -259,7 +258,6 @@
       "block_order": [
         "ai_gen_block_701fe62_GyWypz"
       ],
-      "disabled": true,
       "settings": {}
     },
     "178777566323e3268e": {
@@ -679,6 +677,7 @@
         "product_B48K4M",
         "product_yjBAj3"
       ],
+      "disabled": true,
       "name": "loewe",
       "settings": {
         "section_alignment": "left",
@@ -753,6 +752,7 @@
         "image_8W6cAY",
         "image_Fm8WNR"
       ],
+      "disabled": true,
       "name": "NEW BRANDS SEC",
       "settings": {
         "color_scheme": "",
@@ -1275,13 +1275,13 @@
     "178777566323e3268e",
     "blocks_twxA67",
     "slideshow_fMBBbY",
+    "featured_collections_EFnetB",
     "media_grid_tM6W3f",
     "media_grid_hGNm7z",
     "media_grid_9rfpiy",
     "featureed_image_and_products_DcwRQX",
     "featureed_image_and_products_DdChJe",
     "media_grid_M87h96",
-    "featured_collections_EFnetB",
     "176075966993f87866",
     "blocks_zLJRwf",
     "media_grid_38Mmew",
