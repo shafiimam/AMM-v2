@@ -16,26 +16,26 @@
       "blocks": {
         "message_BJj76K": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>We Are Now Offering Package Protection with Route!</strong>"
           }
         },
         "message_e49XGa": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "<strong>enjoy 20% off + 10% off markdowns now until 5.26</strong>"
+            "text": "<strong>enjoy 20% off in house apparel & footwear - CODE: \"CLASSICS\"</strong>"
           }
         },
         "message-1": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "<strong>COMPLIMENTARY SHIPPING ON ALL DOMESTIC ORDERS OVER $200</strong>"
           }
         },
         "message_LyBJxq": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<strong>VISIT OUR </strong><a href=\"/pages/our-stores\" title=\"Our Stores\"><strong>LOCATIONS</strong></a>"
           }
