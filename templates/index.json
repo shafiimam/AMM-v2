@@ -240,7 +240,7 @@
             "image_1": "shopify://shop_images/AMM-TWG_Classics_Sale_FEED2.jpg",
             "image_1_alt": "",
             "button_1_label": "Shop now",
-            "button_1_link": "shopify://collections",
+            "button_1_link": "shopify://collections/classics-sale",
             "image_2": "shopify://shop_images/Black_Friday_Weekend_Poster.png",
             "image_2_alt": "",
             "button_2_label": "Shop now",
@@ -377,6 +377,37 @@
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "featured_collections_EFnetB": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_3AqAWW": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify://collections/footwear",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3AqAWW"
+      ],
+      "custom_css": [],
+      "name": "FOOTWEAR",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.8,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "media_grid_tM6W3f": {
@@ -764,37 +795,6 @@
         "subheading": "",
         "title": "",
         "content": ""
-      }
-    },
-    "featured_collections_EFnetB": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_3AqAWW": {
-          "type": "collection",
-          "settings": {
-            "collection": "footwear",
-            "products_count": 8,
-            "title": "",
-            "link_url": "shopify://collections/footwear",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_3AqAWW"
-      ],
-      "custom_css": [],
-      "name": "FOOTWEAR",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.8,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "176075966993f87866": {
