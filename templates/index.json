@@ -244,7 +244,7 @@
             "image_2": "shopify://shop_images/Black_Friday_Weekend_Poster.png",
             "image_2_alt": "",
             "button_2_label": "Shop now",
-            "button_2_link": "",
+            "button_2_link": "shopify://collections/seasonal-sale",
             "desktop_width_percent": 100,
             "aspect_ratio": "4 / 5",
             "gap": 10,
