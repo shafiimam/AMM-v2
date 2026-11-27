@@ -22,7 +22,7 @@
             "subheading_size": 26,
             "title": "",
             "title_size": 35,
-            "mobile_text_position": "place-self-end-start text-start",
+            "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 760,
             "button_1_text": "SHOP NOW",
