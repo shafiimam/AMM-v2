@@ -12,6 +12,35 @@
     "slideshow_QGYQ6e": {
       "type": "slideshow",
       "blocks": {
+        "image_KNF3UK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0383.jpg",
+            "mobile_image": "shopify://shop_images/AMM_x_Jordan-Archive_Sale_STORY.jpg",
+            "subheading": "<p><strong>USE CODE: \"CLASSICS\"</strong></p>",
+            "subheading_size": 26,
+            "title": "",
+            "title_size": 35,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 760,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/amm-sneaker-collection",
+            "button_1_style": "solid",
+            "button_1_background": "#4B2D31",
+            "button_1_text_color": "#FFFFFF",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "video_TU77m7": {
           "type": "video",
           "settings": {
@@ -44,6 +73,7 @@
         "image_QwRebk": {
           "type": "image",
           "name": "NB SMU 950",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_9590.jpg",
             "mobile_image": "shopify://shop_images/IMG_9593.jpg",
@@ -74,6 +104,7 @@
         "image_BPcgHY": {
           "type": "image",
           "name": "ADIDAS DND HALLOWEEN",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_8938.jpg",
             "mobile_image": "shopify://shop_images/IMG_8939.jpg",
@@ -104,6 +135,7 @@
         "image_mH3cGU": {
           "type": "image",
           "name": "APB 11",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_7856.jpg",
             "mobile_image": "shopify://shop_images/IMG_7871.jpg",
@@ -126,36 +158,6 @@
             "button_2_text_color": "#000000",
             "background": "",
             "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_KNF3UK": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/IMG_7568.jpg",
-            "mobile_image": "shopify://shop_images/IMG_7570.jpg",
-            "subheading": "<p><strong>ADIDAS DO NOT DUPLICATE</strong></p>",
-            "subheading_size": 16,
-            "title": "<p><strong>CHICAGO pack</strong></p>",
-            "title_size": 35,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/adidas",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
@@ -193,11 +195,11 @@
         }
       },
       "block_order": [
+        "image_KNF3UK",
         "video_TU77m7",
         "image_QwRebk",
         "image_BPcgHY",
         "image_mH3cGU",
-        "image_KNF3UK",
         "image_KqHhpy"
       ],
       "settings": {
