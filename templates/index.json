@@ -14,6 +14,7 @@
       "blocks": {
         "image_KNF3UK": {
           "type": "image",
+          "name": "BLACK FRIDAY",
           "settings": {
             "image": "shopify://shop_images/IMG_0383.jpg",
             "mobile_image": "shopify://shop_images/AMM_x_Jordan-Archive_Sale_STORY.jpg",
@@ -21,7 +22,7 @@
             "subheading_size": 26,
             "title": "",
             "title_size": 35,
-            "mobile_text_position": "place-self-end-center text-center",
+            "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 760,
             "button_1_text": "SHOP NOW",
